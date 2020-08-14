@@ -1,4 +1,4 @@
 import "./common";
 
-import { spotify } from "./api/spotify";
+import { update as spotify } from "./api/spotify";
 spotify();
