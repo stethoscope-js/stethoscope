@@ -17,18 +17,81 @@ export const update = async () => {
   const data = await api.refreshAccessToken();
   api.setAccessToken(data.body.access_token);
   console.log("Spotify: Refreshed access token");
-  const tracks = await api.getMySavedTracks();
   await ensureDir(join(".", "data", "music"));
-  const items = cleanSpotifyTracksResponse(
-    tracks.body.items.map((item) => item.track)
+
+  const library = await api.getMySavedTracks();
+  const libraryItems = cleanSpotifyTracksResponse(
+    library.body.items.map((item) => item.track)
   ).map((item, index) => ({
     ...item,
-    date: tracks.body.items[index].added_at,
+    date: library.body.items[index].added_at,
   }));
   await writeFile(
     join(".", "data", "music", "library.json"),
-    JSON.stringify(items, null, 2)
+    JSON.stringify(libraryItems, null, 2)
   );
+  console.log("Spotify: Added library");
+
+  const shortTermTopTracks = cleanSpotifyTracksResponse(
+    (await api.getMyTopTracks({ time_range: "short_term" })).body.items
+  );
+  await ensureDir(join(".", "data", "music", "top-tracks"));
+  await writeFile(
+    join(".", "data", "music", "top-tracks", "short-term.json"),
+    JSON.stringify(shortTermTopTracks, null, 2)
+  );
+  console.log("Spotify: Added short-term top tracks");
+
+  const mediumTermTopTracks = cleanSpotifyTracksResponse(
+    (await api.getMyTopTracks({ time_range: "medium_term" })).body.items
+  );
+  await ensureDir(join(".", "data", "music", "top-tracks"));
+  await writeFile(
+    join(".", "data", "music", "top-tracks", "medium-term.json"),
+    JSON.stringify(mediumTermTopTracks, null, 2)
+  );
+  console.log("Spotify: Added medium-term top tracks");
+
+  const longTermTopTracks = cleanSpotifyTracksResponse(
+    (await api.getMyTopTracks({ time_range: "long_term" })).body.items
+  );
+  await ensureDir(join(".", "data", "music", "top-tracks"));
+  await writeFile(
+    join(".", "data", "music", "top-tracks", "long-term.json"),
+    JSON.stringify(longTermTopTracks, null, 2)
+  );
+  console.log("Spotify: Added long-term top tracks");
+
+  const shortTermTopArtists = cleanSpotifyArtistsResponse(
+    (await api.getMyTopArtists({ time_range: "short_term" })).body.items
+  );
+  await ensureDir(join(".", "data", "music", "top-artists"));
+  await writeFile(
+    join(".", "data", "music", "top-artists", "short-term.json"),
+    JSON.stringify(shortTermTopArtists, null, 2)
+  );
+  console.log("Spotify: Added short-term top artists");
+
+  const mediumTermTopArtists = cleanSpotifyArtistsResponse(
+    (await api.getMyTopArtists({ time_range: "medium_term" })).body.items
+  );
+  await ensureDir(join(".", "data", "music", "top-artists"));
+  await writeFile(
+    join(".", "data", "music", "top-artists", "medium-term.json"),
+    JSON.stringify(mediumTermTopArtists, null, 2)
+  );
+  console.log("Spotify: Added medium-term top artists");
+
+  const longTermTopArtists = cleanSpotifyArtistsResponse(
+    (await api.getMyTopArtists({ time_range: "long_term" })).body.items
+  );
+  await ensureDir(join(".", "data", "music", "top-artists"));
+  await writeFile(
+    join(".", "data", "music", "top-artists", "long-term.json"),
+    JSON.stringify(longTermTopArtists, null, 2)
+  );
+  console.log("Spotify: Added long-term top artists");
+
   console.log("Spotify: Completed");
 };
 
