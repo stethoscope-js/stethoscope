@@ -24,12 +24,14 @@
   "homepage": "https://github.com/AnandChowdhary/life#readme",
   "devDependencies": {
     "@types/fs-extra": "^9.0.1",
+    "@types/spotify-web-api-node": "^4.0.1",
     "ts-node": "^8.10.2",
     "typescript": "^3.9.7"
   },
   "dependencies": {
     "@anandchowdhary/cosmic": "^1.0.0",
     "axios": "^0.19.2",
-    "fs-extra": "^9.0.1"
+    "fs-extra": "^9.0.1",
+    "spotify-web-api-node": "^4.0.0"
   }
 }
