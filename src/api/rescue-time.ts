@@ -25,16 +25,22 @@ export interface RescueTimeDaily {
   all_distracting_duration_formatted: string;
 }
 
+export interface RescueTimeWeeklySummary {
+  row_headers: [string, string, string, string, string, string];
+  rows: Array<[number, number, number, string, string, number]>;
+}
+
 export const update = async () => {
   console.log("Rescue Time: Starting...");
-  const data = (
+
+  const dailySummary = (
     await axios.get(
       `https://www.rescuetime.com/anapi/daily_summary_feed?key=${config(
         "rescuetimeApiKey"
       )}`
     )
   ).data as RescueTimeDaily[];
-  for await (const item of data) {
+  for await (const item of dailySummary) {
     const date = new Date(item.date);
     const year = date.getUTCFullYear().toString();
     const month = (date.getUTCMonth() + 1).toString();
@@ -46,5 +52,35 @@ export const update = async () => {
     );
   }
   console.log("Rescue Time: Added daily summaries");
+
+  const weeklySummary = (
+    await axios.get(
+      `https://www.rescuetime.com/anapi/data?format=json&key=${config(
+        "rescuetimeApiKey"
+      )}&restrict_begin=${new Date(new Date().setDate(new Date().getDate() - 7))
+        .toISOString()
+        .slice(0, 10)}&restrict_end=${new Date().toISOString().slice(0, 10)}`
+    )
+  ).data as RescueTimeWeeklySummary;
+  const headers = weeklySummary.row_headers;
+  const items = weeklySummary.rows;
+  const date = new Date();
+  const data: any = [];
+  await ensureDir(join(".", "data", "rescue-time", "weekly"));
+  items.forEach((item, index) => {
+    if (index < 100) {
+      const details: any = {};
+      headers.forEach((header, index) => {
+        details[header] = item[index];
+      });
+      data.push(details);
+    }
+  });
+  await writeFile(
+    join(".", "data", "rescue-time", "weekly", `${date.getTime()}.json`),
+    JSON.stringify(data, null, 2)
+  );
+  console.log("Rescue Time: Added weekly summaries");
+
   console.log("Rescue Time: Completed");
 };
