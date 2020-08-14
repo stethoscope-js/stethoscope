@@ -2,6 +2,9 @@ import { cosmicSync, config } from "@anandchowdhary/cosmic";
 import axios from "axios";
 import { join } from "path";
 import { ensureDir, writeFile } from "fs-extra";
+import dayjs from "dayjs";
+import week from "dayjs/plugin/weekOfYear";
+dayjs.extend(week);
 cosmicSync("life");
 
 export interface RescueTimeDaily {
@@ -77,7 +80,7 @@ export const update = async () => {
     }
   });
   await writeFile(
-    join(".", "data", "rescue-time", "weekly", `${date.getTime()}.json`),
+    join(".", "data", "rescue-time", "weekly", `${dayjs().week()}.json`),
     JSON.stringify(data, null, 2)
   );
   console.log("Rescue Time: Added weekly summaries");
