@@ -23,7 +23,11 @@
   },
   "homepage": "https://github.com/AnandChowdhary/life#readme",
   "devDependencies": {
+    "@types/fs-extra": "^9.0.1",
     "ts-node": "^8.10.2",
     "typescript": "^3.9.7"
+  },
+  "dependencies": {
+    "fs-extra": "^9.0.1"
   }
 }
