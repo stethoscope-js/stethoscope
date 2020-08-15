@@ -1,4 +1,4 @@
-declare module "goodreads" {
+declare module "goodreads-api-node" {
   export default function goodreads(
     params: {
       key: string;
