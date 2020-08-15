@@ -6,6 +6,8 @@ declare module "goodreads-api-node" {
     },
     url: string
   ): {
-    initOAuth(url: string): string;
+    initOAuth(url: string): void;
+    getRequestToken(): Promise<string>;
+    getUserInfo(id: string): void;
   };
 }
