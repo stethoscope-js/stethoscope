@@ -1,6 +1,7 @@
 import "./common";
 import { weekly as wakatime } from "./api/wakatime";
+import { config } from "@anandchowdhary/cosmic";
 
 (async () => {
-  await wakatime();
+  if (config("weekly").includes("wakatime")) await wakatime();
 })();
