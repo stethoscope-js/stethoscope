@@ -9,6 +9,7 @@
   "scripts": {
     "build": "tsc",
     "daily": "node lib/daily.js",
+    "weekly": "node lib/weekly.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {

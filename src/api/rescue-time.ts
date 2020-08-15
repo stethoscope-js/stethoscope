@@ -34,7 +34,7 @@ export interface RescueTimeWeeklySummary {
   rows: Array<[number, number, number, string, string, number]>;
 }
 
-export const update = async () => {
+export const daily = async () => {
   console.log("Rescue Time: Starting...");
 
   const dailySummary = (

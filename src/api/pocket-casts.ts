@@ -10,7 +10,7 @@ const pocketCasts = new PocketCasts(
   config("pocketCastsPassword")
 );
 
-export const update = async () => {
+export const daily = async () => {
   console.log("Pocket Casts: Starting...");
   await pocketCasts.login();
 

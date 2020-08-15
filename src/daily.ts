@@ -1,15 +1,12 @@
 import "./common";
+import { daily as spotify } from "./api/spotify";
+import { daily as rescueTime } from "./api/rescue-time";
+import { daily as pocketCasts } from "./api/pocket-casts";
+import { daily as wakatime } from "./api/wakatime";
 
-// import { update as spotify } from "./api/spotify";
-// spotify();
-
-// import { update as rescueTime } from "./api/rescue-time";
-// rescueTime();
-
-// import { update as pocketCasts } from "./api/pocket-casts";
-// pocketCasts();
-
-import { update as wakatime } from "./api/wakatime";
-wakatime();
-
-(async () => {})();
+(async () => {
+  await spotify();
+  await rescueTime();
+  await pocketCasts();
+  await wakatime();
+})();

@@ -13,7 +13,7 @@ const api = new SpotifyAPI({
   refreshToken: config("spotifyRefreshToken"),
 });
 
-export const update = async () => {
+export const daily = async () => {
   console.log("Spotify: Starting...");
   const data = await api.refreshAccessToken();
   api.setAccessToken(data.body.access_token);

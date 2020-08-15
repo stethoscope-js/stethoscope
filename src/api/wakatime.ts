@@ -2,12 +2,12 @@ import { cosmicSync, config } from "@anandchowdhary/cosmic";
 import { join } from "path";
 import { ensureFile, writeFile } from "fs-extra";
 import dayjs from "dayjs";
-import { WakaTimeClient } from "wakatime-client";
+import { WakaTimeClient, RANGE } from "wakatime-client";
 cosmicSync("life");
 
 const client = new WakaTimeClient(config("wakatimeApiKey"));
 
-export const update = async () => {
+export const daily = async () => {
   console.log("WakaTime: Starting...");
 
   for await (const date of [
@@ -35,4 +35,14 @@ export const update = async () => {
   console.log("WakaTime: Added daily summary");
 
   console.log("WakaTime: Completed");
+};
+
+export const weekly = async () => {
+  const myStats = await client.getMyStats({ range: RANGE.LAST_7_DAYS });
+  console.log(myStats);
+  await writeFile(
+    join(".", "data", "wakatime", "weekly", `${dayjs().week()}.json`),
+    JSON.stringify(myStats.data, null, 2)
+  );
+  console.log("WakaTime: Added stats");
 };
