@@ -14,12 +14,12 @@ export const update = async () => {
   console.log("Pocket Casts: Starting...");
   await pocketCasts.login();
 
-  // const podcasts = (await pocketCasts.getList()).podcasts;
-  // await ensureDir(join(".", "data", "podcasts"));
-  // await writeFile(
-  //   join(".", "data", "podcasts", "library.json"),
-  //   JSON.stringify(podcasts, null, 2)
-  // );
+  const podcasts = (await pocketCasts.getList()).podcasts;
+  await ensureDir(join(".", "data", "podcasts"));
+  await writeFile(
+    join(".", "data", "podcasts", "library.json"),
+    JSON.stringify(podcasts, null, 2)
+  );
   console.log("Pocket Casts: Added library");
 
   await ensureDir(join(".", "data", "podcasts", "history"));
