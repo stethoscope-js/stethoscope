@@ -67,7 +67,6 @@ export const update = async () => {
   ).data as RescueTimeWeeklySummary;
   const headers = weeklySummary.row_headers;
   const items = weeklySummary.rows;
-  const date = new Date();
   const data: any = [];
   await ensureDir(join(".", "data", "rescue-time", "weekly"));
   items.forEach((item, index) => {
