@@ -2,6 +2,8 @@ import goodreads from "goodreads-api-node";
 import { config, cosmicSync } from "@anandchowdhary/cosmic";
 cosmicSync("life");
 
+const userId = config("goodreadsUserId");
+
 const api = goodreads(
   {
     key: config("goodreadsKey"),
@@ -11,16 +13,14 @@ const api = goodreads(
 );
 
 export const daily = async () => {
-  console.log(await api.getUserInfo(config("goodreadsUserId")));
-};
-
-export const callbackUrl = async () => {
-  api.initOAuth(
-    config("goodreadsCallbackUrl") ?? "http://localhost:3000/callback"
-  );
-  console.log(await api.getRequestToken());
-};
-
-export const authTokens = async () => {
-  //
+  for await (const shelf of (
+    await api.getUserInfo(userId)
+  ).user_shelves.user_shelf.map((shelf) => shelf.name)) {
+    try {
+      const books = await api.getBooksOnUserShelf(userId, shelf);
+      console.log(books);
+    } catch (error) {
+      console.log(error);
+    }
+  }
 };
