@@ -2,7 +2,9 @@ import { cosmicSync, config } from "@anandchowdhary/cosmic";
 import { join } from "path";
 import { ensureFile, writeFile } from "fs-extra";
 import dayjs from "dayjs";
+import week from "dayjs/plugin/weekOfYear";
 import { WakaTimeClient, RANGE } from "wakatime-client";
+dayjs.extend(week);
 cosmicSync("life");
 
 const client = new WakaTimeClient(config("wakatimeApiKey"));
@@ -39,7 +41,9 @@ export const daily = async () => {
 
 export const weekly = async () => {
   const myStats = await client.getMyStats({ range: RANGE.LAST_7_DAYS });
-  console.log(myStats);
+  await ensureFile(
+    join(".", "data", "wakatime", "weekly", `${dayjs().week()}.json`)
+  );
   await writeFile(
     join(".", "data", "wakatime", "weekly", `${dayjs().week()}.json`),
     JSON.stringify(myStats.data, null, 2)
