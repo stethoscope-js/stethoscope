@@ -4,6 +4,7 @@ import { join } from "path";
 import { ensureDir, writeFile } from "fs-extra";
 import dayjs from "dayjs";
 import week from "dayjs/plugin/weekOfYear";
+import { zero } from "../common";
 dayjs.extend(week);
 cosmicSync("life");
 
@@ -45,9 +46,9 @@ export const update = async () => {
   ).data as RescueTimeDaily[];
   for await (const item of dailySummary) {
     const date = new Date(item.date);
-    const year = date.getUTCFullYear().toString();
-    const month = (date.getUTCMonth() + 1).toString();
-    const day = date.getUTCDate().toString();
+    const year = zero(date.getUTCFullYear().toString());
+    const month = zero((date.getUTCMonth() + 1).toString());
+    const day = zero(date.getUTCDate().toString());
     await ensureDir(join(".", "data", "rescue-time", "daily", year, month));
     await writeFile(
       join(".", "data", "rescue-time", "daily", year, month, `${day}.json`),
