@@ -634,6 +634,63 @@
       "artists": [
         {
           "external_urls": {
+            "spotify": "https://open.spotify.com/artist/0g3BS5QoR5r6pOAg1tvwXv"
+          },
+          "href": "https://api.spotify.com/v1/artists/0g3BS5QoR5r6pOAg1tvwXv",
+          "id": "0g3BS5QoR5r6pOAg1tvwXv",
+          "name": "Dizzy",
+          "type": "artist",
+          "uri": "spotify:artist:0g3BS5QoR5r6pOAg1tvwXv"
+        }
+      ],
+      "href": "https://api.spotify.com/v1/albums/1D2oPbWrbIEqrKjyy8EoGl",
+      "images": [
+        {
+          "height": 640,
+          "url": "https://i.scdn.co/image/ab67616d0000b273e243a1706e67fa865bfee264",
+          "width": 640
+        },
+        {
+          "height": 300,
+          "url": "https://i.scdn.co/image/ab67616d00001e02e243a1706e67fa865bfee264",
+          "width": 300
+        },
+        {
+          "height": 64,
+          "url": "https://i.scdn.co/image/ab67616d00004851e243a1706e67fa865bfee264",
+          "width": 64
+        }
+      ],
+      "name": "The Magician",
+      "release_date": "2020-04-22",
+      "release_date_precision": "day",
+      "total_tracks": 2,
+      "type": "album",
+      "uri": "spotify:album:1D2oPbWrbIEqrKjyy8EoGl"
+    },
+    "artists": [
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/0g3BS5QoR5r6pOAg1tvwXv"
+        },
+        "href": "https://api.spotify.com/v1/artists/0g3BS5QoR5r6pOAg1tvwXv",
+        "id": "0g3BS5QoR5r6pOAg1tvwXv",
+        "name": "Dizzy",
+        "type": "artist",
+        "uri": "spotify:artist:0g3BS5QoR5r6pOAg1tvwXv"
+      }
+    ],
+    "explicit": false,
+    "href": "https://api.spotify.com/v1/tracks/5HFzSXtJ7toyxxPy2vW70m",
+    "is_local": false,
+    "name": "The Magician",
+    "preview_url": "https://p.scdn.co/mp3-preview/5a07471c8380d2fd4a725b8d2713c740d8bae1df?cid=b293a7a884f34d91ab03e19184a9041e"
+  },
+  {
+    "album": {
+      "artists": [
+        {
+          "external_urls": {
             "spotify": "https://open.spotify.com/artist/3KedxarmBCyFBevnqQHy3P"
           },
           "href": "https://api.spotify.com/v1/artists/3KedxarmBCyFBevnqQHy3P",
@@ -752,6 +809,63 @@
     "is_local": false,
     "name": "Lucky",
     "preview_url": "https://p.scdn.co/mp3-preview/d40bffb1fc33b7515246b54aadd17404d547c210?cid=b293a7a884f34d91ab03e19184a9041e"
+  },
+  {
+    "album": {
+      "artists": [
+        {
+          "external_urls": {
+            "spotify": "https://open.spotify.com/artist/5p7f24Rk5HkUZsaS3BLG5F"
+          },
+          "href": "https://api.spotify.com/v1/artists/5p7f24Rk5HkUZsaS3BLG5F",
+          "id": "5p7f24Rk5HkUZsaS3BLG5F",
+          "name": "Hailee Steinfeld",
+          "type": "artist",
+          "uri": "spotify:artist:5p7f24Rk5HkUZsaS3BLG5F"
+        }
+      ],
+      "href": "https://api.spotify.com/v1/albums/5ryDRO9Lft4ltBzEETx9MM",
+      "images": [
+        {
+          "height": 640,
+          "url": "https://i.scdn.co/image/ab67616d0000b2731992386d8fa4711a2bc4c2e6",
+          "width": 640
+        },
+        {
+          "height": 300,
+          "url": "https://i.scdn.co/image/ab67616d00001e021992386d8fa4711a2bc4c2e6",
+          "width": 300
+        },
+        {
+          "height": 64,
+          "url": "https://i.scdn.co/image/ab67616d000048511992386d8fa4711a2bc4c2e6",
+          "width": 64
+        }
+      ],
+      "name": "Half Written Story",
+      "release_date": "2020-05-08",
+      "release_date_precision": "day",
+      "total_tracks": 5,
+      "type": "album",
+      "uri": "spotify:album:5ryDRO9Lft4ltBzEETx9MM"
+    },
+    "artists": [
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/5p7f24Rk5HkUZsaS3BLG5F"
+        },
+        "href": "https://api.spotify.com/v1/artists/5p7f24Rk5HkUZsaS3BLG5F",
+        "id": "5p7f24Rk5HkUZsaS3BLG5F",
+        "name": "Hailee Steinfeld",
+        "type": "artist",
+        "uri": "spotify:artist:5p7f24Rk5HkUZsaS3BLG5F"
+      }
+    ],
+    "explicit": false,
+    "href": "https://api.spotify.com/v1/tracks/04fBskFuMgIx0T0ob7uIhd",
+    "is_local": false,
+    "name": "End This (L.O.V.E.)",
+    "preview_url": "https://p.scdn.co/mp3-preview/77945ba3b79958fec687a02375a88b99200f7b0e?cid=b293a7a884f34d91ab03e19184a9041e"
   },
   {
     "album": {
@@ -1134,119 +1248,5 @@
     "is_local": false,
     "name": "Drugs",
     "preview_url": "https://p.scdn.co/mp3-preview/34dffcd81a578a74f95feae01713b7c2fd2faffd?cid=b293a7a884f34d91ab03e19184a9041e"
-  },
-  {
-    "album": {
-      "artists": [
-        {
-          "external_urls": {
-            "spotify": "https://open.spotify.com/artist/06HL4z0CvFAxyc27GXpf02"
-          },
-          "href": "https://api.spotify.com/v1/artists/06HL4z0CvFAxyc27GXpf02",
-          "id": "06HL4z0CvFAxyc27GXpf02",
-          "name": "Taylor Swift",
-          "type": "artist",
-          "uri": "spotify:artist:06HL4z0CvFAxyc27GXpf02"
-        }
-      ],
-      "href": "https://api.spotify.com/v1/albums/1NAmidJlEaVgA3MpcPFYGq",
-      "images": [
-        {
-          "height": 640,
-          "url": "https://i.scdn.co/image/ab67616d0000b273e787cffec20aa2a396a61647",
-          "width": 640
-        },
-        {
-          "height": 300,
-          "url": "https://i.scdn.co/image/ab67616d00001e02e787cffec20aa2a396a61647",
-          "width": 300
-        },
-        {
-          "height": 64,
-          "url": "https://i.scdn.co/image/ab67616d00004851e787cffec20aa2a396a61647",
-          "width": 64
-        }
-      ],
-      "name": "Lover",
-      "release_date": "2019-08-23",
-      "release_date_precision": "day",
-      "total_tracks": 18,
-      "type": "album",
-      "uri": "spotify:album:1NAmidJlEaVgA3MpcPFYGq"
-    },
-    "artists": [
-      {
-        "external_urls": {
-          "spotify": "https://open.spotify.com/artist/06HL4z0CvFAxyc27GXpf02"
-        },
-        "href": "https://api.spotify.com/v1/artists/06HL4z0CvFAxyc27GXpf02",
-        "id": "06HL4z0CvFAxyc27GXpf02",
-        "name": "Taylor Swift",
-        "type": "artist",
-        "uri": "spotify:artist:06HL4z0CvFAxyc27GXpf02"
-      }
-    ],
-    "explicit": false,
-    "href": "https://api.spotify.com/v1/tracks/1dGr1c8CrMLDpV6mPbImSI",
-    "is_local": false,
-    "name": "Lover",
-    "preview_url": "https://p.scdn.co/mp3-preview/829a236dfbd40e0d423915a352c2d90b959996da?cid=b293a7a884f34d91ab03e19184a9041e"
-  },
-  {
-    "album": {
-      "artists": [
-        {
-          "external_urls": {
-            "spotify": "https://open.spotify.com/artist/0g3BS5QoR5r6pOAg1tvwXv"
-          },
-          "href": "https://api.spotify.com/v1/artists/0g3BS5QoR5r6pOAg1tvwXv",
-          "id": "0g3BS5QoR5r6pOAg1tvwXv",
-          "name": "Dizzy",
-          "type": "artist",
-          "uri": "spotify:artist:0g3BS5QoR5r6pOAg1tvwXv"
-        }
-      ],
-      "href": "https://api.spotify.com/v1/albums/1D2oPbWrbIEqrKjyy8EoGl",
-      "images": [
-        {
-          "height": 640,
-          "url": "https://i.scdn.co/image/ab67616d0000b273e243a1706e67fa865bfee264",
-          "width": 640
-        },
-        {
-          "height": 300,
-          "url": "https://i.scdn.co/image/ab67616d00001e02e243a1706e67fa865bfee264",
-          "width": 300
-        },
-        {
-          "height": 64,
-          "url": "https://i.scdn.co/image/ab67616d00004851e243a1706e67fa865bfee264",
-          "width": 64
-        }
-      ],
-      "name": "The Magician",
-      "release_date": "2020-04-22",
-      "release_date_precision": "day",
-      "total_tracks": 2,
-      "type": "album",
-      "uri": "spotify:album:1D2oPbWrbIEqrKjyy8EoGl"
-    },
-    "artists": [
-      {
-        "external_urls": {
-          "spotify": "https://open.spotify.com/artist/0g3BS5QoR5r6pOAg1tvwXv"
-        },
-        "href": "https://api.spotify.com/v1/artists/0g3BS5QoR5r6pOAg1tvwXv",
-        "id": "0g3BS5QoR5r6pOAg1tvwXv",
-        "name": "Dizzy",
-        "type": "artist",
-        "uri": "spotify:artist:0g3BS5QoR5r6pOAg1tvwXv"
-      }
-    ],
-    "explicit": false,
-    "href": "https://api.spotify.com/v1/tracks/5HFzSXtJ7toyxxPy2vW70m",
-    "is_local": false,
-    "name": "The Magician",
-    "preview_url": "https://p.scdn.co/mp3-preview/5a07471c8380d2fd4a725b8d2713c740d8bae1df?cid=b293a7a884f34d91ab03e19184a9041e"
   }
 ]
