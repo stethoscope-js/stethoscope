@@ -1,5 +1,7 @@
 # 🧬 Life
 
+**⚠️ WARNING:** This is a new version of my [life-data](https://github.com/AnandChowdhary/life-data) and [services](https://github.com/AnandChowdhary/services) repositories, currently in an early stage. Expect breaking changes.
+
 ## 🛠️ Configuration
 
 ### Spotify
