@@ -4,7 +4,7 @@ import { ensureFile, writeFile } from "fs-extra";
 import PromisePool from "es6-promise-pool";
 import dayjs from "dayjs";
 import week from "dayjs/plugin/weekOfYear";
-import { WakaTimeClient, RANGE } from "wakatime-client";
+import { WakaTimeClient } from "wakatime-client";
 dayjs.extend(week);
 cosmicSync("life");
 
