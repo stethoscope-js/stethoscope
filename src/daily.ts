@@ -4,6 +4,7 @@ import { daily as rescueTime } from "./api/rescue-time";
 import { daily as lastFm } from "./api/last-fm";
 import { daily as pocketCasts } from "./api/pocket-casts";
 import { daily as wakatime } from "./api/wakatime";
+import { daily as clockify } from "./api/clockify";
 import { daily as goodreads } from "./api/goodreads";
 import { config } from "@anandchowdhary/cosmic";
 
@@ -14,4 +15,5 @@ import { config } from "@anandchowdhary/cosmic";
   if (config("daily").includes("pocketCasts")) await pocketCasts();
   if (config("daily").includes("wakatime")) await wakatime();
   if (config("daily").includes("lastfm")) await lastFm();
+  if (config("daily").includes("clockify")) await clockify();
 })();
