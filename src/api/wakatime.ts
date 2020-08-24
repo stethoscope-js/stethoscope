@@ -1,6 +1,6 @@
 import { cosmicSync, config } from "@anandchowdhary/cosmic";
 import { join } from "path";
-import { ensureFile, writeFile } from "fs-extra";
+import { write } from "../common";
 import PromisePool from "es6-promise-pool";
 import dayjs from "dayjs";
 import week from "dayjs/plugin/weekOfYear";
@@ -21,10 +21,7 @@ const updateWakatimeDailyData = async (date: Date) => {
   });
   if (summary.data.length) {
     const startDate = dayjs(summary.start).format("YYYY/MM/DD");
-    await ensureFile(
-      join(".", "data", "wakatime", "history", `${startDate}.json`)
-    );
-    await writeFile(
+    await write(
       join(".", "data", "wakatime", "history", `${startDate}.json`),
       JSON.stringify(summary.data, null, 2)
     );

@@ -1,7 +1,7 @@
 import { cosmicSync, config } from "@anandchowdhary/cosmic";
 import axios from "axios";
 import { join } from "path";
-import { ensureDir, writeFile } from "fs-extra";
+import { write } from "../common";
 import PromisePool from "es6-promise-pool";
 import dayjs from "dayjs";
 import week from "dayjs/plugin/weekOfYear";
@@ -75,8 +75,7 @@ const updateRescueTimeDailyData = async (date: Date) => {
   const year = dayjs(date).format("YYYY");
   const month = dayjs(date).format("MM");
   const day = dayjs(date).format("DD");
-  await ensureDir(join(".", "data", "rescue-time", "daily", year, month, day));
-  await writeFile(
+  await write(
     join(
       ".",
       "data",
@@ -89,7 +88,7 @@ const updateRescueTimeDailyData = async (date: Date) => {
     ),
     JSON.stringify(topCategoriesData, null, 2)
   );
-  await writeFile(
+  await write(
     join(
       ".",
       "data",
