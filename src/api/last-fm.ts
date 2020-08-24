@@ -8,9 +8,8 @@ cosmicSync("life");
 
 const lastFm = new LastFm(config("lastfmApiKey"));
 
-const getLastFmTracks = async (date: Date, page = 1) => {
-  const LIMIT = 10;
-  console.log("Last.fm: Fetching tracks for", dayjs(date).format("YYYY-MM-DD"));
+const fetchTracks = async (date: Date, page = 1) => {
+  const LIMIT = 50;
   const tracks = await lastFm.user.getRecentTracks({
     limit: LIMIT,
     page,
@@ -18,9 +17,19 @@ const getLastFmTracks = async (date: Date, page = 1) => {
     from: dayjs(date).startOf("day").unix(),
     to: dayjs(date).endOf("day").unix(),
   });
+  if (tracks.recenttracks.track.length === LIMIT) {
+    const moreTracks = await fetchTracks(date, page + 1);
+    tracks.recenttracks.track.push(...moreTracks.recenttracks.track);
+  }
+  return tracks;
+};
+
+const getLastFmTracks = async (date: Date, page = 1) => {
+  console.log("Last.fm: Fetching tracks for", dayjs(date).format("YYYY-MM-DD"));
+  const tracks = await fetchTracks(date, page);
   const itemsByDate: { [index: string]: ITrack[] } = {};
   for await (const item of tracks.recenttracks.track) {
-    const date = dayjs(item.date?.uts);
+    const date = dayjs(Number(item.date?.uts) * 1000);
     const year = date.format("YYYY");
     const month = date.format("MM");
     const day = date.format("DD");
@@ -33,11 +42,6 @@ const getLastFmTracks = async (date: Date, page = 1) => {
       join(".", "data", "music", "history", key, "listening-history.json"),
       JSON.stringify(itemsByDate[key], null, 2)
     );
-  }
-  console.log(tracks.recenttracks.track);
-  if (tracks.recenttracks.track.length === LIMIT) {
-    console.log("Last.fm: Going to next page", page + 1);
-    await getLastFmTracks(date, page + 1);
   }
 };
 
