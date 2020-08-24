@@ -15,6 +15,7 @@
 | <img alt="" src="https://cdn.worldvectorlogo.com/logos/wakatime.svg" width="12"> Wakatime | [`src/api/wakatime.ts`](./src/api/wakatime.ts) | [Scroll to Docs ↓](#wakatime) |
 | <img alt="" src="https://cdn.worldvectorlogo.com/logos/wakatime.svg" width="12"> Pocket Casts | [`src/api/pocket-casts.ts`](./src/api/pocket-casts.ts) | [Scroll to Docs ↓](#pocket-casts) |
 | <img alt="" src="https://cdn.worldvectorlogo.com/logos/wakatime.svg" width="12"> Goodreads | [`src/api/goodreads.ts`](./src/api/goodreads.ts) | ⌛ |
+| <img alt="" src="https://cdn.worldvectorlogo.com/logos/wakatime.svg" width="12"> Clockify | [`src/api/clockify.ts`](./src/api/clockify.ts) | [Scroll to Docs ↓](#clockify) |
 <!-- prettier-ignore-end -->
 
 ## 🛠️ Configuration
@@ -109,3 +110,21 @@ You'll have to create an API account on https://www.last.fm/api/account/create. 
 | ---------------------- | ------------- |
 | `LASTFM_API_KEY`       | API key       |
 | `LASTFM_SHARED_SECRET` | Shared secret |
+
+## Clockify
+
+You can generate your Clockify API on the User page: https://clockify.me/user/settings. Scroll to "API" and click on the "Generate" button. Then, copy your API key.
+
+You also need your user ID and workspace ID. You can find your workspace ID by clicking on the "Settings" button in the navigation sidebar, and copying the ID from the address bar. For example, the URL https://clockify.me/workspaces/518ad43641f9dg74egfbbgaf/settings includes the workspace ID `518ad43641f9dg74egfbbgaf`.
+
+To find your user ID, you can either go to the [User settings](https://clockify.me/user/settings) page and inspect the outgoing HTTP requests, or run the following command:
+
+```bash
+node -e 'require("./lib/api/clockify").getUserId()'
+```
+
+| Environment variable    | Description  |
+| ----------------------- | ------------ |
+| `CLOCKIFY_API_KEY`      | API key      |
+| `CLOCKIFY_WORKSPACE_ID` | Workspace ID |
+| `CLOCKIFY_USER_ID`      | User ID      |
