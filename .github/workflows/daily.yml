@@ -35,6 +35,13 @@ jobs:
           SPOTIFY_ACCESS_TOKEN: ${{ secrets.SPOTIFY_ACCESS_TOKEN }}
           SPOTIFY_REFRESH_TOKEN: ${{ secrets.SPOTIFY_REFRESH_TOKEN }}
           WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
+          RESCUETIME_API_KEY: ${{ secrets.RESCUETIME_API_KEY }}
+          LASTFM_API_KEY: ${{ secrets.LASTFM_API_KEY }}
+          LASTFM_SHARED_SECRET: ${{ secrets.LASTFM_SHARED_SECRET }}
+          LASTFM_USERNAME: ${{ secrets.LASTFM_USERNAME }}
+          CLOCKIFY_WORKSPACE_ID: ${{ secrets.CLOCKIFY_WORKSPACE_ID }}
+          CLOCKIFY_USER_ID: ${{ secrets.CLOCKIFY_USER_ID }}
+          CLOCKIFY_API_KEY: ${{ secrets.CLOCKIFY_API_KEY }}
       - name: Commit new data
         uses: stefanzweifel/git-auto-commit-action@v4.1.1
         with:
