@@ -42,18 +42,6 @@ export const daily = async () => {
   console.log("WakaTime: Added daily summaries");
 };
 
-export const weekly = async () => {
-  const myStats = await client.getMyStats({ range: RANGE.LAST_7_DAYS });
-  await ensureFile(
-    join(".", "data", "wakatime", "weekly", `${dayjs().week()}.json`)
-  );
-  await writeFile(
-    join(".", "data", "wakatime", "weekly", `${dayjs().week()}.json`),
-    JSON.stringify(myStats.data, null, 2)
-  );
-  console.log("WakaTime: Added stats");
-};
-
 export const legacy = async () => {
   const CONCURRENCY = 3;
   const startDate = dayjs("2020-07-20");
