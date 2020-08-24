@@ -2,6 +2,20 @@
 
 **⚠️ WARNING:** This is a new version of my [life-data](https://github.com/AnandChowdhary/life-data) and [services](https://github.com/AnandChowdhary/services) repositories, currently in an early stage. Expect breaking changes.
 
+## 🌟 Features
+
+### Supported services
+
+<!-- prettier-ignore-start -->
+| Service | API | Docs |
+| ------- | --- | ------ |
+| <img alt="" src="https://cdn.worldvectorlogo.com/logos/spotify-2.svg" height="10"> Spotify | [`src/api/spotify.ts`](./src/api/spotify.ts) | [Scroll to Docs ↓](#spotify) |
+| <img alt="" src="https://cdn.worldvectorlogo.com/logos/wakatime.svg" height="10"> Rescue Time | [`src/api/rescue-time.ts`](./src/api/rescue-time.ts) | [Scroll to Docs ↓](#rescue-time) |
+| <img alt="" src="https://cdn.worldvectorlogo.com/logos/wakatime.svg" height="10"> Wakatime | [`src/api/wakatime.ts`](./src/api/wakatime.ts) | [Scroll to Docs ↓](#wakatime) |
+| <img alt="" src="https://cdn.worldvectorlogo.com/logos/wakatime.svg" height="10"> Pocket Casts | [`src/api/pocket-casts.ts`](./src/api/pocket-casts.ts) | [Scroll to Docs ↓](#pocket-casts) |
+| <img alt="" src="https://cdn.worldvectorlogo.com/logos/wakatime.svg" height="10"> Goodreads | [`src/api/goodreads.ts`](./src/api/goodreads.ts) | ⌛ |
+<!-- prettier-ignore-end -->
+
 ## 🛠️ Configuration
 
 ### Spotify
@@ -47,3 +61,41 @@ node -e 'require("./lib/api/spotify").authTokens("YOUR_CODE")'
 ```
 
 This will log your access token and refresh token to the console. Copy and paste these and set them as the environment variables described above.
+
+## Rescue Time
+
+You need to provide your Rescue Time API key, which is available on your [API key management](https://www.rescuetime.com/anapi/manage) page on the Rescue Time website.
+
+To generate a new API key, scroll to "Create a new API key" and enter a description under "Reference label". Click on "Activate this key" and copy the API key.
+
+| Environment variable | Description |
+| -------------------- | ----------- |
+| `RESCUETIME_API_KEY` | API key     |
+
+## Wakatime
+
+You need to provide your WakaTime API key, which is available on the [Settings](https://wakatime.com/settings/account) page on the WakaTime website. Under "API key", click on "[click to show]" to view the API key and copy it.
+
+| Environment variable | Description |
+| -------------------- | ----------- |
+| `WAKATIME_API_KEY`   | API key     |
+
+## Pocket Casts
+
+⚠️ **Warning:** This service does not support API key or OAuth authentication and requires your password.
+
+You need to provide your Pocket Casts email address and password to access your data. The npm package [pocketcasts](https://www.npmjs.com/package/pocketcasts) is used to fetch your library and listening history. The package, in turn, sends HTTP requests simulating a login to the web app and uses the generated token to access your data ([see source](https://github.com/coughlanio/pocketcasts/blob/master/src/index.js)).
+
+| Environment variable    | Description |
+| ----------------------- | ----------- |
+| `POCKET_CASTS_USERNAME` | Username    |
+| `POCKET_CASTS_PASSWORD` | Password    |
+
+## Goodreads
+
+You can find your API key and secret on the [API key](https://www.goodreads.com/api/keys) page on the Goodreads website.
+
+| Environment variable | Description |
+| -------------------- | ----------- |
+| `GOODREADS_KEY`      | API key     |
+| `GOODREADS_SECRET`   | API secret  |
