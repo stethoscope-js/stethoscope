@@ -116,7 +116,7 @@ export const daily = async () => {
 };
 
 const legacy = async () => {
-  const CONCURRENCY = 1;
+  const CONCURRENCY = 10;
   const startDate = dayjs("2017-12-18");
   let count = 0;
   const pool = new PromisePool(async () => {
