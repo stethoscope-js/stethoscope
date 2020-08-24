@@ -122,6 +122,7 @@ const legacy = async () => {
   const pool = new PromisePool(async () => {
     const date = dayjs(startDate).add(count, "day");
     if (dayjs().diff(date, "day") === 0) return null;
+    count++;
     return updateRescueTimeDailyData(date.toDate());
   }, CONCURRENCY);
   await pool.start();
