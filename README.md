@@ -9,11 +9,12 @@
 <!-- prettier-ignore-start -->
 | Service | API | Docs |
 | ------- | --- | ------ |
-| <img alt="" src="https://cdn.worldvectorlogo.com/logos/spotify-2.svg" height="10"> Spotify | [`src/api/spotify.ts`](./src/api/spotify.ts) | [Scroll to Docs ↓](#spotify) |
-| <img alt="" src="https://cdn.worldvectorlogo.com/logos/wakatime.svg" height="10"> Rescue Time | [`src/api/rescue-time.ts`](./src/api/rescue-time.ts) | [Scroll to Docs ↓](#rescue-time) |
-| <img alt="" src="https://cdn.worldvectorlogo.com/logos/wakatime.svg" height="10"> Wakatime | [`src/api/wakatime.ts`](./src/api/wakatime.ts) | [Scroll to Docs ↓](#wakatime) |
-| <img alt="" src="https://cdn.worldvectorlogo.com/logos/wakatime.svg" height="10"> Pocket Casts | [`src/api/pocket-casts.ts`](./src/api/pocket-casts.ts) | [Scroll to Docs ↓](#pocket-casts) |
-| <img alt="" src="https://cdn.worldvectorlogo.com/logos/wakatime.svg" height="10"> Goodreads | [`src/api/goodreads.ts`](./src/api/goodreads.ts) | ⌛ |
+| <img alt="" src="https://cdn.worldvectorlogo.com/logos/spotify-2.svg" width="12"> Spotify | [`src/api/spotify.ts`](./src/api/spotify.ts) | [Scroll to Docs ↓](#spotify) |
+| <img alt="" src="https://cdn.worldvectorlogo.com/logos/last-fm-1.svg" width="12"> Last.fm | [`src/api/last-fm.ts`](./src/api/last-fm.ts) | [Scroll to Docs ↓](#last-fm) |
+| <img alt="" src="https://cdn.worldvectorlogo.com/logos/wakatime.svg" width="12"> Rescue Time | [`src/api/rescue-time.ts`](./src/api/rescue-time.ts) | [Scroll to Docs ↓](#rescue-time) |
+| <img alt="" src="https://cdn.worldvectorlogo.com/logos/wakatime.svg" width="12"> Wakatime | [`src/api/wakatime.ts`](./src/api/wakatime.ts) | [Scroll to Docs ↓](#wakatime) |
+| <img alt="" src="https://cdn.worldvectorlogo.com/logos/wakatime.svg" width="12"> Pocket Casts | [`src/api/pocket-casts.ts`](./src/api/pocket-casts.ts) | [Scroll to Docs ↓](#pocket-casts) |
+| <img alt="" src="https://cdn.worldvectorlogo.com/logos/wakatime.svg" width="12"> Goodreads | [`src/api/goodreads.ts`](./src/api/goodreads.ts) | ⌛ |
 <!-- prettier-ignore-end -->
 
 ## 🛠️ Configuration
