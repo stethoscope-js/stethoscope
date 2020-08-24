@@ -104,6 +104,12 @@ const updateRescueTimeDailyData = async (date: Date) => {
 
 export const daily = async () => {
   console.log("Rescue Time: Starting...");
-  await updateRescueTimeDailyData(new Date());
+  await updateRescueTimeDailyData(dayjs().subtract(1, "day").toDate());
+  console.log("Rescue Time: Added yesterday's data");
+  await updateRescueTimeDailyData(dayjs().toDate());
+  console.log("Rescue Time: Added today's data");
+  await updateRescueTimeDailyData(dayjs().add(1, "day").toDate());
+  console.log("Rescue Time: Added tomorrow's data");
   console.log("Rescue Time: Added daily summaries");
 };
+daily();
