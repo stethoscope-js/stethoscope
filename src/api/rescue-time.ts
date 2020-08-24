@@ -4,7 +4,6 @@ import { join } from "path";
 import { ensureDir, writeFile } from "fs-extra";
 import dayjs from "dayjs";
 import week from "dayjs/plugin/weekOfYear";
-import { zero } from "../common";
 dayjs.extend(week);
 cosmicSync("life");
 
@@ -35,7 +34,7 @@ export interface RescueTimeWeeklySummary {
 }
 
 const updateRescueTimeDailyData = async (date: Date) => {
-  const formattedDate = new Date(date).toISOString().slice(0, 10);
+  const formattedDate = dayjs(date).format("YYYY-MM-DD");
   const topCategories = (
     await axios.get(
       `https://www.rescuetime.com/anapi/data?format=json&key=${config(
@@ -46,7 +45,7 @@ const updateRescueTimeDailyData = async (date: Date) => {
   const topCategoriesHeaders = topCategories.row_headers;
   const topCategoriesItems = topCategories.rows;
   const topCategoriesData: any = [];
-  topCategoriesItems.forEach((item, index) => {
+  topCategoriesItems.forEach((item) => {
     const details: any = {};
     topCategoriesHeaders.forEach((header, index) => {
       details[header] = item[index];
@@ -63,7 +62,7 @@ const updateRescueTimeDailyData = async (date: Date) => {
   const topActivitiesHeaders = topActivities.row_headers;
   const topActivitiesItems = topActivities.rows;
   const topActivitiesData: any = [];
-  topActivitiesItems.forEach((item, index) => {
+  topActivitiesItems.forEach((item) => {
     const details: any = {};
     topActivitiesHeaders.forEach((header, index) => {
       details[header] = item[index];
@@ -71,9 +70,9 @@ const updateRescueTimeDailyData = async (date: Date) => {
     topActivitiesData.push(details);
   });
 
-  const year = zero(date.getUTCFullYear().toString());
-  const month = zero((date.getUTCMonth() + 1).toString());
-  const day = zero(date.getUTCDate().toString());
+  const year = dayjs(date).format("YYYY");
+  const month = dayjs(date).format("MM");
+  const day = dayjs(date).format("DD");
   await ensureDir(join(".", "data", "rescue-time", "daily", year, month, day));
   await writeFile(
     join(
