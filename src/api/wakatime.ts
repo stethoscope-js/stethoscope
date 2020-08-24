@@ -1,6 +1,7 @@
 import { cosmicSync, config } from "@anandchowdhary/cosmic";
 import { join } from "path";
 import { ensureFile, writeFile } from "fs-extra";
+import PromisePool from "es6-promise-pool";
 import dayjs from "dayjs";
 import week from "dayjs/plugin/weekOfYear";
 import { WakaTimeClient, RANGE } from "wakatime-client";
@@ -9,34 +10,36 @@ cosmicSync("life");
 
 const client = new WakaTimeClient(config("wakatimeApiKey"));
 
+const updateWakatimeDailyData = async (date: Date) => {
+  const formattedDate = dayjs(date).format("YYYY-MM-DD");
+  console.log("WakaTime: Adding data for", formattedDate);
+  const summary = await client.getMySummary({
+    dateRange: {
+      startDate: formattedDate,
+      endDate: formattedDate,
+    },
+  });
+  if (summary.data.length) {
+    const startDate = dayjs(summary.start).format("YYYY/MM/DD");
+    await ensureFile(
+      join(".", "data", "wakatime", "history", `${startDate}.json`)
+    );
+    await writeFile(
+      join(".", "data", "wakatime", "history", `${startDate}.json`),
+      JSON.stringify(summary.data, null, 2)
+    );
+  }
+};
+
 export const daily = async () => {
   console.log("WakaTime: Starting...");
-
-  for await (const date of [
-    dayjs().add(1, "day").format("YYYY-MM-DD"),
-    dayjs().format("YYYY-MM-DD"),
-    dayjs().subtract(1, "day").format("YYYY-MM-DD"),
-  ]) {
-    const summary = await client.getMySummary({
-      dateRange: {
-        startDate: date,
-        endDate: date,
-      },
-    });
-    if (summary.data.length) {
-      const startDate = dayjs(summary.start).format("YYYY/MM/DD");
-      await ensureFile(
-        join(".", "data", "wakatime", "history", `${startDate}.json`)
-      );
-      await writeFile(
-        join(".", "data", "wakatime", "history", `${startDate}.json`),
-        JSON.stringify(summary.data, null, 2)
-      );
-    }
-  }
-  console.log("WakaTime: Added daily summary");
-
-  console.log("WakaTime: Completed");
+  await updateWakatimeDailyData(dayjs().subtract(1, "day").toDate());
+  console.log("WakaTime: Added yesterday's data");
+  await updateWakatimeDailyData(dayjs().toDate());
+  console.log("WakaTime: Added today's data");
+  await updateWakatimeDailyData(dayjs().add(1, "day").toDate());
+  console.log("WakaTime: Added tomorrow's data");
+  console.log("WakaTime: Added daily summaries");
 };
 
 export const weekly = async () => {
@@ -50,3 +53,18 @@ export const weekly = async () => {
   );
   console.log("WakaTime: Added stats");
 };
+
+export const legacy = async () => {
+  const CONCURRENCY = 3;
+  const startDate = dayjs("2020-07-20");
+  let count = 0;
+  const pool = new PromisePool(async () => {
+    const date = dayjs(startDate).add(count, "day");
+    if (dayjs().diff(date, "day") === 0) return null;
+    count++;
+    return updateWakatimeDailyData(date.toDate());
+  }, CONCURRENCY);
+  await pool.start();
+  console.log("Done!");
+};
+legacy();
