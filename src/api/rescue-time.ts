@@ -2,6 +2,7 @@ import { cosmicSync, config } from "@anandchowdhary/cosmic";
 import axios from "axios";
 import { join } from "path";
 import { ensureDir, writeFile } from "fs-extra";
+import PromisePool from "es6-promise-pool";
 import dayjs from "dayjs";
 import week from "dayjs/plugin/weekOfYear";
 dayjs.extend(week);
@@ -112,4 +113,9 @@ export const daily = async () => {
   console.log("Rescue Time: Added tomorrow's data");
   console.log("Rescue Time: Added daily summaries");
 };
-daily();
+
+const legacy = async () => {
+  const startDate = dayjs("2017-12-18");
+};
+
+legacy();
