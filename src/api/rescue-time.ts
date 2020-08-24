@@ -115,7 +115,7 @@ export const daily = async () => {
   console.log("Rescue Time: Added daily summaries");
 };
 
-const legacy = async () => {
+export const legacy = async () => {
   const CONCURRENCY = 10;
   const startDate = dayjs("2017-12-18");
   let count = 0;
@@ -128,5 +128,3 @@ const legacy = async () => {
   await pool.start();
   console.log("Done!");
 };
-
-legacy();
