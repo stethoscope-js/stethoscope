@@ -36,6 +36,7 @@ export interface RescueTimeWeeklySummary {
 
 const updateRescueTimeDailyData = async (date: Date) => {
   const formattedDate = dayjs(date).format("YYYY-MM-DD");
+  console.log("Rescue Time: Adding data for", date);
   const topCategories = (
     await axios.get(
       `https://www.rescuetime.com/anapi/data?format=json&key=${config(
@@ -115,7 +116,16 @@ export const daily = async () => {
 };
 
 const legacy = async () => {
+  const CONCURRENCY = 1;
   const startDate = dayjs("2017-12-18");
+  let count = 0;
+  const pool = new PromisePool(async () => {
+    const date = dayjs(startDate).add(count, "day");
+    if (dayjs().diff(date, "day") === 0) return null;
+    return updateRescueTimeDailyData(date.toDate());
+  }, CONCURRENCY);
+  await pool.start();
+  console.log("Done!");
 };
 
 legacy();
