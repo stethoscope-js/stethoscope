@@ -35,7 +35,7 @@ export const daily = async () => {
   }
   for await (const key of Object.keys(itemsByDate)) {
     await write(
-      join(".", "data", "music", "history", `${key}.json`),
+      join(".", "data", "music", "history", key, "listening-history.json"),
       JSON.stringify(itemsByDate[key], null, 2)
     );
   }
@@ -54,7 +54,7 @@ export const daily = async () => {
     date: library.body.items[index].added_at,
   }));
   await write(
-    join(".", "data", "music", year, month, day, "library.json"),
+    join(".", "data", "music", "history", year, month, day, "library.json"),
     JSON.stringify(libraryItems, null, 2)
   );
   console.log("Spotify: Added library");
@@ -67,10 +67,11 @@ export const daily = async () => {
       ".",
       "data",
       "music",
-      "top-tracks",
+      "history",
       year,
       month,
       day,
+      "top-tracks",
       "short-term.json"
     ),
     JSON.stringify(shortTermTopTracks, null, 2)
@@ -85,10 +86,11 @@ export const daily = async () => {
       ".",
       "data",
       "music",
-      "top-tracks",
+      "history",
       year,
       month,
       day,
+      "top-tracks",
       "medium-term.json"
     ),
     JSON.stringify(mediumTermTopTracks, null, 2)
@@ -103,10 +105,11 @@ export const daily = async () => {
       ".",
       "data",
       "music",
-      "top-tracks",
+      "history",
       year,
       month,
       day,
+      "top-tracks",
       "long-term.json"
     ),
     JSON.stringify(longTermTopTracks, null, 2)
@@ -121,6 +124,7 @@ export const daily = async () => {
       ".",
       "data",
       "music",
+      "history",
       year,
       month,
       day,
@@ -139,6 +143,7 @@ export const daily = async () => {
       ".",
       "data",
       "music",
+      "history",
       year,
       month,
       day,
@@ -157,6 +162,7 @@ export const daily = async () => {
       ".",
       "data",
       "music",
+      "history",
       year,
       month,
       day,
@@ -169,6 +175,7 @@ export const daily = async () => {
 
   console.log("Spotify: Completed");
 };
+daily();
 
 export const callbackUrl = async () => {
   const authorizeURL = api.createAuthorizeURL(
