@@ -175,7 +175,6 @@ export const daily = async () => {
 
   console.log("Spotify: Completed");
 };
-daily();
 
 export const callbackUrl = async () => {
   const authorizeURL = api.createAuthorizeURL(
