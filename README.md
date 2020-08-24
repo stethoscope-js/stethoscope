@@ -99,3 +99,12 @@ You can find your API key and secret on the [API key](https://www.goodreads.com/
 | -------------------- | ----------- |
 | `GOODREADS_KEY`      | API key     |
 | `GOODREADS_SECRET`   | API secret  |
+
+## Last.fm
+
+You'll have to create an API account on https://www.last.fm/api/account/create. Since we don't require any tokens, you can add the default URL http://localhost:3000/callback under "Callback URL" in your Last.fm API account. When completed, you'll receive an API key and a shared secret.
+
+| Environment variable   | Description   |
+| ---------------------- | ------------- |
+| `LASTFM_API_KEY`       | API key       |
+| `LASTFM_SHARED_SECRET` | Shared secret |
