@@ -5,6 +5,8 @@ import { ITrack } from "@toplast/lastfm/lib/common/common.interface";
 import { write } from "../common";
 import { join } from "path";
 import PromisePool from "es6-promise-pool";
+import week from "dayjs/plugin/weekOfYear";
+dayjs.extend(week);
 cosmicSync("life");
 
 const lastFm = new LastFm(config("lastfmApiKey"));
@@ -47,15 +49,75 @@ const getLastFmTracks = async (date: Date, page = 1) => {
 };
 
 export const daily = async () => {
-  console.log("Last.fm: Starting...");
-  await getLastFmTracks(dayjs().subtract(1, "day").toDate());
-  console.log("Last.fm: Added yesterday's data");
-  await getLastFmTracks(dayjs().toDate());
-  console.log("Last.fm: Added today's data");
-  await getLastFmTracks(dayjs().add(1, "day").toDate());
-  console.log("Last.fm: Added tomorrow's data");
-  console.log("Last.fm: Added daily summaries");
+  // console.log("Last.fm: Starting...");
+  const date = dayjs();
+  // await getLastFmTracks(date.subtract(1, "day").toDate());
+  // console.log("Last.fm: Added yesterday's data");
+  // await getLastFmTracks(date.toDate());
+  // console.log("Last.fm: Added today's data");
+  // await getLastFmTracks(date.add(1, "day").toDate());
+  // console.log("Last.fm: Added tomorrow's data");
+  // console.log("Last.fm: Added daily summaries");
+
+  const topAlbums = await lastFm.user.getTopAlbums({
+    user: config("lastfmUsername"),
+    period: "7day",
+    limit: 20,
+  });
+  await write(
+    join(
+      ".",
+      "data",
+      "music",
+      "weekly",
+      date.format("YYYY"),
+      date.week().toString(),
+      "top-albums",
+      "7-day.json"
+    ),
+    JSON.stringify(topAlbums.topalbums.album, null, 2)
+  );
+
+  const topTracks = await lastFm.user.getTopTracks({
+    user: config("lastfmUsername"),
+    period: "7day",
+    limit: 20,
+  });
+  await write(
+    join(
+      ".",
+      "data",
+      "music",
+      "weekly",
+      date.format("YYYY"),
+      date.week().toString(),
+      "top-tracks",
+      "7-day.json"
+    ),
+    JSON.stringify(topTracks.toptracks.track, null, 2)
+  );
+
+  const topArtists = await lastFm.user.getTopArtists({
+    user: config("lastfmUsername"),
+    period: "7day",
+    limit: 20,
+  });
+  await write(
+    join(
+      ".",
+      "data",
+      "music",
+      "weekly",
+      date.format("YYYY"),
+      date.week().toString(),
+      "top-artists",
+      "7-day.json"
+    ),
+    JSON.stringify(topArtists.topartists.artist, null, 2)
+  );
+  console.log("Last.fm: Completed");
 };
+daily();
 
 export const legacy = async () => {
   const CONCURRENCY = 10;
