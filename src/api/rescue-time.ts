@@ -34,56 +34,77 @@ export interface RescueTimeWeeklySummary {
   rows: Array<[number, number, number, string, string, number]>;
 }
 
-export const daily = async () => {
-  console.log("Rescue Time: Starting...");
-
-  const dailySummary = (
-    await axios.get(
-      `https://www.rescuetime.com/anapi/daily_summary_feed?key=${config(
-        "rescuetimeApiKey"
-      )}`
-    )
-  ).data as RescueTimeDaily[];
-  for await (const item of dailySummary) {
-    const date = new Date(item.date);
-    const year = zero(date.getUTCFullYear().toString());
-    const month = zero((date.getUTCMonth() + 1).toString());
-    const day = zero(date.getUTCDate().toString());
-    await ensureDir(join(".", "data", "rescue-time", "daily", year, month));
-    await writeFile(
-      join(".", "data", "rescue-time", "daily", year, month, `${day}.json`),
-      JSON.stringify(item, null, 2)
-    );
-  }
-  console.log("Rescue Time: Added daily summaries");
-
-  const weeklySummary = (
+const updateRescueTimeDailyData = async (date: Date) => {
+  const formattedDate = new Date(date).toISOString().slice(0, 10);
+  const topCategories = (
     await axios.get(
       `https://www.rescuetime.com/anapi/data?format=json&key=${config(
         "rescuetimeApiKey"
-      )}&restrict_begin=${new Date(new Date().setDate(new Date().getDate() - 7))
-        .toISOString()
-        .slice(0, 10)}&restrict_end=${new Date().toISOString().slice(0, 10)}`
+      )}&restrict_kind=category&restrict_begin=${formattedDate}&restrict_end=${formattedDate}`
     )
   ).data as RescueTimeWeeklySummary;
-  const headers = weeklySummary.row_headers;
-  const items = weeklySummary.rows;
-  const data: any = [];
-  await ensureDir(join(".", "data", "rescue-time", "weekly"));
-  items.forEach((item, index) => {
-    if (index < 100) {
-      const details: any = {};
-      headers.forEach((header, index) => {
-        details[header] = item[index];
-      });
-      data.push(details);
-    }
+  const topCategoriesHeaders = topCategories.row_headers;
+  const topCategoriesItems = topCategories.rows;
+  const topCategoriesData: any = [];
+  topCategoriesItems.forEach((item, index) => {
+    const details: any = {};
+    topCategoriesHeaders.forEach((header, index) => {
+      details[header] = item[index];
+    });
+    topCategoriesData.push(details);
   });
-  await writeFile(
-    join(".", "data", "rescue-time", "weekly", `${dayjs().week()}.json`),
-    JSON.stringify(data, null, 2)
-  );
-  console.log("Rescue Time: Added weekly summaries");
+  const topActivities = (
+    await axios.get(
+      `https://www.rescuetime.com/anapi/data?format=json&key=${config(
+        "rescuetimeApiKey"
+      )}&restrict_kind=activity&restrict_begin=${formattedDate}&restrict_end=${formattedDate}`
+    )
+  ).data as RescueTimeWeeklySummary;
+  const topActivitiesHeaders = topActivities.row_headers;
+  const topActivitiesItems = topActivities.rows;
+  const topActivitiesData: any = [];
+  topActivitiesItems.forEach((item, index) => {
+    const details: any = {};
+    topActivitiesHeaders.forEach((header, index) => {
+      details[header] = item[index];
+    });
+    topActivitiesData.push(details);
+  });
 
-  console.log("Rescue Time: Completed");
+  const year = zero(date.getUTCFullYear().toString());
+  const month = zero((date.getUTCMonth() + 1).toString());
+  const day = zero(date.getUTCDate().toString());
+  await ensureDir(join(".", "data", "rescue-time", "daily", year, month, day));
+  await writeFile(
+    join(
+      ".",
+      "data",
+      "rescue-time",
+      "daily",
+      year,
+      month,
+      day,
+      "top-categories.json"
+    ),
+    JSON.stringify(topCategoriesData, null, 2)
+  );
+  await writeFile(
+    join(
+      ".",
+      "data",
+      "rescue-time",
+      "daily",
+      year,
+      month,
+      day,
+      "top-activities.json"
+    ),
+    JSON.stringify(topActivitiesData, null, 2)
+  );
+};
+
+export const daily = async () => {
+  console.log("Rescue Time: Starting...");
+  await updateRescueTimeDailyData(new Date());
+  console.log("Rescue Time: Added daily summaries");
 };
