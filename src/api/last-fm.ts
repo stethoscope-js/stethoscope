@@ -121,7 +121,7 @@ export const daily = async () => {
     period: "1month",
     limit: 20,
   });
-  console.log("Last.fm: Added 7-day top albums");
+  console.log("Last.fm: Added 1-month top albums");
   await write(
     join(
       ".",
@@ -140,7 +140,7 @@ export const daily = async () => {
     period: "1month",
     limit: 20,
   });
-  console.log("Last.fm: Added 7-day top tracks");
+  console.log("Last.fm: Added 1-month top tracks");
   await write(
     join(
       ".",
@@ -159,7 +159,7 @@ export const daily = async () => {
     period: "1month",
     limit: 20,
   });
-  console.log("Last.fm: Added 7-day top artists");
+  console.log("Last.fm: Added 1-month top artists");
   await write(
     join(
       ".",
@@ -178,7 +178,7 @@ export const daily = async () => {
     period: "12month",
     limit: 20,
   });
-  console.log("Last.fm: Added 7-day top albums");
+  console.log("Last.fm: Added 1-year top albums");
   await write(
     join(
       ".",
@@ -196,7 +196,7 @@ export const daily = async () => {
     period: "12month",
     limit: 20,
   });
-  console.log("Last.fm: Added 7-day top tracks");
+  console.log("Last.fm: Added 1-year top tracks");
   await write(
     join(
       ".",
@@ -214,7 +214,7 @@ export const daily = async () => {
     period: "12month",
     limit: 20,
   });
-  console.log("Last.fm: Added 7-day top artists");
+  console.log("Last.fm: Added 1-year top artists");
   await write(
     join(
       ".",
@@ -229,7 +229,6 @@ export const daily = async () => {
 
   console.log("Last.fm: Completed");
 };
-daily();
 
 export const legacy = async () => {
   const CONCURRENCY = 10;
