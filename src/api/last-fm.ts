@@ -4,6 +4,7 @@ import LastFm from "@toplast/lastfm";
 import { ITrack } from "@toplast/lastfm/lib/common/common.interface";
 import { write } from "../common";
 import { join } from "path";
+import PromisePool from "es6-promise-pool";
 cosmicSync("life");
 
 const lastFm = new LastFm(config("lastfmApiKey"));
@@ -45,4 +46,27 @@ const getLastFmTracks = async (date: Date, page = 1) => {
   }
 };
 
-getLastFmTracks(dayjs().subtract(1, "day").toDate());
+export const daily = async () => {
+  console.log("Last.fm: Starting...");
+  await getLastFmTracks(dayjs().subtract(1, "day").toDate());
+  console.log("Last.fm: Added yesterday's data");
+  await getLastFmTracks(dayjs().toDate());
+  console.log("Last.fm: Added today's data");
+  await getLastFmTracks(dayjs().add(1, "day").toDate());
+  console.log("Last.fm: Added tomorrow's data");
+  console.log("Last.fm: Added daily summaries");
+};
+
+export const legacy = async () => {
+  const CONCURRENCY = 10;
+  const startDate = dayjs("2014-03-11");
+  let count = 0;
+  const pool = new PromisePool(async () => {
+    const date = dayjs(startDate).add(count, "day");
+    if (dayjs().diff(date, "day") === 0) return null;
+    count++;
+    return getLastFmTracks(date.toDate());
+  }, CONCURRENCY);
+  await pool.start();
+  console.log("Done!");
+};
