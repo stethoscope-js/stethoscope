@@ -49,7 +49,7 @@ const getLastFmTracks = async (date: Date, page = 1) => {
 };
 
 export const daily = async () => {
-  // console.log("Last.fm: Starting...");
+  console.log("Last.fm: Starting...");
   const date = dayjs();
   // await getLastFmTracks(date.subtract(1, "day").toDate());
   // console.log("Last.fm: Added yesterday's data");
@@ -59,62 +59,174 @@ export const daily = async () => {
   // console.log("Last.fm: Added tomorrow's data");
   // console.log("Last.fm: Added daily summaries");
 
-  const topAlbums = await lastFm.user.getTopAlbums({
+  const topAlbumsWeekly = await lastFm.user.getTopAlbums({
     user: config("lastfmUsername"),
     period: "7day",
     limit: 20,
   });
+  console.log("Last.fm: Added 7-day top albums");
   await write(
     join(
       ".",
       "data",
       "music",
       "weekly",
-      date.format("YYYY"),
-      date.week().toString(),
       "top-albums",
-      "7-day.json"
+      date.format("YYYY"),
+      `${date.week()}.json`
     ),
-    JSON.stringify(topAlbums.topalbums.album, null, 2)
+    JSON.stringify(topAlbumsWeekly.topalbums.album, null, 2)
   );
 
-  const topTracks = await lastFm.user.getTopTracks({
+  const topTracksWeekly = await lastFm.user.getTopTracks({
     user: config("lastfmUsername"),
     period: "7day",
     limit: 20,
   });
+  console.log("Last.fm: Added 7-day top tracks");
   await write(
     join(
       ".",
       "data",
       "music",
       "weekly",
-      date.format("YYYY"),
-      date.week().toString(),
       "top-tracks",
-      "7-day.json"
+      date.format("YYYY"),
+      `${date.week()}.json`
     ),
-    JSON.stringify(topTracks.toptracks.track, null, 2)
+    JSON.stringify(topTracksWeekly.toptracks.track, null, 2)
   );
 
-  const topArtists = await lastFm.user.getTopArtists({
+  const topArtistsWeekly = await lastFm.user.getTopArtists({
     user: config("lastfmUsername"),
     period: "7day",
     limit: 20,
   });
+  console.log("Last.fm: Added 7-day top artists");
   await write(
     join(
       ".",
       "data",
       "music",
       "weekly",
-      date.format("YYYY"),
-      date.week().toString(),
       "top-artists",
-      "7-day.json"
+      date.format("YYYY"),
+      `${date.week()}.json`
     ),
-    JSON.stringify(topArtists.topartists.artist, null, 2)
+    JSON.stringify(topArtistsWeekly.topartists.artist, null, 2)
   );
+
+  const topAlbumsMonthly = await lastFm.user.getTopAlbums({
+    user: config("lastfmUsername"),
+    period: "1month",
+    limit: 20,
+  });
+  console.log("Last.fm: Added 7-day top albums");
+  await write(
+    join(
+      ".",
+      "data",
+      "music",
+      "monthly",
+      "top-albums",
+      date.format("YYYY"),
+      `${date.format("MM")}.json`
+    ),
+    JSON.stringify(topAlbumsMonthly.topalbums.album, null, 2)
+  );
+
+  const topTracksMonthly = await lastFm.user.getTopTracks({
+    user: config("lastfmUsername"),
+    period: "1month",
+    limit: 20,
+  });
+  console.log("Last.fm: Added 7-day top tracks");
+  await write(
+    join(
+      ".",
+      "data",
+      "music",
+      "monthly",
+      "top-tracks",
+      date.format("YYYY"),
+      `${date.format("MM")}.json`
+    ),
+    JSON.stringify(topTracksMonthly.toptracks.track, null, 2)
+  );
+
+  const topArtistsMonthly = await lastFm.user.getTopArtists({
+    user: config("lastfmUsername"),
+    period: "1month",
+    limit: 20,
+  });
+  console.log("Last.fm: Added 7-day top artists");
+  await write(
+    join(
+      ".",
+      "data",
+      "music",
+      "monthly",
+      "top-artists",
+      date.format("YYYY"),
+      `${date.format("MM")}.json`
+    ),
+    JSON.stringify(topArtistsMonthly.topartists.artist, null, 2)
+  );
+
+  const topAlbumsYearly = await lastFm.user.getTopAlbums({
+    user: config("lastfmUsername"),
+    period: "12month",
+    limit: 20,
+  });
+  console.log("Last.fm: Added 7-day top albums");
+  await write(
+    join(
+      ".",
+      "data",
+      "music",
+      "yearly",
+      "top-albums",
+      `${date.format("YYYY")}.json`
+    ),
+    JSON.stringify(topAlbumsYearly.topalbums.album, null, 2)
+  );
+
+  const topTracksYearly = await lastFm.user.getTopTracks({
+    user: config("lastfmUsername"),
+    period: "12month",
+    limit: 20,
+  });
+  console.log("Last.fm: Added 7-day top tracks");
+  await write(
+    join(
+      ".",
+      "data",
+      "music",
+      "yearly",
+      "top-tracks",
+      `${date.format("YYYY")}.json`
+    ),
+    JSON.stringify(topTracksYearly.toptracks.track, null, 2)
+  );
+
+  const topArtistsYearly = await lastFm.user.getTopArtists({
+    user: config("lastfmUsername"),
+    period: "12month",
+    limit: 20,
+  });
+  console.log("Last.fm: Added 7-day top artists");
+  await write(
+    join(
+      ".",
+      "data",
+      "music",
+      "yearly",
+      "top-artists",
+      `${date.format("YYYY")}.json`
+    ),
+    JSON.stringify(topArtistsYearly.topartists.artist, null, 2)
+  );
+
   console.log("Last.fm: Completed");
 };
 daily();
