@@ -3,6 +3,9 @@ import { cosmicSync, config } from "@anandchowdhary/cosmic";
 import { join } from "path";
 import { readdir, readJson } from "fs-extra";
 import { write, zero } from "../common";
+import dayjs from "dayjs";
+import week from "dayjs/plugin/weekOfYear";
+dayjs.extend(week);
 cosmicSync("life");
 
 const pocketCasts = new PocketCasts(
@@ -61,10 +64,10 @@ export const daily = async () => {
     if (items.find((item) => item.uuid === episode.uuid)) break;
     newEpisodes.push(episode);
   }
-  const date = new Date();
-  const year = zero(date.getUTCFullYear().toString());
-  const month = zero((date.getUTCMonth() + 1).toString());
-  const day = zero(date.getUTCDate().toString());
+  const date = dayjs();
+  const year = date.format("YYYY");
+  const month = date.format("MM");
+  const day = date.format("DD");
   await write(
     join(".", "data", "podcasts", "history", year, month, `${day}.json`),
     JSON.stringify(newEpisodes, null, 2)
