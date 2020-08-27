@@ -14,6 +14,6 @@ import { config } from "@anandchowdhary/cosmic";
   if (config("daily").includes("rescueTime")) await rescueTime();
   if (config("daily").includes("pocketCasts")) await pocketCasts();
   if (config("daily").includes("wakatime")) await wakatime();
-  if (config("daily").includes("lastfm")) await lastFm();
+  if (config("daily").includes("lastFm")) await lastFm();
   if (config("daily").includes("clockify")) await clockify();
 })();
