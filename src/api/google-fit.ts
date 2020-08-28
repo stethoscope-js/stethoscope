@@ -2,6 +2,7 @@ import { cosmicSync, config } from "@anandchowdhary/cosmic";
 import { google, fitness_v1 } from "googleapis";
 import { write } from "../common";
 import { join } from "path";
+import slugify from "@sindresorhus/slugify";
 import dayjs from "dayjs";
 cosmicSync("life");
 
@@ -26,27 +27,32 @@ const saveData = async (data: fitness_v1.Schema$Session[]) => {
   } = {};
   data.forEach((session) => {
     if (session.startTimeMillis && session.name) {
+      const name = slugify(session.name);
       const date = dayjs(new Date(parseInt(session.startTimeMillis)));
       const year = date.format("YYYY");
       const month = date.format("MM");
       const day = date.format("DD");
-      itemsByDateAndType[session.name] = itemsByDateAndType[session.name] ?? {};
-      itemsByDateAndType[session.name][`${year}/${month}/${day}`] =
-        itemsByDateAndType[session.name][`${year}/${month}/${day}`] ?? [];
-      itemsByDateAndType[session.name][`${year}/${month}/${day}`].push({
+      itemsByDateAndType[name] = itemsByDateAndType[name] ?? {};
+      itemsByDateAndType[name][`${year}/${month}/${day}`] =
+        itemsByDateAndType[name][`${year}/${month}/${day}`] ?? [];
+      itemsByDateAndType[name][`${year}/${month}/${day}`].push({
         ...session,
-        startTime: new Date(session.startTimeMillis),
+        startTime: new Date(parseInt(session.startTimeMillis)),
         endTime: session.endTimeMillis
-          ? new Date(session.endTimeMillis)
+          ? new Date(parseInt(session.endTimeMillis))
           : undefined,
       });
     }
   });
-  for await (const key of Object.keys(itemsByDateAndType)) {
-    await write(
-      join(".", "data", "health", "sessions", key, "listening-history.json"),
-      JSON.stringify(itemsByDateAndType[key], null, 2)
-    );
+  for await (const sessionType of Object.keys(itemsByDateAndType)) {
+    for await (const sessionDate of Object.keys(
+      itemsByDateAndType[sessionType]
+    )) {
+      await write(
+        join(".", "data", "health", sessionType, sessionDate, "sessions.json"),
+        JSON.stringify(itemsByDateAndType[sessionType][sessionDate], null, 2)
+      );
+    }
   }
   console.log("Google Fit: Added workout history");
 };
