@@ -63,8 +63,10 @@ export const legacy = async (pageToken?: string) => {
     pageToken,
   });
   console.log(`Fetched ${sources.data.session?.length ?? 0} workout sessions`);
-  if (sources.data.session) await saveData(sources.data.session);
-  if (sources.data.nextPageToken) await legacy(sources.data.nextPageToken);
+  // if (sources.data.session) await saveData(sources.data.session);
+  console.log(sources.data.nextPageToken);
+  if (sources.data.nextPageToken && sources.data.nextPageToken !== pageToken)
+    await legacy(sources.data.nextPageToken);
 };
 
 legacy();
