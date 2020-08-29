@@ -4,19 +4,25 @@
 
 ## 🌟 Features
 
+### Tracked data
+
+- Health (steps, workouts, sleep, etc.)
+- Music and podcasts listening history
+- Time tracking
+
 ### Supported services
 
 <!-- prettier-ignore-start -->
-| Service | API | Docs |
-| ------- | --- | ------ |
-| <img alt="" src="https://cdn.worldvectorlogo.com/logos/spotify-2.svg" width="12"> Spotify | [`src/api/spotify.ts`](./src/api/spotify.ts) | [Scroll to Docs ↓](#spotify) |
-| <img alt="" src="https://cdn.worldvectorlogo.com/logos/last-fm-1.svg" width="12"> Last.fm | [`src/api/last-fm.ts`](./src/api/last-fm.ts) | [Scroll to Docs ↓](#last-fm) |
-| <img alt="" src="https://cdn.worldvectorlogo.com/logos/wakatime.svg" width="12"> Rescue Time | [`src/api/rescue-time.ts`](./src/api/rescue-time.ts) | [Scroll to Docs ↓](#rescue-time) |
-| <img alt="" src="https://cdn.worldvectorlogo.com/logos/wakatime.svg" width="12"> Wakatime | [`src/api/wakatime.ts`](./src/api/wakatime.ts) | [Scroll to Docs ↓](#wakatime) |
-| <img alt="" src="https://cdn.worldvectorlogo.com/logos/wakatime.svg" width="12"> Pocket Casts | [`src/api/pocket-casts.ts`](./src/api/pocket-casts.ts) | [Scroll to Docs ↓](#pocket-casts) |
+| Service | API | Data | Docs |
+| ------- | --- | ---- | ---- |
+| <img alt="" src="https://cdn.worldvectorlogo.com/logos/spotify-2.svg" width="12"> Spotify | [`src/api/spotify.ts`](./src/api/spotify.ts) | [View data](./data/music) | [Scroll to Docs ↓](#spotify) |
+| <img alt="" src="https://cdn.worldvectorlogo.com/logos/last-fm-1.svg" width="12"> Last.fm | [`src/api/last-fm.ts`](./src/api/last-fm.ts) | [View data](./data/music) | [Scroll to Docs ↓](#last-fm) |
+| <img alt="" src="https://cdn.worldvectorlogo.com/logos/wakatime.svg" width="12"> Rescue Time | [`src/api/rescue-time.ts`](./src/api/rescue-time.ts) | [View data](./data/rescue-time) | [Scroll to Docs ↓](#rescue-time) |
+| <img alt="" src="https://cdn.worldvectorlogo.com/logos/wakatime.svg" width="12"> Wakatime | [`src/api/wakatime.ts`](./src/api/wakatime.ts) | [View data](./data/wakatime) | [Scroll to Docs ↓](#wakatime) |
+| <img alt="" src="https://cdn.worldvectorlogo.com/logos/wakatime.svg" width="12"> Pocket Casts | [`src/api/pocket-casts.ts`](./src/api/pocket-casts.ts) | [View data](./data/podcasts) | [Scroll to Docs ↓](#pocket-casts) |
 | <img alt="" src="https://cdn.worldvectorlogo.com/logos/wakatime.svg" width="12"> Goodreads | [`src/api/goodreads.ts`](./src/api/goodreads.ts) | ⌛ |
-| <img alt="" src="https://cdn.worldvectorlogo.com/logos/wakatime.svg" width="12"> Clockify | [`src/api/clockify.ts`](./src/api/clockify.ts) | [Scroll to Docs ↓](#clockify) |
-| <img alt="" src="https://cdn.worldvectorlogo.com/logos/google-icon.svg" width="12"> Google Fit | [`src/api/google-fit.ts`](./src/api/google-fit.ts) | [Scroll to Docs ↓](#google-fit) |
+| <img alt="" src="https://cdn.worldvectorlogo.com/logos/wakatime.svg" width="12"> Clockify | [`src/api/clockify.ts`](./src/api/clockify.ts) | [View data](./data/clockify) | [Scroll to Docs ↓](#clockify) |
+| <img alt="" src="https://cdn.worldvectorlogo.com/logos/google-icon.svg" width="12"> Google Fit | [`src/api/google-fit.ts`](./src/api/google-fit.ts) | [View data](./data/health) | [Scroll to Docs ↓](#google-fit) |
 <!-- prettier-ignore-end -->
 
 ## 🛠️ Configuration
