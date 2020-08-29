@@ -55,7 +55,6 @@ const saveData = async (data: fitness_v1.Schema$Session[]) => {
       );
     }
   }
-  console.log("Google Fit: Added workout history");
 };
 
 const updateGoogleFitDailyData = async (date: Date) => {
@@ -64,6 +63,7 @@ const updateGoogleFitDailyData = async (date: Date) => {
     startTime: dayjs(date).startOf("day").toISOString(),
     endTime: dayjs(date).endOf("day").toISOString(),
   });
+  if (sources.data.session?.length) await saveData(sources.data.session);
   console.log(
     `Fetched ${
       sources.data.session?.length ?? 0
@@ -96,5 +96,3 @@ export const legacy = async () => {
   await pool.start();
   console.log("Done!");
 };
-
-legacy();
