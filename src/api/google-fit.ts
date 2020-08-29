@@ -4,6 +4,7 @@ import { write } from "../common";
 import { join } from "path";
 import slugify from "@sindresorhus/slugify";
 import dayjs from "dayjs";
+import PromisePool from "es6-promise-pool";
 cosmicSync("life");
 
 const oauth2Client = new google.auth.OAuth2(
@@ -57,16 +58,32 @@ const saveData = async (data: fitness_v1.Schema$Session[]) => {
   console.log("Google Fit: Added workout history");
 };
 
-export const legacy = async (pageToken?: string) => {
+const updateGoogleFitDailyData = async (date: Date) => {
   const sources = await fitness.users.sessions.list({
     userId: "me",
-    pageToken,
+    startTime: dayjs(date).startOf("day").toISOString(),
+    endTime: dayjs(date).endOf("day").toISOString(),
   });
-  console.log(`Fetched ${sources.data.session?.length ?? 0} workout sessions`);
-  // if (sources.data.session) await saveData(sources.data.session);
-  console.log(sources.data.nextPageToken);
-  if (sources.data.nextPageToken && sources.data.nextPageToken !== pageToken)
-    await legacy(sources.data.nextPageToken);
+  console.log(
+    `Fetched ${
+      sources.data.session?.length ?? 0
+    } workout sessions for ${date.toLocaleDateString()}`
+  );
+  if (sources.data.session) await saveData(sources.data.session);
+};
+
+export const legacy = async () => {
+  const CONCURRENCY = 1;
+  const startDate = dayjs("2020-07-29");
+  let count = 0;
+  const pool = new PromisePool(async () => {
+    const date = dayjs(startDate).add(count, "day");
+    if (dayjs().diff(date, "day") === 0) return null;
+    count++;
+    return updateGoogleFitDailyData(date.toDate());
+  }, CONCURRENCY);
+  await pool.start();
+  console.log("Done!");
 };
 
 legacy();
