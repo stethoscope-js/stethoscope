@@ -72,6 +72,17 @@ const updateGoogleFitDailyData = async (date: Date) => {
   if (sources.data.session) await saveData(sources.data.session);
 };
 
+export const daily = async () => {
+  console.log("Google Fit: Starting...");
+  await updateGoogleFitDailyData(dayjs().subtract(1, "day").toDate());
+  console.log("Google Fit: Added yesterday's data");
+  await updateGoogleFitDailyData(dayjs().toDate());
+  console.log("Google Fit: Added today's data");
+  await updateGoogleFitDailyData(dayjs().add(1, "day").toDate());
+  console.log("Google Fit: Added tomorrow's data");
+  console.log("Google Fit: Added daily summaries");
+};
+
 export const legacy = async () => {
   const CONCURRENCY = 1;
   const startDate = dayjs("2020-07-29");

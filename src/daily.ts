@@ -5,6 +5,7 @@ import { daily as lastFm } from "./api/last-fm";
 import { daily as pocketCasts } from "./api/pocket-casts";
 import { daily as wakatime } from "./api/wakatime";
 import { daily as clockify } from "./api/clockify";
+import { daily as googleFit } from "./api/google-fit";
 import { daily as goodreads } from "./api/goodreads";
 import { config } from "@anandchowdhary/cosmic";
 
@@ -16,4 +17,5 @@ import { config } from "@anandchowdhary/cosmic";
   if (config("daily").includes("wakatime")) await wakatime();
   if (config("daily").includes("lastFm")) await lastFm();
   if (config("daily").includes("clockify")) await clockify();
+  if (config("daily").includes("googleFit")) await googleFit();
 })();
