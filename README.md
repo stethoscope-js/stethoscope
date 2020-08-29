@@ -16,6 +16,7 @@
 | <img alt="" src="https://cdn.worldvectorlogo.com/logos/wakatime.svg" width="12"> Pocket Casts | [`src/api/pocket-casts.ts`](./src/api/pocket-casts.ts) | [Scroll to Docs ↓](#pocket-casts) |
 | <img alt="" src="https://cdn.worldvectorlogo.com/logos/wakatime.svg" width="12"> Goodreads | [`src/api/goodreads.ts`](./src/api/goodreads.ts) | ⌛ |
 | <img alt="" src="https://cdn.worldvectorlogo.com/logos/wakatime.svg" width="12"> Clockify | [`src/api/clockify.ts`](./src/api/clockify.ts) | [Scroll to Docs ↓](#clockify) |
+| <img alt="" src="https://cdn.worldvectorlogo.com/logos/google-icon.svg" width="12"> Google Fit | [`src/api/google-fit.ts`](./src/api/google-fit.ts) | [Scroll to Docs ↓](#google-fit) |
 <!-- prettier-ignore-end -->
 
 ## 🛠️ Configuration
@@ -64,7 +65,7 @@ node -e 'require("./lib/api/spotify").authTokens("YOUR_CODE")'
 
 This will log your access token and refresh token to the console. Copy and paste these and set them as the environment variables described above.
 
-## Rescue Time
+### Rescue Time
 
 You need to provide your Rescue Time API key, which is available on your [API key management](https://www.rescuetime.com/anapi/manage) page on the Rescue Time website.
 
@@ -74,7 +75,7 @@ To generate a new API key, scroll to "Create a new API key" and enter a descript
 | -------------------- | ----------- |
 | `RESCUETIME_API_KEY` | API key     |
 
-## Wakatime
+### Wakatime
 
 You need to provide your WakaTime API key, which is available on the [Settings](https://wakatime.com/settings/account) page on the WakaTime website. Under "API key", click on "[click to show]" to view the API key and copy it.
 
@@ -82,7 +83,7 @@ You need to provide your WakaTime API key, which is available on the [Settings](
 | -------------------- | ----------- |
 | `WAKATIME_API_KEY`   | API key     |
 
-## Pocket Casts
+### Pocket Casts
 
 ⚠️ **Warning:** This service does not support API key or OAuth authentication and requires your password.
 
@@ -93,7 +94,7 @@ You need to provide your Pocket Casts email address and password to access your 
 | `POCKET_CASTS_USERNAME` | Username    |
 | `POCKET_CASTS_PASSWORD` | Password    |
 
-## Goodreads
+### Goodreads
 
 You can find your API key and secret on the [API key](https://www.goodreads.com/api/keys) page on the Goodreads website.
 
@@ -102,7 +103,7 @@ You can find your API key and secret on the [API key](https://www.goodreads.com/
 | `GOODREADS_KEY`      | API key     |
 | `GOODREADS_SECRET`   | API secret  |
 
-## Last.fm
+### Last.fm
 
 You'll have to create an API account on https://www.last.fm/api/account/create. Since we don't require any tokens, you can add the default URL http://localhost:3000/callback under "Callback URL" in your Last.fm API account. When completed, you'll receive an API key and a shared secret.
 
@@ -111,7 +112,7 @@ You'll have to create an API account on https://www.last.fm/api/account/create. 
 | `LASTFM_API_KEY`       | API key       |
 | `LASTFM_SHARED_SECRET` | Shared secret |
 
-## Clockify
+### Clockify
 
 You can generate your Clockify API on the User page: https://clockify.me/user/settings. Scroll to "API" and click on the "Generate" button. Then, copy your API key.
 
@@ -128,3 +129,18 @@ node -e 'require("./lib/api/clockify").getUserId()'
 | `CLOCKIFY_API_KEY`      | API key      |
 | `CLOCKIFY_WORKSPACE_ID` | Workspace ID |
 | `CLOCKIFY_USER_ID`      | User ID      |
+
+### Google Fit
+
+To fetch your health data from Google Fit, you have to create a Google Cloud application. Head to https://console.cloud.google.com and create an application, then enable the Fitness API (https://console.cloud.google.com/apis/api/fitness.googleapis.com/overview).
+
+After enabling the Fitness API, generate OAuth 2.0 credentials (see [Using OAuth 2.0 to Access Google APIs](https://developers.google.com/identity/protocols/oauth2)). Under "Authorized redirect URIs", enter https://developers.google.com/oauthplayground. You will generate a client ID and a client secret.
+
+Then, head to the [OAuth 2.0 Playground](https://developers.google.com/oauthplayground/) and click on the configuration icon on the top-right. Check the "Use your own OAuth credentials" checkbox and your client ID and client secret, then press "Close". Under "Select & authorize APIs", click on "Fitness API v1" and select all scopes. Click on the "Authorize APIs" button, then click on "Exchange authorization code for tokens". Finally, copy the generated access token and refresh token.
+
+| Environment variable       | Description   |
+| -------------------------- | ------------- |
+| `GOOGLE_FIT_CLIENT_ID`     | Client ID     |
+| `GOOGLE_FIT_CLIENT_SECRET` | Client secret |
+| `GOOGLE_FIT_ACCESS_TOKEN`  | Access token  |
+| `GOOGLE_FIT_REFRESH_TOKEN` | Refresh token |
