@@ -17,11 +17,11 @@
 | ------- | --- | ---- | ---- |
 | <img alt="" src="https://cdn.worldvectorlogo.com/logos/spotify-2.svg" width="12"> Spotify | [`src/api/spotify.ts`](./src/api/spotify.ts) | [View data](./data/music) | [Scroll to Docs ↓](#spotify) |
 | <img alt="" src="https://cdn.worldvectorlogo.com/logos/last-fm-1.svg" width="12"> Last.fm | [`src/api/last-fm.ts`](./src/api/last-fm.ts) | [View data](./data/music) | [Scroll to Docs ↓](#last-fm) |
-| <img alt="" src="https://cdn.worldvectorlogo.com/logos/wakatime.svg" width="12"> Rescue Time | [`src/api/rescue-time.ts`](./src/api/rescue-time.ts) | [View data](./data/rescue-time) | [Scroll to Docs ↓](#rescue-time) |
+| <img alt="" src="https://images.weserv.nl/?url=https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcS5cnw0MQF7TnpSzlRTlIC6z4EHDEPP3B8qBw&usqp=CAU&w=64&h=64&fit=cover" width="12"> Rescue Time | [`src/api/rescue-time.ts`](./src/api/rescue-time.ts) | [View data](./data/rescue-time) | [Scroll to Docs ↓](#rescue-time) |
 | <img alt="" src="https://cdn.worldvectorlogo.com/logos/wakatime.svg" width="12"> Wakatime | [`src/api/wakatime.ts`](./src/api/wakatime.ts) | [View data](./data/wakatime) | [Scroll to Docs ↓](#wakatime) |
-| <img alt="" src="https://cdn.worldvectorlogo.com/logos/wakatime.svg" width="12"> Pocket Casts | [`src/api/pocket-casts.ts`](./src/api/pocket-casts.ts) | [View data](./data/podcasts) | [Scroll to Docs ↓](#pocket-casts) |
-| <img alt="" src="https://cdn.worldvectorlogo.com/logos/wakatime.svg" width="12"> Goodreads | [`src/api/goodreads.ts`](./src/api/goodreads.ts) | ⌛ |
-| <img alt="" src="https://cdn.worldvectorlogo.com/logos/wakatime.svg" width="12"> Clockify | [`src/api/clockify.ts`](./src/api/clockify.ts) | [View data](./data/clockify) | [Scroll to Docs ↓](#clockify) |
+| <img alt="" src="https://images.weserv.nl/?url=https://lh3.googleusercontent.com/23K9TDTOdlo57Pi9JvNtPc9K-utruK6jQEpQGD_E4QBLRJYRAgLcC7gF2Rd_0T1qhLLS&w=64&h=64&fit=cover&mask=circle" width="12"> Pocket Casts | [`src/api/pocket-casts.ts`](./src/api/pocket-casts.ts) | [View data](./data/podcasts) | [Scroll to Docs ↓](#pocket-casts) |
+| <img alt="" src="https://images.weserv.nl/?url=https://icon-library.com/images/goodreads-icon/goodreads-icon-14.jpg&w=64&h=64&fit=cover&mask=circle" width="12"> Goodreads | [`src/api/goodreads.ts`](./src/api/goodreads.ts) | ⌛ |
+| <img alt="" src="https://clockify.me/assets/images/brand-assets/clockify-icon.svg" width="12"> Clockify | [`src/api/clockify.ts`](./src/api/clockify.ts) | [View data](./data/clockify) | [Scroll to Docs ↓](#clockify) |
 | <img alt="" src="https://cdn.worldvectorlogo.com/logos/google-icon.svg" width="12"> Google Fit | [`src/api/google-fit.ts`](./src/api/google-fit.ts) | [View data](./data/health) | [Scroll to Docs ↓](#google-fit) |
 | <img alt="" src="https://images.weserv.nl/?url=https://static1.ouraring.com/images/symbol-oura-large-white.svg&w=64&h=64&fit=cover&mask=circle" width="12"> Oura Ring | [`src/api/oura-ring.ts`](./src/api/oura-ring.ts) | [View data](./data/health) | [Scroll to Docs ↓](#oura-ring) |
 <!-- prettier-ignore-end -->
