@@ -46,7 +46,7 @@ daily:
 
 All sensitive information required, such as API keys, are provided as environment variables.
 
-### <img alt="" src="https://cdn.worldvectorlogo.com/logos/spotify-2.svg" width="24"> Spotify
+### <img alt="" src="https://cdn.worldvectorlogo.com/logos/spotify-2.svg" width="16"> Spotify
 
 You need to register an application on [Spotify for Developers](https://developer.spotify.com) and will receieve a client ID and client secret. Use these credentials to generate an access/refresh token pair, which is used to authenticate with the Spotify API.
 
@@ -90,7 +90,7 @@ node -e 'require("./lib/api/spotify").authTokens("YOUR_CODE")'
 
 This will log your access token and refresh token to the console. Copy and paste these and set them as the environment variables described above.
 
-### <img alt="" src="https://cdn2.iconfinder.com/data/icons/social-icon-3/512/social_style_3_lastfm-512.png" width="24"> Last.fm
+### <img alt="" src="https://cdn2.iconfinder.com/data/icons/social-icon-3/512/social_style_3_lastfm-512.png" width="16"> Last.fm
 
 You'll have to create an API account on https://www.last.fm/api/account/create. Since we don't require any tokens, you can add the default URL http://localhost:3000/callback under "Callback URL" in your Last.fm API account. When completed, you'll receive an API key and a shared secret.
 
@@ -99,7 +99,7 @@ You'll have to create an API account on https://www.last.fm/api/account/create. 
 | `LASTFM_API_KEY`       | API key       |
 | `LASTFM_SHARED_SECRET` | Shared secret |
 
-### <img alt="" src="https://images.weserv.nl/?url=https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcS5cnw0MQF7TnpSzlRTlIC6z4EHDEPP3B8qBw&usqp=CAU&w=64&h=64&fit=cover" width="24"> Rescue Time
+### <img alt="" src="https://images.weserv.nl/?url=https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcS5cnw0MQF7TnpSzlRTlIC6z4EHDEPP3B8qBw&usqp=CAU&w=64&h=64&fit=cover" width="16"> Rescue Time
 
 You need to provide your Rescue Time API key, which is available on your [API key management](https://www.rescuetime.com/anapi/manage) page on the Rescue Time website.
 
@@ -109,7 +109,7 @@ To generate a new API key, scroll to "Create a new API key" and enter a descript
 | -------------------- | ----------- |
 | `RESCUETIME_API_KEY` | API key     |
 
-### <img alt="" src="https://cdn.worldvectorlogo.com/logos/wakatime.svg" width="24"> Wakatime
+### <img alt="" src="https://cdn.worldvectorlogo.com/logos/wakatime.svg" width="16"> Wakatime
 
 You need to provide your WakaTime API key, which is available on the [Settings](https://wakatime.com/settings/account) page on the WakaTime website. Under "API key", click on "[click to show]" to view the API key and copy it.
 
@@ -117,7 +117,7 @@ You need to provide your WakaTime API key, which is available on the [Settings](
 | -------------------- | ----------- |
 | `WAKATIME_API_KEY`   | API key     |
 
-### <img alt="" src="https://images.weserv.nl/?url=https://lh3.googleusercontent.com/23K9TDTOdlo57Pi9JvNtPc9K-utruK6jQEpQGD_E4QBLRJYRAgLcC7gF2Rd_0T1qhLLS&w=64&h=64&fit=cover&mask=circle" width="24"> Pocket Casts
+### <img alt="" src="https://images.weserv.nl/?url=https://lh3.googleusercontent.com/23K9TDTOdlo57Pi9JvNtPc9K-utruK6jQEpQGD_E4QBLRJYRAgLcC7gF2Rd_0T1qhLLS&w=64&h=64&fit=cover&mask=circle" width="16"> Pocket Casts
 
 ⚠️ **Warning:** This service does not support API key or OAuth authentication and requires your password.
 
@@ -128,7 +128,7 @@ You need to provide your Pocket Casts email address and password to access your 
 | `POCKET_CASTS_USERNAME` | Username    |
 | `POCKET_CASTS_PASSWORD` | Password    |
 
-### <img alt="" src="https://images.weserv.nl/?url=https://icon-library.com/images/goodreads-icon/goodreads-icon-14.jpg&w=64&h=64&fit=cover&mask=circle" width="24"> Goodreads
+### <img alt="" src="https://images.weserv.nl/?url=https://icon-library.com/images/goodreads-icon/goodreads-icon-14.jpg&w=64&h=64&fit=cover&mask=circle" width="16"> Goodreads
 
 You can find your API key and secret on the [API key](https://www.goodreads.com/api/keys) page on the Goodreads website.
 
@@ -137,7 +137,7 @@ You can find your API key and secret on the [API key](https://www.goodreads.com/
 | `GOODREADS_KEY`      | API key     |
 | `GOODREADS_SECRET`   | API secret  |
 
-### <img alt="" src="https://clockify.me/assets/images/brand-assets/clockify-icon.svg" width="24"> Clockify
+### <img alt="" src="https://clockify.me/assets/images/brand-assets/clockify-icon.svg" width="16"> Clockify
 
 You can generate your Clockify API on the User page: https://clockify.me/user/settings. Scroll to "API" and click on the "Generate" button. Then, copy your API key.
 
@@ -155,7 +155,7 @@ node -e 'require("./lib/api/clockify").getUserId()'
 | `CLOCKIFY_WORKSPACE_ID` | Workspace ID |
 | `CLOCKIFY_USER_ID`      | User ID      |
 
-### <img alt="" src="https://www.gstatic.com/images/branding/product/1x/gfit_512dp.png" width="24"> Google Fit
+### <img alt="" src="https://www.gstatic.com/images/branding/product/1x/gfit_512dp.png" width="16"> Google Fit
 
 To fetch your health data from Google Fit, you have to create a Google Cloud application. Head to https://console.cloud.google.com and create an application, then enable the Fitness API (https://console.cloud.google.com/apis/api/fitness.googleapis.com/overview).
 
@@ -170,7 +170,7 @@ Then, head to the [OAuth 2.0 Playground](https://developers.google.com/oauthplay
 | `GOOGLE_FIT_ACCESS_TOKEN`  | Access token  |
 | `GOOGLE_FIT_REFRESH_TOKEN` | Refresh token |
 
-### <img alt="" src="https://images.weserv.nl/?url=https://static1.ouraring.com/images/symbol-oura-large-white.svg&w=64&h=64&fit=cover&mask=circle" width="24"> Oura Ring
+### <img alt="" src="https://images.weserv.nl/?url=https://static1.ouraring.com/images/symbol-oura-large-white.svg&w=64&h=64&fit=cover&mask=circle" width="16"> Oura Ring
 
 The Oura API requires a Personal Access Token which can be generated on the [Personal Access Tokens](https://cloud.ouraring.com/personal-access-tokens) page on the Oura website. Click on the "Create A New Personal Access Token" button and enter a note for the token. Then, copy the generate token.
 
