@@ -42,7 +42,15 @@ const getLastFmTracks = async (date: Date, page = 1) => {
   }
   for await (const key of Object.keys(itemsByDate)) {
     await write(
-      join(".", "data", "music", "history", key, "listening-history.json"),
+      join(
+        ".",
+        "data",
+        "music",
+        "last-fm",
+        "history",
+        key,
+        "listening-history.json"
+      ),
       JSON.stringify(itemsByDate[key], null, 2)
     );
   }

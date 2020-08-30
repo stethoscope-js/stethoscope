@@ -50,7 +50,15 @@ const saveData = async (data: fitness_v1.Schema$Session[]) => {
       itemsByDateAndType[sessionType]
     )) {
       await write(
-        join(".", "data", "health", sessionType, sessionDate, "sessions.json"),
+        join(
+          ".",
+          "data",
+          "health",
+          "google-fit",
+          sessionType,
+          sessionDate,
+          "sessions.json"
+        ),
         JSON.stringify(itemsByDateAndType[sessionType][sessionDate], null, 2)
       );
     }

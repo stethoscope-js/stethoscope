@@ -22,7 +22,14 @@ const updateWakatimeDailyData = async (date: Date) => {
   if (summary.data.length) {
     const startDate = dayjs(summary.start).format("YYYY/MM/DD");
     await write(
-      join(".", "data", "wakatime", "history", `${startDate}.json`),
+      join(
+        ".",
+        "data",
+        "time-tracking",
+        "wakatime",
+        "history",
+        `${startDate}.json`
+      ),
       JSON.stringify(summary.data, null, 2)
     );
   }

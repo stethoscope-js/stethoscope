@@ -19,14 +19,16 @@ export const daily = async () => {
 
   const podcasts = (await pocketCasts.getList()).podcasts;
   await write(
-    join(".", "data", "podcasts", "library.json"),
+    join(".", "data", "podcasts", "pocket-casts", "library.json"),
     JSON.stringify(podcasts, null, 2)
   );
   console.log("Pocket Casts: Added library");
 
   let items: Episode[] = [];
   try {
-    const years = await readdir(join(".", "data", "podcasts", "history"));
+    const years = await readdir(
+      join(".", "data", "podcasts", "pocket-casts", "history")
+    );
     const months = await readdir(
       join(
         ".",
@@ -69,7 +71,16 @@ export const daily = async () => {
   const month = date.format("MM");
   const day = date.format("DD");
   await write(
-    join(".", "data", "podcasts", "history", year, month, `${day}.json`),
+    join(
+      ".",
+      "data",
+      "podcasts",
+      "pocket-casts",
+      "history",
+      year,
+      month,
+      `${day}.json`
+    ),
     JSON.stringify(newEpisodes, null, 2)
   );
   console.log(`Pocket Casts: Added ${newEpisodes.length} new episodes`);
