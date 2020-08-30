@@ -42,6 +42,11 @@ jobs:
           CLOCKIFY_WORKSPACE_ID: ${{ secrets.CLOCKIFY_WORKSPACE_ID }}
           CLOCKIFY_USER_ID: ${{ secrets.CLOCKIFY_USER_ID }}
           CLOCKIFY_API_KEY: ${{ secrets.CLOCKIFY_API_KEY }}
+          GOOGLE_FIT_CLIENT_ID: ${{ secrets.GOOGLE_FIT_CLIENT_ID }}
+          GOOGLE_FIT_CLIENT_SECRET: ${{ secrets.GOOGLE_FIT_CLIENT_SECRET }}
+          GOOGLE_FIT_ACCESS_TOKEN: ${{ secrets.GOOGLE_FIT_ACCESS_TOKEN }}
+          GOOGLE_FIT_REFRESH_TOKEN: ${{ secrets.GOOGLE_FIT_REFRESH_TOKEN }}
+          OURA_PERSONAL_ACCESS_TOKEN: ${{ secrets.OURA_PERSONAL_ACCESS_TOKEN }}
       - name: Commit new data
         uses: stefanzweifel/git-auto-commit-action@v4.1.1
         with:
