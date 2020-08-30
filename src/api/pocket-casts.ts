@@ -27,14 +27,14 @@ export const daily = async () => {
   let items: Episode[] = [];
   try {
     const years = await readdir(
-      join(".", "data", "podcasts", "pocket-casts", "history")
+      join(".", "data", "podcasts", "pocket-casts", "daily")
     );
     const months = await readdir(
       join(
         ".",
         "data",
         "podcasts",
-        "history",
+        "daily",
         zero(Math.max(...years.map(parseInt)).toString())
       )
     );
@@ -43,7 +43,7 @@ export const daily = async () => {
         ".",
         "data",
         "podcasts",
-        "history",
+        "daily",
         zero(Math.max(...years.map(parseInt)).toString()),
         zero(Math.max(...months.map(parseInt)).toString())
       )
@@ -53,7 +53,7 @@ export const daily = async () => {
         ".",
         "data",
         "podcasts",
-        "history",
+        "daily",
         zero(Math.max(...years.map(parseInt)).toString()),
         zero(Math.max(...months.map(parseInt)).toString()),
         `${zero(Math.max(...days.map(parseInt)).toString())}.json`
@@ -76,7 +76,7 @@ export const daily = async () => {
       "data",
       "podcasts",
       "pocket-casts",
-      "history",
+      "daily",
       year,
       month,
       `${day}.json`

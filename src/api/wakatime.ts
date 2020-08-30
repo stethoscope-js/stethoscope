@@ -27,7 +27,7 @@ const updateWakatimeDailyData = async (date: Date) => {
         "data",
         "time-tracking",
         "wakatime",
-        "history",
+        "daily",
         `${startDate}.json`
       ),
       JSON.stringify(summary.data, null, 2)

@@ -60,7 +60,7 @@ const getTimeData = async (date: Date) => {
         "data",
         "time-tracking",
         "clockify",
-        "history",
+        "daily",
         key,
         "time-entries.json"
       ),
