@@ -8,7 +8,7 @@ import { daily as pocketCasts } from "./api/pocket-casts";
 import { daily as wakatime } from "./api/wakatime";
 import { daily as clockify } from "./api/clockify";
 import { daily as googleFit } from "./api/google-fit";
-import { daily as oura } from "./api/oura";
+import { daily as ouraRing } from "./api/oura-ring";
 // import { daily as goodreads } from "./api/goodreads";
 
 (async () => {
@@ -20,5 +20,5 @@ import { daily as oura } from "./api/oura";
   if (config("daily").includes("lastFm")) await lastFm();
   if (config("daily").includes("clockify")) await clockify();
   if (config("daily").includes("googleFit")) await googleFit();
-  if (config("daily").includes("oura")) await oura();
+  if (config("daily").includes("ouraRing")) await ouraRing();
 })();
