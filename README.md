@@ -23,6 +23,7 @@
 | <img alt="" src="https://cdn.worldvectorlogo.com/logos/wakatime.svg" width="12"> Goodreads | [`src/api/goodreads.ts`](./src/api/goodreads.ts) | ⌛ |
 | <img alt="" src="https://cdn.worldvectorlogo.com/logos/wakatime.svg" width="12"> Clockify | [`src/api/clockify.ts`](./src/api/clockify.ts) | [View data](./data/clockify) | [Scroll to Docs ↓](#clockify) |
 | <img alt="" src="https://cdn.worldvectorlogo.com/logos/google-icon.svg" width="12"> Google Fit | [`src/api/google-fit.ts`](./src/api/google-fit.ts) | [View data](./data/health) | [Scroll to Docs ↓](#google-fit) |
+| <img alt="" src="https://images.weserv.nl/?url=https://static1.ouraring.com/images/symbol-oura-large-white.svg&w=64&h=64&fit=cover&mask=circle" width="12"> Oura Ring | [`src/api/oura-ring.ts`](./src/api/oura-ring.ts) | [View data](./data/health) | [Scroll to Docs ↓](#oura-ring) |
 <!-- prettier-ignore-end -->
 
 ## 🛠️ Configuration
@@ -150,3 +151,11 @@ Then, head to the [OAuth 2.0 Playground](https://developers.google.com/oauthplay
 | `GOOGLE_FIT_CLIENT_SECRET` | Client secret |
 | `GOOGLE_FIT_ACCESS_TOKEN`  | Access token  |
 | `GOOGLE_FIT_REFRESH_TOKEN` | Refresh token |
+
+### Oura Ring
+
+The Oura API requires a Personal Access Token which can be generated on the [Personal Access Tokens](https://cloud.ouraring.com/personal-access-tokens) page on the Oura website. Click on the "Create A New Personal Access Token" button and enter a note for the token. Then, copy the generate token.
+
+| Environment variable         | Description           |
+| ---------------------------- | --------------------- |
+| `OURA_PERSONAL_ACCESS_TOKEN` | Personal Access Token |
