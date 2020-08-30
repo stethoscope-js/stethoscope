@@ -19,14 +19,16 @@ const updateOuraDailyData = async (date: Date) => {
       email: string;
     };
   } = await axios.get(
-    `https://api.ouraring.com/v1/userinfo?access_token=${config("ouraApiKey")}`
+    `https://api.ouraring.com/v1/userinfo?access_token=${config(
+      "ouraPersonalAccessToken"
+    )}`
   );
   await write(
     join(
       ".",
       "data",
       "health",
-      "oura",
+      "oura-ring",
       "daily",
       "weight",
       dayjs().format("YYYY"),
@@ -45,7 +47,7 @@ const updateOuraDailyData = async (date: Date) => {
     };
   } = await axios.get(
     `https://api.ouraring.com/v1/sleep?start=${formattedDate}&end=${formattedDate}&access_token=${config(
-      "ouraApiKey"
+      "ouraPersonalAccessToken"
     )}`
   );
   console.log("Oura: Added sleep data");
@@ -54,7 +56,7 @@ const updateOuraDailyData = async (date: Date) => {
       ".",
       "data",
       "health",
-      "oura",
+      "oura-ring",
       "daily",
       "sleep",
       dayjs().format("YYYY"),
@@ -72,7 +74,7 @@ const updateOuraDailyData = async (date: Date) => {
     };
   } = await axios.get(
     `https://api.ouraring.com/v1/readiness?start=${formattedDate}&end=${formattedDate}&access_token=${config(
-      "ouraApiKey"
+      "ouraPersonalAccessToken"
     )}`
   );
   console.log("Oura: Added readiness data");
@@ -81,7 +83,7 @@ const updateOuraDailyData = async (date: Date) => {
       ".",
       "data",
       "health",
-      "oura",
+      "oura-ring",
       "daily",
       "readiness",
       dayjs().format("YYYY"),
@@ -99,7 +101,7 @@ const updateOuraDailyData = async (date: Date) => {
     };
   } = await axios.get(
     `https://api.ouraring.com/v1/activity?start=${formattedDate}&end=${formattedDate}&access_token=${config(
-      "ouraApiKey"
+      "ouraPersonalAccessToken"
     )}`
   );
   console.log("Oura: Added activity data");
@@ -108,7 +110,7 @@ const updateOuraDailyData = async (date: Date) => {
       ".",
       "data",
       "health",
-      "oura",
+      "oura-ring",
       "daily",
       "activity",
       dayjs().format("YYYY"),
