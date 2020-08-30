@@ -48,6 +48,8 @@ All sensitive information required, such as API keys, are provided as environmen
 
 ### <img alt="" src="https://cdn.worldvectorlogo.com/logos/spotify-2.svg" width="16"> Spotify
 
+The Spotify API is used to track your music listening history and track library. Add the key `spotify` under `daily` to fetch this data every day.
+
 You need to register an application on [Spotify for Developers](https://developer.spotify.com) and will receieve a client ID and client secret. Use these credentials to generate an access/refresh token pair, which is used to authenticate with the Spotify API.
 
 The [scopes](https://developer.spotify.com/documentation/general/guides/scopes/) required when generating credentials are:
@@ -92,6 +94,8 @@ This will log your access token and refresh token to the console. Copy and paste
 
 ### <img alt="" src="https://cdn2.iconfinder.com/data/icons/social-icon-3/512/social_style_3_lastfm-512.png" width="16"> Last.fm
 
+The Last.fm API is used to track your music listening history. It is recommended over Spotify because you can scrobble tracks from multiple services. Add the key `lastFm` under `daily` to fetch this data every day.
+
 You'll have to create an API account on https://www.last.fm/api/account/create. Since we don't require any tokens, you can add the default URL http://localhost:3000/callback under "Callback URL" in your Last.fm API account. When completed, you'll receive an API key and a shared secret.
 
 | Environment variable   | Description   |
@@ -100,6 +104,8 @@ You'll have to create an API account on https://www.last.fm/api/account/create. 
 | `LASTFM_SHARED_SECRET` | Shared secret |
 
 ### <img alt="" src="https://images.weserv.nl/?url=https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcS5cnw0MQF7TnpSzlRTlIC6z4EHDEPP3B8qBw&usqp=CAU&w=64&h=64&fit=cover" width="16"> Rescue Time
+
+The Rescue Time API is used to track your screen time from all your devices. Add the key `rescueTime` under `daily` to fetch this data every day.
 
 You need to provide your Rescue Time API key, which is available on your [API key management](https://www.rescuetime.com/anapi/manage) page on the Rescue Time website.
 
@@ -111,6 +117,8 @@ To generate a new API key, scroll to "Create a new API key" and enter a descript
 
 ### <img alt="" src="https://cdn.worldvectorlogo.com/logos/wakatime.svg" width="16"> Wakatime
 
+The Wakatime API is used to track your programming time and top languages. Add the key `wakatime` under `daily` to fetch this data every day.
+
 You need to provide your WakaTime API key, which is available on the [Settings](https://wakatime.com/settings/account) page on the WakaTime website. Under "API key", click on "[click to show]" to view the API key and copy it.
 
 | Environment variable | Description |
@@ -118,6 +126,8 @@ You need to provide your WakaTime API key, which is available on the [Settings](
 | `WAKATIME_API_KEY`   | API key     |
 
 ### <img alt="" src="https://images.weserv.nl/?url=https://lh3.googleusercontent.com/23K9TDTOdlo57Pi9JvNtPc9K-utruK6jQEpQGD_E4QBLRJYRAgLcC7gF2Rd_0T1qhLLS&w=64&h=64&fit=cover&mask=circle" width="16"> Pocket Casts
+
+The Pocket Casts API is used to track your podcast listening history and track library. Add the key `pocketCasts` under `daily` to fetch this data every day.
 
 ⚠️ **Warning:** This service does not support API key or OAuth authentication and requires your password.
 
@@ -130,6 +140,8 @@ You need to provide your Pocket Casts email address and password to access your 
 
 ### <img alt="" src="https://images.weserv.nl/?url=https://icon-library.com/images/goodreads-icon/goodreads-icon-14.jpg&w=64&h=64&fit=cover&mask=circle" width="16"> Goodreads
 
+The GoodReads API is used to track your reading history and list of books on your shelves. Add the key `goodreads` under `daily` to fetch this data every day.
+
 You can find your API key and secret on the [API key](https://www.goodreads.com/api/keys) page on the Goodreads website.
 
 | Environment variable | Description |
@@ -138,6 +150,8 @@ You can find your API key and secret on the [API key](https://www.goodreads.com/
 | `GOODREADS_SECRET`   | API secret  |
 
 ### <img alt="" src="https://clockify.me/assets/images/brand-assets/clockify-icon.svg" width="16"> Clockify
+
+The Clockify API is used to track your time sessions. Add the key `clockify` under `daily` to fetch this data every day.
 
 You can generate your Clockify API on the User page: https://clockify.me/user/settings. Scroll to "API" and click on the "Generate" button. Then, copy your API key.
 
@@ -157,6 +171,8 @@ node -e 'require("./lib/api/clockify").getUserId()'
 
 ### <img alt="" src="https://www.gstatic.com/images/branding/product/1x/gfit_512dp.png" width="16"> Google Fit
 
+The Google Fit API is used to track your health and activity information. Add the key `googleFit` under `daily` to fetch this data every day.
+
 To fetch your health data from Google Fit, you have to create a Google Cloud application. Head to https://console.cloud.google.com and create an application, then enable the Fitness API (https://console.cloud.google.com/apis/api/fitness.googleapis.com/overview).
 
 After enabling the Fitness API, generate OAuth 2.0 credentials (see [Using OAuth 2.0 to Access Google APIs](https://developers.google.com/identity/protocols/oauth2)). Under "Authorized redirect URIs", enter https://developers.google.com/oauthplayground. You will generate a client ID and a client secret.
@@ -171,6 +187,8 @@ Then, head to the [OAuth 2.0 Playground](https://developers.google.com/oauthplay
 | `GOOGLE_FIT_REFRESH_TOKEN` | Refresh token |
 
 ### <img alt="" src="https://images.weserv.nl/?url=https://static1.ouraring.com/images/symbol-oura-large-white.svg&w=64&h=64&fit=cover&mask=circle" width="16"> Oura Ring
+
+The Oura API is used to track your daily sleep and activity. Add the key `ouraRing` under `daily` to fetch this data every day.
 
 The Oura API requires a Personal Access Token which can be generated on the [Personal Access Tokens](https://cloud.ouraring.com/personal-access-tokens) page on the Oura website. Click on the "Create A New Personal Access Token" button and enter a note for the token. Then, copy the generate token.
 
