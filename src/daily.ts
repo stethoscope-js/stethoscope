@@ -1,4 +1,6 @@
 import "./common";
+import { config } from "@anandchowdhary/cosmic";
+
 import { daily as spotify } from "./api/spotify";
 import { daily as rescueTime } from "./api/rescue-time";
 import { daily as lastFm } from "./api/last-fm";
@@ -6,8 +8,8 @@ import { daily as pocketCasts } from "./api/pocket-casts";
 import { daily as wakatime } from "./api/wakatime";
 import { daily as clockify } from "./api/clockify";
 import { daily as googleFit } from "./api/google-fit";
-import { daily as goodreads } from "./api/goodreads";
-import { config } from "@anandchowdhary/cosmic";
+import { daily as oura } from "./api/oura";
+// import { daily as goodreads } from "./api/goodreads";
 
 (async () => {
   // if (config("daily").includes("goodreads")) await goodreads();
@@ -18,4 +20,5 @@ import { config } from "@anandchowdhary/cosmic";
   if (config("daily").includes("lastFm")) await lastFm();
   if (config("daily").includes("clockify")) await clockify();
   if (config("daily").includes("googleFit")) await googleFit();
+  if (config("daily").includes("oura")) await oura();
 })();
