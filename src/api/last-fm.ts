@@ -47,7 +47,7 @@ const getLastFmTracks = async (date: Date, page = 1) => {
         "data",
         "music",
         "last-fm",
-        "history",
+        "daily",
         key,
         "listening-history.json"
       ),
