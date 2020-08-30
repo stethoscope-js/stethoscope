@@ -56,7 +56,8 @@ export const daily = async () => {
         "daily",
         zero(Math.max(...years.map(parseInt)).toString()),
         zero(Math.max(...months.map(parseInt)).toString()),
-        `${zero(Math.max(...days.map(parseInt)).toString())}.json`
+        zero(Math.max(...days.map(parseInt)).toString()),
+        "listening-history.json"
       )
     );
   } catch (error) {}
@@ -79,7 +80,8 @@ export const daily = async () => {
       "daily",
       year,
       month,
-      `${day}.json`
+      day,
+      "listening-history.json"
     ),
     JSON.stringify(newEpisodes, null, 2)
   );

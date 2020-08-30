@@ -28,7 +28,8 @@ const updateWakatimeDailyData = async (date: Date) => {
         "time-tracking",
         "wakatime",
         "daily",
-        `${startDate}.json`
+        startDate,
+        "daily-summary.json"
       ),
       JSON.stringify(summary.data, null, 2)
     );
