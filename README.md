@@ -2,6 +2,10 @@
 
 **⚠️ WARNING:** This is a new version of my [life-data](https://github.com/AnandChowdhary/life-data) and [services](https://github.com/AnandChowdhary/services) repositories, currently in an early stage. Expect breaking changes.
 
+[![Daily CI](https://github.com/AnandChowdhary/life/workflows/Daily%20CI/badge.svg)](https://github.com/AnandChowdhary/life/actions?query=workflow%3A%22Daily+CI%22)
+[![Weekly CI](https://github.com/AnandChowdhary/life/workflows/Weekly%20CI/badge.svg)](https://github.com/AnandChowdhary/life/actions?query=workflow%3A%22Weekly+CI%22)
+[![Node CI](https://github.com/AnandChowdhary/life/workflows/Node%20CI/badge.svg)](https://github.com/AnandChowdhary/life/actions?query=workflow%3A%22Node+CI%22)
+
 ## 🌟 Features
 
 ### Tracked data
@@ -22,11 +26,25 @@
 | <img alt="" src="https://images.weserv.nl/?url=https://lh3.googleusercontent.com/23K9TDTOdlo57Pi9JvNtPc9K-utruK6jQEpQGD_E4QBLRJYRAgLcC7gF2Rd_0T1qhLLS&w=64&h=64&fit=cover&mask=circle" width="12"> Pocket Casts | [`src/api/pocket-casts.ts`](./src/api/pocket-casts.ts) | [View data](./data/podcasts) | [Scroll to Docs ↓](#pocket-casts) |
 | <img alt="" src="https://images.weserv.nl/?url=https://icon-library.com/images/goodreads-icon/goodreads-icon-14.jpg&w=64&h=64&fit=cover&mask=circle" width="12"> Goodreads | [`src/api/goodreads.ts`](./src/api/goodreads.ts) | ⌛ |
 | <img alt="" src="https://clockify.me/assets/images/brand-assets/clockify-icon.svg" width="12"> Clockify | [`src/api/clockify.ts`](./src/api/clockify.ts) | [View data](./data/clockify) | [Scroll to Docs ↓](#clockify) |
-| <img alt="" src="https://cdn.worldvectorlogo.com/logos/google-icon.svg" width="12"> Google Fit | [`src/api/google-fit.ts`](./src/api/google-fit.ts) | [View data](./data/health) | [Scroll to Docs ↓](#google-fit) |
+| <img alt="" src="https://www.gstatic.com/images/branding/product/1x/gfit_512dp.png" width="12"> Google Fit | [`src/api/google-fit.ts`](./src/api/google-fit.ts) | [View data](./data/health) | [Scroll to Docs ↓](#google-fit) |
 | <img alt="" src="https://images.weserv.nl/?url=https://static1.ouraring.com/images/symbol-oura-large-white.svg&w=64&h=64&fit=cover&mask=circle" width="12"> Oura Ring | [`src/api/oura-ring.ts`](./src/api/oura-ring.ts) | [View data](./data/health) | [Scroll to Docs ↓](#oura-ring) |
 <!-- prettier-ignore-end -->
 
 ## 🛠️ Configuration
+
+A [`.liferc.yml`](./.liferc.yml) file is used to list the services required. You can add the camel-cased name of any of the supported services from below.
+
+```yaml
+daily:
+  - goodreads
+  - lastFm
+  - rescueTime
+  - pocketCasts
+  - ouraRing
+  - googleFit
+```
+
+All sensitive information required, such as API keys, are provided as environment variables.
 
 ### Spotify
 
