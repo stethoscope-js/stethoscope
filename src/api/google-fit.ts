@@ -55,6 +55,7 @@ const saveData = async (data: fitness_v1.Schema$Session[]) => {
           "data",
           "health",
           "google-fit",
+          "daily",
           sessionType,
           sessionDate,
           "sessions.json"
