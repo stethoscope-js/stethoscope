@@ -5,6 +5,7 @@ import { join } from "path";
 import slugify from "@sindresorhus/slugify";
 import dayjs from "dayjs";
 import PromisePool from "es6-promise-pool";
+import { readdir, readJson } from "fs-extra";
 cosmicSync("life");
 
 const oauth2Client = new google.auth.OAuth2(
@@ -90,6 +91,81 @@ export const daily = async () => {
   await updateGoogleFitDailyData(dayjs().add(1, "day").toDate());
   console.log("Google Fit: Added tomorrow's data");
   console.log("Google Fit: Added daily summaries");
+};
+
+export const summary = async () => {
+  const types = await readdir(
+    join(".", "data", "health", "google-fit", "daily")
+  );
+  for await (const dataType of types) {
+    const yearMonths: any = {};
+    const years = await readdir(
+      join(".", "data", "health", "google-fit", "daily", dataType)
+    );
+    for await (const year of years) {
+      const months = await readdir(
+        join(".", "data", "health", "google-fit", "daily", dataType, year)
+      );
+      for await (const month of months) {
+        const days = await readdir(
+          join(
+            ".",
+            "data",
+            "health",
+            "google-fit",
+            "daily",
+            dataType,
+            year,
+            month
+          )
+        );
+        for await (const day of days) {
+          const data: Array<{
+            startTime: string;
+            endTime: string;
+          }> = await readJson(
+            join(
+              ".",
+              "data",
+              "health",
+              "google-fit",
+              "daily",
+              dataType,
+              year,
+              month,
+              day,
+              "sessions.json"
+            )
+          );
+          let sum = 0;
+          data.forEach((session) => {
+            const seconds = dayjs(session.endTime).diff(
+              dayjs(session.startTime),
+              "second"
+            );
+            sum += seconds;
+          });
+          yearMonths[`${year}/${month}`] = sum;
+        }
+      }
+    }
+    for await (const yearMonth of Object.keys(yearMonths)) {
+      await write(
+        join(
+          ".",
+          "data",
+          "health",
+          "google-fit",
+          "monthly",
+          dataType,
+          yearMonth,
+          "summary.json"
+        ),
+        JSON.stringify({ seconds: yearMonths[yearMonth] }, null, 2)
+      );
+    }
+    console.log(`Google Fit: Monthly ${dataType} summary generated`);
+  }
 };
 
 export const legacy = async () => {
