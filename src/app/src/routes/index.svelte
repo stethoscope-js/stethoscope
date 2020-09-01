@@ -21,7 +21,7 @@
     try {
       state = "loading";
       const response = await fetch(
-        `https://api.github.com/repos/AnandChowdhary/life/contents/data/${
+        `https://github-api-proxy.anandchowdhary.vercel.app/api?endpoint=/repos/AnandChowdhary/life/contents/data/${
           query.path || ""
         }`
       );
