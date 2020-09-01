@@ -1,6 +1,6 @@
 import { cosmicSync, config } from "@anandchowdhary/cosmic";
 import { google, fitness_v1 } from "googleapis";
-import { write } from "../common";
+import { write, zero } from "../common";
 import { join } from "path";
 import slugify from "@sindresorhus/slugify";
 import dayjs from "dayjs";
@@ -153,14 +153,12 @@ export const summary = async () => {
     }
 
     // Generate monthly summary
-    console.log(yearMonths);
     for await (const year of Object.keys(yearMonths)) {
       for await (const month of Object.keys(yearMonths[year])) {
         const monthly: any = {};
-        for await (const day of Object.keys(yearMonths[year][month])
-          .map((key) => Number(key))
-          .sort((a, b) => a - b)) {
-          monthly[day] = yearMonths[year][month][day];
+        for (let i = 0; i < dayjs(month).daysInMonth(); i++) {
+          const day = i + 1;
+          monthly[day] = yearMonths[year][month][zero(day.toString())] ?? 0;
         }
         await write(
           join(
