@@ -10,7 +10,8 @@
     "build": "tsc",
     "daily": "node lib/daily.js",
     "weekly": "node lib/weekly.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "update-template": "npx update-template https://github.com/user/repo"
   },
   "repository": {
     "type": "git",
@@ -30,7 +31,8 @@
     "@types/fs-extra": "^9.0.1",
     "@types/spotify-web-api-node": "^4.0.1",
     "ts-node": "^8.10.2",
-    "typescript": "^3.9.7"
+    "typescript": "^3.9.7",
+    "update-template": "^1.0.1"
   },
   "dependencies": {
     "@anandchowdhary/cosmic": "^1.0.0",
