@@ -179,9 +179,17 @@ export const summary = async () => {
           dayjs(`${year}-06-06`).week(week).startOf("week").isBefore(dayjs())
         ) {
           const days: { [index: string]: number } = {};
-          Object.keys(weeks[year][week] ?? {}).forEach((day) => {
-            days[day] = weeks[year][week][day];
-          });
+          const dayOne = dayjs(`${year}-06-06`).week(week).startOf("week");
+          for (let i = 0; i < 7; i++) {
+            const daySubtract = dayOne.subtract(i, "day");
+            if (daySubtract.week() === week)
+              days[daySubtract.format("YYYY-MM-DD")] =
+                (weeks[year][week] ?? {})[daySubtract.format("D")] ?? 0;
+            const dayAdd = dayOne.add(i, "day");
+            if (dayAdd.week() === week)
+              days[dayAdd.format("YYYY-MM-DD")] =
+                (weeks[year][week] ?? {})[dayAdd.format("D")] ?? 0;
+          }
           await write(
             join(
               ".",
@@ -195,6 +203,38 @@ export const summary = async () => {
               "summary.json"
             ),
             JSON.stringify(days, null, 2)
+          );
+          const image = await canvasRenderService.renderToBuffer({
+            type: "bar",
+            data: {
+              labels: Object.keys(days).map((day) =>
+                dayjs(day).format("MMMM DD, YYYY")
+              ),
+              datasets: [
+                {
+                  backgroundColor: "#89e0cf",
+                  borderColor: "#1abc9c",
+                  data: Object.values(days),
+                },
+              ],
+            },
+            options: {
+              legend: { display: false },
+            },
+          });
+          await write(
+            join(
+              ".",
+              "data",
+              "health",
+              "google-fit",
+              "weekly",
+              dataType,
+              year,
+              week.toString(),
+              "graph.png"
+            ),
+            image
           );
         }
       }
