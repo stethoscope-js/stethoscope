@@ -145,28 +145,45 @@ export const summary = async () => {
             );
             sum += seconds;
           });
-          yearMonths[`${year}/${month}`] = sum;
+          yearMonths[year] = yearMonths[year] ?? {};
+          yearMonths[year][month] = yearMonths[year][month] ?? {};
+          yearMonths[year][month][day] = sum;
         }
       }
     }
-    for await (const yearMonth of Object.keys(yearMonths)) {
-      await write(
-        join(
-          ".",
-          "data",
-          "health",
-          "google-fit",
-          "monthly",
-          dataType,
-          yearMonth,
-          "summary.json"
-        ),
-        JSON.stringify({ seconds: yearMonths[yearMonth] }, null, 2)
-      );
+
+    // Generate monthly summary
+    console.log(yearMonths);
+    for await (const year of Object.keys(yearMonths)) {
+      for await (const month of Object.keys(yearMonths[year])) {
+        const monthly: any = {};
+        for await (const day of Object.keys(yearMonths[year][month])
+          .map((key) => Number(key))
+          .sort((a, b) => a - b)) {
+          monthly[day] = yearMonths[year][month][day];
+        }
+        await write(
+          join(
+            ".",
+            "data",
+            "health",
+            "google-fit",
+            "monthly",
+            dataType,
+            year,
+            month,
+            "summary.json"
+          ),
+          JSON.stringify(monthly, null, 2)
+        );
+      }
     }
     console.log(`Google Fit: Monthly ${dataType} summary generated`);
+
+    // Generate yearly summary
   }
 };
+summary();
 
 export const legacy = async () => {
   const CONCURRENCY = 1;
