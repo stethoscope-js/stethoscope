@@ -147,7 +147,7 @@ export const summary = async () => {
   const types = await readdir(
     join(".", "data", "health", "oura-ring", "daily")
   );
-  for await (const dataType of types) {
+  for await (const dataType of types.filter((type) => type !== "weight")) {
     const yearMonths: {
       [index: string]: { [index: string]: { [index: string]: number } };
     } = {};
@@ -397,6 +397,8 @@ export const summary = async () => {
     console.log(`Oura Ring: ${dataType} summaries generated`);
   }
 };
+
+summary();
 
 export const legacy = async () => {
   const CONCURRENCY = 10;
