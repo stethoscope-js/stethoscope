@@ -20,6 +20,11 @@
   async function update(query) {
     try {
       state = "loading";
+      if ((query.path || "").endsWith(".png")) {
+        data = `https://raw.githubusercontent.com/AnandChowdhary/life/master/data/${query.path}`;
+        state = "success";
+        return;
+      }
       const response = await fetch(
         `https://github-api-proxy.anandchowdhary.vercel.app/api?endpoint=/repos/AnandChowdhary/life/contents/data/${
           query.path || ""
@@ -53,11 +58,13 @@
   <Loading />
 {:else if state === 'error'}
   <p class="error">We got an error in fetching this data</p>
+{:else if typeof data === 'string'}
+  <img alt="" src={data} />
 {:else if Array.isArray(data)}
   <div class="big-links">
     {#each data as item}
       <a
-        href={`?path=${encodeURIComponent(`${query.path || ''}${item.name}/`)}`}>
+        href={`?path=${encodeURIComponent(item.html_url.split('/master/data/')[1])}`}>
         <span>{item.name.split('-').join(' ')}</span>
       </a>
     {/each}

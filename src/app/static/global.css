@@ -78,4 +78,13 @@ code {
 pre {
   margin: 0;
   background-color: #ebfeff;
+  border: 0.2rem solid #c7ecee;
+  padding: 1rem;
+  box-sizing: border-box;
+  border-radius: 0.2rem;
+  overflow-x: auto;
+}
+
+img {
+  max-width: 100%;
 }
