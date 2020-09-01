@@ -7,6 +7,13 @@ import week from "dayjs/plugin/weekOfYear";
 dayjs.extend(week);
 cosmicSync("life");
 
+/**
+ * From `T` make a set of properties by key `K` become optional
+ * @source https://github.com/piotrwitek/utility-types/blob/master/src/mapped-types.ts#L540
+ */
+type Optional<T extends object, K extends keyof T = keyof T> = Omit<T, K> &
+  Partial<Pick<T, K>>;
+
 const api = new SpotifyAPI({
   clientId: config("spotifyClientId"),
   clientSecret: config("spotifyClientSecret"),
@@ -22,7 +29,7 @@ export const daily = async () => {
   console.log("Spotify: Refreshed access token");
 
   const history = await api.getMyRecentlyPlayedTracks();
-  const itemsByDate: { [index: string]: SpotifyApi.PlayHistoryObject[] } = {};
+  const itemsByDate: { [index: string]: Array<any> } = {};
   for await (const item of history.body.items) {
     const date = dayjs(item.played_at);
     const year = date.format("YYYY");
@@ -30,8 +37,9 @@ export const daily = async () => {
     const day = date.format("DD");
     itemsByDate[`${year}/${month}/${day}`] =
       itemsByDate[`${year}/${month}/${day}`] ?? [];
-    item.track = cleanSpotifyTrackResponse(item.track);
-    itemsByDate[`${year}/${month}/${day}`].push(item);
+    itemsByDate[`${year}/${month}/${day}`].push(
+      cleanSpotifyTrackResponse(item.track)
+    );
   }
   for await (const key of Object.keys(itemsByDate)) {
     await write(
@@ -208,7 +216,12 @@ export const authTokens = async (code: string) => {
   console.log("Refresh token", body.refresh_token);
 };
 
-const cleanSpotifyArtistResponse = (artist: SpotifyApi.ArtistObjectFull) => {
+const cleanSpotifyArtistResponse = (
+  artist: Optional<
+    SpotifyApi.ArtistObjectFull,
+    "followers" | "external_urls" | "popularity"
+  >
+) => {
   delete artist.followers;
   delete artist.external_urls;
   delete artist.popularity;
@@ -216,11 +229,36 @@ const cleanSpotifyArtistResponse = (artist: SpotifyApi.ArtistObjectFull) => {
 };
 
 const cleanSpotifyTrackResponse = (
-  track: SpotifyApi.TrackObjectFull | SpotifyApi.TrackObjectSimplified
+  track:
+    | Optional<
+        SpotifyApi.TrackObjectFull,
+        | "available_markets"
+        | "disc_number"
+        | "duration_ms"
+        | "external_urls"
+        | "id"
+        | "is_playable"
+        | "linked_from"
+        | "type"
+        | "track_number"
+        | "uri"
+        | "external_ids"
+        | "popularity"
+      >
+    | Optional<
+        SpotifyApi.TrackObjectSimplified,
+        | "available_markets"
+        | "disc_number"
+        | "duration_ms"
+        | "external_urls"
+        | "id"
+        | "type"
+        | "is_playable"
+        | "linked_from"
+        | "track_number"
+        | "uri"
+      >
 ) => {
-  delete track.type;
-  if ("external_ids" in track) delete (track as any).external_ids;
-  if ("popularity" in track) delete (track as any).popularity;
   delete track.available_markets;
   delete track.disc_number;
   delete track.duration_ms;
@@ -230,13 +268,15 @@ const cleanSpotifyTrackResponse = (
   delete track.linked_from;
   delete track.track_number;
   delete track.uri;
-  if ("external_ids" in track) delete (track as any).external_ids;
-  if ("album" in track) delete (track as any).album.album_type;
-  if ("album" in track) delete (track as any).album.available_markets;
-  if ("album" in track) delete (track as any).album.external_urls;
-  if ("album" in track) delete (track as any).album.id;
   delete track.type;
-  delete track.uri;
+  if ("external_ids" in track) delete track.external_ids;
+  if ("popularity" in track) delete track.popularity;
+  if ("album" in track) {
+    delete (track.album as any).album_type;
+    delete (track.album as any).available_markets;
+    delete (track.album as any).external_urls;
+    delete (track.album as any).id;
+  }
   return track;
 };
 
