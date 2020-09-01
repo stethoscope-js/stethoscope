@@ -6,7 +6,10 @@ import slugify from "@sindresorhus/slugify";
 import dayjs from "dayjs";
 import PromisePool from "es6-promise-pool";
 import { readdir, readJson } from "fs-extra";
+import { CanvasRenderService } from "chartjs-node-canvas";
+
 cosmicSync("life");
+const canvasRenderService = new CanvasRenderService(1200, 800);
 
 const oauth2Client = new google.auth.OAuth2(
   config("googleFitClientId"),
@@ -154,7 +157,7 @@ export const summary = async () => {
 
     // Generate monthly summary
     for await (const year of Object.keys(yearMonths)) {
-      const yearly: any = {};
+      const yearly: { [index: number]: number } = {};
       for await (const month of [...Array(12).keys()].map((i) => i + 1)) {
         if (
           dayjs(
@@ -162,7 +165,7 @@ export const summary = async () => {
           ).isBefore(dayjs())
         ) {
           let monthlySum = 0;
-          const monthly: any = {};
+          const monthly: { [index: number]: number } = {};
           for (let i = 0; i < dayjs(month).daysInMonth(); i++) {
             const day = i + 1;
             if (
@@ -192,6 +195,38 @@ export const summary = async () => {
             ),
             JSON.stringify(monthly, null, 2)
           );
+          const image = await canvasRenderService.renderToBuffer({
+            type: "line",
+            data: {
+              labels: Object.keys(monthly).map((day) =>
+                dayjs(`${year}-${month}-${day}`).format("MMMM DD, YYYY")
+              ),
+              datasets: [
+                {
+                  backgroundColor: "#89e0cf",
+                  borderColor: "#1abc9c",
+                  data: Object.values(monthly),
+                },
+              ],
+            },
+            options: {
+              legend: { display: false },
+            },
+          });
+          await write(
+            join(
+              ".",
+              "data",
+              "health",
+              "google-fit",
+              "monthly",
+              dataType,
+              year,
+              month.toString(),
+              "graph.png"
+            ),
+            image
+          );
         }
       }
       await write(
@@ -206,6 +241,37 @@ export const summary = async () => {
           "summary.json"
         ),
         JSON.stringify(yearly, null, 2)
+      );
+      const image = await canvasRenderService.renderToBuffer({
+        type: "line",
+        data: {
+          labels: Object.keys(yearly).map((month) =>
+            dayjs(`${year}-${month}-06`).format("MMMM YYYY")
+          ),
+          datasets: [
+            {
+              backgroundColor: "#89e0cf",
+              borderColor: "#1abc9c",
+              data: Object.values(yearly),
+            },
+          ],
+        },
+        options: {
+          legend: { display: false },
+        },
+      });
+      await write(
+        join(
+          ".",
+          "data",
+          "health",
+          "google-fit",
+          "yearly",
+          dataType,
+          year,
+          "graph.png"
+        ),
+        image
       );
     }
     console.log(`Google Fit: ${dataType} summaries generated`);
