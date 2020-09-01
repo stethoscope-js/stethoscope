@@ -362,7 +362,6 @@ export const summary = async () => {
     console.log(`Google Fit: ${dataType} summaries generated`);
   }
 };
-summary();
 
 export const legacy = async () => {
   const CONCURRENCY = 1;
