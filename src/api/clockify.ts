@@ -10,11 +10,11 @@ const workspaceId = config("clockifyWorkspaceId");
 const userId = config("clockifyUserId");
 
 type ClockifyResult = {
-  description: string;
-  id: string;
-  userId: string;
-  projectId: string;
-  workspaceId: string;
+  description?: string;
+  id?: string;
+  userId?: string;
+  projectId?: string;
+  workspaceId?: string;
   timeInterval: {
     start: string;
     end: string;
