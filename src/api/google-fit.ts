@@ -7,7 +7,13 @@ import dayjs from "dayjs";
 import PromisePool from "es6-promise-pool";
 import { readdir, readJson } from "fs-extra";
 import { CanvasRenderService } from "chartjs-node-canvas";
+import isoWeeksInYear from "dayjs/plugin/isoWeeksInYear";
+import isLeapYear from "dayjs/plugin/isLeapYear";
+import week from "dayjs/plugin/weekOfYear";
 
+dayjs.extend(week);
+dayjs.extend(isoWeeksInYear);
+dayjs.extend(isLeapYear);
 cosmicSync("life");
 const canvasRenderService = new CanvasRenderService(1200, 800);
 
@@ -101,7 +107,12 @@ export const summary = async () => {
     join(".", "data", "health", "google-fit", "daily")
   );
   for await (const dataType of types) {
-    const yearMonths: any = {};
+    const yearMonths: {
+      [index: string]: { [index: string]: { [index: string]: number } };
+    } = {};
+    const weeks: {
+      [index: string]: { [index: string]: { [index: string]: number } };
+    } = {};
     const years = await readdir(
       join(".", "data", "health", "google-fit", "daily", dataType)
     );
@@ -151,11 +162,45 @@ export const summary = async () => {
           yearMonths[year] = yearMonths[year] ?? {};
           yearMonths[year][month] = yearMonths[year][month] ?? {};
           yearMonths[year][month][day] = sum;
+          const weekNumber = dayjs(`${year}-${month}-${day}`).week().toString();
+          weeks[year] = weeks[year] ?? {};
+          weeks[year][weekNumber] = weeks[year][weekNumber] ?? {};
+          weeks[year][weekNumber][day] = sum;
         }
       }
     }
 
-    // Generate monthly summary
+    // Generate weekly summary
+    for await (const year of Object.keys(weeks)) {
+      for await (const week of [
+        ...Array(dayjs(`${year}-06-06`).isoWeeksInYear()).keys(),
+      ].map((i) => i + 1)) {
+        if (
+          dayjs(`${year}-06-06`).week(week).startOf("week").isBefore(dayjs())
+        ) {
+          const days: { [index: string]: number } = {};
+          Object.keys(weeks[year][week] ?? {}).forEach((day) => {
+            days[day] = weeks[year][week][day];
+          });
+          await write(
+            join(
+              ".",
+              "data",
+              "health",
+              "google-fit",
+              "weekly",
+              dataType,
+              year,
+              week.toString(),
+              "summary.json"
+            ),
+            JSON.stringify(days, null, 2)
+          );
+        }
+      }
+    }
+
+    // Generate monthly and yearly summary
     for await (const year of Object.keys(yearMonths)) {
       const yearly: { [index: number]: number } = {};
       for await (const month of [...Array(12).keys()].map((i) => i + 1)) {
