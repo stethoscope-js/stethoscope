@@ -43,6 +43,7 @@
     border: 0.1rem solid rgba(0, 0, 0, 0.2);
   }
   footer {
+    margin-top: 2.5rem;
     display: flex;
   }
   footer label {
