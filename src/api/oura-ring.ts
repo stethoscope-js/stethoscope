@@ -398,8 +398,6 @@ export const summary = async () => {
   }
 };
 
-summary();
-
 export const legacy = async () => {
   const CONCURRENCY = 10;
   const startDate = dayjs("2020-08-15");
