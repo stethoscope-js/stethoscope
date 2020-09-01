@@ -214,7 +214,7 @@ export const summary = async () => {
                 {
                   backgroundColor: "#89e0cf",
                   borderColor: "#1abc9c",
-                  data: Object.values(days),
+                  data: Object.values(days).map((val) => Number(val) / 3600),
                 },
               ],
             },
@@ -290,7 +290,7 @@ export const summary = async () => {
                 {
                   backgroundColor: "#89e0cf",
                   borderColor: "#1abc9c",
-                  data: Object.values(monthly),
+                  data: Object.values(monthly).map((val) => Number(val) / 3600),
                 },
               ],
             },
@@ -337,7 +337,7 @@ export const summary = async () => {
             {
               backgroundColor: "#89e0cf",
               borderColor: "#1abc9c",
-              data: Object.values(yearly),
+              data: Object.values(yearly).map((val) => Number(val) / 3600),
             },
           ],
         },
