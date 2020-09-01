@@ -31,9 +31,9 @@ const updateOuraDailyData = async (date: Date) => {
       "oura-ring",
       "daily",
       "weight",
-      dayjs().format("YYYY"),
-      dayjs().format("MM"),
-      dayjs().format("DD"),
+      dayjs(formattedDate).format("YYYY"),
+      dayjs(formattedDate).format("MM"),
+      dayjs(formattedDate).format("DD"),
       "data.json"
     ),
     JSON.stringify({ weight: healthData.weight }, null, 2)
@@ -59,12 +59,12 @@ const updateOuraDailyData = async (date: Date) => {
       "oura-ring",
       "daily",
       "sleep",
-      dayjs().format("YYYY"),
-      dayjs().format("MM"),
-      dayjs().format("DD"),
+      dayjs(formattedDate).format("YYYY"),
+      dayjs(formattedDate).format("MM"),
+      dayjs(formattedDate).format("DD"),
       "summary.json"
     ),
-    JSON.stringify(sleepData, null, 2)
+    JSON.stringify(sleepData.sleep, null, 2)
   );
   const {
     data: readinessData,
@@ -86,12 +86,12 @@ const updateOuraDailyData = async (date: Date) => {
       "oura-ring",
       "daily",
       "readiness",
-      dayjs().format("YYYY"),
-      dayjs().format("MM"),
-      dayjs().format("DD"),
+      dayjs(formattedDate).format("YYYY"),
+      dayjs(formattedDate).format("MM"),
+      dayjs(formattedDate).format("DD"),
       "summary.json"
     ),
-    JSON.stringify(readinessData, null, 2)
+    JSON.stringify(readinessData.readiness, null, 2)
   );
   const {
     data: activityData,
@@ -113,12 +113,12 @@ const updateOuraDailyData = async (date: Date) => {
       "oura-ring",
       "daily",
       "activity",
-      dayjs().format("YYYY"),
-      dayjs().format("MM"),
-      dayjs().format("DD"),
+      dayjs(formattedDate).format("YYYY"),
+      dayjs(formattedDate).format("MM"),
+      dayjs(formattedDate).format("DD"),
       "summary.json"
     ),
-    JSON.stringify(activityData, null, 2)
+    JSON.stringify(activityData.activity, null, 2)
   );
 };
 
@@ -132,7 +132,6 @@ export const daily = async () => {
   console.log("Oura: Added tomorrow's data");
   console.log("Oura: Added daily summaries");
 };
-daily();
 
 export const legacy = async () => {
   const CONCURRENCY = 10;
