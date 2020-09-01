@@ -154,31 +154,61 @@ export const summary = async () => {
 
     // Generate monthly summary
     for await (const year of Object.keys(yearMonths)) {
-      for await (const month of Object.keys(yearMonths[year])) {
-        const monthly: any = {};
-        for (let i = 0; i < dayjs(month).daysInMonth(); i++) {
-          const day = i + 1;
-          monthly[day] = yearMonths[year][month][zero(day.toString())] ?? 0;
+      const yearly: any = {};
+      for await (const month of [...Array(12).keys()].map((i) => i + 1)) {
+        if (
+          dayjs(
+            `${year}-${zero(month.toString())}-${dayjs(month).daysInMonth()}`
+          ).isBefore(dayjs())
+        ) {
+          let monthlySum = 0;
+          const monthly: any = {};
+          for (let i = 0; i < dayjs(month).daysInMonth(); i++) {
+            const day = i + 1;
+            if (
+              dayjs(`${year}-${zero(month.toString())}-${day}`).isBefore(
+                dayjs()
+              )
+            ) {
+              monthly[day] =
+                ((yearMonths[year] ?? {})[zero(month.toString())] ?? {})[
+                  zero(day.toString())
+                ] ?? 0;
+              monthlySum += monthly[day];
+            }
+          }
+          yearly[month] = monthlySum;
+          await write(
+            join(
+              ".",
+              "data",
+              "health",
+              "google-fit",
+              "monthly",
+              dataType,
+              year,
+              month.toString(),
+              "summary.json"
+            ),
+            JSON.stringify(monthly, null, 2)
+          );
         }
-        await write(
-          join(
-            ".",
-            "data",
-            "health",
-            "google-fit",
-            "monthly",
-            dataType,
-            year,
-            month,
-            "summary.json"
-          ),
-          JSON.stringify(monthly, null, 2)
-        );
       }
+      await write(
+        join(
+          ".",
+          "data",
+          "health",
+          "google-fit",
+          "yearly",
+          dataType,
+          year,
+          "summary.json"
+        ),
+        JSON.stringify(yearly, null, 2)
+      );
     }
-    console.log(`Google Fit: Monthly ${dataType} summary generated`);
-
-    // Generate yearly summary
+    console.log(`Google Fit: ${dataType} summaries generated`);
   }
 };
 summary();
