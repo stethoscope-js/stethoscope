@@ -30,6 +30,13 @@
 | <img alt="" src="https://images.weserv.nl/?url=https://static1.ouraring.com/images/symbol-oura-large-white.svg&w=64&h=64&fit=cover&mask=circle" width="12"> Oura Ring | [`src/api/oura-ring.ts`](./src/api/oura-ring.ts) | [View data](./data/health) | [Scroll to Docs ↓](#oura-ring) |
 <!-- prettier-ignore-end -->
 
+## 🌱 Getting started
+
+1. Create a repository [using this template](https://github.com/AnandChowdhary/life/generate)
+2. Delete the [`./data`](./data) directory
+3. Update the configuration in [`.liferc.yml`](./.liferc.yml)
+4. Add the required GitHub repository secrets
+
 ## 🛠️ Configuration
 
 A [`.liferc.yml`](./.liferc.yml) file is used to list the services required. You can add the camel-cased name of any of the supported services from below.
@@ -44,7 +51,7 @@ daily:
   - googleFit
 ```
 
-All sensitive information required, such as API keys, are provided as environment variables.
+All sensitive information required, such as API keys, are provided as environment variables. These are stored as GitHub repository secrets (see [Creating and storing encrypted secrets](https://docs.github.com/en/actions/configuring-and-managing-workflows/creating-and-storing-encrypted-secrets)).
 
 ### <img alt="" src="https://cdn.worldvectorlogo.com/logos/spotify-2.svg" width="16"> Spotify
 
