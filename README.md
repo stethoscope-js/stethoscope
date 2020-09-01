@@ -202,3 +202,8 @@ The Oura API requires a Personal Access Token which can be generated on the [Per
 | Environment variable         | Description           |
 | ---------------------------- | --------------------- |
 | `OURA_PERSONAL_ACCESS_TOKEN` | Personal Access Token |
+
+## 📄 License
+
+- Icons from [The Noun Project](https://thenounproject.com): CC BY 3.0
+  - Loader by [Rohith M S](https://thenounproject.com/rohithdezinr)

@@ -42,3 +42,35 @@ code {
     font-size: 16px;
   }
 }
+
+.error {
+  background-color: #ffcccc;
+  padding: 1rem;
+  border-radius: 0.2rem;
+}
+
+.big-links {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -1rem;
+  justify-content: space-between;
+}
+.big-links a {
+  border: 0.2rem solid #c7ecee;
+  background-color: #ebfeff;
+  width: 17rem;
+  height: 5rem;
+  margin: 1rem;
+  box-sizing: border-box;
+  border-radius: 0.2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+}
+.big-links a:hover {
+  background-color: #dff9fb;
+}
+.big-links span {
+  text-transform: capitalize;
+}
