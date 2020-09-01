@@ -20,7 +20,7 @@ jobs:
           node-version: 14
       - name: Install dependencies
         run: npm ci
-      - name: Run script
+      - name: Fetch daily data
         run: npm run daily
         env:
           GOODREADS_USER_ID: ${{ secrets.GOODREADS_USER_ID }}
@@ -47,6 +47,8 @@ jobs:
           GOOGLE_FIT_ACCESS_TOKEN: ${{ secrets.GOOGLE_FIT_ACCESS_TOKEN }}
           GOOGLE_FIT_REFRESH_TOKEN: ${{ secrets.GOOGLE_FIT_REFRESH_TOKEN }}
           OURA_PERSONAL_ACCESS_TOKEN: ${{ secrets.OURA_PERSONAL_ACCESS_TOKEN }}
+      - name: Generate summaries
+        run: npm run summary
       - name: Commit new data
         uses: stefanzweifel/git-auto-commit-action@v4.1.1
         with:
