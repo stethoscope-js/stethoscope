@@ -44,7 +44,7 @@ const updateOuraDailyData = async (date: Date) => {
       dayjs(formattedDate).format("YYYY"),
       dayjs(formattedDate).format("MM"),
       dayjs(formattedDate).format("DD"),
-      "data.json"
+      "summary.json"
     ),
     JSON.stringify({ weight: healthData.weight }, null, 2)
   );
