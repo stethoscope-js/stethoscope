@@ -196,7 +196,7 @@ export const summary = async () => {
             JSON.stringify(monthly, null, 2)
           );
           const image = await canvasRenderService.renderToBuffer({
-            type: "line",
+            type: "bar",
             data: {
               labels: Object.keys(monthly).map((day) =>
                 dayjs(`${year}-${month}-${day}`).format("MMMM DD, YYYY")
@@ -243,7 +243,7 @@ export const summary = async () => {
         JSON.stringify(yearly, null, 2)
       );
       const image = await canvasRenderService.renderToBuffer({
-        type: "line",
+        type: "bar",
         data: {
           labels: Object.keys(yearly).map((month) =>
             dayjs(`${year}-${month}-06`).format("MMMM YYYY")
