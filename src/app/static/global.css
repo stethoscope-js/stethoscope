@@ -88,3 +88,25 @@ pre {
 img {
   max-width: 100%;
 }
+
+.options {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 2rem;
+}
+.options > * {
+  margin: 0.1rem 0.5rem;
+}
+.options strong {
+  text-transform: uppercase;
+}
+.options a {
+  text-decoration: none;
+}
+.options a.active {
+  font-weight: bold;
+  background-color: #7efff5;
+  vertical-align: middle;
+  padding: 0 0.2rem;
+  border-radius: 0.2rem;
+}
