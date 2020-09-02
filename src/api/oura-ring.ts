@@ -38,9 +38,8 @@ const updateOuraDailyData = async (date: Date) => {
       ".",
       "data",
       "health",
-      "oura-ring",
-      "daily",
       "weight",
+      "daily",
       dayjs(formattedDate).format("YYYY"),
       dayjs(formattedDate).format("MM"),
       dayjs(formattedDate).format("DD"),
@@ -66,9 +65,8 @@ const updateOuraDailyData = async (date: Date) => {
       ".",
       "data",
       "health",
-      "oura-ring",
-      "daily",
       "sleep",
+      "daily",
       dayjs(formattedDate).format("YYYY"),
       dayjs(formattedDate).format("MM"),
       dayjs(formattedDate).format("DD"),
@@ -93,9 +91,8 @@ const updateOuraDailyData = async (date: Date) => {
       ".",
       "data",
       "health",
-      "oura-ring",
-      "daily",
       "readiness",
+      "daily",
       dayjs(formattedDate).format("YYYY"),
       dayjs(formattedDate).format("MM"),
       dayjs(formattedDate).format("DD"),
@@ -120,9 +117,8 @@ const updateOuraDailyData = async (date: Date) => {
       ".",
       "data",
       "health",
-      "oura-ring",
-      "daily",
       "activity",
+      "daily",
       dayjs(formattedDate).format("YYYY"),
       dayjs(formattedDate).format("MM"),
       dayjs(formattedDate).format("DD"),
@@ -144,9 +140,7 @@ export const daily = async () => {
 };
 
 export const summary = async () => {
-  const types = await readdir(
-    join(".", "data", "health", "oura-ring", "daily")
-  );
+  const types = await readdir(join(".", "data", "health", "daily"));
   for await (const dataType of types.filter((type) => type !== "weight")) {
     const yearMonths: {
       [index: string]: { [index: string]: { [index: string]: number } };
@@ -154,25 +148,14 @@ export const summary = async () => {
     const weeks: {
       [index: string]: { [index: string]: { [index: string]: number } };
     } = {};
-    const years = await readdir(
-      join(".", "data", "health", "oura-ring", "daily", dataType)
-    );
+    const years = await readdir(join(".", "data", "health", "daily", dataType));
     for await (const year of years) {
       const months = await readdir(
-        join(".", "data", "health", "oura-ring", "daily", dataType, year)
+        join(".", "data", "health", "daily", dataType, year)
       );
       for await (const month of months) {
         const days = await readdir(
-          join(
-            ".",
-            "data",
-            "health",
-            "oura-ring",
-            "daily",
-            dataType,
-            year,
-            month
-          )
+          join(".", "data", "health", dataType, "daily", year, month)
         );
         for await (const day of days) {
           const data: Array<{
@@ -182,16 +165,14 @@ export const summary = async () => {
               ".",
               "data",
               "health",
-              "oura-ring",
-              "daily",
               dataType,
+              "daily",
               year,
               month,
               day,
               "summary.json"
             )
           );
-
           let sum = 0;
           data.forEach((session) => (sum += session.duration));
           yearMonths[year] = yearMonths[year] ?? {};
@@ -230,9 +211,8 @@ export const summary = async () => {
               ".",
               "data",
               "health",
-              "oura-ring",
-              "weekly",
               dataType,
+              "weekly",
               year,
               week.toString(),
               "summary.json"
@@ -262,9 +242,8 @@ export const summary = async () => {
               ".",
               "data",
               "health",
-              "oura-ring",
-              "weekly",
               dataType,
+              "weekly",
               year,
               week.toString(),
               "graph.png"
@@ -306,9 +285,8 @@ export const summary = async () => {
               ".",
               "data",
               "health",
-              "oura-ring",
-              "monthly",
               dataType,
+              "monthly",
               year,
               month.toString(),
               "summary.json"
@@ -338,9 +316,8 @@ export const summary = async () => {
               ".",
               "data",
               "health",
-              "oura-ring",
-              "monthly",
               dataType,
+              "monthly",
               year,
               month.toString(),
               "graph.png"
@@ -350,16 +327,7 @@ export const summary = async () => {
         }
       }
       await write(
-        join(
-          ".",
-          "data",
-          "health",
-          "oura-ring",
-          "yearly",
-          dataType,
-          year,
-          "summary.json"
-        ),
+        join(".", "data", "health", "yearly", dataType, year, "summary.json"),
         JSON.stringify(yearly, null, 2)
       );
       const image = await canvasRenderService.renderToBuffer({
@@ -381,16 +349,7 @@ export const summary = async () => {
         },
       });
       await write(
-        join(
-          ".",
-          "data",
-          "health",
-          "oura-ring",
-          "yearly",
-          dataType,
-          year,
-          "graph.png"
-        ),
+        join(".", "data", "health", "yearly", dataType, year, "graph.png"),
         image
       );
     }
