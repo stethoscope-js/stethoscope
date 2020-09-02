@@ -102,9 +102,7 @@ export const daily = async () => {
 };
 
 export const summary = async () => {
-  const types = (await readdir(join(".", "data", "health"))).filter((type) =>
-    type.startsWith("google-fit")
-  );
+  const types = await readdir(join(".", "data", "health"));
   for await (const dataType of types) {
     const yearMonths: {
       [index: string]: { [index: string]: { [index: string]: number } };
@@ -365,4 +363,3 @@ export const legacy = async () => {
   await pool.start();
   console.log("Done!");
 };
-legacy();
