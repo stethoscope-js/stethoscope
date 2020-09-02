@@ -53,14 +53,15 @@ const apiSummary = async () => {
 };
 
 (async () => {
-  if (config("summary").includes("spotify")) await spotify();
-  if (config("summary").includes("rescueTime")) await rescueTime();
-  if (config("summary").includes("pocketCasts")) await pocketCasts();
-  if (config("summary").includes("wakatime")) await wakatime();
-  if (config("summary").includes("lastFm")) await lastFm();
-  if (config("summary").includes("clockify")) await clockify();
-  if (config("summary").includes("googleFit")) await googleFit();
-  if (config("summary").includes("ouraRing")) await ouraRing();
-  if (config("summary").includes("goodreads")) await goodreads();
+  const allConfig = [...(config("daily") ?? []), ...(config("weekly") ?? [])];
+  if (allConfig.includes("spotify")) await spotify();
+  if (allConfig.includes("rescueTime")) await rescueTime();
+  if (allConfig.includes("pocketCasts")) await pocketCasts();
+  if (allConfig.includes("wakatime")) await wakatime();
+  if (allConfig.includes("lastFm")) await lastFm();
+  if (allConfig.includes("clockify")) await clockify();
+  if (allConfig.includes("googleFit")) await googleFit();
+  if (allConfig.includes("ouraRing")) await ouraRing();
+  if (allConfig.includes("goodreads")) await goodreads();
   await apiSummary();
 })();
