@@ -64,9 +64,8 @@ const saveData = async (data: fitness_v1.Schema$Session[]) => {
           ".",
           "data",
           "health",
-          "google-fit",
-          "daily",
           sessionType,
+          "daily",
           sessionDate,
           "sessions.json"
         ),
@@ -103,8 +102,8 @@ export const daily = async () => {
 };
 
 export const summary = async () => {
-  const types = await readdir(
-    join(".", "data", "health", "google-fit", "daily")
+  const types = (await readdir(join(".", "data", "health"))).filter((type) =>
+    type.startsWith("google-fit")
   );
   for await (const dataType of types) {
     const yearMonths: {
@@ -113,25 +112,14 @@ export const summary = async () => {
     const weeks: {
       [index: string]: { [index: string]: { [index: string]: number } };
     } = {};
-    const years = await readdir(
-      join(".", "data", "health", "google-fit", "daily", dataType)
-    );
+    const years = await readdir(join(".", "data", "health", dataType, "daily"));
     for await (const year of years) {
       const months = await readdir(
-        join(".", "data", "health", "google-fit", "daily", dataType, year)
+        join(".", "data", "health", dataType, "daily", year)
       );
       for await (const month of months) {
         const days = await readdir(
-          join(
-            ".",
-            "data",
-            "health",
-            "google-fit",
-            "daily",
-            dataType,
-            year,
-            month
-          )
+          join(".", "data", "health", dataType, "daily", year, month)
         );
         for await (const day of days) {
           const _data: Array<{
@@ -142,9 +130,8 @@ export const summary = async () => {
               ".",
               "data",
               "health",
-              "google-fit",
-              "daily",
               dataType,
+              "daily",
               year,
               month,
               day,
@@ -219,9 +206,8 @@ export const summary = async () => {
               ".",
               "data",
               "health",
-              "google-fit",
-              "weekly",
               dataType,
+              "weekly",
               year,
               week.toString(),
               "summary.json"
@@ -251,9 +237,8 @@ export const summary = async () => {
               ".",
               "data",
               "health",
-              "google-fit",
-              "weekly",
               dataType,
+              "weekly",
               year,
               week.toString(),
               "graph.png"
@@ -295,9 +280,8 @@ export const summary = async () => {
               ".",
               "data",
               "health",
-              "google-fit",
-              "monthly",
               dataType,
+              "monthly",
               year,
               month.toString(),
               "summary.json"
@@ -327,9 +311,8 @@ export const summary = async () => {
               ".",
               "data",
               "health",
-              "google-fit",
-              "monthly",
               dataType,
+              "monthly",
               year,
               month.toString(),
               "graph.png"
@@ -339,16 +322,7 @@ export const summary = async () => {
         }
       }
       await write(
-        join(
-          ".",
-          "data",
-          "health",
-          "google-fit",
-          "yearly",
-          dataType,
-          year,
-          "summary.json"
-        ),
+        join(".", "data", "health", dataType, "yearly", year, "summary.json"),
         JSON.stringify(yearly, null, 2)
       );
       const image = await canvasRenderService.renderToBuffer({
@@ -370,16 +344,7 @@ export const summary = async () => {
         },
       });
       await write(
-        join(
-          ".",
-          "data",
-          "health",
-          "google-fit",
-          "yearly",
-          dataType,
-          year,
-          "graph.png"
-        ),
+        join(".", "data", "health", dataType, "yearly", year, "graph.png"),
         image
       );
     }
@@ -400,3 +365,4 @@ export const legacy = async () => {
   await pool.start();
   console.log("Done!");
 };
+legacy();
