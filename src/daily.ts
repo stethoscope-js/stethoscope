@@ -9,10 +9,9 @@ import { daily as wakatime } from "./api/wakatime";
 import { daily as clockify } from "./api/clockify";
 import { daily as googleFit } from "./api/google-fit";
 import { daily as ouraRing } from "./api/oura-ring";
-// import { daily as goodreads } from "./api/goodreads";
+import { daily as goodreads } from "./api/goodreads";
 
 (async () => {
-  // if (config("daily").includes("goodreads")) await goodreads();
   if (config("daily").includes("spotify")) await spotify();
   if (config("daily").includes("rescueTime")) await rescueTime();
   if (config("daily").includes("pocketCasts")) await pocketCasts();
@@ -21,4 +20,5 @@ import { daily as ouraRing } from "./api/oura-ring";
   if (config("daily").includes("clockify")) await clockify();
   if (config("daily").includes("googleFit")) await googleFit();
   if (config("daily").includes("ouraRing")) await ouraRing();
+  if (config("daily").includes("goodreads")) await goodreads();
 })();

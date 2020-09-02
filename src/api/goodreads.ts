@@ -24,3 +24,5 @@ export const daily = async () => {
     }
   }
 };
+
+export const summary = async () => {};

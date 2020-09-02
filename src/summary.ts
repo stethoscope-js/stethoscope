@@ -1,10 +1,19 @@
 import "./common";
 import { config } from "@anandchowdhary/cosmic";
 import { join } from "path";
-import { summary as googleFit } from "./api/google-fit";
 import { readdir, lstatSync } from "fs-extra";
 import { write } from "./common";
 import recursiveReaddir from "recursive-readdir";
+
+import { summary as spotify } from "./api/spotify";
+import { summary as rescueTime } from "./api/rescue-time";
+import { summary as lastFm } from "./api/last-fm";
+import { summary as pocketCasts } from "./api/pocket-casts";
+import { summary as wakatime } from "./api/wakatime";
+import { summary as clockify } from "./api/clockify";
+import { summary as googleFit } from "./api/google-fit";
+import { summary as ouraRing } from "./api/oura-ring";
+import { summary as goodreads } from "./api/goodreads";
 
 const apiSummary = async () => {
   const dataTypes = (await readdir(join(".", "data"))).filter((i) =>
@@ -44,6 +53,14 @@ const apiSummary = async () => {
 };
 
 (async () => {
-  if (config("daily").includes("googleFit")) await googleFit();
+  if (config("summary").includes("spotify")) await spotify();
+  if (config("summary").includes("rescueTime")) await rescueTime();
+  if (config("summary").includes("pocketCasts")) await pocketCasts();
+  if (config("summary").includes("wakatime")) await wakatime();
+  if (config("summary").includes("lastFm")) await lastFm();
+  if (config("summary").includes("clockify")) await clockify();
+  if (config("summary").includes("googleFit")) await googleFit();
+  if (config("summary").includes("ouraRing")) await ouraRing();
+  if (config("summary").includes("goodreads")) await goodreads();
   await apiSummary();
 })();
