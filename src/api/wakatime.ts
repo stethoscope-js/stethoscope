@@ -60,3 +60,5 @@ export const legacy = async () => {
   await pool.start();
   console.log("Done!");
 };
+
+export const summary = async () => {};

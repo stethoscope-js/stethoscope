@@ -89,3 +89,5 @@ export const daily = async () => {
 
   console.log("Pocket Casts: Completed");
 };
+
+export const summary = async () => {};

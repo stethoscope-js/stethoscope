@@ -87,3 +87,5 @@ export const getUserId = async () => {
   });
   console.log("User ID", data.id);
 };
+
+export const summary = async () => {};
