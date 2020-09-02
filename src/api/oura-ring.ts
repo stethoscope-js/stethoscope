@@ -65,7 +65,7 @@ const updateOuraDailyData = async (date: Date) => {
       ".",
       "data",
       "health",
-      "sleep",
+      "oura-sleep",
       "daily",
       dayjs(formattedDate).format("YYYY"),
       dayjs(formattedDate).format("MM"),
