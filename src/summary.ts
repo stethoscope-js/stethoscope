@@ -4,6 +4,7 @@ import { join } from "path";
 import { readdir, lstatSync } from "fs-extra";
 import { write } from "./common";
 import recursiveReaddir from "recursive-readdir";
+import dayjs from "dayjs";
 
 import { summary as spotify } from "./api/spotify";
 import { summary as rescueTime } from "./api/rescue-time";
@@ -33,16 +34,40 @@ const apiSummary = async () => {
       );
       for await (const duration of durations) {
         let data: any = {};
-        data.items = (
-          await recursiveReaddir(join(".", "data", type, service, duration))
-        )
+        (await recursiveReaddir(join(".", "data", type, service, duration)))
           .sort((a, b) =>
             a.localeCompare(b, undefined, {
               numeric: true,
               sensitivity: "base",
             })
           )
-          .filter((item) => !item.endsWith(".DS_Store"));
+          .filter((item) => !item.endsWith(".DS_Store"))
+          .forEach((item) => {
+            const fullPath = item.split(
+              join(".", "data", type, service, duration)
+            )[1];
+            const fileName = fullPath.split("/").pop();
+            const directory = fullPath
+              .split(`/${fullPath.split("/").splice(-1, 1).join("/")}`)[0]
+              .substring(1);
+            let title = directory;
+            if (duration === "daily") {
+              title = dayjs(title).format("MMMM DD, YYYY");
+            } else if (duration === "monthly") {
+              title = dayjs(`${title.split("/").join("-")}-10`).format(
+                "MMMM YYYY"
+              );
+            } else if (duration === "weekly") {
+              title = `Week ${title.split("/")[1]}, ${title.split("/")[0]}`;
+            }
+            if (fileName) {
+              data[fileName] = data[fileName] ?? [];
+              data[fileName].push({
+                title,
+                directory,
+              });
+            }
+          });
         await write(
           join(".", "data", type, service, "api", `${duration}.json`),
           JSON.stringify(data, null, 2)
