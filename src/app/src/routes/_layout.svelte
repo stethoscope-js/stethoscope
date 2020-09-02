@@ -69,7 +69,7 @@
       <span>Embed this page</span>
       <input
         type="text"
-        value={`<iframe src="${base}${path || ''}?path=${encodeURIComponent(query.path)}" style="border: none; width: 100%; height: 400px" name="lifedata" title="Life data" scrolling="no" loading="lazy" allowfullscreen></iframe>`}
+        value={`<iframe src="${base}${path || ''}?path=${encodeURIComponent(query.path || '')}" style="border: none; width: 100%; height: 400px" name="lifedata" title="Life data" scrolling="no" loading="lazy" allowfullscreen></iframe>`}
         readonly />
     </label>
     <div class="button"><button>Copy</button></div>
