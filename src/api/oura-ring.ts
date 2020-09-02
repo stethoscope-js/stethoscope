@@ -158,26 +158,31 @@ export const summary = async () => {
           join(".", "data", "health", dataType, "daily", year, month)
         );
         for await (const day of days) {
-          const data: Array<{
-            duration: number;
-          }> = await readJson(
-            join(
-              ".",
-              "data",
-              "health",
-              dataType,
-              "daily",
-              year,
-              month,
-              day,
-              "sessions.json"
-            )
-          );
+          let data: Array<{
+            duration?: number;
+            score?: number;
+          }> = [];
+          try {
+            data = await readJson(
+              join(
+                ".",
+                "data",
+                "health",
+                dataType,
+                "daily",
+                year,
+                month,
+                day,
+                "sessions.json"
+              )
+            );
+          } catch (error) {}
           let sum = 0;
           let hasSessionDuration = false;
           data.forEach((session) => {
-            if (session.duration) {
-              sum += session.duration;
+            if (session.duration || session.score) {
+              if (session.duration) sum += session.duration;
+              else if (session.score) sum += session.score;
               hasSessionDuration = true;
             }
           });
@@ -337,7 +342,7 @@ export const summary = async () => {
         }
       }
       await write(
-        join(".", "data", "health", "yearly", dataType, year, "sessions.json"),
+        join(".", "data", "health", dataType, "yearly", year, "sessions.json"),
         JSON.stringify(yearly, null, 2)
       );
       const image = await canvasRenderService.renderToBuffer({
@@ -359,7 +364,7 @@ export const summary = async () => {
         },
       });
       await write(
-        join(".", "data", "health", "yearly", dataType, year, "graph.png"),
+        join(".", "data", "health", dataType, "yearly", year, "graph.png"),
         image
       );
     }
@@ -368,7 +373,7 @@ export const summary = async () => {
 };
 
 export const legacy = async () => {
-  const CONCURRENCY = 10;
+  const CONCURRENCY = 1;
   const startDate = dayjs("2020-08-15");
   let count = 0;
   const pool = new PromisePool(async () => {
