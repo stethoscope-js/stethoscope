@@ -4,6 +4,7 @@ import { join } from "path";
 import { summary as googleFit } from "./api/google-fit";
 import { readdir, lstatSync } from "fs-extra";
 import { write } from "./common";
+import recursiveReaddir from "recursive-readdir";
 
 const apiSummary = async () => {
   const dataTypes = (await readdir(join(".", "data"))).filter((i) =>
@@ -21,20 +22,28 @@ const apiSummary = async () => {
           lstatSync(join(".", "data", type, service, i)).isDirectory() &&
           i !== "api"
       );
-      let data: any = { durations: {} };
       for await (const duration of durations) {
-        data.durations[duration] = data.durations[duration] ?? {};
-        // data.durations[duration].items =
+        let data: any = {};
+        data.items = (
+          await recursiveReaddir(join(".", "data", type, service, duration))
+        )
+          .sort((a, b) =>
+            a.localeCompare(b, undefined, {
+              numeric: true,
+              sensitivity: "base",
+            })
+          )
+          .filter((item) => !item.endsWith(".DS_Store"));
+        await write(
+          join(".", "data", type, service, "api", `${duration}.json`),
+          JSON.stringify(data, null, 2)
+        );
       }
-      await write(
-        join(".", "data", type, service, "api", "summary.json"),
-        JSON.stringify(data, null, 2)
-      );
     }
   }
 };
 
 (async () => {
-  // if (config("daily").includes("googleFit")) await googleFit();
+  if (config("daily").includes("googleFit")) await googleFit();
   await apiSummary();
 })();
