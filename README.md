@@ -8,11 +8,9 @@
 
 ## 🌟 Features
 
-### Tracked data
-
-- Health (steps, workouts, sleep, etc.)
-- Music and podcasts listening history
-- Time tracking
+- Track data from anywhere (health, music, time tracking, etc.)
+- Generate easy-to-consume API endpoints for your data
+- Daily, weekly, monthly, and yearly graphs for easy embedding
 
 ### Supported services
 
