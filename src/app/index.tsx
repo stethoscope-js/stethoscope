@@ -10,6 +10,7 @@ const App: FunctionComponent<{}> = () => {
   const api = useSearchParam("api");
   const latest = useSearchParam("latest");
 
+  const [paths, setPaths] = useState<string[]>([]);
   const [graphData, setGraphData] = useState<{ [index: number]: number }>({});
 
   const getApiData = async (repo: string, api: string, path: string) => {
@@ -38,15 +39,24 @@ const App: FunctionComponent<{}> = () => {
       .catch(console.log);
   }
 
-  if (path) {
-    getApiData(repo, api, path).then(setGraphData).catch(console.log);
+  if (path && path.startsWith("summary/")) {
+    useMemoApiData(repo, api, "api.json")
+      .then((data) => {
+        const key = path.split("summary/")[1].split("/");
+        key.pop();
+        setPaths(pick(key.join("."), data));
+      })
+      .catch(console.log);
+    useMemoApiData(repo, api, path).then(setGraphData).catch(console.log);
   }
 
   if (!path) return <h1>No path</h1>;
+  console.log(new Date());
 
   return (
     <div>
       <h1>{path ?? "No path"}</h1>
+      <p>{JSON.stringify(paths)}</p>
       <p>{JSON.stringify(graphData)}</p>
     </div>
   );
