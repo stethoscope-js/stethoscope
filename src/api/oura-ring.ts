@@ -4,7 +4,7 @@ import { join } from "path";
 import { write, zero } from "../common";
 import PromisePool from "es6-promise-pool";
 import dayjs from "dayjs";
-import { readdir, readJson } from "fs-extra";
+import { readdir, readJson, pathExists, lstat } from "fs-extra";
 import { CanvasRenderService } from "chartjs-node-canvas";
 import isoWeeksInYear from "dayjs/plugin/isoWeeksInYear";
 import isLeapYear from "dayjs/plugin/isLeapYear";
@@ -140,35 +140,46 @@ export const daily = async () => {
 };
 
 export const summary = async () => {
-  const types = await readdir(join(".", "data", "health"));
-  for await (const dataType of types.filter((type) => type !== "weight")) {
-    const yearMonths: {
-      [index: string]: { [index: string]: { [index: string]: number } };
-    } = {};
-    const weeks: {
-      [index: string]: { [index: string]: { [index: string]: number } };
-    } = {};
-    const years = await readdir(join(".", "data", "health", dataType, "daily"));
-    for await (const year of years) {
-      const months = await readdir(
-        join(".", "data", "health", dataType, "daily", year)
-      );
-      for await (const month of months) {
-        const days = await readdir(
-          join(".", "data", "health", dataType, "daily", year, month)
-        );
-        for await (const day of days) {
-          let data: Array<{
-            duration?: number;
-            score?: number;
-          }> = [];
-          try {
-            data = await readJson(
+  const healthCategories = await readdir(join(".", "data", "health"));
+  for await (const category of healthCategories) {
+    // Find all items that have daily
+    if (
+      (await pathExists(join(".", "data", "health", category, "daily"))) &&
+      (
+        await lstat(join(".", "data", "health", category, "daily"))
+      ).isDirectory()
+    ) {
+      const years = (
+        await readdir(join(".", "data", "health", category, "daily"))
+      ).filter((i) => /^\d+$/.test(i));
+      const yearData: { [index: string]: number } = {};
+      for await (const year of years) {
+        let yearlySum = 0;
+        const monthlyData: { [index: string]: number } = {};
+        [...Array(13).keys()]
+          .slice(1)
+          .forEach((val) => (monthlyData[val.toString()] = 0));
+        const months = (
+          await readdir(join(".", "data", "health", category, "daily", year))
+        ).filter((i) => /^\d+$/.test(i));
+        for await (const month of months) {
+          let monthlySum = 0;
+          const dailyData: { [index: string]: number } = {};
+          [...Array(dayjs(`${year}-${month}-10`).daysInMonth()).keys()]
+            .slice(1)
+            .forEach((val) => (dailyData[val.toString()] = 0));
+          const days = (
+            await readdir(
+              join(".", "data", "health", category, "daily", year, month)
+            )
+          ).filter((i) => /^\d+$/.test(i));
+          for await (const day of days) {
+            let json = await readJson(
               join(
                 ".",
                 "data",
                 "health",
-                dataType,
+                category,
                 "daily",
                 year,
                 month,
@@ -176,199 +187,38 @@ export const summary = async () => {
                 "sessions.json"
               )
             );
-          } catch (error) {}
-          let sum = 0;
-          let hasSessionDuration = false;
-          data.forEach((session) => {
-            if (session.duration || session.score) {
-              if (session.duration) sum += session.duration;
-              else if (session.score) sum += session.score;
-              hasSessionDuration = true;
+            let dailySum = 0;
+            if (Array.isArray(json)) {
+              json.forEach((record: any) => {
+                if (record.total) {
+                  dailySum += record.total;
+                }
+              });
             }
-          });
-          if (hasSessionDuration) {
-            yearMonths[year] = yearMonths[year] ?? {};
-            yearMonths[year][month] = yearMonths[year][month] ?? {};
-            yearMonths[year][month][day] = sum;
-            const weekNumber = dayjs(`${year}-${month}-${day}`)
-              .week()
-              .toString();
-            weeks[year] = weeks[year] ?? {};
-            weeks[year][weekNumber] = weeks[year][weekNumber] ?? {};
-            weeks[year][weekNumber][day] = sum;
+            if (dailySum) dailyData[parseInt(day)] = dailySum;
+            monthlySum += dailySum;
+            yearlySum += dailySum;
           }
+          if (Object.keys(dailyData).length)
+            await write(
+              join(".", "data", category, "days", year, `${month}.json`),
+              JSON.stringify(dailyData, null, 2)
+            );
+          if (monthlySum) monthlyData[parseInt(month)] = monthlySum;
         }
+        if (Object.keys(monthlyData).length)
+          await write(
+            join(".", "data", category, "months", `${year}.json`),
+            JSON.stringify(monthlyData, null, 2)
+          );
+        if (yearlySum) yearData[parseInt(year)] = yearlySum;
       }
+      if (Object.keys(yearData).length)
+        await write(
+          join(".", "data", category, "years.json"),
+          JSON.stringify(yearData, null, 2)
+        );
     }
-
-    // Generate weekly summary
-    for await (const year of Object.keys(weeks)) {
-      for await (const week of [
-        ...Array(dayjs(`${year}-06-06`).isoWeeksInYear()).keys(),
-      ].map((i) => i + 1)) {
-        if (
-          dayjs(`${year}-06-06`).week(week).startOf("week").isBefore(dayjs())
-        ) {
-          const days: { [index: string]: number } = {};
-          const dayOne = dayjs(`${year}-06-06`).week(week).startOf("week");
-          for (let i = 0; i < 7; i++) {
-            const daySubtract = dayOne.subtract(i, "day");
-            if (daySubtract.week() === week)
-              days[daySubtract.format("YYYY-MM-DD")] =
-                (weeks[year][week] ?? {})[daySubtract.format("D")] ?? 0;
-            const dayAdd = dayOne.add(i, "day");
-            if (dayAdd.week() === week)
-              days[dayAdd.format("YYYY-MM-DD")] =
-                (weeks[year][week] ?? {})[dayAdd.format("D")] ?? 0;
-          }
-          await write(
-            join(
-              ".",
-              "data",
-              "health",
-              dataType,
-              "weekly",
-              year,
-              week.toString(),
-              "sessions.json"
-            ),
-            JSON.stringify(days, null, 2)
-          );
-          const image = await canvasRenderService.renderToBuffer({
-            type: "bar",
-            data: {
-              labels: Object.keys(days).map((day) =>
-                dayjs(day).format("MMMM DD, YYYY")
-              ),
-              datasets: [
-                {
-                  backgroundColor: "#89e0cf",
-                  borderColor: "#1abc9c",
-                  data: Object.values(days).map((val) => Number(val) / 3600),
-                },
-              ],
-            },
-            options: {
-              legend: { display: false },
-            },
-          });
-          await write(
-            join(
-              ".",
-              "data",
-              "health",
-              dataType,
-              "weekly",
-              year,
-              week.toString(),
-              "graph.png"
-            ),
-            image
-          );
-        }
-      }
-    }
-
-    // Generate monthly and yearly summary
-    for await (const year of Object.keys(yearMonths)) {
-      const yearly: { [index: number]: number } = {};
-      for await (const month of [...Array(12).keys()].map((i) => i + 1)) {
-        if (
-          dayjs(
-            `${year}-${zero(month.toString())}-${dayjs(month).daysInMonth()}`
-          ).isBefore(dayjs())
-        ) {
-          let monthlySum = 0;
-          const monthly: { [index: number]: number } = {};
-          for (let i = 0; i < dayjs(month).daysInMonth(); i++) {
-            const day = i + 1;
-            if (
-              dayjs(`${year}-${zero(month.toString())}-${day}`).isBefore(
-                dayjs()
-              )
-            ) {
-              monthly[day] =
-                ((yearMonths[year] ?? {})[zero(month.toString())] ?? {})[
-                  zero(day.toString())
-                ] ?? 0;
-              monthlySum += monthly[day];
-            }
-          }
-          yearly[month] = monthlySum;
-          await write(
-            join(
-              ".",
-              "data",
-              "health",
-              dataType,
-              "monthly",
-              year,
-              month.toString(),
-              "sessions.json"
-            ),
-            JSON.stringify(monthly, null, 2)
-          );
-          const image = await canvasRenderService.renderToBuffer({
-            type: "bar",
-            data: {
-              labels: Object.keys(monthly).map((day) =>
-                dayjs(`${year}-${month}-${day}`).format("MMMM DD, YYYY")
-              ),
-              datasets: [
-                {
-                  backgroundColor: "#89e0cf",
-                  borderColor: "#1abc9c",
-                  data: Object.values(monthly).map((val) => Number(val) / 3600),
-                },
-              ],
-            },
-            options: {
-              legend: { display: false },
-            },
-          });
-          await write(
-            join(
-              ".",
-              "data",
-              "health",
-              dataType,
-              "monthly",
-              year,
-              month.toString(),
-              "graph.png"
-            ),
-            image
-          );
-        }
-      }
-      await write(
-        join(".", "data", "health", dataType, "yearly", year, "sessions.json"),
-        JSON.stringify(yearly, null, 2)
-      );
-      const image = await canvasRenderService.renderToBuffer({
-        type: "bar",
-        data: {
-          labels: Object.keys(yearly).map((month) =>
-            dayjs(`${year}-${month}-06`).format("MMMM YYYY")
-          ),
-          datasets: [
-            {
-              backgroundColor: "#89e0cf",
-              borderColor: "#1abc9c",
-              data: Object.values(yearly).map((val) => Number(val) / 3600),
-            },
-          ],
-        },
-        options: {
-          legend: { display: false },
-        },
-      });
-      await write(
-        join(".", "data", "health", dataType, "yearly", year, "graph.png"),
-        image
-      );
-    }
-    console.log(`Oura Ring: ${dataType} summaries generated`);
   }
 };
 
