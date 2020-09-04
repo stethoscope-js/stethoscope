@@ -51,9 +51,9 @@ const App: FunctionComponent<{}> = () => {
             window.location.href = `/?repo=${encodeURIComponent(
               repo
             )}&api=${encodeURIComponent(api)}&path=${encodeURIComponent(
-              `summary/${latest}/${lastKey.split("[")[0].replace(/\./g, "/")}/${
-                dotted[lastKey]
-              }`
+              `summary/${latest.replace(/\./g, "/")}/${lastKey
+                .split("[")[0]
+                .replace(/\./g, "/")}/${dotted[lastKey]}`
             )}`;
           }
         }
@@ -85,7 +85,6 @@ const App: FunctionComponent<{}> = () => {
 
   return (
     <div>
-      <h1>{path ?? "No path"}</h1>
       {previous ? (
         <Link
           to={`/?repo=${encodeURIComponent(repo)}&api=${encodeURIComponent(
