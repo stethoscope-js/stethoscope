@@ -61,7 +61,7 @@ const saveData = async (data: fitness_v1.Schema$Session[]) => {
         join(
           ".",
           "data",
-          sessionType.replace(/_/g, "-"),
+          `google-fit-${sessionType.replace(/_/g, "-")}`,
           "daily",
           sessionDate,
           "sessions.json"
@@ -228,11 +228,15 @@ export const summary = async () => {
   ]) {
     // Find all items that have daily
     if (
-      (await pathExists(join(".", "data", category, "daily"))) &&
-      (await lstat(join(".", "data", category, "daily"))).isDirectory()
+      (await pathExists(
+        join(".", "data", `google-fit-${category}`, "daily")
+      )) &&
+      (
+        await lstat(join(".", "data", `google-fit-${category}`, "daily"))
+      ).isDirectory()
     ) {
       const years = (
-        await readdir(join(".", "data", category, "daily"))
+        await readdir(join(".", "data", `google-fit-${category}`, "daily"))
       ).filter((i) => /^\d+$/.test(i));
       const yearData: { [index: string]: number } = {};
       for await (const year of years) {
@@ -242,7 +246,9 @@ export const summary = async () => {
           .slice(1)
           .forEach((val) => (monthlyData[val.toString()] = 0));
         const months = (
-          await readdir(join(".", "data", category, "daily", year))
+          await readdir(
+            join(".", "data", `google-fit-${category}`, "daily", year)
+          )
         ).filter((i) => /^\d+$/.test(i));
         for await (const month of months) {
           let monthlySum = 0;
@@ -251,14 +257,16 @@ export const summary = async () => {
             .slice(1)
             .forEach((val) => (dailyData[val.toString()] = 0));
           const days = (
-            await readdir(join(".", "data", category, "daily", year, month))
+            await readdir(
+              join(".", "data", `google-fit-${category}`, "daily", year, month)
+            )
           ).filter((i) => /^\d+$/.test(i));
           for await (const day of days) {
             let json = await readJson(
               join(
                 ".",
                 "data",
-                category,
+                `google-fit-${category}`,
                 "daily",
                 year,
                 month,
@@ -316,7 +324,7 @@ export const summary = async () => {
               join(
                 ".",
                 "data",
-                category,
+                `google-fit-${category}`,
                 "summary",
                 "days",
                 year,
@@ -328,14 +336,21 @@ export const summary = async () => {
         }
         if (Object.keys(monthlyData).length)
           await write(
-            join(".", "data", category, "summary", "months", `${year}.json`),
+            join(
+              ".",
+              "data",
+              `google-fit-${category}`,
+              "summary",
+              "months",
+              `${year}.json`
+            ),
             JSON.stringify(monthlyData, null, 2)
           );
         if (yearlySum) yearData[parseInt(year)] = yearlySum;
       }
       if (Object.keys(yearData).length)
         await write(
-          join(".", "data", category, "summary", "years.json"),
+          join(".", "data", `google-fit-${category}`, "summary", "years.json"),
           JSON.stringify(yearData, null, 2)
         );
     }

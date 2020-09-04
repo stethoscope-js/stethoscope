@@ -42,7 +42,14 @@ const getLastFmTracks = async (date: Date, page = 1) => {
   }
   for await (const key of Object.keys(itemsByDate)) {
     await write(
-      join(".", "data", "music", "daily", key, "listening-history.json"),
+      join(
+        ".",
+        "data",
+        "last-fm-music",
+        "daily",
+        key,
+        "listening-history.json"
+      ),
       JSON.stringify(itemsByDate[key], null, 2)
     );
   }
@@ -69,7 +76,7 @@ export const daily = async () => {
     join(
       ".",
       "data",
-      "music",
+      "last-fm-music",
       "weekly",
       "top-albums",
       date.format("YYYY"),
@@ -88,7 +95,7 @@ export const daily = async () => {
     join(
       ".",
       "data",
-      "music",
+      "last-fm-music",
       "weekly",
       "top-tracks",
       date.format("YYYY"),
@@ -107,7 +114,7 @@ export const daily = async () => {
     join(
       ".",
       "data",
-      "music",
+      "last-fm-music",
       "weekly",
       "top-artists",
       date.format("YYYY"),
@@ -126,7 +133,7 @@ export const daily = async () => {
     join(
       ".",
       "data",
-      "music",
+      "last-fm-music",
       "monthly",
       "top-albums",
       date.format("YYYY"),
@@ -145,7 +152,7 @@ export const daily = async () => {
     join(
       ".",
       "data",
-      "music",
+      "last-fm-music",
       "monthly",
       "top-tracks",
       date.format("YYYY"),
@@ -164,7 +171,7 @@ export const daily = async () => {
     join(
       ".",
       "data",
-      "music",
+      "last-fm-music",
       "monthly",
       "top-artists",
       date.format("YYYY"),
@@ -183,7 +190,7 @@ export const daily = async () => {
     join(
       ".",
       "data",
-      "music",
+      "last-fm-music",
       "yearly",
       "top-albums",
       `${date.format("YYYY")}.json`
@@ -201,7 +208,7 @@ export const daily = async () => {
     join(
       ".",
       "data",
-      "music",
+      "last-fm-music",
       "yearly",
       "top-tracks",
       `${date.format("YYYY")}.json`
@@ -219,7 +226,7 @@ export const daily = async () => {
     join(
       ".",
       "data",
-      "music",
+      "last-fm-music",
       "yearly",
       "top-artists",
       `${date.format("YYYY")}.json`

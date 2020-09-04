@@ -79,7 +79,7 @@ const updateRescueTimeDailyData = async (date: Date) => {
     join(
       ".",
       "data",
-      "rescuetime",
+      "rescuetime-time-tracking",
       "daily",
       year,
       month,
@@ -92,7 +92,7 @@ const updateRescueTimeDailyData = async (date: Date) => {
     join(
       ".",
       "data",
-      "rescuetime",
+      "rescuetime-time-tracking",
       "daily",
       year,
       month,

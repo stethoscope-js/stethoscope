@@ -35,7 +35,7 @@ const updateOuraDailyData = async (date: Date) => {
     join(
       ".",
       "data",
-      "weight",
+      "oura-weight",
       "daily",
       dayjs(formattedDate).format("YYYY"),
       dayjs(formattedDate).format("MM"),
@@ -86,7 +86,7 @@ const updateOuraDailyData = async (date: Date) => {
     join(
       ".",
       "data",
-      "readiness",
+      "oura-readiness",
       "daily",
       dayjs(formattedDate).format("YYYY"),
       dayjs(formattedDate).format("MM"),
@@ -111,7 +111,7 @@ const updateOuraDailyData = async (date: Date) => {
     join(
       ".",
       "data",
-      "activity",
+      "oura-activity",
       "daily",
       dayjs(formattedDate).format("YYYY"),
       dayjs(formattedDate).format("MM"),
@@ -147,9 +147,9 @@ export const summary = async () => {
     "light",
   ]) {
     for await (const category of [
-      "readiness",
-      "activity",
-      "weight",
+      "oura-readiness",
+      "oura-activity",
+      "oura-weight",
       "oura-sleep",
     ]) {
       // Find all items that have daily
