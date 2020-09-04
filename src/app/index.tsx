@@ -3,6 +3,13 @@ import { render } from "react-dom";
 import "./styles.scss";
 import { useSearchParam, createMemo } from "react-use";
 import { pick } from "dot-object";
+import { Link } from "wouter";
+
+const changeLastPart = (path: string, last: string) => {
+  const key = path.split("/");
+  key.pop();
+  return `${key.join("/")}/${last}`;
+};
 
 const App: FunctionComponent<{}> = () => {
   const path = useSearchParam("path");
@@ -10,7 +17,8 @@ const App: FunctionComponent<{}> = () => {
   const api = useSearchParam("api");
   const latest = useSearchParam("latest");
 
-  const [paths, setPaths] = useState<string[]>([]);
+  const [previous, setPrevious] = useState<string>();
+  const [next, setNext] = useState<string>();
   const [graphData, setGraphData] = useState<{ [index: number]: number }>({});
 
   const getApiData = async (repo: string, api: string, path: string) => {
@@ -43,8 +51,14 @@ const App: FunctionComponent<{}> = () => {
     useMemoApiData(repo, api, "api.json")
       .then((data) => {
         const key = path.split("summary/")[1].split("/");
-        key.pop();
-        setPaths(pick(key.join("."), data));
+        const last = key.pop();
+        const items: string[] = pick(key.join("."), data);
+        items.forEach((element, index) => {
+          if (element === last) {
+            if (index > 0) setPrevious(items[index - 1]);
+            if (index < items.length) setNext(items[index + 1]);
+          }
+        });
       })
       .catch(console.log);
     useMemoApiData(repo, api, path).then(setGraphData).catch(console.log);
@@ -56,7 +70,24 @@ const App: FunctionComponent<{}> = () => {
   return (
     <div>
       <h1>{path ?? "No path"}</h1>
-      <p>{JSON.stringify(paths)}</p>
+      {previous ? (
+        <Link
+          to={`/?repo=${encodeURIComponent(repo)}&api=${encodeURIComponent(
+            api
+          )}&path=${encodeURIComponent(changeLastPart(path, previous))}`}
+        >
+          Previous: {previous}
+        </Link>
+      ) : undefined}
+      {next ? (
+        <Link
+          to={`/?repo=${encodeURIComponent(repo)}&api=${encodeURIComponent(
+            api
+          )}&path=${encodeURIComponent(changeLastPart(path, next))}`}
+        >
+          Next: {next}
+        </Link>
+      ) : undefined}
       <p>{JSON.stringify(graphData)}</p>
     </div>
   );
