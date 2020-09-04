@@ -200,21 +200,29 @@ export const summary = async () => {
           }
           if (Object.keys(dailyData).length)
             await write(
-              join(".", "data", category, "days", year, `${month}.json`),
+              join(
+                ".",
+                "data",
+                category,
+                "summary",
+                "days",
+                year,
+                `${month}.json`
+              ),
               JSON.stringify(dailyData, null, 2)
             );
           if (monthlySum) monthlyData[parseInt(month)] = monthlySum;
         }
         if (Object.keys(monthlyData).length)
           await write(
-            join(".", "data", category, "months", `${year}.json`),
+            join(".", "data", category, "summary", "months", `${year}.json`),
             JSON.stringify(monthlyData, null, 2)
           );
         if (yearlySum) yearData[parseInt(year)] = yearlySum;
       }
       if (Object.keys(yearData).length)
         await write(
-          join(".", "data", category, "years.json"),
+          join(".", "data", category, "summary", "years.json"),
           JSON.stringify(yearData, null, 2)
         );
     }
