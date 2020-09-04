@@ -7,13 +7,13 @@
     "sourceMap": true,
     "strict": true,
     "moduleResolution": "node",
-    "baseUrl": "./src",
     "paths": {
       "~/*": ["./*"]
     },
+    "baseUrl": "./",
     "typeRoots": ["node_modules/@types"],
     "allowSyntheticDefaultImports": true,
     "esModuleInterop": true
   },
-  "include": ["src/**/*"]
+  "include": ["**/*"]
 }

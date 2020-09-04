@@ -1,7 +1,14 @@
-import React from "react";
+import React, { FunctionComponent } from "react";
 import { render } from "react-dom";
 import "./styles.scss";
+import { Route } from "wouter";
 
-const Application: React.FunctionComponent<{}> = () => <h1>Application</h1>;
+const App: FunctionComponent<{}> = () => (
+  <div>
+    <Route path="/">
+      <h1>App</h1>
+    </Route>
+  </div>
+);
 
-render(<Application />, document.getElementById("root"));
+render(<App />, document.getElementById("root"));
