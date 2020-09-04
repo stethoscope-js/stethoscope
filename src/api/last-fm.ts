@@ -9,7 +9,7 @@ import week from "dayjs/plugin/weekOfYear";
 dayjs.extend(week);
 cosmicSync("life");
 
-const lastFm = new LastFm(config("lastfmApiKey"));
+const lastFm = new LastFm(config("lastfmApiKey") ?? "example");
 
 const fetchTracks = async (date: Date, page = 1) => {
   const LIMIT = 50;
