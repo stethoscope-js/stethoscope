@@ -2,8 +2,9 @@ import React, { FunctionComponent, useState } from "react";
 import { render } from "react-dom";
 import "./styles.scss";
 import { useSearchParam, createMemo } from "react-use";
-import { pick } from "dot-object";
+import { pick, dot } from "dot-object";
 import { Link } from "wouter";
+import { Line } from "react-chartjs-2";
 
 const changeLastPart = (path: string, last: string) => {
   const key = path.split("/");
@@ -17,8 +18,8 @@ const App: FunctionComponent<{}> = () => {
   const api = useSearchParam("api");
   const latest = useSearchParam("latest");
 
-  const [previous, setPrevious] = useState<string>();
-  const [next, setNext] = useState<string>();
+  const [previous, setPrevious] = useState<string | null>(null);
+  const [next, setNext] = useState<string | null>(null);
   const [graphData, setGraphData] = useState<{ [index: number]: number }>({});
 
   const getApiData = async (repo: string, api: string, path: string) => {
@@ -37,12 +38,25 @@ const App: FunctionComponent<{}> = () => {
     useMemoApiData(repo, api, "api.json")
       .then((json) => {
         const items = pick(latest, json);
-        if (!Array.isArray(items)) throw new Error();
-        window.location.href = `/?repo=${encodeURIComponent(
-          repo
-        )}&api=${encodeURIComponent(api)}&path=${encodeURIComponent(
-          `summary/${latest}/${items[items.length - 1]}`
-        )}`;
+        if (Array.isArray(items)) {
+          window.location.href = `/?repo=${encodeURIComponent(
+            repo
+          )}&api=${encodeURIComponent(api)}&path=${encodeURIComponent(
+            `summary/${latest}/${items[items.length - 1]}`
+          )}`;
+        } else if (typeof items === "object") {
+          const dotted = dot(items);
+          const lastKey = Object.keys(dotted).pop();
+          if (lastKey) {
+            window.location.href = `/?repo=${encodeURIComponent(
+              repo
+            )}&api=${encodeURIComponent(api)}&path=${encodeURIComponent(
+              `summary/${latest}/${lastKey.split("[")[0].replace(/\./g, "/")}/${
+                dotted[lastKey]
+              }`
+            )}`;
+          }
+        }
       })
       .catch(console.log);
   }
@@ -56,7 +70,9 @@ const App: FunctionComponent<{}> = () => {
         items.forEach((element, index) => {
           if (element === last) {
             if (index > 0) setPrevious(items[index - 1]);
+            else setPrevious(null);
             if (index < items.length) setNext(items[index + 1]);
+            else setNext(null);
           }
         });
       })
@@ -88,7 +104,14 @@ const App: FunctionComponent<{}> = () => {
           Next: {next}
         </Link>
       ) : undefined}
-      <p>{JSON.stringify(graphData)}</p>
+      {Object.keys(graphData).length ? (
+        <Line
+          data={{
+            labels: Object.keys(graphData),
+            datasets: [{ data: Object.values(graphData) }],
+          }}
+        />
+      ) : undefined}
     </div>
   );
 };
