@@ -2,7 +2,7 @@ import "./common";
 import { config } from "@anandchowdhary/cosmic";
 
 import { summary as spotify } from "./api/spotify";
-import { summary as rescueTime } from "./api/rescue-time";
+import { summary as rescueTime } from "./api/rescuetime";
 import { summary as lastFm } from "./api/last-fm";
 import { summary as pocketCasts } from "./api/pocket-casts";
 import { summary as wakatime } from "./api/wakatime";
