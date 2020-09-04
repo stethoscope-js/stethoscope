@@ -102,7 +102,11 @@ export const daily = async () => {
 };
 
 export const summary = async () => {
-  const healthCategories = await readdir(join(".", "data", "health"));
+  const healthCategories = (
+    await readdir(join(".", "data", "health"))
+  ).filter((category) =>
+    ["readiness", "activity", "weight", "oura-sleep"].includes(category)
+  );
   for await (const category of healthCategories) {
     // Find all items that have daily
     if (

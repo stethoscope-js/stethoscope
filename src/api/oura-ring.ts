@@ -140,8 +140,12 @@ export const daily = async () => {
 };
 
 export const summary = async () => {
-  const healthCategories = await readdir(join(".", "data", "health"));
-  for await (const category of healthCategories) {
+  for await (const category of [
+    "readiness",
+    "activity",
+    "weight",
+    "oura-sleep",
+  ]) {
     // Find all items that have daily
     if (
       (await pathExists(join(".", "data", "health", category, "daily"))) &&
