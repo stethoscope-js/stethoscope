@@ -120,7 +120,7 @@ export const summary = async () => {
           join(".", "data", "health", dataType, "daily", year, month)
         );
         for await (const day of days) {
-          const _data: Array<{
+          let _data: Array<{
             startTime: string;
             endTime: string;
           }> = await readJson(
@@ -141,40 +141,44 @@ export const summary = async () => {
            * Combine overlapping ranges
            * @source https://stackoverflow.com/a/42002001/1656944
            */
-          const data = _data
-            .sort(
-              (a, b) =>
-                dayjs(a.startTime).unix() - dayjs(b.startTime).unix() ||
-                dayjs(a.endTime).unix() - dayjs(b.endTime).unix()
-            )
-            .reduce((r: Array<{ startTime: string; endTime: string }>, a) => {
-              const last = r[r.length - 1] || [];
-              if (
-                dayjs(last.startTime).unix() <= dayjs(a.startTime).unix() &&
-                dayjs(a.startTime).unix() <= dayjs(last.endTime).unix()
-              ) {
-                if (dayjs(last.endTime).unix() < dayjs(a.endTime).unix()) {
-                  last.endTime = a.endTime;
+          if (Array.isArray(_data)) {
+            const data = _data
+              .sort(
+                (a, b) =>
+                  dayjs(a.startTime).unix() - dayjs(b.startTime).unix() ||
+                  dayjs(a.endTime).unix() - dayjs(b.endTime).unix()
+              )
+              .reduce((r: Array<{ startTime: string; endTime: string }>, a) => {
+                const last = r[r.length - 1] || [];
+                if (
+                  dayjs(last.startTime).unix() <= dayjs(a.startTime).unix() &&
+                  dayjs(a.startTime).unix() <= dayjs(last.endTime).unix()
+                ) {
+                  if (dayjs(last.endTime).unix() < dayjs(a.endTime).unix()) {
+                    last.endTime = a.endTime;
+                  }
+                  return r;
                 }
-                return r;
-              }
-              return r.concat(a);
-            }, []);
-          let sum = 0;
-          data.forEach((session) => {
-            const seconds = dayjs(session.endTime).diff(
-              dayjs(session.startTime),
-              "second"
-            );
-            sum += seconds;
-          });
-          yearMonths[year] = yearMonths[year] ?? {};
-          yearMonths[year][month] = yearMonths[year][month] ?? {};
-          yearMonths[year][month][day] = sum;
-          const weekNumber = dayjs(`${year}-${month}-${day}`).week().toString();
-          weeks[year] = weeks[year] ?? {};
-          weeks[year][weekNumber] = weeks[year][weekNumber] ?? {};
-          weeks[year][weekNumber][day] = sum;
+                return r.concat(a);
+              }, []);
+            let sum = 0;
+            data.forEach((session) => {
+              const seconds = dayjs(session.endTime).diff(
+                dayjs(session.startTime),
+                "second"
+              );
+              sum += seconds;
+            });
+            yearMonths[year] = yearMonths[year] ?? {};
+            yearMonths[year][month] = yearMonths[year][month] ?? {};
+            yearMonths[year][month][day] = sum;
+            const weekNumber = dayjs(`${year}-${month}-${day}`)
+              .week()
+              .toString();
+            weeks[year] = weeks[year] ?? {};
+            weeks[year][weekNumber] = weeks[year][weekNumber] ?? {};
+            weeks[year][weekNumber][day] = sum;
+          }
         }
       }
     }
