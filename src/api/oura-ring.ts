@@ -215,14 +215,17 @@ export const summary = async () => {
               monthlySum += dailySum;
               yearlySum += dailySum;
             }
-            if (Object.keys(dailyData).length)
+            if (
+              Object.keys(dailyData).length &&
+              Object.values(dailyData).reduce((a, b) => a + b, 0)
+            )
               await write(
                 join(
                   ".",
                   "data",
                   category,
                   "summary",
-                  key,
+                  key.replace(/_/g, "-"),
                   "days",
                   year,
                   `${month}.json`
@@ -231,14 +234,17 @@ export const summary = async () => {
               );
             if (monthlySum) monthlyData[parseInt(month)] = monthlySum;
           }
-          if (Object.keys(monthlyData).length)
+          if (
+            Object.keys(monthlyData).length &&
+            Object.values(monthlyData).reduce((a, b) => a + b, 0)
+          )
             await write(
               join(
                 ".",
                 "data",
                 category,
                 "summary",
-                key,
+                key.replace(/_/g, "-"),
                 "months",
                 `${year}.json`
               ),
@@ -246,9 +252,19 @@ export const summary = async () => {
             );
           if (yearlySum) yearData[parseInt(year)] = yearlySum;
         }
-        if (Object.keys(yearData).length)
+        if (
+          Object.keys(yearData).length &&
+          Object.values(yearData).reduce((a, b) => a + b, 0)
+        )
           await write(
-            join(".", "data", category, "summary", key, "years.json"),
+            join(
+              ".",
+              "data",
+              category,
+              "summary",
+              key.replace(/_/g, "-"),
+              "years.json"
+            ),
             JSON.stringify(yearData, null, 2)
           );
       }
