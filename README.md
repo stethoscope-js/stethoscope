@@ -203,5 +203,7 @@ The Oura API requires a Personal Access Token which can be generated on the [Per
 
 ## 📄 License
 
-- Icons from [The Noun Project](https://thenounproject.com): CC BY 3.0
-  - Loader by [Rohith M S](https://thenounproject.com/rohithdezinr)
+- Code: [MIT](./LICENSE) © [Anand Chowdhary](https://anandchowdhary.com)
+- Data in [`./data`](./data): [Open Database License](https://opendatacommons.org/licenses/odbl/1-0/)(https://anandchowdhary.com)
+- Icons in [`./src/app`](./src/app)
+  - Loader: [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/) © [Rohith M S](https://thenounproject.com/rohithdezinr)
