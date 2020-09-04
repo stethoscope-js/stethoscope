@@ -16,13 +16,13 @@ dayjs.extend(isLeapYear);
 cosmicSync("life");
 
 const oauth2Client = new google.auth.OAuth2(
-  config("googleFitClientId"),
-  config("googleFitClientSecret"),
+  config("googleFitClientId") ?? "example",
+  config("googleFitClientSecret") ?? "example",
   "https://developers.google.com/oauthplayground"
 );
 oauth2Client.setCredentials({
-  access_token: config("googleFitAccessToken"),
-  refresh_token: config("googleFitRefreshToken"),
+  access_token: config("googleFitAccessToken") ?? "example",
+  refresh_token: config("googleFitRefreshToken") ?? "example",
 });
 const fitness = google.fitness({ version: "v1", auth: oauth2Client });
 

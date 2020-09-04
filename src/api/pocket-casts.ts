@@ -9,8 +9,8 @@ dayjs.extend(week);
 cosmicSync("life");
 
 const pocketCasts = new PocketCasts(
-  config("pocketCastsUsername"),
-  config("pocketCastsPassword")
+  config("pocketCastsUsername") ?? "example",
+  config("pocketCastsPassword") ?? "example"
 );
 
 export const daily = async () => {

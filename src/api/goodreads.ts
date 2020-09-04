@@ -2,12 +2,12 @@ import goodreads from "goodreads-api-node";
 import { config, cosmicSync } from "@anandchowdhary/cosmic";
 cosmicSync("life");
 
-const userId = config("goodreadsUserId");
+const userId = config("goodreadsUserId") ?? "example";
 
 const api = goodreads(
   {
-    key: config("goodreadsKey"),
-    secret: config("goodreadsSecret"),
+    key: config("goodreadsKey") ?? "example",
+    secret: config("goodreadsSecret") ?? "example",
   },
   config("goodreadsCallbackUrl") ?? "http://localhost:3000/callback"
 );

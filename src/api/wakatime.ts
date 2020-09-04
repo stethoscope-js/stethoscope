@@ -9,7 +9,7 @@ import { pathExists, lstat, readdir, readJson } from "fs-extra";
 dayjs.extend(week);
 cosmicSync("life");
 
-const client = new WakaTimeClient(config("wakatimeApiKey"));
+const client = new WakaTimeClient(config("wakatimeApiKey") ?? "example");
 
 const updateWakatimeDailyData = async (date: Date) => {
   const formattedDate = dayjs(date).format("YYYY-MM-DD");

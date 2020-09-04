@@ -15,11 +15,11 @@ type Optional<T extends object, K extends keyof T = keyof T> = Omit<T, K> &
   Partial<Pick<T, K>>;
 
 const api = new SpotifyAPI({
-  clientId: config("spotifyClientId"),
-  clientSecret: config("spotifyClientSecret"),
+  clientId: config("spotifyClientId") ?? "example",
+  clientSecret: config("spotifyClientSecret") ?? "example",
   redirectUri: config("spotifyCallbackUrl") ?? "http://localhost:3000/callback",
-  accessToken: config("spotifyAccessToken"),
-  refreshToken: config("spotifyRefreshToken"),
+  accessToken: config("spotifyAccessToken") ?? "example",
+  refreshToken: config("spotifyRefreshToken") ?? "example",
 });
 
 export const daily = async () => {
