@@ -43,15 +43,7 @@ export const daily = async () => {
   }
   for await (const key of Object.keys(itemsByDate)) {
     await write(
-      join(
-        ".",
-        "data",
-        "music",
-        "spotify",
-        "daily",
-        key,
-        "listening-history.json"
-      ),
+      join(".", "data", "music", "daily", key, "listening-history.json"),
       JSON.stringify(itemsByDate[key], null, 2)
     );
   }
@@ -70,17 +62,7 @@ export const daily = async () => {
     date: library.body.items[index].added_at,
   }));
   await write(
-    join(
-      ".",
-      "data",
-      "music",
-      "spotify",
-      "daily",
-      year,
-      month,
-      day,
-      "library.json"
-    ),
+    join(".", "data", "music", "daily", year, month, day, "library.json"),
     JSON.stringify(libraryItems, null, 2)
   );
   console.log("Spotify: Added library");

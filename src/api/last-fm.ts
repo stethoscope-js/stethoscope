@@ -42,15 +42,7 @@ const getLastFmTracks = async (date: Date, page = 1) => {
   }
   for await (const key of Object.keys(itemsByDate)) {
     await write(
-      join(
-        ".",
-        "data",
-        "music",
-        "last-fm",
-        "daily",
-        key,
-        "listening-history.json"
-      ),
+      join(".", "data", "music", "daily", key, "listening-history.json"),
       JSON.stringify(itemsByDate[key], null, 2)
     );
   }
@@ -78,7 +70,6 @@ export const daily = async () => {
       ".",
       "data",
       "music",
-      "last-fm",
       "weekly",
       "top-albums",
       date.format("YYYY"),
@@ -98,7 +89,6 @@ export const daily = async () => {
       ".",
       "data",
       "music",
-      "last-fm",
       "weekly",
       "top-tracks",
       date.format("YYYY"),
@@ -118,7 +108,6 @@ export const daily = async () => {
       ".",
       "data",
       "music",
-      "last-fm",
       "weekly",
       "top-artists",
       date.format("YYYY"),
@@ -138,7 +127,6 @@ export const daily = async () => {
       ".",
       "data",
       "music",
-      "last-fm",
       "monthly",
       "top-albums",
       date.format("YYYY"),
@@ -158,7 +146,6 @@ export const daily = async () => {
       ".",
       "data",
       "music",
-      "last-fm",
       "monthly",
       "top-tracks",
       date.format("YYYY"),
@@ -178,7 +165,6 @@ export const daily = async () => {
       ".",
       "data",
       "music",
-      "last-fm",
       "monthly",
       "top-artists",
       date.format("YYYY"),
@@ -198,7 +184,6 @@ export const daily = async () => {
       ".",
       "data",
       "music",
-      "last-fm",
       "yearly",
       "top-albums",
       `${date.format("YYYY")}.json`
@@ -217,7 +202,6 @@ export const daily = async () => {
       ".",
       "data",
       "music",
-      "last-fm",
       "yearly",
       "top-tracks",
       `${date.format("YYYY")}.json`
@@ -236,7 +220,6 @@ export const daily = async () => {
       ".",
       "data",
       "music",
-      "last-fm",
       "yearly",
       "top-artists",
       `${date.format("YYYY")}.json`

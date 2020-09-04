@@ -55,15 +55,7 @@ const getTimeData = async (date: Date) => {
   }
   for await (const key of Object.keys(itemsByDate)) {
     await write(
-      join(
-        ".",
-        "data",
-        "time-tracking",
-        "clockify",
-        "daily",
-        key,
-        "time-entries.json"
-      ),
+      join(".", "data", "clockify", "daily", key, "time-entries.json"),
       JSON.stringify(itemsByDate[key], null, 2)
     );
   }
