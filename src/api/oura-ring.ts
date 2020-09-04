@@ -1,11 +1,10 @@
 import { cosmicSync, config } from "@anandchowdhary/cosmic";
 import axios from "axios";
 import { join } from "path";
-import { write, zero } from "../common";
+import { write } from "../common";
 import PromisePool from "es6-promise-pool";
 import dayjs from "dayjs";
 import { readdir, readJson, pathExists, lstat } from "fs-extra";
-import { CanvasRenderService } from "chartjs-node-canvas";
 import isoWeeksInYear from "dayjs/plugin/isoWeeksInYear";
 import isLeapYear from "dayjs/plugin/isLeapYear";
 import week from "dayjs/plugin/weekOfYear";
@@ -14,7 +13,6 @@ dayjs.extend(week);
 dayjs.extend(isoWeeksInYear);
 dayjs.extend(isLeapYear);
 cosmicSync("life");
-const canvasRenderService = new CanvasRenderService(1200, 800);
 
 const updateOuraDailyData = async (date: Date) => {
   const formattedDate = dayjs(date).format("YYYY-MM-DD");
@@ -37,7 +35,6 @@ const updateOuraDailyData = async (date: Date) => {
     join(
       ".",
       "data",
-      "health",
       "weight",
       "daily",
       dayjs(formattedDate).format("YYYY"),
@@ -64,7 +61,6 @@ const updateOuraDailyData = async (date: Date) => {
     join(
       ".",
       "data",
-      "health",
       "oura-sleep",
       "daily",
       dayjs(formattedDate).format("YYYY"),
@@ -90,7 +86,6 @@ const updateOuraDailyData = async (date: Date) => {
     join(
       ".",
       "data",
-      "health",
       "readiness",
       "daily",
       dayjs(formattedDate).format("YYYY"),
@@ -116,7 +111,6 @@ const updateOuraDailyData = async (date: Date) => {
     join(
       ".",
       "data",
-      "health",
       "activity",
       "daily",
       dayjs(formattedDate).format("YYYY"),
@@ -160,13 +154,11 @@ export const summary = async () => {
     ]) {
       // Find all items that have daily
       if (
-        (await pathExists(join(".", "data", "health", category, "daily"))) &&
-        (
-          await lstat(join(".", "data", "health", category, "daily"))
-        ).isDirectory()
+        (await pathExists(join(".", "data", category, "daily"))) &&
+        (await lstat(join(".", "data", category, "daily"))).isDirectory()
       ) {
         const years = (
-          await readdir(join(".", "data", "health", category, "daily"))
+          await readdir(join(".", "data", category, "daily"))
         ).filter((i) => /^\d+$/.test(i));
         const yearData: { [index: string]: number } = {};
         for await (const year of years) {
@@ -176,7 +168,7 @@ export const summary = async () => {
             .slice(1)
             .forEach((val) => (monthlyData[val.toString()] = 0));
           const months = (
-            await readdir(join(".", "data", "health", category, "daily", year))
+            await readdir(join(".", "data", category, "daily", year))
           ).filter((i) => /^\d+$/.test(i));
           for await (const month of months) {
             let monthlySum = 0;
@@ -185,16 +177,13 @@ export const summary = async () => {
               .slice(1)
               .forEach((val) => (dailyData[val.toString()] = 0));
             const days = (
-              await readdir(
-                join(".", "data", "health", category, "daily", year, month)
-              )
+              await readdir(join(".", "data", category, "daily", year, month))
             ).filter((i) => /^\d+$/.test(i));
             for await (const day of days) {
               let json = await readJson(
                 join(
                   ".",
                   "data",
-                  "health",
                   category,
                   "daily",
                   year,

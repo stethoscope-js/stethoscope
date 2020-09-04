@@ -1,12 +1,11 @@
 import { cosmicSync, config } from "@anandchowdhary/cosmic";
 import { google, fitness_v1 } from "googleapis";
-import { write, zero } from "../common";
+import { write } from "../common";
 import { join } from "path";
 import slugify from "@sindresorhus/slugify";
 import dayjs from "dayjs";
 import PromisePool from "es6-promise-pool";
 import { readdir, readJson, pathExists, lstat } from "fs-extra";
-import { CanvasRenderService } from "chartjs-node-canvas";
 import isoWeeksInYear from "dayjs/plugin/isoWeeksInYear";
 import isLeapYear from "dayjs/plugin/isLeapYear";
 import week from "dayjs/plugin/weekOfYear";
@@ -15,7 +14,6 @@ dayjs.extend(week);
 dayjs.extend(isoWeeksInYear);
 dayjs.extend(isLeapYear);
 cosmicSync("life");
-const canvasRenderService = new CanvasRenderService(1200, 800);
 
 const oauth2Client = new google.auth.OAuth2(
   config("googleFitClientId"),
@@ -63,8 +61,7 @@ const saveData = async (data: fitness_v1.Schema$Session[]) => {
         join(
           ".",
           "data",
-          "health",
-          sessionType,
+          sessionType.replace(/_/g, "-"),
           "daily",
           sessionDate,
           "sessions.json"
@@ -102,21 +99,140 @@ export const daily = async () => {
 };
 
 export const summary = async () => {
-  const healthCategories = (
-    await readdir(join(".", "data", "health"))
-  ).filter((category) =>
-    ["readiness", "activity", "weight", "oura-sleep"].includes(category)
-  );
-  for await (const category of healthCategories) {
+  for await (const category of [
+    "aerobics",
+    "archery",
+    "badminton",
+    "baseball",
+    "basketball",
+    "biathlon",
+    "biking",
+    "biking-hand",
+    "biking-mountain",
+    "biking-road",
+    "biking-spinning",
+    "biking-stationary",
+    "biking-utility",
+    "boxing",
+    "calisthenics",
+    "circuit-training",
+    "cricket",
+    "crossfit",
+    "curling",
+    "dancing",
+    "diving",
+    "elevator",
+    "elliptical",
+    "ergometer",
+    "escalator",
+    "extra-status",
+    "fencing",
+    "football-american",
+    "football-australian",
+    "football-soccer",
+    "frisbee-disc",
+    "gardening",
+    "golf",
+    "guided-breathing",
+    "gymnastics",
+    "handball",
+    "high-intensity-interval-training",
+    "hiking",
+    "hockey",
+    "horseback-riding",
+    "housework",
+    "ice-skating",
+    "interval-training",
+    "in-vehicle",
+    "jump-rope",
+    "kayaking",
+    "kettlebell-training",
+    "kickboxing",
+    "kick-scooter",
+    "kitesurfing",
+    "martial-arts",
+    "meditation",
+    "mime-type-prefix",
+    "mixed-martial-arts",
+    "on-foot",
+    "other",
+    "p90x",
+    "paragliding",
+    "pilates",
+    "polo",
+    "racquetball",
+    "rock-climbing",
+    "rowing",
+    "rowing-machine",
+    "rugby",
+    "running",
+    "running-jogging",
+    "running-sand",
+    "running-treadmill",
+    "sailing",
+    "scuba-diving",
+    "skateboarding",
+    "skating",
+    "skating-cross",
+    "skating-indoor",
+    "skating-inline",
+    "skiing",
+    "skiing-back-country",
+    "skiing-cross-country",
+    "skiing-downhill",
+    "skiing-kite",
+    "skiing-roller",
+    "sledding",
+    "sleep",
+    "sleep-awake",
+    "sleep-deep",
+    "sleep-light",
+    "sleep-rem",
+    "snowboarding",
+    "snowmobile",
+    "snowshoeing",
+    "softball",
+    "squash",
+    "stair-climbing",
+    "stair-climbing-machine",
+    "standup-paddleboarding",
+    "status-active",
+    "status-completed",
+    "still",
+    "strength-training",
+    "surfing",
+    "swimming",
+    "swimming-open-water",
+    "swimming-pool",
+    "table-tennis",
+    "team-sports",
+    "tennis",
+    "tilting",
+    "treadmill",
+    "unknown",
+    "volleyball",
+    "volleyball-beach",
+    "volleyball-indoor",
+    "wakeboarding",
+    "walking",
+    "walking-fitness",
+    "walking-nordic",
+    "walking-stroller",
+    "walking-treadmill",
+    "water-polo",
+    "weightlifting",
+    "wheelchair",
+    "windsurfing",
+    "yoga",
+    "zumba",
+  ]) {
     // Find all items that have daily
     if (
-      (await pathExists(join(".", "data", "health", category, "daily"))) &&
-      (
-        await lstat(join(".", "data", "health", category, "daily"))
-      ).isDirectory()
+      (await pathExists(join(".", "data", category, "daily"))) &&
+      (await lstat(join(".", "data", category, "daily"))).isDirectory()
     ) {
       const years = (
-        await readdir(join(".", "data", "health", category, "daily"))
+        await readdir(join(".", "data", category, "daily"))
       ).filter((i) => /^\d+$/.test(i));
       const yearData: { [index: string]: number } = {};
       for await (const year of years) {
@@ -126,7 +242,7 @@ export const summary = async () => {
           .slice(1)
           .forEach((val) => (monthlyData[val.toString()] = 0));
         const months = (
-          await readdir(join(".", "data", "health", category, "daily", year))
+          await readdir(join(".", "data", category, "daily", year))
         ).filter((i) => /^\d+$/.test(i));
         for await (const month of months) {
           let monthlySum = 0;
@@ -135,16 +251,13 @@ export const summary = async () => {
             .slice(1)
             .forEach((val) => (dailyData[val.toString()] = 0));
           const days = (
-            await readdir(
-              join(".", "data", "health", category, "daily", year, month)
-            )
+            await readdir(join(".", "data", category, "daily", year, month))
           ).filter((i) => /^\d+$/.test(i));
           for await (const day of days) {
             let json = await readJson(
               join(
                 ".",
                 "data",
-                "health",
                 category,
                 "daily",
                 year,
