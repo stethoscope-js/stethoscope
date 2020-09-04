@@ -2,7 +2,7 @@ import "./common";
 import { config } from "@anandchowdhary/cosmic";
 import { join } from "path";
 import { readdir, lstatSync, lstat, pathExists, readJson } from "fs-extra";
-import { write } from "./common";
+import { write, zero } from "./common";
 import recursiveReaddir from "recursive-readdir";
 import dayjs from "dayjs";
 
@@ -11,9 +11,6 @@ export const summary = async () => {
    * Generate health summaries
    */
   const healthCategories = await readdir(join(".", "data", "health"));
-  const data: {
-    [index: string]: { [index: string]: { [index: string]: number } };
-  } = {};
   for await (const category of healthCategories) {
     // Find all items that have daily
     if (
@@ -25,11 +22,22 @@ export const summary = async () => {
       const years = (
         await readdir(join(".", "data", "health", category, "daily"))
       ).filter((i) => /^\d+$/.test(i));
+      const yearData: { [index: string]: number } = {};
       for await (const year of years) {
+        let yearlySum = 0;
+        const monthlyData: { [index: string]: number } = {};
+        [...Array(13).keys()]
+          .slice(1)
+          .forEach((val) => (monthlyData[val.toString()] = 0));
         const months = (
           await readdir(join(".", "data", "health", category, "daily", year))
         ).filter((i) => /^\d+$/.test(i));
         for await (const month of months) {
+          let monthlySum = 0;
+          const dailyData: { [index: string]: number } = {};
+          [...Array(dayjs(`${year}-${month}-10`).daysInMonth()).keys()]
+            .slice(1)
+            .forEach((val) => (dailyData[val.toString()] = 0));
           const days = (
             await readdir(
               join(".", "data", "health", category, "daily", year, month)
@@ -88,10 +96,29 @@ export const summary = async () => {
                 }
               });
             }
-            console.log(category, year, month, day, dailySum);
+            if (dailySum) dailyData[parseInt(day)] = dailySum;
+            monthlySum += dailySum;
+            yearlySum += dailySum;
           }
+          if (Object.keys(dailyData).length)
+            await write(
+              join(".", "data", category, "days", year, `${month}.json`),
+              JSON.stringify(dailyData, null, 2)
+            );
+          if (monthlySum) monthlyData[parseInt(month)] = monthlySum;
         }
+        if (Object.keys(monthlyData).length)
+          await write(
+            join(".", "data", category, "months", `${year}.json`),
+            JSON.stringify(monthlyData, null, 2)
+          );
+        if (yearlySum) yearData[parseInt(year)] = yearlySum;
       }
+      if (Object.keys(yearData).length)
+        await write(
+          join(".", "data", category, "years.json"),
+          JSON.stringify(yearData, null, 2)
+        );
     }
   }
 };
