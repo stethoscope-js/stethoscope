@@ -29,9 +29,9 @@ jobs:
           commit_user_email: bot@anandchowdhary.com
           commit_author: Finding Anand <bot@anandchowdhary.com>
       - name: Build static site
-        run: cd src/app && npm ci && npm run export
+        run: cd src/app && npm ci && npm run build
       - name: Deploy site to GitHub Pages
         uses: maxheld83/ghpages@v0.3.0
         env:
-          BUILD_DIR: "src/app/__sapper__/export/life/"
+          BUILD_DIR: "src/app/dist/"
           GH_PAT: ${{ secrets.GH_PAT }}
