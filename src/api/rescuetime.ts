@@ -89,19 +89,20 @@ const updateRescueTimeDailyData = async (date: Date) => {
     ),
     JSON.stringify(topCategoriesData, null, 2)
   );
-  await write(
-    join(
-      ".",
-      "data",
-      "rescuetime-time-tracking",
-      "daily",
-      year,
-      month,
-      day,
-      "top-activities.json"
-    ),
-    JSON.stringify(topActivitiesData, null, 2)
-  );
+  if (config("config")?.rescueTime?.trackTopActivities)
+    await write(
+      join(
+        ".",
+        "data",
+        "rescuetime-time-tracking",
+        "daily",
+        year,
+        month,
+        day,
+        "top-activities.json"
+      ),
+      JSON.stringify(topActivitiesData, null, 2)
+    );
 };
 
 export const daily = async () => {
