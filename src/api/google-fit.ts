@@ -141,7 +141,7 @@ export const summary = async () => {
            * Combine overlapping ranges
            * @source https://stackoverflow.com/a/42002001/1656944
            */
-          if (Array.isArray(_data)) {
+          if (Array.isArray(_data) && _data.length && "startTime" in _data[0]) {
             const data = _data
               .sort(
                 (a, b) =>
