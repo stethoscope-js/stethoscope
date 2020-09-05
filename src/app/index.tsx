@@ -31,7 +31,7 @@ const changeLastPart = (path: string, last: string) => {
 
 const cleanValues = (items: number[], api: string, path: string) => {
   if (["wakatime-time-tracking", "rescuetime-time-tracking"].includes(api)) {
-    if (path.includes("/months/"))
+    if (path.includes("/months/") || path.includes("/days/"))
       return items.map((val) => parseFloat((val / 3600).toFixed(2)));
   }
   return items.map((val) => parseInt(String(val)));
@@ -42,6 +42,15 @@ const cleanKeys = (items: string[], api: string, path: string) => {
       return items.map((val) => dayjs(`2020-${zero(val)}-15`).format("MMMM"));
   }
   return items;
+};
+const cleanTitle = (text?: string, path?: string) => {
+  if (!text) return "";
+  text = text.replace(".json", "");
+  if (path?.includes("/days/"))
+    text = dayjs(`${path.split("/days/")[1].split("/")[0]}-${text}-10`).format(
+      "MMMM YYYY"
+    );
+  return text;
 };
 
 const getDatasets = (
@@ -64,6 +73,9 @@ const getDatasets = (
       });
     }
   });
+  Object.keys(total).forEach(
+    (key) => (total[key] = cleanValues(total[key], api, path))
+  );
   if (!allValuesAreNumbers)
     return Object.keys(total)
       .sort(
@@ -194,11 +206,11 @@ const App: FunctionComponent<{}> = () => {
                 chart
               )}`}
             >
-              &larr; {previous.replace(".json", "")}
+              &larr; {cleanTitle(previous.replace(".json", ""), path)}
             </Link>
           ) : undefined}
         </div>
-        <div>{path.split("/").pop()?.replace(".json", "")}</div>
+        <div>{cleanTitle(path.split("/").pop(), path)}</div>
         <div>
           {next ? (
             <Link
@@ -210,7 +222,7 @@ const App: FunctionComponent<{}> = () => {
                 chart
               )}`}
             >
-              {next.replace(".json", "")} &rarr;
+              {cleanTitle(next, path)} &rarr;
             </Link>
           ) : undefined}
         </div>
