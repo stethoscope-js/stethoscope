@@ -1,5 +1,12 @@
 {
-  "files": ["**/*", "!data/**/*", "!package.json", "!package-lock.json"],
+  "files": [
+    ".github/**/*",
+    "lib/**/*",
+    "src/**/*",
+    ".templaterc.json",
+    ".gitignore",
+    "tsconfig.json"
+  ],
   "npmScripts": true,
   "npmDependencies": true
 }
