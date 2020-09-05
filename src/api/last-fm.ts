@@ -58,12 +58,10 @@ const getLastFmTracks = async (date: Date, page = 1) => {
 export const daily = async () => {
   console.log("Last.fm: Starting...");
   const date = dayjs();
-  await getLastFmTracks(date.subtract(1, "day").toDate());
-  console.log("Last.fm: Added yesterday's data");
-  await getLastFmTracks(date.toDate());
-  console.log("Last.fm: Added today's data");
-  await getLastFmTracks(date.add(1, "day").toDate());
-  console.log("Last.fm: Added tomorrow's data");
+  for await (const day of [0, 1, 2, 3, 4]) {
+    await getLastFmTracks(dayjs().subtract(day, "day").toDate());
+    console.log("Last.fm: Added data");
+  }
   console.log("Last.fm: Added daily summaries");
 
   const topAlbumsWeekly = await lastFm.user.getTopAlbums({

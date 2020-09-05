@@ -37,7 +37,7 @@ export interface RescueTimeWeeklySummary {
 
 const updateRescueTimeDailyData = async (date: Date) => {
   const formattedDate = dayjs(date).format("YYYY-MM-DD");
-  console.log("Rescue Time: Adding data for", date);
+  console.log("RescueTime: Adding data for", date);
   const topCategories = (
     await axios.get(
       `https://www.rescuetime.com/anapi/data?format=json&key=${config(
@@ -136,14 +136,12 @@ const updateRescueTimeDailyData = async (date: Date) => {
 };
 
 export const daily = async () => {
-  console.log("Rescue Time: Starting...");
-  await updateRescueTimeDailyData(dayjs().subtract(1, "day").toDate());
-  console.log("Rescue Time: Added yesterday's data");
-  await updateRescueTimeDailyData(dayjs().toDate());
-  console.log("Rescue Time: Added today's data");
-  await updateRescueTimeDailyData(dayjs().add(1, "day").toDate());
-  console.log("Rescue Time: Added tomorrow's data");
-  console.log("Rescue Time: Added daily summaries");
+  console.log("RescueTime: Starting...");
+  for await (const day of [0, 1, 2, 3, 4]) {
+    await updateRescueTimeDailyData(dayjs().subtract(day, "day").toDate());
+    console.log("RescueTime: Added data");
+  }
+  console.log("RescueTime: Added daily summaries");
 };
 
 export const legacy = async () => {

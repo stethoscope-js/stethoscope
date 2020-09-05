@@ -71,12 +71,10 @@ const getTimeData = async (date: Date) => {
 
 export const daily = async () => {
   console.log("Clockify: Starting...");
-  await getTimeData(dayjs().subtract(1, "day").toDate());
-  console.log("Clockify: Added yesterday's data");
-  await getTimeData(dayjs().toDate());
-  console.log("Clockify: Added today's data");
-  await getTimeData(dayjs().add(1, "day").toDate());
-  console.log("Clockify: Added tomorrow's data");
+  for await (const day of [0, 1, 2, 3, 4]) {
+    await getTimeData(dayjs().subtract(day, "day").toDate());
+    console.log("Clockify: Added data");
+  }
   console.log("Clockify: Added daily summaries");
 };
 

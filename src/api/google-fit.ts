@@ -89,12 +89,10 @@ const updateGoogleFitDailyData = async (date: Date) => {
 
 export const daily = async () => {
   console.log("Google Fit: Starting...");
-  await updateGoogleFitDailyData(dayjs().subtract(1, "day").toDate());
-  console.log("Google Fit: Added yesterday's data");
-  await updateGoogleFitDailyData(dayjs().toDate());
-  console.log("Google Fit: Added today's data");
-  await updateGoogleFitDailyData(dayjs().add(1, "day").toDate());
-  console.log("Google Fit: Added tomorrow's data");
+  for await (const day of [0, 1, 2, 3, 4]) {
+    await updateGoogleFitDailyData(dayjs().subtract(day, "day").toDate());
+    console.log("Google Fit: Added data");
+  }
   console.log("Google Fit: Added daily summaries");
 };
 

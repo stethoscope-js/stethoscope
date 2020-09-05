@@ -38,12 +38,10 @@ const updateWakatimeDailyData = async (date: Date) => {
 
 export const daily = async () => {
   console.log("WakaTime: Starting...");
-  await updateWakatimeDailyData(dayjs().subtract(1, "day").toDate());
-  console.log("WakaTime: Added yesterday's data");
-  await updateWakatimeDailyData(dayjs().toDate());
-  console.log("WakaTime: Added today's data");
-  await updateWakatimeDailyData(dayjs().add(1, "day").toDate());
-  console.log("WakaTime: Added tomorrow's data");
+  for await (const day of [0, 1, 2, 3, 4]) {
+    await updateWakatimeDailyData(dayjs().subtract(day, "day").toDate());
+    console.log("WakaTime: Added data");
+  }
   console.log("WakaTime: Added daily summaries");
 };
 

@@ -124,12 +124,10 @@ const updateOuraDailyData = async (date: Date) => {
 
 export const daily = async () => {
   console.log("Oura: Starting...");
-  await updateOuraDailyData(dayjs().subtract(1, "day").toDate());
-  console.log("Oura: Added yesterday's data");
-  await updateOuraDailyData(dayjs().toDate());
-  console.log("Oura: Added today's data");
-  await updateOuraDailyData(dayjs().add(1, "day").toDate());
-  console.log("Oura: Added tomorrow's data");
+  for await (const day of [0, 1, 2, 3, 4]) {
+    await updateOuraDailyData(dayjs().subtract(day, "day").toDate());
+    console.log("Oura: Added data");
+  }
   console.log("Oura: Added daily summaries");
 };
 
