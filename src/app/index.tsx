@@ -4,7 +4,7 @@ import "./styles.scss";
 import { useSearchParam, createMemo } from "react-use";
 import { pick, dot } from "dot-object";
 import { Link } from "wouter";
-import { Line } from "react-chartjs-2";
+import { Line, Bar } from "react-chartjs-2";
 
 const changeLastPart = (path: string, last: string) => {
   const key = path.split("/");
@@ -17,6 +17,8 @@ const App: FunctionComponent<{}> = () => {
   const repo = useSearchParam("repo");
   const api = useSearchParam("api");
   const latest = useSearchParam("latest");
+  const color = useSearchParam("color");
+  const chart = useSearchParam("chart") || "line";
 
   const [previous, setPrevious] = useState<string | null>(null);
   const [next, setNext] = useState<string | null>(null);
@@ -104,12 +106,35 @@ const App: FunctionComponent<{}> = () => {
         </Link>
       ) : undefined}
       {Object.keys(graphData).length ? (
-        <Line
-          data={{
-            labels: Object.keys(graphData),
-            datasets: [{ data: Object.values(graphData) }],
-          }}
-        />
+        chart === "line" ? (
+          <Line
+            data={{
+              labels: Object.keys(graphData),
+              datasets: [
+                {
+                  data: Object.values(graphData).map((val) =>
+                    parseInt(String(val))
+                  ),
+                  backgroundColor: color || undefined,
+                },
+              ],
+            }}
+          />
+        ) : (
+          <Bar
+            data={{
+              labels: Object.keys(graphData),
+              datasets: [
+                {
+                  data: Object.values(graphData).map((val) =>
+                    parseInt(String(val))
+                  ),
+                  backgroundColor: color || undefined,
+                },
+              ],
+            }}
+          />
+        )
       ) : undefined}
     </div>
   );
