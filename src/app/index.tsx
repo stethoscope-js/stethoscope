@@ -7,6 +7,20 @@ import { Line, Bar } from "react-chartjs-2";
 import dayjs from "dayjs";
 import "./styles.scss";
 
+const categoryColors: { [index: string]: string } = {
+  "Software Development": "#00429d",
+  Business: "#474291",
+  "Design & Composition": "#654285",
+  "Communication & Scheduling": "#7b4379",
+  Utilities: "#8e436d",
+  "Reference & Learning": "#9f4360",
+  Uncategorized: "#af4354",
+  "News & Opinion": "#be4347",
+  "Social Networking": "#cc423a",
+  Entertainment: "#da422b",
+  Shopping: "#e84118",
+};
+
 export const zero = (num: string) => (parseInt(num) > 9 ? num : `0${num}`);
 
 const changeLastPart = (path: string, last: string) => {
@@ -30,6 +44,48 @@ const cleanKeys = (items: string[], api: string, path: string) => {
   return items;
 };
 
+const getDatasets = (
+  graphData: { [index: number]: number | { [index: string]: number } },
+  api: string,
+  path: string,
+  color: string
+) => {
+  let allValuesAreNumbers = true;
+  Object.values(graphData).forEach((value) => {
+    if (typeof value === "object") allValuesAreNumbers = false;
+  });
+  let total: any = {};
+  Object.keys(graphData).forEach((key0) => {
+    const value = (graphData as any)[key0];
+    if (typeof value === "object") {
+      Object.keys(value).forEach((key) => {
+        total[key] = total[key] ?? [];
+        total[key].push(value[key] ?? 0);
+      });
+    }
+  });
+  if (!allValuesAreNumbers)
+    return Object.keys(total)
+      .sort(
+        (a, b) =>
+          Object.keys(categoryColors).indexOf(a) -
+          Object.keys(categoryColors).indexOf(b)
+      )
+      .map((key) => ({
+        label: key,
+        data: total[key],
+        borderWidth: 1,
+        borderColor: "#fff",
+        backgroundColor: categoryColors[key] ?? color,
+      }));
+  return [
+    {
+      data: cleanValues(Object.values(graphData) as number[], api, path),
+      backgroundColor: color || undefined,
+    },
+  ];
+};
+
 const App: FunctionComponent<{}> = () => {
   const path = useSearchParam("path");
   const repo = useSearchParam("repo");
@@ -40,7 +96,9 @@ const App: FunctionComponent<{}> = () => {
 
   const [previous, setPrevious] = useState<string | null>(null);
   const [next, setNext] = useState<string | null>(null);
-  const [graphData, setGraphData] = useState<{ [index: number]: number }>({});
+  const [graphData, setGraphData] = useState<{
+    [index: number]: number | { [index: string]: number };
+  }>({});
 
   const getApiData = async (repo: string, api: string, path: string) => {
     const key = `${repo}${api}${path}`;
@@ -69,13 +127,12 @@ const App: FunctionComponent<{}> = () => {
     console.log("loading latest");
     useMemoApiData(repo, api, "api.json")
       .then((json) => {
-        console.log(json);
         const items = pick(latest, json);
         if (Array.isArray(items)) {
           window.location.href = `/?repo=${encodeURIComponent(
             repo
           )}&api=${encodeURIComponent(api)}&path=${encodeURIComponent(
-            `summary/${latest}/${items[items.length - 1]}`
+            `summary/${latest.replace(/\./g, "/")}/${items[items.length - 1]}`
           )}&color=${encodeURIComponent(color)}&chart=${encodeURIComponent(
             chart
           )}`;
@@ -120,6 +177,9 @@ const App: FunctionComponent<{}> = () => {
   if (!path) return <h1>No path</h1>;
   console.log(new Date());
 
+  const labels = cleanKeys(Object.keys(graphData), api, path);
+  const datasets = getDatasets(graphData, api, path, color);
+
   return (
     <div>
       {previous ? (
@@ -152,28 +212,54 @@ const App: FunctionComponent<{}> = () => {
         chart === "line" ? (
           <Line
             data={{
-              labels: cleanKeys(Object.keys(graphData), api, path),
-              datasets: [
-                {
-                  data: cleanValues(Object.values(graphData), api, path),
-                  backgroundColor: color || undefined,
-                },
-              ],
+              labels,
+              datasets,
             }}
-            options={{ legend: { display: false } }}
+            options={{
+              legend: { display: false },
+              ...(datasets.length > 1
+                ? {
+                    scales: {
+                      xAxes: [
+                        {
+                          stacked: true,
+                        },
+                      ],
+                      yAxes: [
+                        {
+                          stacked: true,
+                        },
+                      ],
+                    },
+                  }
+                : undefined),
+            }}
           />
         ) : (
           <Bar
             data={{
-              labels: cleanKeys(Object.keys(graphData), api, path),
-              datasets: [
-                {
-                  data: cleanValues(Object.values(graphData), api, path),
-                  backgroundColor: color || undefined,
-                },
-              ],
+              labels,
+              datasets,
             }}
-            options={{ legend: { display: false } }}
+            options={{
+              legend: { display: false },
+              ...(datasets.length > 1
+                ? {
+                    scales: {
+                      xAxes: [
+                        {
+                          stacked: true,
+                        },
+                      ],
+                      yAxes: [
+                        {
+                          stacked: true,
+                        },
+                      ],
+                    },
+                  }
+                : undefined),
+            }}
           />
         )
       ) : undefined}
