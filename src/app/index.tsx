@@ -137,7 +137,7 @@ const App: FunctionComponent<{}> = () => {
       .then((json) => {
         const items = pick(latest, json);
         if (Array.isArray(items)) {
-          window.location.href = `/?repo=${encodeURIComponent(
+          window.location.href = `./?repo=${encodeURIComponent(
             repo
           )}&api=${encodeURIComponent(api)}&path=${encodeURIComponent(
             `summary/${latest.replace(/\./g, "/")}/${items[items.length - 1]}`
@@ -148,7 +148,7 @@ const App: FunctionComponent<{}> = () => {
           const dotted = dot(items);
           const lastKey = Object.keys(dotted).pop();
           if (lastKey) {
-            window.location.href = `/?repo=${encodeURIComponent(
+            window.location.href = `./?repo=${encodeURIComponent(
               repo
             )}&api=${encodeURIComponent(api)}&path=${encodeURIComponent(
               `summary/${latest.replace(/\./g, "/")}/${lastKey
@@ -194,7 +194,7 @@ const App: FunctionComponent<{}> = () => {
         <div>
           {previous ? (
             <Link
-              to={`/?repo=${encodeURIComponent(repo)}&api=${encodeURIComponent(
+              to={`./?repo=${encodeURIComponent(repo)}&api=${encodeURIComponent(
                 api
               )}&path=${encodeURIComponent(
                 changeLastPart(path, previous)
@@ -210,7 +210,7 @@ const App: FunctionComponent<{}> = () => {
         <div>
           {next ? (
             <Link
-              to={`/?repo=${encodeURIComponent(repo)}&api=${encodeURIComponent(
+              to={`./?repo=${encodeURIComponent(repo)}&api=${encodeURIComponent(
                 api
               )}&path=${encodeURIComponent(
                 changeLastPart(path, next)
