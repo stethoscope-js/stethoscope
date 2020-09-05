@@ -297,7 +297,13 @@ export const summary = async () => {
         );
       for await (const year of Object.keys(weeklyData)) {
         for await (const week of Object.keys(weeklyData[year])) {
-          if (Object.keys(weeklyData[year][week]).length)
+          if (
+            Object.keys(weeklyData[year][week]).length &&
+            Object.values(weeklyData[year][week]).reduce(
+              (a, b) => a + Object.keys(b).length,
+              0
+            )
+          )
             await write(
               join(
                 ".",
