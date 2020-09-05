@@ -16,14 +16,14 @@ const changeLastPart = (path: string, last: string) => {
 };
 
 const cleanValues = (items: number[], api: string, path: string) => {
-  if (["wakatime-time-tracking"].includes(api)) {
+  if (["wakatime-time-tracking", "rescuetime-time-tracking"].includes(api)) {
     if (path.includes("/months/"))
       return items.map((val) => parseFloat((val / 3600).toFixed(2)));
   }
   return items.map((val) => parseInt(String(val)));
 };
 const cleanKeys = (items: string[], api: string, path: string) => {
-  if (["wakatime-time-tracking"].includes(api)) {
+  if (["wakatime-time-tracking", "rescuetime-time-tracking"].includes(api)) {
     if (path.includes("/months/"))
       return items.map((val) => dayjs(`2020-${zero(val)}-15`).format("MMMM"));
   }
@@ -36,18 +36,30 @@ const App: FunctionComponent<{}> = () => {
   const api = useSearchParam("api");
   const latest = useSearchParam("latest");
   const color = useSearchParam("color") || "#04AAF5";
-  const chart = useSearchParam("chart") || "line";
+  const chart = useSearchParam("chart") || "bar";
 
   const [previous, setPrevious] = useState<string | null>(null);
   const [next, setNext] = useState<string | null>(null);
   const [graphData, setGraphData] = useState<{ [index: number]: number }>({});
 
   const getApiData = async (repo: string, api: string, path: string) => {
+    const key = `${repo}${api}${path}`;
+    const cachedValue = window.localStorage.getItem(key);
+    if (cachedValue) {
+      const val = JSON.parse(cachedValue);
+      if (dayjs(val.expiry).isBefore(dayjs())) return val.value;
+      else window.localStorage.removeItem(key);
+    }
     const response = await fetch(
       `https://raw.githubusercontent.com/${repo}/master/data/${api}/${path}`
     );
     if (!response.ok) throw new Error();
-    return response.json();
+    const json = await response.json();
+    window.localStorage.setItem(
+      key,
+      JSON.stringify({ value: json, expiry: dayjs().add(1, "hour").unix() })
+    );
+    return json;
   };
   const useMemoApiData = createMemo(getApiData);
 
@@ -147,6 +159,7 @@ const App: FunctionComponent<{}> = () => {
                 },
               ],
             }}
+            options={{ legend: { display: false } }}
           />
         ) : (
           <Bar
@@ -159,6 +172,7 @@ const App: FunctionComponent<{}> = () => {
                 },
               ],
             }}
+            options={{ legend: { display: false } }}
           />
         )
       ) : undefined}
