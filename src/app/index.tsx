@@ -182,32 +182,39 @@ const App: FunctionComponent<{}> = () => {
 
   return (
     <div>
-      {previous ? (
-        <Link
-          to={`/?repo=${encodeURIComponent(repo)}&api=${encodeURIComponent(
-            api
-          )}&path=${encodeURIComponent(
-            changeLastPart(path, previous)
-          )}&color=${encodeURIComponent(color)}&chart=${encodeURIComponent(
-            chart
-          )}`}
-        >
-          Previous: {previous}
-        </Link>
-      ) : undefined}
-      {next ? (
-        <Link
-          to={`/?repo=${encodeURIComponent(repo)}&api=${encodeURIComponent(
-            api
-          )}&path=${encodeURIComponent(
-            changeLastPart(path, next)
-          )}&color=${encodeURIComponent(color)}&chart=${encodeURIComponent(
-            chart
-          )}`}
-        >
-          Next: {next}
-        </Link>
-      ) : undefined}
+      <nav>
+        <div>
+          {previous ? (
+            <Link
+              to={`/?repo=${encodeURIComponent(repo)}&api=${encodeURIComponent(
+                api
+              )}&path=${encodeURIComponent(
+                changeLastPart(path, previous)
+              )}&color=${encodeURIComponent(color)}&chart=${encodeURIComponent(
+                chart
+              )}`}
+            >
+              &larr; {previous.replace(".json", "")}
+            </Link>
+          ) : undefined}
+        </div>
+        <div>{path.split("/").pop()?.replace(".json", "")}</div>
+        <div>
+          {next ? (
+            <Link
+              to={`/?repo=${encodeURIComponent(repo)}&api=${encodeURIComponent(
+                api
+              )}&path=${encodeURIComponent(
+                changeLastPart(path, next)
+              )}&color=${encodeURIComponent(color)}&chart=${encodeURIComponent(
+                chart
+              )}`}
+            >
+              {next.replace(".json", "")} &rarr;
+            </Link>
+          ) : undefined}
+        </div>
+      </nav>
       {Object.keys(graphData).length ? (
         chart === "line" ? (
           <Line

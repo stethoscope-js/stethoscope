@@ -4,3 +4,37 @@ body {
   max-width: 1000px;
   margin: 0 auto;
 }
+
+nav {
+  display: flex;
+  font-size: 110%;
+  line-height: 1;
+  margin: 1rem 0 1.5rem 0;
+  > div {
+    flex: 1 0 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    &:first-child {
+      justify-content: flex-start;
+    }
+    &:nth-child(2) {
+      font-weight: bold;
+      font-size: 120%;
+    }
+    &:last-child {
+      justify-content: flex-end;
+    }
+  }
+  a {
+    color: inherit;
+    text-decoration: none;
+    background-color: #fff;
+    box-shadow: 0 0.2rem 0.5rem rgba(0, 0, 0, 0.1);
+    padding: 0.5rem 0.75rem;
+    border-radius: 2rem;
+    &:hover {
+      background-color: #eee;
+    }
+  }
+}
