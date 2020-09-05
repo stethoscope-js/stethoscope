@@ -4,7 +4,7 @@
   "description": "Life data for Anand Chowdhary",
   "scripts": {
     "start": "parcel index.html",
-    "build": "parcel build index.html"
+    "build": "parcel build index.html --public-url ./"
   },
   "repository": {
     "type": "git",
