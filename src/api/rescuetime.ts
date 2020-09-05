@@ -72,6 +72,23 @@ const updateRescueTimeDailyData = async (date: Date) => {
     });
     topActivitiesData.push(details);
   });
+  const topOverview = (
+    await axios.get(
+      `https://www.rescuetime.com/anapi/data?format=json&key=${config(
+        "rescuetimeApiKey"
+      )}&restrict_kind=overview&restrict_begin=${formattedDate}&restrict_end=${formattedDate}`
+    )
+  ).data as RescueTimeWeeklySummary;
+  const topOverviewHeaders = topOverview.row_headers;
+  const topOverviewItems = topOverview.rows;
+  const topOverviewData: any = [];
+  topOverviewItems.forEach((item) => {
+    const details: any = {};
+    topOverviewHeaders.forEach((header, index) => {
+      details[header] = item[index];
+    });
+    topOverviewData.push(details);
+  });
 
   const year = dayjs(date).format("YYYY");
   const month = dayjs(date).format("MM");
@@ -88,6 +105,19 @@ const updateRescueTimeDailyData = async (date: Date) => {
       "top-categories.json"
     ),
     JSON.stringify(topCategoriesData, null, 2)
+  );
+  await write(
+    join(
+      ".",
+      "data",
+      "rescuetime-time-tracking",
+      "daily",
+      year,
+      month,
+      day,
+      "top-overview.json"
+    ),
+    JSON.stringify(topOverviewData, null, 2)
   );
   if (config("config")?.rescueTime?.trackTopActivities)
     await write(
