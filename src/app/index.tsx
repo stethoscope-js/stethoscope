@@ -273,22 +273,22 @@ const App: FunctionComponent<{}> = () => {
             }}
             options={{
               legend: { display: false },
-              ...(datasets.length > 1
-                ? {
-                    scales: {
-                      xAxes: [
-                        {
-                          stacked: true,
-                        },
-                      ],
-                      yAxes: [
-                        {
-                          stacked: true,
-                        },
-                      ],
+              scales: {
+                xAxes: [
+                  {
+                    stacked: true,
+                    gridLines: { display: false },
+                  },
+                ],
+                yAxes: [
+                  {
+                    stacked: true,
+                    ticks: {
+                      callback: (label) => `${label} hours`,
                     },
-                  }
-                : undefined),
+                  },
+                ],
+              },
             }}
           />
         ) : (
@@ -299,22 +299,22 @@ const App: FunctionComponent<{}> = () => {
             }}
             options={{
               legend: { display: false },
-              ...(datasets.length > 1
-                ? {
-                    scales: {
-                      xAxes: [
-                        {
-                          stacked: true,
-                        },
-                      ],
-                      yAxes: [
-                        {
-                          stacked: true,
-                        },
-                      ],
+              scales: {
+                xAxes: [
+                  {
+                    stacked: true,
+                    gridLines: { display: false },
+                  },
+                ],
+                yAxes: [
+                  {
+                    stacked: true,
+                    ticks: {
+                      callback: (label) => `${label} hours`,
                     },
-                  }
-                : undefined),
+                  },
+                ],
+              },
             }}
           />
         )
