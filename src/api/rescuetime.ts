@@ -177,6 +177,9 @@ export const summary = async () => {
         await readdir(join(".", "data", "rescuetime-time-tracking", "daily"))
       ).filter((i) => /^\d+$/.test(i));
       const yearData: { [index: string]: CategoryData } = {};
+      const weeklyData: {
+        [index: string]: { [index: string]: { [index: string]: CategoryData } };
+      } = {};
       for await (const year of years) {
         let yearlySum: CategoryData = {};
         const monthlyData: { [index: string]: CategoryData } = {};
@@ -240,6 +243,15 @@ export const summary = async () => {
               yearlySum[key] += dailySum[key];
             });
           }
+
+          Object.keys(dailyData).forEach((key) => {
+            const weekNumber = dayjs(`${year}-${month}-${key}`).week();
+            weeklyData[year] = weeklyData[year] ?? {};
+            weeklyData[year][weekNumber] = weeklyData[year][weekNumber] ?? {};
+            weeklyData[year][weekNumber][`${year}-${month}-${key}`] =
+              dailyData[key];
+          });
+
           if (Object.keys(dailyData).length)
             await write(
               join(
@@ -283,6 +295,24 @@ export const summary = async () => {
           ),
           JSON.stringify(yearData, null, 2)
         );
+      for await (const year of Object.keys(weeklyData)) {
+        for await (const week of Object.keys(weeklyData[year])) {
+          if (Object.keys(weeklyData[year][week]).length)
+            await write(
+              join(
+                ".",
+                "data",
+                "rescuetime-time-tracking",
+                "summary",
+                file.replace(".json", ""),
+                "weeks",
+                year,
+                `${week}.json`
+              ),
+              JSON.stringify(weeklyData[year][week], null, 2)
+            );
+        }
+      }
     }
   }
 };
