@@ -7,6 +7,8 @@ import { Line, Bar } from "react-chartjs-2";
 import dayjs from "dayjs";
 import "./styles.scss";
 
+const subDirectories = ["rescuetime-time-tracking"];
+
 const categoryColors: { [index: string]: string } = {
   "Software Development": "#00429d",
   Business: "#474291",
@@ -20,6 +22,14 @@ const categoryColors: { [index: string]: string } = {
   Entertainment: "#da422b",
   Shopping: "#e84118",
 };
+
+const itemNames: { [index: string]: string } = {
+  weeks: "Week",
+  days: "Month",
+  months: "Year",
+};
+
+const getItemName = (name: string) => itemNames[name] ?? name;
 
 export const zero = (num: string) =>
   parseInt(num) > 9 ? parseInt(num) : `0${num}`;
@@ -110,6 +120,7 @@ const App: FunctionComponent<{}> = () => {
   const [previous, setPrevious] = useState<string | null>(null);
   const [error, setError] = useState<boolean>(false);
   const [next, setNext] = useState<string | null>(null);
+  const [latestOptions, setLastestOptions] = useState<string[]>([]);
   const [graphData, setGraphData] = useState<{
     [index: number]: number | { [index: string]: number };
   }>({});
@@ -167,9 +178,7 @@ const App: FunctionComponent<{}> = () => {
         }
       })
       .catch(() => setError(true));
-  }
-
-  if (path && path.startsWith("summary/")) {
+  } else if (path && path.startsWith("summary/")) {
     useMemoApiData(repo, api, "api.json")
       .then((data) => {
         const key = path.split("summary/")[1].split("/");
@@ -183,6 +192,20 @@ const App: FunctionComponent<{}> = () => {
             else setNext(null);
           }
         });
+        if (subDirectories.includes(api)) {
+          if (
+            JSON.stringify(latestOptions) !==
+            JSON.stringify(
+              Object.keys(data[path.split("summary/")[1].split("/")[0]])
+            )
+          )
+            setLastestOptions(
+              Object.keys(data[path.split("summary/")[1].split("/")[0]])
+            );
+        } else if (
+          JSON.stringify(latestOptions) !== JSON.stringify(Object.keys(data))
+        )
+          setLastestOptions(Object.keys(data));
       })
       .catch(() => setError(true));
     useMemoApiData(repo, api, path)
@@ -324,6 +347,40 @@ const App: FunctionComponent<{}> = () => {
           />
         )
       ) : undefined}
+      <nav>
+        {latestOptions
+          .filter((item) => !item.endsWith("years"))
+          .sort(
+            (a, b) =>
+              Object.keys(itemNames).indexOf(a) -
+              Object.keys(itemNames).indexOf(b)
+          )
+          .map((item) => (
+            <Link
+              className={
+                subDirectories.includes(api)
+                  ? path.split("summary/")[1].split("/")[1] === item
+                    ? "active"
+                    : ""
+                  : path.split("summary/")[1].split("/")[0] === item
+                  ? "active"
+                  : ""
+              }
+              key={item}
+              to={`./?repo=${encodeURIComponent(repo)}&api=${encodeURIComponent(
+                api
+              )}&latest=${encodeURIComponent(
+                subDirectories.includes(api)
+                  ? `${path.split("summary/")[1].split("/")[0]}.${item}`
+                  : item
+              )}&color=${encodeURIComponent(color)}&chart=${encodeURIComponent(
+                chart
+              )}`}
+            >
+              {getItemName(item)}
+            </Link>
+          ))}
+      </nav>
     </div>
   );
 };
