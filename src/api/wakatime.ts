@@ -72,6 +72,11 @@ export const summary = async () => {
       await readdir(join(".", "data", "wakatime-time-tracking", "daily"))
     ).filter((i) => /^\d+$/.test(i));
     const yearData: { [index: string]: number } = {};
+    const weeklyData: {
+      [index: string]: {
+        [index: string]: { [index: string]: number };
+      };
+    } = {};
     for await (const year of years) {
       let yearlySum = 0;
       const monthlyData: { [index: string]: number } = {};
@@ -118,6 +123,13 @@ export const summary = async () => {
           if (dailySum) dailyData[parseInt(day)] = dailySum;
           monthlySum += dailySum;
           yearlySum += dailySum;
+          Object.keys(dailyData).forEach((key) => {
+            const weekNumber = dayjs(`${year}-${month}-${key}`).week();
+            weeklyData[year] = weeklyData[year] ?? {};
+            weeklyData[year][weekNumber] = weeklyData[year][weekNumber] ?? {};
+            weeklyData[year][weekNumber][`${year}-${month}-${key}`] =
+              dailyData[key];
+          });
         }
         if (Object.keys(dailyData).length)
           await write(
@@ -153,5 +165,25 @@ export const summary = async () => {
         join(".", "data", "wakatime-time-tracking", "summary", "years.json"),
         JSON.stringify(yearData, null, 2)
       );
+    for await (const year of Object.keys(weeklyData)) {
+      for await (const week of Object.keys(weeklyData[year])) {
+        if (
+          Object.keys(weeklyData[year][week]).length &&
+          Object.values(weeklyData[year][week]).reduce((a, b) => a + b, 0)
+        )
+          await write(
+            join(
+              ".",
+              "data",
+              "wakatime-time-tracking",
+              "summary",
+              "weeks",
+              year,
+              `${week}.json`
+            ),
+            JSON.stringify(weeklyData[year][week], null, 2)
+          );
+      }
+    }
   }
 };
