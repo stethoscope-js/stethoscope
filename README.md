@@ -207,3 +207,4 @@ The Oura API requires a Personal Access Token which can be generated on the [Per
 - Data in [`./data`](./data): [Open Database License](https://opendatacommons.org/licenses/odbl/1-0/)(https://anandchowdhary.com)
 - Icons in [`./src/app`](./src/app)
   - Loader: [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/) © [Rohith M S](https://thenounproject.com/rohithdezinr)
+  - Error: [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/) © [Roselin Christina](https://thenounproject.com/rosttarose)

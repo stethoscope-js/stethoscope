@@ -38,3 +38,26 @@ nav {
     }
   }
 }
+
+.loading,
+.error {
+  svg {
+    width: 5rem;
+    margin: 0 auto;
+    display: block;
+    opacity: 0.5;
+    &.spin {
+      animation: spin 3s linear infinite;
+    }
+  }
+}
+.error {
+  margin-top: 5rem;
+  text-align: center;
+}
+
+@keyframes spin {
+  100% {
+    transform: rotate(360deg);
+  }
+}
