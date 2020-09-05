@@ -1,5 +1,5 @@
 {
-  "files": ["lib/**/*", "src/**/*"],
+  "files": ["**/*", "!lib/**/*", "!package.json", "!package-lock.json"],
   "npmScripts": true,
   "npmDependencies": true
 }
