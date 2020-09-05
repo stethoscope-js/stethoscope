@@ -69,6 +69,7 @@ const App: FunctionComponent<{}> = () => {
     console.log("loading latest");
     useMemoApiData(repo, api, "api.json")
       .then((json) => {
+        console.log(json);
         const items = pick(latest, json);
         if (Array.isArray(items)) {
           window.location.href = `/?repo=${encodeURIComponent(
