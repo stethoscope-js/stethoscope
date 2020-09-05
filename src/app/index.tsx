@@ -1,15 +1,29 @@
 import React, { FunctionComponent, useState } from "react";
 import { render } from "react-dom";
-import "./styles.scss";
 import { useSearchParam, createMemo } from "react-use";
 import { pick, dot } from "dot-object";
 import { Link } from "wouter";
 import { Line, Bar } from "react-chartjs-2";
+import "./styles.scss";
 
 const changeLastPart = (path: string, last: string) => {
   const key = path.split("/");
   key.pop();
   return `${key.join("/")}/${last}`;
+};
+
+const cleanValues = (items: number[], api: string, path: string) => {
+  if (["wakatime-time-tracking"].includes(api)) {
+    if (path.includes("/months/"))
+      return items.map((val) => parseFloat((val / 3600).toFixed(2)));
+  }
+  return items.map((val) => parseInt(String(val)));
+};
+const cleanKeys = (items: string[], api: string, path: string) => {
+  if (["wakatime-time-tracking"].includes(api)) {
+    if (path.includes("/months/")) return items.map((val) => val);
+  }
+  return items;
 };
 
 const App: FunctionComponent<{}> = () => {
@@ -109,12 +123,10 @@ const App: FunctionComponent<{}> = () => {
         chart === "line" ? (
           <Line
             data={{
-              labels: Object.keys(graphData),
+              labels: cleanKeys(Object.keys(graphData), api, path),
               datasets: [
                 {
-                  data: Object.values(graphData).map((val) =>
-                    parseInt(String(val))
-                  ),
+                  data: cleanValues(Object.values(graphData), api, path),
                   backgroundColor: color || undefined,
                 },
               ],
@@ -123,12 +135,10 @@ const App: FunctionComponent<{}> = () => {
         ) : (
           <Bar
             data={{
-              labels: Object.keys(graphData),
+              labels: cleanKeys(Object.keys(graphData), api, path),
               datasets: [
                 {
-                  data: Object.values(graphData).map((val) =>
-                    parseInt(String(val))
-                  ),
+                  data: cleanValues(Object.values(graphData), api, path),
                   backgroundColor: color || undefined,
                 },
               ],
