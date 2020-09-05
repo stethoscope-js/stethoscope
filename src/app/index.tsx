@@ -7,7 +7,11 @@ import { Line, Bar } from "react-chartjs-2";
 import dayjs from "dayjs";
 import "./styles.scss";
 
-const subDirectories = ["rescuetime-time-tracking"];
+const subDirectories = [
+  "rescuetime-time-tracking",
+  "oura-activity",
+  "oura-sleep",
+];
 
 const categoryColors: { [index: string]: string } = {
   "Software Development": "#00429d",
