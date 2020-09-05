@@ -4,7 +4,10 @@ import { useSearchParam, createMemo } from "react-use";
 import { pick, dot } from "dot-object";
 import { Link } from "wouter";
 import { Line, Bar } from "react-chartjs-2";
+import dayjs from "dayjs";
 import "./styles.scss";
+
+export const zero = (num: string) => (parseInt(num) > 9 ? num : `0${num}`);
 
 const changeLastPart = (path: string, last: string) => {
   const key = path.split("/");
@@ -21,7 +24,8 @@ const cleanValues = (items: number[], api: string, path: string) => {
 };
 const cleanKeys = (items: string[], api: string, path: string) => {
   if (["wakatime-time-tracking"].includes(api)) {
-    if (path.includes("/months/")) return items.map((val) => val);
+    if (path.includes("/months/"))
+      return items.map((val) => dayjs(`2020-${zero(val)}-15`).format("MMMM"));
   }
   return items;
 };
@@ -31,7 +35,7 @@ const App: FunctionComponent<{}> = () => {
   const repo = useSearchParam("repo");
   const api = useSearchParam("api");
   const latest = useSearchParam("latest");
-  const color = useSearchParam("color");
+  const color = useSearchParam("color") || "#04AAF5";
   const chart = useSearchParam("chart") || "line";
 
   const [previous, setPrevious] = useState<string | null>(null);
@@ -59,6 +63,8 @@ const App: FunctionComponent<{}> = () => {
             repo
           )}&api=${encodeURIComponent(api)}&path=${encodeURIComponent(
             `summary/${latest}/${items[items.length - 1]}`
+          )}&color=${encodeURIComponent(color)}&chart=${encodeURIComponent(
+            chart
           )}`;
         } else if (typeof items === "object") {
           const dotted = dot(items);
@@ -70,6 +76,8 @@ const App: FunctionComponent<{}> = () => {
               `summary/${latest.replace(/\./g, "/")}/${lastKey
                 .split("[")[0]
                 .replace(/\./g, "/")}/${dotted[lastKey]}`
+            )}&color=${encodeURIComponent(color)}&chart=${encodeURIComponent(
+              chart
             )}`;
           }
         }
@@ -105,7 +113,11 @@ const App: FunctionComponent<{}> = () => {
         <Link
           to={`/?repo=${encodeURIComponent(repo)}&api=${encodeURIComponent(
             api
-          )}&path=${encodeURIComponent(changeLastPart(path, previous))}`}
+          )}&path=${encodeURIComponent(
+            changeLastPart(path, previous)
+          )}&color=${encodeURIComponent(color)}&chart=${encodeURIComponent(
+            chart
+          )}`}
         >
           Previous: {previous}
         </Link>
@@ -114,7 +126,11 @@ const App: FunctionComponent<{}> = () => {
         <Link
           to={`/?repo=${encodeURIComponent(repo)}&api=${encodeURIComponent(
             api
-          )}&path=${encodeURIComponent(changeLastPart(path, next))}`}
+          )}&path=${encodeURIComponent(
+            changeLastPart(path, next)
+          )}&color=${encodeURIComponent(color)}&chart=${encodeURIComponent(
+            chart
+          )}`}
         >
           Next: {next}
         </Link>
