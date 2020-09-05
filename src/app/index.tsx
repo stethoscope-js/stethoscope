@@ -21,7 +21,8 @@ const categoryColors: { [index: string]: string } = {
   Shopping: "#e84118",
 };
 
-export const zero = (num: string) => (parseInt(num) > 9 ? num : `0${num}`);
+export const zero = (num: string) =>
+  parseInt(num) > 9 ? parseInt(num) : `0${num}`;
 
 const changeLastPart = (path: string, last: string) => {
   const key = path.split("/");
@@ -30,13 +31,15 @@ const changeLastPart = (path: string, last: string) => {
 };
 
 const cleanValues = (items: number[], api: string, path: string) => {
-  if (path.includes("/months/") || path.includes("/days/"))
-    return items.map((val) => parseFloat((val / 3600).toFixed(2)));
-  return items.map((val) => parseInt(String(val)));
+  // if (path.includes("/months/") || path.includes("/days/") || path.includes("/weeks/"))
+  return items.map((val) => parseFloat((val / 3600).toFixed(2)));
+  // return items.map((val) => parseInt(String(val)));
 };
 const cleanKeys = (items: string[], api: string, path: string) => {
   if (path.includes("/months/"))
     return items.map((val) => dayjs(`2020-${zero(val)}-15`).format("MMMM"));
+  if (path.includes("/weeks/"))
+    return items.map((val) => dayjs(val).format("dddd, MMM D"));
   return items;
 };
 const cleanTitle = (text?: string, path?: string) => {
@@ -46,6 +49,8 @@ const cleanTitle = (text?: string, path?: string) => {
     text = dayjs(`${path.split("/days/")[1].split("/")[0]}-${text}-10`).format(
       "MMMM YYYY"
     );
+  if (path?.includes("/weeks/"))
+    return `Week ${text}, ${path.split("/weeks/")[1].split("/")[0]}`;
   return text;
 };
 
