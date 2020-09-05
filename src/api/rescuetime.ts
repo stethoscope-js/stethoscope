@@ -130,6 +130,9 @@ export const legacy = async () => {
   console.log("Done!");
 };
 
+interface CategoryData {
+  [index: string]: number;
+}
 export const summary = async () => {
   if (
     (await pathExists(
@@ -142,24 +145,24 @@ export const summary = async () => {
     const years = (
       await readdir(join(".", "data", "rescuetime-time-tracking", "daily"))
     ).filter((i) => /^\d+$/.test(i));
-    const yearData: { [index: string]: number } = {};
+    const yearData: { [index: string]: CategoryData } = {};
     for await (const year of years) {
-      let yearlySum = 0;
-      const monthlyData: { [index: string]: number } = {};
+      let yearlySum: CategoryData = {};
+      const monthlyData: { [index: string]: CategoryData } = {};
       [...Array(13).keys()]
         .slice(1)
-        .forEach((val) => (monthlyData[val.toString()] = 0));
+        .forEach((val) => (monthlyData[val.toString()] = {}));
       const months = (
         await readdir(
           join(".", "data", "rescuetime-time-tracking", "daily", year)
         )
       ).filter((i) => /^\d+$/.test(i));
       for await (const month of months) {
-        let monthlySum = 0;
-        const dailyData: { [index: string]: number } = {};
+        let monthlySum: CategoryData = {};
+        const dailyData: { [index: string]: CategoryData } = {};
         [...Array(dayjs(`${year}-${month}-10`).daysInMonth()).keys()]
           .slice(1)
-          .forEach((val) => (dailyData[val.toString()] = 0));
+          .forEach((val) => (dailyData[val.toString()] = {}));
         const days = (
           await readdir(
             join(".", "data", "rescuetime-time-tracking", "daily", year, month)
@@ -178,17 +181,22 @@ export const summary = async () => {
               "top-categories.json"
             )
           );
-          let dailySum = 0;
+          let dailySum: CategoryData = {};
           if (Array.isArray(json)) {
             json.forEach((record: any) => {
-              if (record["Time Spent (seconds)"]) {
-                dailySum += record["Time Spent (seconds)"];
+              if (record["Time Spent (seconds)"] && record.Category) {
+                dailySum[record.Category] = dailySum[record.Category] ?? 0;
+                dailySum[record.Category] += record["Time Spent (seconds)"];
               }
             });
           }
-          if (dailySum) dailyData[parseInt(day)] = dailySum;
-          monthlySum += dailySum;
-          yearlySum += dailySum;
+          if (Object.keys(dailySum).length) dailyData[parseInt(day)] = dailySum;
+          Object.keys(dailySum).forEach((key) => {
+            monthlySum[key] = monthlySum[key] ?? 0;
+            monthlySum[key] += dailySum[key];
+            yearlySum[key] = yearlySum[key] ?? 0;
+            yearlySum[key] += dailySum[key];
+          });
         }
         if (Object.keys(dailyData).length)
           await write(
