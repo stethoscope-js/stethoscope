@@ -209,7 +209,7 @@ export const summary = async () => {
           for await (const day of days) {
             let json: any[] = [];
             try {
-              await readJson(
+              json = await readJson(
                 join(
                   ".",
                   "data",
@@ -223,7 +223,7 @@ export const summary = async () => {
               );
             } catch (error) {}
             let dailySum: CategoryData = {};
-            if (Array.isArray(json)) {
+            if (Array.isArray(json) && json.length) {
               json.forEach((record: any) => {
                 if (record["Time Spent (seconds)"] && record.Category) {
                   dailySum[record.Category] = dailySum[record.Category] ?? 0;
