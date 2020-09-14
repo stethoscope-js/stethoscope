@@ -134,7 +134,7 @@ const App: FunctionComponent<{}> = () => {
     const cachedValue = window.localStorage.getItem(key);
     if (cachedValue) {
       const val = JSON.parse(cachedValue);
-      if (dayjs(val.expiry).isBefore(dayjs())) return val.value;
+      if (dayjs(val.expiry * 1000).isBefore(dayjs())) return val.value;
       else window.localStorage.removeItem(key);
     }
     const response = await fetch(
