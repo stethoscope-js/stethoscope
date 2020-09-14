@@ -28,12 +28,36 @@
 | <img alt="" src="https://images.weserv.nl/?url=https://static1.ouraring.com/images/symbol-oura-large-white.svg&w=64&h=64&fit=cover&mask=circle" width="12"> Oura Ring | [`src/api/oura-ring.ts`](./src/api/oura-ring.ts) | [View data](./data/health) | [Scroll to Docs ↓](#oura-ring) |
 <!-- prettier-ignore-end -->
 
+### Data explorer app
+
+As part of this template, you also get your own life data explorer web app written in React and TypeScript ([`src/app`](./src/app)). The app doesn't require any servers and fetches real-time data directly from your public GitHub repository.
+
+To use the web app, you have to visit a URL like the following:
+
+https://anandchowdhary.github.io/life/?repo=AnandChowdhary%2Flife&api=rescuetime-time-tracking&latest=top-overview.weeks
+
+In the above example, the query parameters are the following, URL encoded:
+
+- `repo`: Your repository on GitHub, e.g., `AnandChowdhary/life`
+- `api`: The data you want to visualize, e.g., `rescuetime-time-tracking`, which corresponds to the directory in [`./data`](./data)
+- `latest`: The visualization to display, based on the specific `api.json` keys, e.g., `top-overview.days`
+
+Here are some more visualization of real-time data from my life:
+
+- Sleep tracking: [this week](https://anandchowdhary.github.io/life/?repo=AnandChowdhary%2Flife&api=oura-sleep&latest=total.weeks) · [this month](https://anandchowdhary.github.io/life/?repo=AnandChowdhary%2Flife&api=oura-sleep&latest=total.days) · [this year](https://anandchowdhary.github.io/life/?repo=AnandChowdhary%2Flife&api=oura-sleep&latest=total.months)
+- Programming time: [this week](https://anandchowdhary.github.io/life/?repo=AnandChowdhary%2Flife&api=wakatime-time-tracking&latest=weeks) · [this month](https://anandchowdhary.github.io/life/?repo=AnandChowdhary%2Flife&api=wakatime-time-tracking&latest=days) · [this year](https://anandchowdhary.github.io/life/?repo=AnandChowdhary%2Flife&api=wakatime-time-tracking&latest=months)
+
+This is a real-time screenshot of the above RescueTime weekly overview URL:
+
+[![Screenshot of visualization](https://api.microlink.io/?url=https%3A%2F%2Fanandchowdhary.github.io%2Flife%2F%3Frepo%3DAnandChowdhary%252Flife%26api%3Drescuetime-time-tracking%26latest%3Dtop-overview.weeks&waitFor=5000&waitUntil=networkidle2&screenshot=true&meta=false&embed=screenshot.url&device=ipadlandscape)](https://anandchowdhary.github.io/life/?repo=AnandChowdhary%2Flife&api=rescuetime-time-tracking&latest=top-overview.weeks)
+
 ## 🌱 Getting started
 
 1. Create a repository [using this template](https://github.com/AnandChowdhary/life/generate)
 2. Delete the [`./data`](./data) directory
 3. Update the configuration in [`.liferc.yml`](./.liferc.yml)
 4. Add the required GitHub repository secrets
+5. [Enable publishing](https://docs.github.com/en/github/working-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site) the `gh-pages` branch
 
 ## 🛠️ Configuration
 
@@ -50,6 +74,14 @@ daily:
 ```
 
 All sensitive information required, such as API keys, are provided as environment variables. These are stored as GitHub repository secrets (see [Creating and storing encrypted secrets](https://docs.github.com/en/actions/configuring-and-managing-workflows/creating-and-storing-encrypted-secrets)).
+
+Additional service-specific configuration lives under the `config` key:
+
+```yaml
+config:
+  rescueTime:
+    trackTopActivities: false
+```
 
 ### <img alt="" src="https://cdn.worldvectorlogo.com/logos/spotify-2.svg" width="16"> Spotify
 
@@ -204,7 +236,7 @@ The Oura API requires a Personal Access Token which can be generated on the [Per
 ## 📄 License
 
 - Code: [MIT](./LICENSE) © [Anand Chowdhary](https://anandchowdhary.com)
-- Data in [`./data`](./data): [Open Database License](https://opendatacommons.org/licenses/odbl/1-0/)(https://anandchowdhary.com)
+- Data in [`./data`](./data): [Open Database License](https://opendatacommons.org/licenses/odbl/1-0/)
 - Icons in [`./src/app`](./src/app)
   - Loader: [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/) © [Rohith M S](https://thenounproject.com/rohithdezinr)
   - Error: [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/) © [Roselin Christina](https://thenounproject.com/rosttarose)
