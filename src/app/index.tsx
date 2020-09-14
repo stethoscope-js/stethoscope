@@ -46,6 +46,10 @@ const changeLastPart = (path: string, last: string) => {
 
 const cleanValues = (items: number[], api: string, path: string) => {
   // if (path.includes("/months/") || path.includes("/days/") || path.includes("/weeks/"))
+  if (path.includes("/months/"))
+    return items.map((val) =>
+      parseFloat((val / (3600 * 30.4368499)).toFixed(2))
+    );
   return items.map((val) => parseFloat((val / 3600).toFixed(2)));
   // return items.map((val) => parseInt(String(val)));
 };
