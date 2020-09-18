@@ -1,24 +1,231 @@
 [
   {
-    "categories": [],
+    "categories": [
+      {
+        "digital": "1:43:06",
+        "hours": 1,
+        "minutes": 43,
+        "name": "Coding",
+        "percent": 100,
+        "seconds": 6,
+        "text": "1 hr 43 mins",
+        "total_seconds": 6186.881056
+      }
+    ],
     "dependencies": [],
-    "editors": [],
+    "editors": [
+      {
+        "digital": "1:43:06",
+        "hours": 1,
+        "minutes": 43,
+        "name": "VS Code",
+        "percent": 100,
+        "seconds": 6,
+        "text": "1 hr 43 mins",
+        "total_seconds": 6186.881056
+      }
+    ],
     "grand_total": {
-      "digital": "0:00",
-      "hours": 0,
-      "minutes": 0,
-      "text": "0 secs",
-      "total_seconds": 0
+      "digital": "1:43",
+      "hours": 1,
+      "minutes": 43,
+      "text": "1 hr 43 mins",
+      "total_seconds": 6186.881056
     },
-    "languages": [],
-    "machines": [],
-    "operating_systems": [],
-    "projects": [],
+    "languages": [
+      {
+        "digital": "0:27:06",
+        "hours": 0,
+        "minutes": 27,
+        "name": "TypeScript",
+        "percent": 26.29,
+        "seconds": 6,
+        "text": "27 mins",
+        "total_seconds": 1626.228923
+      },
+      {
+        "digital": "0:23:13",
+        "hours": 0,
+        "minutes": 23,
+        "name": "HTML",
+        "percent": 22.53,
+        "seconds": 13,
+        "text": "23 mins",
+        "total_seconds": 1393.781236
+      },
+      {
+        "digital": "0:15:45",
+        "hours": 0,
+        "minutes": 15,
+        "name": "JSON",
+        "percent": 15.28,
+        "seconds": 45,
+        "text": "15 mins",
+        "total_seconds": 945.553253
+      },
+      {
+        "digital": "0:13:23",
+        "hours": 0,
+        "minutes": 13,
+        "name": "YAML",
+        "percent": 12.99,
+        "seconds": 23,
+        "text": "13 mins",
+        "total_seconds": 803.376993
+      },
+      {
+        "digital": "0:08:57",
+        "hours": 0,
+        "minutes": 8,
+        "name": "Svelte",
+        "percent": 8.68,
+        "seconds": 57,
+        "text": "8 mins",
+        "total_seconds": 537.075441
+      },
+      {
+        "digital": "0:07:45",
+        "hours": 0,
+        "minutes": 7,
+        "name": "Other",
+        "percent": 7.53,
+        "seconds": 45,
+        "text": "7 mins",
+        "total_seconds": 465.899006
+      },
+      {
+        "digital": "0:04:38",
+        "hours": 0,
+        "minutes": 4,
+        "name": "JavaScript",
+        "percent": 4.49,
+        "seconds": 38,
+        "text": "4 mins",
+        "total_seconds": 278.099479
+      },
+      {
+        "digital": "0:01:54",
+        "hours": 0,
+        "minutes": 1,
+        "name": "Markdown",
+        "percent": 1.86,
+        "seconds": 54,
+        "text": "1 min",
+        "total_seconds": 114.99654
+      },
+      {
+        "digital": "0:00:13",
+        "hours": 0,
+        "minutes": 0,
+        "name": "CSV",
+        "percent": 0.21,
+        "seconds": 13,
+        "text": "13 secs",
+        "total_seconds": 13.299991
+      },
+      {
+        "digital": "0:00:08",
+        "hours": 0,
+        "minutes": 0,
+        "name": "Git Config",
+        "percent": 0.14,
+        "seconds": 8,
+        "text": "8 secs",
+        "total_seconds": 8.570194
+      }
+    ],
+    "machines": [
+      {
+        "digital": "1:43:06",
+        "hours": 1,
+        "machine_name_id": "64178db0-3adb-4c2d-8432-28f8e027ed28",
+        "minutes": 43,
+        "name": "Anands-MacBook-Pro.local",
+        "percent": 100,
+        "seconds": 6,
+        "text": "1 hr 43 mins",
+        "total_seconds": 6186.881056
+      }
+    ],
+    "operating_systems": [
+      {
+        "digital": "1:43:06",
+        "hours": 1,
+        "minutes": 43,
+        "name": "Mac",
+        "percent": 100,
+        "seconds": 6,
+        "text": "1 hr 43 mins",
+        "total_seconds": 6186.881056
+      }
+    ],
+    "projects": [
+      {
+        "digital": "0:54:06",
+        "hours": 0,
+        "minutes": 54,
+        "name": "prettierrc",
+        "percent": 52.48,
+        "seconds": 6,
+        "text": "54 mins",
+        "total_seconds": 3246.56819
+      },
+      {
+        "digital": "0:17:04",
+        "hours": 0,
+        "minutes": 17,
+        "name": "template",
+        "percent": 16.56,
+        "seconds": 4,
+        "text": "17 mins",
+        "total_seconds": 1024.852748
+      },
+      {
+        "digital": "0:16:50",
+        "hours": 0,
+        "minutes": 16,
+        "name": "cleverclip-frontend",
+        "percent": 16.33,
+        "seconds": 50,
+        "text": "16 mins",
+        "total_seconds": 1010.098491
+      },
+      {
+        "digital": "0:09:39",
+        "hours": 0,
+        "minutes": 9,
+        "name": "koj",
+        "percent": 9.37,
+        "seconds": 39,
+        "text": "9 mins",
+        "total_seconds": 579.682586
+      },
+      {
+        "digital": "0:05:12",
+        "hours": 0,
+        "minutes": 5,
+        "name": "integrations",
+        "percent": 5.05,
+        "seconds": 12,
+        "text": "5 mins",
+        "total_seconds": 312.37905
+      },
+      {
+        "digital": "0:00:13",
+        "hours": 0,
+        "minutes": 0,
+        "name": "Unknown Project",
+        "percent": 0.21,
+        "seconds": 13,
+        "text": "13 secs",
+        "total_seconds": 13.299991
+      }
+    ],
     "range": {
       "date": "2020-09-17",
       "end": "2020-09-17T18:29:59Z",
       "start": "2020-09-16T18:30:00Z",
-      "text": "Today",
+      "text": "Yesterday",
       "timezone": "Asia/Kolkata"
     }
   }
