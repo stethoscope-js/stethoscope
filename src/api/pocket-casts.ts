@@ -6,7 +6,7 @@ import { write, zero } from "../common";
 import dayjs from "dayjs";
 import week from "dayjs/plugin/weekOfYear";
 dayjs.extend(week);
-cosmicSync("life");
+cosmicSync("stethoscope");
 
 const pocketCasts = new PocketCasts(
   config("pocketCastsUsername") ?? "example",

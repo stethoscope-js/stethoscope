@@ -5,7 +5,7 @@ import { write } from "../common";
 import dayjs from "dayjs";
 import week from "dayjs/plugin/weekOfYear";
 dayjs.extend(week);
-cosmicSync("life");
+cosmicSync("stethoscope");
 
 /**
  * From `T` make a set of properties by key `K` become optional

@@ -7,7 +7,7 @@ import week from "dayjs/plugin/weekOfYear";
 import { WakaTimeClient } from "wakatime-client";
 import { pathExists, lstat, readdir, readJson } from "fs-extra";
 dayjs.extend(week);
-cosmicSync("life");
+cosmicSync("stethoscope");
 
 const client = new WakaTimeClient(config("wakatimeApiKey") ?? "example");
 

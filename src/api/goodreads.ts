@@ -1,6 +1,6 @@
 import goodreads from "goodreads-api-node";
 import { config, cosmicSync } from "@anandchowdhary/cosmic";
-cosmicSync("life");
+cosmicSync("stethoscope");
 
 const userId = config("goodreadsUserId") ?? "example";
 

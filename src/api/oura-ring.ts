@@ -12,7 +12,7 @@ import week from "dayjs/plugin/weekOfYear";
 dayjs.extend(week);
 dayjs.extend(isoWeeksInYear);
 dayjs.extend(isLeapYear);
-cosmicSync("life");
+cosmicSync("stethoscope");
 
 const updateOuraDailyData = async (date: Date) => {
   const formattedDate = dayjs(date).format("YYYY-MM-DD");

@@ -13,7 +13,7 @@ import week from "dayjs/plugin/weekOfYear";
 dayjs.extend(week);
 dayjs.extend(isoWeeksInYear);
 dayjs.extend(isLeapYear);
-cosmicSync("life");
+cosmicSync("stethoscope");
 
 const oauth2Client = new google.auth.OAuth2(
   config("googleFitClientId") ?? "example",

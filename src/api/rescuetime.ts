@@ -7,7 +7,7 @@ import dayjs from "dayjs";
 import week from "dayjs/plugin/weekOfYear";
 import { pathExists, lstat, readdir, readJson } from "fs-extra";
 dayjs.extend(week);
-cosmicSync("life");
+cosmicSync("stethoscope");
 
 export interface RescueTimeDaily {
   id: number;

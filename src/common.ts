@@ -1,6 +1,6 @@
 import { cosmicSync } from "@anandchowdhary/cosmic";
 import { ensureFile, writeFile } from "fs-extra";
-cosmicSync("life");
+cosmicSync("stethoscope");
 
 export const write = async (name: string, contents: any) => {
   await ensureFile(name);

@@ -7,7 +7,7 @@ import { join } from "path";
 import PromisePool from "es6-promise-pool";
 import week from "dayjs/plugin/weekOfYear";
 dayjs.extend(week);
-cosmicSync("life");
+cosmicSync("stethoscope");
 
 const lastFm = new LastFm(config("lastfmApiKey") ?? "example");
 

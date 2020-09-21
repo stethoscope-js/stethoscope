@@ -3,7 +3,7 @@ import axios from "axios";
 import dayjs from "dayjs";
 import { write } from "../common";
 import { join } from "path";
-cosmicSync("life");
+cosmicSync("stethoscope");
 
 const apiKey = config("clockifyApiKey");
 const workspaceId = config("clockifyWorkspaceId");
