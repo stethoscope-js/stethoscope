@@ -1,22 +1,21 @@
-name: Integration CI
+name: Stethoscope CI
 on:
-  push:
-    branches: [master]
+  schedule:
+    - cron: "0 0 * * *"
+  repository_dispatch:
+    types: [daily]
 jobs:
   release:
-    name: Build
+    name: Daily
     runs-on: ubuntu-18.04
-    if: "!contains(github.event.head_commit.message, '[skip ci]')"
     steps:
       - name: Checkout
         uses: actions/checkout@v2
         with:
           ref: ${{ github.head_ref }}
           token: ${{ secrets.GITHUB_TOKEN }}
-      - name: Label approved PRs
+      - name: Update data using Stethoscope
         uses: stethoscope-js/action@master
-        with:
-          token: ${{ secrets.GITHUB_TOKEN }}
         env:
           GOODREADS_USER_ID: ${{ secrets.GOODREADS_USER_ID }}
           GOODREADS_KEY: ${{ secrets.GOODREADS_KEY }}
