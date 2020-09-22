@@ -31,25 +31,27 @@ Track, visualize, and embed all your health and life data — location, health, 
 
 ## 🌱 Getting started
 
-1. Create a repository [using this template](https://github.com/AnandChowdhary/life/generate)
+1. Create a repository [using this template](https://github.com/stethoscope-js/stethoscope/generate)
 2. Delete the [`./data`](./data) directory
 3. Update the configuration in [`.stethoscoperc.yml`](./.stethoscoperc.yml)
 4. Add the required GitHub repository secrets
 5. [Enable publishing](https://docs.github.com/en/github/working-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site) the `gh-pages` branch
 
-## 🛠️ Configuration
-
-A [`.stethoscoperc.yml`](./.stethoscoperc.yml) file is used for configuration. For more information, see https://stethoscope.js.org/docs.
-
 ## 📝 Documentation
 
 **Visit our docs website: https://stethoscope.js.org**
 
+## 🛠️ Configuration
+
+A [`.stethoscoperc.yml`](./.stethoscoperc.yml) file is used for configuration. For more information, see https://stethoscope.js.org/docs/configuration.
+
 ## 📊 Example
 
-This is a real-time screenshot of the above RescueTime weekly overview URL:
+This is a real-time screenshot of [Anand Chowdhary](https://anandchowdhary.com)'s RescueTime weekly overview URL, fetched from [AnandChowdhary/life](https://github.com/AnandChowdhary/life):
 
 [![Screenshot of visualization](https://api.microlink.io/?url=https%3A%2F%2Fanandchowdhary.github.io%2Flife%2F%3Frepo%3DAnandChowdhary%252Flife%26api%3Drescuetime-time-tracking%26latest%3Dtop-overview.weeks&waitFor=5000&waitUntil=networkidle2&screenshot=true&meta=false&embed=screenshot.url&device=ipadlandscape)](https://anandchowdhary.github.io/life/?repo=AnandChowdhary%2Flife&api=rescuetime-time-tracking&latest=top-overview.weeks)
+
+Learn how to make your own embeds on https://stethoscope.js.org/docs/embed.
 
 ## 📄 License
 
