@@ -1,13 +1,18 @@
-daily:
-  # - spotify
-  - rescueTime
-  - lastFm
-  - pocketCasts
-  - wakatime
-  # - clockify
-  - googleFit
-  - ouraRing
-  # - goodreads
-config:
-  rescueTime:
-    trackTopActivities: false
+integrations:
+  rescue-time:
+    overview: true
+    top-categories: true
+    top-activities: false
+  last-fm:
+    all: true
+  pocket-casts:
+    all: true
+  wakatime:
+    all: true
+  google-fit:
+    all: true
+  oura-ring:
+    all: true
+  # clockify:
+  # spotify:
+  # goodreads:
