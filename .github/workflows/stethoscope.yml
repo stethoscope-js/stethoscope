@@ -3,7 +3,8 @@ on:
   schedule:
     - cron: "0 0 * * *"
   repository_dispatch:
-    types: [daily]
+    types: [stethoscope]
+  workflow_dispatch:
 jobs:
   release:
     name: Daily
