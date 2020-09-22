@@ -1,10 +1,11 @@
-# 🧬 Life
+# 🩺 Stethoscope
+
+[![Stethoscope CI](https://github.com/stethoscope-js/stethoscope/workflows/Stethoscope%20CI/badge.svg)](https://github.com/stethoscope-js/stethoscope/actions?query=workflow%3A%22Stethoscope+CI%22)
+[![Update Template CI](https://github.com/stethoscope-js/stethoscope/workflows/Update%20Template%20CI/badge.svg)](https://github.com/stethoscope-js/stethoscope/actions?query=workflow%3A%22Update+Template+CI%22)
+
+Track, visualize, and embed all your health and life data — location, health, work, play, and more.
 
 **⚠️ WARNING:** This is a new version of my [life-data](https://github.com/AnandChowdhary/life-data) and [services](https://github.com/AnandChowdhary/services) repositories, currently in an early stage. Expect breaking changes.
-
-[![Daily CI](https://github.com/AnandChowdhary/life/workflows/Daily%20CI/badge.svg)](https://github.com/AnandChowdhary/life/actions?query=workflow%3A%22Daily+CI%22)
-[![Weekly CI](https://github.com/AnandChowdhary/life/workflows/Weekly%20CI/badge.svg)](https://github.com/AnandChowdhary/life/actions?query=workflow%3A%22Weekly+CI%22)
-[![Node CI](https://github.com/AnandChowdhary/life/workflows/Node%20CI/badge.svg)](https://github.com/AnandChowdhary/life/actions?query=workflow%3A%22Node+CI%22)
 
 ## 🌟 Features
 
