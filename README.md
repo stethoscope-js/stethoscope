@@ -1,4 +1,4 @@
-# <img alt="Stethoscope" src="https://stethoscope.js.org/branding/screenshot.jpeg">
+# <a href="https://stethoscope.js.org"><img alt="Stethoscope" src="https://stethoscope.js.org/branding/screenshot.jpeg"></a>
 
 [![Stethoscope CI](https://github.com/stethoscope-js/stethoscope/workflows/Stethoscope%20CI/badge.svg)](https://github.com/stethoscope-js/stethoscope/actions?query=workflow%3A%22Stethoscope+CI%22)
 [![Update Template CI](https://github.com/stethoscope-js/stethoscope/workflows/Update%20Template%20CI/badge.svg)](https://github.com/stethoscope-js/stethoscope/actions?query=workflow%3A%22Update+Template+CI%22)
