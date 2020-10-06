@@ -47,3 +47,10 @@ jobs:
           TWITTER_ACCESS_TOKEN: ${{ secrets.TWITTER_ACCESS_TOKEN }}
           TWITTER_ACCESS_TOKEN_SECRET: ${{ secrets.TWITTER_ACCESS_TOKEN_SECRET }}
           TWITTER_SCREEN_NAME: ${{ secrets.TWITTER_SCREEN_NAME }}
+      - name: Commit new data
+        uses: stefanzweifel/git-auto-commit-action@v4.5.1
+        with:
+          commit_message: ":card_file_box: Update daily life data [skip ci]"
+          commit_user_name: Stethoscoper
+          commit_user_email: stethoscope-js@anandchowdhary.com
+          commit_author: Stethoscoper <stethoscope-js@anandchowdhary.com>
