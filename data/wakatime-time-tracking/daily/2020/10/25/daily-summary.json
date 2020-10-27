@@ -1,24 +1,222 @@
 [
   {
-    "categories": [],
+    "categories": [
+      {
+        "digital": "2:04:04",
+        "hours": 2,
+        "minutes": 4,
+        "name": "Coding",
+        "percent": 100,
+        "seconds": 4,
+        "text": "2 hrs 4 mins",
+        "total_seconds": 7444.804337
+      }
+    ],
     "dependencies": [],
-    "editors": [],
+    "editors": [
+      {
+        "digital": "2:04:04",
+        "hours": 2,
+        "minutes": 4,
+        "name": "VS Code",
+        "percent": 100,
+        "seconds": 4,
+        "text": "2 hrs 4 mins",
+        "total_seconds": 7444.804337
+      }
+    ],
     "grand_total": {
-      "digital": "0:00",
-      "hours": 0,
-      "minutes": 0,
-      "text": "0 secs",
-      "total_seconds": 0
+      "digital": "2:04",
+      "hours": 2,
+      "minutes": 4,
+      "text": "2 hrs 4 mins",
+      "total_seconds": 7444.804337
     },
-    "languages": [],
-    "machines": [],
-    "operating_systems": [],
-    "projects": [],
+    "languages": [
+      {
+        "digital": "0:38:05",
+        "hours": 0,
+        "minutes": 38,
+        "name": "TypeScript",
+        "percent": 30.7,
+        "seconds": 5,
+        "text": "38 mins",
+        "total_seconds": 2285.867803
+      },
+      {
+        "digital": "0:33:57",
+        "hours": 0,
+        "minutes": 33,
+        "name": "JavaScript",
+        "percent": 27.36,
+        "seconds": 57,
+        "text": "33 mins",
+        "total_seconds": 2037.136423
+      },
+      {
+        "digital": "0:15:28",
+        "hours": 0,
+        "minutes": 15,
+        "name": "CSS",
+        "percent": 12.47,
+        "seconds": 28,
+        "text": "15 mins",
+        "total_seconds": 928.489527
+      },
+      {
+        "digital": "0:14:11",
+        "hours": 0,
+        "minutes": 14,
+        "name": "JSON",
+        "percent": 11.43,
+        "seconds": 11,
+        "text": "14 mins",
+        "total_seconds": 851.005071
+      },
+      {
+        "digital": "0:08:08",
+        "hours": 0,
+        "minutes": 8,
+        "name": "YAML",
+        "percent": 6.56,
+        "seconds": 8,
+        "text": "8 mins",
+        "total_seconds": 488.064817
+      },
+      {
+        "digital": "0:07:49",
+        "hours": 0,
+        "minutes": 7,
+        "name": "Markdown",
+        "percent": 6.31,
+        "seconds": 49,
+        "text": "7 mins",
+        "total_seconds": 469.458585
+      },
+      {
+        "digital": "0:05:56",
+        "hours": 0,
+        "minutes": 5,
+        "name": "Other",
+        "percent": 4.79,
+        "seconds": 56,
+        "text": "5 mins",
+        "total_seconds": 356.451452
+      },
+      {
+        "digital": "0:00:17",
+        "hours": 0,
+        "minutes": 0,
+        "name": "Git Config",
+        "percent": 0.24,
+        "seconds": 17,
+        "text": "17 secs",
+        "total_seconds": 17.936307
+      },
+      {
+        "digital": "0:00:10",
+        "hours": 0,
+        "minutes": 0,
+        "name": "XML",
+        "percent": 0.14,
+        "seconds": 10,
+        "text": "10 secs",
+        "total_seconds": 10.394352
+      }
+    ],
+    "machines": [
+      {
+        "digital": "1:37:21",
+        "hours": 1,
+        "machine_name_id": "6ec9f9fe-6c40-4c7f-8a8d-d0524efe2520",
+        "minutes": 37,
+        "name": "Anands-MBP.Dlink",
+        "percent": 78.46,
+        "seconds": 21,
+        "text": "1 hr 37 mins",
+        "total_seconds": 5841.375462
+      },
+      {
+        "digital": "0:26:43",
+        "hours": 0,
+        "machine_name_id": "584dc8e8-0213-4a5e-beaf-4de0a060aff7",
+        "minutes": 26,
+        "name": "Anands-MacBook-Pro.local",
+        "percent": 21.54,
+        "seconds": 43,
+        "text": "26 mins",
+        "total_seconds": 1603.428875
+      }
+    ],
+    "operating_systems": [
+      {
+        "digital": "2:04:04",
+        "hours": 2,
+        "minutes": 4,
+        "name": "Mac",
+        "percent": 100,
+        "seconds": 4,
+        "text": "2 hrs 4 mins",
+        "total_seconds": 7444.804337
+      }
+    ],
+    "projects": [
+      {
+        "digital": "1:01:13",
+        "hours": 1,
+        "minutes": 1,
+        "name": "upptime.js.org",
+        "percent": 49.35,
+        "seconds": 13,
+        "text": "1 hr 1 min",
+        "total_seconds": 3673.66068
+      },
+      {
+        "digital": "0:56:38",
+        "hours": 0,
+        "minutes": 56,
+        "name": "js-object-literal-parse",
+        "percent": 45.65,
+        "seconds": 38,
+        "text": "56 mins",
+        "total_seconds": 3398.659379
+      },
+      {
+        "digital": "0:03:14",
+        "hours": 0,
+        "minutes": 3,
+        "name": "api",
+        "percent": 2.61,
+        "seconds": 14,
+        "text": "3 mins",
+        "total_seconds": 194.537021
+      },
+      {
+        "digital": "0:02:56",
+        "hours": 0,
+        "minutes": 2,
+        "name": "action",
+        "percent": 2.37,
+        "seconds": 56,
+        "text": "2 mins",
+        "total_seconds": 176.451787
+      },
+      {
+        "digital": "0:00:01",
+        "hours": 0,
+        "minutes": 0,
+        "name": "uptime-monitor",
+        "percent": 0.02,
+        "seconds": 1,
+        "text": "1 sec",
+        "total_seconds": 1.49547
+      }
+    ],
     "range": {
       "date": "2020-10-26",
       "end": "2020-10-26T18:29:59Z",
       "start": "2020-10-25T18:30:00Z",
-      "text": "Today",
+      "text": "Yesterday",
       "timezone": "Asia/Kolkata"
     }
   }
