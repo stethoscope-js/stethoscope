@@ -1,24 +1,231 @@
 [
   {
-    "categories": [],
+    "categories": [
+      {
+        "digital": "3:29:56",
+        "hours": 3,
+        "minutes": 29,
+        "name": "Coding",
+        "percent": 100,
+        "seconds": 56,
+        "text": "3 hrs 29 mins",
+        "total_seconds": 12596.501872
+      }
+    ],
     "dependencies": [],
-    "editors": [],
+    "editors": [
+      {
+        "digital": "3:29:56",
+        "hours": 3,
+        "minutes": 29,
+        "name": "VS Code",
+        "percent": 100,
+        "seconds": 56,
+        "text": "3 hrs 29 mins",
+        "total_seconds": 12596.501872
+      }
+    ],
     "grand_total": {
-      "digital": "0:00",
-      "hours": 0,
-      "minutes": 0,
-      "text": "0 secs",
-      "total_seconds": 0
+      "digital": "3:29",
+      "hours": 3,
+      "minutes": 29,
+      "text": "3 hrs 29 mins",
+      "total_seconds": 12596.501872
     },
-    "languages": [],
-    "machines": [],
-    "operating_systems": [],
-    "projects": [],
+    "languages": [
+      {
+        "digital": "1:11:37",
+        "hours": 1,
+        "minutes": 11,
+        "name": "JavaScript",
+        "percent": 34.12,
+        "seconds": 37,
+        "text": "1 hr 11 mins",
+        "total_seconds": 4297.964132
+      },
+      {
+        "digital": "1:01:27",
+        "hours": 1,
+        "minutes": 1,
+        "name": "TypeScript",
+        "percent": 29.28,
+        "seconds": 27,
+        "text": "1 hr 1 min",
+        "total_seconds": 3687.643524
+      },
+      {
+        "digital": "1:00:06",
+        "hours": 1,
+        "minutes": 0,
+        "name": "Markdown",
+        "percent": 28.63,
+        "seconds": 6,
+        "text": "1 hr",
+        "total_seconds": 3606.865249
+      },
+      {
+        "digital": "0:11:16",
+        "hours": 0,
+        "minutes": 11,
+        "name": "Other",
+        "percent": 5.37,
+        "seconds": 16,
+        "text": "11 mins",
+        "total_seconds": 676.618012
+      },
+      {
+        "digital": "0:02:47",
+        "hours": 0,
+        "minutes": 2,
+        "name": "JSON",
+        "percent": 1.33,
+        "seconds": 47,
+        "text": "2 mins",
+        "total_seconds": 167.703583
+      },
+      {
+        "digital": "0:02:31",
+        "hours": 0,
+        "minutes": 2,
+        "name": "Git Config",
+        "percent": 1.21,
+        "seconds": 31,
+        "text": "2 mins",
+        "total_seconds": 151.942997
+      },
+      {
+        "digital": "0:00:04",
+        "hours": 0,
+        "minutes": 0,
+        "name": "Docker",
+        "percent": 0.04,
+        "seconds": 4,
+        "text": "4 secs",
+        "total_seconds": 4.57213
+      },
+      {
+        "digital": "0:00:03",
+        "hours": 0,
+        "minutes": 0,
+        "name": "YAML",
+        "percent": 0.03,
+        "seconds": 3,
+        "text": "3 secs",
+        "total_seconds": 3.192245
+      },
+      {
+        "digital": "0:00:00",
+        "hours": 0,
+        "minutes": 0,
+        "name": "Svelte",
+        "percent": 0,
+        "seconds": 0,
+        "text": "0 secs",
+        "total_seconds": 0
+      }
+    ],
+    "machines": [
+      {
+        "digital": "3:29:56",
+        "hours": 3,
+        "machine_name_id": "c502fc9b-f176-44f1-9d78-30304ffd8038",
+        "minutes": 29,
+        "name": "Anands-MacBook-Pro.local",
+        "percent": 100,
+        "seconds": 56,
+        "text": "3 hrs 29 mins",
+        "total_seconds": 12596.501872
+      }
+    ],
+    "operating_systems": [
+      {
+        "digital": "3:29:56",
+        "hours": 3,
+        "minutes": 29,
+        "name": "Mac",
+        "percent": 100,
+        "seconds": 56,
+        "text": "3 hrs 29 mins",
+        "total_seconds": 12596.501872
+      }
+    ],
+    "projects": [
+      {
+        "digital": "1:15:46",
+        "hours": 1,
+        "minutes": 15,
+        "name": "api",
+        "percent": 36.1,
+        "seconds": 46,
+        "text": "1 hr 15 mins",
+        "total_seconds": 4546.935434
+      },
+      {
+        "digital": "1:07:48",
+        "hours": 1,
+        "minutes": 7,
+        "name": "events",
+        "percent": 32.29,
+        "seconds": 48,
+        "text": "1 hr 7 mins",
+        "total_seconds": 4068.002451
+      },
+      {
+        "digital": "0:40:43",
+        "hours": 0,
+        "minutes": 40,
+        "name": "exported",
+        "percent": 19.4,
+        "seconds": 43,
+        "text": "40 mins",
+        "total_seconds": 2443.365194
+      },
+      {
+        "digital": "0:21:48",
+        "hours": 0,
+        "minutes": 21,
+        "name": "notes-summary",
+        "percent": 10.39,
+        "seconds": 48,
+        "text": "21 mins",
+        "total_seconds": 1308.150312
+      },
+      {
+        "digital": "0:02:45",
+        "hours": 0,
+        "minutes": 2,
+        "name": "upptime.js.org",
+        "percent": 1.32,
+        "seconds": 45,
+        "text": "2 mins",
+        "total_seconds": 165.810605
+      },
+      {
+        "digital": "0:01:04",
+        "hours": 0,
+        "minutes": 1,
+        "name": "Unknown Project",
+        "percent": 0.51,
+        "seconds": 4,
+        "text": "1 min",
+        "total_seconds": 64.237876
+      },
+      {
+        "digital": "0:00:00",
+        "hours": 0,
+        "minutes": 0,
+        "name": "koj",
+        "percent": 0,
+        "seconds": 0,
+        "text": "0 secs",
+        "total_seconds": 0
+      }
+    ],
     "range": {
       "date": "2020-11-14",
       "end": "2020-11-14T18:29:59Z",
       "start": "2020-11-13T18:30:00Z",
-      "text": "Today",
+      "text": "Yesterday",
       "timezone": "Asia/Kolkata"
     }
   }
