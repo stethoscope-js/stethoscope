@@ -1,24 +1,391 @@
 [
   {
-    "categories": [],
+    "categories": [
+      {
+        "digital": "7:44:51",
+        "hours": 7,
+        "minutes": 44,
+        "name": "Coding",
+        "percent": 100,
+        "seconds": 51,
+        "text": "7 hrs 44 mins",
+        "total_seconds": 27891.126238
+      }
+    ],
     "dependencies": [],
-    "editors": [],
+    "editors": [
+      {
+        "digital": "7:44:51",
+        "hours": 7,
+        "minutes": 44,
+        "name": "VS Code",
+        "percent": 100,
+        "seconds": 51,
+        "text": "7 hrs 44 mins",
+        "total_seconds": 27891.126238
+      }
+    ],
     "grand_total": {
-      "digital": "0:00",
-      "hours": 0,
-      "minutes": 0,
-      "text": "0 secs",
-      "total_seconds": 0
+      "digital": "7:44",
+      "hours": 7,
+      "minutes": 44,
+      "text": "7 hrs 44 mins",
+      "total_seconds": 27891.126238
     },
-    "languages": [],
-    "machines": [],
-    "operating_systems": [],
-    "projects": [],
+    "languages": [
+      {
+        "digital": "3:13:22",
+        "hours": 3,
+        "minutes": 13,
+        "name": "TypeScript",
+        "percent": 41.6,
+        "seconds": 22,
+        "text": "3 hrs 13 mins",
+        "total_seconds": 11602.033081
+      },
+      {
+        "digital": "1:55:52",
+        "hours": 1,
+        "minutes": 55,
+        "name": "YAML",
+        "percent": 24.93,
+        "seconds": 52,
+        "text": "1 hr 55 mins",
+        "total_seconds": 6952.752196
+      },
+      {
+        "digital": "1:06:57",
+        "hours": 1,
+        "minutes": 6,
+        "name": "JSON",
+        "percent": 14.4,
+        "seconds": 57,
+        "text": "1 hr 6 mins",
+        "total_seconds": 4017.047373
+      },
+      {
+        "digital": "0:42:55",
+        "hours": 0,
+        "minutes": 42,
+        "name": "Svelte",
+        "percent": 9.23,
+        "seconds": 55,
+        "text": "42 mins",
+        "total_seconds": 2575.702552
+      },
+      {
+        "digital": "0:24:49",
+        "hours": 0,
+        "minutes": 24,
+        "name": "JavaScript",
+        "percent": 5.34,
+        "seconds": 49,
+        "text": "24 mins",
+        "total_seconds": 1489.652561
+      },
+      {
+        "digital": "0:15:14",
+        "hours": 0,
+        "minutes": 15,
+        "name": "Markdown",
+        "percent": 3.28,
+        "seconds": 14,
+        "text": "15 mins",
+        "total_seconds": 914.525527
+      },
+      {
+        "digital": "0:05:39",
+        "hours": 0,
+        "minutes": 5,
+        "name": "Other",
+        "percent": 1.22,
+        "seconds": 39,
+        "text": "5 mins",
+        "total_seconds": 339.412948
+      }
+    ],
+    "machines": [
+      {
+        "digital": "7:44:51",
+        "hours": 7,
+        "machine_name_id": "c502fc9b-f176-44f1-9d78-30304ffd8038",
+        "minutes": 44,
+        "name": "Anands-MacBook-Pro.local",
+        "percent": 100,
+        "seconds": 51,
+        "text": "7 hrs 44 mins",
+        "total_seconds": 27891.126238
+      }
+    ],
+    "operating_systems": [
+      {
+        "digital": "7:44:51",
+        "hours": 7,
+        "minutes": 44,
+        "name": "Mac",
+        "percent": 100,
+        "seconds": 51,
+        "text": "7 hrs 44 mins",
+        "total_seconds": 27891.126238
+      }
+    ],
+    "projects": [
+      {
+        "digital": "1:48:00",
+        "hours": 1,
+        "minutes": 48,
+        "name": "status-page",
+        "percent": 23.24,
+        "seconds": 0,
+        "text": "1 hr 48 mins",
+        "total_seconds": 6480.961931
+      },
+      {
+        "digital": "1:44:13",
+        "hours": 1,
+        "minutes": 44,
+        "name": "api",
+        "percent": 22.42,
+        "seconds": 13,
+        "text": "1 hr 44 mins",
+        "total_seconds": 6253.168513
+      },
+      {
+        "digital": "1:21:59",
+        "hours": 1,
+        "minutes": 21,
+        "name": "dependabot-pr-action",
+        "percent": 17.64,
+        "seconds": 59,
+        "text": "1 hr 21 mins",
+        "total_seconds": 4919.333502
+      },
+      {
+        "digital": "0:35:11",
+        "hours": 0,
+        "minutes": 35,
+        "name": "template",
+        "percent": 7.57,
+        "seconds": 11,
+        "text": "35 mins",
+        "total_seconds": 2111.679149
+      },
+      {
+        "digital": "0:33:15",
+        "hours": 0,
+        "minutes": 33,
+        "name": "uptime-monitor",
+        "percent": 7.15,
+        "seconds": 15,
+        "text": "33 mins",
+        "total_seconds": 1995.292871
+      },
+      {
+        "digital": "0:16:28",
+        "hours": 0,
+        "minutes": 16,
+        "name": "notes-summary",
+        "percent": 3.54,
+        "seconds": 28,
+        "text": "16 mins",
+        "total_seconds": 988.581977
+      },
+      {
+        "digital": "0:16:07",
+        "hours": 0,
+        "minutes": 16,
+        "name": "github-actions-starter",
+        "percent": 3.47,
+        "seconds": 7,
+        "text": "16 mins",
+        "total_seconds": 967.946255
+      },
+      {
+        "digital": "0:11:38",
+        "hours": 0,
+        "minutes": 11,
+        "name": "airtable-fill-1",
+        "percent": 2.51,
+        "seconds": 38,
+        "text": "11 mins",
+        "total_seconds": 698.702755
+      },
+      {
+        "digital": "0:08:09",
+        "hours": 0,
+        "minutes": 8,
+        "name": "release-scheduler",
+        "percent": 1.75,
+        "seconds": 9,
+        "text": "8 mins",
+        "total_seconds": 489.325113
+      },
+      {
+        "digital": "0:07:21",
+        "hours": 0,
+        "minutes": 7,
+        "name": "delete-merged-action",
+        "percent": 1.58,
+        "seconds": 21,
+        "text": "7 mins",
+        "total_seconds": 441.290829
+      },
+      {
+        "digital": "0:05:48",
+        "hours": 0,
+        "minutes": 5,
+        "name": "firebase-pipedrive",
+        "percent": 1.25,
+        "seconds": 48,
+        "text": "5 mins",
+        "total_seconds": 348.451709
+      },
+      {
+        "digital": "0:04:38",
+        "hours": 0,
+        "minutes": 4,
+        "name": "algolia-crawl",
+        "percent": 1,
+        "seconds": 38,
+        "text": "4 mins",
+        "total_seconds": 278.787642
+      },
+      {
+        "digital": "0:04:35",
+        "hours": 0,
+        "minutes": 4,
+        "name": "label-approved-action",
+        "percent": 0.99,
+        "seconds": 35,
+        "text": "4 mins",
+        "total_seconds": 275.22783
+      },
+      {
+        "digital": "0:03:18",
+        "hours": 0,
+        "minutes": 3,
+        "name": "firebase-github-backup-1",
+        "percent": 0.71,
+        "seconds": 18,
+        "text": "3 mins",
+        "total_seconds": 198.880629
+      },
+      {
+        "digital": "0:03:10",
+        "hours": 0,
+        "minutes": 3,
+        "name": "twitter-list-sync",
+        "percent": 0.68,
+        "seconds": 10,
+        "text": "3 mins",
+        "total_seconds": 190.16272
+      },
+      {
+        "digital": "0:03:09",
+        "hours": 0,
+        "minutes": 3,
+        "name": "workers-template-1",
+        "percent": 0.68,
+        "seconds": 9,
+        "text": "3 mins",
+        "total_seconds": 189.377099
+      },
+      {
+        "digital": "0:03:01",
+        "hours": 0,
+        "minutes": 3,
+        "name": "up.js",
+        "percent": 0.65,
+        "seconds": 1,
+        "text": "3 mins",
+        "total_seconds": 181.064185
+      },
+      {
+        "digital": "0:02:57",
+        "hours": 0,
+        "minutes": 2,
+        "name": "deploy-pr-action-1",
+        "percent": 0.64,
+        "seconds": 57,
+        "text": "2 mins",
+        "total_seconds": 177.796273
+      },
+      {
+        "digital": "0:02:54",
+        "hours": 0,
+        "minutes": 2,
+        "name": "twt-1",
+        "percent": 0.62,
+        "seconds": 54,
+        "text": "2 mins",
+        "total_seconds": 174.218154
+      },
+      {
+        "digital": "0:02:14",
+        "hours": 0,
+        "minutes": 2,
+        "name": "types",
+        "percent": 0.48,
+        "seconds": 14,
+        "text": "2 mins",
+        "total_seconds": 134.066302
+      },
+      {
+        "digital": "0:02:08",
+        "hours": 0,
+        "minutes": 2,
+        "name": "graphs",
+        "percent": 0.46,
+        "seconds": 8,
+        "text": "2 mins",
+        "total_seconds": 128.126627
+      },
+      {
+        "digital": "0:01:39",
+        "hours": 0,
+        "minutes": 1,
+        "name": "events-summary",
+        "percent": 0.36,
+        "seconds": 39,
+        "text": "1 min",
+        "total_seconds": 99.833384
+      },
+      {
+        "digital": "0:01:24",
+        "hours": 0,
+        "minutes": 1,
+        "name": "unqueue-1",
+        "percent": 0.3,
+        "seconds": 24,
+        "text": "1 min",
+        "total_seconds": 84.279104
+      },
+      {
+        "digital": "0:01:04",
+        "hours": 0,
+        "minutes": 1,
+        "name": "strapi",
+        "percent": 0.23,
+        "seconds": 4,
+        "text": "1 min",
+        "total_seconds": 64.294476
+      },
+      {
+        "digital": "0:00:20",
+        "hours": 0,
+        "minutes": 0,
+        "name": "readme-repos-list",
+        "percent": 0.07,
+        "seconds": 20,
+        "text": "20 secs",
+        "total_seconds": 20.277209
+      }
+    ],
     "range": {
       "date": "2020-11-17",
       "end": "2020-11-17T18:29:59Z",
       "start": "2020-11-16T18:30:00Z",
-      "text": "Today",
+      "text": "Yesterday",
       "timezone": "Asia/Kolkata"
     }
   }
