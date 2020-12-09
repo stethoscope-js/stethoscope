@@ -1,24 +1,202 @@
 [
   {
-    "categories": [],
+    "categories": [
+      {
+        "digital": "2:29:06",
+        "hours": 2,
+        "minutes": 29,
+        "name": "Coding",
+        "percent": 100,
+        "seconds": 6,
+        "text": "2 hrs 29 mins",
+        "total_seconds": 8946.637262
+      }
+    ],
     "dependencies": [],
-    "editors": [],
+    "editors": [
+      {
+        "digital": "2:29:06",
+        "hours": 2,
+        "minutes": 29,
+        "name": "VS Code",
+        "percent": 100,
+        "seconds": 6,
+        "text": "2 hrs 29 mins",
+        "total_seconds": 8946.637262
+      }
+    ],
     "grand_total": {
-      "digital": "0:00",
-      "hours": 0,
-      "minutes": 0,
-      "text": "0 secs",
-      "total_seconds": 0
+      "digital": "2:29",
+      "hours": 2,
+      "minutes": 29,
+      "text": "2 hrs 29 mins",
+      "total_seconds": 8946.637262
     },
-    "languages": [],
-    "machines": [],
-    "operating_systems": [],
-    "projects": [],
+    "languages": [
+      {
+        "digital": "2:02:13",
+        "hours": 2,
+        "minutes": 2,
+        "name": "TypeScript",
+        "percent": 81.97,
+        "seconds": 13,
+        "text": "2 hrs 2 mins",
+        "total_seconds": 7333.539018
+      },
+      {
+        "digital": "0:11:20",
+        "hours": 0,
+        "minutes": 11,
+        "name": "Svelte",
+        "percent": 7.6,
+        "seconds": 20,
+        "text": "11 mins",
+        "total_seconds": 680.31014
+      },
+      {
+        "digital": "0:09:12",
+        "hours": 0,
+        "minutes": 9,
+        "name": "YAML",
+        "percent": 6.17,
+        "seconds": 12,
+        "text": "9 mins",
+        "total_seconds": 552.201124
+      },
+      {
+        "digital": "0:02:42",
+        "hours": 0,
+        "minutes": 2,
+        "name": "JSON",
+        "percent": 1.82,
+        "seconds": 42,
+        "text": "2 mins",
+        "total_seconds": 162.881281
+      },
+      {
+        "digital": "0:02:37",
+        "hours": 0,
+        "minutes": 2,
+        "name": "JavaScript",
+        "percent": 1.76,
+        "seconds": 37,
+        "text": "2 mins",
+        "total_seconds": 157.297663
+      },
+      {
+        "digital": "0:00:53",
+        "hours": 0,
+        "minutes": 0,
+        "name": "Other",
+        "percent": 0.59,
+        "seconds": 53,
+        "text": "53 secs",
+        "total_seconds": 53.126848
+      },
+      {
+        "digital": "0:00:06",
+        "hours": 0,
+        "minutes": 0,
+        "name": "Markdown",
+        "percent": 0.07,
+        "seconds": 6,
+        "text": "6 secs",
+        "total_seconds": 6.24768
+      },
+      {
+        "digital": "0:00:01",
+        "hours": 0,
+        "minutes": 0,
+        "name": "Git Config",
+        "percent": 0.01,
+        "seconds": 1,
+        "text": "1 sec",
+        "total_seconds": 1.033508
+      }
+    ],
+    "machines": [
+      {
+        "digital": "1:16:35",
+        "hours": 1,
+        "machine_name_id": "576c3587-314c-432a-bdfd-6282c0f80039",
+        "minutes": 16,
+        "name": "Anands-MacBook-Pro.local",
+        "percent": 51.36,
+        "seconds": 35,
+        "text": "1 hr 16 mins",
+        "total_seconds": 4595.141374
+      },
+      {
+        "digital": "1:12:31",
+        "hours": 1,
+        "machine_name_id": "b22a266c-31c8-44d2-acb1-5006f6617a09",
+        "minutes": 12,
+        "name": "Anands-MBP.Dlink",
+        "percent": 48.64,
+        "seconds": 31,
+        "text": "1 hr 12 mins",
+        "total_seconds": 4351.495888
+      }
+    ],
+    "operating_systems": [
+      {
+        "digital": "2:29:06",
+        "hours": 2,
+        "minutes": 29,
+        "name": "Mac",
+        "percent": 100,
+        "seconds": 6,
+        "text": "2 hrs 29 mins",
+        "total_seconds": 8946.637262
+      }
+    ],
+    "projects": [
+      {
+        "digital": "1:02:34",
+        "hours": 1,
+        "minutes": 2,
+        "name": "api",
+        "percent": 41.96,
+        "seconds": 34,
+        "text": "1 hr 2 mins",
+        "total_seconds": 3754.231226
+      },
+      {
+        "digital": "0:57:50",
+        "hours": 0,
+        "minutes": 57,
+        "name": "firebase-sync",
+        "percent": 38.79,
+        "seconds": 50,
+        "text": "57 mins",
+        "total_seconds": 3470.245939
+      },
+      {
+        "digital": "0:14:32",
+        "hours": 0,
+        "minutes": 14,
+        "name": "koj",
+        "percent": 9.75,
+        "seconds": 32,
+        "text": "14 mins",
+        "total_seconds": 872.321969
+      },
+      {
+        "digital": "0:14:09",
+        "hours": 0,
+        "minutes": 14,
+        "name": "release-scheduler",
+        "percent": 9.5,
+        "seconds": 9,
+        "text": "14 mins",
+        "total_seconds": 849.838128
+      }
+    ],
     "range": {
       "date": "2020-12-08",
       "end": "2020-12-08T18:29:59Z",
       "start": "2020-12-07T18:30:00Z",
-      "text": "Today",
+      "text": "Yesterday",
       "timezone": "Asia/Kolkata"
     }
   }
