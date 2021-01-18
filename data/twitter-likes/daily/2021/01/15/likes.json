@@ -173,15 +173,15 @@
       },
       "protected": false,
       "followers_count": 739,
-      "friends_count": 732,
+      "friends_count": 734,
       "listed_count": 16,
       "created_at": "Sun Feb 09 23:51:07 +0000 2020",
-      "favourites_count": 3445,
+      "favourites_count": 3456,
       "utc_offset": null,
       "time_zone": null,
       "geo_enabled": false,
       "verified": false,
-      "statuses_count": 3504,
+      "statuses_count": 3512,
       "lang": null,
       "contributors_enabled": false,
       "is_translator": false,
@@ -212,7 +212,212 @@
     "contributors": null,
     "is_quote_status": false,
     "retweet_count": 3,
-    "favorite_count": 51,
+    "favorite_count": 52,
+    "favorited": true,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "lang": "en"
+  },
+  {
+    "created_at": "Fri Jan 15 19:14:28 +0000 2021",
+    "id": 1350159432282357800,
+    "id_str": "1350159432282357760",
+    "text": "The guy on the left still works at GitHub. The guy on the right was fired :/ https://t.co/daF591s7Z7",
+    "truncated": false,
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "user_mentions": [],
+      "urls": [],
+      "media": [
+        {
+          "id": 1350159428712972300,
+          "id_str": "1350159428712972288",
+          "indices": [
+            77,
+            100
+          ],
+          "media_url": "http://pbs.twimg.com/media/Ery62NKUwAAGKB3.jpg",
+          "media_url_https": "https://pbs.twimg.com/media/Ery62NKUwAAGKB3.jpg",
+          "url": "https://t.co/daF591s7Z7",
+          "display_url": "pic.twitter.com/daF591s7Z7",
+          "expanded_url": "https://twitter.com/ZoeSchiffer/status/1350159432282357760/photo/1",
+          "type": "photo",
+          "sizes": {
+            "thumb": {
+              "w": 150,
+              "h": 150,
+              "resize": "crop"
+            },
+            "large": {
+              "w": 932,
+              "h": 1733,
+              "resize": "fit"
+            },
+            "small": {
+              "w": 366,
+              "h": 680,
+              "resize": "fit"
+            },
+            "medium": {
+              "w": 645,
+              "h": 1200,
+              "resize": "fit"
+            }
+          }
+        }
+      ]
+    },
+    "extended_entities": {
+      "media": [
+        {
+          "id": 1350159428712972300,
+          "id_str": "1350159428712972288",
+          "indices": [
+            77,
+            100
+          ],
+          "media_url": "http://pbs.twimg.com/media/Ery62NKUwAAGKB3.jpg",
+          "media_url_https": "https://pbs.twimg.com/media/Ery62NKUwAAGKB3.jpg",
+          "url": "https://t.co/daF591s7Z7",
+          "display_url": "pic.twitter.com/daF591s7Z7",
+          "expanded_url": "https://twitter.com/ZoeSchiffer/status/1350159432282357760/photo/1",
+          "type": "photo",
+          "sizes": {
+            "thumb": {
+              "w": 150,
+              "h": 150,
+              "resize": "crop"
+            },
+            "large": {
+              "w": 932,
+              "h": 1733,
+              "resize": "fit"
+            },
+            "small": {
+              "w": 366,
+              "h": 680,
+              "resize": "fit"
+            },
+            "medium": {
+              "w": 645,
+              "h": 1200,
+              "resize": "fit"
+            }
+          }
+        },
+        {
+          "id": 1350159428712951800,
+          "id_str": "1350159428712951814",
+          "indices": [
+            77,
+            100
+          ],
+          "media_url": "http://pbs.twimg.com/media/Ery62NKUcAY6DlR.jpg",
+          "media_url_https": "https://pbs.twimg.com/media/Ery62NKUcAY6DlR.jpg",
+          "url": "https://t.co/daF591s7Z7",
+          "display_url": "pic.twitter.com/daF591s7Z7",
+          "expanded_url": "https://twitter.com/ZoeSchiffer/status/1350159432282357760/photo/1",
+          "type": "photo",
+          "sizes": {
+            "small": {
+              "w": 379,
+              "h": 680,
+              "resize": "fit"
+            },
+            "thumb": {
+              "w": 150,
+              "h": 150,
+              "resize": "crop"
+            },
+            "medium": {
+              "w": 669,
+              "h": 1200,
+              "resize": "fit"
+            },
+            "large": {
+              "w": 923,
+              "h": 1655,
+              "resize": "fit"
+            }
+          }
+        }
+      ]
+    },
+    "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 808464904575299600,
+      "id_str": "808464904575299584",
+      "name": "Zoë Schiffer",
+      "screen_name": "ZoeSchiffer",
+      "location": "Oakland, CA",
+      "description": "Senior reporter @verge | labor & workplace organizing | zoe@theverge.com | dm for Signal",
+      "url": "https://t.co/LsshElKpy1",
+      "entities": {
+        "url": {
+          "urls": [
+            {
+              "url": "https://t.co/LsshElKpy1",
+              "expanded_url": "https://www.theverge.com/pages/theinterface",
+              "display_url": "theverge.com/pages/theinter…",
+              "indices": [
+                0,
+                23
+              ]
+            }
+          ]
+        },
+        "description": {
+          "urls": []
+        }
+      },
+      "protected": false,
+      "followers_count": 7685,
+      "friends_count": 954,
+      "listed_count": 146,
+      "created_at": "Tue Dec 13 00:13:48 +0000 2016",
+      "favourites_count": 356,
+      "utc_offset": null,
+      "time_zone": null,
+      "geo_enabled": true,
+      "verified": true,
+      "statuses_count": 798,
+      "lang": null,
+      "contributors_enabled": false,
+      "is_translator": false,
+      "is_translation_enabled": false,
+      "profile_background_color": "000000",
+      "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+      "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+      "profile_background_tile": false,
+      "profile_image_url": "http://pbs.twimg.com/profile_images/1339414834350182401/Cbwg03OA_normal.jpg",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/1339414834350182401/Cbwg03OA_normal.jpg",
+      "profile_banner_url": "https://pbs.twimg.com/profile_banners/808464904575299584/1608176696",
+      "profile_link_color": "E81C4F",
+      "profile_sidebar_border_color": "000000",
+      "profile_sidebar_fill_color": "000000",
+      "profile_text_color": "000000",
+      "profile_use_background_image": false,
+      "has_extended_profile": false,
+      "default_profile": false,
+      "default_profile_image": false,
+      "following": false,
+      "follow_request_sent": false,
+      "notifications": false,
+      "translator_type": "none"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 2366,
+    "favorite_count": 9184,
     "favorited": true,
     "retweeted": false,
     "possibly_sensitive": false,
@@ -284,16 +489,16 @@
         }
       },
       "protected": false,
-      "followers_count": 396,
+      "followers_count": 397,
       "friends_count": 201,
       "listed_count": 17,
       "created_at": "Wed Nov 25 21:39:55 +0000 2009",
-      "favourites_count": 2340,
+      "favourites_count": 2344,
       "utc_offset": null,
       "time_zone": null,
       "geo_enabled": true,
       "verified": false,
-      "statuses_count": 2098,
+      "statuses_count": 2102,
       "lang": null,
       "contributors_enabled": false,
       "is_translator": false,
@@ -374,16 +579,16 @@
         }
       },
       "protected": false,
-      "followers_count": 92045,
-      "friends_count": 1432,
-      "listed_count": 1124,
+      "followers_count": 92052,
+      "friends_count": 1431,
+      "listed_count": 1127,
       "created_at": "Sun Mar 15 16:51:40 +0000 2015",
-      "favourites_count": 62782,
+      "favourites_count": 62788,
       "utc_offset": null,
       "time_zone": null,
       "geo_enabled": true,
       "verified": false,
-      "statuses_count": 21346,
+      "statuses_count": 21347,
       "lang": null,
       "contributors_enabled": false,
       "is_translator": false,
@@ -414,7 +619,7 @@
     "contributors": null,
     "is_quote_status": false,
     "retweet_count": 19,
-    "favorite_count": 845,
+    "favorite_count": 863,
     "favorited": true,
     "retweeted": false,
     "lang": "en"
