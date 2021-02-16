@@ -1,24 +1,211 @@
 [
   {
-    "categories": [],
+    "categories": [
+      {
+        "digital": "6:04:34",
+        "hours": 6,
+        "minutes": 4,
+        "name": "Coding",
+        "percent": 100,
+        "seconds": 34,
+        "text": "6 hrs 4 mins",
+        "total_seconds": 21874.635483
+      }
+    ],
     "dependencies": [],
-    "editors": [],
+    "editors": [
+      {
+        "digital": "6:04:34",
+        "hours": 6,
+        "minutes": 4,
+        "name": "VS Code",
+        "percent": 100,
+        "seconds": 34,
+        "text": "6 hrs 4 mins",
+        "total_seconds": 21874.635483
+      }
+    ],
     "grand_total": {
-      "digital": "0:00",
-      "hours": 0,
-      "minutes": 0,
-      "text": "0 secs",
-      "total_seconds": 0
+      "digital": "6:04",
+      "hours": 6,
+      "minutes": 4,
+      "text": "6 hrs 4 mins",
+      "total_seconds": 21874.635483
     },
-    "languages": [],
-    "machines": [],
-    "operating_systems": [],
-    "projects": [],
+    "languages": [
+      {
+        "digital": "2:47:46",
+        "hours": 2,
+        "minutes": 47,
+        "name": "Svelte",
+        "percent": 46.02,
+        "seconds": 46,
+        "text": "2 hrs 47 mins",
+        "total_seconds": 10066.515419
+      },
+      {
+        "digital": "1:31:44",
+        "hours": 1,
+        "minutes": 31,
+        "name": "TypeScript",
+        "percent": 25.17,
+        "seconds": 44,
+        "text": "1 hr 31 mins",
+        "total_seconds": 5504.988574
+      },
+      {
+        "digital": "0:34:40",
+        "hours": 0,
+        "minutes": 34,
+        "name": "JSON",
+        "percent": 9.51,
+        "seconds": 40,
+        "text": "34 mins",
+        "total_seconds": 2080.687043
+      },
+      {
+        "digital": "0:28:16",
+        "hours": 0,
+        "minutes": 28,
+        "name": "Markdown",
+        "percent": 7.76,
+        "seconds": 16,
+        "text": "28 mins",
+        "total_seconds": 1696.943321
+      },
+      {
+        "digital": "0:17:16",
+        "hours": 0,
+        "minutes": 17,
+        "name": "SQL",
+        "percent": 4.74,
+        "seconds": 16,
+        "text": "17 mins",
+        "total_seconds": 1036.79993
+      },
+      {
+        "digital": "0:11:40",
+        "hours": 0,
+        "minutes": 11,
+        "name": "YAML",
+        "percent": 3.2,
+        "seconds": 40,
+        "text": "11 mins",
+        "total_seconds": 700.376791
+      },
+      {
+        "digital": "0:11:00",
+        "hours": 0,
+        "minutes": 11,
+        "name": "JavaScript",
+        "percent": 3.02,
+        "seconds": 0,
+        "text": "11 mins",
+        "total_seconds": 660.828753
+      },
+      {
+        "digital": "0:01:15",
+        "hours": 0,
+        "minutes": 1,
+        "name": "Other",
+        "percent": 0.34,
+        "seconds": 15,
+        "text": "1 min",
+        "total_seconds": 75.093917
+      },
+      {
+        "digital": "0:00:52",
+        "hours": 0,
+        "minutes": 0,
+        "name": "Docker",
+        "percent": 0.24,
+        "seconds": 52,
+        "text": "52 secs",
+        "total_seconds": 52.401735
+      }
+    ],
+    "machines": [
+      {
+        "digital": "6:04:34",
+        "hours": 6,
+        "machine_name_id": "83d7fabb-d35a-4213-a8c9-dd176306dc7d",
+        "minutes": 4,
+        "name": "Anands-MacBook-Pro.local",
+        "percent": 100,
+        "seconds": 34,
+        "text": "6 hrs 4 mins",
+        "total_seconds": 21874.635483
+      }
+    ],
+    "operating_systems": [
+      {
+        "digital": "6:04:34",
+        "hours": 6,
+        "minutes": 4,
+        "name": "Mac",
+        "percent": 100,
+        "seconds": 34,
+        "text": "6 hrs 4 mins",
+        "total_seconds": 21874.635483
+      }
+    ],
+    "projects": [
+      {
+        "digital": "3:47:17",
+        "hours": 3,
+        "minutes": 47,
+        "name": "koj",
+        "percent": 62.35,
+        "seconds": 17,
+        "text": "3 hrs 47 mins",
+        "total_seconds": 13637.867372
+      },
+      {
+        "digital": "1:33:44",
+        "hours": 1,
+        "minutes": 33,
+        "name": "svelte-api-client",
+        "percent": 25.71,
+        "seconds": 44,
+        "text": "1 hr 33 mins",
+        "total_seconds": 5624.638191
+      },
+      {
+        "digital": "0:17:38",
+        "hours": 0,
+        "minutes": 17,
+        "name": "Unknown Project",
+        "percent": 4.84,
+        "seconds": 38,
+        "text": "17 mins",
+        "total_seconds": 1058.543503
+      },
+      {
+        "digital": "0:14:26",
+        "hours": 0,
+        "minutes": 14,
+        "name": "template",
+        "percent": 3.96,
+        "seconds": 26,
+        "text": "14 mins",
+        "total_seconds": 866.595105
+      },
+      {
+        "digital": "0:11:26",
+        "hours": 0,
+        "minutes": 11,
+        "name": "api",
+        "percent": 3.14,
+        "seconds": 26,
+        "text": "11 mins",
+        "total_seconds": 686.991312
+      }
+    ],
     "range": {
       "date": "2021-02-15",
       "end": "2021-02-15T18:29:59Z",
       "start": "2021-02-14T18:30:00Z",
-      "text": "Today",
+      "text": "Yesterday",
       "timezone": "Asia/Kolkata"
     }
   }
