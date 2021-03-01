@@ -1,24 +1,251 @@
 [
   {
-    "categories": [],
+    "categories": [
+      {
+        "digital": "6:25:07",
+        "hours": 6,
+        "minutes": 25,
+        "name": "Coding",
+        "percent": 100,
+        "seconds": 7,
+        "text": "6 hrs 25 mins",
+        "total_seconds": 23107.2613
+      }
+    ],
     "dependencies": [],
-    "editors": [],
+    "editors": [
+      {
+        "digital": "6:25:07",
+        "hours": 6,
+        "minutes": 25,
+        "name": "VS Code",
+        "percent": 100,
+        "seconds": 7,
+        "text": "6 hrs 25 mins",
+        "total_seconds": 23107.2613
+      }
+    ],
     "grand_total": {
-      "digital": "0:00",
-      "hours": 0,
-      "minutes": 0,
-      "text": "0 secs",
-      "total_seconds": 0
+      "digital": "6:25",
+      "hours": 6,
+      "minutes": 25,
+      "text": "6 hrs 25 mins",
+      "total_seconds": 23107.2613
     },
-    "languages": [],
-    "machines": [],
-    "operating_systems": [],
-    "projects": [],
+    "languages": [
+      {
+        "digital": "3:09:32",
+        "hours": 3,
+        "minutes": 9,
+        "name": "TypeScript",
+        "percent": 49.22,
+        "seconds": 32,
+        "text": "3 hrs 9 mins",
+        "total_seconds": 11372.940832
+      },
+      {
+        "digital": "0:54:12",
+        "hours": 0,
+        "minutes": 54,
+        "name": "Svelte",
+        "percent": 14.07,
+        "seconds": 12,
+        "text": "54 mins",
+        "total_seconds": 3252.155714
+      },
+      {
+        "digital": "0:53:37",
+        "hours": 0,
+        "minutes": 53,
+        "name": "JSON",
+        "percent": 13.92,
+        "seconds": 37,
+        "text": "53 mins",
+        "total_seconds": 3217.484644
+      },
+      {
+        "digital": "0:48:45",
+        "hours": 0,
+        "minutes": 48,
+        "name": "YAML",
+        "percent": 12.66,
+        "seconds": 45,
+        "text": "48 mins",
+        "total_seconds": 2925.919339
+      },
+      {
+        "digital": "0:17:43",
+        "hours": 0,
+        "minutes": 17,
+        "name": "Other",
+        "percent": 4.6,
+        "seconds": 43,
+        "text": "17 mins",
+        "total_seconds": 1063.791765
+      },
+      {
+        "digital": "0:12:40",
+        "hours": 0,
+        "minutes": 12,
+        "name": "Git Config",
+        "percent": 3.29,
+        "seconds": 40,
+        "text": "12 mins",
+        "total_seconds": 760.130813
+      },
+      {
+        "digital": "0:07:28",
+        "hours": 0,
+        "minutes": 7,
+        "name": "Markdown",
+        "percent": 1.94,
+        "seconds": 28,
+        "text": "7 mins",
+        "total_seconds": 448.570258
+      },
+      {
+        "digital": "0:00:54",
+        "hours": 0,
+        "minutes": 0,
+        "name": "Docker",
+        "percent": 0.23,
+        "seconds": 54,
+        "text": "54 secs",
+        "total_seconds": 54.120979
+      },
+      {
+        "digital": "0:00:08",
+        "hours": 0,
+        "minutes": 0,
+        "name": "JavaScript",
+        "percent": 0.03,
+        "seconds": 8,
+        "text": "8 secs",
+        "total_seconds": 8.071123
+      },
+      {
+        "digital": "0:00:04",
+        "hours": 0,
+        "minutes": 0,
+        "name": "TrafficScript",
+        "percent": 0.02,
+        "seconds": 4,
+        "text": "4 secs",
+        "total_seconds": 4.075833
+      }
+    ],
+    "machines": [
+      {
+        "digital": "6:25:07",
+        "hours": 6,
+        "machine_name_id": "df810d34-92f7-494d-91ca-00300ff7e9fd",
+        "minutes": 25,
+        "name": "Anands-MacBook-Pro.local",
+        "percent": 100,
+        "seconds": 7,
+        "text": "6 hrs 25 mins",
+        "total_seconds": 23107.2613
+      }
+    ],
+    "operating_systems": [
+      {
+        "digital": "6:25:07",
+        "hours": 6,
+        "minutes": 25,
+        "name": "Mac",
+        "percent": 100,
+        "seconds": 7,
+        "text": "6 hrs 25 mins",
+        "total_seconds": 23107.2613
+      }
+    ],
+    "projects": [
+      {
+        "digital": "2:25:04",
+        "hours": 2,
+        "minutes": 25,
+        "name": "status-sync",
+        "percent": 37.67,
+        "seconds": 4,
+        "text": "2 hrs 25 mins",
+        "total_seconds": 8704.539336
+      },
+      {
+        "digital": "1:04:14",
+        "hours": 1,
+        "minutes": 4,
+        "name": "admin",
+        "percent": 16.68,
+        "seconds": 14,
+        "text": "1 hr 4 mins",
+        "total_seconds": 3854.837472
+      },
+      {
+        "digital": "1:01:58",
+        "hours": 1,
+        "minutes": 1,
+        "name": "api",
+        "percent": 16.09,
+        "seconds": 58,
+        "text": "1 hr 1 min",
+        "total_seconds": 3718.063856
+      },
+      {
+        "digital": "1:00:34",
+        "hours": 1,
+        "minutes": 0,
+        "name": "svelte-api-client",
+        "percent": 15.73,
+        "seconds": 34,
+        "text": "1 hr",
+        "total_seconds": 3634.9808
+      },
+      {
+        "digital": "0:33:40",
+        "hours": 0,
+        "minutes": 33,
+        "name": "koj-designer",
+        "percent": 8.74,
+        "seconds": 40,
+        "text": "33 mins",
+        "total_seconds": 2020.149589
+      },
+      {
+        "digital": "0:09:51",
+        "hours": 0,
+        "minutes": 9,
+        "name": "koj",
+        "percent": 2.56,
+        "seconds": 51,
+        "text": "9 mins",
+        "total_seconds": 591.685926
+      },
+      {
+        "digital": "0:09:07",
+        "hours": 0,
+        "minutes": 9,
+        "name": "uptime-monitor",
+        "percent": 2.37,
+        "seconds": 7,
+        "text": "9 mins",
+        "total_seconds": 547.599005
+      },
+      {
+        "digital": "0:00:35",
+        "hours": 0,
+        "minutes": 0,
+        "name": "types",
+        "percent": 0.15,
+        "seconds": 35,
+        "text": "35 secs",
+        "total_seconds": 35.405316
+      }
+    ],
     "range": {
       "date": "2021-02-28",
       "end": "2021-02-28T18:29:59Z",
       "start": "2021-02-27T18:30:00Z",
-      "text": "Today",
+      "text": "Yesterday",
       "timezone": "Asia/Kolkata"
     }
   }
