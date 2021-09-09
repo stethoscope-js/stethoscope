@@ -1,25 +1,825 @@
 [
   {
-    "categories": [],
-    "dependencies": [],
-    "editors": [],
+    "categories": [
+      {
+        "decimal": "0.02",
+        "digital": "0:01:51",
+        "hours": 0,
+        "minutes": 1,
+        "name": "Coding",
+        "percent": 100,
+        "seconds": 51,
+        "text": "1 min",
+        "total_seconds": 111.201163
+      }
+    ],
+    "dependencies": [
+      {
+        "decimal": "0.00",
+        "digital": "0:00:11",
+        "hours": 0,
+        "minutes": 0,
+        "name": "svelte",
+        "percent": 1.59,
+        "seconds": 11,
+        "text": "11 secs",
+        "total_seconds": 11.474721
+      },
+      {
+        "decimal": "0.00",
+        "digital": "0:00:11",
+        "hours": 0,
+        "minutes": 0,
+        "name": "prettier-plugin-svelte",
+        "percent": 1.59,
+        "seconds": 11,
+        "text": "11 secs",
+        "total_seconds": 11.474721
+      },
+      {
+        "decimal": "0.00",
+        "digital": "0:00:11",
+        "hours": 0,
+        "minutes": 0,
+        "name": "typescript",
+        "percent": 1.59,
+        "seconds": 11,
+        "text": "11 secs",
+        "total_seconds": 11.474721
+      },
+      {
+        "decimal": "0.00",
+        "digital": "0:00:11",
+        "hours": 0,
+        "minutes": 0,
+        "name": "mousetrap",
+        "percent": 1.59,
+        "seconds": 11,
+        "text": "11 secs",
+        "total_seconds": 11.474721
+      },
+      {
+        "decimal": "0.00",
+        "digital": "0:00:11",
+        "hours": 0,
+        "minutes": 0,
+        "name": "svelte-jester",
+        "percent": 1.59,
+        "seconds": 11,
+        "text": "11 secs",
+        "total_seconds": 11.474721
+      },
+      {
+        "decimal": "0.00",
+        "digital": "0:00:11",
+        "hours": 0,
+        "minutes": 0,
+        "name": "postcss",
+        "percent": 1.59,
+        "seconds": 11,
+        "text": "11 secs",
+        "total_seconds": 11.474721
+      },
+      {
+        "decimal": "0.00",
+        "digital": "0:00:11",
+        "hours": 0,
+        "minutes": 0,
+        "name": "rollup-plugin-svelte",
+        "percent": 1.59,
+        "seconds": 11,
+        "text": "11 secs",
+        "total_seconds": 11.474721
+      },
+      {
+        "decimal": "0.00",
+        "digital": "0:00:11",
+        "hours": 0,
+        "minutes": 0,
+        "name": "svelte-chartjs",
+        "percent": 1.59,
+        "seconds": 11,
+        "text": "11 secs",
+        "total_seconds": 11.474721
+      },
+      {
+        "decimal": "0.00",
+        "digital": "0:00:11",
+        "hours": 0,
+        "minutes": 0,
+        "name": "@types/polka",
+        "percent": 1.59,
+        "seconds": 11,
+        "text": "11 secs",
+        "total_seconds": 11.474721
+      },
+      {
+        "decimal": "0.00",
+        "digital": "0:00:11",
+        "hours": 0,
+        "minutes": 0,
+        "name": "localforage",
+        "percent": 1.59,
+        "seconds": 11,
+        "text": "11 secs",
+        "total_seconds": 11.474721
+      },
+      {
+        "decimal": "0.00",
+        "digital": "0:00:11",
+        "hours": 0,
+        "minutes": 0,
+        "name": "timeago.js",
+        "percent": 1.59,
+        "seconds": 11,
+        "text": "11 secs",
+        "total_seconds": 11.474721
+      },
+      {
+        "decimal": "0.00",
+        "digital": "0:00:11",
+        "hours": 0,
+        "minutes": 0,
+        "name": "@rollup/plugin-node-resolve",
+        "percent": 1.59,
+        "seconds": 11,
+        "text": "11 secs",
+        "total_seconds": 11.474721
+      },
+      {
+        "decimal": "0.00",
+        "digital": "0:00:11",
+        "hours": 0,
+        "minutes": 0,
+        "name": "tslib",
+        "percent": 1.59,
+        "seconds": 11,
+        "text": "11 secs",
+        "total_seconds": 11.474721
+      },
+      {
+        "decimal": "0.00",
+        "digital": "0:00:11",
+        "hours": 0,
+        "minutes": 0,
+        "name": "debounce",
+        "percent": 1.59,
+        "seconds": 11,
+        "text": "11 secs",
+        "total_seconds": 11.474721
+      },
+      {
+        "decimal": "0.00",
+        "digital": "0:00:11",
+        "hours": 0,
+        "minutes": 0,
+        "name": "@rollup/plugin-url",
+        "percent": 1.59,
+        "seconds": 11,
+        "text": "11 secs",
+        "total_seconds": 11.474721
+      },
+      {
+        "decimal": "0.00",
+        "digital": "0:00:11",
+        "hours": 0,
+        "minutes": 0,
+        "name": "fa-svelte",
+        "percent": 1.59,
+        "seconds": 11,
+        "text": "11 secs",
+        "total_seconds": 11.474721
+      },
+      {
+        "decimal": "0.00",
+        "digital": "0:00:11",
+        "hours": 0,
+        "minutes": 0,
+        "name": "@testing-library/jest-dom",
+        "percent": 1.59,
+        "seconds": 11,
+        "text": "11 secs",
+        "total_seconds": 11.474721
+      },
+      {
+        "decimal": "0.00",
+        "digital": "0:00:11",
+        "hours": 0,
+        "minutes": 0,
+        "name": "@babel/plugin-syntax-dynamic-import",
+        "percent": 1.59,
+        "seconds": 11,
+        "text": "11 secs",
+        "total_seconds": 11.474721
+      },
+      {
+        "decimal": "0.00",
+        "digital": "0:00:11",
+        "hours": 0,
+        "minutes": 0,
+        "name": "babel-jest",
+        "percent": 1.59,
+        "seconds": 11,
+        "text": "11 secs",
+        "total_seconds": 11.474721
+      },
+      {
+        "decimal": "0.00",
+        "digital": "0:00:11",
+        "hours": 0,
+        "minutes": 0,
+        "name": "jest",
+        "percent": 1.59,
+        "seconds": 11,
+        "text": "11 secs",
+        "total_seconds": 11.474721
+      },
+      {
+        "decimal": "0.00",
+        "digital": "0:00:11",
+        "hours": 0,
+        "minutes": 0,
+        "name": "@types/file-saver",
+        "percent": 1.59,
+        "seconds": 11,
+        "text": "11 secs",
+        "total_seconds": 11.474721
+      },
+      {
+        "decimal": "0.00",
+        "digital": "0:00:11",
+        "hours": 0,
+        "minutes": 0,
+        "name": "@testing-library/svelte",
+        "percent": 1.59,
+        "seconds": 11,
+        "text": "11 secs",
+        "total_seconds": 11.474721
+      },
+      {
+        "decimal": "0.00",
+        "digital": "0:00:11",
+        "hours": 0,
+        "minutes": 0,
+        "name": "sass",
+        "percent": 1.59,
+        "seconds": 11,
+        "text": "11 secs",
+        "total_seconds": 11.474721
+      },
+      {
+        "decimal": "0.00",
+        "digital": "0:00:11",
+        "hours": 0,
+        "minutes": 0,
+        "name": "file-saver",
+        "percent": 1.59,
+        "seconds": 11,
+        "text": "11 secs",
+        "total_seconds": 11.474721
+      },
+      {
+        "decimal": "0.00",
+        "digital": "0:00:11",
+        "hours": 0,
+        "minutes": 0,
+        "name": "sapper",
+        "percent": 1.59,
+        "seconds": 11,
+        "text": "11 secs",
+        "total_seconds": 11.474721
+      },
+      {
+        "decimal": "0.00",
+        "digital": "0:00:11",
+        "hours": 0,
+        "minutes": 0,
+        "name": "svelte-jsoneditor",
+        "percent": 1.59,
+        "seconds": 11,
+        "text": "11 secs",
+        "total_seconds": 11.474721
+      },
+      {
+        "decimal": "0.00",
+        "digital": "0:00:11",
+        "hours": 0,
+        "minutes": 0,
+        "name": "prettier",
+        "percent": 1.59,
+        "seconds": 11,
+        "text": "11 secs",
+        "total_seconds": 11.474721
+      },
+      {
+        "decimal": "0.00",
+        "digital": "0:00:11",
+        "hours": 0,
+        "minutes": 0,
+        "name": "dotenv",
+        "percent": 1.59,
+        "seconds": 11,
+        "text": "11 secs",
+        "total_seconds": 11.474721
+      },
+      {
+        "decimal": "0.00",
+        "digital": "0:00:11",
+        "hours": 0,
+        "minutes": 0,
+        "name": "autoprefixer",
+        "percent": 1.59,
+        "seconds": 11,
+        "text": "11 secs",
+        "total_seconds": 11.474721
+      },
+      {
+        "decimal": "0.00",
+        "digital": "0:00:11",
+        "hours": 0,
+        "minutes": 0,
+        "name": "@types/node",
+        "percent": 1.59,
+        "seconds": 11,
+        "text": "11 secs",
+        "total_seconds": 11.474721
+      },
+      {
+        "decimal": "0.00",
+        "digital": "0:00:11",
+        "hours": 0,
+        "minutes": 0,
+        "name": "svelte-preprocess",
+        "percent": 1.59,
+        "seconds": 11,
+        "text": "11 secs",
+        "total_seconds": 11.474721
+      },
+      {
+        "decimal": "0.00",
+        "digital": "0:00:11",
+        "hours": 0,
+        "minutes": 0,
+        "name": "@types/mousetrap",
+        "percent": 1.59,
+        "seconds": 11,
+        "text": "11 secs",
+        "total_seconds": 11.474721
+      },
+      {
+        "decimal": "0.00",
+        "digital": "0:00:11",
+        "hours": 0,
+        "minutes": 0,
+        "name": "array-move",
+        "percent": 1.59,
+        "seconds": 11,
+        "text": "11 secs",
+        "total_seconds": 11.474721
+      },
+      {
+        "decimal": "0.00",
+        "digital": "0:00:11",
+        "hours": 0,
+        "minutes": 0,
+        "name": "@tsconfig/svelte",
+        "percent": 1.59,
+        "seconds": 11,
+        "text": "11 secs",
+        "total_seconds": 11.474721
+      },
+      {
+        "decimal": "0.00",
+        "digital": "0:00:11",
+        "hours": 0,
+        "minutes": 0,
+        "name": "change-case",
+        "percent": 1.59,
+        "seconds": 11,
+        "text": "11 secs",
+        "total_seconds": 11.474721
+      },
+      {
+        "decimal": "0.00",
+        "digital": "0:00:11",
+        "hours": 0,
+        "minutes": 0,
+        "name": "npm",
+        "percent": 1.59,
+        "seconds": 11,
+        "text": "11 secs",
+        "total_seconds": 11.474721
+      },
+      {
+        "decimal": "0.00",
+        "digital": "0:00:11",
+        "hours": 0,
+        "minutes": 0,
+        "name": "@rollup/plugin-babel",
+        "percent": 1.59,
+        "seconds": 11,
+        "text": "11 secs",
+        "total_seconds": 11.474721
+      },
+      {
+        "decimal": "0.00",
+        "digital": "0:00:11",
+        "hours": 0,
+        "minutes": 0,
+        "name": "ts-jest",
+        "percent": 1.59,
+        "seconds": 11,
+        "text": "11 secs",
+        "total_seconds": 11.474721
+      },
+      {
+        "decimal": "0.00",
+        "digital": "0:00:11",
+        "hours": 0,
+        "minutes": 0,
+        "name": "@pabio/types",
+        "percent": 1.59,
+        "seconds": 11,
+        "text": "11 secs",
+        "total_seconds": 11.474721
+      },
+      {
+        "decimal": "0.00",
+        "digital": "0:00:11",
+        "hours": 0,
+        "minutes": 0,
+        "name": "@fortawesome/free-solid-svg-icons",
+        "percent": 1.59,
+        "seconds": 11,
+        "text": "11 secs",
+        "total_seconds": 11.474721
+      },
+      {
+        "decimal": "0.00",
+        "digital": "0:00:11",
+        "hours": 0,
+        "minutes": 0,
+        "name": "rollup",
+        "percent": 1.59,
+        "seconds": 11,
+        "text": "11 secs",
+        "total_seconds": 11.474721
+      },
+      {
+        "decimal": "0.00",
+        "digital": "0:00:11",
+        "hours": 0,
+        "minutes": 0,
+        "name": "@babel/preset-env",
+        "percent": 1.59,
+        "seconds": 11,
+        "text": "11 secs",
+        "total_seconds": 11.474721
+      },
+      {
+        "decimal": "0.00",
+        "digital": "0:00:11",
+        "hours": 0,
+        "minutes": 0,
+        "name": "@sentry/tracing",
+        "percent": 1.59,
+        "seconds": 11,
+        "text": "11 secs",
+        "total_seconds": 11.474721
+      },
+      {
+        "decimal": "0.00",
+        "digital": "0:00:11",
+        "hours": 0,
+        "minutes": 0,
+        "name": "@babel/runtime",
+        "percent": 1.59,
+        "seconds": 11,
+        "text": "11 secs",
+        "total_seconds": 11.474721
+      },
+      {
+        "decimal": "0.00",
+        "digital": "0:00:11",
+        "hours": 0,
+        "minutes": 0,
+        "name": "rollup-plugin-terser",
+        "percent": 1.59,
+        "seconds": 11,
+        "text": "11 secs",
+        "total_seconds": 11.474721
+      },
+      {
+        "decimal": "0.00",
+        "digital": "0:00:11",
+        "hours": 0,
+        "minutes": 0,
+        "name": "@babel/plugin-transform-runtime",
+        "percent": 1.59,
+        "seconds": 11,
+        "text": "11 secs",
+        "total_seconds": 11.474721
+      },
+      {
+        "decimal": "0.00",
+        "digital": "0:00:11",
+        "hours": 0,
+        "minutes": 0,
+        "name": "@babel/core",
+        "percent": 1.59,
+        "seconds": 11,
+        "text": "11 secs",
+        "total_seconds": 11.474721
+      },
+      {
+        "decimal": "0.00",
+        "digital": "0:00:11",
+        "hours": 0,
+        "minutes": 0,
+        "name": "@sentry/browser",
+        "percent": 1.59,
+        "seconds": 11,
+        "text": "11 secs",
+        "total_seconds": 11.474721
+      },
+      {
+        "decimal": "0.00",
+        "digital": "0:00:11",
+        "hours": 0,
+        "minutes": 0,
+        "name": "sirv",
+        "percent": 1.59,
+        "seconds": 11,
+        "text": "11 secs",
+        "total_seconds": 11.474721
+      },
+      {
+        "decimal": "0.00",
+        "digital": "0:00:11",
+        "hours": 0,
+        "minutes": 0,
+        "name": "@types/jest",
+        "percent": 1.59,
+        "seconds": 11,
+        "text": "11 secs",
+        "total_seconds": 11.474721
+      },
+      {
+        "decimal": "0.00",
+        "digital": "0:00:11",
+        "hours": 0,
+        "minutes": 0,
+        "name": "@rollup/plugin-typescript",
+        "percent": 1.59,
+        "seconds": 11,
+        "text": "11 secs",
+        "total_seconds": 11.474721
+      },
+      {
+        "decimal": "0.00",
+        "digital": "0:00:11",
+        "hours": 0,
+        "minutes": 0,
+        "name": "@types/compression",
+        "percent": 1.59,
+        "seconds": 11,
+        "text": "11 secs",
+        "total_seconds": 11.474721
+      },
+      {
+        "decimal": "0.00",
+        "digital": "0:00:11",
+        "hours": 0,
+        "minutes": 0,
+        "name": "wildcard-match",
+        "percent": 1.59,
+        "seconds": 11,
+        "text": "11 secs",
+        "total_seconds": 11.474721
+      },
+      {
+        "decimal": "0.00",
+        "digital": "0:00:11",
+        "hours": 0,
+        "minutes": 0,
+        "name": "jwt-decode",
+        "percent": 1.59,
+        "seconds": 11,
+        "text": "11 secs",
+        "total_seconds": 11.474721
+      },
+      {
+        "decimal": "0.00",
+        "digital": "0:00:11",
+        "hours": 0,
+        "minutes": 0,
+        "name": "svelte-check",
+        "percent": 1.59,
+        "seconds": 11,
+        "text": "11 secs",
+        "total_seconds": 11.474721
+      },
+      {
+        "decimal": "0.00",
+        "digital": "0:00:11",
+        "hours": 0,
+        "minutes": 0,
+        "name": "svelte-highlight",
+        "percent": 1.59,
+        "seconds": 11,
+        "text": "11 secs",
+        "total_seconds": 11.474721
+      },
+      {
+        "decimal": "0.00",
+        "digital": "0:00:11",
+        "hours": 0,
+        "minutes": 0,
+        "name": "@fortawesome/free-brands-svg-icons",
+        "percent": 1.59,
+        "seconds": 11,
+        "text": "11 secs",
+        "total_seconds": 11.474721
+      },
+      {
+        "decimal": "0.00",
+        "digital": "0:00:11",
+        "hours": 0,
+        "minutes": 0,
+        "name": "@rollup/plugin-replace",
+        "percent": 1.59,
+        "seconds": 11,
+        "text": "11 secs",
+        "total_seconds": 11.474721
+      },
+      {
+        "decimal": "0.00",
+        "digital": "0:00:11",
+        "hours": 0,
+        "minutes": 0,
+        "name": "@types/debounce",
+        "percent": 1.59,
+        "seconds": 11,
+        "text": "11 secs",
+        "total_seconds": 11.474721
+      },
+      {
+        "decimal": "0.00",
+        "digital": "0:00:11",
+        "hours": 0,
+        "minutes": 0,
+        "name": "@rollup/plugin-json",
+        "percent": 1.59,
+        "seconds": 11,
+        "text": "11 secs",
+        "total_seconds": 11.474721
+      },
+      {
+        "decimal": "0.00",
+        "digital": "0:00:11",
+        "hours": 0,
+        "minutes": 0,
+        "name": "polka",
+        "percent": 1.59,
+        "seconds": 11,
+        "text": "11 secs",
+        "total_seconds": 11.474721
+      },
+      {
+        "decimal": "0.00",
+        "digital": "0:00:11",
+        "hours": 0,
+        "minutes": 0,
+        "name": "compression",
+        "percent": 1.59,
+        "seconds": 11,
+        "text": "11 secs",
+        "total_seconds": 11.474721
+      },
+      {
+        "decimal": "0.00",
+        "digital": "0:00:11",
+        "hours": 0,
+        "minutes": 0,
+        "name": "@rollup/plugin-commonjs",
+        "percent": 1.59,
+        "seconds": 11,
+        "text": "11 secs",
+        "total_seconds": 11.474721
+      }
+    ],
+    "editors": [
+      {
+        "decimal": "0.02",
+        "digital": "0:01:51",
+        "hours": 0,
+        "minutes": 1,
+        "name": "VS Code",
+        "percent": 100,
+        "seconds": 51,
+        "text": "1 min",
+        "total_seconds": 111.201163
+      }
+    ],
     "grand_total": {
-      "decimal": "0.00",
-      "digital": "0:00",
+      "decimal": "0.02",
+      "digital": "0:01",
       "hours": 0,
-      "minutes": 0,
-      "text": "0 secs",
-      "total_seconds": 0
+      "minutes": 1,
+      "text": "1 min",
+      "total_seconds": 111.201163
     },
-    "languages": [],
-    "machines": [],
-    "operating_systems": [],
-    "projects": [],
+    "languages": [
+      {
+        "decimal": "0.02",
+        "digital": "0:01:25",
+        "hours": 0,
+        "minutes": 1,
+        "name": "Svelte",
+        "percent": 77.13,
+        "seconds": 25,
+        "text": "1 min",
+        "total_seconds": 85.773542
+      },
+      {
+        "decimal": "0.00",
+        "digital": "0:00:13",
+        "hours": 0,
+        "minutes": 0,
+        "name": "Other",
+        "percent": 12.55,
+        "seconds": 13,
+        "text": "13 secs",
+        "total_seconds": 13.9529
+      },
+      {
+        "decimal": "0.00",
+        "digital": "0:00:11",
+        "hours": 0,
+        "minutes": 0,
+        "name": "JSON",
+        "percent": 10.32,
+        "seconds": 11,
+        "text": "11 secs",
+        "total_seconds": 11.474721
+      }
+    ],
+    "machines": [
+      {
+        "decimal": "0.02",
+        "digital": "0:01:51",
+        "hours": 0,
+        "machine_name_id": "c2e50834-5fe3-4de5-b294-def8943ffbed",
+        "minutes": 1,
+        "name": "Anands-MacBook-Pro.local",
+        "percent": 100,
+        "seconds": 51,
+        "text": "1 min",
+        "total_seconds": 111.201163
+      }
+    ],
+    "operating_systems": [
+      {
+        "decimal": "0.02",
+        "digital": "0:01:51",
+        "hours": 0,
+        "minutes": 1,
+        "name": "Mac",
+        "percent": 100,
+        "seconds": 51,
+        "text": "1 min",
+        "total_seconds": 111.201163
+      }
+    ],
+    "projects": [
+      {
+        "decimal": "0.02",
+        "digital": "0:01:37",
+        "hours": 0,
+        "minutes": 1,
+        "name": "lounge",
+        "percent": 87.45,
+        "seconds": 37,
+        "text": "1 min",
+        "total_seconds": 97.248263
+      },
+      {
+        "decimal": "0.00",
+        "digital": "0:00:13",
+        "hours": 0,
+        "minutes": 0,
+        "name": "Unknown Project",
+        "percent": 12.55,
+        "seconds": 13,
+        "text": "13 secs",
+        "total_seconds": 13.9529
+      }
+    ],
     "range": {
       "date": "2021-09-08",
       "end": "2021-09-08T21:59:59Z",
       "start": "2021-09-07T22:00:00Z",
-      "text": "Today",
+      "text": "Yesterday",
       "timezone": "Europe/Amsterdam"
     }
   }
