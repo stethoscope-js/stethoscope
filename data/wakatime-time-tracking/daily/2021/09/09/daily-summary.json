@@ -1,25 +1,682 @@
 [
   {
-    "categories": [],
-    "dependencies": [],
-    "editors": [],
+    "categories": [
+      {
+        "decimal": "0.48",
+        "digital": "0:29:09",
+        "hours": 0,
+        "minutes": 29,
+        "name": "Coding",
+        "percent": 100,
+        "seconds": 9,
+        "text": "29 mins",
+        "total_seconds": 1749.249714
+      }
+    ],
+    "dependencies": [
+      {
+        "decimal": "0.00",
+        "digital": "0:00:02",
+        "hours": 0,
+        "minutes": 0,
+        "name": "typescript",
+        "percent": 1.96,
+        "seconds": 2,
+        "text": "2 secs",
+        "total_seconds": 2.378446
+      },
+      {
+        "decimal": "0.00",
+        "digital": "0:00:02",
+        "hours": 0,
+        "minutes": 0,
+        "name": "eslint-plugin-prettier",
+        "percent": 1.96,
+        "seconds": 2,
+        "text": "2 secs",
+        "total_seconds": 2.378446
+      },
+      {
+        "decimal": "0.00",
+        "digital": "0:00:02",
+        "hours": 0,
+        "minutes": 0,
+        "name": "dot-object",
+        "percent": 1.96,
+        "seconds": 2,
+        "text": "2 secs",
+        "total_seconds": 2.378446
+      },
+      {
+        "decimal": "0.00",
+        "digital": "0:00:02",
+        "hours": 0,
+        "minutes": 0,
+        "name": "uuid",
+        "percent": 1.96,
+        "seconds": 2,
+        "text": "2 secs",
+        "total_seconds": 2.378446
+      },
+      {
+        "decimal": "0.00",
+        "digital": "0:00:02",
+        "hours": 0,
+        "minutes": 0,
+        "name": "got",
+        "percent": 1.96,
+        "seconds": 2,
+        "text": "2 secs",
+        "total_seconds": 2.378446
+      },
+      {
+        "decimal": "0.00",
+        "digital": "0:00:02",
+        "hours": 0,
+        "minutes": 0,
+        "name": "class-validator",
+        "percent": 1.96,
+        "seconds": 2,
+        "text": "2 secs",
+        "total_seconds": 2.378446
+      },
+      {
+        "decimal": "0.00",
+        "digital": "0:00:02",
+        "hours": 0,
+        "minutes": 0,
+        "name": "ua-parser-js",
+        "percent": 1.96,
+        "seconds": 2,
+        "text": "2 secs",
+        "total_seconds": 2.378446
+      },
+      {
+        "decimal": "0.00",
+        "digital": "0:00:02",
+        "hours": 0,
+        "minutes": 0,
+        "name": "@nestjs/platform-express",
+        "percent": 1.96,
+        "seconds": 2,
+        "text": "2 secs",
+        "total_seconds": 2.378446
+      },
+      {
+        "decimal": "0.00",
+        "digital": "0:00:02",
+        "hours": 0,
+        "minutes": 0,
+        "name": "deep-object-diff",
+        "percent": 1.96,
+        "seconds": 2,
+        "text": "2 secs",
+        "total_seconds": 2.378446
+      },
+      {
+        "decimal": "0.00",
+        "digital": "0:00:02",
+        "hours": 0,
+        "minutes": 0,
+        "name": "@typescript-eslint/parser",
+        "percent": 1.96,
+        "seconds": 2,
+        "text": "2 secs",
+        "total_seconds": 2.378446
+      },
+      {
+        "decimal": "0.00",
+        "digital": "0:00:02",
+        "hours": 0,
+        "minutes": 0,
+        "name": "supertest",
+        "percent": 1.96,
+        "seconds": 2,
+        "text": "2 secs",
+        "total_seconds": 2.378446
+      },
+      {
+        "decimal": "0.00",
+        "digital": "0:00:02",
+        "hours": 0,
+        "minutes": 0,
+        "name": "eslint",
+        "percent": 1.96,
+        "seconds": 2,
+        "text": "2 secs",
+        "total_seconds": 2.378446
+      },
+      {
+        "decimal": "0.00",
+        "digital": "0:00:02",
+        "hours": 0,
+        "minutes": 0,
+        "name": "@nestjs/schematics",
+        "percent": 1.96,
+        "seconds": 2,
+        "text": "2 secs",
+        "total_seconds": 2.378446
+      },
+      {
+        "decimal": "0.00",
+        "digital": "0:00:02",
+        "hours": 0,
+        "minutes": 0,
+        "name": "mitt",
+        "percent": 1.96,
+        "seconds": 2,
+        "text": "2 secs",
+        "total_seconds": 2.378446
+      },
+      {
+        "decimal": "0.00",
+        "digital": "0:00:02",
+        "hours": 0,
+        "minutes": 0,
+        "name": "@types/ua-parser-js",
+        "percent": 1.96,
+        "seconds": 2,
+        "text": "2 secs",
+        "total_seconds": 2.378446
+      },
+      {
+        "decimal": "0.00",
+        "digital": "0:00:02",
+        "hours": 0,
+        "minutes": 0,
+        "name": "jest",
+        "percent": 1.96,
+        "seconds": 2,
+        "text": "2 secs",
+        "total_seconds": 2.378446
+      },
+      {
+        "decimal": "0.00",
+        "digital": "0:00:02",
+        "hours": 0,
+        "minutes": 0,
+        "name": "file-type",
+        "percent": 1.96,
+        "seconds": 2,
+        "text": "2 secs",
+        "total_seconds": 2.378446
+      },
+      {
+        "decimal": "0.00",
+        "digital": "0:00:02",
+        "hours": 0,
+        "minutes": 0,
+        "name": "@nestjs/common",
+        "percent": 1.96,
+        "seconds": 2,
+        "text": "2 secs",
+        "total_seconds": 2.378446
+      },
+      {
+        "decimal": "0.00",
+        "digital": "0:00:02",
+        "hours": 0,
+        "minutes": 0,
+        "name": "deepmerge",
+        "percent": 1.96,
+        "seconds": 2,
+        "text": "2 secs",
+        "total_seconds": 2.378446
+      },
+      {
+        "decimal": "0.00",
+        "digital": "0:00:02",
+        "hours": 0,
+        "minutes": 0,
+        "name": "@types/request-ip",
+        "percent": 1.96,
+        "seconds": 2,
+        "text": "2 secs",
+        "total_seconds": 2.378446
+      },
+      {
+        "decimal": "0.00",
+        "digital": "0:00:02",
+        "hours": 0,
+        "minutes": 0,
+        "name": "prisma",
+        "percent": 1.96,
+        "seconds": 2,
+        "text": "2 secs",
+        "total_seconds": 2.378446
+      },
+      {
+        "decimal": "0.00",
+        "digital": "0:00:02",
+        "hours": 0,
+        "minutes": 0,
+        "name": "prettier",
+        "percent": 1.96,
+        "seconds": 2,
+        "text": "2 secs",
+        "total_seconds": 2.378446
+      },
+      {
+        "decimal": "0.00",
+        "digital": "0:00:02",
+        "hours": 0,
+        "minutes": 0,
+        "name": "tsconfig-paths",
+        "percent": 1.96,
+        "seconds": 2,
+        "text": "2 secs",
+        "total_seconds": 2.378446
+      },
+      {
+        "decimal": "0.00",
+        "digital": "0:00:02",
+        "hours": 0,
+        "minutes": 0,
+        "name": "@types/node",
+        "percent": 1.96,
+        "seconds": 2,
+        "text": "2 secs",
+        "total_seconds": 2.378446
+      },
+      {
+        "decimal": "0.00",
+        "digital": "0:00:02",
+        "hours": 0,
+        "minutes": 0,
+        "name": "@prisma/client",
+        "percent": 1.96,
+        "seconds": 2,
+        "text": "2 secs",
+        "total_seconds": 2.378446
+      },
+      {
+        "decimal": "0.00",
+        "digital": "0:00:02",
+        "hours": 0,
+        "minutes": 0,
+        "name": "joi",
+        "percent": 1.96,
+        "seconds": 2,
+        "text": "2 secs",
+        "total_seconds": 2.378446
+      },
+      {
+        "decimal": "0.00",
+        "digital": "0:00:02",
+        "hours": 0,
+        "minutes": 0,
+        "name": "@types/supertest",
+        "percent": 1.96,
+        "seconds": 2,
+        "text": "2 secs",
+        "total_seconds": 2.378446
+      },
+      {
+        "decimal": "0.00",
+        "digital": "0:00:02",
+        "hours": 0,
+        "minutes": 0,
+        "name": "@types/deepmerge",
+        "percent": 1.96,
+        "seconds": 2,
+        "text": "2 secs",
+        "total_seconds": 2.378446
+      },
+      {
+        "decimal": "0.00",
+        "digital": "0:00:02",
+        "hours": 0,
+        "minutes": 0,
+        "name": "npm",
+        "percent": 1.96,
+        "seconds": 2,
+        "text": "2 secs",
+        "total_seconds": 2.378446
+      },
+      {
+        "decimal": "0.00",
+        "digital": "0:00:02",
+        "hours": 0,
+        "minutes": 0,
+        "name": "rimraf",
+        "percent": 1.96,
+        "seconds": 2,
+        "text": "2 secs",
+        "total_seconds": 2.378446
+      },
+      {
+        "decimal": "0.00",
+        "digital": "0:00:02",
+        "hours": 0,
+        "minutes": 0,
+        "name": "@types/uuid",
+        "percent": 1.96,
+        "seconds": 2,
+        "text": "2 secs",
+        "total_seconds": 2.378446
+      },
+      {
+        "decimal": "0.00",
+        "digital": "0:00:02",
+        "hours": 0,
+        "minutes": 0,
+        "name": "aws-sdk",
+        "percent": 1.96,
+        "seconds": 2,
+        "text": "2 secs",
+        "total_seconds": 2.378446
+      },
+      {
+        "decimal": "0.00",
+        "digital": "0:00:02",
+        "hours": 0,
+        "minutes": 0,
+        "name": "@nestjs/swagger",
+        "percent": 1.96,
+        "seconds": 2,
+        "text": "2 secs",
+        "total_seconds": 2.378446
+      },
+      {
+        "decimal": "0.00",
+        "digital": "0:00:02",
+        "hours": 0,
+        "minutes": 0,
+        "name": "ts-jest",
+        "percent": 1.96,
+        "seconds": 2,
+        "text": "2 secs",
+        "total_seconds": 2.378446
+      },
+      {
+        "decimal": "0.00",
+        "digital": "0:00:02",
+        "hours": 0,
+        "minutes": 0,
+        "name": "request-ip",
+        "percent": 1.96,
+        "seconds": 2,
+        "text": "2 secs",
+        "total_seconds": 2.378446
+      },
+      {
+        "decimal": "0.00",
+        "digital": "0:00:02",
+        "hours": 0,
+        "minutes": 0,
+        "name": "@nestjs/core",
+        "percent": 1.96,
+        "seconds": 2,
+        "text": "2 secs",
+        "total_seconds": 2.378446
+      },
+      {
+        "decimal": "0.00",
+        "digital": "0:00:02",
+        "hours": 0,
+        "minutes": 0,
+        "name": "eslint-config-prettier",
+        "percent": 1.96,
+        "seconds": 2,
+        "text": "2 secs",
+        "total_seconds": 2.378446
+      },
+      {
+        "decimal": "0.00",
+        "digital": "0:00:02",
+        "hours": 0,
+        "minutes": 0,
+        "name": "mem",
+        "percent": 1.96,
+        "seconds": 2,
+        "text": "2 secs",
+        "total_seconds": 2.378446
+      },
+      {
+        "decimal": "0.00",
+        "digital": "0:00:02",
+        "hours": 0,
+        "minutes": 0,
+        "name": "rxjs",
+        "percent": 1.96,
+        "seconds": 2,
+        "text": "2 secs",
+        "total_seconds": 2.378446
+      },
+      {
+        "decimal": "0.00",
+        "digital": "0:00:02",
+        "hours": 0,
+        "minutes": 0,
+        "name": "ts-loader",
+        "percent": 1.96,
+        "seconds": 2,
+        "text": "2 secs",
+        "total_seconds": 2.378446
+      },
+      {
+        "decimal": "0.00",
+        "digital": "0:00:02",
+        "hours": 0,
+        "minutes": 0,
+        "name": "ts-node",
+        "percent": 1.96,
+        "seconds": 2,
+        "text": "2 secs",
+        "total_seconds": 2.378446
+      },
+      {
+        "decimal": "0.00",
+        "digital": "0:00:02",
+        "hours": 0,
+        "minutes": 0,
+        "name": "@types/jest",
+        "percent": 1.96,
+        "seconds": 2,
+        "text": "2 secs",
+        "total_seconds": 2.378446
+      },
+      {
+        "decimal": "0.00",
+        "digital": "0:00:02",
+        "hours": 0,
+        "minutes": 0,
+        "name": "@types/mime-types",
+        "percent": 1.96,
+        "seconds": 2,
+        "text": "2 secs",
+        "total_seconds": 2.378446
+      },
+      {
+        "decimal": "0.00",
+        "digital": "0:00:02",
+        "hours": 0,
+        "minutes": 0,
+        "name": "@nestjs/cli",
+        "percent": 1.96,
+        "seconds": 2,
+        "text": "2 secs",
+        "total_seconds": 2.378446
+      },
+      {
+        "decimal": "0.00",
+        "digital": "0:00:02",
+        "hours": 0,
+        "minutes": 0,
+        "name": "@typescript-eslint/eslint-plugin",
+        "percent": 1.96,
+        "seconds": 2,
+        "text": "2 secs",
+        "total_seconds": 2.378446
+      },
+      {
+        "decimal": "0.00",
+        "digital": "0:00:02",
+        "hours": 0,
+        "minutes": 0,
+        "name": "reflect-metadata",
+        "percent": 1.96,
+        "seconds": 2,
+        "text": "2 secs",
+        "total_seconds": 2.378446
+      },
+      {
+        "decimal": "0.00",
+        "digital": "0:00:02",
+        "hours": 0,
+        "minutes": 0,
+        "name": "@nestjs/testing",
+        "percent": 1.96,
+        "seconds": 2,
+        "text": "2 secs",
+        "total_seconds": 2.378446
+      },
+      {
+        "decimal": "0.00",
+        "digital": "0:00:02",
+        "hours": 0,
+        "minutes": 0,
+        "name": "@types/express",
+        "percent": 1.96,
+        "seconds": 2,
+        "text": "2 secs",
+        "total_seconds": 2.378446
+      },
+      {
+        "decimal": "0.00",
+        "digital": "0:00:02",
+        "hours": 0,
+        "minutes": 0,
+        "name": "mime-types",
+        "percent": 1.96,
+        "seconds": 2,
+        "text": "2 secs",
+        "total_seconds": 2.378446
+      },
+      {
+        "decimal": "0.00",
+        "digital": "0:00:02",
+        "hours": 0,
+        "minutes": 0,
+        "name": "@types/dot-object",
+        "percent": 1.96,
+        "seconds": 2,
+        "text": "2 secs",
+        "total_seconds": 2.378446
+      },
+      {
+        "decimal": "0.00",
+        "digital": "0:00:02",
+        "hours": 0,
+        "minutes": 0,
+        "name": "crypto-random-string",
+        "percent": 1.96,
+        "seconds": 2,
+        "text": "2 secs",
+        "total_seconds": 2.378446
+      }
+    ],
+    "editors": [
+      {
+        "decimal": "0.48",
+        "digital": "0:29:09",
+        "hours": 0,
+        "minutes": 29,
+        "name": "VS Code",
+        "percent": 100,
+        "seconds": 9,
+        "text": "29 mins",
+        "total_seconds": 1749.249714
+      }
+    ],
     "grand_total": {
-      "decimal": "0.00",
-      "digital": "0:00",
+      "decimal": "0.48",
+      "digital": "0:29",
       "hours": 0,
-      "minutes": 0,
-      "text": "0 secs",
-      "total_seconds": 0
+      "minutes": 29,
+      "text": "29 mins",
+      "total_seconds": 1749.249714
     },
-    "languages": [],
-    "machines": [],
-    "operating_systems": [],
-    "projects": [],
+    "languages": [
+      {
+        "decimal": "0.47",
+        "digital": "0:28:50",
+        "hours": 0,
+        "minutes": 28,
+        "name": "TypeScript",
+        "percent": 98.93,
+        "seconds": 50,
+        "text": "28 mins",
+        "total_seconds": 1730.473017
+      },
+      {
+        "decimal": "0.00",
+        "digital": "0:00:16",
+        "hours": 0,
+        "minutes": 0,
+        "name": "Other",
+        "percent": 0.94,
+        "seconds": 16,
+        "text": "16 secs",
+        "total_seconds": 16.398251
+      },
+      {
+        "decimal": "0.00",
+        "digital": "0:00:02",
+        "hours": 0,
+        "minutes": 0,
+        "name": "JSON",
+        "percent": 0.14,
+        "seconds": 2,
+        "text": "2 secs",
+        "total_seconds": 2.378446
+      }
+    ],
+    "machines": [
+      {
+        "decimal": "0.48",
+        "digital": "0:29:09",
+        "hours": 0,
+        "machine_name_id": "af4d44a1-973c-43aa-8daa-5de9f0ecddf8",
+        "minutes": 29,
+        "name": "a4d634864f00",
+        "percent": 100,
+        "seconds": 9,
+        "text": "29 mins",
+        "total_seconds": 1749.249714
+      }
+    ],
+    "operating_systems": [
+      {
+        "decimal": "0.48",
+        "digital": "0:29:09",
+        "hours": 0,
+        "minutes": 29,
+        "name": "Linux",
+        "percent": 100,
+        "seconds": 9,
+        "text": "29 mins",
+        "total_seconds": 1749.249714
+      }
+    ],
+    "projects": [
+      {
+        "decimal": "0.48",
+        "digital": "0:29:09",
+        "hours": 0,
+        "minutes": 29,
+        "name": "pabio",
+        "percent": 100,
+        "seconds": 9,
+        "text": "29 mins",
+        "total_seconds": 1749.249714
+      }
+    ],
     "range": {
       "date": "2021-09-10",
       "end": "2021-09-10T21:59:59Z",
       "start": "2021-09-09T22:00:00Z",
-      "text": "Today",
+      "text": "Yesterday",
       "timezone": "Europe/Amsterdam"
     }
   }
