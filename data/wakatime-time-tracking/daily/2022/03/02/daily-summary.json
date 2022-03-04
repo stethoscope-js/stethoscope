@@ -1,25 +1,353 @@
 [
   {
-    "categories": [],
-    "dependencies": [],
-    "editors": [],
+    "categories": [
+      {
+        "decimal": "3.35",
+        "digital": "3:21:37",
+        "hours": 3,
+        "minutes": 21,
+        "name": "Coding",
+        "percent": 100,
+        "seconds": 37,
+        "text": "3 hrs 21 mins",
+        "total_seconds": 12097.024344
+      }
+    ],
+    "dependencies": [
+      {
+        "decimal": "1.08",
+        "digital": "1:05:28",
+        "hours": 1,
+        "minutes": 5,
+        "name": "\"https://www.googletagmanager.com/gtag/js?id=G-BCFFXV96LB\"",
+        "percent": 22.97,
+        "seconds": 28,
+        "text": "1 hr 5 mins",
+        "total_seconds": 3928.929838
+      },
+      {
+        "decimal": "1.02",
+        "digital": "1:01:46",
+        "hours": 1,
+        "minutes": 1,
+        "name": "\"v1.ts\"",
+        "percent": 21.67,
+        "seconds": 46,
+        "text": "1 hr 1 min",
+        "total_seconds": 3706.782442
+      },
+      {
+        "decimal": "0.87",
+        "digital": "0:52:18",
+        "hours": 0,
+        "minutes": 52,
+        "name": "\"site.ts\"",
+        "percent": 18.35,
+        "seconds": 18,
+        "text": "52 mins",
+        "total_seconds": 3138.055758
+      },
+      {
+        "decimal": "0.85",
+        "digital": "0:51:44",
+        "hours": 0,
+        "minutes": 51,
+        "name": "\"https://redirectrussia.org/v1.js\"",
+        "percent": 18.15,
+        "seconds": 44,
+        "text": "51 mins",
+        "total_seconds": 3104.697884
+      },
+      {
+        "decimal": "0.28",
+        "digital": "0:17:23",
+        "hours": 0,
+        "minutes": 17,
+        "name": "parcel",
+        "percent": 6.1,
+        "seconds": 23,
+        "text": "17 mins",
+        "total_seconds": 1043.281284
+      },
+      {
+        "decimal": "0.28",
+        "digital": "0:17:23",
+        "hours": 0,
+        "minutes": 17,
+        "name": "npm",
+        "percent": 6.1,
+        "seconds": 23,
+        "text": "17 mins",
+        "total_seconds": 1043.281284
+      },
+      {
+        "decimal": "0.13",
+        "digital": "0:08:59",
+        "hours": 0,
+        "minutes": 8,
+        "name": "esbuild",
+        "percent": 3.16,
+        "seconds": 59,
+        "text": "8 mins",
+        "total_seconds": 539.990047
+      },
+      {
+        "decimal": "0.05",
+        "digital": "0:03:29",
+        "hours": 0,
+        "minutes": 3,
+        "name": "@babel/core",
+        "percent": 1.23,
+        "seconds": 29,
+        "text": "3 mins",
+        "total_seconds": 209.873419
+      },
+      {
+        "decimal": "0.05",
+        "digital": "0:03:29",
+        "hours": 0,
+        "minutes": 3,
+        "name": "@babel/cli",
+        "percent": 1.23,
+        "seconds": 29,
+        "text": "3 mins",
+        "total_seconds": 209.873419
+      },
+      {
+        "decimal": "0.03",
+        "digital": "0:02:29",
+        "hours": 0,
+        "minutes": 2,
+        "name": "@babel/preset-env",
+        "percent": 0.87,
+        "seconds": 29,
+        "text": "2 mins",
+        "total_seconds": 149.121762
+      },
+      {
+        "decimal": "0.00",
+        "digital": "0:00:10",
+        "hours": 0,
+        "minutes": 0,
+        "name": "\"/index.e99fe0f7.js\"",
+        "percent": 0.06,
+        "seconds": 10,
+        "text": "10 secs",
+        "total_seconds": 10.973514
+      },
+      {
+        "decimal": "0.00",
+        "digital": "0:00:10",
+        "hours": 0,
+        "minutes": 0,
+        "name": "\"/index.f5ec05a1.js\"",
+        "percent": 0.06,
+        "seconds": 10,
+        "text": "10 secs",
+        "total_seconds": 10.973514
+      },
+      {
+        "decimal": "0.00",
+        "digital": "0:00:05",
+        "hours": 0,
+        "minutes": 0,
+        "name": "\"/index.4a4fb0df.js\"",
+        "percent": 0.03,
+        "seconds": 5,
+        "text": "5 secs",
+        "total_seconds": 5.906023
+      }
+    ],
+    "editors": [
+      {
+        "decimal": "3.35",
+        "digital": "3:21:37",
+        "hours": 3,
+        "minutes": 21,
+        "name": "VS Code",
+        "percent": 100,
+        "seconds": 37,
+        "text": "3 hrs 21 mins",
+        "total_seconds": 12097.024344
+      }
+    ],
     "grand_total": {
-      "decimal": "0.00",
-      "digital": "0:00",
-      "hours": 0,
-      "minutes": 0,
-      "text": "0 secs",
-      "total_seconds": 0
+      "decimal": "3.35",
+      "digital": "3:21",
+      "hours": 3,
+      "minutes": 21,
+      "text": "3 hrs 21 mins",
+      "total_seconds": 12097.024344
     },
-    "languages": [],
-    "machines": [],
-    "operating_systems": [],
-    "projects": [],
+    "languages": [
+      {
+        "decimal": "1.90",
+        "digital": "1:54:04",
+        "hours": 1,
+        "minutes": 54,
+        "name": "HTML",
+        "percent": 56.58,
+        "seconds": 4,
+        "text": "1 hr 54 mins",
+        "total_seconds": 6844.805073
+      },
+      {
+        "decimal": "0.60",
+        "digital": "0:36:14",
+        "hours": 0,
+        "minutes": 36,
+        "name": "CSS",
+        "percent": 17.98,
+        "seconds": 14,
+        "text": "36 mins",
+        "total_seconds": 2174.576625
+      },
+      {
+        "decimal": "0.30",
+        "digital": "0:18:48",
+        "hours": 0,
+        "minutes": 18,
+        "name": "JSON",
+        "percent": 9.33,
+        "seconds": 48,
+        "text": "18 mins",
+        "total_seconds": 1128.571924
+      },
+      {
+        "decimal": "0.22",
+        "digital": "0:13:21",
+        "hours": 0,
+        "minutes": 13,
+        "name": "TypeScript",
+        "percent": 6.62,
+        "seconds": 21,
+        "text": "13 mins",
+        "total_seconds": 801.096181
+      },
+      {
+        "decimal": "0.15",
+        "digital": "0:09:50",
+        "hours": 0,
+        "minutes": 9,
+        "name": "YAML",
+        "percent": 4.88,
+        "seconds": 50,
+        "text": "9 mins",
+        "total_seconds": 590.586447
+      },
+      {
+        "decimal": "0.13",
+        "digital": "0:08:02",
+        "hours": 0,
+        "minutes": 8,
+        "name": "JavaScript",
+        "percent": 3.99,
+        "seconds": 2,
+        "text": "8 mins",
+        "total_seconds": 482.833903
+      },
+      {
+        "decimal": "0.02",
+        "digital": "0:01:02",
+        "hours": 0,
+        "minutes": 1,
+        "name": "Other",
+        "percent": 0.52,
+        "seconds": 2,
+        "text": "1 min",
+        "total_seconds": 62.725925
+      },
+      {
+        "decimal": "0.00",
+        "digital": "0:00:11",
+        "hours": 0,
+        "minutes": 0,
+        "name": "CSV",
+        "percent": 0.1,
+        "seconds": 11,
+        "text": "11 secs",
+        "total_seconds": 11.828266
+      }
+    ],
+    "machines": [
+      {
+        "decimal": "3.10",
+        "digital": "3:06:35",
+        "hours": 3,
+        "machine_name_id": "dda120c9-9f23-43f9-bb25-22bdf6a25e7e",
+        "minutes": 6,
+        "name": "Anand's MacBook Pro",
+        "percent": 92.55,
+        "seconds": 35,
+        "text": "3 hrs 6 mins",
+        "total_seconds": 11195.753545
+      },
+      {
+        "decimal": "0.25",
+        "digital": "0:15:01",
+        "hours": 0,
+        "machine_name_id": "af4d44a1-973c-43aa-8daa-5de9f0ecddf8",
+        "minutes": 15,
+        "name": "a4d634864f00",
+        "percent": 7.45,
+        "seconds": 1,
+        "text": "15 mins",
+        "total_seconds": 901.270799
+      }
+    ],
+    "operating_systems": [
+      {
+        "decimal": "3.10",
+        "digital": "3:06:35",
+        "hours": 3,
+        "minutes": 6,
+        "name": "Mac",
+        "percent": 92.55,
+        "seconds": 35,
+        "text": "3 hrs 6 mins",
+        "total_seconds": 11195.753545
+      },
+      {
+        "decimal": "0.25",
+        "digital": "0:15:01",
+        "hours": 0,
+        "minutes": 15,
+        "name": "Linux",
+        "percent": 7.45,
+        "seconds": 1,
+        "text": "15 mins",
+        "total_seconds": 901.270799
+      }
+    ],
+    "projects": [
+      {
+        "decimal": "3.10",
+        "digital": "3:06:35",
+        "hours": 3,
+        "minutes": 6,
+        "name": "redirect-russia",
+        "percent": 92.55,
+        "seconds": 35,
+        "text": "3 hrs 6 mins",
+        "total_seconds": 11195.753545
+      },
+      {
+        "decimal": "0.25",
+        "digital": "0:15:01",
+        "hours": 0,
+        "minutes": 15,
+        "name": "pabio",
+        "percent": 7.45,
+        "seconds": 1,
+        "text": "15 mins",
+        "total_seconds": 901.270799
+      }
+    ],
     "range": {
       "date": "2022-03-03",
       "end": "2022-03-03T22:59:59Z",
       "start": "2022-03-02T23:00:00Z",
-      "text": "Today",
+      "text": "Yesterday",
       "timezone": "Europe/Amsterdam"
     }
   }
