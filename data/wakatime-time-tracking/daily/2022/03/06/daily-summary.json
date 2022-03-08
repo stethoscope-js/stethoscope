@@ -1,25 +1,287 @@
 [
   {
-    "categories": [],
-    "dependencies": [],
-    "editors": [],
+    "categories": [
+      {
+        "decimal": "0.15",
+        "digital": "0:09:05",
+        "hours": 0,
+        "minutes": 9,
+        "name": "Coding",
+        "percent": 100,
+        "seconds": 5,
+        "text": "9 mins",
+        "total_seconds": 545.598274
+      }
+    ],
+    "dependencies": [
+      {
+        "decimal": "0.10",
+        "digital": "0:06:25",
+        "hours": 0,
+        "minutes": 6,
+        "name": "@semantic-release/git",
+        "percent": 12.39,
+        "seconds": 25,
+        "text": "6 mins",
+        "total_seconds": 385.54176
+      },
+      {
+        "decimal": "0.10",
+        "digital": "0:06:25",
+        "hours": 0,
+        "minutes": 6,
+        "name": "multi-semantic-release",
+        "percent": 12.39,
+        "seconds": 25,
+        "text": "6 mins",
+        "total_seconds": 385.54176
+      },
+      {
+        "decimal": "0.10",
+        "digital": "0:06:25",
+        "hours": 0,
+        "minutes": 6,
+        "name": "semantic-release-monorepo",
+        "percent": 12.39,
+        "seconds": 25,
+        "text": "6 mins",
+        "total_seconds": 385.54176
+      },
+      {
+        "decimal": "0.10",
+        "digital": "0:06:25",
+        "hours": 0,
+        "minutes": 6,
+        "name": "@semantic-release/commit-analyzer",
+        "percent": 12.39,
+        "seconds": 25,
+        "text": "6 mins",
+        "total_seconds": 385.54176
+      },
+      {
+        "decimal": "0.10",
+        "digital": "0:06:25",
+        "hours": 0,
+        "minutes": 6,
+        "name": "@semantic-release/github",
+        "percent": 12.39,
+        "seconds": 25,
+        "text": "6 mins",
+        "total_seconds": 385.54176
+      },
+      {
+        "decimal": "0.10",
+        "digital": "0:06:25",
+        "hours": 0,
+        "minutes": 6,
+        "name": "semantic-release",
+        "percent": 12.39,
+        "seconds": 25,
+        "text": "6 mins",
+        "total_seconds": 385.54176
+      },
+      {
+        "decimal": "0.10",
+        "digital": "0:06:25",
+        "hours": 0,
+        "minutes": 6,
+        "name": "@semantic-release/changelog",
+        "percent": 12.39,
+        "seconds": 25,
+        "text": "6 mins",
+        "total_seconds": 385.54176
+      },
+      {
+        "decimal": "0.10",
+        "digital": "0:06:25",
+        "hours": 0,
+        "minutes": 6,
+        "name": "npm",
+        "percent": 12.39,
+        "seconds": 25,
+        "text": "6 mins",
+        "total_seconds": 385.54176
+      },
+      {
+        "decimal": "0.00",
+        "digital": "0:00:09",
+        "hours": 0,
+        "minutes": 0,
+        "name": "\"https://redirectrussia.org/v1.js\"",
+        "percent": 0.3,
+        "seconds": 9,
+        "text": "9 secs",
+        "total_seconds": 9.467959
+      },
+      {
+        "decimal": "0.00",
+        "digital": "0:00:09",
+        "hours": 0,
+        "minutes": 0,
+        "name": "\"https://www.googletagmanager.com/gtag/js?id=G-BCFFXV96LB\"",
+        "percent": 0.3,
+        "seconds": 9,
+        "text": "9 secs",
+        "total_seconds": 9.467959
+      },
+      {
+        "decimal": "0.00",
+        "digital": "0:00:09",
+        "hours": 0,
+        "minutes": 0,
+        "name": "\"site.ts\"",
+        "percent": 0.3,
+        "seconds": 9,
+        "text": "9 secs",
+        "total_seconds": 9.467959
+      }
+    ],
+    "editors": [
+      {
+        "decimal": "0.15",
+        "digital": "0:09:05",
+        "hours": 0,
+        "minutes": 9,
+        "name": "VS Code",
+        "percent": 100,
+        "seconds": 5,
+        "text": "9 mins",
+        "total_seconds": 545.598274
+      }
+    ],
     "grand_total": {
-      "decimal": "0.00",
-      "digital": "0:00",
+      "decimal": "0.15",
+      "digital": "0:09",
       "hours": 0,
-      "minutes": 0,
-      "text": "0 secs",
-      "total_seconds": 0
+      "minutes": 9,
+      "text": "9 mins",
+      "total_seconds": 545.598274
     },
-    "languages": [],
-    "machines": [],
-    "operating_systems": [],
-    "projects": [],
+    "languages": [
+      {
+        "decimal": "0.10",
+        "digital": "0:06:25",
+        "hours": 0,
+        "minutes": 6,
+        "name": "JSON",
+        "percent": 70.66,
+        "seconds": 25,
+        "text": "6 mins",
+        "total_seconds": 385.54176
+      },
+      {
+        "decimal": "0.02",
+        "digital": "0:01:41",
+        "hours": 0,
+        "minutes": 1,
+        "name": "TypeScript",
+        "percent": 18.61,
+        "seconds": 41,
+        "text": "1 min",
+        "total_seconds": 101.562844
+      },
+      {
+        "decimal": "0.00",
+        "digital": "0:00:49",
+        "hours": 0,
+        "minutes": 0,
+        "name": "Markdown",
+        "percent": 8.99,
+        "seconds": 49,
+        "text": "49 secs",
+        "total_seconds": 49.025711
+      },
+      {
+        "decimal": "0.00",
+        "digital": "0:00:09",
+        "hours": 0,
+        "minutes": 0,
+        "name": "HTML",
+        "percent": 1.74,
+        "seconds": 9,
+        "text": "9 secs",
+        "total_seconds": 9.467959
+      }
+    ],
+    "machines": [
+      {
+        "decimal": "0.13",
+        "digital": "0:08:56",
+        "hours": 0,
+        "machine_name_id": "af4d44a1-973c-43aa-8daa-5de9f0ecddf8",
+        "minutes": 8,
+        "name": "a4d634864f00",
+        "percent": 98.26,
+        "seconds": 56,
+        "text": "8 mins",
+        "total_seconds": 536.130315
+      },
+      {
+        "decimal": "0.00",
+        "digital": "0:00:09",
+        "hours": 0,
+        "machine_name_id": "e92b8201-d942-4e71-a67a-d11baf71f3b3",
+        "minutes": 0,
+        "name": "Anand's MacBook Pro",
+        "percent": 1.74,
+        "seconds": 9,
+        "text": "9 secs",
+        "total_seconds": 9.467959
+      }
+    ],
+    "operating_systems": [
+      {
+        "decimal": "0.13",
+        "digital": "0:08:56",
+        "hours": 0,
+        "minutes": 8,
+        "name": "Linux",
+        "percent": 98.26,
+        "seconds": 56,
+        "text": "8 mins",
+        "total_seconds": 536.130315
+      },
+      {
+        "decimal": "0.00",
+        "digital": "0:00:09",
+        "hours": 0,
+        "minutes": 0,
+        "name": "Mac",
+        "percent": 1.74,
+        "seconds": 9,
+        "text": "9 secs",
+        "total_seconds": 9.467959
+      }
+    ],
+    "projects": [
+      {
+        "decimal": "0.13",
+        "digital": "0:08:56",
+        "hours": 0,
+        "minutes": 8,
+        "name": "pabio",
+        "percent": 98.26,
+        "seconds": 56,
+        "text": "8 mins",
+        "total_seconds": 536.130315
+      },
+      {
+        "decimal": "0.00",
+        "digital": "0:00:09",
+        "hours": 0,
+        "minutes": 0,
+        "name": "redirect-russia",
+        "percent": 1.74,
+        "seconds": 9,
+        "text": "9 secs",
+        "total_seconds": 9.467959
+      }
+    ],
     "range": {
       "date": "2022-03-07",
       "end": "2022-03-07T22:59:59Z",
       "start": "2022-03-06T23:00:00Z",
-      "text": "Today",
+      "text": "Yesterday",
       "timezone": "Europe/Amsterdam"
     }
   }
