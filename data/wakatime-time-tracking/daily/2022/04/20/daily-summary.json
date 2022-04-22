@@ -1,25 +1,363 @@
 [
   {
-    "categories": [],
-    "dependencies": [],
-    "editors": [],
+    "categories": [
+      {
+        "decimal": "1.67",
+        "digital": "1:40:09",
+        "hours": 1,
+        "minutes": 40,
+        "name": "Coding",
+        "percent": 100,
+        "seconds": 9,
+        "text": "1 hr 40 mins",
+        "total_seconds": 6009.969483
+      }
+    ],
+    "dependencies": [
+      {
+        "decimal": "0.00",
+        "digital": "0:00:02",
+        "hours": 0,
+        "minutes": 0,
+        "name": "@pabio/database",
+        "percent": 4.55,
+        "seconds": 2,
+        "text": "2 secs",
+        "total_seconds": 2.221696
+      },
+      {
+        "decimal": "0.00",
+        "digital": "0:00:02",
+        "hours": 0,
+        "minutes": 0,
+        "name": "fast-csv",
+        "percent": 4.55,
+        "seconds": 2,
+        "text": "2 secs",
+        "total_seconds": 2.221696
+      },
+      {
+        "decimal": "0.00",
+        "digital": "0:00:02",
+        "hours": 0,
+        "minutes": 0,
+        "name": "npm",
+        "percent": 4.55,
+        "seconds": 2,
+        "text": "2 secs",
+        "total_seconds": 2.221696
+      },
+      {
+        "decimal": "0.00",
+        "digital": "0:00:02",
+        "hours": 0,
+        "minutes": 0,
+        "name": "eslint",
+        "percent": 4.55,
+        "seconds": 2,
+        "text": "2 secs",
+        "total_seconds": 2.221696
+      },
+      {
+        "decimal": "0.00",
+        "digital": "0:00:02",
+        "hours": 0,
+        "minutes": 0,
+        "name": "typescript",
+        "percent": 4.55,
+        "seconds": 2,
+        "text": "2 secs",
+        "total_seconds": 2.221696
+      },
+      {
+        "decimal": "0.00",
+        "digital": "0:00:02",
+        "hours": 0,
+        "minutes": 0,
+        "name": "@pabio/types",
+        "percent": 4.55,
+        "seconds": 2,
+        "text": "2 secs",
+        "total_seconds": 2.221696
+      },
+      {
+        "decimal": "0.00",
+        "digital": "0:00:02",
+        "hours": 0,
+        "minutes": 0,
+        "name": "@types/marked",
+        "percent": 4.55,
+        "seconds": 2,
+        "text": "2 secs",
+        "total_seconds": 2.221696
+      },
+      {
+        "decimal": "0.00",
+        "digital": "0:00:02",
+        "hours": 0,
+        "minutes": 0,
+        "name": "@types/heft-jest",
+        "percent": 4.55,
+        "seconds": 2,
+        "text": "2 secs",
+        "total_seconds": 2.221696
+      },
+      {
+        "decimal": "0.00",
+        "digital": "0:00:02",
+        "hours": 0,
+        "minutes": 0,
+        "name": "axios",
+        "percent": 4.55,
+        "seconds": 2,
+        "text": "2 secs",
+        "total_seconds": 2.221696
+      },
+      {
+        "decimal": "0.00",
+        "digital": "0:00:02",
+        "hours": 0,
+        "minutes": 0,
+        "name": "@rushstack/heft",
+        "percent": 4.55,
+        "seconds": 2,
+        "text": "2 secs",
+        "total_seconds": 2.221696
+      },
+      {
+        "decimal": "0.00",
+        "digital": "0:00:02",
+        "hours": 0,
+        "minutes": 0,
+        "name": "deepmerge",
+        "percent": 4.55,
+        "seconds": 2,
+        "text": "2 secs",
+        "total_seconds": 2.221696
+      },
+      {
+        "decimal": "0.00",
+        "digital": "0:00:02",
+        "hours": 0,
+        "minutes": 0,
+        "name": "@rushstack/heft-node-rig",
+        "percent": 4.55,
+        "seconds": 2,
+        "text": "2 secs",
+        "total_seconds": 2.221696
+      },
+      {
+        "decimal": "0.00",
+        "digital": "0:00:02",
+        "hours": 0,
+        "minutes": 0,
+        "name": "@rushstack/heft-jest-plugin",
+        "percent": 4.55,
+        "seconds": 2,
+        "text": "2 secs",
+        "total_seconds": 2.221696
+      },
+      {
+        "decimal": "0.00",
+        "digital": "0:00:02",
+        "hours": 0,
+        "minutes": 0,
+        "name": "change-case",
+        "percent": 4.55,
+        "seconds": 2,
+        "text": "2 secs",
+        "total_seconds": 2.221696
+      },
+      {
+        "decimal": "0.00",
+        "digital": "0:00:02",
+        "hours": 0,
+        "minutes": 0,
+        "name": "@types/node",
+        "percent": 4.55,
+        "seconds": 2,
+        "text": "2 secs",
+        "total_seconds": 2.221696
+      },
+      {
+        "decimal": "0.00",
+        "digital": "0:00:02",
+        "hours": 0,
+        "minutes": 0,
+        "name": "@types/deepmerge",
+        "percent": 4.55,
+        "seconds": 2,
+        "text": "2 secs",
+        "total_seconds": 2.221696
+      },
+      {
+        "decimal": "0.00",
+        "digital": "0:00:02",
+        "hours": 0,
+        "minutes": 0,
+        "name": "luxon",
+        "percent": 4.55,
+        "seconds": 2,
+        "text": "2 secs",
+        "total_seconds": 2.221696
+      },
+      {
+        "decimal": "0.00",
+        "digital": "0:00:02",
+        "hours": 0,
+        "minutes": 0,
+        "name": "@pabio/billing",
+        "percent": 4.55,
+        "seconds": 2,
+        "text": "2 secs",
+        "total_seconds": 2.221696
+      },
+      {
+        "decimal": "0.00",
+        "digital": "0:00:02",
+        "hours": 0,
+        "minutes": 0,
+        "name": "@pabio/accounting",
+        "percent": 4.55,
+        "seconds": 2,
+        "text": "2 secs",
+        "total_seconds": 2.221696
+      },
+      {
+        "decimal": "0.00",
+        "digital": "0:00:02",
+        "hours": 0,
+        "minutes": 0,
+        "name": "@rushstack/eslint-config",
+        "percent": 4.55,
+        "seconds": 2,
+        "text": "2 secs",
+        "total_seconds": 2.221696
+      },
+      {
+        "decimal": "0.00",
+        "digital": "0:00:02",
+        "hours": 0,
+        "minutes": 0,
+        "name": "marked",
+        "percent": 4.55,
+        "seconds": 2,
+        "text": "2 secs",
+        "total_seconds": 2.221696
+      },
+      {
+        "decimal": "0.00",
+        "digital": "0:00:02",
+        "hours": 0,
+        "minutes": 0,
+        "name": "@types/luxon",
+        "percent": 4.55,
+        "seconds": 2,
+        "text": "2 secs",
+        "total_seconds": 2.221696
+      }
+    ],
+    "editors": [
+      {
+        "decimal": "1.67",
+        "digital": "1:40:09",
+        "hours": 1,
+        "minutes": 40,
+        "name": "VS Code",
+        "percent": 100,
+        "seconds": 9,
+        "text": "1 hr 40 mins",
+        "total_seconds": 6009.969483
+      }
+    ],
     "grand_total": {
-      "decimal": "0.00",
-      "digital": "0:00",
-      "hours": 0,
-      "minutes": 0,
-      "text": "0 secs",
-      "total_seconds": 0
+      "decimal": "1.67",
+      "digital": "1:40",
+      "hours": 1,
+      "minutes": 40,
+      "text": "1 hr 40 mins",
+      "total_seconds": 6009.969483
     },
-    "languages": [],
-    "machines": [],
-    "operating_systems": [],
-    "projects": [],
+    "languages": [
+      {
+        "decimal": "1.63",
+        "digital": "1:38:54",
+        "hours": 1,
+        "minutes": 38,
+        "name": "TypeScript",
+        "percent": 98.74,
+        "seconds": 54,
+        "text": "1 hr 38 mins",
+        "total_seconds": 5934.159464
+      },
+      {
+        "decimal": "0.02",
+        "digital": "0:01:13",
+        "hours": 0,
+        "minutes": 1,
+        "name": "YAML",
+        "percent": 1.22,
+        "seconds": 13,
+        "text": "1 min",
+        "total_seconds": 73.588323
+      },
+      {
+        "decimal": "0.00",
+        "digital": "0:00:02",
+        "hours": 0,
+        "minutes": 0,
+        "name": "JSON",
+        "percent": 0.04,
+        "seconds": 2,
+        "text": "2 secs",
+        "total_seconds": 2.221696
+      }
+    ],
+    "machines": [
+      {
+        "decimal": "1.67",
+        "digital": "1:40:09",
+        "hours": 1,
+        "machine_name_id": "37fb25d1-29e7-4e15-ac35-24eb664427c3",
+        "minutes": 40,
+        "name": "bktbv.pabio.usenimbus.com",
+        "percent": 100,
+        "seconds": 9,
+        "text": "1 hr 40 mins",
+        "total_seconds": 6009.969483
+      }
+    ],
+    "operating_systems": [
+      {
+        "decimal": "1.67",
+        "digital": "1:40:09",
+        "hours": 1,
+        "minutes": 40,
+        "name": "Linux",
+        "percent": 100,
+        "seconds": 9,
+        "text": "1 hr 40 mins",
+        "total_seconds": 6009.969483
+      }
+    ],
+    "projects": [
+      {
+        "decimal": "1.67",
+        "digital": "1:40:09",
+        "hours": 1,
+        "minutes": 40,
+        "name": "pabio",
+        "percent": 100,
+        "seconds": 9,
+        "text": "1 hr 40 mins",
+        "total_seconds": 6009.969483
+      }
+    ],
     "range": {
       "date": "2022-04-21",
       "end": "2022-04-21T21:59:59Z",
       "start": "2022-04-20T22:00:00Z",
-      "text": "Today",
+      "text": "Yesterday",
       "timezone": "Europe/Amsterdam"
     }
   }
