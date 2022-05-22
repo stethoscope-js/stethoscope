@@ -2,28 +2,50 @@
   {
     "categories": [
       {
-        "decimal": "0.13",
-        "digital": "0:08:40",
-        "hours": 0,
-        "minutes": 8,
+        "decimal": "1.33",
+        "digital": "1:20:33",
+        "hours": 1,
+        "minutes": 20,
         "name": "Coding",
         "percent": 100,
-        "seconds": 40,
-        "text": "8 mins",
-        "total_seconds": 520.617269
+        "seconds": 33,
+        "text": "1 hr 20 mins",
+        "total_seconds": 4833.644034
       }
     ],
     "dependencies": [
       {
-        "decimal": "0.13",
-        "digital": "0:08:23",
+        "decimal": "0.52",
+        "digital": "0:31:42",
         "hours": 0,
-        "minutes": 8,
+        "minutes": 31,
         "name": "npm",
-        "percent": 15.01,
-        "seconds": 23,
-        "text": "8 mins",
-        "total_seconds": 503.34128
+        "percent": 22.82,
+        "seconds": 42,
+        "text": "31 mins",
+        "total_seconds": 1902.481063
+      },
+      {
+        "decimal": "0.22",
+        "digital": "0:13:22",
+        "hours": 0,
+        "minutes": 13,
+        "name": "@nordjs/types",
+        "percent": 9.62,
+        "seconds": 22,
+        "text": "13 mins",
+        "total_seconds": 802.212429
+      },
+      {
+        "decimal": "0.17",
+        "digital": "0:10:09",
+        "hours": 0,
+        "minutes": 10,
+        "name": "@nordjs/core",
+        "percent": 7.31,
+        "seconds": 9,
+        "text": "10 mins",
+        "total_seconds": 609.152712
       },
       {
         "decimal": "0.12",
@@ -31,7 +53,7 @@
         "hours": 0,
         "minutes": 7,
         "name": "syncpack",
-        "percent": 12.56,
+        "percent": 5.05,
         "seconds": 1,
         "text": "7 mins",
         "total_seconds": 421.136365
@@ -42,7 +64,7 @@
         "hours": 0,
         "minutes": 7,
         "name": "@changesets/cli",
-        "percent": 12.56,
+        "percent": 5.05,
         "seconds": 1,
         "text": "7 mins",
         "total_seconds": 421.136365
@@ -53,7 +75,7 @@
         "hours": 0,
         "minutes": 7,
         "name": "only-allow",
-        "percent": 12.56,
+        "percent": 5.05,
         "seconds": 1,
         "text": "7 mins",
         "total_seconds": 421.136365
@@ -64,7 +86,7 @@
         "hours": 0,
         "minutes": 7,
         "name": "lerna",
-        "percent": 12.56,
+        "percent": 5.05,
         "seconds": 1,
         "text": "7 mins",
         "total_seconds": 421.136365
@@ -75,10 +97,32 @@
         "hours": 0,
         "minutes": 7,
         "name": "@changesets/changelog-github",
-        "percent": 12.56,
+        "percent": 5.05,
         "seconds": 1,
         "text": "7 mins",
         "total_seconds": 421.136365
+      },
+      {
+        "decimal": "0.10",
+        "digital": "0:06:10",
+        "hours": 0,
+        "minutes": 6,
+        "name": "@types/express",
+        "percent": 4.44,
+        "seconds": 10,
+        "text": "6 mins",
+        "total_seconds": 370.287067
+      },
+      {
+        "decimal": "0.08",
+        "digital": "0:05:46",
+        "hours": 0,
+        "minutes": 5,
+        "name": "typescript",
+        "percent": 4.16,
+        "seconds": 46,
+        "text": "5 mins",
+        "total_seconds": 346.451979
       },
       {
         "decimal": "0.07",
@@ -86,10 +130,76 @@
         "hours": 0,
         "minutes": 4,
         "name": "conventional-changelog-cli",
-        "percent": 8.38,
+        "percent": 3.37,
         "seconds": 40,
         "text": "4 mins",
         "total_seconds": 280.852991
+      },
+      {
+        "decimal": "0.07",
+        "digital": "0:04:26",
+        "hours": 0,
+        "minutes": 4,
+        "name": "@swc-node/register",
+        "percent": 3.2,
+        "seconds": 26,
+        "text": "4 mins",
+        "total_seconds": 266.833719
+      },
+      {
+        "decimal": "0.07",
+        "digital": "0:04:18",
+        "hours": 0,
+        "minutes": 4,
+        "name": "@swc/core",
+        "percent": 3.1,
+        "seconds": 18,
+        "text": "4 mins",
+        "total_seconds": 258.175097
+      },
+      {
+        "decimal": "0.07",
+        "digital": "0:04:16",
+        "hours": 0,
+        "minutes": 4,
+        "name": "http-status-codes",
+        "percent": 3.08,
+        "seconds": 16,
+        "text": "4 mins",
+        "total_seconds": 256.521953
+      },
+      {
+        "decimal": "0.07",
+        "digital": "0:04:16",
+        "hours": 0,
+        "minutes": 4,
+        "name": "@supercharge/request-ip",
+        "percent": 3.08,
+        "seconds": 16,
+        "text": "4 mins",
+        "total_seconds": 256.521953
+      },
+      {
+        "decimal": "0.07",
+        "digital": "0:04:16",
+        "hours": 0,
+        "minutes": 4,
+        "name": "express",
+        "percent": 3.08,
+        "seconds": 16,
+        "text": "4 mins",
+        "total_seconds": 256.521953
+      },
+      {
+        "decimal": "0.03",
+        "digital": "0:02:58",
+        "hours": 0,
+        "minutes": 2,
+        "name": "@rushstack/heft",
+        "percent": 2.14,
+        "seconds": 58,
+        "text": "2 mins",
+        "total_seconds": 178.549154
       },
       {
         "decimal": "0.00",
@@ -97,7 +207,7 @@
         "hours": 0,
         "minutes": 0,
         "name": "node_modules/array-flatten",
-        "percent": 0.07,
+        "percent": 0.03,
         "seconds": 2,
         "text": "2 secs",
         "total_seconds": 2.421469
@@ -108,7 +218,7 @@
         "hours": 0,
         "minutes": 0,
         "name": "has",
-        "percent": 0.07,
+        "percent": 0.03,
         "seconds": 2,
         "text": "2 secs",
         "total_seconds": 2.421469
@@ -119,7 +229,7 @@
         "hours": 0,
         "minutes": 0,
         "name": "@types/body-parser",
-        "percent": 0.07,
+        "percent": 0.03,
         "seconds": 2,
         "text": "2 secs",
         "total_seconds": 2.421469
@@ -130,7 +240,7 @@
         "hours": 0,
         "minutes": 0,
         "name": "node_modules/@swc-node/register",
-        "percent": 0.07,
+        "percent": 0.03,
         "seconds": 2,
         "text": "2 secs",
         "total_seconds": 2.421469
@@ -141,7 +251,7 @@
         "hours": 0,
         "minutes": 0,
         "name": "node_modules/proxy-addr",
-        "percent": 0.07,
+        "percent": 0.03,
         "seconds": 2,
         "text": "2 secs",
         "total_seconds": 2.421469
@@ -152,7 +262,7 @@
         "hours": 0,
         "minutes": 0,
         "name": "object-inspect",
-        "percent": 0.07,
+        "percent": 0.03,
         "seconds": 2,
         "text": "2 secs",
         "total_seconds": 2.421469
@@ -163,7 +273,7 @@
         "hours": 0,
         "minutes": 0,
         "name": "node_modules/setprototypeof",
-        "percent": 0.07,
+        "percent": 0.03,
         "seconds": 2,
         "text": "2 secs",
         "total_seconds": 2.421469
@@ -174,7 +284,7 @@
         "hours": 0,
         "minutes": 0,
         "name": "@types/connect",
-        "percent": 0.07,
+        "percent": 0.03,
         "seconds": 2,
         "text": "2 secs",
         "total_seconds": 2.421469
@@ -185,7 +295,7 @@
         "hours": 0,
         "minutes": 0,
         "name": "iconv-lite",
-        "percent": 0.07,
+        "percent": 0.03,
         "seconds": 2,
         "text": "2 secs",
         "total_seconds": 2.421469
@@ -196,7 +306,7 @@
         "hours": 0,
         "minutes": 0,
         "name": "safe-buffer",
-        "percent": 0.07,
+        "percent": 0.03,
         "seconds": 2,
         "text": "2 secs",
         "total_seconds": 2.421469
@@ -207,7 +317,7 @@
         "hours": 0,
         "minutes": 0,
         "name": "node_modules/ms",
-        "percent": 0.07,
+        "percent": 0.03,
         "seconds": 2,
         "text": "2 secs",
         "total_seconds": 2.421469
@@ -218,7 +328,7 @@
         "hours": 0,
         "minutes": 0,
         "name": "node_modules/mime",
-        "percent": 0.07,
+        "percent": 0.03,
         "seconds": 2,
         "text": "2 secs",
         "total_seconds": 2.421469
@@ -229,7 +339,7 @@
         "hours": 0,
         "minutes": 0,
         "name": "@swc/core-linux-arm64-gnu",
-        "percent": 0.07,
+        "percent": 0.03,
         "seconds": 2,
         "text": "2 secs",
         "total_seconds": 2.421469
@@ -240,7 +350,7 @@
         "hours": 0,
         "minutes": 0,
         "name": "node_modules/@swc-node/core",
-        "percent": 0.07,
+        "percent": 0.03,
         "seconds": 2,
         "text": "2 secs",
         "total_seconds": 2.421469
@@ -251,7 +361,7 @@
         "hours": 0,
         "minutes": 0,
         "name": "node_modules/buffer-from",
-        "percent": 0.07,
+        "percent": 0.03,
         "seconds": 2,
         "text": "2 secs",
         "total_seconds": 2.421469
@@ -262,7 +372,7 @@
         "hours": 0,
         "minutes": 0,
         "name": "node_modules/safe-buffer",
-        "percent": 0.07,
+        "percent": 0.03,
         "seconds": 2,
         "text": "2 secs",
         "total_seconds": 2.421469
@@ -273,7 +383,7 @@
         "hours": 0,
         "minutes": 0,
         "name": "colorette",
-        "percent": 0.07,
+        "percent": 0.03,
         "seconds": 2,
         "text": "2 secs",
         "total_seconds": 2.421469
@@ -284,7 +394,7 @@
         "hours": 0,
         "minutes": 0,
         "name": "node_modules/depd",
-        "percent": 0.07,
+        "percent": 0.03,
         "seconds": 2,
         "text": "2 secs",
         "total_seconds": 2.421469
@@ -295,7 +405,7 @@
         "hours": 0,
         "minutes": 0,
         "name": "@swc/core-freebsd-x64",
-        "percent": 0.07,
+        "percent": 0.03,
         "seconds": 2,
         "text": "2 secs",
         "total_seconds": 2.421469
@@ -306,7 +416,7 @@
         "hours": 0,
         "minutes": 0,
         "name": "content-type",
-        "percent": 0.07,
+        "percent": 0.03,
         "seconds": 2,
         "text": "2 secs",
         "total_seconds": 2.421469
@@ -317,7 +427,7 @@
         "hours": 0,
         "minutes": 0,
         "name": "node_modules/negotiator",
-        "percent": 0.07,
+        "percent": 0.03,
         "seconds": 2,
         "text": "2 secs",
         "total_seconds": 2.421469
@@ -328,7 +438,7 @@
         "hours": 0,
         "minutes": 0,
         "name": "node_modules/destroy",
-        "percent": 0.07,
+        "percent": 0.03,
         "seconds": 2,
         "text": "2 secs",
         "total_seconds": 2.421469
@@ -339,7 +449,7 @@
         "hours": 0,
         "minutes": 0,
         "name": "node_modules/body-parser/node_modules/debug",
-        "percent": 0.07,
+        "percent": 0.03,
         "seconds": 2,
         "text": "2 secs",
         "total_seconds": 2.421469
@@ -350,7 +460,7 @@
         "hours": 0,
         "minutes": 0,
         "name": "node_modules/send/node_modules/debug",
-        "percent": 0.07,
+        "percent": 0.03,
         "seconds": 2,
         "text": "2 secs",
         "total_seconds": 2.421469
@@ -361,7 +471,7 @@
         "hours": 0,
         "minutes": 0,
         "name": "node_modules/ipaddr.js",
-        "percent": 0.07,
+        "percent": 0.03,
         "seconds": 2,
         "text": "2 secs",
         "total_seconds": 2.421469
@@ -372,18 +482,7 @@
         "hours": 0,
         "minutes": 0,
         "name": "http-errors",
-        "percent": 0.07,
-        "seconds": 2,
-        "text": "2 secs",
-        "total_seconds": 2.421469
-      },
-      {
-        "decimal": "0.00",
-        "digital": "0:00:02",
-        "hours": 0,
-        "minutes": 0,
-        "name": "@swc/core",
-        "percent": 0.07,
+        "percent": 0.03,
         "seconds": 2,
         "text": "2 secs",
         "total_seconds": 2.421469
@@ -394,7 +493,7 @@
         "hours": 0,
         "minutes": 0,
         "name": "@swc/core-darwin-arm64",
-        "percent": 0.07,
+        "percent": 0.03,
         "seconds": 2,
         "text": "2 secs",
         "total_seconds": 2.421469
@@ -405,7 +504,7 @@
         "hours": 0,
         "minutes": 0,
         "name": "send",
-        "percent": 0.07,
+        "percent": 0.03,
         "seconds": 2,
         "text": "2 secs",
         "total_seconds": 2.421469
@@ -416,7 +515,7 @@
         "hours": 0,
         "minutes": 0,
         "name": "vary",
-        "percent": 0.07,
+        "percent": 0.03,
         "seconds": 2,
         "text": "2 secs",
         "total_seconds": 2.421469
@@ -427,7 +526,7 @@
         "hours": 0,
         "minutes": 0,
         "name": "@swc-node/core",
-        "percent": 0.07,
+        "percent": 0.03,
         "seconds": 2,
         "text": "2 secs",
         "total_seconds": 2.421469
@@ -438,7 +537,7 @@
         "hours": 0,
         "minutes": 0,
         "name": "node_modules/@swc/core-linux-x64-gnu",
-        "percent": 0.07,
+        "percent": 0.03,
         "seconds": 2,
         "text": "2 secs",
         "total_seconds": 2.421469
@@ -449,7 +548,7 @@
         "hours": 0,
         "minutes": 0,
         "name": "accepts",
-        "percent": 0.07,
+        "percent": 0.03,
         "seconds": 2,
         "text": "2 secs",
         "total_seconds": 2.421469
@@ -460,7 +559,7 @@
         "hours": 0,
         "minutes": 0,
         "name": "node_modules/debug",
-        "percent": 0.07,
+        "percent": 0.03,
         "seconds": 2,
         "text": "2 secs",
         "total_seconds": 2.421469
@@ -471,7 +570,7 @@
         "hours": 0,
         "minutes": 0,
         "name": "mime",
-        "percent": 0.07,
+        "percent": 0.03,
         "seconds": 2,
         "text": "2 secs",
         "total_seconds": 2.421469
@@ -482,7 +581,7 @@
         "hours": 0,
         "minutes": 0,
         "name": "node_modules/colorette",
-        "percent": 0.07,
+        "percent": 0.03,
         "seconds": 2,
         "text": "2 secs",
         "total_seconds": 2.421469
@@ -493,7 +592,7 @@
         "hours": 0,
         "minutes": 0,
         "name": "@types/mime",
-        "percent": 0.07,
+        "percent": 0.03,
         "seconds": 2,
         "text": "2 secs",
         "total_seconds": 2.421469
@@ -504,7 +603,7 @@
         "hours": 0,
         "minutes": 0,
         "name": "node_modules/content-disposition",
-        "percent": 0.07,
+        "percent": 0.03,
         "seconds": 2,
         "text": "2 secs",
         "total_seconds": 2.421469
@@ -515,7 +614,7 @@
         "hours": 0,
         "minutes": 0,
         "name": "node_modules/@swc/core-darwin-arm64",
-        "percent": 0.07,
+        "percent": 0.03,
         "seconds": 2,
         "text": "2 secs",
         "total_seconds": 2.421469
@@ -526,7 +625,7 @@
         "hours": 0,
         "minutes": 0,
         "name": "node_modules/mime-db",
-        "percent": 0.07,
+        "percent": 0.03,
         "seconds": 2,
         "text": "2 secs",
         "total_seconds": 2.421469
@@ -537,7 +636,7 @@
         "hours": 0,
         "minutes": 0,
         "name": "node_modules/body-parser",
-        "percent": 0.07,
+        "percent": 0.03,
         "seconds": 2,
         "text": "2 secs",
         "total_seconds": 2.421469
@@ -548,7 +647,7 @@
         "hours": 0,
         "minutes": 0,
         "name": "side-channel",
-        "percent": 0.07,
+        "percent": 0.03,
         "seconds": 2,
         "text": "2 secs",
         "total_seconds": 2.421469
@@ -559,7 +658,7 @@
         "hours": 0,
         "minutes": 0,
         "name": "media-typer",
-        "percent": 0.07,
+        "percent": 0.03,
         "seconds": 2,
         "text": "2 secs",
         "total_seconds": 2.421469
@@ -570,7 +669,7 @@
         "hours": 0,
         "minutes": 0,
         "name": "node_modules/safer-buffer",
-        "percent": 0.07,
+        "percent": 0.03,
         "seconds": 2,
         "text": "2 secs",
         "total_seconds": 2.421469
@@ -581,7 +680,7 @@
         "hours": 0,
         "minutes": 0,
         "name": "node_modules/source-map",
-        "percent": 0.07,
+        "percent": 0.03,
         "seconds": 2,
         "text": "2 secs",
         "total_seconds": 2.421469
@@ -592,7 +691,7 @@
         "hours": 0,
         "minutes": 0,
         "name": "node_modules/send/node_modules/debug/node_modules/ms",
-        "percent": 0.07,
+        "percent": 0.03,
         "seconds": 2,
         "text": "2 secs",
         "total_seconds": 2.421469
@@ -603,7 +702,7 @@
         "hours": 0,
         "minutes": 0,
         "name": "node_modules/finalhandler",
-        "percent": 0.07,
+        "percent": 0.03,
         "seconds": 2,
         "text": "2 secs",
         "total_seconds": 2.421469
@@ -614,7 +713,7 @@
         "hours": 0,
         "minutes": 0,
         "name": "negotiator",
-        "percent": 0.07,
+        "percent": 0.03,
         "seconds": 2,
         "text": "2 secs",
         "total_seconds": 2.421469
@@ -625,7 +724,7 @@
         "hours": 0,
         "minutes": 0,
         "name": "node_modules/merge-descriptors",
-        "percent": 0.07,
+        "percent": 0.03,
         "seconds": 2,
         "text": "2 secs",
         "total_seconds": 2.421469
@@ -636,7 +735,7 @@
         "hours": 0,
         "minutes": 0,
         "name": "node_modules/statuses",
-        "percent": 0.07,
+        "percent": 0.03,
         "seconds": 2,
         "text": "2 secs",
         "total_seconds": 2.421469
@@ -647,7 +746,7 @@
         "hours": 0,
         "minutes": 0,
         "name": "@swc/core-android-arm-eabi",
-        "percent": 0.07,
+        "percent": 0.03,
         "seconds": 2,
         "text": "2 secs",
         "total_seconds": 2.421469
@@ -658,7 +757,7 @@
         "hours": 0,
         "minutes": 0,
         "name": "toidentifier",
-        "percent": 0.07,
+        "percent": 0.03,
         "seconds": 2,
         "text": "2 secs",
         "total_seconds": 2.421469
@@ -669,7 +768,7 @@
         "hours": 0,
         "minutes": 0,
         "name": "node_modules/mime-types",
-        "percent": 0.07,
+        "percent": 0.03,
         "seconds": 2,
         "text": "2 secs",
         "total_seconds": 2.421469
@@ -680,7 +779,7 @@
         "hours": 0,
         "minutes": 0,
         "name": "safer-buffer",
-        "percent": 0.07,
+        "percent": 0.03,
         "seconds": 2,
         "text": "2 secs",
         "total_seconds": 2.421469
@@ -691,7 +790,7 @@
         "hours": 0,
         "minutes": 0,
         "name": "node_modules/tslib",
-        "percent": 0.07,
+        "percent": 0.03,
         "seconds": 2,
         "text": "2 secs",
         "total_seconds": 2.421469
@@ -702,7 +801,7 @@
         "hours": 0,
         "minutes": 0,
         "name": "node_modules/source-map-support",
-        "percent": 0.07,
+        "percent": 0.03,
         "seconds": 2,
         "text": "2 secs",
         "total_seconds": 2.421469
@@ -713,7 +812,7 @@
         "hours": 0,
         "minutes": 0,
         "name": "setprototypeof",
-        "percent": 0.07,
+        "percent": 0.03,
         "seconds": 2,
         "text": "2 secs",
         "total_seconds": 2.421469
@@ -724,7 +823,7 @@
         "hours": 0,
         "minutes": 0,
         "name": "inherits",
-        "percent": 0.07,
+        "percent": 0.03,
         "seconds": 2,
         "text": "2 secs",
         "total_seconds": 2.421469
@@ -735,7 +834,7 @@
         "hours": 0,
         "minutes": 0,
         "name": "node_modules/@types/node",
-        "percent": 0.07,
+        "percent": 0.03,
         "seconds": 2,
         "text": "2 secs",
         "total_seconds": 2.421469
@@ -746,7 +845,7 @@
         "hours": 0,
         "minutes": 0,
         "name": "buffer-from",
-        "percent": 0.07,
+        "percent": 0.03,
         "seconds": 2,
         "text": "2 secs",
         "total_seconds": 2.421469
@@ -757,7 +856,7 @@
         "hours": 0,
         "minutes": 0,
         "name": "utils-merge",
-        "percent": 0.07,
+        "percent": 0.03,
         "seconds": 2,
         "text": "2 secs",
         "total_seconds": 2.421469
@@ -768,7 +867,7 @@
         "hours": 0,
         "minutes": 0,
         "name": "node_modules/@swc/core-win32-ia32-msvc",
-        "percent": 0.07,
+        "percent": 0.03,
         "seconds": 2,
         "text": "2 secs",
         "total_seconds": 2.421469
@@ -779,18 +878,7 @@
         "hours": 0,
         "minutes": 0,
         "name": "node_modules/vary",
-        "percent": 0.07,
-        "seconds": 2,
-        "text": "2 secs",
-        "total_seconds": 2.421469
-      },
-      {
-        "decimal": "0.00",
-        "digital": "0:00:02",
-        "hours": 0,
-        "minutes": 0,
-        "name": "@swc-node/register",
-        "percent": 0.07,
+        "percent": 0.03,
         "seconds": 2,
         "text": "2 secs",
         "total_seconds": 2.421469
@@ -801,7 +889,7 @@
         "hours": 0,
         "minutes": 0,
         "name": "@swc/core-linux-x64-musl",
-        "percent": 0.07,
+        "percent": 0.03,
         "seconds": 2,
         "text": "2 secs",
         "total_seconds": 2.421469
@@ -812,7 +900,7 @@
         "hours": 0,
         "minutes": 0,
         "name": "node_modules/@swc/core-win32-arm64-msvc",
-        "percent": 0.07,
+        "percent": 0.03,
         "seconds": 2,
         "text": "2 secs",
         "total_seconds": 2.421469
@@ -823,7 +911,7 @@
         "hours": 0,
         "minutes": 0,
         "name": "node_modules/has-symbols",
-        "percent": 0.07,
+        "percent": 0.03,
         "seconds": 2,
         "text": "2 secs",
         "total_seconds": 2.421469
@@ -834,7 +922,7 @@
         "hours": 0,
         "minutes": 0,
         "name": "node_modules/get-intrinsic",
-        "percent": 0.07,
+        "percent": 0.03,
         "seconds": 2,
         "text": "2 secs",
         "total_seconds": 2.421469
@@ -845,7 +933,7 @@
         "hours": 0,
         "minutes": 0,
         "name": "proxy-addr",
-        "percent": 0.07,
+        "percent": 0.03,
         "seconds": 2,
         "text": "2 secs",
         "total_seconds": 2.421469
@@ -856,7 +944,7 @@
         "hours": 0,
         "minutes": 0,
         "name": "serve-static",
-        "percent": 0.07,
+        "percent": 0.03,
         "seconds": 2,
         "text": "2 secs",
         "total_seconds": 2.421469
@@ -867,7 +955,7 @@
         "hours": 0,
         "minutes": 0,
         "name": "node_modules/methods",
-        "percent": 0.07,
+        "percent": 0.03,
         "seconds": 2,
         "text": "2 secs",
         "total_seconds": 2.421469
@@ -878,7 +966,7 @@
         "hours": 0,
         "minutes": 0,
         "name": "node_modules/body-parser/node_modules/ms",
-        "percent": 0.07,
+        "percent": 0.03,
         "seconds": 2,
         "text": "2 secs",
         "total_seconds": 2.421469
@@ -889,7 +977,7 @@
         "hours": 0,
         "minutes": 0,
         "name": "destroy",
-        "percent": 0.07,
+        "percent": 0.03,
         "seconds": 2,
         "text": "2 secs",
         "total_seconds": 2.421469
@@ -900,7 +988,7 @@
         "hours": 0,
         "minutes": 0,
         "name": "merge-descriptors",
-        "percent": 0.07,
+        "percent": 0.03,
         "seconds": 2,
         "text": "2 secs",
         "total_seconds": 2.421469
@@ -911,7 +999,7 @@
         "hours": 0,
         "minutes": 0,
         "name": "node_modules/escape-html",
-        "percent": 0.07,
+        "percent": 0.03,
         "seconds": 2,
         "text": "2 secs",
         "total_seconds": 2.421469
@@ -922,18 +1010,7 @@
         "hours": 0,
         "minutes": 0,
         "name": "node_modules/path-to-regexp",
-        "percent": 0.07,
-        "seconds": 2,
-        "text": "2 secs",
-        "total_seconds": 2.421469
-      },
-      {
-        "decimal": "0.00",
-        "digital": "0:00:02",
-        "hours": 0,
-        "minutes": 0,
-        "name": "typescript",
-        "percent": 0.07,
+        "percent": 0.03,
         "seconds": 2,
         "text": "2 secs",
         "total_seconds": 2.421469
@@ -944,18 +1021,7 @@
         "hours": 0,
         "minutes": 0,
         "name": "node_modules/@swc/core-android-arm-eabi",
-        "percent": 0.07,
-        "seconds": 2,
-        "text": "2 secs",
-        "total_seconds": 2.421469
-      },
-      {
-        "decimal": "0.00",
-        "digital": "0:00:02",
-        "hours": 0,
-        "minutes": 0,
-        "name": "http-status-codes",
-        "percent": 0.07,
+        "percent": 0.03,
         "seconds": 2,
         "text": "2 secs",
         "total_seconds": 2.421469
@@ -966,7 +1032,7 @@
         "hours": 0,
         "minutes": 0,
         "name": "node_modules/unpipe",
-        "percent": 0.07,
+        "percent": 0.03,
         "seconds": 2,
         "text": "2 secs",
         "total_seconds": 2.421469
@@ -977,7 +1043,7 @@
         "hours": 0,
         "minutes": 0,
         "name": "body-parser",
-        "percent": 0.07,
+        "percent": 0.03,
         "seconds": 2,
         "text": "2 secs",
         "total_seconds": 2.421469
@@ -988,7 +1054,7 @@
         "hours": 0,
         "minutes": 0,
         "name": "node_modules/etag",
-        "percent": 0.07,
+        "percent": 0.03,
         "seconds": 2,
         "text": "2 secs",
         "total_seconds": 2.421469
@@ -999,7 +1065,7 @@
         "hours": 0,
         "minutes": 0,
         "name": "cookie",
-        "percent": 0.07,
+        "percent": 0.03,
         "seconds": 2,
         "text": "2 secs",
         "total_seconds": 2.421469
@@ -1010,7 +1076,7 @@
         "hours": 0,
         "minutes": 0,
         "name": "depd",
-        "percent": 0.07,
+        "percent": 0.03,
         "seconds": 2,
         "text": "2 secs",
         "total_seconds": 2.421469
@@ -1021,7 +1087,7 @@
         "hours": 0,
         "minutes": 0,
         "name": "node_modules/http-errors",
-        "percent": 0.07,
+        "percent": 0.03,
         "seconds": 2,
         "text": "2 secs",
         "total_seconds": 2.421469
@@ -1032,7 +1098,7 @@
         "hours": 0,
         "minutes": 0,
         "name": "parseurl",
-        "percent": 0.07,
+        "percent": 0.03,
         "seconds": 2,
         "text": "2 secs",
         "total_seconds": 2.421469
@@ -1043,7 +1109,7 @@
         "hours": 0,
         "minutes": 0,
         "name": "source-map-support",
-        "percent": 0.07,
+        "percent": 0.03,
         "seconds": 2,
         "text": "2 secs",
         "total_seconds": 2.421469
@@ -1054,7 +1120,7 @@
         "hours": 0,
         "minutes": 0,
         "name": "etag",
-        "percent": 0.07,
+        "percent": 0.03,
         "seconds": 2,
         "text": "2 secs",
         "total_seconds": 2.421469
@@ -1065,7 +1131,7 @@
         "hours": 0,
         "minutes": 0,
         "name": "function-bind",
-        "percent": 0.07,
+        "percent": 0.03,
         "seconds": 2,
         "text": "2 secs",
         "total_seconds": 2.421469
@@ -1076,7 +1142,7 @@
         "hours": 0,
         "minutes": 0,
         "name": "@types/express-serve-static-core",
-        "percent": 0.07,
+        "percent": 0.03,
         "seconds": 2,
         "text": "2 secs",
         "total_seconds": 2.421469
@@ -1087,7 +1153,7 @@
         "hours": 0,
         "minutes": 0,
         "name": "ee-first",
-        "percent": 0.07,
+        "percent": 0.03,
         "seconds": 2,
         "text": "2 secs",
         "total_seconds": 2.421469
@@ -1098,7 +1164,7 @@
         "hours": 0,
         "minutes": 0,
         "name": "node_modules/inherits",
-        "percent": 0.07,
+        "percent": 0.03,
         "seconds": 2,
         "text": "2 secs",
         "total_seconds": 2.421469
@@ -1109,7 +1175,7 @@
         "hours": 0,
         "minutes": 0,
         "name": "node_modules/has",
-        "percent": 0.07,
+        "percent": 0.03,
         "seconds": 2,
         "text": "2 secs",
         "total_seconds": 2.421469
@@ -1120,7 +1186,7 @@
         "hours": 0,
         "minutes": 0,
         "name": "node_modules/express",
-        "percent": 0.07,
+        "percent": 0.03,
         "seconds": 2,
         "text": "2 secs",
         "total_seconds": 2.421469
@@ -1131,7 +1197,7 @@
         "hours": 0,
         "minutes": 0,
         "name": "node_modules/@types/mime",
-        "percent": 0.07,
+        "percent": 0.03,
         "seconds": 2,
         "text": "2 secs",
         "total_seconds": 2.421469
@@ -1142,7 +1208,7 @@
         "hours": 0,
         "minutes": 0,
         "name": "escape-html",
-        "percent": 0.07,
+        "percent": 0.03,
         "seconds": 2,
         "text": "2 secs",
         "total_seconds": 2.421469
@@ -1153,7 +1219,7 @@
         "hours": 0,
         "minutes": 0,
         "name": "node_modules/@swc/core-linux-arm64-gnu",
-        "percent": 0.07,
+        "percent": 0.03,
         "seconds": 2,
         "text": "2 secs",
         "total_seconds": 2.421469
@@ -1164,7 +1230,7 @@
         "hours": 0,
         "minutes": 0,
         "name": "node_modules/finalhandler/node_modules/debug",
-        "percent": 0.07,
+        "percent": 0.03,
         "seconds": 2,
         "text": "2 secs",
         "total_seconds": 2.421469
@@ -1175,7 +1241,7 @@
         "hours": 0,
         "minutes": 0,
         "name": "node_modules/@types/express-serve-static-core",
-        "percent": 0.07,
+        "percent": 0.03,
         "seconds": 2,
         "text": "2 secs",
         "total_seconds": 2.421469
@@ -1186,7 +1252,7 @@
         "hours": 0,
         "minutes": 0,
         "name": "mime-types",
-        "percent": 0.07,
+        "percent": 0.03,
         "seconds": 2,
         "text": "2 secs",
         "total_seconds": 2.421469
@@ -1197,7 +1263,7 @@
         "hours": 0,
         "minutes": 0,
         "name": "node_modules/@types/express",
-        "percent": 0.07,
+        "percent": 0.03,
         "seconds": 2,
         "text": "2 secs",
         "total_seconds": 2.421469
@@ -1208,7 +1274,7 @@
         "hours": 0,
         "minutes": 0,
         "name": "path-to-regexp",
-        "percent": 0.07,
+        "percent": 0.03,
         "seconds": 2,
         "text": "2 secs",
         "total_seconds": 2.421469
@@ -1219,7 +1285,7 @@
         "hours": 0,
         "minutes": 0,
         "name": "node_modules/side-channel",
-        "percent": 0.07,
+        "percent": 0.03,
         "seconds": 2,
         "text": "2 secs",
         "total_seconds": 2.421469
@@ -1230,7 +1296,7 @@
         "hours": 0,
         "minutes": 0,
         "name": "cookie-signature",
-        "percent": 0.07,
+        "percent": 0.03,
         "seconds": 2,
         "text": "2 secs",
         "total_seconds": 2.421469
@@ -1241,7 +1307,7 @@
         "hours": 0,
         "minutes": 0,
         "name": "get-intrinsic",
-        "percent": 0.07,
+        "percent": 0.03,
         "seconds": 2,
         "text": "2 secs",
         "total_seconds": 2.421469
@@ -1252,7 +1318,7 @@
         "hours": 0,
         "minutes": 0,
         "name": "node_modules/range-parser",
-        "percent": 0.07,
+        "percent": 0.03,
         "seconds": 2,
         "text": "2 secs",
         "total_seconds": 2.421469
@@ -1263,7 +1329,7 @@
         "hours": 0,
         "minutes": 0,
         "name": "node_modules/qs",
-        "percent": 0.07,
+        "percent": 0.03,
         "seconds": 2,
         "text": "2 secs",
         "total_seconds": 2.421469
@@ -1274,7 +1340,7 @@
         "hours": 0,
         "minutes": 0,
         "name": "node_modules/cookie",
-        "percent": 0.07,
+        "percent": 0.03,
         "seconds": 2,
         "text": "2 secs",
         "total_seconds": 2.421469
@@ -1285,7 +1351,7 @@
         "hours": 0,
         "minutes": 0,
         "name": "@types/node",
-        "percent": 0.07,
+        "percent": 0.03,
         "seconds": 2,
         "text": "2 secs",
         "total_seconds": 2.421469
@@ -1296,7 +1362,7 @@
         "hours": 0,
         "minutes": 0,
         "name": "node_modules/@types/body-parser",
-        "percent": 0.07,
+        "percent": 0.03,
         "seconds": 2,
         "text": "2 secs",
         "total_seconds": 2.421469
@@ -1307,7 +1373,7 @@
         "hours": 0,
         "minutes": 0,
         "name": "node_modules/on-finished",
-        "percent": 0.07,
+        "percent": 0.03,
         "seconds": 2,
         "text": "2 secs",
         "total_seconds": 2.421469
@@ -1318,7 +1384,7 @@
         "hours": 0,
         "minutes": 0,
         "name": "node_modules/@swc-node/sourcemap-support",
-        "percent": 0.07,
+        "percent": 0.03,
         "seconds": 2,
         "text": "2 secs",
         "total_seconds": 2.421469
@@ -1329,7 +1395,7 @@
         "hours": 0,
         "minutes": 0,
         "name": "has-symbols",
-        "percent": 0.07,
+        "percent": 0.03,
         "seconds": 2,
         "text": "2 secs",
         "total_seconds": 2.421469
@@ -1340,7 +1406,7 @@
         "hours": 0,
         "minutes": 0,
         "name": "node_modules/express/node_modules/debug",
-        "percent": 0.07,
+        "percent": 0.03,
         "seconds": 2,
         "text": "2 secs",
         "total_seconds": 2.421469
@@ -1351,7 +1417,7 @@
         "hours": 0,
         "minutes": 0,
         "name": "node_modules/@swc/core-linux-x64-musl",
-        "percent": 0.07,
+        "percent": 0.03,
         "seconds": 2,
         "text": "2 secs",
         "total_seconds": 2.421469
@@ -1362,7 +1428,7 @@
         "hours": 0,
         "minutes": 0,
         "name": "node_modules/@types/range-parser",
-        "percent": 0.07,
+        "percent": 0.03,
         "seconds": 2,
         "text": "2 secs",
         "total_seconds": 2.421469
@@ -1373,7 +1439,7 @@
         "hours": 0,
         "minutes": 0,
         "name": "node_modules/@types/qs",
-        "percent": 0.07,
+        "percent": 0.03,
         "seconds": 2,
         "text": "2 secs",
         "total_seconds": 2.421469
@@ -1384,7 +1450,7 @@
         "hours": 0,
         "minutes": 0,
         "name": "unpipe",
-        "percent": 0.07,
+        "percent": 0.03,
         "seconds": 2,
         "text": "2 secs",
         "total_seconds": 2.421469
@@ -1395,7 +1461,7 @@
         "hours": 0,
         "minutes": 0,
         "name": "node_modules/function-bind",
-        "percent": 0.07,
+        "percent": 0.03,
         "seconds": 2,
         "text": "2 secs",
         "total_seconds": 2.421469
@@ -1406,7 +1472,7 @@
         "hours": 0,
         "minutes": 0,
         "name": "methods",
-        "percent": 0.07,
+        "percent": 0.03,
         "seconds": 2,
         "text": "2 secs",
         "total_seconds": 2.421469
@@ -1417,7 +1483,7 @@
         "hours": 0,
         "minutes": 0,
         "name": "@swc/core-win32-x64-msvc",
-        "percent": 0.07,
+        "percent": 0.03,
         "seconds": 2,
         "text": "2 secs",
         "total_seconds": 2.421469
@@ -1428,7 +1494,7 @@
         "hours": 0,
         "minutes": 0,
         "name": "@swc/core-win32-ia32-msvc",
-        "percent": 0.07,
+        "percent": 0.03,
         "seconds": 2,
         "text": "2 secs",
         "total_seconds": 2.421469
@@ -1439,7 +1505,7 @@
         "hours": 0,
         "minutes": 0,
         "name": "node_modules/@types/connect",
-        "percent": 0.07,
+        "percent": 0.03,
         "seconds": 2,
         "text": "2 secs",
         "total_seconds": 2.421469
@@ -1450,7 +1516,7 @@
         "hours": 0,
         "minutes": 0,
         "name": "statuses",
-        "percent": 0.07,
+        "percent": 0.03,
         "seconds": 2,
         "text": "2 secs",
         "total_seconds": 2.421469
@@ -1461,7 +1527,7 @@
         "hours": 0,
         "minutes": 0,
         "name": "node_modules/@swc/core-linux-arm-gnueabihf",
-        "percent": 0.07,
+        "percent": 0.03,
         "seconds": 2,
         "text": "2 secs",
         "total_seconds": 2.421469
@@ -1472,7 +1538,7 @@
         "hours": 0,
         "minutes": 0,
         "name": "node_modules/@swc/core-freebsd-x64",
-        "percent": 0.07,
+        "percent": 0.03,
         "seconds": 2,
         "text": "2 secs",
         "total_seconds": 2.421469
@@ -1483,7 +1549,7 @@
         "hours": 0,
         "minutes": 0,
         "name": "@swc/core-darwin-x64",
-        "percent": 0.07,
+        "percent": 0.03,
         "seconds": 2,
         "text": "2 secs",
         "total_seconds": 2.421469
@@ -1494,7 +1560,7 @@
         "hours": 0,
         "minutes": 0,
         "name": "ms",
-        "percent": 0.07,
+        "percent": 0.03,
         "seconds": 2,
         "text": "2 secs",
         "total_seconds": 2.421469
@@ -1505,7 +1571,7 @@
         "hours": 0,
         "minutes": 0,
         "name": "node_modules/content-type",
-        "percent": 0.07,
+        "percent": 0.03,
         "seconds": 2,
         "text": "2 secs",
         "total_seconds": 2.421469
@@ -1516,7 +1582,7 @@
         "hours": 0,
         "minutes": 0,
         "name": "@swc/core-linux-arm-gnueabihf",
-        "percent": 0.07,
+        "percent": 0.03,
         "seconds": 2,
         "text": "2 secs",
         "total_seconds": 2.421469
@@ -1527,7 +1593,7 @@
         "hours": 0,
         "minutes": 0,
         "name": "tslib",
-        "percent": 0.07,
+        "percent": 0.03,
         "seconds": 2,
         "text": "2 secs",
         "total_seconds": 2.421469
@@ -1538,7 +1604,7 @@
         "hours": 0,
         "minutes": 0,
         "name": "on-finished",
-        "percent": 0.07,
+        "percent": 0.03,
         "seconds": 2,
         "text": "2 secs",
         "total_seconds": 2.421469
@@ -1549,7 +1615,7 @@
         "hours": 0,
         "minutes": 0,
         "name": "@types/serve-static",
-        "percent": 0.07,
+        "percent": 0.03,
         "seconds": 2,
         "text": "2 secs",
         "total_seconds": 2.421469
@@ -1560,7 +1626,7 @@
         "hours": 0,
         "minutes": 0,
         "name": "source-map",
-        "percent": 0.07,
+        "percent": 0.03,
         "seconds": 2,
         "text": "2 secs",
         "total_seconds": 2.421469
@@ -1571,7 +1637,7 @@
         "hours": 0,
         "minutes": 0,
         "name": "@types/range-parser",
-        "percent": 0.07,
+        "percent": 0.03,
         "seconds": 2,
         "text": "2 secs",
         "total_seconds": 2.421469
@@ -1582,7 +1648,7 @@
         "hours": 0,
         "minutes": 0,
         "name": "forwarded",
-        "percent": 0.07,
+        "percent": 0.03,
         "seconds": 2,
         "text": "2 secs",
         "total_seconds": 2.421469
@@ -1593,7 +1659,7 @@
         "hours": 0,
         "minutes": 0,
         "name": "node_modules/express/node_modules/ms",
-        "percent": 0.07,
+        "percent": 0.03,
         "seconds": 2,
         "text": "2 secs",
         "total_seconds": 2.421469
@@ -1604,7 +1670,7 @@
         "hours": 0,
         "minutes": 0,
         "name": "qs",
-        "percent": 0.07,
+        "percent": 0.03,
         "seconds": 2,
         "text": "2 secs",
         "total_seconds": 2.421469
@@ -1615,7 +1681,7 @@
         "hours": 0,
         "minutes": 0,
         "name": "node_modules/send/node_modules/ms",
-        "percent": 0.07,
+        "percent": 0.03,
         "seconds": 2,
         "text": "2 secs",
         "total_seconds": 2.421469
@@ -1626,29 +1692,7 @@
         "hours": 0,
         "minutes": 0,
         "name": "node_modules/@swc/core-darwin-x64",
-        "percent": 0.07,
-        "seconds": 2,
-        "text": "2 secs",
-        "total_seconds": 2.421469
-      },
-      {
-        "decimal": "0.00",
-        "digital": "0:00:02",
-        "hours": 0,
-        "minutes": 0,
-        "name": "@types/express",
-        "percent": 0.07,
-        "seconds": 2,
-        "text": "2 secs",
-        "total_seconds": 2.421469
-      },
-      {
-        "decimal": "0.00",
-        "digital": "0:00:02",
-        "hours": 0,
-        "minutes": 0,
-        "name": "@supercharge/request-ip",
-        "percent": 0.07,
+        "percent": 0.03,
         "seconds": 2,
         "text": "2 secs",
         "total_seconds": 2.421469
@@ -1659,7 +1703,7 @@
         "hours": 0,
         "minutes": 0,
         "name": "@swc/core-android-arm64",
-        "percent": 0.07,
+        "percent": 0.03,
         "seconds": 2,
         "text": "2 secs",
         "total_seconds": 2.421469
@@ -1670,7 +1714,7 @@
         "hours": 0,
         "minutes": 0,
         "name": "node_modules/iconv-lite",
-        "percent": 0.07,
+        "percent": 0.03,
         "seconds": 2,
         "text": "2 secs",
         "total_seconds": 2.421469
@@ -1681,7 +1725,7 @@
         "hours": 0,
         "minutes": 0,
         "name": "node_modules/cookie-signature",
-        "percent": 0.07,
+        "percent": 0.03,
         "seconds": 2,
         "text": "2 secs",
         "total_seconds": 2.421469
@@ -1692,7 +1736,7 @@
         "hours": 0,
         "minutes": 0,
         "name": "node_modules/ee-first",
-        "percent": 0.07,
+        "percent": 0.03,
         "seconds": 2,
         "text": "2 secs",
         "total_seconds": 2.421469
@@ -1703,7 +1747,7 @@
         "hours": 0,
         "minutes": 0,
         "name": "finalhandler",
-        "percent": 0.07,
+        "percent": 0.03,
         "seconds": 2,
         "text": "2 secs",
         "total_seconds": 2.421469
@@ -1714,7 +1758,7 @@
         "hours": 0,
         "minutes": 0,
         "name": "@swc/core-linux-arm64-musl",
-        "percent": 0.07,
+        "percent": 0.03,
         "seconds": 2,
         "text": "2 secs",
         "total_seconds": 2.421469
@@ -1725,7 +1769,7 @@
         "hours": 0,
         "minutes": 0,
         "name": "node_modules/object-inspect",
-        "percent": 0.07,
+        "percent": 0.03,
         "seconds": 2,
         "text": "2 secs",
         "total_seconds": 2.421469
@@ -1736,7 +1780,7 @@
         "hours": 0,
         "minutes": 0,
         "name": "@swc-node/sourcemap-support",
-        "percent": 0.07,
+        "percent": 0.03,
         "seconds": 2,
         "text": "2 secs",
         "total_seconds": 2.421469
@@ -1747,7 +1791,7 @@
         "hours": 0,
         "minutes": 0,
         "name": "call-bind",
-        "percent": 0.07,
+        "percent": 0.03,
         "seconds": 2,
         "text": "2 secs",
         "total_seconds": 2.421469
@@ -1758,7 +1802,7 @@
         "hours": 0,
         "minutes": 0,
         "name": "node_modules/call-bind",
-        "percent": 0.07,
+        "percent": 0.03,
         "seconds": 2,
         "text": "2 secs",
         "total_seconds": 2.421469
@@ -1769,7 +1813,7 @@
         "hours": 0,
         "minutes": 0,
         "name": "ipaddr.js",
-        "percent": 0.07,
+        "percent": 0.03,
         "seconds": 2,
         "text": "2 secs",
         "total_seconds": 2.421469
@@ -1780,7 +1824,7 @@
         "hours": 0,
         "minutes": 0,
         "name": "type-is",
-        "percent": 0.07,
+        "percent": 0.03,
         "seconds": 2,
         "text": "2 secs",
         "total_seconds": 2.421469
@@ -1791,7 +1835,7 @@
         "hours": 0,
         "minutes": 0,
         "name": "debug",
-        "percent": 0.07,
+        "percent": 0.03,
         "seconds": 2,
         "text": "2 secs",
         "total_seconds": 2.421469
@@ -1802,7 +1846,7 @@
         "hours": 0,
         "minutes": 0,
         "name": "node_modules/toidentifier",
-        "percent": 0.07,
+        "percent": 0.03,
         "seconds": 2,
         "text": "2 secs",
         "total_seconds": 2.421469
@@ -1813,7 +1857,7 @@
         "hours": 0,
         "minutes": 0,
         "name": "node_modules/fresh",
-        "percent": 0.07,
+        "percent": 0.03,
         "seconds": 2,
         "text": "2 secs",
         "total_seconds": 2.421469
@@ -1824,7 +1868,7 @@
         "hours": 0,
         "minutes": 0,
         "name": "@types/qs",
-        "percent": 0.07,
+        "percent": 0.03,
         "seconds": 2,
         "text": "2 secs",
         "total_seconds": 2.421469
@@ -1835,7 +1879,7 @@
         "hours": 0,
         "minutes": 0,
         "name": "node_modules/media-typer",
-        "percent": 0.07,
+        "percent": 0.03,
         "seconds": 2,
         "text": "2 secs",
         "total_seconds": 2.421469
@@ -1846,7 +1890,7 @@
         "hours": 0,
         "minutes": 0,
         "name": "range-parser",
-        "percent": 0.07,
+        "percent": 0.03,
         "seconds": 2,
         "text": "2 secs",
         "total_seconds": 2.421469
@@ -1857,7 +1901,7 @@
         "hours": 0,
         "minutes": 0,
         "name": "content-disposition",
-        "percent": 0.07,
+        "percent": 0.03,
         "seconds": 2,
         "text": "2 secs",
         "total_seconds": 2.421469
@@ -1868,7 +1912,7 @@
         "hours": 0,
         "minutes": 0,
         "name": "mime-db",
-        "percent": 0.07,
+        "percent": 0.03,
         "seconds": 2,
         "text": "2 secs",
         "total_seconds": 2.421469
@@ -1879,7 +1923,7 @@
         "hours": 0,
         "minutes": 0,
         "name": "@swc/core-linux-x64-gnu",
-        "percent": 0.07,
+        "percent": 0.03,
         "seconds": 2,
         "text": "2 secs",
         "total_seconds": 2.421469
@@ -1890,7 +1934,7 @@
         "hours": 0,
         "minutes": 0,
         "name": "raw-body",
-        "percent": 0.07,
+        "percent": 0.03,
         "seconds": 2,
         "text": "2 secs",
         "total_seconds": 2.421469
@@ -1901,7 +1945,7 @@
         "hours": 0,
         "minutes": 0,
         "name": "node_modules/bytes",
-        "percent": 0.07,
+        "percent": 0.03,
         "seconds": 2,
         "text": "2 secs",
         "total_seconds": 2.421469
@@ -1912,7 +1956,7 @@
         "hours": 0,
         "minutes": 0,
         "name": "node_modules/@types/serve-static",
-        "percent": 0.07,
+        "percent": 0.03,
         "seconds": 2,
         "text": "2 secs",
         "total_seconds": 2.421469
@@ -1923,7 +1967,7 @@
         "hours": 0,
         "minutes": 0,
         "name": "encodeurl",
-        "percent": 0.07,
+        "percent": 0.03,
         "seconds": 2,
         "text": "2 secs",
         "total_seconds": 2.421469
@@ -1934,7 +1978,7 @@
         "hours": 0,
         "minutes": 0,
         "name": "node_modules/forwarded",
-        "percent": 0.07,
+        "percent": 0.03,
         "seconds": 2,
         "text": "2 secs",
         "total_seconds": 2.421469
@@ -1945,7 +1989,7 @@
         "hours": 0,
         "minutes": 0,
         "name": "node_modules/send",
-        "percent": 0.07,
+        "percent": 0.03,
         "seconds": 2,
         "text": "2 secs",
         "total_seconds": 2.421469
@@ -1956,7 +2000,7 @@
         "hours": 0,
         "minutes": 0,
         "name": "node_modules/accepts",
-        "percent": 0.07,
+        "percent": 0.03,
         "seconds": 2,
         "text": "2 secs",
         "total_seconds": 2.421469
@@ -1967,7 +2011,7 @@
         "hours": 0,
         "minutes": 0,
         "name": "node_modules/type-is",
-        "percent": 0.07,
+        "percent": 0.03,
         "seconds": 2,
         "text": "2 secs",
         "total_seconds": 2.421469
@@ -1978,7 +2022,7 @@
         "hours": 0,
         "minutes": 0,
         "name": "node_modules/encodeurl",
-        "percent": 0.07,
+        "percent": 0.03,
         "seconds": 2,
         "text": "2 secs",
         "total_seconds": 2.421469
@@ -1989,7 +2033,7 @@
         "hours": 0,
         "minutes": 0,
         "name": "node_modules/typescript",
-        "percent": 0.07,
+        "percent": 0.03,
         "seconds": 2,
         "text": "2 secs",
         "total_seconds": 2.421469
@@ -2000,7 +2044,7 @@
         "hours": 0,
         "minutes": 0,
         "name": "node_modules/@supercharge/request-ip",
-        "percent": 0.07,
+        "percent": 0.03,
         "seconds": 2,
         "text": "2 secs",
         "total_seconds": 2.421469
@@ -2011,7 +2055,7 @@
         "hours": 0,
         "minutes": 0,
         "name": "fresh",
-        "percent": 0.07,
+        "percent": 0.03,
         "seconds": 2,
         "text": "2 secs",
         "total_seconds": 2.421469
@@ -2022,7 +2066,7 @@
         "hours": 0,
         "minutes": 0,
         "name": "node_modules/finalhandler/node_modules/ms",
-        "percent": 0.07,
+        "percent": 0.03,
         "seconds": 2,
         "text": "2 secs",
         "total_seconds": 2.421469
@@ -2033,7 +2077,7 @@
         "hours": 0,
         "minutes": 0,
         "name": "node_modules/@swc/core-android-arm64",
-        "percent": 0.07,
+        "percent": 0.03,
         "seconds": 2,
         "text": "2 secs",
         "total_seconds": 2.421469
@@ -2044,7 +2088,7 @@
         "hours": 0,
         "minutes": 0,
         "name": "node_modules/@swc/core-linux-arm64-musl",
-        "percent": 0.07,
+        "percent": 0.03,
         "seconds": 2,
         "text": "2 secs",
         "total_seconds": 2.421469
@@ -2055,18 +2099,7 @@
         "hours": 0,
         "minutes": 0,
         "name": "node_modules/pirates",
-        "percent": 0.07,
-        "seconds": 2,
-        "text": "2 secs",
-        "total_seconds": 2.421469
-      },
-      {
-        "decimal": "0.00",
-        "digital": "0:00:02",
-        "hours": 0,
-        "minutes": 0,
-        "name": "express",
-        "percent": 0.07,
+        "percent": 0.03,
         "seconds": 2,
         "text": "2 secs",
         "total_seconds": 2.421469
@@ -2077,7 +2110,7 @@
         "hours": 0,
         "minutes": 0,
         "name": "node_modules/@swc/core-win32-x64-msvc",
-        "percent": 0.07,
+        "percent": 0.03,
         "seconds": 2,
         "text": "2 secs",
         "total_seconds": 2.421469
@@ -2088,7 +2121,7 @@
         "hours": 0,
         "minutes": 0,
         "name": "node_modules/utils-merge",
-        "percent": 0.07,
+        "percent": 0.03,
         "seconds": 2,
         "text": "2 secs",
         "total_seconds": 2.421469
@@ -2099,7 +2132,7 @@
         "hours": 0,
         "minutes": 0,
         "name": "@swc/core-win32-arm64-msvc",
-        "percent": 0.07,
+        "percent": 0.03,
         "seconds": 2,
         "text": "2 secs",
         "total_seconds": 2.421469
@@ -2110,7 +2143,7 @@
         "hours": 0,
         "minutes": 0,
         "name": "node_modules/parseurl",
-        "percent": 0.07,
+        "percent": 0.03,
         "seconds": 2,
         "text": "2 secs",
         "total_seconds": 2.421469
@@ -2121,7 +2154,7 @@
         "hours": 0,
         "minutes": 0,
         "name": "node_modules/http-status-codes",
-        "percent": 0.07,
+        "percent": 0.03,
         "seconds": 2,
         "text": "2 secs",
         "total_seconds": 2.421469
@@ -2132,7 +2165,7 @@
         "hours": 0,
         "minutes": 0,
         "name": "pirates",
-        "percent": 0.07,
+        "percent": 0.03,
         "seconds": 2,
         "text": "2 secs",
         "total_seconds": 2.421469
@@ -2143,7 +2176,7 @@
         "hours": 0,
         "minutes": 0,
         "name": "node_modules/raw-body",
-        "percent": 0.07,
+        "percent": 0.03,
         "seconds": 2,
         "text": "2 secs",
         "total_seconds": 2.421469
@@ -2154,7 +2187,7 @@
         "hours": 0,
         "minutes": 0,
         "name": "node_modules/@swc/core",
-        "percent": 0.07,
+        "percent": 0.03,
         "seconds": 2,
         "text": "2 secs",
         "total_seconds": 2.421469
@@ -2165,7 +2198,7 @@
         "hours": 0,
         "minutes": 0,
         "name": "node_modules/serve-static",
-        "percent": 0.07,
+        "percent": 0.03,
         "seconds": 2,
         "text": "2 secs",
         "total_seconds": 2.421469
@@ -2176,7 +2209,7 @@
         "hours": 0,
         "minutes": 0,
         "name": "bytes",
-        "percent": 0.07,
+        "percent": 0.03,
         "seconds": 2,
         "text": "2 secs",
         "total_seconds": 2.421469
@@ -2187,7 +2220,7 @@
         "hours": 0,
         "minutes": 0,
         "name": "array-flatten",
-        "percent": 0.07,
+        "percent": 0.03,
         "seconds": 2,
         "text": "2 secs",
         "total_seconds": 2.421469
@@ -2195,36 +2228,91 @@
     ],
     "editors": [
       {
-        "decimal": "0.13",
-        "digital": "0:08:40",
-        "hours": 0,
-        "minutes": 8,
+        "decimal": "1.33",
+        "digital": "1:20:33",
+        "hours": 1,
+        "minutes": 20,
         "name": "VS Code",
         "percent": 100,
-        "seconds": 40,
-        "text": "8 mins",
-        "total_seconds": 520.617269
+        "seconds": 33,
+        "text": "1 hr 20 mins",
+        "total_seconds": 4833.644034
       }
     ],
     "grand_total": {
-      "decimal": "0.13",
-      "digital": "0:08",
-      "hours": 0,
-      "minutes": 8,
-      "text": "8 mins",
-      "total_seconds": 520.617269
+      "decimal": "1.33",
+      "digital": "1:20",
+      "hours": 1,
+      "minutes": 20,
+      "text": "1 hr 20 mins",
+      "total_seconds": 4833.644034
     },
     "languages": [
       {
-        "decimal": "0.13",
-        "digital": "0:08:29",
+        "decimal": "0.67",
+        "digital": "0:40:31",
         "hours": 0,
-        "minutes": 8,
+        "minutes": 40,
         "name": "JSON",
-        "percent": 97.84,
-        "seconds": 29,
-        "text": "8 mins",
-        "total_seconds": 509.350419
+        "percent": 50.3,
+        "seconds": 31,
+        "text": "40 mins",
+        "total_seconds": 2431.532849
+      },
+      {
+        "decimal": "0.62",
+        "digital": "0:37:56",
+        "hours": 0,
+        "minutes": 37,
+        "name": "TypeScript",
+        "percent": 47.11,
+        "seconds": 56,
+        "text": "37 mins",
+        "total_seconds": 2276.897521
+      },
+      {
+        "decimal": "0.00",
+        "digital": "0:00:48",
+        "hours": 0,
+        "minutes": 0,
+        "name": "Git Config",
+        "percent": 1.01,
+        "seconds": 48,
+        "text": "48 secs",
+        "total_seconds": 48.752675
+      },
+      {
+        "decimal": "0.00",
+        "digital": "0:00:37",
+        "hours": 0,
+        "minutes": 0,
+        "name": "Other",
+        "percent": 0.78,
+        "seconds": 37,
+        "text": "37 secs",
+        "total_seconds": 37.856492
+      },
+      {
+        "decimal": "0.00",
+        "digital": "0:00:20",
+        "hours": 0,
+        "minutes": 0,
+        "name": "YAML",
+        "percent": 0.41,
+        "seconds": 20,
+        "text": "20 secs",
+        "total_seconds": 20.003338
+      },
+      {
+        "decimal": "0.00",
+        "digital": "0:00:09",
+        "hours": 0,
+        "minutes": 0,
+        "name": "JavaScript",
+        "percent": 0.21,
+        "seconds": 9,
+        "text": "9 secs",
+        "total_seconds": 9.933136
       },
       {
         "decimal": "0.00",
@@ -2232,68 +2320,57 @@
         "hours": 0,
         "minutes": 0,
         "name": "Markdown",
-        "percent": 1.66,
+        "percent": 0.18,
         "seconds": 8,
         "text": "8 secs",
         "total_seconds": 8.668023
-      },
-      {
-        "decimal": "0.00",
-        "digital": "0:00:02",
-        "hours": 0,
-        "minutes": 0,
-        "name": "Other",
-        "percent": 0.5,
-        "seconds": 2,
-        "text": "2 secs",
-        "total_seconds": 2.598827
       }
     ],
     "machines": [
       {
-        "decimal": "0.13",
-        "digital": "0:08:40",
-        "hours": 0,
+        "decimal": "1.33",
+        "digital": "1:20:33",
+        "hours": 1,
         "machine_name_id": "1960dfaf-3233-4e9a-8eca-562a41acbedd",
-        "minutes": 8,
+        "minutes": 20,
         "name": "Anand's MacBook Pro",
         "percent": 100,
-        "seconds": 40,
-        "text": "8 mins",
-        "total_seconds": 520.617269
+        "seconds": 33,
+        "text": "1 hr 20 mins",
+        "total_seconds": 4833.644034
       }
     ],
     "operating_systems": [
       {
-        "decimal": "0.13",
-        "digital": "0:08:40",
-        "hours": 0,
-        "minutes": 8,
+        "decimal": "1.33",
+        "digital": "1:20:33",
+        "hours": 1,
+        "minutes": 20,
         "name": "Mac",
         "percent": 100,
-        "seconds": 40,
-        "text": "8 mins",
-        "total_seconds": 520.617269
+        "seconds": 33,
+        "text": "1 hr 20 mins",
+        "total_seconds": 4833.644034
       }
     ],
     "projects": [
       {
-        "decimal": "0.13",
-        "digital": "0:08:40",
-        "hours": 0,
-        "minutes": 8,
+        "decimal": "1.33",
+        "digital": "1:20:33",
+        "hours": 1,
+        "minutes": 20,
         "name": "web-framework",
         "percent": 100,
-        "seconds": 40,
-        "text": "8 mins",
-        "total_seconds": 520.617269
+        "seconds": 33,
+        "text": "1 hr 20 mins",
+        "total_seconds": 4833.644034
       }
     ],
     "range": {
       "date": "2022-05-21",
       "end": "2022-05-21T21:59:59Z",
       "start": "2022-05-20T22:00:00Z",
-      "text": "Today",
+      "text": "Yesterday",
       "timezone": "Europe/Amsterdam"
     }
   }
