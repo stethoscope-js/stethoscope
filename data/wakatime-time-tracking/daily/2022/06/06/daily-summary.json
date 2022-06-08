@@ -1,25 +1,375 @@
 [
   {
-    "categories": [],
-    "dependencies": [],
-    "editors": [],
+    "categories": [
+      {
+        "decimal": "2.25",
+        "digital": "2:15:45",
+        "hours": 2,
+        "minutes": 15,
+        "name": "Coding",
+        "percent": 100,
+        "seconds": 45,
+        "text": "2 hrs 15 mins",
+        "total_seconds": 8145.189838
+      }
+    ],
+    "dependencies": [
+      {
+        "decimal": "0.07",
+        "digital": "0:04:40",
+        "hours": 0,
+        "minutes": 4,
+        "name": "npm",
+        "percent": 24.88,
+        "seconds": 40,
+        "text": "4 mins",
+        "total_seconds": 280.004743
+      },
+      {
+        "decimal": "0.05",
+        "digital": "0:03:38",
+        "hours": 0,
+        "minutes": 3,
+        "name": "typescript",
+        "percent": 19.41,
+        "seconds": 38,
+        "text": "3 mins",
+        "total_seconds": 218.418956
+      },
+      {
+        "decimal": "0.03",
+        "digital": "0:02:07",
+        "hours": 0,
+        "minutes": 2,
+        "name": "@swc/core",
+        "percent": 11.32,
+        "seconds": 7,
+        "text": "2 mins",
+        "total_seconds": 127.449468
+      },
+      {
+        "decimal": "0.03",
+        "digital": "0:02:07",
+        "hours": 0,
+        "minutes": 2,
+        "name": "@swc-node/register",
+        "percent": 11.32,
+        "seconds": 7,
+        "text": "2 mins",
+        "total_seconds": 127.449468
+      },
+      {
+        "decimal": "0.02",
+        "digital": "0:01:28",
+        "hours": 0,
+        "minutes": 1,
+        "name": "@nordjs/types",
+        "percent": 7.84,
+        "seconds": 28,
+        "text": "1 min",
+        "total_seconds": 88.198464
+      },
+      {
+        "decimal": "0.00",
+        "digital": "0:00:54",
+        "hours": 0,
+        "minutes": 0,
+        "name": "@nordjs/errors",
+        "percent": 4.81,
+        "seconds": 54,
+        "text": "54 secs",
+        "total_seconds": 54.13838
+      },
+      {
+        "decimal": "0.00",
+        "digital": "0:00:46",
+        "hours": 0,
+        "minutes": 0,
+        "name": "express",
+        "percent": 4.15,
+        "seconds": 46,
+        "text": "46 secs",
+        "total_seconds": 46.753397
+      },
+      {
+        "decimal": "0.00",
+        "digital": "0:00:43",
+        "hours": 0,
+        "minutes": 0,
+        "name": "@nordjs/core",
+        "percent": 3.9,
+        "seconds": 43,
+        "text": "43 secs",
+        "total_seconds": 43.859074
+      },
+      {
+        "decimal": "0.00",
+        "digital": "0:00:42",
+        "hours": 0,
+        "minutes": 0,
+        "name": "@nordjs/cli",
+        "percent": 3.76,
+        "seconds": 42,
+        "text": "42 secs",
+        "total_seconds": 42.302885
+      },
+      {
+        "decimal": "0.00",
+        "digital": "0:00:29",
+        "hours": 0,
+        "minutes": 0,
+        "name": "@types/express",
+        "percent": 2.64,
+        "seconds": 29,
+        "text": "29 secs",
+        "total_seconds": 29.667606
+      },
+      {
+        "decimal": "0.00",
+        "digital": "0:00:26",
+        "hours": 0,
+        "minutes": 0,
+        "name": "@supercharge/request-ip",
+        "percent": 2.36,
+        "seconds": 26,
+        "text": "26 secs",
+        "total_seconds": 26.612677
+      },
+      {
+        "decimal": "0.00",
+        "digital": "0:00:26",
+        "hours": 0,
+        "minutes": 0,
+        "name": "http-status-codes",
+        "percent": 2.36,
+        "seconds": 26,
+        "text": "26 secs",
+        "total_seconds": 26.612677
+      },
+      {
+        "decimal": "0.00",
+        "digital": "0:00:03",
+        "hours": 0,
+        "minutes": 0,
+        "name": "@nordjs/validator",
+        "percent": 0.29,
+        "seconds": 3,
+        "text": "3 secs",
+        "total_seconds": 3.245127
+      },
+      {
+        "decimal": "0.00",
+        "digital": "0:00:02",
+        "hours": 0,
+        "minutes": 0,
+        "name": "class-validator",
+        "percent": 0.26,
+        "seconds": 2,
+        "text": "2 secs",
+        "total_seconds": 2.950037
+      },
+      {
+        "decimal": "0.00",
+        "digital": "0:00:02",
+        "hours": 0,
+        "minutes": 0,
+        "name": "reflect-metadata",
+        "percent": 0.26,
+        "seconds": 2,
+        "text": "2 secs",
+        "total_seconds": 2.950037
+      },
+      {
+        "decimal": "0.00",
+        "digital": "0:00:02",
+        "hours": 0,
+        "minutes": 0,
+        "name": "class-transformer",
+        "percent": 0.26,
+        "seconds": 2,
+        "text": "2 secs",
+        "total_seconds": 2.950037
+      },
+      {
+        "decimal": "0.00",
+        "digital": "0:00:01",
+        "hours": 0,
+        "minutes": 0,
+        "name": "@nordjs/app",
+        "percent": 0.1,
+        "seconds": 1,
+        "text": "1 sec",
+        "total_seconds": 1.15699
+      },
+      {
+        "decimal": "0.00",
+        "digital": "0:00:00",
+        "hours": 0,
+        "minutes": 0,
+        "name": "@nordjs/errorss",
+        "percent": 0.07,
+        "seconds": 0,
+        "text": "0 secs",
+        "total_seconds": 0.73577
+      }
+    ],
+    "editors": [
+      {
+        "decimal": "2.25",
+        "digital": "2:15:45",
+        "hours": 2,
+        "minutes": 15,
+        "name": "VS Code",
+        "percent": 100,
+        "seconds": 45,
+        "text": "2 hrs 15 mins",
+        "total_seconds": 8145.189838
+      }
+    ],
     "grand_total": {
-      "decimal": "0.00",
-      "digital": "0:00",
-      "hours": 0,
-      "minutes": 0,
-      "text": "0 secs",
-      "total_seconds": 0
+      "decimal": "2.25",
+      "digital": "2:15",
+      "hours": 2,
+      "minutes": 15,
+      "text": "2 hrs 15 mins",
+      "total_seconds": 8145.189838
     },
-    "languages": [],
-    "machines": [],
-    "operating_systems": [],
-    "projects": [],
+    "languages": [
+      {
+        "decimal": "2.08",
+        "digital": "2:05:23",
+        "hours": 2,
+        "minutes": 5,
+        "name": "TypeScript",
+        "percent": 92.37,
+        "seconds": 23,
+        "text": "2 hrs 5 mins",
+        "total_seconds": 7523.850585
+      },
+      {
+        "decimal": "0.08",
+        "digital": "0:05:28",
+        "hours": 0,
+        "minutes": 5,
+        "name": "JSON",
+        "percent": 4.03,
+        "seconds": 28,
+        "text": "5 mins",
+        "total_seconds": 328.297133
+      },
+      {
+        "decimal": "0.07",
+        "digital": "0:04:50",
+        "hours": 0,
+        "minutes": 4,
+        "name": "Other",
+        "percent": 3.56,
+        "seconds": 50,
+        "text": "4 mins",
+        "total_seconds": 290.314685
+      },
+      {
+        "decimal": "0.00",
+        "digital": "0:00:02",
+        "hours": 0,
+        "minutes": 0,
+        "name": "JavaScript",
+        "percent": 0.03,
+        "seconds": 2,
+        "text": "2 secs",
+        "total_seconds": 2.727435
+      }
+    ],
+    "machines": [
+      {
+        "decimal": "1.55",
+        "digital": "1:33:24",
+        "hours": 1,
+        "machine_name_id": "a26d0993-44b6-4f45-89c8-cde407f85b9d",
+        "minutes": 33,
+        "name": "Anand's MacBook Pro",
+        "percent": 68.81,
+        "seconds": 24,
+        "text": "1 hr 33 mins",
+        "total_seconds": 5604.444237
+      },
+      {
+        "decimal": "0.70",
+        "digital": "0:42:20",
+        "hours": 0,
+        "machine_name_id": "37fb25d1-29e7-4e15-ac35-24eb664427c3",
+        "minutes": 42,
+        "name": "bktbv.pabio.usenimbus.com",
+        "percent": 31.19,
+        "seconds": 20,
+        "text": "42 mins",
+        "total_seconds": 2540.745601
+      }
+    ],
+    "operating_systems": [
+      {
+        "decimal": "1.55",
+        "digital": "1:33:24",
+        "hours": 1,
+        "minutes": 33,
+        "name": "Mac",
+        "percent": 68.81,
+        "seconds": 24,
+        "text": "1 hr 33 mins",
+        "total_seconds": 5604.444237
+      },
+      {
+        "decimal": "0.70",
+        "digital": "0:42:20",
+        "hours": 0,
+        "minutes": 42,
+        "name": "Linux",
+        "percent": 31.19,
+        "seconds": 20,
+        "text": "42 mins",
+        "total_seconds": 2540.745601
+      }
+    ],
+    "projects": [
+      {
+        "decimal": "1.47",
+        "digital": "1:28:11",
+        "hours": 1,
+        "minutes": 28,
+        "name": "web-framework",
+        "percent": 64.97,
+        "seconds": 11,
+        "text": "1 hr 28 mins",
+        "total_seconds": 5291.932534
+      },
+      {
+        "decimal": "0.77",
+        "digital": "0:46:37",
+        "hours": 0,
+        "minutes": 46,
+        "name": "pabio",
+        "percent": 34.35,
+        "seconds": 37,
+        "text": "46 mins",
+        "total_seconds": 2797.83857
+      },
+      {
+        "decimal": "0.00",
+        "digital": "0:00:55",
+        "hours": 0,
+        "minutes": 0,
+        "name": "remix-starter",
+        "percent": 0.68,
+        "seconds": 55,
+        "text": "55 secs",
+        "total_seconds": 55.418734
+      }
+    ],
     "range": {
       "date": "2022-06-07",
       "end": "2022-06-07T21:59:59Z",
       "start": "2022-06-06T22:00:00Z",
-      "text": "Today",
+      "text": "Yesterday",
       "timezone": "Europe/Amsterdam"
     }
   }
