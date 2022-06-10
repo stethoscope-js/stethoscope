@@ -1,25 +1,396 @@
 [
   {
-    "categories": [],
-    "dependencies": [],
-    "editors": [],
+    "categories": [
+      {
+        "decimal": "0.38",
+        "digital": "0:23:12",
+        "hours": 0,
+        "minutes": 23,
+        "name": "Coding",
+        "percent": 100,
+        "seconds": 12,
+        "text": "23 mins",
+        "total_seconds": 1392.836366
+      }
+    ],
+    "dependencies": [
+      {
+        "decimal": "0.07",
+        "digital": "0:04:55",
+        "hours": 0,
+        "minutes": 4,
+        "name": "fs-extra",
+        "percent": 4.54,
+        "seconds": 55,
+        "text": "4 mins",
+        "total_seconds": 295.652472
+      },
+      {
+        "decimal": "0.07",
+        "digital": "0:04:55",
+        "hours": 0,
+        "minutes": 4,
+        "name": "change-case",
+        "percent": 4.54,
+        "seconds": 55,
+        "text": "4 mins",
+        "total_seconds": 295.652472
+      },
+      {
+        "decimal": "0.07",
+        "digital": "0:04:55",
+        "hours": 0,
+        "minutes": 4,
+        "name": "@types/fs-extra",
+        "percent": 4.54,
+        "seconds": 55,
+        "text": "4 mins",
+        "total_seconds": 295.652472
+      },
+      {
+        "decimal": "0.07",
+        "digital": "0:04:55",
+        "hours": 0,
+        "minutes": 4,
+        "name": "dayjs",
+        "percent": 4.54,
+        "seconds": 55,
+        "text": "4 mins",
+        "total_seconds": 295.652472
+      },
+      {
+        "decimal": "0.07",
+        "digital": "0:04:55",
+        "hours": 0,
+        "minutes": 4,
+        "name": "prettier",
+        "percent": 4.54,
+        "seconds": 55,
+        "text": "4 mins",
+        "total_seconds": 295.652472
+      },
+      {
+        "decimal": "0.07",
+        "digital": "0:04:55",
+        "hours": 0,
+        "minutes": 4,
+        "name": "dotenv",
+        "percent": 4.54,
+        "seconds": 55,
+        "text": "4 mins",
+        "total_seconds": 295.652472
+      },
+      {
+        "decimal": "0.07",
+        "digital": "0:04:55",
+        "hours": 0,
+        "minutes": 4,
+        "name": "request-ip",
+        "percent": 4.54,
+        "seconds": 55,
+        "text": "4 mins",
+        "total_seconds": 295.652472
+      },
+      {
+        "decimal": "0.07",
+        "digital": "0:04:55",
+        "hours": 0,
+        "minutes": 4,
+        "name": "npm",
+        "percent": 4.54,
+        "seconds": 55,
+        "text": "4 mins",
+        "total_seconds": 295.652472
+      },
+      {
+        "decimal": "0.07",
+        "digital": "0:04:55",
+        "hours": 0,
+        "minutes": 4,
+        "name": "@types/mysql",
+        "percent": 4.54,
+        "seconds": 55,
+        "text": "4 mins",
+        "total_seconds": 295.652472
+      },
+      {
+        "decimal": "0.07",
+        "digital": "0:04:55",
+        "hours": 0,
+        "minutes": 4,
+        "name": "randomstring",
+        "percent": 4.54,
+        "seconds": 55,
+        "text": "4 mins",
+        "total_seconds": 295.652472
+      },
+      {
+        "decimal": "0.07",
+        "digital": "0:04:55",
+        "hours": 0,
+        "minutes": 4,
+        "name": "@types/node",
+        "percent": 4.54,
+        "seconds": 55,
+        "text": "4 mins",
+        "total_seconds": 295.652472
+      },
+      {
+        "decimal": "0.07",
+        "digital": "0:04:55",
+        "hours": 0,
+        "minutes": 4,
+        "name": "@microsoft/api-extractor",
+        "percent": 4.54,
+        "seconds": 55,
+        "text": "4 mins",
+        "total_seconds": 295.652472
+      },
+      {
+        "decimal": "0.07",
+        "digital": "0:04:55",
+        "hours": 0,
+        "minutes": 4,
+        "name": "@prisma/client",
+        "percent": 4.54,
+        "seconds": 55,
+        "text": "4 mins",
+        "total_seconds": 295.652472
+      },
+      {
+        "decimal": "0.07",
+        "digital": "0:04:55",
+        "hours": 0,
+        "minutes": 4,
+        "name": "@types/request-ip",
+        "percent": 4.54,
+        "seconds": 55,
+        "text": "4 mins",
+        "total_seconds": 295.652472
+      },
+      {
+        "decimal": "0.07",
+        "digital": "0:04:55",
+        "hours": 0,
+        "minutes": 4,
+        "name": "ua-parser-js",
+        "percent": 4.54,
+        "seconds": 55,
+        "text": "4 mins",
+        "total_seconds": 295.652472
+      },
+      {
+        "decimal": "0.07",
+        "digital": "0:04:55",
+        "hours": 0,
+        "minutes": 4,
+        "name": "mysql",
+        "percent": 4.54,
+        "seconds": 55,
+        "text": "4 mins",
+        "total_seconds": 295.652472
+      },
+      {
+        "decimal": "0.07",
+        "digital": "0:04:55",
+        "hours": 0,
+        "minutes": 4,
+        "name": "axios",
+        "percent": 4.54,
+        "seconds": 55,
+        "text": "4 mins",
+        "total_seconds": 295.652472
+      },
+      {
+        "decimal": "0.07",
+        "digital": "0:04:55",
+        "hours": 0,
+        "minutes": 4,
+        "name": "@types/express",
+        "percent": 4.54,
+        "seconds": 55,
+        "text": "4 mins",
+        "total_seconds": 295.652472
+      },
+      {
+        "decimal": "0.07",
+        "digital": "0:04:55",
+        "hours": 0,
+        "minutes": 4,
+        "name": "@types/ua-parser-js",
+        "percent": 4.54,
+        "seconds": 55,
+        "text": "4 mins",
+        "total_seconds": 295.652472
+      },
+      {
+        "decimal": "0.07",
+        "digital": "0:04:55",
+        "hours": 0,
+        "minutes": 4,
+        "name": "prisma",
+        "percent": 4.54,
+        "seconds": 55,
+        "text": "4 mins",
+        "total_seconds": 295.652472
+      },
+      {
+        "decimal": "0.07",
+        "digital": "0:04:55",
+        "hours": 0,
+        "minutes": 4,
+        "name": "typescript",
+        "percent": 4.54,
+        "seconds": 55,
+        "text": "4 mins",
+        "total_seconds": 295.652472
+      },
+      {
+        "decimal": "0.07",
+        "digital": "0:04:55",
+        "hours": 0,
+        "minutes": 4,
+        "name": "@types/randomstring",
+        "percent": 4.54,
+        "seconds": 55,
+        "text": "4 mins",
+        "total_seconds": 295.652472
+      },
+      {
+        "decimal": "0.00",
+        "digital": "0:00:04",
+        "hours": 0,
+        "minutes": 0,
+        "name": "@pabio/types",
+        "percent": 0.07,
+        "seconds": 4,
+        "text": "4 secs",
+        "total_seconds": 4.82346
+      }
+    ],
+    "editors": [
+      {
+        "decimal": "0.38",
+        "digital": "0:23:12",
+        "hours": 0,
+        "minutes": 23,
+        "name": "VS Code",
+        "percent": 100,
+        "seconds": 12,
+        "text": "23 mins",
+        "total_seconds": 1392.836366
+      }
+    ],
     "grand_total": {
-      "decimal": "0.00",
-      "digital": "0:00",
+      "decimal": "0.38",
+      "digital": "0:23",
       "hours": 0,
-      "minutes": 0,
-      "text": "0 secs",
-      "total_seconds": 0
+      "minutes": 23,
+      "text": "23 mins",
+      "total_seconds": 1392.836366
     },
-    "languages": [],
-    "machines": [],
-    "operating_systems": [],
-    "projects": [],
+    "languages": [
+      {
+        "decimal": "0.27",
+        "digital": "0:16:15",
+        "hours": 0,
+        "minutes": 16,
+        "name": "Bash",
+        "percent": 70,
+        "seconds": 15,
+        "text": "16 mins",
+        "total_seconds": 975.039511
+      },
+      {
+        "decimal": "0.07",
+        "digital": "0:04:55",
+        "hours": 0,
+        "minutes": 4,
+        "name": "JSON",
+        "percent": 21.23,
+        "seconds": 55,
+        "text": "4 mins",
+        "total_seconds": 295.652472
+      },
+      {
+        "decimal": "0.02",
+        "digital": "0:01:55",
+        "hours": 0,
+        "minutes": 1,
+        "name": "TypeScript",
+        "percent": 8.26,
+        "seconds": 55,
+        "text": "1 min",
+        "total_seconds": 115.054789
+      },
+      {
+        "decimal": "0.00",
+        "digital": "0:00:07",
+        "hours": 0,
+        "minutes": 0,
+        "name": "Other",
+        "percent": 0.51,
+        "seconds": 7,
+        "text": "7 secs",
+        "total_seconds": 7.089594
+      }
+    ],
+    "machines": [
+      {
+        "decimal": "0.38",
+        "digital": "0:23:12",
+        "hours": 0,
+        "machine_name_id": "427e9ee7-21ad-4c18-8747-821c809473d7",
+        "minutes": 23,
+        "name": "Anand's MacBook Pro",
+        "percent": 100,
+        "seconds": 12,
+        "text": "23 mins",
+        "total_seconds": 1392.836366
+      }
+    ],
+    "operating_systems": [
+      {
+        "decimal": "0.38",
+        "digital": "0:23:12",
+        "hours": 0,
+        "minutes": 23,
+        "name": "Mac",
+        "percent": 100,
+        "seconds": 12,
+        "text": "23 mins",
+        "total_seconds": 1392.836366
+      }
+    ],
+    "projects": [
+      {
+        "decimal": "0.27",
+        "digital": "0:16:08",
+        "hours": 0,
+        "minutes": 16,
+        "name": "database-sync",
+        "percent": 69.53,
+        "seconds": 8,
+        "text": "16 mins",
+        "total_seconds": 968.407105
+      },
+      {
+        "decimal": "0.12",
+        "digital": "0:07:04",
+        "hours": 0,
+        "minutes": 7,
+        "name": "pabio",
+        "percent": 30.47,
+        "seconds": 4,
+        "text": "7 mins",
+        "total_seconds": 424.429261
+      }
+    ],
     "range": {
       "date": "2022-06-09",
       "end": "2022-06-09T21:59:59Z",
       "start": "2022-06-08T22:00:00Z",
-      "text": "Today",
+      "text": "Yesterday",
       "timezone": "Europe/Amsterdam"
     }
   }
