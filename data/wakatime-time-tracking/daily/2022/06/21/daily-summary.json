@@ -1,25 +1,792 @@
 [
   {
-    "categories": [],
-    "dependencies": [],
-    "editors": [],
+    "categories": [
+      {
+        "decimal": "3.63",
+        "digital": "3:38:00",
+        "hours": 3,
+        "minutes": 38,
+        "name": "Coding",
+        "percent": 100,
+        "seconds": 0,
+        "text": "3 hrs 38 mins",
+        "total_seconds": 13080.341097
+      }
+    ],
+    "dependencies": [
+      {
+        "decimal": "0.18",
+        "digital": "0:11:00",
+        "hours": 0,
+        "minutes": 11,
+        "name": "react",
+        "percent": 39.8,
+        "seconds": 0,
+        "text": "11 mins",
+        "total_seconds": 660.831365
+      },
+      {
+        "decimal": "0.13",
+        "digital": "0:08:19",
+        "hours": 0,
+        "minutes": 8,
+        "name": "core",
+        "percent": 30.07,
+        "seconds": 19,
+        "text": "8 mins",
+        "total_seconds": 499.349728
+      },
+      {
+        "decimal": "0.03",
+        "digital": "0:02:42",
+        "hours": 0,
+        "minutes": 2,
+        "name": "Popover",
+        "percent": 9.76,
+        "seconds": 42,
+        "text": "2 mins",
+        "total_seconds": 162.107216
+      },
+      {
+        "decimal": "0.00",
+        "digital": "0:00:47",
+        "hours": 0,
+        "minutes": 0,
+        "name": "Select",
+        "percent": 2.86,
+        "seconds": 47,
+        "text": "47 secs",
+        "total_seconds": 47.493044
+      },
+      {
+        "decimal": "0.00",
+        "digital": "0:00:44",
+        "hours": 0,
+        "minutes": 0,
+        "name": "Button",
+        "percent": 2.68,
+        "seconds": 44,
+        "text": "44 secs",
+        "total_seconds": 44.539068
+      },
+      {
+        "decimal": "0.00",
+        "digital": "0:00:21",
+        "hours": 0,
+        "minutes": 0,
+        "name": "Modal",
+        "percent": 1.32,
+        "seconds": 21,
+        "text": "21 secs",
+        "total_seconds": 21.878378
+      },
+      {
+        "decimal": "0.00",
+        "digital": "0:00:04",
+        "hours": 0,
+        "minutes": 0,
+        "name": "@pabio/types",
+        "percent": 0.25,
+        "seconds": 4,
+        "text": "4 secs",
+        "total_seconds": 4.151606
+      },
+      {
+        "decimal": "0.00",
+        "digital": "0:00:04",
+        "hours": 0,
+        "minutes": 0,
+        "name": "jwt-decode",
+        "percent": 0.25,
+        "seconds": 4,
+        "text": "4 secs",
+        "total_seconds": 4.151606
+      },
+      {
+        "decimal": "0.00",
+        "digital": "0:00:04",
+        "hours": 0,
+        "minutes": 0,
+        "name": "react-is",
+        "percent": 0.25,
+        "seconds": 4,
+        "text": "4 secs",
+        "total_seconds": 4.151606
+      },
+      {
+        "decimal": "0.00",
+        "digital": "0:00:04",
+        "hours": 0,
+        "minutes": 0,
+        "name": "@storybook/addons",
+        "percent": 0.25,
+        "seconds": 4,
+        "text": "4 secs",
+        "total_seconds": 4.151606
+      },
+      {
+        "decimal": "0.00",
+        "digital": "0:00:04",
+        "hours": 0,
+        "minutes": 0,
+        "name": "localforage",
+        "percent": 0.25,
+        "seconds": 4,
+        "text": "4 secs",
+        "total_seconds": 4.151606
+      },
+      {
+        "decimal": "0.00",
+        "digital": "0:00:04",
+        "hours": 0,
+        "minutes": 0,
+        "name": "@chakra-ui/react",
+        "percent": 0.25,
+        "seconds": 4,
+        "text": "4 secs",
+        "total_seconds": 4.151606
+      },
+      {
+        "decimal": "0.00",
+        "digital": "0:00:04",
+        "hours": 0,
+        "minutes": 0,
+        "name": "@mantine/modals",
+        "percent": 0.25,
+        "seconds": 4,
+        "text": "4 secs",
+        "total_seconds": 4.151606
+      },
+      {
+        "decimal": "0.00",
+        "digital": "0:00:04",
+        "hours": 0,
+        "minutes": 0,
+        "name": "tailwindcss",
+        "percent": 0.25,
+        "seconds": 4,
+        "text": "4 secs",
+        "total_seconds": 4.151606
+      },
+      {
+        "decimal": "0.00",
+        "digital": "0:00:04",
+        "hours": 0,
+        "minutes": 0,
+        "name": "nanoid",
+        "percent": 0.25,
+        "seconds": 4,
+        "text": "4 secs",
+        "total_seconds": 4.151606
+      },
+      {
+        "decimal": "0.00",
+        "digital": "0:00:04",
+        "hours": 0,
+        "minutes": 0,
+        "name": "framer-motion",
+        "percent": 0.25,
+        "seconds": 4,
+        "text": "4 secs",
+        "total_seconds": 4.151606
+      },
+      {
+        "decimal": "0.00",
+        "digital": "0:00:04",
+        "hours": 0,
+        "minutes": 0,
+        "name": "@types/segment-analytics",
+        "percent": 0.25,
+        "seconds": 4,
+        "text": "4 secs",
+        "total_seconds": 4.151606
+      },
+      {
+        "decimal": "0.00",
+        "digital": "0:00:04",
+        "hours": 0,
+        "minutes": 0,
+        "name": "@mantine/dates",
+        "percent": 0.25,
+        "seconds": 4,
+        "text": "4 secs",
+        "total_seconds": 4.151606
+      },
+      {
+        "decimal": "0.00",
+        "digital": "0:00:04",
+        "hours": 0,
+        "minutes": 0,
+        "name": "@mantine/form",
+        "percent": 0.25,
+        "seconds": 4,
+        "text": "4 secs",
+        "total_seconds": 4.151606
+      },
+      {
+        "decimal": "0.00",
+        "digital": "0:00:04",
+        "hours": 0,
+        "minutes": 0,
+        "name": "@mantine/core",
+        "percent": 0.25,
+        "seconds": 4,
+        "text": "4 secs",
+        "total_seconds": 4.151606
+      },
+      {
+        "decimal": "0.00",
+        "digital": "0:00:04",
+        "hours": 0,
+        "minutes": 0,
+        "name": "@storybook/storybook-deployer",
+        "percent": 0.25,
+        "seconds": 4,
+        "text": "4 secs",
+        "total_seconds": 4.151606
+      },
+      {
+        "decimal": "0.00",
+        "digital": "0:00:04",
+        "hours": 0,
+        "minutes": 0,
+        "name": "@emotion/styled",
+        "percent": 0.25,
+        "seconds": 4,
+        "text": "4 secs",
+        "total_seconds": 4.151606
+      },
+      {
+        "decimal": "0.00",
+        "digital": "0:00:04",
+        "hours": 0,
+        "minutes": 0,
+        "name": "@storybook/react",
+        "percent": 0.25,
+        "seconds": 4,
+        "text": "4 secs",
+        "total_seconds": 4.151606
+      },
+      {
+        "decimal": "0.00",
+        "digital": "0:00:04",
+        "hours": 0,
+        "minutes": 0,
+        "name": "typescript",
+        "percent": 0.25,
+        "seconds": 4,
+        "text": "4 secs",
+        "total_seconds": 4.151606
+      },
+      {
+        "decimal": "0.00",
+        "digital": "0:00:04",
+        "hours": 0,
+        "minutes": 0,
+        "name": "posthog-js",
+        "percent": 0.25,
+        "seconds": 4,
+        "text": "4 secs",
+        "total_seconds": 4.151606
+      },
+      {
+        "decimal": "0.00",
+        "digital": "0:00:04",
+        "hours": 0,
+        "minutes": 0,
+        "name": "next",
+        "percent": 0.25,
+        "seconds": 4,
+        "text": "4 secs",
+        "total_seconds": 4.151606
+      },
+      {
+        "decimal": "0.00",
+        "digital": "0:00:04",
+        "hours": 0,
+        "minutes": 0,
+        "name": "json-2-csv",
+        "percent": 0.25,
+        "seconds": 4,
+        "text": "4 secs",
+        "total_seconds": 4.151606
+      },
+      {
+        "decimal": "0.00",
+        "digital": "0:00:04",
+        "hours": 0,
+        "minutes": 0,
+        "name": "tsdx",
+        "percent": 0.25,
+        "seconds": 4,
+        "text": "4 secs",
+        "total_seconds": 4.151606
+      },
+      {
+        "decimal": "0.00",
+        "digital": "0:00:04",
+        "hours": 0,
+        "minutes": 0,
+        "name": "swr",
+        "percent": 0.25,
+        "seconds": 4,
+        "text": "4 secs",
+        "total_seconds": 4.151606
+      },
+      {
+        "decimal": "0.00",
+        "digital": "0:00:04",
+        "hours": 0,
+        "minutes": 0,
+        "name": "change-case",
+        "percent": 0.25,
+        "seconds": 4,
+        "text": "4 secs",
+        "total_seconds": 4.151606
+      },
+      {
+        "decimal": "0.00",
+        "digital": "0:00:04",
+        "hours": 0,
+        "minutes": 0,
+        "name": "@mantine/dropzone",
+        "percent": 0.25,
+        "seconds": 4,
+        "text": "4 secs",
+        "total_seconds": 4.151606
+      },
+      {
+        "decimal": "0.00",
+        "digital": "0:00:04",
+        "hours": 0,
+        "minutes": 0,
+        "name": "dayjs",
+        "percent": 0.25,
+        "seconds": 4,
+        "text": "4 secs",
+        "total_seconds": 4.151606
+      },
+      {
+        "decimal": "0.00",
+        "digital": "0:00:04",
+        "hours": 0,
+        "minutes": 0,
+        "name": "tslib",
+        "percent": 0.25,
+        "seconds": 4,
+        "text": "4 secs",
+        "total_seconds": 4.151606
+      },
+      {
+        "decimal": "0.00",
+        "digital": "0:00:04",
+        "hours": 0,
+        "minutes": 0,
+        "name": "storybook-addon-next-router",
+        "percent": 0.25,
+        "seconds": 4,
+        "text": "4 secs",
+        "total_seconds": 4.151606
+      },
+      {
+        "decimal": "0.00",
+        "digital": "0:00:04",
+        "hours": 0,
+        "minutes": 0,
+        "name": "@storybook/addon-info",
+        "percent": 0.25,
+        "seconds": 4,
+        "text": "4 secs",
+        "total_seconds": 4.151606
+      },
+      {
+        "decimal": "0.00",
+        "digital": "0:00:04",
+        "hours": 0,
+        "minutes": 0,
+        "name": "@mantine/spotlight",
+        "percent": 0.25,
+        "seconds": 4,
+        "text": "4 secs",
+        "total_seconds": 4.151606
+      },
+      {
+        "decimal": "0.00",
+        "digital": "0:00:04",
+        "hours": 0,
+        "minutes": 0,
+        "name": "react-dom",
+        "percent": 0.25,
+        "seconds": 4,
+        "text": "4 secs",
+        "total_seconds": 4.151606
+      },
+      {
+        "decimal": "0.00",
+        "digital": "0:00:04",
+        "hours": 0,
+        "minutes": 0,
+        "name": "@mantine/rte",
+        "percent": 0.25,
+        "seconds": 4,
+        "text": "4 secs",
+        "total_seconds": 4.151606
+      },
+      {
+        "decimal": "0.00",
+        "digital": "0:00:04",
+        "hours": 0,
+        "minutes": 0,
+        "name": "@mantine/prism",
+        "percent": 0.25,
+        "seconds": 4,
+        "text": "4 secs",
+        "total_seconds": 4.151606
+      },
+      {
+        "decimal": "0.00",
+        "digital": "0:00:04",
+        "hours": 0,
+        "minutes": 0,
+        "name": "@types/react",
+        "percent": 0.25,
+        "seconds": 4,
+        "text": "4 secs",
+        "total_seconds": 4.151606
+      },
+      {
+        "decimal": "0.00",
+        "digital": "0:00:04",
+        "hours": 0,
+        "minutes": 0,
+        "name": "@types/debounce",
+        "percent": 0.25,
+        "seconds": 4,
+        "text": "4 secs",
+        "total_seconds": 4.151606
+      },
+      {
+        "decimal": "0.00",
+        "digital": "0:00:04",
+        "hours": 0,
+        "minutes": 0,
+        "name": "@mantine/hooks",
+        "percent": 0.25,
+        "seconds": 4,
+        "text": "4 secs",
+        "total_seconds": 4.151606
+      },
+      {
+        "decimal": "0.00",
+        "digital": "0:00:04",
+        "hours": 0,
+        "minutes": 0,
+        "name": "@storybook/addon-links",
+        "percent": 0.25,
+        "seconds": 4,
+        "text": "4 secs",
+        "total_seconds": 4.151606
+      },
+      {
+        "decimal": "0.00",
+        "digital": "0:00:04",
+        "hours": 0,
+        "minutes": 0,
+        "name": "@types/react-dom",
+        "percent": 0.25,
+        "seconds": 4,
+        "text": "4 secs",
+        "total_seconds": 4.151606
+      },
+      {
+        "decimal": "0.00",
+        "digital": "0:00:04",
+        "hours": 0,
+        "minutes": 0,
+        "name": "@microsoft/api-extractor",
+        "percent": 0.25,
+        "seconds": 4,
+        "text": "4 secs",
+        "total_seconds": 4.151606
+      },
+      {
+        "decimal": "0.00",
+        "digital": "0:00:04",
+        "hours": 0,
+        "minutes": 0,
+        "name": "babel-loader",
+        "percent": 0.25,
+        "seconds": 4,
+        "text": "4 secs",
+        "total_seconds": 4.151606
+      },
+      {
+        "decimal": "0.00",
+        "digital": "0:00:04",
+        "hours": 0,
+        "minutes": 0,
+        "name": "debounce",
+        "percent": 0.25,
+        "seconds": 4,
+        "text": "4 secs",
+        "total_seconds": 4.151606
+      },
+      {
+        "decimal": "0.00",
+        "digital": "0:00:04",
+        "hours": 0,
+        "minutes": 0,
+        "name": "husky",
+        "percent": 0.25,
+        "seconds": 4,
+        "text": "4 secs",
+        "total_seconds": 4.151606
+      },
+      {
+        "decimal": "0.00",
+        "digital": "0:00:04",
+        "hours": 0,
+        "minutes": 0,
+        "name": "@mantine/notifications",
+        "percent": 0.25,
+        "seconds": 4,
+        "text": "4 secs",
+        "total_seconds": 4.151606
+      },
+      {
+        "decimal": "0.00",
+        "digital": "0:00:04",
+        "hours": 0,
+        "minutes": 0,
+        "name": "npm-run-all",
+        "percent": 0.25,
+        "seconds": 4,
+        "text": "4 secs",
+        "total_seconds": 4.151606
+      },
+      {
+        "decimal": "0.00",
+        "digital": "0:00:04",
+        "hours": 0,
+        "minutes": 0,
+        "name": "twin.macro",
+        "percent": 0.25,
+        "seconds": 4,
+        "text": "4 secs",
+        "total_seconds": 4.151606
+      },
+      {
+        "decimal": "0.00",
+        "digital": "0:00:04",
+        "hours": 0,
+        "minutes": 0,
+        "name": "size-limit",
+        "percent": 0.25,
+        "seconds": 4,
+        "text": "4 secs",
+        "total_seconds": 4.151606
+      },
+      {
+        "decimal": "0.00",
+        "digital": "0:00:04",
+        "hours": 0,
+        "minutes": 0,
+        "name": "react-icons",
+        "percent": 0.25,
+        "seconds": 4,
+        "text": "4 secs",
+        "total_seconds": 4.151606
+      },
+      {
+        "decimal": "0.00",
+        "digital": "0:00:04",
+        "hours": 0,
+        "minutes": 0,
+        "name": "npm",
+        "percent": 0.25,
+        "seconds": 4,
+        "text": "4 secs",
+        "total_seconds": 4.151606
+      },
+      {
+        "decimal": "0.00",
+        "digital": "0:00:04",
+        "hours": 0,
+        "minutes": 0,
+        "name": "weak-key",
+        "percent": 0.25,
+        "seconds": 4,
+        "text": "4 secs",
+        "total_seconds": 4.151606
+      },
+      {
+        "decimal": "0.00",
+        "digital": "0:00:04",
+        "hours": 0,
+        "minutes": 0,
+        "name": "@emotion/react",
+        "percent": 0.25,
+        "seconds": 4,
+        "text": "4 secs",
+        "total_seconds": 4.151606
+      },
+      {
+        "decimal": "0.00",
+        "digital": "0:00:04",
+        "hours": 0,
+        "minutes": 0,
+        "name": "@storybook/addon-essentials",
+        "percent": 0.25,
+        "seconds": 4,
+        "text": "4 secs",
+        "total_seconds": 4.151606
+      },
+      {
+        "decimal": "0.00",
+        "digital": "0:00:04",
+        "hours": 0,
+        "minutes": 0,
+        "name": "@size-limit/preset-small-lib",
+        "percent": 0.25,
+        "seconds": 4,
+        "text": "4 secs",
+        "total_seconds": 4.151606
+      },
+      {
+        "decimal": "0.00",
+        "digital": "0:00:04",
+        "hours": 0,
+        "minutes": 0,
+        "name": "@babel/core",
+        "percent": 0.25,
+        "seconds": 4,
+        "text": "4 secs",
+        "total_seconds": 4.151606
+      },
+      {
+        "decimal": "0.00",
+        "digital": "0:00:04",
+        "hours": 0,
+        "minutes": 0,
+        "name": "@uploadcare/react-widget",
+        "percent": 0.25,
+        "seconds": 4,
+        "text": "4 secs",
+        "total_seconds": 4.151606
+      }
+    ],
+    "editors": [
+      {
+        "decimal": "3.63",
+        "digital": "3:38:00",
+        "hours": 3,
+        "minutes": 38,
+        "name": "VS Code",
+        "percent": 100,
+        "seconds": 0,
+        "text": "3 hrs 38 mins",
+        "total_seconds": 13080.341097
+      }
+    ],
     "grand_total": {
-      "decimal": "0.00",
-      "digital": "0:00",
-      "hours": 0,
-      "minutes": 0,
-      "text": "0 secs",
-      "total_seconds": 0
+      "decimal": "3.63",
+      "digital": "3:38",
+      "hours": 3,
+      "minutes": 38,
+      "text": "3 hrs 38 mins",
+      "total_seconds": 13080.341097
     },
-    "languages": [],
-    "machines": [],
-    "operating_systems": [],
-    "projects": [],
+    "languages": [
+      {
+        "decimal": "3.62",
+        "digital": "3:37:25",
+        "hours": 3,
+        "minutes": 37,
+        "name": "TypeScript",
+        "percent": 99.74,
+        "seconds": 25,
+        "text": "3 hrs 37 mins",
+        "total_seconds": 13045.883333
+      },
+      {
+        "decimal": "0.00",
+        "digital": "0:00:21",
+        "hours": 0,
+        "minutes": 0,
+        "name": "CSS",
+        "percent": 0.16,
+        "seconds": 21,
+        "text": "21 secs",
+        "total_seconds": 21.00639
+      },
+      {
+        "decimal": "0.00",
+        "digital": "0:00:07",
+        "hours": 0,
+        "minutes": 0,
+        "name": "Bash",
+        "percent": 0.05,
+        "seconds": 7,
+        "text": "7 secs",
+        "total_seconds": 7.15412
+      },
+      {
+        "decimal": "0.00",
+        "digital": "0:00:06",
+        "hours": 0,
+        "minutes": 0,
+        "name": "JSON",
+        "percent": 0.05,
+        "seconds": 6,
+        "text": "6 secs",
+        "total_seconds": 6.297254
+      }
+    ],
+    "machines": [
+      {
+        "decimal": "3.63",
+        "digital": "3:38:00",
+        "hours": 3,
+        "machine_name_id": "47d7e343-d22d-4872-aaec-cc65c41ba69d",
+        "minutes": 38,
+        "name": "Anand's MacBook Pro",
+        "percent": 100,
+        "seconds": 0,
+        "text": "3 hrs 38 mins",
+        "total_seconds": 13080.341097
+      }
+    ],
+    "operating_systems": [
+      {
+        "decimal": "3.63",
+        "digital": "3:38:00",
+        "hours": 3,
+        "minutes": 38,
+        "name": "Mac",
+        "percent": 100,
+        "seconds": 0,
+        "text": "3 hrs 38 mins",
+        "total_seconds": 13080.341097
+      }
+    ],
+    "projects": [
+      {
+        "decimal": "3.63",
+        "digital": "3:38:00",
+        "hours": 3,
+        "minutes": 38,
+        "name": "pabio",
+        "percent": 100,
+        "seconds": 0,
+        "text": "3 hrs 38 mins",
+        "total_seconds": 13080.341097
+      }
+    ],
     "range": {
       "date": "2022-06-22",
       "end": "2022-06-22T21:59:59Z",
       "start": "2022-06-21T22:00:00Z",
-      "text": "Today",
+      "text": "Yesterday",
       "timezone": "Europe/Amsterdam"
     }
   }
