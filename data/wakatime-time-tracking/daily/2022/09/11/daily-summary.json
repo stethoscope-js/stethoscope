@@ -2,121 +2,308 @@
   {
     "categories": [
       {
-        "decimal": "0.45",
-        "digital": "0:27:17",
-        "hours": 0,
-        "minutes": 27,
+        "decimal": "2.62",
+        "digital": "2:37:21",
+        "hours": 2,
+        "minutes": 37,
         "name": "Coding",
         "percent": 100,
-        "seconds": 17,
-        "text": "27 mins",
-        "total_seconds": 1637.246404
+        "seconds": 21,
+        "text": "2 hrs 37 mins",
+        "total_seconds": 9441.067123
       }
     ],
     "dependencies": [
       {
         "decimal": "0.00",
-        "digital": "0:00:08",
+        "digital": "0:00:40",
         "hours": 0,
         "minutes": 0,
         "name": "index",
-        "percent": 100,
-        "seconds": 8,
-        "text": "8 secs",
-        "total_seconds": 8.187951
+        "percent": 18.87,
+        "seconds": 40,
+        "text": "40 secs",
+        "total_seconds": 40.711288
+      },
+      {
+        "decimal": "0.00",
+        "digital": "0:00:10",
+        "hours": 0,
+        "minutes": 0,
+        "name": "typescript",
+        "percent": 5.07,
+        "seconds": 10,
+        "text": "10 secs",
+        "total_seconds": 10.941608
+      },
+      {
+        "decimal": "0.00",
+        "digital": "0:00:10",
+        "hours": 0,
+        "minutes": 0,
+        "name": "prettier",
+        "percent": 5.07,
+        "seconds": 10,
+        "text": "10 secs",
+        "total_seconds": 10.941608
+      },
+      {
+        "decimal": "0.00",
+        "digital": "0:00:10",
+        "hours": 0,
+        "minutes": 0,
+        "name": "axios",
+        "percent": 5.07,
+        "seconds": 10,
+        "text": "10 secs",
+        "total_seconds": 10.941608
+      },
+      {
+        "decimal": "0.00",
+        "digital": "0:00:10",
+        "hours": 0,
+        "minutes": 0,
+        "name": "@rushstack/eslint-config",
+        "percent": 5.07,
+        "seconds": 10,
+        "text": "10 secs",
+        "total_seconds": 10.941608
+      },
+      {
+        "decimal": "0.00",
+        "digital": "0:00:10",
+        "hours": 0,
+        "minutes": 0,
+        "name": "change-case",
+        "percent": 5.07,
+        "seconds": 10,
+        "text": "10 secs",
+        "total_seconds": 10.941608
+      },
+      {
+        "decimal": "0.00",
+        "digital": "0:00:10",
+        "hours": 0,
+        "minutes": 0,
+        "name": "npm",
+        "percent": 5.07,
+        "seconds": 10,
+        "text": "10 secs",
+        "total_seconds": 10.941608
+      },
+      {
+        "decimal": "0.00",
+        "digital": "0:00:10",
+        "hours": 0,
+        "minutes": 0,
+        "name": "@rushstack/heft-jest-plugin",
+        "percent": 5.07,
+        "seconds": 10,
+        "text": "10 secs",
+        "total_seconds": 10.941608
+      },
+      {
+        "decimal": "0.00",
+        "digital": "0:00:10",
+        "hours": 0,
+        "minutes": 0,
+        "name": "@types/prettier",
+        "percent": 5.07,
+        "seconds": 10,
+        "text": "10 secs",
+        "total_seconds": 10.941608
+      },
+      {
+        "decimal": "0.00",
+        "digital": "0:00:10",
+        "hours": 0,
+        "minutes": 0,
+        "name": "ts-node",
+        "percent": 5.07,
+        "seconds": 10,
+        "text": "10 secs",
+        "total_seconds": 10.941608
+      },
+      {
+        "decimal": "0.00",
+        "digital": "0:00:10",
+        "hours": 0,
+        "minutes": 0,
+        "name": "@types/heft-jest",
+        "percent": 5.07,
+        "seconds": 10,
+        "text": "10 secs",
+        "total_seconds": 10.941608
+      },
+      {
+        "decimal": "0.00",
+        "digital": "0:00:10",
+        "hours": 0,
+        "minutes": 0,
+        "name": "@rushstack/heft",
+        "percent": 5.07,
+        "seconds": 10,
+        "text": "10 secs",
+        "total_seconds": 10.941608
+      },
+      {
+        "decimal": "0.00",
+        "digital": "0:00:10",
+        "hours": 0,
+        "minutes": 0,
+        "name": "@rushstack/heft-node-rig",
+        "percent": 5.07,
+        "seconds": 10,
+        "text": "10 secs",
+        "total_seconds": 10.941608
+      },
+      {
+        "decimal": "0.00",
+        "digital": "0:00:10",
+        "hours": 0,
+        "minutes": 0,
+        "name": "@types/node",
+        "percent": 5.07,
+        "seconds": 10,
+        "text": "10 secs",
+        "total_seconds": 10.941608
+      },
+      {
+        "decimal": "0.00",
+        "digital": "0:00:10",
+        "hours": 0,
+        "minutes": 0,
+        "name": "eslint",
+        "percent": 5.07,
+        "seconds": 10,
+        "text": "10 secs",
+        "total_seconds": 10.941608
+      },
+      {
+        "decimal": "0.00",
+        "digital": "0:00:10",
+        "hours": 0,
+        "minutes": 0,
+        "name": "@pabio/database",
+        "percent": 5.07,
+        "seconds": 10,
+        "text": "10 secs",
+        "total_seconds": 10.941608
+      },
+      {
+        "decimal": "0.00",
+        "digital": "0:00:10",
+        "hours": 0,
+        "minutes": 0,
+        "name": "@pabio/types",
+        "percent": 5.07,
+        "seconds": 10,
+        "text": "10 secs",
+        "total_seconds": 10.941608
       }
     ],
     "editors": [
       {
-        "decimal": "0.45",
-        "digital": "0:27:17",
-        "hours": 0,
-        "minutes": 27,
+        "decimal": "2.62",
+        "digital": "2:37:21",
+        "hours": 2,
+        "minutes": 37,
         "name": "VS Code",
         "percent": 100,
-        "seconds": 17,
-        "text": "27 mins",
-        "total_seconds": 1637.246404
+        "seconds": 21,
+        "text": "2 hrs 37 mins",
+        "total_seconds": 9441.067123
       }
     ],
     "grand_total": {
-      "decimal": "0.45",
-      "digital": "0:27",
-      "hours": 0,
-      "minutes": 27,
-      "text": "27 mins",
-      "total_seconds": 1637.246404
+      "decimal": "2.62",
+      "digital": "2:37",
+      "hours": 2,
+      "minutes": 37,
+      "text": "2 hrs 37 mins",
+      "total_seconds": 9441.067123
     },
     "languages": [
       {
-        "decimal": "0.40",
-        "digital": "0:24:11",
-        "hours": 0,
-        "minutes": 24,
+        "decimal": "1.85",
+        "digital": "1:51:43",
+        "hours": 1,
+        "minutes": 51,
         "name": "TypeScript",
-        "percent": 88.63,
-        "seconds": 11,
-        "text": "24 mins",
-        "total_seconds": 1451.059382
+        "percent": 71,
+        "seconds": 43,
+        "text": "1 hr 51 mins",
+        "total_seconds": 6703.289609
       },
       {
-        "decimal": "0.05",
-        "digital": "0:03:06",
+        "decimal": "0.75",
+        "digital": "0:45:12",
         "hours": 0,
-        "minutes": 3,
+        "minutes": 45,
         "name": "Other",
-        "percent": 11.37,
-        "seconds": 6,
-        "text": "3 mins",
-        "total_seconds": 186.187022
+        "percent": 28.73,
+        "seconds": 12,
+        "text": "45 mins",
+        "total_seconds": 2712.633658
+      },
+      {
+        "decimal": "0.00",
+        "digital": "0:00:25",
+        "hours": 0,
+        "minutes": 0,
+        "name": "JSON",
+        "percent": 0.27,
+        "seconds": 25,
+        "text": "25 secs",
+        "total_seconds": 25.143856
       }
     ],
     "machines": [
       {
-        "decimal": "0.45",
-        "digital": "0:27:17",
-        "hours": 0,
+        "decimal": "2.62",
+        "digital": "2:37:21",
+        "hours": 2,
         "machine_name_id": "37fb25d1-29e7-4e15-ac35-24eb664427c3",
-        "minutes": 27,
+        "minutes": 37,
         "name": "bktbv.pabio.usenimbus.com",
         "percent": 100,
-        "seconds": 17,
-        "text": "27 mins",
-        "total_seconds": 1637.246404
+        "seconds": 21,
+        "text": "2 hrs 37 mins",
+        "total_seconds": 9441.067123
       }
     ],
     "operating_systems": [
       {
-        "decimal": "0.45",
-        "digital": "0:27:17",
-        "hours": 0,
-        "minutes": 27,
+        "decimal": "2.62",
+        "digital": "2:37:21",
+        "hours": 2,
+        "minutes": 37,
         "name": "Linux",
         "percent": 100,
-        "seconds": 17,
-        "text": "27 mins",
-        "total_seconds": 1637.246404
+        "seconds": 21,
+        "text": "2 hrs 37 mins",
+        "total_seconds": 9441.067123
       }
     ],
     "projects": [
       {
         "color": null,
-        "decimal": "0.45",
-        "digital": "0:27:17",
-        "hours": 0,
-        "minutes": 27,
+        "decimal": "2.62",
+        "digital": "2:37:21",
+        "hours": 2,
+        "minutes": 37,
         "name": "pabio",
         "percent": 100,
-        "seconds": 17,
-        "text": "27 mins",
-        "total_seconds": 1637.246404
+        "seconds": 21,
+        "text": "2 hrs 37 mins",
+        "total_seconds": 9441.067123
       }
     ],
     "range": {
       "date": "2022-09-12",
       "end": "2022-09-12T21:59:59Z",
       "start": "2022-09-11T22:00:00Z",
-      "text": "Today",
+      "text": "Yesterday",
       "timezone": "Europe/Amsterdam"
     }
   }
