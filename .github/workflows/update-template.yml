@@ -22,7 +22,7 @@ jobs:
       - name: Update template
         run: npx update-template https://github.com/stethoscope-js/stethoscope
       - name: Commit new data
-        uses: stefanzweifel/git-auto-commit-action@v4.9.2
+        uses: stefanzweifel/git-auto-commit-action@v4.15.1
         with:
           commit_message: ":arrow_up: Update @stethoscope-js to latest"
           commit_user_name: Stethoscoper
