@@ -18,7 +18,7 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v2.1.5
         with:
-          node-version: 14
+          node-version: 16.18.0
       - name: Update template
         run: npx update-template https://github.com/stethoscope-js/stethoscope
       - name: Commit new data
