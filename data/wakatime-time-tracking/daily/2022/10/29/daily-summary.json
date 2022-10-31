@@ -2,80 +2,269 @@
   {
     "categories": [
       {
-        "decimal": "0.00",
-        "digital": "0:00:00",
+        "decimal": "0.67",
+        "digital": "0:40:03",
         "hours": 0,
-        "minutes": 0,
+        "minutes": 40,
         "name": "Coding",
-        "percent": 0,
-        "seconds": 0,
-        "text": "0 secs",
-        "total_seconds": 0
+        "percent": 100,
+        "seconds": 3,
+        "text": "40 mins",
+        "total_seconds": 2403.304214
       }
     ],
-    "dependencies": [],
-    "editors": [
+    "dependencies": [
+      {
+        "decimal": "0.02",
+        "digital": "0:01:02",
+        "hours": 0,
+        "minutes": 1,
+        "name": "@types/express",
+        "percent": 12.35,
+        "seconds": 2,
+        "text": "1 min",
+        "total_seconds": 62.25416
+      },
+      {
+        "decimal": "0.02",
+        "digital": "0:01:02",
+        "hours": 0,
+        "minutes": 1,
+        "name": "@nordjs/errors",
+        "percent": 12.35,
+        "seconds": 2,
+        "text": "1 min",
+        "total_seconds": 62.25416
+      },
+      {
+        "decimal": "0.02",
+        "digital": "0:01:02",
+        "hours": 0,
+        "minutes": 1,
+        "name": "@nordjs/cli",
+        "percent": 12.35,
+        "seconds": 2,
+        "text": "1 min",
+        "total_seconds": 62.25416
+      },
+      {
+        "decimal": "0.02",
+        "digital": "0:01:02",
+        "hours": 0,
+        "minutes": 1,
+        "name": "@nordjs/types",
+        "percent": 12.35,
+        "seconds": 2,
+        "text": "1 min",
+        "total_seconds": 62.25416
+      },
+      {
+        "decimal": "0.02",
+        "digital": "0:01:02",
+        "hours": 0,
+        "minutes": 1,
+        "name": "express",
+        "percent": 12.35,
+        "seconds": 2,
+        "text": "1 min",
+        "total_seconds": 62.25416
+      },
+      {
+        "decimal": "0.02",
+        "digital": "0:01:02",
+        "hours": 0,
+        "minutes": 1,
+        "name": "@nordjs/validator",
+        "percent": 12.35,
+        "seconds": 2,
+        "text": "1 min",
+        "total_seconds": 62.25416
+      },
+      {
+        "decimal": "0.02",
+        "digital": "0:01:02",
+        "hours": 0,
+        "minutes": 1,
+        "name": "npm",
+        "percent": 12.35,
+        "seconds": 2,
+        "text": "1 min",
+        "total_seconds": 62.25416
+      },
+      {
+        "decimal": "0.02",
+        "digital": "0:01:02",
+        "hours": 0,
+        "minutes": 1,
+        "name": "@nordjs/core",
+        "percent": 12.35,
+        "seconds": 2,
+        "text": "1 min",
+        "total_seconds": 62.25416
+      },
       {
         "decimal": "0.00",
-        "digital": "0:00:00",
+        "digital": "0:00:01",
         "hours": 0,
         "minutes": 0,
+        "name": "qs",
+        "percent": 0.29,
+        "seconds": 1,
+        "text": "1 sec",
+        "total_seconds": 1.48192
+      },
+      {
+        "decimal": "0.00",
+        "digital": "0:00:01",
+        "hours": 0,
+        "minutes": 0,
+        "name": "serve-static",
+        "percent": 0.29,
+        "seconds": 1,
+        "text": "1 sec",
+        "total_seconds": 1.48192
+      },
+      {
+        "decimal": "0.00",
+        "digital": "0:00:01",
+        "hours": 0,
+        "minutes": 0,
+        "name": "body-parser",
+        "percent": 0.29,
+        "seconds": 1,
+        "text": "1 sec",
+        "total_seconds": 1.48192
+      },
+      {
+        "decimal": "0.00",
+        "digital": "0:00:01",
+        "hours": 0,
+        "minutes": 0,
+        "name": "express-serve-static-core",
+        "percent": 0.29,
+        "seconds": 1,
+        "text": "1 sec",
+        "total_seconds": 1.48192
+      }
+    ],
+    "editors": [
+      {
+        "decimal": "0.67",
+        "digital": "0:40:03",
+        "hours": 0,
+        "minutes": 40,
         "name": "VS Code",
-        "percent": 0,
-        "seconds": 0,
-        "text": "0 secs",
-        "total_seconds": 0
+        "percent": 100,
+        "seconds": 3,
+        "text": "40 mins",
+        "total_seconds": 2403.304214
       }
     ],
     "grand_total": {
-      "decimal": "0.00",
-      "digital": "0:00",
+      "decimal": "0.67",
+      "digital": "0:40",
       "hours": 0,
-      "minutes": 0,
-      "text": "0 secs",
-      "total_seconds": 0
+      "minutes": 40,
+      "text": "40 mins",
+      "total_seconds": 2403.304214
     },
     "languages": [
       {
+        "decimal": "0.58",
+        "digital": "0:35:46",
+        "hours": 0,
+        "minutes": 35,
+        "name": "TypeScript",
+        "percent": 89.33,
+        "seconds": 46,
+        "text": "35 mins",
+        "total_seconds": 2146.900005
+      },
+      {
+        "decimal": "0.03",
+        "digital": "0:02:23",
+        "hours": 0,
+        "minutes": 2,
+        "name": "JSON",
+        "percent": 5.99,
+        "seconds": 23,
+        "text": "2 mins",
+        "total_seconds": 143.868207
+      },
+      {
+        "decimal": "0.02",
+        "digital": "0:01:48",
+        "hours": 0,
+        "minutes": 1,
+        "name": "Markdown",
+        "percent": 4.51,
+        "seconds": 48,
+        "text": "1 min",
+        "total_seconds": 108.361582
+      },
+      {
         "decimal": "0.00",
-        "digital": "0:00:00",
+        "digital": "0:00:02",
         "hours": 0,
         "minutes": 0,
-        "name": "TypeScript",
-        "percent": 0,
-        "seconds": 0,
-        "text": "0 secs",
-        "total_seconds": 0
+        "name": "Other",
+        "percent": 0.1,
+        "seconds": 2,
+        "text": "2 secs",
+        "total_seconds": 2.380144
+      },
+      {
+        "decimal": "0.00",
+        "digital": "0:00:01",
+        "hours": 0,
+        "minutes": 0,
+        "name": "YAML",
+        "percent": 0.07,
+        "seconds": 1,
+        "text": "1 sec",
+        "total_seconds": 1.794276
       }
     ],
     "machines": [
       {
-        "decimal": "0.00",
-        "digital": "0:00:00",
+        "decimal": "0.67",
+        "digital": "0:40:03",
         "hours": 0,
         "machine_name_id": "64bc3aed-b19c-4573-8581-0f77f12ecc0b",
-        "minutes": 0,
+        "minutes": 40,
         "name": "Anand's MacBook Pro",
-        "percent": 0,
-        "seconds": 0,
-        "text": "0 secs",
-        "total_seconds": 0
+        "percent": 100,
+        "seconds": 3,
+        "text": "40 mins",
+        "total_seconds": 2403.304214
       }
     ],
     "operating_systems": [
       {
-        "decimal": "0.00",
-        "digital": "0:00:00",
+        "decimal": "0.67",
+        "digital": "0:40:03",
         "hours": 0,
-        "minutes": 0,
+        "minutes": 40,
         "name": "Mac",
-        "percent": 0,
-        "seconds": 0,
-        "text": "0 secs",
-        "total_seconds": 0
+        "percent": 100,
+        "seconds": 3,
+        "text": "40 mins",
+        "total_seconds": 2403.304214
       }
     ],
     "projects": [
+      {
+        "color": null,
+        "decimal": "0.67",
+        "digital": "0:40:03",
+        "hours": 0,
+        "minutes": 40,
+        "name": "web-framework",
+        "percent": 100,
+        "seconds": 3,
+        "text": "40 mins",
+        "total_seconds": 2403.304214
+      },
       {
         "color": null,
         "decimal": "0.00",
@@ -93,7 +282,7 @@
       "date": "2022-10-30",
       "end": "2022-10-30T22:59:59Z",
       "start": "2022-10-29T22:00:00Z",
-      "text": "Today",
+      "text": "Yesterday",
       "timezone": "Europe/Amsterdam"
     }
   }
