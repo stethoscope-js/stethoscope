@@ -1,25 +1,388 @@
 [
   {
-    "categories": [],
-    "dependencies": [],
-    "editors": [],
+    "categories": [
+      {
+        "decimal": "3.47",
+        "digital": "3:28:44",
+        "hours": 3,
+        "minutes": 28,
+        "name": "Coding",
+        "percent": 100,
+        "seconds": 44,
+        "text": "3 hrs 28 mins",
+        "total_seconds": 12524.727581
+      }
+    ],
+    "dependencies": [
+      {
+        "decimal": "0.08",
+        "digital": "0:05:37",
+        "hours": 0,
+        "minutes": 5,
+        "name": "npm",
+        "percent": 14.67,
+        "seconds": 37,
+        "text": "5 mins",
+        "total_seconds": 337.575072
+      },
+      {
+        "decimal": "0.02",
+        "digital": "0:01:50",
+        "hours": 0,
+        "minutes": 1,
+        "name": "@types/jest",
+        "percent": 4.81,
+        "seconds": 50,
+        "text": "1 min",
+        "total_seconds": 110.708599
+      },
+      {
+        "decimal": "0.02",
+        "digital": "0:01:50",
+        "hours": 0,
+        "minutes": 1,
+        "name": "fs-extra",
+        "percent": 4.81,
+        "seconds": 50,
+        "text": "1 min",
+        "total_seconds": 110.708599
+      },
+      {
+        "decimal": "0.02",
+        "digital": "0:01:50",
+        "hours": 0,
+        "minutes": 1,
+        "name": "typescript",
+        "percent": 4.81,
+        "seconds": 50,
+        "text": "1 min",
+        "total_seconds": 110.708599
+      },
+      {
+        "decimal": "0.02",
+        "digital": "0:01:50",
+        "hours": 0,
+        "minutes": 1,
+        "name": "markdown-to-txt",
+        "percent": 4.81,
+        "seconds": 50,
+        "text": "1 min",
+        "total_seconds": 110.708599
+      },
+      {
+        "decimal": "0.02",
+        "digital": "0:01:50",
+        "hours": 0,
+        "minutes": 1,
+        "name": "prettier",
+        "percent": 4.81,
+        "seconds": 50,
+        "text": "1 min",
+        "total_seconds": 110.708599
+      },
+      {
+        "decimal": "0.02",
+        "digital": "0:01:50",
+        "hours": 0,
+        "minutes": 1,
+        "name": "ts-jest",
+        "percent": 4.81,
+        "seconds": 50,
+        "text": "1 min",
+        "total_seconds": 110.708599
+      },
+      {
+        "decimal": "0.02",
+        "digital": "0:01:50",
+        "hours": 0,
+        "minutes": 1,
+        "name": "@types/fs-extra",
+        "percent": 4.81,
+        "seconds": 50,
+        "text": "1 min",
+        "total_seconds": 110.708599
+      },
+      {
+        "decimal": "0.02",
+        "digital": "0:01:50",
+        "hours": 0,
+        "minutes": 1,
+        "name": "@koj/config",
+        "percent": 4.81,
+        "seconds": 50,
+        "text": "1 min",
+        "total_seconds": 110.708599
+      },
+      {
+        "decimal": "0.02",
+        "digital": "0:01:50",
+        "hours": 0,
+        "minutes": 1,
+        "name": "semantic-release-gitmoji",
+        "percent": 4.81,
+        "seconds": 50,
+        "text": "1 min",
+        "total_seconds": 110.708599
+      },
+      {
+        "decimal": "0.02",
+        "digital": "0:01:50",
+        "hours": 0,
+        "minutes": 1,
+        "name": "@semantic-release/git",
+        "percent": 4.81,
+        "seconds": 50,
+        "text": "1 min",
+        "total_seconds": 110.708599
+      },
+      {
+        "decimal": "0.02",
+        "digital": "0:01:50",
+        "hours": 0,
+        "minutes": 1,
+        "name": "truncate-sentences",
+        "percent": 4.81,
+        "seconds": 50,
+        "text": "1 min",
+        "total_seconds": 110.708599
+      },
+      {
+        "decimal": "0.02",
+        "digital": "0:01:50",
+        "hours": 0,
+        "minutes": 1,
+        "name": "semantic-release",
+        "percent": 4.81,
+        "seconds": 50,
+        "text": "1 min",
+        "total_seconds": 110.708599
+      },
+      {
+        "decimal": "0.02",
+        "digital": "0:01:50",
+        "hours": 0,
+        "minutes": 1,
+        "name": "@actions/core",
+        "percent": 4.81,
+        "seconds": 50,
+        "text": "1 min",
+        "total_seconds": 110.708599
+      },
+      {
+        "decimal": "0.02",
+        "digital": "0:01:50",
+        "hours": 0,
+        "minutes": 1,
+        "name": "emoji-flags",
+        "percent": 4.81,
+        "seconds": 50,
+        "text": "1 min",
+        "total_seconds": 110.708599
+      },
+      {
+        "decimal": "0.02",
+        "digital": "0:01:50",
+        "hours": 0,
+        "minutes": 1,
+        "name": "@types/marked",
+        "percent": 4.81,
+        "seconds": 50,
+        "text": "1 min",
+        "total_seconds": 110.708599
+      },
+      {
+        "decimal": "0.02",
+        "digital": "0:01:50",
+        "hours": 0,
+        "minutes": 1,
+        "name": "@actions/github",
+        "percent": 4.81,
+        "seconds": 50,
+        "text": "1 min",
+        "total_seconds": 110.708599
+      },
+      {
+        "decimal": "0.02",
+        "digital": "0:01:50",
+        "hours": 0,
+        "minutes": 1,
+        "name": "jest",
+        "percent": 4.81,
+        "seconds": 50,
+        "text": "1 min",
+        "total_seconds": 110.708599
+      },
+      {
+        "decimal": "0.00",
+        "digital": "0:00:53",
+        "hours": 0,
+        "minutes": 0,
+        "name": "@vercel/ncc",
+        "percent": 2.34,
+        "seconds": 53,
+        "text": "53 secs",
+        "total_seconds": 53.820509
+      },
+      {
+        "decimal": "0.00",
+        "digital": "0:00:27",
+        "hours": 0,
+        "minutes": 0,
+        "name": "@zeit/ncc",
+        "percent": 1.18,
+        "seconds": 27,
+        "text": "27 secs",
+        "total_seconds": 27.149565
+      }
+    ],
+    "editors": [
+      {
+        "decimal": "3.47",
+        "digital": "3:28:44",
+        "hours": 3,
+        "minutes": 28,
+        "name": "VS Code",
+        "percent": 100,
+        "seconds": 44,
+        "text": "3 hrs 28 mins",
+        "total_seconds": 12524.727581
+      }
+    ],
     "grand_total": {
-      "decimal": "0.00",
-      "digital": "0:00",
-      "hours": 0,
-      "minutes": 0,
-      "text": "0 secs",
-      "total_seconds": 0
+      "decimal": "3.47",
+      "digital": "3:28",
+      "hours": 3,
+      "minutes": 28,
+      "text": "3 hrs 28 mins",
+      "total_seconds": 12524.727581
     },
-    "languages": [],
-    "machines": [],
-    "operating_systems": [],
-    "projects": [],
+    "languages": [
+      {
+        "decimal": "3.25",
+        "digital": "3:15:41",
+        "hours": 3,
+        "minutes": 15,
+        "name": "TypeScript",
+        "percent": 93.75,
+        "seconds": 41,
+        "text": "3 hrs 15 mins",
+        "total_seconds": 11741.696038
+      },
+      {
+        "decimal": "0.08",
+        "digital": "0:05:58",
+        "hours": 0,
+        "minutes": 5,
+        "name": "Other",
+        "percent": 2.86,
+        "seconds": 58,
+        "text": "5 mins",
+        "total_seconds": 358.479164
+      },
+      {
+        "decimal": "0.08",
+        "digital": "0:05:53",
+        "hours": 0,
+        "minutes": 5,
+        "name": "JSON",
+        "percent": 2.82,
+        "seconds": 53,
+        "text": "5 mins",
+        "total_seconds": 353.387169
+      },
+      {
+        "decimal": "0.00",
+        "digital": "0:00:54",
+        "hours": 0,
+        "minutes": 0,
+        "name": "YAML",
+        "percent": 0.43,
+        "seconds": 54,
+        "text": "54 secs",
+        "total_seconds": 54.060831
+      },
+      {
+        "decimal": "0.00",
+        "digital": "0:00:17",
+        "hours": 0,
+        "minutes": 0,
+        "name": "Markdown",
+        "percent": 0.14,
+        "seconds": 17,
+        "text": "17 secs",
+        "total_seconds": 17.104379
+      }
+    ],
+    "machines": [
+      {
+        "decimal": "3.47",
+        "digital": "3:28:44",
+        "hours": 3,
+        "machine_name_id": "0bec3658-ba9a-49c9-897d-eeb65258dadf",
+        "minutes": 28,
+        "name": "Anand's MacBook Pro",
+        "percent": 100,
+        "seconds": 44,
+        "text": "3 hrs 28 mins",
+        "total_seconds": 12524.727581
+      }
+    ],
+    "operating_systems": [
+      {
+        "decimal": "3.47",
+        "digital": "3:28:44",
+        "hours": 3,
+        "minutes": 28,
+        "name": "Mac",
+        "percent": 100,
+        "seconds": 44,
+        "text": "3 hrs 28 mins",
+        "total_seconds": 12524.727581
+      }
+    ],
+    "projects": [
+      {
+        "color": null,
+        "decimal": "2.57",
+        "digital": "2:34:30",
+        "hours": 2,
+        "minutes": 34,
+        "name": "anandchowdhary.com",
+        "percent": 74.01,
+        "seconds": 30,
+        "text": "2 hrs 34 mins",
+        "total_seconds": 9270.028981
+      },
+      {
+        "color": null,
+        "decimal": "0.82",
+        "digital": "0:49:58",
+        "hours": 0,
+        "minutes": 49,
+        "name": "everything",
+        "percent": 23.94,
+        "seconds": 58,
+        "text": "49 mins",
+        "total_seconds": 2998.628926
+      },
+      {
+        "color": null,
+        "decimal": "0.07",
+        "digital": "0:04:16",
+        "hours": 0,
+        "minutes": 4,
+        "name": "notes-summary",
+        "percent": 2.04,
+        "seconds": 16,
+        "text": "4 mins",
+        "total_seconds": 256.069674
+      }
+    ],
     "range": {
       "date": "2022-11-20",
       "end": "2022-11-20T22:59:59Z",
       "start": "2022-11-19T23:00:00Z",
-      "text": "Today",
+      "text": "Yesterday",
       "timezone": "Europe/Amsterdam"
     }
   }
