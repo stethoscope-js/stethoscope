@@ -1,25 +1,331 @@
 [
   {
-    "categories": [],
-    "dependencies": [],
-    "editors": [],
+    "categories": [
+      {
+        "decimal": "5.40",
+        "digital": "5:24:57",
+        "hours": 5,
+        "minutes": 24,
+        "name": "Coding",
+        "percent": 100,
+        "seconds": 57,
+        "text": "5 hrs 24 mins",
+        "total_seconds": 19497.509014
+      }
+    ],
+    "dependencies": [
+      {
+        "decimal": "0.00",
+        "digital": "0:00:10",
+        "hours": 0,
+        "minutes": 0,
+        "name": "index",
+        "percent": 36.42,
+        "seconds": 10,
+        "text": "10 secs",
+        "total_seconds": 10.066439
+      },
+      {
+        "decimal": "0.00",
+        "digital": "0:00:01",
+        "hours": 0,
+        "minutes": 0,
+        "name": "npm",
+        "percent": 4.64,
+        "seconds": 1,
+        "text": "1 sec",
+        "total_seconds": 1.283527
+      },
+      {
+        "decimal": "0.00",
+        "digital": "0:00:01",
+        "hours": 0,
+        "minutes": 0,
+        "name": "typescript",
+        "percent": 4.64,
+        "seconds": 1,
+        "text": "1 sec",
+        "total_seconds": 1.283527
+      },
+      {
+        "decimal": "0.00",
+        "digital": "0:00:01",
+        "hours": 0,
+        "minutes": 0,
+        "name": "eslint-config-custom",
+        "percent": 4.64,
+        "seconds": 1,
+        "text": "1 sec",
+        "total_seconds": 1.283527
+      },
+      {
+        "decimal": "0.00",
+        "digital": "0:00:01",
+        "hours": 0,
+        "minutes": 0,
+        "name": "@types/marked",
+        "percent": 4.64,
+        "seconds": 1,
+        "text": "1 sec",
+        "total_seconds": 1.283527
+      },
+      {
+        "decimal": "0.00",
+        "digital": "0:00:01",
+        "hours": 0,
+        "minutes": 0,
+        "name": "tiny-invariant",
+        "percent": 4.64,
+        "seconds": 1,
+        "text": "1 sec",
+        "total_seconds": 1.283527
+      },
+      {
+        "decimal": "0.00",
+        "digital": "0:00:01",
+        "hours": 0,
+        "minutes": 0,
+        "name": "@sendgrid/mail",
+        "percent": 4.64,
+        "seconds": 1,
+        "text": "1 sec",
+        "total_seconds": 1.283527
+      },
+      {
+        "decimal": "0.00",
+        "digital": "0:00:01",
+        "hours": 0,
+        "minutes": 0,
+        "name": "tsconfig",
+        "percent": 4.64,
+        "seconds": 1,
+        "text": "1 sec",
+        "total_seconds": 1.283527
+      },
+      {
+        "decimal": "0.00",
+        "digital": "0:00:01",
+        "hours": 0,
+        "minutes": 0,
+        "name": "@firstquadrant/database",
+        "percent": 4.64,
+        "seconds": 1,
+        "text": "1 sec",
+        "total_seconds": 1.283527
+      },
+      {
+        "decimal": "0.00",
+        "digital": "0:00:01",
+        "hours": 0,
+        "minutes": 0,
+        "name": "eslint",
+        "percent": 4.64,
+        "seconds": 1,
+        "text": "1 sec",
+        "total_seconds": 1.283527
+      },
+      {
+        "decimal": "0.00",
+        "digital": "0:00:01",
+        "hours": 0,
+        "minutes": 0,
+        "name": "@types/node",
+        "percent": 4.64,
+        "seconds": 1,
+        "text": "1 sec",
+        "total_seconds": 1.283527
+      },
+      {
+        "decimal": "0.00",
+        "digital": "0:00:01",
+        "hours": 0,
+        "minutes": 0,
+        "name": "marked",
+        "percent": 4.64,
+        "seconds": 1,
+        "text": "1 sec",
+        "total_seconds": 1.283527
+      },
+      {
+        "decimal": "0.00",
+        "digital": "0:00:00",
+        "hours": 0,
+        "minutes": 0,
+        "name": "server",
+        "percent": 2.08,
+        "seconds": 0,
+        "text": "0 secs",
+        "total_seconds": 0.575343
+      },
+      {
+        "decimal": "0.00",
+        "digital": "0:00:00",
+        "hours": 0,
+        "minutes": 0,
+        "name": "TRPCClient",
+        "percent": 2.08,
+        "seconds": 0,
+        "text": "0 secs",
+        "total_seconds": 0.575343
+      },
+      {
+        "decimal": "0.00",
+        "digital": "0:00:00",
+        "hours": 0,
+        "minutes": 0,
+        "name": "createTRPCClient",
+        "percent": 2.08,
+        "seconds": 0,
+        "text": "0 secs",
+        "total_seconds": 0.575343
+      },
+      {
+        "decimal": "0.00",
+        "digital": "0:00:00",
+        "hours": 0,
+        "minutes": 0,
+        "name": "shared",
+        "percent": 2.08,
+        "seconds": 0,
+        "text": "0 secs",
+        "total_seconds": 0.575343
+      },
+      {
+        "decimal": "0.00",
+        "digital": "0:00:00",
+        "hours": 0,
+        "minutes": 0,
+        "name": "TRPCClientError",
+        "percent": 2.08,
+        "seconds": 0,
+        "text": "0 secs",
+        "total_seconds": 0.575343
+      },
+      {
+        "decimal": "0.00",
+        "digital": "0:00:00",
+        "hours": 0,
+        "minutes": 0,
+        "name": "observable",
+        "percent": 2.08,
+        "seconds": 0,
+        "text": "0 secs",
+        "total_seconds": 0.575343
+      }
+    ],
+    "editors": [
+      {
+        "decimal": "5.40",
+        "digital": "5:24:57",
+        "hours": 5,
+        "minutes": 24,
+        "name": "VS Code",
+        "percent": 100,
+        "seconds": 57,
+        "text": "5 hrs 24 mins",
+        "total_seconds": 19497.509014
+      }
+    ],
     "grand_total": {
-      "decimal": "0.00",
-      "digital": "0:00",
-      "hours": 0,
-      "minutes": 0,
-      "text": "0 secs",
-      "total_seconds": 0
+      "decimal": "5.40",
+      "digital": "5:24",
+      "hours": 5,
+      "minutes": 24,
+      "text": "5 hrs 24 mins",
+      "total_seconds": 19497.509014
     },
-    "languages": [],
-    "machines": [],
-    "operating_systems": [],
-    "projects": [],
+    "languages": [
+      {
+        "decimal": "5.08",
+        "digital": "5:05:55",
+        "hours": 5,
+        "minutes": 5,
+        "name": "TypeScript",
+        "percent": 94.14,
+        "seconds": 55,
+        "text": "5 hrs 5 mins",
+        "total_seconds": 18355.177393
+      },
+      {
+        "decimal": "0.30",
+        "digital": "0:18:54",
+        "hours": 0,
+        "minutes": 18,
+        "name": "Other",
+        "percent": 5.82,
+        "seconds": 54,
+        "text": "18 mins",
+        "total_seconds": 1134.276369
+      },
+      {
+        "decimal": "0.00",
+        "digital": "0:00:07",
+        "hours": 0,
+        "minutes": 0,
+        "name": "JSON",
+        "percent": 0.04,
+        "seconds": 7,
+        "text": "7 secs",
+        "total_seconds": 7.230899
+      },
+      {
+        "decimal": "0.00",
+        "digital": "0:00:00",
+        "hours": 0,
+        "minutes": 0,
+        "name": "YAML",
+        "percent": 0,
+        "seconds": 0,
+        "text": "0 secs",
+        "total_seconds": 0.824353
+      }
+    ],
+    "machines": [
+      {
+        "decimal": "5.40",
+        "digital": "5:24:57",
+        "hours": 5,
+        "machine_name_id": "6154a982-53b2-429a-9657-3c4c992ba077",
+        "minutes": 24,
+        "name": "Anand's MacBook Pro",
+        "percent": 100,
+        "seconds": 57,
+        "text": "5 hrs 24 mins",
+        "total_seconds": 19497.509014
+      }
+    ],
+    "operating_systems": [
+      {
+        "decimal": "5.40",
+        "digital": "5:24:57",
+        "hours": 5,
+        "minutes": 24,
+        "name": "Mac",
+        "percent": 100,
+        "seconds": 57,
+        "text": "5 hrs 24 mins",
+        "total_seconds": 19497.509014
+      }
+    ],
+    "projects": [
+      {
+        "color": null,
+        "decimal": "5.40",
+        "digital": "5:24:57",
+        "hours": 5,
+        "minutes": 24,
+        "name": "firstquadrant",
+        "percent": 100,
+        "seconds": 57,
+        "text": "5 hrs 24 mins",
+        "total_seconds": 19497.509014
+      }
+    ],
     "range": {
       "date": "2022-12-27",
       "end": "2022-12-27T22:59:59Z",
       "start": "2022-12-26T23:00:00Z",
-      "text": "Today",
+      "text": "Yesterday",
       "timezone": "Europe/Amsterdam"
     }
   }
