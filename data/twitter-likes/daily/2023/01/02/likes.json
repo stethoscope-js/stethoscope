@@ -1,5 +1,379 @@
 [
   {
+    "created_at": "Mon Jan 02 23:55:04 +0000 2023",
+    "id": 1610062147421372400,
+    "id_str": "1610062147421372417",
+    "text": "about to implement a postgres client https://t.co/3pEqGv6taz",
+    "truncated": false,
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "user_mentions": [],
+      "urls": [],
+      "media": [
+        {
+          "id": 1610062025857831000,
+          "id_str": "1610062025857830912",
+          "indices": [
+            37,
+            60
+          ],
+          "media_url": "http://pbs.twimg.com/media/FlgW4c2aEAAiR8o.png",
+          "media_url_https": "https://pbs.twimg.com/media/FlgW4c2aEAAiR8o.png",
+          "url": "https://t.co/3pEqGv6taz",
+          "display_url": "pic.twitter.com/3pEqGv6taz",
+          "expanded_url": "https://twitter.com/jarredsumner/status/1610062147421372417/photo/1",
+          "type": "photo",
+          "sizes": {
+            "large": {
+              "w": 800,
+              "h": 450,
+              "resize": "fit"
+            },
+            "small": {
+              "w": 680,
+              "h": 383,
+              "resize": "fit"
+            },
+            "thumb": {
+              "w": 150,
+              "h": 150,
+              "resize": "crop"
+            },
+            "medium": {
+              "w": 800,
+              "h": 450,
+              "resize": "fit"
+            }
+          }
+        }
+      ]
+    },
+    "extended_entities": {
+      "media": [
+        {
+          "id": 1610062025857831000,
+          "id_str": "1610062025857830912",
+          "indices": [
+            37,
+            60
+          ],
+          "media_url": "http://pbs.twimg.com/media/FlgW4c2aEAAiR8o.png",
+          "media_url_https": "https://pbs.twimg.com/media/FlgW4c2aEAAiR8o.png",
+          "url": "https://t.co/3pEqGv6taz",
+          "display_url": "pic.twitter.com/3pEqGv6taz",
+          "expanded_url": "https://twitter.com/jarredsumner/status/1610062147421372417/photo/1",
+          "type": "photo",
+          "sizes": {
+            "large": {
+              "w": 800,
+              "h": 450,
+              "resize": "fit"
+            },
+            "small": {
+              "w": 680,
+              "h": 383,
+              "resize": "fit"
+            },
+            "thumb": {
+              "w": 150,
+              "h": 150,
+              "resize": "crop"
+            },
+            "medium": {
+              "w": 800,
+              "h": 450,
+              "resize": "fit"
+            }
+          }
+        }
+      ]
+    },
+    "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Web App</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 2489440172,
+      "id_str": "2489440172",
+      "name": "Jarred Sumner",
+      "screen_name": "jarredsumner",
+      "location": "Oakland, CA",
+      "description": "building bun 🐰. formerly: @stripe (twice) @thielfellowship. high school dropout 🌈",
+      "url": "https://t.co/P0WCJxvvXu",
+      "entities": {
+        "url": {
+          "urls": [
+            {
+              "url": "https://t.co/P0WCJxvvXu",
+              "expanded_url": "https://bun.sh/careers",
+              "display_url": "bun.sh/careers",
+              "indices": [
+                0,
+                23
+              ]
+            }
+          ]
+        },
+        "description": {
+          "urls": []
+        }
+      },
+      "protected": false,
+      "followers_count": 43711,
+      "friends_count": 794,
+      "listed_count": 348,
+      "created_at": "Sun May 11 07:12:54 +0000 2014",
+      "favourites_count": 15078,
+      "utc_offset": null,
+      "time_zone": null,
+      "geo_enabled": true,
+      "verified": false,
+      "statuses_count": 11243,
+      "lang": null,
+      "contributors_enabled": false,
+      "is_translator": false,
+      "is_translation_enabled": false,
+      "profile_background_color": "C0DEED",
+      "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+      "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+      "profile_background_tile": false,
+      "profile_image_url": "http://pbs.twimg.com/profile_images/1342417825483300864/Vz4ChOFG_normal.jpg",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/1342417825483300864/Vz4ChOFG_normal.jpg",
+      "profile_link_color": "1DA1F2",
+      "profile_sidebar_border_color": "C0DEED",
+      "profile_sidebar_fill_color": "DDEEF6",
+      "profile_text_color": "333333",
+      "profile_use_background_image": true,
+      "has_extended_profile": false,
+      "default_profile": true,
+      "default_profile_image": false,
+      "following": true,
+      "follow_request_sent": false,
+      "notifications": false,
+      "translator_type": "none",
+      "withheld_in_countries": []
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 10,
+    "favorite_count": 440,
+    "favorited": true,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "lang": "en"
+  },
+  {
+    "created_at": "Mon Jan 02 21:46:36 +0000 2023",
+    "id": 1610029817713553400,
+    "id_str": "1610029817713553408",
+    "text": "┏━━┓┏━━┓┏━━┓┏━━┓\n┗━┓┃┃┏┓┃┗━┓┃┗━┓┃\n┏━┛┃┃┃┃┃┏━┛┃┏━┛┃\n                         Use Zod\n┃┏━┛┃┃┃┃┃┏━┛┗━┓┃\n┃┗━┓┃┗┛┃┃┗━┓┏━… https://t.co/uqiNnzIrgf",
+    "truncated": true,
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "user_mentions": [],
+      "urls": [
+        {
+          "url": "https://t.co/uqiNnzIrgf",
+          "expanded_url": "https://twitter.com/i/web/status/1610029817713553408",
+          "display_url": "twitter.com/i/web/status/1…",
+          "indices": [
+            117,
+            140
+          ]
+        }
+      ]
+    },
+    "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 1042799721948098600,
+      "id_str": "1042799721948098560",
+      "name": "Ben HoHoHolmes 🎅",
+      "screen_name": "BHolmesDev",
+      "location": "Ordering more markers",
+      "description": "\"Oh hey, you're that whiteboard guy!\"\n🖍 #WhiteboardTheWeb\n🚀 Building the next framework @astrodotbuild",
+      "url": "https://t.co/2Kfz67s38V",
+      "entities": {
+        "url": {
+          "urls": [
+            {
+              "url": "https://t.co/2Kfz67s38V",
+              "expanded_url": "https://wtw.dev",
+              "display_url": "wtw.dev",
+              "indices": [
+                0,
+                23
+              ]
+            }
+          ]
+        },
+        "description": {
+          "urls": []
+        }
+      },
+      "protected": false,
+      "followers_count": 8848,
+      "friends_count": 594,
+      "listed_count": 122,
+      "created_at": "Thu Sep 20 15:36:42 +0000 2018",
+      "favourites_count": 15347,
+      "utc_offset": null,
+      "time_zone": null,
+      "geo_enabled": true,
+      "verified": false,
+      "statuses_count": 5075,
+      "lang": null,
+      "contributors_enabled": false,
+      "is_translator": false,
+      "is_translation_enabled": false,
+      "profile_background_color": "000000",
+      "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+      "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+      "profile_background_tile": false,
+      "profile_image_url": "http://pbs.twimg.com/profile_images/1562270337601003521/qWnr2p2__normal.jpg",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/1562270337601003521/qWnr2p2__normal.jpg",
+      "profile_banner_url": "https://pbs.twimg.com/profile_banners/1042799721948098560/1665262451",
+      "profile_link_color": "4B0082",
+      "profile_sidebar_border_color": "000000",
+      "profile_sidebar_fill_color": "000000",
+      "profile_text_color": "000000",
+      "profile_use_background_image": false,
+      "has_extended_profile": true,
+      "default_profile": false,
+      "default_profile_image": false,
+      "following": false,
+      "follow_request_sent": false,
+      "notifications": false,
+      "translator_type": "none",
+      "withheld_in_countries": []
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": true,
+    "quoted_status_id": 1609987941161664500,
+    "quoted_status_id_str": "1609987941161664515",
+    "quoted_status": {
+      "created_at": "Mon Jan 02 19:00:11 +0000 2023",
+      "id": 1609987941161664500,
+      "id_str": "1609987941161664515",
+      "text": "┏━━┓┏━━┓┏━━┓┏━━┓\n┗━┓┃┃┏┓┃┗━┓┃┗━┓┃\n┏━┛┃┃┃┃┃┏━┛┃┏━┛┃\n                    Use Tailwind\n┃┏━┛┃┃┃┃┃┏━┛┗━┓┃\n┃┗━┓┃┗┛┃┃┗━┓┏━┛┃\n┗━━┛┗━━┛┗━━┛┗━━┛",
+      "truncated": false,
+      "entities": {
+        "hashtags": [],
+        "symbols": [],
+        "user_mentions": [],
+        "urls": []
+      },
+      "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Web App</a>",
+      "in_reply_to_status_id": null,
+      "in_reply_to_status_id_str": null,
+      "in_reply_to_user_id": null,
+      "in_reply_to_user_id_str": null,
+      "in_reply_to_screen_name": null,
+      "user": {
+        "id": 105669760,
+        "id_str": "105669760",
+        "name": "❀ mewtru ❀",
+        "screen_name": "trunarla",
+        "location": "Portland, OR",
+        "description": "software engineer @discord || @Twitch partner https://t.co/xxyOooqFGs ✨ || this my guy 👉 @VapeJuiceJordan || she/her",
+        "url": "https://t.co/IoXNCiaxH1",
+        "entities": {
+          "url": {
+            "urls": [
+              {
+                "url": "https://t.co/IoXNCiaxH1",
+                "expanded_url": "http://mewtru.com",
+                "display_url": "mewtru.com",
+                "indices": [
+                  0,
+                  23
+                ]
+              }
+            ]
+          },
+          "description": {
+            "urls": [
+              {
+                "url": "https://t.co/xxyOooqFGs",
+                "expanded_url": "http://twitch.tv/mewtru",
+                "display_url": "twitch.tv/mewtru",
+                "indices": [
+                  46,
+                  69
+                ]
+              }
+            ]
+          }
+        },
+        "protected": false,
+        "followers_count": 35592,
+        "friends_count": 603,
+        "listed_count": 184,
+        "created_at": "Sun Jan 17 03:04:58 +0000 2010",
+        "favourites_count": 11564,
+        "utc_offset": null,
+        "time_zone": null,
+        "geo_enabled": true,
+        "verified": false,
+        "statuses_count": 3838,
+        "lang": null,
+        "contributors_enabled": false,
+        "is_translator": false,
+        "is_translation_enabled": false,
+        "profile_background_color": "000000",
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_tile": false,
+        "profile_image_url": "http://pbs.twimg.com/profile_images/1587563265537998848/fd7_Z9K__normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/1587563265537998848/fd7_Z9K__normal.jpg",
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/105669760/1659370978",
+        "profile_link_color": "E81C4F",
+        "profile_sidebar_border_color": "000000",
+        "profile_sidebar_fill_color": "000000",
+        "profile_text_color": "000000",
+        "profile_use_background_image": false,
+        "has_extended_profile": true,
+        "default_profile": false,
+        "default_profile_image": false,
+        "following": false,
+        "follow_request_sent": false,
+        "notifications": false,
+        "translator_type": "none",
+        "withheld_in_countries": []
+      },
+      "geo": null,
+      "coordinates": null,
+      "place": null,
+      "contributors": null,
+      "is_quote_status": false,
+      "retweet_count": 226,
+      "favorite_count": 2254,
+      "favorited": false,
+      "retweeted": false,
+      "lang": "en"
+    },
+    "retweet_count": 18,
+    "favorite_count": 310,
+    "favorited": true,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "lang": "en"
+  },
+  {
     "created_at": "Mon Jan 02 20:00:32 +0000 2023",
     "id": 1610003126190211000,
     "id_str": "1610003126190211073",
@@ -122,16 +496,16 @@
         }
       },
       "protected": false,
-      "followers_count": 14066,
-      "friends_count": 2127,
-      "listed_count": 232,
+      "followers_count": 16245,
+      "friends_count": 2130,
+      "listed_count": 237,
       "created_at": "Wed Mar 07 16:09:17 +0000 2012",
-      "favourites_count": 4281,
+      "favourites_count": 4286,
       "utc_offset": null,
       "time_zone": null,
       "geo_enabled": true,
       "verified": false,
-      "statuses_count": 2008,
+      "statuses_count": 2010,
       "lang": null,
       "contributors_enabled": false,
       "is_translator": false,
@@ -162,11 +536,130 @@
     "place": null,
     "contributors": null,
     "is_quote_status": false,
-    "retweet_count": 85,
-    "favorite_count": 1877,
+    "retweet_count": 543,
+    "favorite_count": 10184,
     "favorited": true,
     "retweeted": false,
     "possibly_sensitive": false,
+    "lang": "en"
+  },
+  {
+    "created_at": "Mon Jan 02 16:10:22 +0000 2023",
+    "id": 1609945203414007800,
+    "id_str": "1609945203414007809",
+    "text": "The best open-source fonts 👇",
+    "truncated": false,
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "user_mentions": [],
+      "urls": []
+    },
+    "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Web App</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 1001797450825388000,
+      "id_str": "1001797450825388032",
+      "name": "Oğuz",
+      "screen_name": "oguzyagizkara",
+      "location": "",
+      "description": "⌘ Design @windenhq — ⌥ Freelance https://t.co/Yn0ck7wNua —\n⎈ Side projects 👨‍🚀 https://t.co/kWUgKbTxwb 📼 https://t.co/CsgluKTfjt",
+      "url": "https://t.co/gaY2LvEVdJ",
+      "entities": {
+        "url": {
+          "urls": [
+            {
+              "url": "https://t.co/gaY2LvEVdJ",
+              "expanded_url": "https://oguzyagiz.com/",
+              "display_url": "oguzyagiz.com",
+              "indices": [
+                0,
+                23
+              ]
+            }
+          ]
+        },
+        "description": {
+          "urls": [
+            {
+              "url": "https://t.co/Yn0ck7wNua",
+              "expanded_url": "http://oguzyagiz.com",
+              "display_url": "oguzyagiz.com",
+              "indices": [
+                33,
+                56
+              ]
+            },
+            {
+              "url": "https://t.co/kWUgKbTxwb",
+              "expanded_url": "http://avvvatars.com",
+              "display_url": "avvvatars.com",
+              "indices": [
+                79,
+                102
+              ]
+            },
+            {
+              "url": "https://t.co/CsgluKTfjt",
+              "expanded_url": "http://tubecut.app",
+              "display_url": "tubecut.app",
+              "indices": [
+                105,
+                128
+              ]
+            }
+          ]
+        }
+      },
+      "protected": false,
+      "followers_count": 4385,
+      "friends_count": 777,
+      "listed_count": 61,
+      "created_at": "Wed May 30 12:08:19 +0000 2018",
+      "favourites_count": 4056,
+      "utc_offset": null,
+      "time_zone": null,
+      "geo_enabled": true,
+      "verified": false,
+      "statuses_count": 1834,
+      "lang": null,
+      "contributors_enabled": false,
+      "is_translator": false,
+      "is_translation_enabled": false,
+      "profile_background_color": "000000",
+      "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+      "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+      "profile_background_tile": false,
+      "profile_image_url": "http://pbs.twimg.com/profile_images/1601170056309870599/AXgMMHT5_normal.jpg",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/1601170056309870599/AXgMMHT5_normal.jpg",
+      "profile_banner_url": "https://pbs.twimg.com/profile_banners/1001797450825388032/1662125271",
+      "profile_link_color": "FF691F",
+      "profile_sidebar_border_color": "000000",
+      "profile_sidebar_fill_color": "000000",
+      "profile_text_color": "000000",
+      "profile_use_background_image": false,
+      "has_extended_profile": true,
+      "default_profile": false,
+      "default_profile_image": false,
+      "following": false,
+      "follow_request_sent": false,
+      "notifications": false,
+      "translator_type": "none",
+      "withheld_in_countries": []
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 194,
+    "favorite_count": 1539,
+    "favorited": true,
+    "retweeted": false,
     "lang": "en"
   },
   {
@@ -203,7 +696,7 @@
       "name": "Calley Means",
       "screen_name": "calleymeans",
       "location": "AZ and CA",
-      "description": "💻 Co-Founder, TrueMed (sign up below for more info) ✍️ Co-author of upcoming @penguinusa book on metabolic health 📊Tweeting one food/health stat a day",
+      "description": "📊Tweeting one food/health stat a day 💻 Co-Founder, https://t.co/RiGI2O6yzd ✍️ Co-author of upcoming @penguinusa book on health 📚@stanford @harvard",
       "url": "https://t.co/6Z7f4c6ESw",
       "entities": {
         "url": {
@@ -220,20 +713,30 @@
           ]
         },
         "description": {
-          "urls": []
+          "urls": [
+            {
+              "url": "https://t.co/RiGI2O6yzd",
+              "expanded_url": "http://TrueMedicine.care",
+              "display_url": "TrueMedicine.care",
+              "indices": [
+                51,
+                74
+              ]
+            }
+          ]
         }
       },
       "protected": false,
-      "followers_count": 15172,
-      "friends_count": 1162,
-      "listed_count": 100,
+      "followers_count": 22753,
+      "friends_count": 1168,
+      "listed_count": 144,
       "created_at": "Tue Oct 07 23:13:27 +0000 2008",
-      "favourites_count": 3006,
+      "favourites_count": 3020,
       "utc_offset": null,
       "time_zone": null,
       "geo_enabled": true,
       "verified": false,
-      "statuses_count": 1761,
+      "statuses_count": 1770,
       "lang": null,
       "contributors_enabled": false,
       "is_translator": false,
@@ -264,8 +767,8 @@
     "place": null,
     "contributors": null,
     "is_quote_status": false,
-    "retweet_count": 6077,
-    "favorite_count": 26220,
+    "retweet_count": 11615,
+    "favorite_count": 53344,
     "favorited": true,
     "retweeted": false,
     "lang": "en"
@@ -356,16 +859,16 @@
         }
       },
       "protected": false,
-      "followers_count": 8317,
-      "friends_count": 3047,
+      "followers_count": 8344,
+      "friends_count": 3046,
       "listed_count": 301,
       "created_at": "Tue Dec 11 19:38:18 +0000 2012",
-      "favourites_count": 52643,
+      "favourites_count": 52698,
       "utc_offset": null,
       "time_zone": null,
       "geo_enabled": false,
       "verified": false,
-      "statuses_count": 25706,
+      "statuses_count": 25719,
       "lang": null,
       "contributors_enabled": false,
       "is_translator": false,
@@ -544,16 +1047,16 @@
         }
       },
       "protected": false,
-      "followers_count": 24825,
-      "friends_count": 1478,
-      "listed_count": 177,
+      "followers_count": 24878,
+      "friends_count": 1481,
+      "listed_count": 178,
       "created_at": "Wed Aug 05 07:43:23 +0000 2009",
-      "favourites_count": 20826,
+      "favourites_count": 20844,
       "utc_offset": null,
       "time_zone": null,
       "geo_enabled": true,
       "verified": false,
-      "statuses_count": 32059,
+      "statuses_count": 32070,
       "lang": null,
       "contributors_enabled": false,
       "is_translator": false,
@@ -617,8 +1120,8 @@
     },
     "contributors": null,
     "is_quote_status": false,
-    "retweet_count": 28,
-    "favorite_count": 602,
+    "retweet_count": 40,
+    "favorite_count": 811,
     "favorited": true,
     "retweeted": false,
     "possibly_sensitive": false,
