@@ -1,20 +1,437 @@
 [
   {
-    "categories": [],
-    "dependencies": [],
-    "editors": [],
+    "categories": [
+      {
+        "decimal": "0.93",
+        "digital": "0:56:30",
+        "hours": 0,
+        "minutes": 56,
+        "name": "Coding",
+        "percent": 100,
+        "seconds": 30,
+        "text": "56 mins",
+        "total_seconds": 3390.909719
+      }
+    ],
+    "dependencies": [
+      {
+        "decimal": "0.08",
+        "digital": "0:05:09",
+        "hours": 0,
+        "minutes": 5,
+        "name": "npm",
+        "percent": 14.88,
+        "seconds": 9,
+        "text": "5 mins",
+        "total_seconds": 309.265236
+      },
+      {
+        "decimal": "0.07",
+        "digital": "0:04:20",
+        "hours": 0,
+        "minutes": 4,
+        "name": "eslint-config-custom",
+        "percent": 12.54,
+        "seconds": 20,
+        "text": "4 mins",
+        "total_seconds": 260.562211
+      },
+      {
+        "decimal": "0.07",
+        "digital": "0:04:17",
+        "hours": 0,
+        "minutes": 4,
+        "name": "eslint",
+        "percent": 12.41,
+        "seconds": 17,
+        "text": "4 mins",
+        "total_seconds": 257.99757
+      },
+      {
+        "decimal": "0.07",
+        "digital": "0:04:17",
+        "hours": 0,
+        "minutes": 4,
+        "name": "typescript",
+        "percent": 12.41,
+        "seconds": 17,
+        "text": "4 mins",
+        "total_seconds": 257.99757
+      },
+      {
+        "decimal": "0.05",
+        "digital": "0:03:20",
+        "hours": 0,
+        "minutes": 3,
+        "name": "@firstquadrant/tsconfig",
+        "percent": 9.64,
+        "seconds": 20,
+        "text": "3 mins",
+        "total_seconds": 200.348325
+      },
+      {
+        "decimal": "0.02",
+        "digital": "0:01:53",
+        "hours": 0,
+        "minutes": 1,
+        "name": "react",
+        "percent": 5.47,
+        "seconds": 53,
+        "text": "1 min",
+        "total_seconds": 113.670678
+      },
+      {
+        "decimal": "0.02",
+        "digital": "0:01:52",
+        "hours": 0,
+        "minutes": 1,
+        "name": "@types/react",
+        "percent": 5.43,
+        "seconds": 52,
+        "text": "1 min",
+        "total_seconds": 112.892427
+      },
+      {
+        "decimal": "0.02",
+        "digital": "0:01:52",
+        "hours": 0,
+        "minutes": 1,
+        "name": "@types/react-dom",
+        "percent": 5.43,
+        "seconds": 52,
+        "text": "1 min",
+        "total_seconds": 112.892427
+      },
+      {
+        "decimal": "0.00",
+        "digital": "0:00:57",
+        "hours": 0,
+        "minutes": 0,
+        "name": "@types/node",
+        "percent": 2.76,
+        "seconds": 57,
+        "text": "57 secs",
+        "total_seconds": 57.2919
+      },
+      {
+        "decimal": "0.00",
+        "digital": "0:00:57",
+        "hours": 0,
+        "minutes": 0,
+        "name": "next",
+        "percent": 2.76,
+        "seconds": 57,
+        "text": "57 secs",
+        "total_seconds": 57.2919
+      },
+      {
+        "decimal": "0.00",
+        "digital": "0:00:57",
+        "hours": 0,
+        "minutes": 0,
+        "name": "react-dom",
+        "percent": 2.76,
+        "seconds": 57,
+        "text": "57 secs",
+        "total_seconds": 57.2919
+      },
+      {
+        "decimal": "0.00",
+        "digital": "0:00:57",
+        "hours": 0,
+        "minutes": 0,
+        "name": "@babel/core",
+        "percent": 2.76,
+        "seconds": 57,
+        "text": "57 secs",
+        "total_seconds": 57.2919
+      },
+      {
+        "decimal": "0.00",
+        "digital": "0:00:52",
+        "hours": 0,
+        "minutes": 0,
+        "name": "tsconfig",
+        "percent": 2.52,
+        "seconds": 52,
+        "text": "52 secs",
+        "total_seconds": 52.318306
+      },
+      {
+        "decimal": "0.00",
+        "digital": "0:00:36",
+        "hours": 0,
+        "minutes": 0,
+        "name": "@firstquadrant/ui",
+        "percent": 1.76,
+        "seconds": 36,
+        "text": "36 secs",
+        "total_seconds": 36.479949
+      },
+      {
+        "decimal": "0.00",
+        "digital": "0:00:26",
+        "hours": 0,
+        "minutes": 0,
+        "name": "prettier",
+        "percent": 1.28,
+        "seconds": 26,
+        "text": "26 secs",
+        "total_seconds": 26.576453
+      },
+      {
+        "decimal": "0.00",
+        "digital": "0:00:26",
+        "hours": 0,
+        "minutes": 0,
+        "name": "turbo",
+        "percent": 1.28,
+        "seconds": 26,
+        "text": "26 secs",
+        "total_seconds": 26.576453
+      },
+      {
+        "decimal": "0.00",
+        "digital": "0:00:20",
+        "hours": 0,
+        "minutes": 0,
+        "name": "ui",
+        "percent": 1,
+        "seconds": 20,
+        "text": "20 secs",
+        "total_seconds": 20.811951
+      },
+      {
+        "decimal": "0.00",
+        "digital": "0:00:18",
+        "hours": 0,
+        "minutes": 0,
+        "name": "@firstquadrant/eslint-config-custom",
+        "percent": 0.9,
+        "seconds": 18,
+        "text": "18 secs",
+        "total_seconds": 18.680873
+      },
+      {
+        "decimal": "0.00",
+        "digital": "0:00:15",
+        "hours": 0,
+        "minutes": 0,
+        "name": "@firstquadrant/database",
+        "percent": 0.75,
+        "seconds": 15,
+        "text": "15 secs",
+        "total_seconds": 15.639153
+      },
+      {
+        "decimal": "0.00",
+        "digital": "0:00:05",
+        "hours": 0,
+        "minutes": 0,
+        "name": "eslint-plugin-react",
+        "percent": 0.26,
+        "seconds": 5,
+        "text": "5 secs",
+        "total_seconds": 5.330939
+      },
+      {
+        "decimal": "0.00",
+        "digital": "0:00:05",
+        "hours": 0,
+        "minutes": 0,
+        "name": "eslint-config-turbo",
+        "percent": 0.26,
+        "seconds": 5,
+        "text": "5 secs",
+        "total_seconds": 5.330939
+      },
+      {
+        "decimal": "0.00",
+        "digital": "0:00:05",
+        "hours": 0,
+        "minutes": 0,
+        "name": "eslint-config-next",
+        "percent": 0.26,
+        "seconds": 5,
+        "text": "5 secs",
+        "total_seconds": 5.330939
+      },
+      {
+        "decimal": "0.00",
+        "digital": "0:00:05",
+        "hours": 0,
+        "minutes": 0,
+        "name": "eslint-config-prettier",
+        "percent": 0.26,
+        "seconds": 5,
+        "text": "5 secs",
+        "total_seconds": 5.330939
+      },
+      {
+        "decimal": "0.00",
+        "digital": "0:00:05",
+        "hours": 0,
+        "minutes": 0,
+        "name": "strict-event-emitter",
+        "percent": 0.25,
+        "seconds": 5,
+        "text": "5 secs",
+        "total_seconds": 5.128528
+      }
+    ],
+    "editors": [
+      {
+        "decimal": "0.93",
+        "digital": "0:56:30",
+        "hours": 0,
+        "minutes": 56,
+        "name": "VS Code",
+        "percent": 100,
+        "seconds": 30,
+        "text": "56 mins",
+        "total_seconds": 3390.909719
+      }
+    ],
     "grand_total": {
-      "decimal": "0.00",
-      "digital": "0:00",
+      "decimal": "0.93",
+      "digital": "0:56",
       "hours": 0,
-      "minutes": 0,
-      "text": "0 secs",
-      "total_seconds": 0
+      "minutes": 56,
+      "text": "56 mins",
+      "total_seconds": 3390.909719
     },
-    "languages": [],
-    "machines": [],
-    "operating_systems": [],
-    "projects": [],
+    "languages": [
+      {
+        "decimal": "0.32",
+        "digital": "0:19:04",
+        "hours": 0,
+        "minutes": 19,
+        "name": "TypeScript",
+        "percent": 33.75,
+        "seconds": 4,
+        "text": "19 mins",
+        "total_seconds": 1144.470843
+      },
+      {
+        "decimal": "0.27",
+        "digital": "0:16:45",
+        "hours": 0,
+        "minutes": 16,
+        "name": "JSON",
+        "percent": 29.65,
+        "seconds": 45,
+        "text": "16 mins",
+        "total_seconds": 1005.273811
+      },
+      {
+        "decimal": "0.22",
+        "digital": "0:13:48",
+        "hours": 0,
+        "minutes": 13,
+        "name": "YAML",
+        "percent": 24.42,
+        "seconds": 48,
+        "text": "13 mins",
+        "total_seconds": 828.221552
+      },
+      {
+        "decimal": "0.05",
+        "digital": "0:03:18",
+        "hours": 0,
+        "minutes": 3,
+        "name": "JavaScript",
+        "percent": 5.86,
+        "seconds": 18,
+        "text": "3 mins",
+        "total_seconds": 198.86485
+      },
+      {
+        "decimal": "0.03",
+        "digital": "0:02:37",
+        "hours": 0,
+        "minutes": 2,
+        "name": "Other",
+        "percent": 4.66,
+        "seconds": 37,
+        "text": "2 mins",
+        "total_seconds": 157.962958
+      },
+      {
+        "decimal": "0.00",
+        "digital": "0:00:52",
+        "hours": 0,
+        "minutes": 0,
+        "name": "Git Config",
+        "percent": 1.55,
+        "seconds": 52,
+        "text": "52 secs",
+        "total_seconds": 52.704451
+      },
+      {
+        "decimal": "0.00",
+        "digital": "0:00:03",
+        "hours": 0,
+        "minutes": 0,
+        "name": "Markdown",
+        "percent": 0.1,
+        "seconds": 3,
+        "text": "3 secs",
+        "total_seconds": 3.411254
+      }
+    ],
+    "machines": [
+      {
+        "decimal": "0.93",
+        "digital": "0:56:30",
+        "hours": 0,
+        "machine_name_id": "d4cb463e-43e8-4d6a-9ccc-5eb92c01a572",
+        "minutes": 56,
+        "name": "Anand's MacBook Pro",
+        "percent": 100,
+        "seconds": 30,
+        "text": "56 mins",
+        "total_seconds": 3390.909719
+      }
+    ],
+    "operating_systems": [
+      {
+        "decimal": "0.93",
+        "digital": "0:56:30",
+        "hours": 0,
+        "minutes": 56,
+        "name": "Mac",
+        "percent": 100,
+        "seconds": 30,
+        "text": "56 mins",
+        "total_seconds": 3390.909719
+      }
+    ],
+    "projects": [
+      {
+        "color": null,
+        "decimal": "0.88",
+        "digital": "0:53:53",
+        "hours": 0,
+        "minutes": 53,
+        "name": "1q",
+        "percent": 95.36,
+        "seconds": 53,
+        "text": "53 mins",
+        "total_seconds": 3233.630521
+      },
+      {
+        "color": null,
+        "decimal": "0.03",
+        "digital": "0:02:37",
+        "hours": 0,
+        "minutes": 2,
+        "name": "pabio",
+        "percent": 4.64,
+        "seconds": 37,
+        "text": "2 mins",
+        "total_seconds": 157.279198
+      }
+    ],
     "range": {
       "date": "2023-01-24",
       "end": "2023-01-24T22:59:59Z",
