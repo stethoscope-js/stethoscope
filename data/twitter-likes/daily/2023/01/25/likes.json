@@ -1,0 +1,846 @@
+[
+  {
+    "created_at": "Wed Jan 25 20:01:01 +0000 2023",
+    "id": 1618338168192770000,
+    "id_str": "1618338168192770053",
+    "text": "Simple high resolution timing in Node.js https://t.co/kTFFBp9XuI",
+    "truncated": false,
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "user_mentions": [],
+      "urls": [],
+      "media": [
+        {
+          "id": 1618338165621760000,
+          "id_str": "1618338165621760002",
+          "indices": [
+            41,
+            64
+          ],
+          "media_url": "http://pbs.twimg.com/media/FnV9_MBXoAIu3Tw.jpg",
+          "media_url_https": "https://pbs.twimg.com/media/FnV9_MBXoAIu3Tw.jpg",
+          "url": "https://t.co/kTFFBp9XuI",
+          "display_url": "pic.twitter.com/kTFFBp9XuI",
+          "expanded_url": "https://twitter.com/Kikobeats/status/1618338168192770053/photo/1",
+          "type": "photo",
+          "sizes": {
+            "large": {
+              "w": 1412,
+              "h": 714,
+              "resize": "fit"
+            },
+            "thumb": {
+              "w": 150,
+              "h": 150,
+              "resize": "crop"
+            },
+            "medium": {
+              "w": 1200,
+              "h": 607,
+              "resize": "fit"
+            },
+            "small": {
+              "w": 680,
+              "h": 344,
+              "resize": "fit"
+            }
+          }
+        }
+      ]
+    },
+    "extended_entities": {
+      "media": [
+        {
+          "id": 1618338165621760000,
+          "id_str": "1618338165621760002",
+          "indices": [
+            41,
+            64
+          ],
+          "media_url": "http://pbs.twimg.com/media/FnV9_MBXoAIu3Tw.jpg",
+          "media_url_https": "https://pbs.twimg.com/media/FnV9_MBXoAIu3Tw.jpg",
+          "url": "https://t.co/kTFFBp9XuI",
+          "display_url": "pic.twitter.com/kTFFBp9XuI",
+          "expanded_url": "https://twitter.com/Kikobeats/status/1618338168192770053/photo/1",
+          "type": "photo",
+          "sizes": {
+            "large": {
+              "w": 1412,
+              "h": 714,
+              "resize": "fit"
+            },
+            "thumb": {
+              "w": 150,
+              "h": 150,
+              "resize": "crop"
+            },
+            "medium": {
+              "w": 1200,
+              "h": 607,
+              "resize": "fit"
+            },
+            "small": {
+              "w": 680,
+              "h": 344,
+              "resize": "fit"
+            }
+          }
+        }
+      ]
+    },
+    "source": "<a href=\"https://buffer.com\" rel=\"nofollow\">Buffer</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 101198215,
+      "id_str": "101198215",
+      "name": "#!/kiko/beats",
+      "screen_name": "Kikobeats",
+      "location": "PORT_ALREADY_USED",
+      "description": "engineering ▲ @vercel; founder of\nhttps://t.co/4PQvCsVNsA\nhttps://t.co/fpiHwbEPBv\nhttps://t.co/IG8Qq0IDKi\nhttps://t.co/gblDRx1P9D\nhttps://t.co/SmoZi3hAhb\nhttps://t.co/Y0Uk1XU3Eu\nhttps://t.co/PAq3eTEhmI",
+      "url": "https://t.co/NTHlhnMhCN",
+      "entities": {
+        "url": {
+          "urls": [
+            {
+              "url": "https://t.co/NTHlhnMhCN",
+              "expanded_url": "http://kikobeats.com",
+              "display_url": "kikobeats.com",
+              "indices": [
+                0,
+                23
+              ]
+            }
+          ]
+        },
+        "description": {
+          "urls": [
+            {
+              "url": "https://t.co/4PQvCsVNsA",
+              "expanded_url": "http://microlink.io",
+              "display_url": "microlink.io",
+              "indices": [
+                34,
+                57
+              ]
+            },
+            {
+              "url": "https://t.co/fpiHwbEPBv",
+              "expanded_url": "http://teslahunt.io",
+              "display_url": "teslahunt.io",
+              "indices": [
+                58,
+                81
+              ]
+            },
+            {
+              "url": "https://t.co/IG8Qq0IDKi",
+              "expanded_url": "http://unavatar.io",
+              "display_url": "unavatar.io",
+              "indices": [
+                82,
+                105
+              ]
+            },
+            {
+              "url": "https://t.co/gblDRx1P9D",
+              "expanded_url": "http://keyv.js.org",
+              "display_url": "keyv.js.org",
+              "indices": [
+                106,
+                129
+              ]
+            },
+            {
+              "url": "https://t.co/SmoZi3hAhb",
+              "expanded_url": "http://osom.js.org",
+              "display_url": "osom.js.org",
+              "indices": [
+                130,
+                153
+              ]
+            },
+            {
+              "url": "https://t.co/Y0Uk1XU3Eu",
+              "expanded_url": "http://browserless.js.org",
+              "display_url": "browserless.js.org",
+              "indices": [
+                154,
+                177
+              ]
+            },
+            {
+              "url": "https://t.co/PAq3eTEhmI",
+              "expanded_url": "http://metascraper.js.org",
+              "display_url": "metascraper.js.org",
+              "indices": [
+                178,
+                201
+              ]
+            }
+          ]
+        }
+      },
+      "protected": false,
+      "followers_count": 3328,
+      "friends_count": 390,
+      "listed_count": 147,
+      "created_at": "Sat Jan 02 11:14:31 +0000 2010",
+      "favourites_count": 4148,
+      "utc_offset": null,
+      "time_zone": null,
+      "geo_enabled": false,
+      "verified": false,
+      "statuses_count": 23183,
+      "lang": null,
+      "contributors_enabled": false,
+      "is_translator": false,
+      "is_translation_enabled": false,
+      "profile_background_color": "2AA6CC",
+      "profile_background_image_url": "http://abs.twimg.com/images/themes/theme14/bg.gif",
+      "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme14/bg.gif",
+      "profile_background_tile": true,
+      "profile_image_url": "http://pbs.twimg.com/profile_images/1564907557512269826/H6O8VFZL_normal.jpg",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/1564907557512269826/H6O8VFZL_normal.jpg",
+      "profile_banner_url": "https://pbs.twimg.com/profile_banners/101198215/1642178805",
+      "profile_link_color": "C79B50",
+      "profile_sidebar_border_color": "FFFFFF",
+      "profile_sidebar_fill_color": "EFEFEF",
+      "profile_text_color": "333333",
+      "profile_use_background_image": true,
+      "has_extended_profile": true,
+      "default_profile": false,
+      "default_profile_image": false,
+      "following": true,
+      "follow_request_sent": false,
+      "notifications": false,
+      "translator_type": "regular",
+      "withheld_in_countries": []
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 1,
+    "favorite_count": 5,
+    "favorited": true,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "lang": "en"
+  },
+  {
+    "created_at": "Wed Jan 25 18:51:03 +0000 2023",
+    "id": 1618320563625394200,
+    "id_str": "1618320563625394177",
+    "text": "@TurnerNovak @landon20s Probably because half the world started a podcast during the Covid lockdown, which was perh… https://t.co/VsQLW10Tfd",
+    "truncated": true,
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "user_mentions": [
+        {
+          "screen_name": "TurnerNovak",
+          "name": "Turner Novak 🍌🧢",
+          "id": 35647451,
+          "id_str": "35647451",
+          "indices": [
+            0,
+            12
+          ]
+        },
+        {
+          "screen_name": "landon20s",
+          "name": "Landon 😎🎙️🚙",
+          "id": 345032556,
+          "id_str": "345032556",
+          "indices": [
+            13,
+            23
+          ]
+        }
+      ],
+      "urls": [
+        {
+          "url": "https://t.co/VsQLW10Tfd",
+          "expanded_url": "https://twitter.com/i/web/status/1618320563625394177",
+          "display_url": "twitter.com/i/web/status/1…",
+          "indices": [
+            117,
+            140
+          ]
+        }
+      ]
+    },
+    "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+    "in_reply_to_status_id": 1618302535919632400,
+    "in_reply_to_status_id_str": "1618302535919632385",
+    "in_reply_to_user_id": 35647451,
+    "in_reply_to_user_id_str": "35647451",
+    "in_reply_to_screen_name": "TurnerNovak",
+    "user": {
+      "id": 1490725008003510300,
+      "id_str": "1490725008003510280",
+      "name": "Vril Dox",
+      "screen_name": "vee_dox",
+      "location": "",
+      "description": "Looking for inspiration so I can build another startup that fails. Previously @Google.",
+      "url": null,
+      "entities": {
+        "description": {
+          "urls": []
+        }
+      },
+      "protected": false,
+      "followers_count": 116,
+      "friends_count": 74,
+      "listed_count": 0,
+      "created_at": "Mon Feb 07 16:33:19 +0000 2022",
+      "favourites_count": 139,
+      "utc_offset": null,
+      "time_zone": null,
+      "geo_enabled": false,
+      "verified": false,
+      "statuses_count": 51,
+      "lang": null,
+      "contributors_enabled": false,
+      "is_translator": false,
+      "is_translation_enabled": false,
+      "profile_background_color": "F5F8FA",
+      "profile_background_image_url": null,
+      "profile_background_image_url_https": null,
+      "profile_background_tile": false,
+      "profile_image_url": "http://pbs.twimg.com/profile_images/1617975412314832898/o5DjDDVL_normal.jpg",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/1617975412314832898/o5DjDDVL_normal.jpg",
+      "profile_banner_url": "https://pbs.twimg.com/profile_banners/1490725008003510280/1644251922",
+      "profile_link_color": "1DA1F2",
+      "profile_sidebar_border_color": "C0DEED",
+      "profile_sidebar_fill_color": "DDEEF6",
+      "profile_text_color": "333333",
+      "profile_use_background_image": true,
+      "has_extended_profile": true,
+      "default_profile": true,
+      "default_profile_image": false,
+      "following": false,
+      "follow_request_sent": false,
+      "notifications": false,
+      "translator_type": "none",
+      "withheld_in_countries": []
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 0,
+    "favorite_count": 4,
+    "favorited": true,
+    "retweeted": false,
+    "lang": "en"
+  },
+  {
+    "created_at": "Wed Jan 25 16:40:20 +0000 2023",
+    "id": 1618287665006403600,
+    "id_str": "1618287665006403585",
+    "text": "#OpenAI is planning to stop #ChatGPT users from making social media bots and cheating on homework by \"watermarking\"… https://t.co/hdIUyJt7AV",
+    "truncated": true,
+    "entities": {
+      "hashtags": [
+        {
+          "text": "OpenAI",
+          "indices": [
+            0,
+            7
+          ]
+        },
+        {
+          "text": "ChatGPT",
+          "indices": [
+            28,
+            36
+          ]
+        }
+      ],
+      "symbols": [],
+      "user_mentions": [],
+      "urls": [
+        {
+          "url": "https://t.co/hdIUyJt7AV",
+          "expanded_url": "https://twitter.com/i/web/status/1618287665006403585",
+          "display_url": "twitter.com/i/web/status/1…",
+          "indices": [
+            117,
+            140
+          ]
+        }
+      ]
+    },
+    "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Web App</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 1086729872305766400,
+      "id_str": "1086729872305766401",
+      "name": "Tom Goldstein",
+      "screen_name": "tomgoldsteincs",
+      "location": "",
+      "description": "Associate Professor at Maryland. AI security & privacy, algorithmic bias, foundations of ML. Follow me for commentary on state of the art AI.",
+      "url": "https://t.co/sNIf0JbOQd",
+      "entities": {
+        "url": {
+          "urls": [
+            {
+              "url": "https://t.co/sNIf0JbOQd",
+              "expanded_url": "http://cs.umd.edu/~tomg",
+              "display_url": "cs.umd.edu/~tomg",
+              "indices": [
+                0,
+                23
+              ]
+            }
+          ]
+        },
+        "description": {
+          "urls": []
+        }
+      },
+      "protected": false,
+      "followers_count": 16687,
+      "friends_count": 2237,
+      "listed_count": 225,
+      "created_at": "Sat Jan 19 20:59:26 +0000 2019",
+      "favourites_count": 3766,
+      "utc_offset": null,
+      "time_zone": null,
+      "geo_enabled": false,
+      "verified": false,
+      "statuses_count": 1286,
+      "lang": null,
+      "contributors_enabled": false,
+      "is_translator": false,
+      "is_translation_enabled": false,
+      "profile_background_color": "F5F8FA",
+      "profile_background_image_url": null,
+      "profile_background_image_url_https": null,
+      "profile_background_tile": false,
+      "profile_image_url": "http://pbs.twimg.com/profile_images/1194743821369626625/UATmG8qo_normal.jpg",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/1194743821369626625/UATmG8qo_normal.jpg",
+      "profile_banner_url": "https://pbs.twimg.com/profile_banners/1086729872305766401/1612563899",
+      "profile_link_color": "1DA1F2",
+      "profile_sidebar_border_color": "C0DEED",
+      "profile_sidebar_fill_color": "DDEEF6",
+      "profile_text_color": "333333",
+      "profile_use_background_image": true,
+      "has_extended_profile": false,
+      "default_profile": true,
+      "default_profile_image": false,
+      "following": false,
+      "follow_request_sent": false,
+      "notifications": false,
+      "translator_type": "none",
+      "withheld_in_countries": []
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 405,
+    "favorite_count": 1764,
+    "favorited": true,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "lang": "en"
+  },
+  {
+    "created_at": "Wed Jan 25 16:26:11 +0000 2023",
+    "id": 1618284102989525000,
+    "id_str": "1618284102989524995",
+    "text": "live stripe data directly in a spreadsheet — things are really vlooking up. https://t.co/9VgfBtHhWK",
+    "truncated": false,
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "user_mentions": [],
+      "urls": [
+        {
+          "url": "https://t.co/9VgfBtHhWK",
+          "expanded_url": "https://twitter.com/heyequals/status/1618281103982297088",
+          "display_url": "twitter.com/heyequals/stat…",
+          "indices": [
+            76,
+            99
+          ]
+        }
+      ]
+    },
+    "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 14707959,
+      "id_str": "14707959",
+      "name": "Jeff Weinstein",
+      "screen_name": "jeff_weinstein",
+      "location": "jweinstein@gmail.com",
+      "description": "Product at @stripe and tiny angel investor. Led @wagonhq (acq by @box) and @hyperpublic (acq by @groupon). I love helping founders turn an idea into a business.",
+      "url": null,
+      "entities": {
+        "description": {
+          "urls": []
+        }
+      },
+      "protected": false,
+      "followers_count": 20653,
+      "friends_count": 4844,
+      "listed_count": 335,
+      "created_at": "Fri May 09 00:59:26 +0000 2008",
+      "favourites_count": 11861,
+      "utc_offset": null,
+      "time_zone": null,
+      "geo_enabled": true,
+      "verified": false,
+      "statuses_count": 11810,
+      "lang": null,
+      "contributors_enabled": false,
+      "is_translator": false,
+      "is_translation_enabled": false,
+      "profile_background_color": "000000",
+      "profile_background_image_url": "http://abs.twimg.com/images/themes/theme2/bg.gif",
+      "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme2/bg.gif",
+      "profile_background_tile": false,
+      "profile_image_url": "http://pbs.twimg.com/profile_images/1000426988149002240/B9OhM1Rm_normal.jpg",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/1000426988149002240/B9OhM1Rm_normal.jpg",
+      "profile_banner_url": "https://pbs.twimg.com/profile_banners/14707959/1629611187",
+      "profile_link_color": "1B95E0",
+      "profile_sidebar_border_color": "000000",
+      "profile_sidebar_fill_color": "000000",
+      "profile_text_color": "000000",
+      "profile_use_background_image": false,
+      "has_extended_profile": false,
+      "default_profile": false,
+      "default_profile_image": false,
+      "following": true,
+      "follow_request_sent": false,
+      "notifications": false,
+      "translator_type": "regular",
+      "withheld_in_countries": []
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": true,
+    "quoted_status_id": 1618281103982297000,
+    "quoted_status_id_str": "1618281103982297088",
+    "quoted_status": {
+      "created_at": "Wed Jan 25 16:14:16 +0000 2023",
+      "id": 1618281103982297000,
+      "id_str": "1618281103982297088",
+      "text": "1/ Today, we're introducing Stripe 2.0 — our @stripe integration, but better than ever.\n\nWith its release, download… https://t.co/WTrq3FFYgc",
+      "truncated": true,
+      "entities": {
+        "hashtags": [],
+        "symbols": [],
+        "user_mentions": [
+          {
+            "screen_name": "stripe",
+            "name": "Stripe",
+            "id": 102812444,
+            "id_str": "102812444",
+            "indices": [
+              45,
+              52
+            ]
+          }
+        ],
+        "urls": [
+          {
+            "url": "https://t.co/WTrq3FFYgc",
+            "expanded_url": "https://twitter.com/i/web/status/1618281103982297088",
+            "display_url": "twitter.com/i/web/status/1…",
+            "indices": [
+              117,
+              140
+            ]
+          }
+        ]
+      },
+      "source": "<a href=\"https://getchirrapp.com\" rel=\"nofollow\">chirr.app</a>",
+      "in_reply_to_status_id": null,
+      "in_reply_to_status_id_str": null,
+      "in_reply_to_user_id": null,
+      "in_reply_to_user_id_str": null,
+      "in_reply_to_screen_name": null,
+      "user": {
+        "id": 1387842624996794400,
+        "id_str": "1387842624996794376",
+        "name": "Equals",
+        "screen_name": "heyequals",
+        "location": "",
+        "description": "The fastest way for startups to do any analysis. Equals is the only spreadsheet with built-in connections to any database, versioning, and collaboration.",
+        "url": "https://t.co/0Q7SZouQX7",
+        "entities": {
+          "url": {
+            "urls": [
+              {
+                "url": "https://t.co/0Q7SZouQX7",
+                "expanded_url": "https://equals.app",
+                "display_url": "equals.app",
+                "indices": [
+                  0,
+                  23
+                ]
+              }
+            ]
+          },
+          "description": {
+            "urls": []
+          }
+        },
+        "protected": false,
+        "followers_count": 1971,
+        "friends_count": 9,
+        "listed_count": 21,
+        "created_at": "Thu Apr 29 18:54:19 +0000 2021",
+        "favourites_count": 91,
+        "utc_offset": null,
+        "time_zone": null,
+        "geo_enabled": false,
+        "verified": false,
+        "statuses_count": 63,
+        "lang": null,
+        "contributors_enabled": false,
+        "is_translator": false,
+        "is_translation_enabled": false,
+        "profile_background_color": "F5F8FA",
+        "profile_background_image_url": null,
+        "profile_background_image_url_https": null,
+        "profile_background_tile": false,
+        "profile_image_url": "http://pbs.twimg.com/profile_images/1547035384567062528/sBV8mNRW_normal.png",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/1547035384567062528/sBV8mNRW_normal.png",
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/1387842624996794376/1658344846",
+        "profile_link_color": "1DA1F2",
+        "profile_sidebar_border_color": "C0DEED",
+        "profile_sidebar_fill_color": "DDEEF6",
+        "profile_text_color": "333333",
+        "profile_use_background_image": true,
+        "has_extended_profile": true,
+        "default_profile": true,
+        "default_profile_image": false,
+        "following": false,
+        "follow_request_sent": false,
+        "notifications": false,
+        "translator_type": "none",
+        "withheld_in_countries": []
+      },
+      "geo": null,
+      "coordinates": null,
+      "place": null,
+      "contributors": null,
+      "is_quote_status": false,
+      "retweet_count": 0,
+      "favorite_count": 14,
+      "favorited": false,
+      "retweeted": false,
+      "possibly_sensitive": false,
+      "lang": "en"
+    },
+    "retweet_count": 0,
+    "favorite_count": 32,
+    "favorited": true,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "lang": "en"
+  },
+  {
+    "created_at": "Wed Jan 25 15:13:18 +0000 2023",
+    "id": 1618265765068812300,
+    "id_str": "1618265765068812288",
+    "text": "You have to imagine Larry &amp; Sergei are realizing that, in this Act, Google is playing Bell Labs and Microsoft is still playing Microsoft",
+    "truncated": false,
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "user_mentions": [],
+      "urls": []
+    },
+    "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Web App</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 8360172,
+      "id_str": "8360172",
+      "name": "JD Ross",
+      "screen_name": "justindross",
+      "location": "",
+      "description": "I take the side of people who build. Co-founder @join_royal, prev co-founded @Opendoor",
+      "url": null,
+      "entities": {
+        "description": {
+          "urls": []
+        }
+      },
+      "protected": false,
+      "followers_count": 26968,
+      "friends_count": 719,
+      "listed_count": 438,
+      "created_at": "Wed Aug 22 15:07:17 +0000 2007",
+      "favourites_count": 59155,
+      "utc_offset": null,
+      "time_zone": null,
+      "geo_enabled": true,
+      "verified": false,
+      "statuses_count": 13416,
+      "lang": null,
+      "contributors_enabled": false,
+      "is_translator": false,
+      "is_translation_enabled": false,
+      "profile_background_color": "C0DEED",
+      "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+      "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+      "profile_background_tile": false,
+      "profile_image_url": "http://pbs.twimg.com/profile_images/1603245131733250049/uArFBrH5_normal.jpg",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/1603245131733250049/uArFBrH5_normal.jpg",
+      "profile_banner_url": "https://pbs.twimg.com/profile_banners/8360172/1594006337",
+      "profile_link_color": "9BCCF3",
+      "profile_sidebar_border_color": "C0DEED",
+      "profile_sidebar_fill_color": "DDEEF6",
+      "profile_text_color": "333333",
+      "profile_use_background_image": true,
+      "has_extended_profile": true,
+      "default_profile": false,
+      "default_profile_image": false,
+      "following": true,
+      "follow_request_sent": false,
+      "notifications": false,
+      "translator_type": "regular",
+      "withheld_in_countries": []
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 7,
+    "favorite_count": 208,
+    "favorited": true,
+    "retweeted": false,
+    "lang": "en"
+  },
+  {
+    "created_at": "Wed Jan 25 12:05:18 +0000 2023",
+    "id": 1618218451721674800,
+    "id_str": "1618218451721674753",
+    "text": "Been working on my portfolio website over a few weekends. Glad that it's *almost*😜 finished. \n\nHad a blast building… https://t.co/JkDa7q9tkm",
+    "truncated": true,
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "user_mentions": [],
+      "urls": [
+        {
+          "url": "https://t.co/JkDa7q9tkm",
+          "expanded_url": "https://twitter.com/i/web/status/1618218451721674753",
+          "display_url": "twitter.com/i/web/status/1…",
+          "indices": [
+            117,
+            140
+          ]
+        }
+      ]
+    },
+    "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Web App</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 867694993598586900,
+      "id_str": "867694993598586880",
+      "name": "Milan Maheshwari",
+      "screen_name": "millons098",
+      "location": "",
+      "description": "Dabbling with design • sideprojects • videogames | Sr. Product Designer at @swiggy_in",
+      "url": "https://t.co/AhF5bFkFSa",
+      "entities": {
+        "url": {
+          "urls": [
+            {
+              "url": "https://t.co/AhF5bFkFSa",
+              "expanded_url": "https://milanmaheshwari.design/",
+              "display_url": "milanmaheshwari.design",
+              "indices": [
+                0,
+                23
+              ]
+            }
+          ]
+        },
+        "description": {
+          "urls": []
+        }
+      },
+      "protected": false,
+      "followers_count": 2759,
+      "friends_count": 430,
+      "listed_count": 26,
+      "created_at": "Thu May 25 10:53:02 +0000 2017",
+      "favourites_count": 3293,
+      "utc_offset": null,
+      "time_zone": null,
+      "geo_enabled": true,
+      "verified": false,
+      "statuses_count": 865,
+      "lang": null,
+      "contributors_enabled": false,
+      "is_translator": false,
+      "is_translation_enabled": false,
+      "profile_background_color": "F5F8FA",
+      "profile_background_image_url": null,
+      "profile_background_image_url_https": null,
+      "profile_background_tile": false,
+      "profile_image_url": "http://pbs.twimg.com/profile_images/1618069671286312963/IBOuusPi_normal.jpg",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/1618069671286312963/IBOuusPi_normal.jpg",
+      "profile_banner_url": "https://pbs.twimg.com/profile_banners/867694993598586880/1674631478",
+      "profile_link_color": "1DA1F2",
+      "profile_sidebar_border_color": "C0DEED",
+      "profile_sidebar_fill_color": "DDEEF6",
+      "profile_text_color": "333333",
+      "profile_use_background_image": true,
+      "has_extended_profile": true,
+      "default_profile": true,
+      "default_profile_image": false,
+      "following": false,
+      "follow_request_sent": false,
+      "notifications": false,
+      "translator_type": "none",
+      "withheld_in_countries": []
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 10,
+    "favorite_count": 237,
+    "favorited": true,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "lang": "en"
+  }
+]
