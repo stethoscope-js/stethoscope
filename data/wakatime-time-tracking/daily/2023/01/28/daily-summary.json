@@ -1,20 +1,689 @@
 [
   {
-    "categories": [],
-    "dependencies": [],
-    "editors": [],
+    "categories": [
+      {
+        "decimal": "3.15",
+        "digital": "3:09:08",
+        "hours": 3,
+        "minutes": 9,
+        "name": "Coding",
+        "percent": 100,
+        "seconds": 8,
+        "text": "3 hrs 9 mins",
+        "total_seconds": 11348.127055
+      }
+    ],
+    "dependencies": [
+      {
+        "decimal": "0.37",
+        "digital": "0:22:18",
+        "hours": 0,
+        "minutes": 22,
+        "name": "npm",
+        "percent": 11.4,
+        "seconds": 18,
+        "text": "22 mins",
+        "total_seconds": 1338.7055
+      },
+      {
+        "decimal": "0.25",
+        "digital": "0:15:45",
+        "hours": 0,
+        "minutes": 15,
+        "name": "eslint-config-custom",
+        "percent": 8.05,
+        "seconds": 45,
+        "text": "15 mins",
+        "total_seconds": 945.34449
+      },
+      {
+        "decimal": "0.20",
+        "digital": "0:12:33",
+        "hours": 0,
+        "minutes": 12,
+        "name": "typescript",
+        "percent": 6.42,
+        "seconds": 33,
+        "text": "12 mins",
+        "total_seconds": 753.704756
+      },
+      {
+        "decimal": "0.20",
+        "digital": "0:12:31",
+        "hours": 0,
+        "minutes": 12,
+        "name": "eslint",
+        "percent": 6.4,
+        "seconds": 31,
+        "text": "12 mins",
+        "total_seconds": 751.591768
+      },
+      {
+        "decimal": "0.20",
+        "digital": "0:12:21",
+        "hours": 0,
+        "minutes": 12,
+        "name": "@firstquadrant/tsconfig",
+        "percent": 6.31,
+        "seconds": 21,
+        "text": "12 mins",
+        "total_seconds": 741.163467
+      },
+      {
+        "decimal": "0.18",
+        "digital": "0:11:58",
+        "hours": 0,
+        "minutes": 11,
+        "name": "@types/node",
+        "percent": 6.11,
+        "seconds": 58,
+        "text": "11 mins",
+        "total_seconds": 718.130892
+      },
+      {
+        "decimal": "0.17",
+        "digital": "0:10:29",
+        "hours": 0,
+        "minutes": 10,
+        "name": "jest",
+        "percent": 5.36,
+        "seconds": 29,
+        "text": "10 mins",
+        "total_seconds": 629.063914
+      },
+      {
+        "decimal": "0.17",
+        "digital": "0:10:29",
+        "hours": 0,
+        "minutes": 10,
+        "name": "@jest/globals",
+        "percent": 5.36,
+        "seconds": 29,
+        "text": "10 mins",
+        "total_seconds": 629.063914
+      },
+      {
+        "decimal": "0.15",
+        "digital": "0:09:56",
+        "hours": 0,
+        "minutes": 9,
+        "name": "@babel/preset-typescript",
+        "percent": 5.07,
+        "seconds": 56,
+        "text": "9 mins",
+        "total_seconds": 596.060011
+      },
+      {
+        "decimal": "0.15",
+        "digital": "0:09:36",
+        "hours": 0,
+        "minutes": 9,
+        "name": "@babel/preset-env",
+        "percent": 4.9,
+        "seconds": 36,
+        "text": "9 mins",
+        "total_seconds": 576.014936
+      },
+      {
+        "decimal": "0.10",
+        "digital": "0:06:55",
+        "hours": 0,
+        "minutes": 6,
+        "name": "@firstquadrant/env",
+        "percent": 3.54,
+        "seconds": 55,
+        "text": "6 mins",
+        "total_seconds": 415.228686
+      },
+      {
+        "decimal": "0.10",
+        "digital": "0:06:51",
+        "hours": 0,
+        "minutes": 6,
+        "name": "@firstquadrant/errors",
+        "percent": 3.51,
+        "seconds": 51,
+        "text": "6 mins",
+        "total_seconds": 411.953243
+      },
+      {
+        "decimal": "0.10",
+        "digital": "0:06:50",
+        "hours": 0,
+        "minutes": 6,
+        "name": "p-ratelimit",
+        "percent": 3.49,
+        "seconds": 50,
+        "text": "6 mins",
+        "total_seconds": 410.387852
+      },
+      {
+        "decimal": "0.10",
+        "digital": "0:06:37",
+        "hours": 0,
+        "minutes": 6,
+        "name": "openai",
+        "percent": 3.39,
+        "seconds": 37,
+        "text": "6 mins",
+        "total_seconds": 397.825869
+      },
+      {
+        "decimal": "0.08",
+        "digital": "0:05:00",
+        "hours": 0,
+        "minutes": 5,
+        "name": "ts-node",
+        "percent": 2.56,
+        "seconds": 0,
+        "text": "5 mins",
+        "total_seconds": 300.935326
+      },
+      {
+        "decimal": "0.05",
+        "digital": "0:03:49",
+        "hours": 0,
+        "minutes": 3,
+        "name": "ts-jest",
+        "percent": 1.96,
+        "seconds": 49,
+        "text": "3 mins",
+        "total_seconds": 229.750776
+      },
+      {
+        "decimal": "0.05",
+        "digital": "0:03:24",
+        "hours": 0,
+        "minutes": 3,
+        "name": "prettier",
+        "percent": 1.74,
+        "seconds": 24,
+        "text": "3 mins",
+        "total_seconds": 204.181023
+      },
+      {
+        "decimal": "0.05",
+        "digital": "0:03:24",
+        "hours": 0,
+        "minutes": 3,
+        "name": "turbo",
+        "percent": 1.74,
+        "seconds": 24,
+        "text": "3 mins",
+        "total_seconds": 204.181023
+      },
+      {
+        "decimal": "0.03",
+        "digital": "0:02:39",
+        "hours": 0,
+        "minutes": 2,
+        "name": "@firstquadrant/babel-config-custom",
+        "percent": 1.36,
+        "seconds": 39,
+        "text": "2 mins",
+        "total_seconds": 159.663555
+      },
+      {
+        "decimal": "0.03",
+        "digital": "0:02:30",
+        "hours": 0,
+        "minutes": 2,
+        "name": "@firstquadrant/babel-config",
+        "percent": 1.28,
+        "seconds": 30,
+        "text": "2 mins",
+        "total_seconds": 150.323499
+      },
+      {
+        "decimal": "0.03",
+        "digital": "0:02:05",
+        "hours": 0,
+        "minutes": 2,
+        "name": "sort-package-json",
+        "percent": 1.07,
+        "seconds": 5,
+        "text": "2 mins",
+        "total_seconds": 125.693138
+      },
+      {
+        "decimal": "0.02",
+        "digital": "0:01:43",
+        "hours": 0,
+        "minutes": 1,
+        "name": "zod",
+        "percent": 0.88,
+        "seconds": 43,
+        "text": "1 min",
+        "total_seconds": 103.178373
+      },
+      {
+        "decimal": "0.02",
+        "digital": "0:01:40",
+        "hours": 0,
+        "minutes": 1,
+        "name": "@curveball/http-errors",
+        "percent": 0.85,
+        "seconds": 40,
+        "text": "1 min",
+        "total_seconds": 100.051214
+      },
+      {
+        "decimal": "0.02",
+        "digital": "0:01:13",
+        "hours": 0,
+        "minutes": 1,
+        "name": "react",
+        "percent": 0.62,
+        "seconds": 13,
+        "text": "1 min",
+        "total_seconds": 73.304888
+      },
+      {
+        "decimal": "0.02",
+        "digital": "0:01:13",
+        "hours": 0,
+        "minutes": 1,
+        "name": "@types/react",
+        "percent": 0.62,
+        "seconds": 13,
+        "text": "1 min",
+        "total_seconds": 73.304888
+      },
+      {
+        "decimal": "0.02",
+        "digital": "0:01:13",
+        "hours": 0,
+        "minutes": 1,
+        "name": "@types/react-dom",
+        "percent": 0.62,
+        "seconds": 13,
+        "text": "1 min",
+        "total_seconds": 73.304888
+      },
+      {
+        "decimal": "0.02",
+        "digital": "0:01:12",
+        "hours": 0,
+        "minutes": 1,
+        "name": "next",
+        "percent": 0.61,
+        "seconds": 12,
+        "text": "1 min",
+        "total_seconds": 72.068211
+      },
+      {
+        "decimal": "0.02",
+        "digital": "0:01:12",
+        "hours": 0,
+        "minutes": 1,
+        "name": "react-dom",
+        "percent": 0.61,
+        "seconds": 12,
+        "text": "1 min",
+        "total_seconds": 72.068211
+      },
+      {
+        "decimal": "0.02",
+        "digital": "0:01:12",
+        "hours": 0,
+        "minutes": 1,
+        "name": "@babel/core",
+        "percent": 0.61,
+        "seconds": 12,
+        "text": "1 min",
+        "total_seconds": 72.068211
+      },
+      {
+        "decimal": "0.02",
+        "digital": "0:01:12",
+        "hours": 0,
+        "minutes": 1,
+        "name": "@firstquadrant/ui",
+        "percent": 0.61,
+        "seconds": 12,
+        "text": "1 min",
+        "total_seconds": 72.068211
+      },
+      {
+        "decimal": "0.02",
+        "digital": "0:01:02",
+        "hours": 0,
+        "minutes": 1,
+        "name": "tailwindcss",
+        "percent": 0.53,
+        "seconds": 2,
+        "text": "1 min",
+        "total_seconds": 62.429801
+      },
+      {
+        "decimal": "0.02",
+        "digital": "0:01:02",
+        "hours": 0,
+        "minutes": 1,
+        "name": "postcss",
+        "percent": 0.53,
+        "seconds": 2,
+        "text": "1 min",
+        "total_seconds": 62.429801
+      },
+      {
+        "decimal": "0.02",
+        "digital": "0:01:02",
+        "hours": 0,
+        "minutes": 1,
+        "name": "autoprefixer",
+        "percent": 0.53,
+        "seconds": 2,
+        "text": "1 min",
+        "total_seconds": 62.429801
+      },
+      {
+        "decimal": "0.00",
+        "digital": "0:00:48",
+        "hours": 0,
+        "minutes": 0,
+        "name": "@firstquadrant/database",
+        "percent": 0.41,
+        "seconds": 48,
+        "text": "48 secs",
+        "total_seconds": 48.389323
+      },
+      {
+        "decimal": "0.00",
+        "digital": "0:00:45",
+        "hours": 0,
+        "minutes": 0,
+        "name": "strict-event-emitter",
+        "percent": 0.38,
+        "seconds": 45,
+        "text": "45 secs",
+        "total_seconds": 45.11388
+      },
+      {
+        "decimal": "0.00",
+        "digital": "0:00:10",
+        "hours": 0,
+        "minutes": 0,
+        "name": "eslint-plugin-react",
+        "percent": 0.09,
+        "seconds": 10,
+        "text": "10 secs",
+        "total_seconds": 10.428301
+      },
+      {
+        "decimal": "0.00",
+        "digital": "0:00:10",
+        "hours": 0,
+        "minutes": 0,
+        "name": "eslint-config-turbo",
+        "percent": 0.09,
+        "seconds": 10,
+        "text": "10 secs",
+        "total_seconds": 10.428301
+      },
+      {
+        "decimal": "0.00",
+        "digital": "0:00:10",
+        "hours": 0,
+        "minutes": 0,
+        "name": "eslint-config-next",
+        "percent": 0.09,
+        "seconds": 10,
+        "text": "10 secs",
+        "total_seconds": 10.428301
+      },
+      {
+        "decimal": "0.00",
+        "digital": "0:00:10",
+        "hours": 0,
+        "minutes": 0,
+        "name": "eslint-config-prettier",
+        "percent": 0.09,
+        "seconds": 10,
+        "text": "10 secs",
+        "total_seconds": 10.428301
+      },
+      {
+        "decimal": "0.00",
+        "digital": "0:00:04",
+        "hours": 0,
+        "minutes": 0,
+        "name": "ns-ksuid",
+        "percent": 0.04,
+        "seconds": 4,
+        "text": "4 secs",
+        "total_seconds": 4.286426
+      },
+      {
+        "decimal": "0.00",
+        "digital": "0:00:03",
+        "hours": 0,
+        "minutes": 0,
+        "name": "bee-queue",
+        "percent": 0.03,
+        "seconds": 3,
+        "text": "3 secs",
+        "total_seconds": 3.275443
+      },
+      {
+        "decimal": "0.00",
+        "digital": "0:00:03",
+        "hours": 0,
+        "minutes": 0,
+        "name": "@firstquadrant/sendgrid",
+        "percent": 0.03,
+        "seconds": 3,
+        "text": "3 secs",
+        "total_seconds": 3.275443
+      },
+      {
+        "decimal": "0.00",
+        "digital": "0:00:02",
+        "hours": 0,
+        "minutes": 0,
+        "name": "app-router-context",
+        "percent": 0.02,
+        "seconds": 2,
+        "text": "2 secs",
+        "total_seconds": 2.144238
+      },
+      {
+        "decimal": "0.00",
+        "digital": "0:00:02",
+        "hours": 0,
+        "minutes": 0,
+        "name": "environment",
+        "percent": 0.02,
+        "seconds": 2,
+        "text": "2 secs",
+        "total_seconds": 2.115294
+      },
+      {
+        "decimal": "0.00",
+        "digital": "0:00:02",
+        "hours": 0,
+        "minutes": 0,
+        "name": "types",
+        "percent": 0.02,
+        "seconds": 2,
+        "text": "2 secs",
+        "total_seconds": 2.115294
+      },
+      {
+        "decimal": "0.00",
+        "digital": "0:00:02",
+        "hours": 0,
+        "minutes": 0,
+        "name": "jest-mock",
+        "percent": 0.02,
+        "seconds": 2,
+        "text": "2 secs",
+        "total_seconds": 2.115294
+      },
+      {
+        "decimal": "0.00",
+        "digital": "0:00:02",
+        "hours": 0,
+        "minutes": 0,
+        "name": "expect",
+        "percent": 0.02,
+        "seconds": 2,
+        "text": "2 secs",
+        "total_seconds": 2.115294
+      },
+      {
+        "decimal": "0.00",
+        "digital": "0:00:01",
+        "hours": 0,
+        "minutes": 0,
+        "name": "@sendgrid/mail",
+        "percent": 0.01,
+        "seconds": 1,
+        "text": "1 sec",
+        "total_seconds": 1.565391
+      }
+    ],
+    "editors": [
+      {
+        "decimal": "3.15",
+        "digital": "3:09:08",
+        "hours": 3,
+        "minutes": 9,
+        "name": "VS Code",
+        "percent": 100,
+        "seconds": 8,
+        "text": "3 hrs 9 mins",
+        "total_seconds": 11348.127055
+      }
+    ],
     "grand_total": {
-      "decimal": "0.00",
-      "digital": "0:00",
-      "hours": 0,
-      "minutes": 0,
-      "text": "0 secs",
-      "total_seconds": 0
+      "decimal": "3.15",
+      "digital": "3:09",
+      "hours": 3,
+      "minutes": 9,
+      "text": "3 hrs 9 mins",
+      "total_seconds": 11348.127055
     },
-    "languages": [],
-    "machines": [],
-    "operating_systems": [],
-    "projects": [],
+    "languages": [
+      {
+        "decimal": "2.28",
+        "digital": "2:17:45",
+        "hours": 2,
+        "minutes": 17,
+        "name": "TypeScript",
+        "percent": 72.84,
+        "seconds": 45,
+        "text": "2 hrs 17 mins",
+        "total_seconds": 8265.42425
+      },
+      {
+        "decimal": "0.38",
+        "digital": "0:23:51",
+        "hours": 0,
+        "minutes": 23,
+        "name": "JSON",
+        "percent": 12.61,
+        "seconds": 51,
+        "text": "23 mins",
+        "total_seconds": 1431.479544
+      },
+      {
+        "decimal": "0.17",
+        "digital": "0:10:08",
+        "hours": 0,
+        "minutes": 10,
+        "name": "JavaScript",
+        "percent": 5.36,
+        "seconds": 8,
+        "text": "10 mins",
+        "total_seconds": 608.732227
+      },
+      {
+        "decimal": "0.15",
+        "digital": "0:09:08",
+        "hours": 0,
+        "minutes": 9,
+        "name": "YAML",
+        "percent": 4.83,
+        "seconds": 8,
+        "text": "9 mins",
+        "total_seconds": 548.415081
+      },
+      {
+        "decimal": "0.12",
+        "digital": "0:07:15",
+        "hours": 0,
+        "minutes": 7,
+        "name": "Markdown",
+        "percent": 3.84,
+        "seconds": 15,
+        "text": "7 mins",
+        "total_seconds": 435.714915
+      },
+      {
+        "decimal": "0.00",
+        "digital": "0:00:38",
+        "hours": 0,
+        "minutes": 0,
+        "name": "Other",
+        "percent": 0.34,
+        "seconds": 38,
+        "text": "38 secs",
+        "total_seconds": 38.030276
+      },
+      {
+        "decimal": "0.00",
+        "digital": "0:00:20",
+        "hours": 0,
+        "minutes": 0,
+        "name": "CSS",
+        "percent": 0.18,
+        "seconds": 20,
+        "text": "20 secs",
+        "total_seconds": 20.330762
+      }
+    ],
+    "machines": [
+      {
+        "decimal": "3.15",
+        "digital": "3:09:08",
+        "hours": 3,
+        "machine_name_id": "3cf7ba99-fded-491d-a2b2-c9f430416736",
+        "minutes": 9,
+        "name": "Anand's MacBook Pro",
+        "percent": 100,
+        "seconds": 8,
+        "text": "3 hrs 9 mins",
+        "total_seconds": 11348.127055
+      }
+    ],
+    "operating_systems": [
+      {
+        "decimal": "3.15",
+        "digital": "3:09:08",
+        "hours": 3,
+        "minutes": 9,
+        "name": "Mac",
+        "percent": 100,
+        "seconds": 8,
+        "text": "3 hrs 9 mins",
+        "total_seconds": 11348.127055
+      }
+    ],
+    "projects": [
+      {
+        "color": null,
+        "decimal": "3.15",
+        "digital": "3:09:08",
+        "hours": 3,
+        "minutes": 9,
+        "name": "1q",
+        "percent": 100,
+        "seconds": 8,
+        "text": "3 hrs 9 mins",
+        "total_seconds": 11348.127055
+      }
+    ],
     "range": {
       "date": "2023-01-29",
       "end": "2023-01-29T22:59:59Z",
