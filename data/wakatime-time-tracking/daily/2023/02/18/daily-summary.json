@@ -2,114 +2,366 @@
   {
     "categories": [
       {
-        "decimal": "0.77",
-        "digital": "0:46:00",
-        "hours": 0,
-        "minutes": 46,
+        "decimal": "5.93",
+        "digital": "5:56:50",
+        "hours": 5,
+        "minutes": 56,
         "name": "Coding",
         "percent": 100,
-        "seconds": 0,
-        "text": "46 mins",
-        "total_seconds": 2760.509973
+        "seconds": 50,
+        "text": "5 hrs 56 mins",
+        "total_seconds": 21410.318005
       }
     ],
     "dependencies": [
+      {
+        "decimal": "0.02",
+        "digital": "0:01:02",
+        "hours": 0,
+        "minutes": 1,
+        "name": "authclient",
+        "percent": 15.81,
+        "seconds": 2,
+        "text": "1 min",
+        "total_seconds": 62.825328
+      },
+      {
+        "decimal": "0.02",
+        "digital": "0:01:02",
+        "hours": 0,
+        "minutes": 1,
+        "name": "gaxios",
+        "percent": 15.81,
+        "seconds": 2,
+        "text": "1 min",
+        "total_seconds": 62.825328
+      },
+      {
+        "decimal": "0.02",
+        "digital": "0:01:02",
+        "hours": 0,
+        "minutes": 1,
+        "name": "credentials",
+        "percent": 15.81,
+        "seconds": 2,
+        "text": "1 min",
+        "total_seconds": 62.825328
+      },
+      {
+        "decimal": "0.02",
+        "digital": "0:01:02",
+        "hours": 0,
+        "minutes": 1,
+        "name": "loginticket",
+        "percent": 15.81,
+        "seconds": 2,
+        "text": "1 min",
+        "total_seconds": 62.825328
+      },
+      {
+        "decimal": "0.02",
+        "digital": "0:01:02",
+        "hours": 0,
+        "minutes": 1,
+        "name": "transporters",
+        "percent": 15.81,
+        "seconds": 2,
+        "text": "1 min",
+        "total_seconds": 62.825328
+      },
+      {
+        "decimal": "0.02",
+        "digital": "0:01:02",
+        "hours": 0,
+        "minutes": 1,
+        "name": "crypto",
+        "percent": 15.81,
+        "seconds": 2,
+        "text": "1 min",
+        "total_seconds": 62.825328
+      },
+      {
+        "decimal": "0.00",
+        "digital": "0:00:11",
+        "hours": 0,
+        "minutes": 0,
+        "name": "library",
+        "percent": 2.87,
+        "seconds": 11,
+        "text": "11 secs",
+        "total_seconds": 11.422748
+      },
+      {
+        "decimal": "0.00",
+        "digital": "0:00:04",
+        "hours": 0,
+        "minutes": 0,
+        "name": "http",
+        "percent": 1.14,
+        "seconds": 4,
+        "text": "4 secs",
+        "total_seconds": 4.539945
+      },
+      {
+        "decimal": "0.00",
+        "digital": "0:00:04",
+        "hours": 0,
+        "minutes": 0,
+        "name": "url",
+        "percent": 1.14,
+        "seconds": 4,
+        "text": "4 secs",
+        "total_seconds": 4.539945
+      },
       {
         "decimal": "0.00",
         "digital": "0:00:00",
         "hours": 0,
         "minutes": 0,
-        "name": "library",
-        "percent": 100,
+        "name": "@firstquadrant/errors",
+        "percent": 0,
         "seconds": 0,
         "text": "0 secs",
-        "total_seconds": 0.514841
+        "total_seconds": 0
+      },
+      {
+        "decimal": "0.00",
+        "digital": "0:00:00",
+        "hours": 0,
+        "minutes": 0,
+        "name": "prisma",
+        "percent": 0,
+        "seconds": 0,
+        "text": "0 secs",
+        "total_seconds": 0
+      },
+      {
+        "decimal": "0.00",
+        "digital": "0:00:00",
+        "hours": 0,
+        "minutes": 0,
+        "name": "@firstquadrant/babel-config",
+        "percent": 0,
+        "seconds": 0,
+        "text": "0 secs",
+        "total_seconds": 0
+      },
+      {
+        "decimal": "0.00",
+        "digital": "0:00:00",
+        "hours": 0,
+        "minutes": 0,
+        "name": "typescript",
+        "percent": 0,
+        "seconds": 0,
+        "text": "0 secs",
+        "total_seconds": 0
+      },
+      {
+        "decimal": "0.00",
+        "digital": "0:00:00",
+        "hours": 0,
+        "minutes": 0,
+        "name": "request-ip",
+        "percent": 0,
+        "seconds": 0,
+        "text": "0 secs",
+        "total_seconds": 0
+      },
+      {
+        "decimal": "0.00",
+        "digital": "0:00:00",
+        "hours": 0,
+        "minutes": 0,
+        "name": "@types/request-ip",
+        "percent": 0,
+        "seconds": 0,
+        "text": "0 secs",
+        "total_seconds": 0
+      },
+      {
+        "decimal": "0.00",
+        "digital": "0:00:00",
+        "hours": 0,
+        "minutes": 0,
+        "name": "@types/koa",
+        "percent": 0,
+        "seconds": 0,
+        "text": "0 secs",
+        "total_seconds": 0
+      },
+      {
+        "decimal": "0.00",
+        "digital": "0:00:00",
+        "hours": 0,
+        "minutes": 0,
+        "name": "npm",
+        "percent": 0,
+        "seconds": 0,
+        "text": "0 secs",
+        "total_seconds": 0
+      },
+      {
+        "decimal": "0.00",
+        "digital": "0:00:00",
+        "hours": 0,
+        "minutes": 0,
+        "name": "eslint",
+        "percent": 0,
+        "seconds": 0,
+        "text": "0 secs",
+        "total_seconds": 0
+      },
+      {
+        "decimal": "0.00",
+        "digital": "0:00:00",
+        "hours": 0,
+        "minutes": 0,
+        "name": "@firstquadrant/tsconfig",
+        "percent": 0,
+        "seconds": 0,
+        "text": "0 secs",
+        "total_seconds": 0
+      },
+      {
+        "decimal": "0.00",
+        "digital": "0:00:00",
+        "hours": 0,
+        "minutes": 0,
+        "name": "@prisma/client",
+        "percent": 0,
+        "seconds": 0,
+        "text": "0 secs",
+        "total_seconds": 0
+      },
+      {
+        "decimal": "0.00",
+        "digital": "0:00:00",
+        "hours": 0,
+        "minutes": 0,
+        "name": "ns-ksuid",
+        "percent": 0,
+        "seconds": 0,
+        "text": "0 secs",
+        "total_seconds": 0
+      },
+      {
+        "decimal": "0.00",
+        "digital": "0:00:00",
+        "hours": 0,
+        "minutes": 0,
+        "name": "eslint-config-custom",
+        "percent": 0,
+        "seconds": 0,
+        "text": "0 secs",
+        "total_seconds": 0
       }
     ],
     "editors": [
       {
-        "decimal": "0.77",
-        "digital": "0:46:00",
-        "hours": 0,
-        "minutes": 46,
+        "decimal": "5.93",
+        "digital": "5:56:50",
+        "hours": 5,
+        "minutes": 56,
         "name": "VS Code",
         "percent": 100,
-        "seconds": 0,
-        "text": "46 mins",
-        "total_seconds": 2760.509973
+        "seconds": 50,
+        "text": "5 hrs 56 mins",
+        "total_seconds": 21410.318005
       }
     ],
     "grand_total": {
-      "decimal": "0.77",
-      "digital": "0:46",
-      "hours": 0,
-      "minutes": 46,
-      "text": "46 mins",
-      "total_seconds": 2760.509973
+      "decimal": "5.93",
+      "digital": "5:56",
+      "hours": 5,
+      "minutes": 56,
+      "text": "5 hrs 56 mins",
+      "total_seconds": 21410.318005
     },
     "languages": [
       {
-        "decimal": "0.58",
-        "digital": "0:35:51",
-        "hours": 0,
-        "minutes": 35,
+        "decimal": "5.03",
+        "digital": "5:02:08",
+        "hours": 5,
+        "minutes": 2,
         "name": "TypeScript",
-        "percent": 77.95,
-        "seconds": 51,
-        "text": "35 mins",
-        "total_seconds": 2151.851605
+        "percent": 84.67,
+        "seconds": 8,
+        "text": "5 hrs 2 mins",
+        "total_seconds": 18128.029486
       },
       {
-        "decimal": "0.17",
-        "digital": "0:10:08",
+        "decimal": "0.77",
+        "digital": "0:46:56",
         "hours": 0,
-        "minutes": 10,
+        "minutes": 46,
         "name": "Other",
-        "percent": 22.05,
-        "seconds": 8,
-        "text": "10 mins",
-        "total_seconds": 608.658368
+        "percent": 13.15,
+        "seconds": 56,
+        "text": "46 mins",
+        "total_seconds": 2816.355925
+      },
+      {
+        "decimal": "0.12",
+        "digital": "0:07:45",
+        "hours": 0,
+        "minutes": 7,
+        "name": "JSON",
+        "percent": 2.17,
+        "seconds": 45,
+        "text": "7 mins",
+        "total_seconds": 465.58663
+      },
+      {
+        "decimal": "0.00",
+        "digital": "0:00:00",
+        "hours": 0,
+        "minutes": 0,
+        "name": "SQL",
+        "percent": 0,
+        "seconds": 0,
+        "text": "0 secs",
+        "total_seconds": 0.345964
       }
     ],
     "machines": [
       {
-        "decimal": "0.77",
-        "digital": "0:46:00",
-        "hours": 0,
+        "decimal": "5.93",
+        "digital": "5:56:50",
+        "hours": 5,
         "machine_name_id": "879cae8c-29d0-4a4a-9275-550bf433b451",
-        "minutes": 46,
+        "minutes": 56,
         "name": "Anand's MacBook Pro",
         "percent": 100,
-        "seconds": 0,
-        "text": "46 mins",
-        "total_seconds": 2760.509973
+        "seconds": 50,
+        "text": "5 hrs 56 mins",
+        "total_seconds": 21410.318005
       }
     ],
     "operating_systems": [
       {
-        "decimal": "0.77",
-        "digital": "0:46:00",
-        "hours": 0,
-        "minutes": 46,
+        "decimal": "5.93",
+        "digital": "5:56:50",
+        "hours": 5,
+        "minutes": 56,
         "name": "Mac",
         "percent": 100,
-        "seconds": 0,
-        "text": "46 mins",
-        "total_seconds": 2760.509973
+        "seconds": 50,
+        "text": "5 hrs 56 mins",
+        "total_seconds": 21410.318005
       }
     ],
     "projects": [
       {
-        "color": null,
-        "decimal": "0.77",
-        "digital": "0:46:00",
-        "hours": 0,
-        "minutes": 46,
+        "decimal": "5.93",
+        "digital": "5:56:50",
+        "hours": 5,
+        "minutes": 56,
         "name": "1q",
         "percent": 100,
-        "seconds": 0,
-        "text": "46 mins",
-        "total_seconds": 2760.509973
+        "seconds": 50,
+        "text": "5 hrs 56 mins",
+        "total_seconds": 21410.318005
       }
     ],
     "range": {
