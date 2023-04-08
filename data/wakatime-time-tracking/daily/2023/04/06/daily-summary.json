@@ -1,20 +1,294 @@
 [
   {
-    "categories": [],
-    "dependencies": [],
-    "editors": [],
+    "categories": [
+      {
+        "decimal": "0.75",
+        "digital": "0:45:53",
+        "hours": 0,
+        "minutes": 45,
+        "name": "Coding",
+        "percent": 100,
+        "seconds": 53,
+        "text": "45 mins",
+        "total_seconds": 2753.535295
+      }
+    ],
+    "dependencies": [
+      {
+        "decimal": "0.30",
+        "digital": "0:18:58",
+        "hours": 0,
+        "minutes": 18,
+        "name": "npm",
+        "percent": 45.81,
+        "seconds": 58,
+        "text": "18 mins",
+        "total_seconds": 1138.93369
+      },
+      {
+        "decimal": "0.15",
+        "digital": "0:09:19",
+        "hours": 0,
+        "minutes": 9,
+        "name": "turbo",
+        "percent": 22.52,
+        "seconds": 19,
+        "text": "9 mins",
+        "total_seconds": 559.982853
+      },
+      {
+        "decimal": "0.08",
+        "digital": "0:05:49",
+        "hours": 0,
+        "minutes": 5,
+        "name": "vitepress",
+        "percent": 14.04,
+        "seconds": 49,
+        "text": "5 mins",
+        "total_seconds": 349.016482
+      },
+      {
+        "decimal": "0.08",
+        "digital": "0:05:49",
+        "hours": 0,
+        "minutes": 5,
+        "name": "vue",
+        "percent": 14.04,
+        "seconds": 49,
+        "text": "5 mins",
+        "total_seconds": 349.016482
+      },
+      {
+        "decimal": "0.00",
+        "digital": "0:00:22",
+        "hours": 0,
+        "minutes": 0,
+        "name": "@nordjs/types",
+        "percent": 0.91,
+        "seconds": 22,
+        "text": "22 secs",
+        "total_seconds": 22.620205
+      },
+      {
+        "decimal": "0.00",
+        "digital": "0:00:13",
+        "hours": 0,
+        "minutes": 0,
+        "name": "cookie",
+        "percent": 0.53,
+        "seconds": 13,
+        "text": "13 secs",
+        "total_seconds": 13.233327
+      },
+      {
+        "decimal": "0.00",
+        "digital": "0:00:13",
+        "hours": 0,
+        "minutes": 0,
+        "name": "request",
+        "percent": 0.53,
+        "seconds": 13,
+        "text": "13 secs",
+        "total_seconds": 13.233327
+      },
+      {
+        "decimal": "0.00",
+        "digital": "0:00:13",
+        "hours": 0,
+        "minutes": 0,
+        "name": "http-status",
+        "percent": 0.53,
+        "seconds": 13,
+        "text": "13 secs",
+        "total_seconds": 13.233327
+      },
+      {
+        "decimal": "0.00",
+        "digital": "0:00:13",
+        "hours": 0,
+        "minutes": 0,
+        "name": "types",
+        "percent": 0.53,
+        "seconds": 13,
+        "text": "13 secs",
+        "total_seconds": 13.233327
+      },
+      {
+        "decimal": "0.00",
+        "digital": "0:00:09",
+        "hours": 0,
+        "minutes": 0,
+        "name": "nordjs",
+        "percent": 0.37,
+        "seconds": 9,
+        "text": "9 secs",
+        "total_seconds": 9.238733
+      },
+      {
+        "decimal": "0.00",
+        "digital": "0:00:02",
+        "hours": 0,
+        "minutes": 0,
+        "name": "hono",
+        "percent": 0.09,
+        "seconds": 2,
+        "text": "2 secs",
+        "total_seconds": 2.175775
+      },
+      {
+        "decimal": "0.00",
+        "digital": "0:00:02",
+        "hours": 0,
+        "minutes": 0,
+        "name": "zod",
+        "percent": 0.09,
+        "seconds": 2,
+        "text": "2 secs",
+        "total_seconds": 2.175775
+      }
+    ],
+    "editors": [
+      {
+        "decimal": "0.75",
+        "digital": "0:45:53",
+        "hours": 0,
+        "minutes": 45,
+        "name": "VS Code",
+        "percent": 100,
+        "seconds": 53,
+        "text": "45 mins",
+        "total_seconds": 2753.535295
+      }
+    ],
     "grand_total": {
-      "decimal": "0.00",
-      "digital": "0:00",
+      "decimal": "0.75",
+      "digital": "0:45",
       "hours": 0,
-      "minutes": 0,
-      "text": "0 secs",
-      "total_seconds": 0
+      "minutes": 45,
+      "text": "45 mins",
+      "total_seconds": 2753.535295
     },
-    "languages": [],
-    "machines": [],
-    "operating_systems": [],
-    "projects": [],
+    "languages": [
+      {
+        "decimal": "0.35",
+        "digital": "0:21:39",
+        "hours": 0,
+        "minutes": 21,
+        "name": "JSON",
+        "percent": 47.2,
+        "seconds": 39,
+        "text": "21 mins",
+        "total_seconds": 1299.73168
+      },
+      {
+        "decimal": "0.30",
+        "digital": "0:18:18",
+        "hours": 0,
+        "minutes": 18,
+        "name": "TypeScript",
+        "percent": 39.9,
+        "seconds": 18,
+        "text": "18 mins",
+        "total_seconds": 1098.557132
+      },
+      {
+        "decimal": "0.08",
+        "digital": "0:05:19",
+        "hours": 0,
+        "minutes": 5,
+        "name": "Other",
+        "percent": 11.62,
+        "seconds": 19,
+        "text": "5 mins",
+        "total_seconds": 319.923509
+      },
+      {
+        "decimal": "0.00",
+        "digital": "0:00:20",
+        "hours": 0,
+        "minutes": 0,
+        "name": "YAML",
+        "percent": 0.74,
+        "seconds": 20,
+        "text": "20 secs",
+        "total_seconds": 20.398601
+      },
+      {
+        "decimal": "0.00",
+        "digital": "0:00:11",
+        "hours": 0,
+        "minutes": 0,
+        "name": "Markdown",
+        "percent": 0.43,
+        "seconds": 11,
+        "text": "11 secs",
+        "total_seconds": 11.947417
+      },
+      {
+        "decimal": "0.00",
+        "digital": "0:00:02",
+        "hours": 0,
+        "minutes": 0,
+        "name": "Git Config",
+        "percent": 0.11,
+        "seconds": 2,
+        "text": "2 secs",
+        "total_seconds": 2.976956
+      }
+    ],
+    "machines": [
+      {
+        "decimal": "0.75",
+        "digital": "0:45:53",
+        "hours": 0,
+        "machine_name_id": "3c35e1a4-1e65-4844-92d8-e48d31f42a9e",
+        "minutes": 45,
+        "name": "Anand's+MacBook+Pro",
+        "percent": 100,
+        "seconds": 53,
+        "text": "45 mins",
+        "total_seconds": 2753.535295
+      }
+    ],
+    "operating_systems": [
+      {
+        "decimal": "0.75",
+        "digital": "0:45:53",
+        "hours": 0,
+        "minutes": 45,
+        "name": "Mac",
+        "percent": 100,
+        "seconds": 53,
+        "text": "45 mins",
+        "total_seconds": 2753.535295
+      }
+    ],
+    "projects": [
+      {
+        "color": null,
+        "decimal": "0.75",
+        "digital": "0:45:47",
+        "hours": 0,
+        "minutes": 45,
+        "name": "nord.js",
+        "percent": 99.78,
+        "seconds": 47,
+        "text": "45 mins",
+        "total_seconds": 2747.559297
+      },
+      {
+        "color": null,
+        "decimal": "0.00",
+        "digital": "0:00:05",
+        "hours": 0,
+        "minutes": 0,
+        "name": "1q",
+        "percent": 0.22,
+        "seconds": 5,
+        "text": "5 secs",
+        "total_seconds": 5.975998
+      }
+    ],
     "range": {
       "date": "2023-04-07",
       "end": "2023-04-07T21:59:59Z",
