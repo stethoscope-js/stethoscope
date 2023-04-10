@@ -2,15 +2,15 @@
   {
     "categories": [
       {
-        "decimal": "3.30",
-        "digital": "3:18:37",
-        "hours": 3,
-        "minutes": 18,
+        "decimal": "5.18",
+        "digital": "5:11:14",
+        "hours": 5,
+        "minutes": 11,
         "name": "Coding",
         "percent": 100,
-        "seconds": 37,
-        "text": "3 hrs 18 mins",
-        "total_seconds": 11917.530993
+        "seconds": 14,
+        "text": "5 hrs 11 mins",
+        "total_seconds": 18674.153002
       }
     ],
     "dependencies": [
@@ -20,7 +20,7 @@
         "hours": 0,
         "minutes": 1,
         "name": "hono",
-        "percent": 19.34,
+        "percent": 19.02,
         "seconds": 33,
         "text": "1 min",
         "total_seconds": 93.344844
@@ -31,7 +31,7 @@
         "hours": 0,
         "minutes": 1,
         "name": "npm",
-        "percent": 17.16,
+        "percent": 16.87,
         "seconds": 22,
         "text": "1 min",
         "total_seconds": 82.826935
@@ -42,7 +42,7 @@
         "hours": 0,
         "minutes": 1,
         "name": "type-fest",
-        "percent": 17.16,
+        "percent": 16.87,
         "seconds": 22,
         "text": "1 min",
         "total_seconds": 82.826935
@@ -53,7 +53,7 @@
         "hours": 0,
         "minutes": 1,
         "name": "zod",
-        "percent": 17.16,
+        "percent": 16.87,
         "seconds": 22,
         "text": "1 min",
         "total_seconds": 82.826935
@@ -64,7 +64,7 @@
         "hours": 0,
         "minutes": 0,
         "name": "axios",
-        "percent": 4.36,
+        "percent": 4.29,
         "seconds": 21,
         "text": "21 secs",
         "total_seconds": 21.05989
@@ -75,7 +75,7 @@
         "hours": 0,
         "minutes": 0,
         "name": "configuration",
-        "percent": 3.89,
+        "percent": 3.83,
         "seconds": 18,
         "text": "18 secs",
         "total_seconds": 18.796434
@@ -86,7 +86,7 @@
         "hours": 0,
         "minutes": 0,
         "name": "models",
-        "percent": 3.89,
+        "percent": 3.83,
         "seconds": 18,
         "text": "18 secs",
         "total_seconds": 18.796434
@@ -97,7 +97,7 @@
         "hours": 0,
         "minutes": 0,
         "name": "base",
-        "percent": 3.89,
+        "percent": 3.83,
         "seconds": 18,
         "text": "18 secs",
         "total_seconds": 18.796434
@@ -108,10 +108,21 @@
         "hours": 0,
         "minutes": 0,
         "name": "SpecificationExtension",
-        "percent": 3.27,
+        "percent": 3.21,
         "seconds": 15,
         "text": "15 secs",
         "total_seconds": 15.781924
+      },
+      {
+        "decimal": "0.00",
+        "digital": "0:00:08",
+        "hours": 0,
+        "minutes": 0,
+        "name": "library",
+        "percent": 1.67,
+        "seconds": 8,
+        "text": "8 secs",
+        "total_seconds": 8.20063
       },
       {
         "decimal": "0.00",
@@ -119,7 +130,7 @@
         "hours": 0,
         "minutes": 0,
         "name": "querystring",
-        "percent": 0.65,
+        "percent": 0.64,
         "seconds": 3,
         "text": "3 secs",
         "total_seconds": 3.138283
@@ -130,7 +141,7 @@
         "hours": 0,
         "minutes": 0,
         "name": "accepts",
-        "percent": 0.65,
+        "percent": 0.64,
         "seconds": 3,
         "text": "3 secs",
         "total_seconds": 3.138283
@@ -141,7 +152,7 @@
         "hours": 0,
         "minutes": 0,
         "name": "content-disposition",
-        "percent": 0.65,
+        "percent": 0.64,
         "seconds": 3,
         "text": "3 secs",
         "total_seconds": 3.138283
@@ -152,7 +163,7 @@
         "hours": 0,
         "minutes": 0,
         "name": "keygrip",
-        "percent": 0.65,
+        "percent": 0.64,
         "seconds": 3,
         "text": "3 secs",
         "total_seconds": 3.138283
@@ -163,7 +174,7 @@
         "hours": 0,
         "minutes": 0,
         "name": "net",
-        "percent": 0.65,
+        "percent": 0.64,
         "seconds": 3,
         "text": "3 secs",
         "total_seconds": 3.138283
@@ -174,7 +185,7 @@
         "hours": 0,
         "minutes": 0,
         "name": "http2",
-        "percent": 0.65,
+        "percent": 0.64,
         "seconds": 3,
         "text": "3 secs",
         "total_seconds": 3.138283
@@ -185,7 +196,7 @@
         "hours": 0,
         "minutes": 0,
         "name": "url",
-        "percent": 0.65,
+        "percent": 0.64,
         "seconds": 3,
         "text": "3 secs",
         "total_seconds": 3.138283
@@ -196,7 +207,7 @@
         "hours": 0,
         "minutes": 0,
         "name": "http-errors",
-        "percent": 0.65,
+        "percent": 0.64,
         "seconds": 3,
         "text": "3 secs",
         "total_seconds": 3.138283
@@ -207,7 +218,7 @@
         "hours": 0,
         "minutes": 0,
         "name": "events",
-        "percent": 0.65,
+        "percent": 0.64,
         "seconds": 3,
         "text": "3 secs",
         "total_seconds": 3.138283
@@ -218,7 +229,7 @@
         "hours": 0,
         "minutes": 0,
         "name": "koa-compose",
-        "percent": 0.65,
+        "percent": 0.64,
         "seconds": 3,
         "text": "3 secs",
         "total_seconds": 3.138283
@@ -229,7 +240,7 @@
         "hours": 0,
         "minutes": 0,
         "name": "http-assert",
-        "percent": 0.65,
+        "percent": 0.64,
         "seconds": 3,
         "text": "3 secs",
         "total_seconds": 3.138283
@@ -240,7 +251,7 @@
         "hours": 0,
         "minutes": 0,
         "name": "http",
-        "percent": 0.65,
+        "percent": 0.64,
         "seconds": 3,
         "text": "3 secs",
         "total_seconds": 3.138283
@@ -251,7 +262,7 @@
         "hours": 0,
         "minutes": 0,
         "name": "cookies",
-        "percent": 0.65,
+        "percent": 0.64,
         "seconds": 3,
         "text": "3 secs",
         "total_seconds": 3.138283
@@ -262,7 +273,7 @@
         "hours": 0,
         "minutes": 0,
         "name": "context",
-        "percent": 0.62,
+        "percent": 0.61,
         "seconds": 2,
         "text": "2 secs",
         "total_seconds": 2.987688
@@ -273,7 +284,7 @@
         "hours": 0,
         "minutes": 0,
         "name": "types",
-        "percent": 0.62,
+        "percent": 0.61,
         "seconds": 2,
         "text": "2 secs",
         "total_seconds": 2.987688
@@ -284,7 +295,7 @@
         "hours": 0,
         "minutes": 0,
         "name": "openapi3-ts",
-        "percent": 0.18,
+        "percent": 0.17,
         "seconds": 0,
         "text": "0 secs",
         "total_seconds": 0.856265
@@ -292,47 +303,47 @@
     ],
     "editors": [
       {
-        "decimal": "3.30",
-        "digital": "3:18:37",
-        "hours": 3,
-        "minutes": 18,
+        "decimal": "5.18",
+        "digital": "5:11:14",
+        "hours": 5,
+        "minutes": 11,
         "name": "VS Code",
         "percent": 100,
-        "seconds": 37,
-        "text": "3 hrs 18 mins",
-        "total_seconds": 11917.530993
+        "seconds": 14,
+        "text": "5 hrs 11 mins",
+        "total_seconds": 18674.153002
       }
     ],
     "grand_total": {
-      "decimal": "3.30",
-      "digital": "3:18",
-      "hours": 3,
-      "minutes": 18,
-      "text": "3 hrs 18 mins",
-      "total_seconds": 11917.530993
+      "decimal": "5.18",
+      "digital": "5:11",
+      "hours": 5,
+      "minutes": 11,
+      "text": "5 hrs 11 mins",
+      "total_seconds": 18674.153002
     },
     "languages": [
       {
-        "decimal": "2.20",
-        "digital": "2:12:14",
-        "hours": 2,
-        "minutes": 12,
+        "decimal": "3.95",
+        "digital": "3:57:29",
+        "hours": 3,
+        "minutes": 57,
         "name": "TypeScript",
-        "percent": 66.58,
-        "seconds": 14,
-        "text": "2 hrs 12 mins",
-        "total_seconds": 7934.767491
+        "percent": 76.3,
+        "seconds": 29,
+        "text": "3 hrs 57 mins",
+        "total_seconds": 14249.109308
       },
       {
-        "decimal": "0.93",
-        "digital": "0:56:43",
-        "hours": 0,
-        "minutes": 56,
+        "decimal": "1.07",
+        "digital": "1:04:05",
+        "hours": 1,
+        "minutes": 4,
         "name": "Other",
-        "percent": 28.56,
-        "seconds": 43,
-        "text": "56 mins",
-        "total_seconds": 3403.619996
+        "percent": 20.59,
+        "seconds": 5,
+        "text": "1 hr 4 mins",
+        "total_seconds": 3845.900188
       },
       {
         "decimal": "0.13",
@@ -340,7 +351,7 @@
         "hours": 0,
         "minutes": 8,
         "name": "YAML",
-        "percent": 4.06,
+        "percent": 2.59,
         "seconds": 3,
         "text": "8 mins",
         "total_seconds": 483.350673
@@ -351,7 +362,7 @@
         "hours": 0,
         "minutes": 1,
         "name": "JSON",
-        "percent": 0.7,
+        "percent": 0.44,
         "seconds": 22,
         "text": "1 min",
         "total_seconds": 82.826935
@@ -362,7 +373,7 @@
         "hours": 0,
         "minutes": 0,
         "name": "Markdown",
-        "percent": 0.11,
+        "percent": 0.07,
         "seconds": 12,
         "text": "12 secs",
         "total_seconds": 12.965898
@@ -370,43 +381,451 @@
     ],
     "machines": [
       {
-        "decimal": "3.30",
-        "digital": "3:18:37",
+        "decimal": "3.35",
+        "digital": "3:21:41",
         "hours": 3,
         "machine_name_id": "6587be6c-682d-4624-bed9-0ffc834fe916",
-        "minutes": 18,
+        "minutes": 21,
         "name": "Anand's+MacBook+Pro",
-        "percent": 100,
-        "seconds": 37,
-        "text": "3 hrs 18 mins",
-        "total_seconds": 11917.530993
+        "percent": 64.8,
+        "seconds": 41,
+        "text": "3 hrs 21 mins",
+        "total_seconds": 12101.775181
+      },
+      {
+        "decimal": "0.10",
+        "digital": "0:06:46",
+        "hours": 0,
+        "machine_name_id": "bda14239-6b99-4351-804d-1600b55ee0af",
+        "minutes": 6,
+        "name": "Anand%252525252525252525252527s%252525252525252525252BMacBook%252525252525252525252BPro",
+        "percent": 2.18,
+        "seconds": 46,
+        "text": "6 mins",
+        "total_seconds": 406.43167
+      },
+      {
+        "decimal": "0.10",
+        "digital": "0:06:43",
+        "hours": 0,
+        "machine_name_id": "4f3f9249-0fe7-4436-b223-fcb8446a477e",
+        "minutes": 6,
+        "name": "Anand%2525252525252525252527s%2525252525252525252BMacBook%2525252525252525252BPro",
+        "percent": 2.16,
+        "seconds": 43,
+        "text": "6 mins",
+        "total_seconds": 403.823855
+      },
+      {
+        "decimal": "0.08",
+        "digital": "0:05:27",
+        "hours": 0,
+        "machine_name_id": "3369e86e-11eb-45c3-849e-c510d1efd625",
+        "minutes": 5,
+        "name": "Anand%25252527s%25252BMacBook%25252BPro",
+        "percent": 1.76,
+        "seconds": 27,
+        "text": "5 mins",
+        "total_seconds": 327.961982
+      },
+      {
+        "decimal": "0.08",
+        "digital": "0:05:24",
+        "hours": 0,
+        "machine_name_id": "eaa6e3be-93a8-49c5-9721-dc30406be451",
+        "minutes": 5,
+        "name": "Anand%252525252525252525252525252527s%252525252525252525252525252BMacBook%252525252525252525252525252BPro",
+        "percent": 1.74,
+        "seconds": 24,
+        "text": "5 mins",
+        "total_seconds": 324.505043
+      },
+      {
+        "decimal": "0.07",
+        "digital": "0:04:53",
+        "hours": 0,
+        "machine_name_id": "ffd1da75-6982-4829-8b3b-337cf06c49b6",
+        "minutes": 4,
+        "name": "Anand%252525252525252525252525252525252525252525252527s%252525252525252525252525252525252525252525252BMacBook%252525252525252525252525252525252525252525252BPro",
+        "percent": 1.57,
+        "seconds": 53,
+        "text": "4 mins",
+        "total_seconds": 293.83651
+      },
+      {
+        "decimal": "0.07",
+        "digital": "0:04:33",
+        "hours": 0,
+        "machine_name_id": "92a9822c-51c0-47ed-8d66-7c2a31a9fc45",
+        "minutes": 4,
+        "name": "Anand%2525252525252525252525252525252527s%2525252525252525252525252525252BMacBook%2525252525252525252525252525252BPro",
+        "percent": 1.46,
+        "seconds": 33,
+        "text": "4 mins",
+        "total_seconds": 273.283712
+      },
+      {
+        "decimal": "0.07",
+        "digital": "0:04:07",
+        "hours": 0,
+        "machine_name_id": "bdd20c72-81e5-4266-ab17-d628cc52b6cd",
+        "minutes": 4,
+        "name": "Anand%2527s%2BMacBook%2BPro",
+        "percent": 1.33,
+        "seconds": 7,
+        "text": "4 mins",
+        "total_seconds": 247.600275
+      },
+      {
+        "decimal": "0.07",
+        "digital": "0:04:03",
+        "hours": 0,
+        "machine_name_id": "d4386528-4a34-4aad-b4c6-a139e7a49605",
+        "minutes": 4,
+        "name": "Anand%252525252527s%252525252BMacBook%252525252BPro",
+        "percent": 1.3,
+        "seconds": 3,
+        "text": "4 mins",
+        "total_seconds": 243.214967
+      },
+      {
+        "decimal": "0.07",
+        "digital": "0:04:01",
+        "hours": 0,
+        "machine_name_id": "57e10df1-c0e7-4610-8e07-f643dbc0aa7a",
+        "minutes": 4,
+        "name": "Anand%25252525252525252525252527s%25252525252525252525252BMacBook%25252525252525252525252BPro",
+        "percent": 1.29,
+        "seconds": 1,
+        "text": "4 mins",
+        "total_seconds": 241.727551
+      },
+      {
+        "decimal": "0.05",
+        "digital": "0:03:53",
+        "hours": 0,
+        "machine_name_id": "fe7f5235-a626-4183-b709-1f2e9c4cbefc",
+        "minutes": 3,
+        "name": "Anand%2525252525252525252525252525252525252525252525252525252525252527s%2525252525252525252525252525252525252525252525252525252525252BMacBook%2525252525252525252525252525252525252525252525252525252525252BPro",
+        "percent": 1.25,
+        "seconds": 53,
+        "text": "3 mins",
+        "total_seconds": 233.263035
+      },
+      {
+        "decimal": "0.05",
+        "digital": "0:03:53",
+        "hours": 0,
+        "machine_name_id": "2d9a02b9-3078-4a1e-8813-f37c56c24427",
+        "minutes": 3,
+        "name": "Anand%2525252525252525252525252525252525252527s%2525252525252525252525252525252525252BMacBook%2525252525252525252525252525252525252BPro",
+        "percent": 1.25,
+        "seconds": 53,
+        "text": "3 mins",
+        "total_seconds": 233.151861
+      },
+      {
+        "decimal": "0.05",
+        "digital": "0:03:46",
+        "hours": 0,
+        "machine_name_id": "46dd993e-59d4-4d11-8156-9c94f2c5289f",
+        "minutes": 3,
+        "name": "Anand%25252525252525252527s%25252525252525252BMacBook%25252525252525252BPro",
+        "percent": 1.21,
+        "seconds": 46,
+        "text": "3 mins",
+        "total_seconds": 226.064119
+      },
+      {
+        "decimal": "0.05",
+        "digital": "0:03:42",
+        "hours": 0,
+        "machine_name_id": "3d8fffad-da58-49d3-89a7-0abc4e87bf6c",
+        "minutes": 3,
+        "name": "Anand%2525252525252525252525252527s%2525252525252525252525252BMacBook%2525252525252525252525252BPro",
+        "percent": 1.19,
+        "seconds": 42,
+        "text": "3 mins",
+        "total_seconds": 222.840126
+      },
+      {
+        "decimal": "0.05",
+        "digital": "0:03:20",
+        "hours": 0,
+        "machine_name_id": "740a9ac8-199d-4999-9393-3b3179b65428",
+        "minutes": 3,
+        "name": "Anand%27s+MacBook+Pro",
+        "percent": 1.07,
+        "seconds": 20,
+        "text": "3 mins",
+        "total_seconds": 200.475305
+      },
+      {
+        "decimal": "0.05",
+        "digital": "0:03:03",
+        "hours": 0,
+        "machine_name_id": "918a2ac2-e618-49bc-818e-425de6b25697",
+        "minutes": 3,
+        "name": "Anand%252525252525252525252525252525252527s%252525252525252525252525252525252BMacBook%252525252525252525252525252525252BPro",
+        "percent": 0.98,
+        "seconds": 3,
+        "text": "3 mins",
+        "total_seconds": 183.308849
+      },
+      {
+        "decimal": "0.03",
+        "digital": "0:02:55",
+        "hours": 0,
+        "machine_name_id": "227d0d38-d8d0-4193-8f76-9bbdca2217b7",
+        "minutes": 2,
+        "name": "Anand%25252525252525252525252525252525252525252525252525252525252527s%25252525252525252525252525252525252525252525252525252525252BMacBook%25252525252525252525252525252525252525252525252525252525252BPro",
+        "percent": 0.94,
+        "seconds": 55,
+        "text": "2 mins",
+        "total_seconds": 175.979875
+      },
+      {
+        "decimal": "0.03",
+        "digital": "0:02:52",
+        "hours": 0,
+        "machine_name_id": "f60827e0-8264-4c4f-8abc-2c16c23d0dd2",
+        "minutes": 2,
+        "name": "Anand%25252525252525252525252525252525252525252525252525252527s%25252525252525252525252525252525252525252525252525252BMacBook%25252525252525252525252525252525252525252525252525252BPro",
+        "percent": 0.92,
+        "seconds": 52,
+        "text": "2 mins",
+        "total_seconds": 172.433896
+      },
+      {
+        "decimal": "0.03",
+        "digital": "0:02:48",
+        "hours": 0,
+        "machine_name_id": "2729c2aa-ca99-476f-bb59-da6a01802a20",
+        "minutes": 2,
+        "name": "Anand%2525252525252525252525252525252525252525252527s%2525252525252525252525252525252525252525252BMacBook%2525252525252525252525252525252525252525252BPro",
+        "percent": 0.9,
+        "seconds": 48,
+        "text": "2 mins",
+        "total_seconds": 168.777314
+      },
+      {
+        "decimal": "0.03",
+        "digital": "0:02:46",
+        "hours": 0,
+        "machine_name_id": "ffc6ad36-4db3-4155-9492-5b6fd496cb2a",
+        "minutes": 2,
+        "name": "Anand%2525252525252525252525252525252525252525252525252527s%2525252525252525252525252525252525252525252525252BMacBook%2525252525252525252525252525252525252525252525252BPro",
+        "percent": 0.89,
+        "seconds": 46,
+        "text": "2 mins",
+        "total_seconds": 166.089657
+      },
+      {
+        "decimal": "0.03",
+        "digital": "0:02:38",
+        "hours": 0,
+        "machine_name_id": "d5221857-2b84-478b-91f5-460018259b69",
+        "minutes": 2,
+        "name": "Anand%25252525252525252525252525252525252525252525252527s%25252525252525252525252525252525252525252525252BMacBook%25252525252525252525252525252525252525252525252BPro",
+        "percent": 0.85,
+        "seconds": 38,
+        "text": "2 mins",
+        "total_seconds": 158.293433
+      },
+      {
+        "decimal": "0.03",
+        "digital": "0:02:38",
+        "hours": 0,
+        "machine_name_id": "71def95b-8b7c-4caf-8498-789eff37fa27",
+        "minutes": 2,
+        "name": "Anand%252525252525252525252525252525252525252525252525252525252527s%252525252525252525252525252525252525252525252525252525252BMacBook%252525252525252525252525252525252525252525252525252525252BPro",
+        "percent": 0.85,
+        "seconds": 38,
+        "text": "2 mins",
+        "total_seconds": 158.277894
+      },
+      {
+        "decimal": "0.03",
+        "digital": "0:02:36",
+        "hours": 0,
+        "machine_name_id": "31b81e22-19e3-4403-8ae0-f87d15b4c9db",
+        "minutes": 2,
+        "name": "Anand%252525252525252525252525252525252525252525252525252525252525252527s%252525252525252525252525252525252525252525252525252525252525252BMacBook%252525252525252525252525252525252525252525252525252525252525252BPro",
+        "percent": 0.84,
+        "seconds": 36,
+        "text": "2 mins",
+        "total_seconds": 156.29772
+      },
+      {
+        "decimal": "0.03",
+        "digital": "0:02:32",
+        "hours": 0,
+        "machine_name_id": "4217de71-5498-4d69-80d9-498cd87964d4",
+        "minutes": 2,
+        "name": "Anand%2525252525252525252525252525252525252525252525252525252527s%2525252525252525252525252525252525252525252525252525252BMacBook%2525252525252525252525252525252525252525252525252525252BPro",
+        "percent": 0.82,
+        "seconds": 32,
+        "text": "2 mins",
+        "total_seconds": 152.743555
+      },
+      {
+        "decimal": "0.03",
+        "digital": "0:02:31",
+        "hours": 0,
+        "machine_name_id": "034548c6-e2b6-4628-a01d-afea6736dff0",
+        "minutes": 2,
+        "name": "Anand%252525252525252527s%252525252525252BMacBook%252525252525252BPro",
+        "percent": 0.81,
+        "seconds": 31,
+        "text": "2 mins",
+        "total_seconds": 151.39833
+      },
+      {
+        "decimal": "0.03",
+        "digital": "0:02:27",
+        "hours": 0,
+        "machine_name_id": "7ae062bd-10a2-4b11-9bb1-c2b0de9fe61a",
+        "minutes": 2,
+        "name": "Anand%2525252527s%2525252BMacBook%2525252BPro",
+        "percent": 0.79,
+        "seconds": 27,
+        "text": "2 mins",
+        "total_seconds": 147.428327
+      },
+      {
+        "decimal": "0.03",
+        "digital": "0:02:06",
+        "hours": 0,
+        "machine_name_id": "a9191255-1b17-4126-abcb-2e250b25fb37",
+        "minutes": 2,
+        "name": "Anand%25252525252525252525252525252525252525252527s%25252525252525252525252525252525252525252BMacBook%25252525252525252525252525252525252525252BPro",
+        "percent": 0.68,
+        "seconds": 6,
+        "text": "2 mins",
+        "total_seconds": 126.660556
+      },
+      {
+        "decimal": "0.03",
+        "digital": "0:02:04",
+        "hours": 0,
+        "machine_name_id": "4f4bed3b-70f6-414f-bae2-f016252216c8",
+        "minutes": 2,
+        "name": "Anand%252525252525252525252525252525252525252525252525252527s%252525252525252525252525252525252525252525252525252BMacBook%252525252525252525252525252525252525252525252525252BPro",
+        "percent": 0.67,
+        "seconds": 4,
+        "text": "2 mins",
+        "total_seconds": 124.221452
+      },
+      {
+        "decimal": "0.03",
+        "digital": "0:02:04",
+        "hours": 0,
+        "machine_name_id": "90a5b19b-75fd-4651-9cab-102aa319498c",
+        "minutes": 2,
+        "name": "Anand%25252525252525252525252525252527s%25252525252525252525252525252BMacBook%25252525252525252525252525252BPro",
+        "percent": 0.66,
+        "seconds": 4,
+        "text": "2 mins",
+        "total_seconds": 124.182537
+      },
+      {
+        "decimal": "0.02",
+        "digital": "0:01:58",
+        "hours": 0,
+        "machine_name_id": "aaaae1ed-b791-4219-a980-6d58552a16fb",
+        "minutes": 1,
+        "name": "Anand%25252525252527s%25252525252BMacBook%25252525252BPro",
+        "percent": 0.64,
+        "seconds": 58,
+        "text": "1 min",
+        "total_seconds": 118.887827
+      },
+      {
+        "decimal": "0.02",
+        "digital": "0:01:50",
+        "hours": 0,
+        "machine_name_id": "29f3fdfc-e169-4023-b4b5-8cf8af90fdac",
+        "minutes": 1,
+        "name": "Anand%252525252525252525252525252525252525252527s%252525252525252525252525252525252525252BMacBook%252525252525252525252525252525252525252BPro",
+        "percent": 0.59,
+        "seconds": 50,
+        "text": "1 min",
+        "total_seconds": 110.149837
+      },
+      {
+        "decimal": "0.02",
+        "digital": "0:01:48",
+        "hours": 0,
+        "machine_name_id": "13e402ad-38c4-4c0a-a187-87d646d2ee1a",
+        "minutes": 1,
+        "name": "Anand%2525252525252527s%2525252525252BMacBook%2525252525252BPro",
+        "percent": 0.58,
+        "seconds": 48,
+        "text": "1 min",
+        "total_seconds": 108.412816
+      },
+      {
+        "decimal": "0.02",
+        "digital": "0:01:44",
+        "hours": 0,
+        "machine_name_id": "556b3c6e-bae6-4716-9805-d85a9bb492ce",
+        "minutes": 1,
+        "name": "Anand%252527s%252BMacBook%252BPro",
+        "percent": 0.56,
+        "seconds": 44,
+        "text": "1 min",
+        "total_seconds": 104.782267
+      },
+      {
+        "decimal": "0.02",
+        "digital": "0:01:23",
+        "hours": 0,
+        "machine_name_id": "8eb51cbd-8ff0-4e87-93ff-ecb427373470",
+        "minutes": 1,
+        "name": "Anand%25252525252525252525252525252525252527s%25252525252525252525252525252525252BMacBook%25252525252525252525252525252525252BPro",
+        "percent": 0.45,
+        "seconds": 23,
+        "text": "1 min",
+        "total_seconds": 83.751436
+      },
+      {
+        "decimal": "0.00",
+        "digital": "0:00:02",
+        "hours": 0,
+        "machine_name_id": "9e090301-f11e-4366-aa89-962c76763e90",
+        "minutes": 0,
+        "name": "Anand%25252525252525252525252525252525252525252525252525252525252525252527s%25252525252525252525252525252525252525252525252525252525252525252BMacBook%25252525252525252525252525252525252525252525252525252525252525252BPro",
+        "percent": 0.01,
+        "seconds": 2,
+        "text": "2 secs",
+        "total_seconds": 2.120232
       }
     ],
     "operating_systems": [
       {
-        "decimal": "3.30",
-        "digital": "3:18:37",
-        "hours": 3,
-        "minutes": 18,
+        "decimal": "5.18",
+        "digital": "5:11:14",
+        "hours": 5,
+        "minutes": 11,
         "name": "Mac",
         "percent": 100,
-        "seconds": 37,
-        "text": "3 hrs 18 mins",
-        "total_seconds": 11917.530993
+        "seconds": 14,
+        "text": "5 hrs 11 mins",
+        "total_seconds": 18674.153002
       }
     ],
     "projects": [
       {
         "color": null,
-        "decimal": "2.23",
-        "digital": "2:14:43",
-        "hours": 2,
-        "minutes": 14,
+        "decimal": "4.12",
+        "digital": "4:07:19",
+        "hours": 4,
+        "minutes": 7,
         "name": "1q",
-        "percent": 67.83,
-        "seconds": 43,
-        "text": "2 hrs 14 mins",
-        "total_seconds": 8083.254874
+        "percent": 79.47,
+        "seconds": 19,
+        "text": "4 hrs 7 mins",
+        "total_seconds": 14839.876883
       },
       {
         "color": null,
@@ -415,7 +834,7 @@
         "hours": 0,
         "minutes": 55,
         "name": "nord.js",
-        "percent": 28.12,
+        "percent": 17.94,
         "seconds": 50,
         "text": "55 mins",
         "total_seconds": 3350.925446
@@ -427,7 +846,7 @@
         "hours": 0,
         "minutes": 8,
         "name": "docs",
-        "percent": 4.06,
+        "percent": 2.59,
         "seconds": 3,
         "text": "8 mins",
         "total_seconds": 483.350673
