@@ -1,20 +1,451 @@
 [
   {
-    "categories": [],
-    "dependencies": [],
-    "editors": [],
+    "categories": [
+      {
+        "decimal": "1.33",
+        "digital": "1:20:45",
+        "hours": 1,
+        "minutes": 20,
+        "name": "Coding",
+        "percent": 100,
+        "seconds": 45,
+        "text": "1 hr 20 mins",
+        "total_seconds": 4845.524975
+      }
+    ],
+    "dependencies": [
+      {
+        "decimal": "0.05",
+        "digital": "0:03:43",
+        "hours": 0,
+        "minutes": 3,
+        "name": "npm",
+        "percent": 27.86,
+        "seconds": 43,
+        "text": "3 mins",
+        "total_seconds": 223.417805
+      },
+      {
+        "decimal": "0.02",
+        "digital": "0:01:39",
+        "hours": 0,
+        "minutes": 1,
+        "name": "nordjs",
+        "percent": 12.36,
+        "seconds": 39,
+        "text": "1 min",
+        "total_seconds": 99.143538
+      },
+      {
+        "decimal": "0.02",
+        "digital": "0:01:31",
+        "hours": 0,
+        "minutes": 1,
+        "name": "type-fest",
+        "percent": 11.36,
+        "seconds": 31,
+        "text": "1 min",
+        "total_seconds": 91.104447
+      },
+      {
+        "decimal": "0.02",
+        "digital": "0:01:31",
+        "hours": 0,
+        "minutes": 1,
+        "name": "hono",
+        "percent": 11.36,
+        "seconds": 31,
+        "text": "1 min",
+        "total_seconds": 91.104447
+      },
+      {
+        "decimal": "0.02",
+        "digital": "0:01:31",
+        "hours": 0,
+        "minutes": 1,
+        "name": "zod",
+        "percent": 11.36,
+        "seconds": 31,
+        "text": "1 min",
+        "total_seconds": 91.104447
+      },
+      {
+        "decimal": "0.00",
+        "digital": "0:00:44",
+        "hours": 0,
+        "minutes": 0,
+        "name": "types",
+        "percent": 5.61,
+        "seconds": 44,
+        "text": "44 secs",
+        "total_seconds": 44.956262
+      },
+      {
+        "decimal": "0.00",
+        "digital": "0:00:37",
+        "hours": 0,
+        "minutes": 0,
+        "name": "cookie",
+        "percent": 4.73,
+        "seconds": 37,
+        "text": "37 secs",
+        "total_seconds": 37.916297
+      },
+      {
+        "decimal": "0.00",
+        "digital": "0:00:37",
+        "hours": 0,
+        "minutes": 0,
+        "name": "request",
+        "percent": 4.73,
+        "seconds": 37,
+        "text": "37 secs",
+        "total_seconds": 37.916297
+      },
+      {
+        "decimal": "0.00",
+        "digital": "0:00:37",
+        "hours": 0,
+        "minutes": 0,
+        "name": "http-status",
+        "percent": 4.73,
+        "seconds": 37,
+        "text": "37 secs",
+        "total_seconds": 37.916297
+      },
+      {
+        "decimal": "0.00",
+        "digital": "0:00:33",
+        "hours": 0,
+        "minutes": 0,
+        "name": "turbo",
+        "percent": 4.14,
+        "seconds": 33,
+        "text": "33 secs",
+        "total_seconds": 33.16982
+      },
+      {
+        "decimal": "0.00",
+        "digital": "0:00:07",
+        "hours": 0,
+        "minutes": 0,
+        "name": "router",
+        "percent": 0.88,
+        "seconds": 7,
+        "text": "7 secs",
+        "total_seconds": 7.039965
+      },
+      {
+        "decimal": "0.00",
+        "digital": "0:00:07",
+        "hours": 0,
+        "minutes": 0,
+        "name": "context",
+        "percent": 0.88,
+        "seconds": 7,
+        "text": "7 secs",
+        "total_seconds": 7.039965
+      }
+    ],
+    "editors": [
+      {
+        "decimal": "1.33",
+        "digital": "1:20:45",
+        "hours": 1,
+        "minutes": 20,
+        "name": "VS Code",
+        "percent": 100,
+        "seconds": 45,
+        "text": "1 hr 20 mins",
+        "total_seconds": 4845.524975
+      }
+    ],
     "grand_total": {
-      "decimal": "0.00",
-      "digital": "0:00",
-      "hours": 0,
-      "minutes": 0,
-      "text": "0 secs",
-      "total_seconds": 0
+      "decimal": "1.33",
+      "digital": "1:20",
+      "hours": 1,
+      "minutes": 20,
+      "text": "1 hr 20 mins",
+      "total_seconds": 4845.524975
     },
-    "languages": [],
-    "machines": [],
-    "operating_systems": [],
-    "projects": [],
+    "languages": [
+      {
+        "decimal": "0.77",
+        "digital": "0:46:05",
+        "hours": 0,
+        "minutes": 46,
+        "name": "MDX",
+        "percent": 57.06,
+        "seconds": 5,
+        "text": "46 mins",
+        "total_seconds": 2765.069526
+      },
+      {
+        "decimal": "0.38",
+        "digital": "0:23:55",
+        "hours": 0,
+        "minutes": 23,
+        "name": "TypeScript",
+        "percent": 29.62,
+        "seconds": 55,
+        "text": "23 mins",
+        "total_seconds": 1435.099625
+      },
+      {
+        "decimal": "0.15",
+        "digital": "0:09:12",
+        "hours": 0,
+        "minutes": 9,
+        "name": "JSON",
+        "percent": 11.41,
+        "seconds": 12,
+        "text": "9 mins",
+        "total_seconds": 552.875522
+      },
+      {
+        "decimal": "0.02",
+        "digital": "0:01:24",
+        "hours": 0,
+        "minutes": 1,
+        "name": "TSConfig",
+        "percent": 1.75,
+        "seconds": 24,
+        "text": "1 min",
+        "total_seconds": 84.675479
+      },
+      {
+        "decimal": "0.00",
+        "digital": "0:00:07",
+        "hours": 0,
+        "minutes": 0,
+        "name": "Other",
+        "percent": 0.16,
+        "seconds": 7,
+        "text": "7 secs",
+        "total_seconds": 7.804823
+      }
+    ],
+    "machines": [
+      {
+        "decimal": "0.18",
+        "digital": "0:11:46",
+        "hours": 0,
+        "machine_name_id": "e98e14ed-516e-4256-93a6-fd3e8f6e93f5",
+        "minutes": 11,
+        "name": "Anand's+MacBook+Pro",
+        "percent": 14.57,
+        "seconds": 46,
+        "text": "11 mins",
+        "total_seconds": 706.028297
+      },
+      {
+        "decimal": "0.17",
+        "digital": "0:10:10",
+        "hours": 0,
+        "machine_name_id": "71dc6bf9-1915-43d6-8cce-80c3c1703eba",
+        "minutes": 10,
+        "name": "Anand%25252527s%25252BMacBook%25252BPro",
+        "percent": 12.6,
+        "seconds": 10,
+        "text": "10 mins",
+        "total_seconds": 610.654443
+      },
+      {
+        "decimal": "0.15",
+        "digital": "0:09:25",
+        "hours": 0,
+        "machine_name_id": "5ca19ede-85d3-4911-bfe6-dc40e4c25755",
+        "minutes": 9,
+        "name": "Anand%25252525252525252525252527s%25252525252525252525252BMacBook%25252525252525252525252BPro",
+        "percent": 11.67,
+        "seconds": 25,
+        "text": "9 mins",
+        "total_seconds": 565.591077
+      },
+      {
+        "decimal": "0.15",
+        "digital": "0:09:08",
+        "hours": 0,
+        "machine_name_id": "80b0e9a1-4700-4042-8edd-1fb348e2a632",
+        "minutes": 9,
+        "name": "Anand%252525252525252525252527s%252525252525252525252BMacBook%252525252525252525252BPro",
+        "percent": 11.32,
+        "seconds": 8,
+        "text": "9 mins",
+        "total_seconds": 548.414609
+      },
+      {
+        "decimal": "0.13",
+        "digital": "0:08:30",
+        "hours": 0,
+        "machine_name_id": "323b93de-7e5d-4008-990b-9814fc2bd6c3",
+        "minutes": 8,
+        "name": "Anand%2525252525252525252527s%2525252525252525252BMacBook%2525252525252525252BPro",
+        "percent": 10.54,
+        "seconds": 30,
+        "text": "8 mins",
+        "total_seconds": 510.548025
+      },
+      {
+        "decimal": "0.13",
+        "digital": "0:08:28",
+        "hours": 0,
+        "machine_name_id": "a88c74c0-92d7-407d-a48d-13622ca5947f",
+        "minutes": 8,
+        "name": "Anand%2527s%2BMacBook%2BPro",
+        "percent": 10.49,
+        "seconds": 28,
+        "text": "8 mins",
+        "total_seconds": 508.078092
+      },
+      {
+        "decimal": "0.10",
+        "digital": "0:06:16",
+        "hours": 0,
+        "machine_name_id": "eca8d028-f6f7-4bd9-8926-7ca1f001bed8",
+        "minutes": 6,
+        "name": "Anand%252527s%252BMacBook%252BPro",
+        "percent": 7.77,
+        "seconds": 16,
+        "text": "6 mins",
+        "total_seconds": 376.469547
+      },
+      {
+        "decimal": "0.07",
+        "digital": "0:04:19",
+        "hours": 0,
+        "machine_name_id": "3ad9176d-0a63-4ab7-873e-dc12597bfc65",
+        "minutes": 4,
+        "name": "Anand%27s+MacBook+Pro",
+        "percent": 5.36,
+        "seconds": 19,
+        "text": "4 mins",
+        "total_seconds": 259.554214
+      },
+      {
+        "decimal": "0.07",
+        "digital": "0:04:13",
+        "hours": 0,
+        "machine_name_id": "8af14a37-4919-43f9-9d8d-54c518a10527",
+        "minutes": 4,
+        "name": "Anand%252525252527s%252525252BMacBook%252525252BPro",
+        "percent": 5.23,
+        "seconds": 13,
+        "text": "4 mins",
+        "total_seconds": 253.304925
+      },
+      {
+        "decimal": "0.03",
+        "digital": "0:02:11",
+        "hours": 0,
+        "machine_name_id": "39713779-38c9-42e9-a699-c8bb84aaef92",
+        "minutes": 2,
+        "name": "Anand%25252525252527s%25252525252BMacBook%25252525252BPro",
+        "percent": 2.72,
+        "seconds": 11,
+        "text": "2 mins",
+        "total_seconds": 131.615268
+      },
+      {
+        "decimal": "0.02",
+        "digital": "0:01:45",
+        "hours": 0,
+        "machine_name_id": "b1a0de4b-5353-4b65-a27e-7205481a49a9",
+        "minutes": 1,
+        "name": "Anand%25252525252525252527s%25252525252525252BMacBook%25252525252525252BPro",
+        "percent": 2.17,
+        "seconds": 45,
+        "text": "1 min",
+        "total_seconds": 105.252098
+      },
+      {
+        "decimal": "0.02",
+        "digital": "0:01:38",
+        "hours": 0,
+        "machine_name_id": "881292ee-2615-4fd3-86f7-13442feb7ce5",
+        "minutes": 1,
+        "name": "Anand%252525252525252527s%252525252525252BMacBook%252525252525252BPro",
+        "percent": 2.03,
+        "seconds": 38,
+        "text": "1 min",
+        "total_seconds": 98.240534
+      },
+      {
+        "decimal": "0.02",
+        "digital": "0:01:33",
+        "hours": 0,
+        "machine_name_id": "5aa58ccd-65a3-40b9-9754-de655f46ce0c",
+        "minutes": 1,
+        "name": "Anand%2525252527s%2525252BMacBook%2525252BPro",
+        "percent": 1.92,
+        "seconds": 33,
+        "text": "1 min",
+        "total_seconds": 93.164857
+      },
+      {
+        "decimal": "0.02",
+        "digital": "0:01:18",
+        "hours": 0,
+        "machine_name_id": "4b66a5c6-db58-4399-a1a3-552db657c486",
+        "minutes": 1,
+        "name": "Anand%2525252525252527s%2525252525252BMacBook%2525252525252BPro",
+        "percent": 1.62,
+        "seconds": 18,
+        "text": "1 min",
+        "total_seconds": 78.608989
+      }
+    ],
+    "operating_systems": [
+      {
+        "decimal": "1.33",
+        "digital": "1:20:45",
+        "hours": 1,
+        "minutes": 20,
+        "name": "Mac",
+        "percent": 100,
+        "seconds": 45,
+        "text": "1 hr 20 mins",
+        "total_seconds": 4845.524975
+      }
+    ],
+    "projects": [
+      {
+        "color": null,
+        "decimal": "0.85",
+        "digital": "0:51:33",
+        "hours": 0,
+        "minutes": 51,
+        "name": "docs",
+        "percent": 63.85,
+        "seconds": 33,
+        "text": "51 mins",
+        "total_seconds": 3093.919772
+      },
+      {
+        "color": null,
+        "decimal": "0.48",
+        "digital": "0:29:07",
+        "hours": 0,
+        "minutes": 29,
+        "name": "nord.js",
+        "percent": 36.07,
+        "seconds": 7,
+        "text": "29 mins",
+        "total_seconds": 1747.586326
+      },
+      {
+        "color": null,
+        "decimal": "0.00",
+        "digital": "0:00:04",
+        "hours": 0,
+        "minutes": 0,
+        "name": "pabio",
+        "percent": 0.08,
+        "seconds": 4,
+        "text": "4 secs",
+        "total_seconds": 4.018877
+      }
+    ],
     "range": {
       "date": "2023-04-23",
       "end": "2023-04-23T21:59:59Z",
