@@ -1,26 +1,366 @@
 [
   {
+    "languages": [
+      {
+        "name": "TypeScript",
+        "total_seconds": 9568.07055,
+        "digital": "2:39:28",
+        "decimal": "2.65",
+        "text": "2 hrs 39 mins",
+        "hours": 2,
+        "minutes": 39,
+        "seconds": 28,
+        "percent": 83.31
+      },
+      {
+        "name": "Other",
+        "total_seconds": 808.658513,
+        "digital": "0:13:28",
+        "decimal": "0.22",
+        "text": "13 mins",
+        "hours": 0,
+        "minutes": 13,
+        "seconds": 28,
+        "percent": 7.04
+      },
+      {
+        "name": "JSON",
+        "total_seconds": 603.927984,
+        "digital": "0:10:03",
+        "decimal": "0.17",
+        "text": "10 mins",
+        "hours": 0,
+        "minutes": 10,
+        "seconds": 3,
+        "percent": 5.26
+      },
+      {
+        "name": "MDX",
+        "total_seconds": 471.685592,
+        "digital": "0:07:51",
+        "decimal": "0.12",
+        "text": "7 mins",
+        "hours": 0,
+        "minutes": 7,
+        "seconds": 51,
+        "percent": 4.11
+      },
+      {
+        "name": "CSV",
+        "total_seconds": 31.679621,
+        "digital": "0:00:31",
+        "decimal": "0.00",
+        "text": "31 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 31,
+        "percent": 0.28
+      },
+      {
+        "name": "SQL",
+        "total_seconds": 0.758362,
+        "digital": "0:00:00",
+        "decimal": "0.00",
+        "text": "0 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0,
+        "percent": 0.01
+      }
+    ],
     "grand_total": {
-      "hours": 0,
-      "minutes": 0,
-      "total_seconds": 0,
-      "digital": "0:00",
-      "decimal": "0.00",
-      "text": "0 secs"
+      "hours": 3,
+      "minutes": 11,
+      "total_seconds": 11484.780622,
+      "digital": "3:11",
+      "decimal": "3.18",
+      "text": "3 hrs 11 mins"
     },
+    "editors": [
+      {
+        "name": "VS Code",
+        "total_seconds": 11484.780622,
+        "digital": "3:11:24",
+        "decimal": "3.18",
+        "text": "3 hrs 11 mins",
+        "hours": 3,
+        "minutes": 11,
+        "seconds": 24,
+        "percent": 100
+      }
+    ],
+    "operating_systems": [
+      {
+        "name": "Mac",
+        "total_seconds": 11484.780622,
+        "digital": "3:11:24",
+        "decimal": "3.18",
+        "text": "3 hrs 11 mins",
+        "hours": 3,
+        "minutes": 11,
+        "seconds": 24,
+        "percent": 100
+      }
+    ],
+    "categories": [
+      {
+        "name": "Coding",
+        "total_seconds": 11484.780622,
+        "digital": "3:11:24",
+        "decimal": "3.18",
+        "text": "3 hrs 11 mins",
+        "hours": 3,
+        "minutes": 11,
+        "seconds": 24,
+        "percent": 100
+      }
+    ],
+    "dependencies": [
+      {
+        "name": "@firstquadrant/tsconfig",
+        "total_seconds": 598.470951,
+        "digital": "0:09:58",
+        "decimal": "0.15",
+        "text": "9 mins",
+        "hours": 0,
+        "minutes": 9,
+        "seconds": 58,
+        "percent": 7.67
+      },
+      {
+        "name": "request-ip",
+        "total_seconds": 598.470951,
+        "digital": "0:09:58",
+        "decimal": "0.15",
+        "text": "9 mins",
+        "hours": 0,
+        "minutes": 9,
+        "seconds": 58,
+        "percent": 7.67
+      },
+      {
+        "name": "@prisma/client",
+        "total_seconds": 598.470951,
+        "digital": "0:09:58",
+        "decimal": "0.15",
+        "text": "9 mins",
+        "hours": 0,
+        "minutes": 9,
+        "seconds": 58,
+        "percent": 7.67
+      },
+      {
+        "name": "npm",
+        "total_seconds": 598.470951,
+        "digital": "0:09:58",
+        "decimal": "0.15",
+        "text": "9 mins",
+        "hours": 0,
+        "minutes": 9,
+        "seconds": 58,
+        "percent": 7.67
+      },
+      {
+        "name": "@types/request-ip",
+        "total_seconds": 598.470951,
+        "digital": "0:09:58",
+        "decimal": "0.15",
+        "text": "9 mins",
+        "hours": 0,
+        "minutes": 9,
+        "seconds": 58,
+        "percent": 7.67
+      },
+      {
+        "name": "ns-ksuid",
+        "total_seconds": 598.470951,
+        "digital": "0:09:58",
+        "decimal": "0.15",
+        "text": "9 mins",
+        "hours": 0,
+        "minutes": 9,
+        "seconds": 58,
+        "percent": 7.67
+      },
+      {
+        "name": "eslint",
+        "total_seconds": 598.470951,
+        "digital": "0:09:58",
+        "decimal": "0.15",
+        "text": "9 mins",
+        "hours": 0,
+        "minutes": 9,
+        "seconds": 58,
+        "percent": 7.67
+      },
+      {
+        "name": "prisma",
+        "total_seconds": 598.470951,
+        "digital": "0:09:58",
+        "decimal": "0.15",
+        "text": "9 mins",
+        "hours": 0,
+        "minutes": 9,
+        "seconds": 58,
+        "percent": 7.67
+      },
+      {
+        "name": "typescript",
+        "total_seconds": 598.470951,
+        "digital": "0:09:58",
+        "decimal": "0.15",
+        "text": "9 mins",
+        "hours": 0,
+        "minutes": 9,
+        "seconds": 58,
+        "percent": 7.67
+      },
+      {
+        "name": "@firstquadrant/errors",
+        "total_seconds": 598.470951,
+        "digital": "0:09:58",
+        "decimal": "0.15",
+        "text": "9 mins",
+        "hours": 0,
+        "minutes": 9,
+        "seconds": 58,
+        "percent": 7.67
+      },
+      {
+        "name": "eslint-config-custom",
+        "total_seconds": 598.470951,
+        "digital": "0:09:58",
+        "decimal": "0.15",
+        "text": "9 mins",
+        "hours": 0,
+        "minutes": 9,
+        "seconds": 58,
+        "percent": 7.67
+      },
+      {
+        "name": "@types/koa",
+        "total_seconds": 598.470951,
+        "digital": "0:09:58",
+        "decimal": "0.15",
+        "text": "9 mins",
+        "hours": 0,
+        "minutes": 9,
+        "seconds": 58,
+        "percent": 7.67
+      },
+      {
+        "name": "@firstquadrant/babel-config",
+        "total_seconds": 598.470951,
+        "digital": "0:09:58",
+        "decimal": "0.15",
+        "text": "9 mins",
+        "hours": 0,
+        "minutes": 9,
+        "seconds": 58,
+        "percent": 7.67
+      },
+      {
+        "name": "eventemitter3",
+        "total_seconds": 4.113461,
+        "digital": "0:00:04",
+        "decimal": "0.00",
+        "text": "4 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 4,
+        "percent": 0.05
+      },
+      {
+        "name": "WebClient",
+        "total_seconds": 4.113461,
+        "digital": "0:00:04",
+        "decimal": "0.00",
+        "text": "4 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 4,
+        "percent": 0.05
+      },
+      {
+        "name": "types",
+        "total_seconds": 4.113461,
+        "digital": "0:00:04",
+        "decimal": "0.00",
+        "text": "4 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 4,
+        "percent": 0.05
+      },
+      {
+        "name": "response",
+        "total_seconds": 4.113461,
+        "digital": "0:00:04",
+        "decimal": "0.00",
+        "text": "4 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 4,
+        "percent": 0.05
+      },
+      {
+        "name": "stream",
+        "total_seconds": 4.113461,
+        "digital": "0:00:04",
+        "decimal": "0.00",
+        "text": "4 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 4,
+        "percent": 0.05
+      }
+    ],
+    "machines": [
+      {
+        "name": "Anand's+MacBook+Pro",
+        "total_seconds": 11484.780622,
+        "machine_name_id": "3c35e1a4-1e65-4844-92d8-e48d31f42a9e",
+        "digital": "3:11:24",
+        "decimal": "3.18",
+        "text": "3 hrs 11 mins",
+        "hours": 3,
+        "minutes": 11,
+        "seconds": 24,
+        "percent": 100
+      }
+    ],
+    "projects": [
+      {
+        "name": "1q",
+        "total_seconds": 11484.780622,
+        "color": null,
+        "digital": "3:11:24",
+        "decimal": "3.18",
+        "text": "3 hrs 11 mins",
+        "hours": 3,
+        "minutes": 11,
+        "seconds": 24,
+        "percent": 100
+      },
+      {
+        "name": "Unknown Project",
+        "total_seconds": 0,
+        "color": null,
+        "digital": "0:00:00",
+        "decimal": "0.00",
+        "text": "0 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0,
+        "percent": 0
+      }
+    ],
     "range": {
       "start": "2023-05-14T22:00:00Z",
       "end": "2023-05-15T21:59:59Z",
       "date": "2023-05-15",
       "text": "Mon May 15th 2023",
       "timezone": "Europe/Amsterdam"
-    },
-    "projects": [],
-    "languages": [],
-    "dependencies": [],
-    "machines": [],
-    "editors": [],
-    "operating_systems": [],
-    "categories": []
+    }
   }
 ]
