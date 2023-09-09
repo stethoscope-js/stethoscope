@@ -1,26 +1,366 @@
 [
   {
+    "languages": [
+      {
+        "name": "TypeScript",
+        "total_seconds": 1094.850727,
+        "digital": "0:18:14",
+        "decimal": "0.30",
+        "text": "18 mins",
+        "hours": 0,
+        "minutes": 18,
+        "seconds": 14,
+        "percent": 99.76
+      },
+      {
+        "name": "JavaScript",
+        "total_seconds": 2.652552,
+        "digital": "0:00:02",
+        "decimal": "0.00",
+        "text": "2 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 2,
+        "percent": 0.24
+      },
+      {
+        "name": "Other",
+        "total_seconds": 0,
+        "digital": "0:00:00",
+        "decimal": "0.00",
+        "text": "0 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0,
+        "percent": 0
+      }
+    ],
     "grand_total": {
       "hours": 0,
-      "minutes": 0,
-      "total_seconds": 0,
-      "digital": "0:00",
-      "decimal": "0.00",
-      "text": "0 secs"
+      "minutes": 18,
+      "total_seconds": 1097.503279,
+      "digital": "0:18",
+      "decimal": "0.30",
+      "text": "18 mins"
     },
+    "editors": [
+      {
+        "name": "VS Code",
+        "total_seconds": 1097.503279,
+        "digital": "0:18:17",
+        "decimal": "0.30",
+        "text": "18 mins",
+        "hours": 0,
+        "minutes": 18,
+        "seconds": 17,
+        "percent": 100
+      }
+    ],
+    "operating_systems": [
+      {
+        "name": "Mac",
+        "total_seconds": 1097.503279,
+        "digital": "0:18:17",
+        "decimal": "0.30",
+        "text": "18 mins",
+        "hours": 0,
+        "minutes": 18,
+        "seconds": 17,
+        "percent": 100
+      }
+    ],
+    "categories": [
+      {
+        "name": "Coding",
+        "total_seconds": 1097.503279,
+        "digital": "0:18:17",
+        "decimal": "0.30",
+        "text": "18 mins",
+        "hours": 0,
+        "minutes": 18,
+        "seconds": 17,
+        "percent": 100
+      }
+    ],
+    "dependencies": [
+      {
+        "name": "index",
+        "total_seconds": 1094.850727,
+        "digital": "0:18:14",
+        "decimal": "0.30",
+        "text": "18 mins",
+        "hours": 0,
+        "minutes": 18,
+        "seconds": 14,
+        "percent": 13.71
+      },
+      {
+        "name": "zod",
+        "total_seconds": 1094.850727,
+        "digital": "0:18:14",
+        "decimal": "0.30",
+        "text": "18 mins",
+        "hours": 0,
+        "minutes": 18,
+        "seconds": 14,
+        "percent": 13.71
+      },
+      {
+        "name": "campaigns",
+        "total_seconds": 1094.850727,
+        "digital": "0:18:14",
+        "decimal": "0.30",
+        "text": "18 mins",
+        "hours": 0,
+        "minutes": 18,
+        "seconds": 14,
+        "percent": 13.71
+      },
+      {
+        "name": "database",
+        "total_seconds": 1094.850727,
+        "digital": "0:18:14",
+        "decimal": "0.30",
+        "text": "18 mins",
+        "hours": 0,
+        "minutes": 18,
+        "seconds": 14,
+        "percent": 13.71
+      },
+      {
+        "name": "router",
+        "total_seconds": 788.509156,
+        "digital": "0:13:08",
+        "decimal": "0.22",
+        "text": "13 mins",
+        "hours": 0,
+        "minutes": 13,
+        "seconds": 8,
+        "percent": 9.88
+      },
+      {
+        "name": "stripe",
+        "total_seconds": 788.509156,
+        "digital": "0:13:08",
+        "decimal": "0.22",
+        "text": "13 mins",
+        "hours": 0,
+        "minutes": 13,
+        "seconds": 8,
+        "percent": 9.88
+      },
+      {
+        "name": "auth",
+        "total_seconds": 788.509156,
+        "digital": "0:13:08",
+        "decimal": "0.22",
+        "text": "13 mins",
+        "hours": 0,
+        "minutes": 13,
+        "seconds": 8,
+        "percent": 9.88
+      },
+      {
+        "name": "errors",
+        "total_seconds": 306.341571,
+        "digital": "0:05:06",
+        "decimal": "0.08",
+        "text": "5 mins",
+        "hours": 0,
+        "minutes": 5,
+        "seconds": 6,
+        "percent": 3.84
+      },
+      {
+        "name": "luxon",
+        "total_seconds": 306.341571,
+        "digital": "0:05:06",
+        "decimal": "0.08",
+        "text": "5 mins",
+        "hours": 0,
+        "minutes": 5,
+        "seconds": 6,
+        "percent": 3.84
+      },
+      {
+        "name": "constants",
+        "total_seconds": 306.341571,
+        "digital": "0:05:06",
+        "decimal": "0.08",
+        "text": "5 mins",
+        "hours": 0,
+        "minutes": 5,
+        "seconds": 6,
+        "percent": 3.84
+      },
+      {
+        "name": "seedrandom",
+        "total_seconds": 306.341571,
+        "digital": "0:05:06",
+        "decimal": "0.08",
+        "text": "5 mins",
+        "hours": 0,
+        "minutes": 5,
+        "seconds": 6,
+        "percent": 3.84
+      },
+      {
+        "name": "slugify",
+        "total_seconds": 2.652552,
+        "digital": "0:00:02",
+        "decimal": "0.00",
+        "text": "2 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 2,
+        "percent": 0.03
+      },
+      {
+        "name": "markdoc",
+        "total_seconds": 2.652552,
+        "digital": "0:00:02",
+        "decimal": "0.00",
+        "text": "2 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 2,
+        "percent": 0.03
+      },
+      {
+        "name": "Fence",
+        "total_seconds": 2.121401,
+        "digital": "0:00:02",
+        "decimal": "0.00",
+        "text": "2 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 2,
+        "percent": 0.03
+      },
+      {
+        "name": "DocsLayout",
+        "total_seconds": 2.121401,
+        "digital": "0:00:02",
+        "decimal": "0.00",
+        "text": "2 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 2,
+        "percent": 0.03
+      },
+      {
+        "name": "js-yaml",
+        "total_seconds": 2.121401,
+        "digital": "0:00:02",
+        "decimal": "0.00",
+        "text": "2 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 2,
+        "percent": 0.03
+      },
+      {
+        "name": "path",
+        "total_seconds": 0.531151,
+        "digital": "0:00:00",
+        "decimal": "0.00",
+        "text": "0 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0,
+        "percent": 0.01
+      },
+      {
+        "name": "simple-functional-loader",
+        "total_seconds": 0.531151,
+        "digital": "0:00:00",
+        "decimal": "0.00",
+        "text": "0 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0,
+        "percent": 0.01
+      },
+      {
+        "name": "fast-glob",
+        "total_seconds": 0.531151,
+        "digital": "0:00:00",
+        "decimal": "0.00",
+        "text": "0 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0,
+        "percent": 0.01
+      },
+      {
+        "name": "fs",
+        "total_seconds": 0.531151,
+        "digital": "0:00:00",
+        "decimal": "0.00",
+        "text": "0 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0,
+        "percent": 0.01
+      },
+      {
+        "name": "url",
+        "total_seconds": 0.531151,
+        "digital": "0:00:00",
+        "decimal": "0.00",
+        "text": "0 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0,
+        "percent": 0.01
+      }
+    ],
+    "machines": [
+      {
+        "name": "Anand's+MacBook+Pro",
+        "total_seconds": 1097.503279,
+        "machine_name_id": "4c655c2f-d157-406d-ae0a-9bfbfb200d85",
+        "digital": "0:18:17",
+        "decimal": "0.30",
+        "text": "18 mins",
+        "hours": 0,
+        "minutes": 18,
+        "seconds": 17,
+        "percent": 100
+      }
+    ],
+    "projects": [
+      {
+        "name": "1q",
+        "total_seconds": 1094.850727,
+        "color": null,
+        "digital": "0:18:14",
+        "decimal": "0.30",
+        "text": "18 mins",
+        "hours": 0,
+        "minutes": 18,
+        "seconds": 14,
+        "percent": 99.76
+      },
+      {
+        "name": "email-deliverability-checklist",
+        "total_seconds": 2.652552,
+        "color": null,
+        "digital": "0:00:02",
+        "decimal": "0.00",
+        "text": "2 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 2,
+        "percent": 0.24
+      }
+    ],
     "range": {
       "start": "2023-09-07T22:00:00Z",
       "end": "2023-09-08T21:59:59Z",
       "date": "2023-09-08",
       "text": "Fri Sep 8th 2023",
       "timezone": "Europe/Amsterdam"
-    },
-    "projects": [],
-    "languages": [],
-    "dependencies": [],
-    "machines": [],
-    "editors": [],
-    "operating_systems": [],
-    "categories": []
+    }
   }
 ]
