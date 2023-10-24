@@ -1,26 +1,410 @@
 [
   {
+    "languages": [
+      {
+        "name": "TSQL",
+        "total_seconds": 16985.406339,
+        "digital": "4:43:05",
+        "decimal": "4.72",
+        "text": "4 hrs 43 mins",
+        "hours": 4,
+        "minutes": 43,
+        "seconds": 5,
+        "percent": 85.67
+      },
+      {
+        "name": "Other",
+        "total_seconds": 2103.378312,
+        "digital": "0:35:03",
+        "decimal": "0.58",
+        "text": "35 mins",
+        "hours": 0,
+        "minutes": 35,
+        "seconds": 3,
+        "percent": 10.61
+      },
+      {
+        "name": "TypeScript",
+        "total_seconds": 395.206939,
+        "digital": "0:06:35",
+        "decimal": "0.10",
+        "text": "6 mins",
+        "hours": 0,
+        "minutes": 6,
+        "seconds": 35,
+        "percent": 1.99
+      },
+      {
+        "name": "Assembly",
+        "total_seconds": 342.7728,
+        "digital": "0:05:42",
+        "decimal": "0.08",
+        "text": "5 mins",
+        "hours": 0,
+        "minutes": 5,
+        "seconds": 42,
+        "percent": 1.73
+      }
+    ],
     "grand_total": {
-      "hours": 0,
-      "minutes": 0,
-      "total_seconds": 0,
-      "digital": "0:00",
-      "decimal": "0.00",
-      "text": "0 secs"
+      "hours": 5,
+      "minutes": 30,
+      "total_seconds": 19826.76439,
+      "digital": "5:30",
+      "decimal": "5.50",
+      "text": "5 hrs 30 mins"
     },
+    "editors": [
+      {
+        "name": "VS Code",
+        "total_seconds": 19826.76439,
+        "digital": "5:30:26",
+        "decimal": "5.50",
+        "text": "5 hrs 30 mins",
+        "hours": 5,
+        "minutes": 30,
+        "seconds": 26,
+        "percent": 100
+      }
+    ],
+    "operating_systems": [
+      {
+        "name": "Mac",
+        "total_seconds": 19826.76439,
+        "digital": "5:30:26",
+        "decimal": "5.50",
+        "text": "5 hrs 30 mins",
+        "hours": 5,
+        "minutes": 30,
+        "seconds": 26,
+        "percent": 100
+      }
+    ],
+    "categories": [
+      {
+        "name": "Coding",
+        "total_seconds": 19826.76439,
+        "digital": "5:30:26",
+        "decimal": "5.50",
+        "text": "5 hrs 30 mins",
+        "hours": 5,
+        "minutes": 30,
+        "seconds": 26,
+        "percent": 100
+      }
+    ],
+    "dependencies": [
+      {
+        "name": "events.service",
+        "total_seconds": 395.206939,
+        "digital": "0:06:35",
+        "decimal": "0.10",
+        "text": "6 mins",
+        "hours": 0,
+        "minutes": 6,
+        "seconds": 35,
+        "percent": 6.26
+      },
+      {
+        "name": "constants",
+        "total_seconds": 395.206939,
+        "digital": "0:06:35",
+        "decimal": "0.10",
+        "text": "6 mins",
+        "hours": 0,
+        "minutes": 6,
+        "seconds": 35,
+        "percent": 6.26
+      },
+      {
+        "name": "types",
+        "total_seconds": 395.206939,
+        "digital": "0:06:35",
+        "decimal": "0.10",
+        "text": "6 mins",
+        "hours": 0,
+        "minutes": 6,
+        "seconds": 35,
+        "percent": 6.26
+      },
+      {
+        "name": "common",
+        "total_seconds": 395.206939,
+        "digital": "0:06:35",
+        "decimal": "0.10",
+        "text": "6 mins",
+        "hours": 0,
+        "minutes": 6,
+        "seconds": 35,
+        "percent": 6.26
+      },
+      {
+        "name": "axios",
+        "total_seconds": 395.206939,
+        "digital": "0:06:35",
+        "decimal": "0.10",
+        "text": "6 mins",
+        "hours": 0,
+        "minutes": 6,
+        "seconds": 35,
+        "percent": 6.26
+      },
+      {
+        "name": "translations",
+        "total_seconds": 392.875652,
+        "digital": "0:06:32",
+        "decimal": "0.10",
+        "text": "6 mins",
+        "hours": 0,
+        "minutes": 6,
+        "seconds": 32,
+        "percent": 6.22
+      },
+      {
+        "name": "string-utils",
+        "total_seconds": 392.875652,
+        "digital": "0:06:32",
+        "decimal": "0.10",
+        "text": "6 mins",
+        "hours": 0,
+        "minutes": 6,
+        "seconds": 32,
+        "percent": 6.22
+      },
+      {
+        "name": "billing",
+        "total_seconds": 392.875652,
+        "digital": "0:06:32",
+        "decimal": "0.10",
+        "text": "6 mins",
+        "hours": 0,
+        "minutes": 6,
+        "seconds": 32,
+        "percent": 6.22
+      },
+      {
+        "name": "billing.helpers",
+        "total_seconds": 392.875652,
+        "digital": "0:06:32",
+        "decimal": "0.10",
+        "text": "6 mins",
+        "hours": 0,
+        "minutes": 6,
+        "seconds": 32,
+        "percent": 6.22
+      },
+      {
+        "name": "s3.service",
+        "total_seconds": 392.875652,
+        "digital": "0:06:32",
+        "decimal": "0.10",
+        "text": "6 mins",
+        "hours": 0,
+        "minutes": 6,
+        "seconds": 32,
+        "percent": 6.22
+      },
+      {
+        "name": "slugify",
+        "total_seconds": 392.875652,
+        "digital": "0:06:32",
+        "decimal": "0.10",
+        "text": "6 mins",
+        "hours": 0,
+        "minutes": 6,
+        "seconds": 32,
+        "percent": 6.22
+      },
+      {
+        "name": "currencies",
+        "total_seconds": 392.875652,
+        "digital": "0:06:32",
+        "decimal": "0.10",
+        "text": "6 mins",
+        "hours": 0,
+        "minutes": 6,
+        "seconds": 32,
+        "percent": 6.22
+      },
+      {
+        "name": "home-proposal.service",
+        "total_seconds": 392.875652,
+        "digital": "0:06:32",
+        "decimal": "0.10",
+        "text": "6 mins",
+        "hours": 0,
+        "minutes": 6,
+        "seconds": 32,
+        "percent": 6.22
+      },
+      {
+        "name": "s3.constants",
+        "total_seconds": 392.875652,
+        "digital": "0:06:32",
+        "decimal": "0.10",
+        "text": "6 mins",
+        "hours": 0,
+        "minutes": 6,
+        "seconds": 32,
+        "percent": 6.22
+      },
+      {
+        "name": "database",
+        "total_seconds": 392.875652,
+        "digital": "0:06:32",
+        "decimal": "0.10",
+        "text": "6 mins",
+        "hours": 0,
+        "minutes": 6,
+        "seconds": 32,
+        "percent": 6.22
+      },
+      {
+        "name": "date-utils",
+        "total_seconds": 392.875652,
+        "digital": "0:06:32",
+        "decimal": "0.10",
+        "text": "6 mins",
+        "hours": 0,
+        "minutes": 6,
+        "seconds": 32,
+        "percent": 6.22
+      },
+      {
+        "name": "fast-csv",
+        "total_seconds": 2.331287,
+        "digital": "0:00:02",
+        "decimal": "0.00",
+        "text": "2 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 2,
+        "percent": 0.04
+      },
+      {
+        "name": "auth.decorators",
+        "total_seconds": 2.331287,
+        "digital": "0:00:02",
+        "decimal": "0.00",
+        "text": "2 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 2,
+        "percent": 0.04
+      },
+      {
+        "name": "convertapi",
+        "total_seconds": 2.331287,
+        "digital": "0:00:02",
+        "decimal": "0.00",
+        "text": "2 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 2,
+        "percent": 0.04
+      },
+      {
+        "name": "home-inventory.controller",
+        "total_seconds": 2.331287,
+        "digital": "0:00:02",
+        "decimal": "0.00",
+        "text": "2 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 2,
+        "percent": 0.04
+      },
+      {
+        "name": "express",
+        "total_seconds": 2.331287,
+        "digital": "0:00:02",
+        "decimal": "0.00",
+        "text": "2 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 2,
+        "percent": 0.04
+      },
+      {
+        "name": "stream",
+        "total_seconds": 2.331287,
+        "digital": "0:00:02",
+        "decimal": "0.00",
+        "text": "2 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 2,
+        "percent": 0.04
+      },
+      {
+        "name": "dot-object",
+        "total_seconds": 2.331287,
+        "digital": "0:00:02",
+        "decimal": "0.00",
+        "text": "2 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 2,
+        "percent": 0.04
+      },
+      {
+        "name": "data-export.service",
+        "total_seconds": 2.331287,
+        "digital": "0:00:02",
+        "decimal": "0.00",
+        "text": "2 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 2,
+        "percent": 0.04
+      }
+    ],
+    "machines": [
+      {
+        "name": "Anand's+MacBook+Pro",
+        "total_seconds": 19826.76439,
+        "machine_name_id": "4c655c2f-d157-406d-ae0a-9bfbfb200d85",
+        "digital": "5:30:26",
+        "decimal": "5.50",
+        "text": "5 hrs 30 mins",
+        "hours": 5,
+        "minutes": 30,
+        "seconds": 26,
+        "percent": 100
+      }
+    ],
+    "projects": [
+      {
+        "name": "1q4",
+        "total_seconds": 19431.557451,
+        "color": null,
+        "digital": "5:23:51",
+        "decimal": "5.38",
+        "text": "5 hrs 23 mins",
+        "hours": 5,
+        "minutes": 23,
+        "seconds": 51,
+        "percent": 98.01
+      },
+      {
+        "name": "pabio",
+        "total_seconds": 395.206939,
+        "color": null,
+        "digital": "0:06:35",
+        "decimal": "0.10",
+        "text": "6 mins",
+        "hours": 0,
+        "minutes": 6,
+        "seconds": 35,
+        "percent": 1.99
+      }
+    ],
     "range": {
       "start": "2023-10-22T22:00:00Z",
       "end": "2023-10-23T21:59:59Z",
       "date": "2023-10-23",
       "text": "Mon Oct 23rd 2023",
       "timezone": "Europe/Amsterdam"
-    },
-    "projects": [],
-    "languages": [],
-    "dependencies": [],
-    "machines": [],
-    "editors": [],
-    "operating_systems": [],
-    "categories": []
+    }
   }
 ]
