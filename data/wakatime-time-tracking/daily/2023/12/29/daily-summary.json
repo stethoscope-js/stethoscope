@@ -1,26 +1,520 @@
 [
   {
+    "languages": [
+      {
+        "name": "Other",
+        "total_seconds": 2976.833863,
+        "digital": "0:49:36",
+        "decimal": "0.82",
+        "text": "49 mins",
+        "hours": 0,
+        "minutes": 49,
+        "seconds": 36,
+        "percent": 64.43
+      },
+      {
+        "name": "TypeScript",
+        "total_seconds": 1633.907962,
+        "digital": "0:27:13",
+        "decimal": "0.45",
+        "text": "27 mins",
+        "hours": 0,
+        "minutes": 27,
+        "seconds": 13,
+        "percent": 35.37
+      },
+      {
+        "name": "Prisma",
+        "total_seconds": 9.311376,
+        "digital": "0:00:09",
+        "decimal": "0.00",
+        "text": "9 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 9,
+        "percent": 0.2
+      }
+    ],
     "grand_total": {
-      "hours": 0,
-      "minutes": 0,
-      "total_seconds": 0,
-      "digital": "0:00",
-      "decimal": "0.00",
-      "text": "0 secs"
+      "hours": 1,
+      "minutes": 17,
+      "total_seconds": 4620.053201,
+      "digital": "1:17",
+      "decimal": "1.28",
+      "text": "1 hr 17 mins"
     },
+    "editors": [
+      {
+        "name": "VS Code",
+        "total_seconds": 4620.053201,
+        "digital": "1:17:00",
+        "decimal": "1.28",
+        "text": "1 hr 17 mins",
+        "hours": 1,
+        "minutes": 17,
+        "seconds": 0,
+        "percent": 100
+      }
+    ],
+    "operating_systems": [
+      {
+        "name": "Mac",
+        "total_seconds": 4620.053201,
+        "digital": "1:17:00",
+        "decimal": "1.28",
+        "text": "1 hr 17 mins",
+        "hours": 1,
+        "minutes": 17,
+        "seconds": 0,
+        "percent": 100
+      }
+    ],
+    "categories": [
+      {
+        "name": "Coding",
+        "total_seconds": 4620.053201,
+        "digital": "1:17:00",
+        "decimal": "1.28",
+        "text": "1 hr 17 mins",
+        "hours": 1,
+        "minutes": 17,
+        "seconds": 0,
+        "percent": 100
+      }
+    ],
+    "dependencies": [
+      {
+        "name": "prisma",
+        "total_seconds": 1631.881632,
+        "digital": "0:27:11",
+        "decimal": "0.45",
+        "text": "27 mins",
+        "hours": 0,
+        "minutes": 27,
+        "seconds": 11,
+        "percent": 16.52
+      },
+      {
+        "name": "client",
+        "total_seconds": 1006.011683,
+        "digital": "0:16:46",
+        "decimal": "0.27",
+        "text": "16 mins",
+        "hours": 0,
+        "minutes": 16,
+        "seconds": 46,
+        "percent": 10.19
+      },
+      {
+        "name": "id",
+        "total_seconds": 1006.011683,
+        "digital": "0:16:46",
+        "decimal": "0.27",
+        "text": "16 mins",
+        "hours": 0,
+        "minutes": 16,
+        "seconds": 46,
+        "percent": 10.19
+      },
+      {
+        "name": "audit",
+        "total_seconds": 969.830825,
+        "digital": "0:16:09",
+        "decimal": "0.27",
+        "text": "16 mins",
+        "hours": 0,
+        "minutes": 16,
+        "seconds": 9,
+        "percent": 9.82
+      },
+      {
+        "name": "search",
+        "total_seconds": 948.955373,
+        "digital": "0:15:48",
+        "decimal": "0.25",
+        "text": "15 mins",
+        "hours": 0,
+        "minutes": 15,
+        "seconds": 48,
+        "percent": 9.61
+      },
+      {
+        "name": "hono",
+        "total_seconds": 947.907844,
+        "digital": "0:15:47",
+        "decimal": "0.25",
+        "text": "15 mins",
+        "hours": 0,
+        "minutes": 15,
+        "seconds": 47,
+        "percent": 9.6
+      },
+      {
+        "name": "nextjs",
+        "total_seconds": 673.879431,
+        "digital": "0:11:13",
+        "decimal": "0.18",
+        "text": "11 mins",
+        "hours": 0,
+        "minutes": 11,
+        "seconds": 13,
+        "percent": 6.82
+      },
+      {
+        "name": "generate-contact-metadata",
+        "total_seconds": 628.673018,
+        "digital": "0:10:28",
+        "decimal": "0.17",
+        "text": "10 mins",
+        "hours": 0,
+        "minutes": 10,
+        "seconds": 28,
+        "percent": 6.37
+      },
+      {
+        "name": "prompts-helpers",
+        "total_seconds": 625.869949,
+        "digital": "0:10:25",
+        "decimal": "0.17",
+        "text": "10 mins",
+        "hours": 0,
+        "minutes": 10,
+        "seconds": 25,
+        "percent": 6.34
+      },
+      {
+        "name": "generate-thread",
+        "total_seconds": 625.869949,
+        "digital": "0:10:25",
+        "decimal": "0.17",
+        "text": "10 mins",
+        "hours": 0,
+        "minutes": 10,
+        "seconds": 25,
+        "percent": 6.34
+      },
+      {
+        "name": "prompt-parsers",
+        "total_seconds": 625.869949,
+        "digital": "0:10:25",
+        "decimal": "0.17",
+        "text": "10 mins",
+        "hours": 0,
+        "minutes": 10,
+        "seconds": 25,
+        "percent": 6.34
+      },
+      {
+        "name": "luxon",
+        "total_seconds": 36.888869,
+        "digital": "0:00:36",
+        "decimal": "0.00",
+        "text": "36 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 36,
+        "percent": 0.37
+      },
+      {
+        "name": "generate-email-follow-up-body",
+        "total_seconds": 35.133329,
+        "digital": "0:00:35",
+        "decimal": "0.00",
+        "text": "35 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 35,
+        "percent": 0.36
+      },
+      {
+        "name": "zod",
+        "total_seconds": 21.922981,
+        "digital": "0:00:21",
+        "decimal": "0.00",
+        "text": "21 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 21,
+        "percent": 0.22
+      },
+      {
+        "name": "string",
+        "total_seconds": 21.922981,
+        "digital": "0:00:21",
+        "decimal": "0.00",
+        "text": "21 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 21,
+        "percent": 0.22
+      },
+      {
+        "name": "sentry.server.config",
+        "total_seconds": 21.710004,
+        "digital": "0:00:21",
+        "decimal": "0.00",
+        "text": "21 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 21,
+        "percent": 0.22
+      },
+      {
+        "name": "nylas",
+        "total_seconds": 20.167441,
+        "digital": "0:00:20",
+        "decimal": "0.00",
+        "text": "20 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 20,
+        "percent": 0.2
+      },
+      {
+        "name": "teams-$teamId-contacts-helpers",
+        "total_seconds": 1.75554,
+        "digital": "0:00:01",
+        "decimal": "0.00",
+        "text": "1 sec",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 1,
+        "percent": 0.02
+      },
+      {
+        "name": "teams-$teamId-contacts-$contactId-moments-$momentId-helpers",
+        "total_seconds": 1.75554,
+        "digital": "0:00:01",
+        "decimal": "0.00",
+        "text": "1 sec",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 1,
+        "percent": 0.02
+      },
+      {
+        "name": "crypto",
+        "total_seconds": 1.75554,
+        "digital": "0:00:01",
+        "decimal": "0.00",
+        "text": "1 sec",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 1,
+        "percent": 0.02
+      },
+      {
+        "name": "generate-email-reply-body",
+        "total_seconds": 1.75554,
+        "digital": "0:00:01",
+        "decimal": "0.00",
+        "text": "1 sec",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 1,
+        "percent": 0.02
+      },
+      {
+        "name": "apollo.client",
+        "total_seconds": 1.75554,
+        "digital": "0:00:01",
+        "decimal": "0.00",
+        "text": "1 sec",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 1,
+        "percent": 0.02
+      },
+      {
+        "name": "teams-$teamId-actions-helpers",
+        "total_seconds": 1.75554,
+        "digital": "0:00:01",
+        "decimal": "0.00",
+        "text": "1 sec",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 1,
+        "percent": 0.02
+      },
+      {
+        "name": "determine-follow-up-date",
+        "total_seconds": 1.75554,
+        "digital": "0:00:01",
+        "decimal": "0.00",
+        "text": "1 sec",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 1,
+        "percent": 0.02
+      },
+      {
+        "name": "teams-$teamId-helpers",
+        "total_seconds": 1.75554,
+        "digital": "0:00:01",
+        "decimal": "0.00",
+        "text": "1 sec",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 1,
+        "percent": 0.02
+      },
+      {
+        "name": "generate-email-outreach-mentioned-person",
+        "total_seconds": 1.75554,
+        "digital": "0:00:01",
+        "decimal": "0.00",
+        "text": "1 sec",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 1,
+        "percent": 0.02
+      },
+      {
+        "name": "determine-mentioned-persons",
+        "total_seconds": 1.75554,
+        "digital": "0:00:01",
+        "decimal": "0.00",
+        "text": "1 sec",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 1,
+        "percent": 0.02
+      },
+      {
+        "name": "people-match",
+        "total_seconds": 1.75554,
+        "digital": "0:00:01",
+        "decimal": "0.00",
+        "text": "1 sec",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 1,
+        "percent": 0.02
+      },
+      {
+        "name": "inngest",
+        "total_seconds": 1.75554,
+        "digital": "0:00:01",
+        "decimal": "0.00",
+        "text": "1 sec",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 1,
+        "percent": 0.02
+      },
+      {
+        "name": "determine-asked-questions",
+        "total_seconds": 1.75554,
+        "digital": "0:00:01",
+        "decimal": "0.00",
+        "text": "1 sec",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 1,
+        "percent": 0.02
+      },
+      {
+        "name": "generate-enriched-field-value",
+        "total_seconds": 1.047529,
+        "digital": "0:00:01",
+        "decimal": "0.00",
+        "text": "1 sec",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 1,
+        "percent": 0.01
+      },
+      {
+        "name": "generate-one-shot-preview",
+        "total_seconds": 1.047529,
+        "digital": "0:00:01",
+        "decimal": "0.00",
+        "text": "1 sec",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 1,
+        "percent": 0.01
+      },
+      {
+        "name": "generate-campaign-email",
+        "total_seconds": 1.047529,
+        "digital": "0:00:01",
+        "decimal": "0.00",
+        "text": "1 sec",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 1,
+        "percent": 0.01
+      },
+      {
+        "name": "generate-copy",
+        "total_seconds": 1.047529,
+        "digital": "0:00:01",
+        "decimal": "0.00",
+        "text": "1 sec",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 1,
+        "percent": 0.01
+      },
+      {
+        "name": "http-exception",
+        "total_seconds": 1.047529,
+        "digital": "0:00:01",
+        "decimal": "0.00",
+        "text": "1 sec",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 1,
+        "percent": 0.01
+      }
+    ],
+    "machines": [
+      {
+        "name": "Anand's+MacBook+Pro",
+        "total_seconds": 4620.053201,
+        "machine_name_id": "018cb978-1ca8-4622-9753-5bd097d954c8",
+        "digital": "1:17:00",
+        "decimal": "1.28",
+        "text": "1 hr 17 mins",
+        "hours": 1,
+        "minutes": 17,
+        "seconds": 0,
+        "percent": 100
+      }
+    ],
+    "projects": [
+      {
+        "name": "Unknown Project",
+        "total_seconds": 2976.833863,
+        "color": null,
+        "digital": "0:49:36",
+        "decimal": "0.82",
+        "text": "49 mins",
+        "hours": 0,
+        "minutes": 49,
+        "seconds": 36,
+        "percent": 64.43
+      },
+      {
+        "name": "1q4",
+        "total_seconds": 1643.219338,
+        "color": null,
+        "digital": "0:27:23",
+        "decimal": "0.45",
+        "text": "27 mins",
+        "hours": 0,
+        "minutes": 27,
+        "seconds": 23,
+        "percent": 35.57
+      }
+    ],
     "range": {
       "start": "2023-12-29T23:00:00Z",
       "end": "2023-12-30T22:59:59Z",
       "date": "2023-12-30",
       "text": "Sat Dec 30th 2023",
       "timezone": "Europe/Amsterdam"
-    },
-    "projects": [],
-    "languages": [],
-    "dependencies": [],
-    "machines": [],
-    "editors": [],
-    "operating_systems": [],
-    "categories": []
+    }
   }
 ]
