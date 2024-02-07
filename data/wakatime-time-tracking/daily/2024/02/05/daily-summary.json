@@ -1,26 +1,332 @@
 [
   {
+    "languages": [
+      {
+        "name": "Other",
+        "total_seconds": 11308.212325,
+        "digital": "3:08:28",
+        "decimal": "3.13",
+        "text": "3 hrs 8 mins",
+        "hours": 3,
+        "minutes": 8,
+        "seconds": 28,
+        "percent": 95.14
+      },
+      {
+        "name": "TypeScript",
+        "total_seconds": 564.858686,
+        "digital": "0:09:24",
+        "decimal": "0.15",
+        "text": "9 mins",
+        "hours": 0,
+        "minutes": 9,
+        "seconds": 24,
+        "percent": 4.75
+      },
+      {
+        "name": "JSON",
+        "total_seconds": 12.889328,
+        "digital": "0:00:12",
+        "decimal": "0.00",
+        "text": "12 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 12,
+        "percent": 0.11
+      }
+    ],
     "grand_total": {
-      "hours": 0,
-      "minutes": 0,
-      "total_seconds": 0,
-      "digital": "0:00",
-      "decimal": "0.00",
-      "text": "0 secs"
+      "hours": 3,
+      "minutes": 18,
+      "total_seconds": 11885.960339,
+      "digital": "3:18",
+      "decimal": "3.30",
+      "text": "3 hrs 18 mins"
     },
+    "editors": [
+      {
+        "name": "VS Code",
+        "total_seconds": 11885.960339,
+        "digital": "3:18:05",
+        "decimal": "3.30",
+        "text": "3 hrs 18 mins",
+        "hours": 3,
+        "minutes": 18,
+        "seconds": 5,
+        "percent": 100
+      }
+    ],
+    "operating_systems": [
+      {
+        "name": "Mac",
+        "total_seconds": 11885.960339,
+        "digital": "3:18:05",
+        "decimal": "3.30",
+        "text": "3 hrs 18 mins",
+        "hours": 3,
+        "minutes": 18,
+        "seconds": 5,
+        "percent": 100
+      }
+    ],
+    "categories": [
+      {
+        "name": "Coding",
+        "total_seconds": 11885.960339,
+        "digital": "3:18:05",
+        "decimal": "3.30",
+        "text": "3 hrs 18 mins",
+        "hours": 3,
+        "minutes": 18,
+        "seconds": 5,
+        "percent": 100
+      }
+    ],
+    "dependencies": [
+      {
+        "name": "client",
+        "total_seconds": 563.396954,
+        "digital": "0:09:23",
+        "decimal": "0.15",
+        "text": "9 mins",
+        "hours": 0,
+        "minutes": 9,
+        "seconds": 23,
+        "percent": 13.26
+      },
+      {
+        "name": "prisma",
+        "total_seconds": 563.396954,
+        "digital": "0:09:23",
+        "decimal": "0.15",
+        "text": "9 mins",
+        "hours": 0,
+        "minutes": 9,
+        "seconds": 23,
+        "percent": 13.26
+      },
+      {
+        "name": "zod",
+        "total_seconds": 544.61951,
+        "digital": "0:09:04",
+        "decimal": "0.15",
+        "text": "9 mins",
+        "hours": 0,
+        "minutes": 9,
+        "seconds": 4,
+        "percent": 12.82
+      },
+      {
+        "name": "search",
+        "total_seconds": 328.216146,
+        "digital": "0:05:28",
+        "decimal": "0.08",
+        "text": "5 mins",
+        "hours": 0,
+        "minutes": 5,
+        "seconds": 28,
+        "percent": 7.72
+      },
+      {
+        "name": "zod-validation-error",
+        "total_seconds": 328.216146,
+        "digital": "0:05:28",
+        "decimal": "0.08",
+        "text": "5 mins",
+        "hours": 0,
+        "minutes": 5,
+        "seconds": 28,
+        "percent": 7.72
+      },
+      {
+        "name": "openai",
+        "total_seconds": 328.216146,
+        "digital": "0:05:28",
+        "decimal": "0.08",
+        "text": "5 mins",
+        "hours": 0,
+        "minutes": 5,
+        "seconds": 28,
+        "percent": 7.72
+      },
+      {
+        "name": "id",
+        "total_seconds": 328.216146,
+        "digital": "0:05:28",
+        "decimal": "0.08",
+        "text": "5 mins",
+        "hours": 0,
+        "minutes": 5,
+        "seconds": 28,
+        "percent": 7.72
+      },
+      {
+        "name": "completions",
+        "total_seconds": 328.216146,
+        "digital": "0:05:28",
+        "decimal": "0.08",
+        "text": "5 mins",
+        "hours": 0,
+        "minutes": 5,
+        "seconds": 28,
+        "percent": 7.72
+      },
+      {
+        "name": "prompts-helpers",
+        "total_seconds": 233.394164,
+        "digital": "0:03:53",
+        "decimal": "0.05",
+        "text": "3 mins",
+        "hours": 0,
+        "minutes": 3,
+        "seconds": 53,
+        "percent": 5.49
+      },
+      {
+        "name": "generate-contact-metadata",
+        "total_seconds": 220.960551,
+        "digital": "0:03:40",
+        "decimal": "0.05",
+        "text": "3 mins",
+        "hours": 0,
+        "minutes": 3,
+        "seconds": 40,
+        "percent": 5.2
+      },
+      {
+        "name": "google-custom-search",
+        "total_seconds": 216.403364,
+        "digital": "0:03:36",
+        "decimal": "0.05",
+        "text": "3 mins",
+        "hours": 0,
+        "minutes": 3,
+        "seconds": 36,
+        "percent": 5.09
+      },
+      {
+        "name": "scraping-bee",
+        "total_seconds": 216.403364,
+        "digital": "0:03:36",
+        "decimal": "0.05",
+        "text": "3 mins",
+        "hours": 0,
+        "minutes": 3,
+        "seconds": 36,
+        "percent": 5.09
+      },
+      {
+        "name": "concurrency",
+        "total_seconds": 16.006901,
+        "digital": "0:00:16",
+        "decimal": "0.00",
+        "text": "16 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 16,
+        "percent": 0.38
+      },
+      {
+        "name": "audit",
+        "total_seconds": 14.220257,
+        "digital": "0:00:14",
+        "decimal": "0.00",
+        "text": "14 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 14,
+        "percent": 0.33
+      },
+      {
+        "name": "teams-$teamId-campaigns-$campaignId-audience-prospect-helpers",
+        "total_seconds": 14.220257,
+        "digital": "0:00:14",
+        "decimal": "0.00",
+        "text": "14 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 14,
+        "percent": 0.33
+      },
+      {
+        "name": "generate-thread",
+        "total_seconds": 2.770543,
+        "digital": "0:00:02",
+        "decimal": "0.00",
+        "text": "2 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 2,
+        "percent": 0.07
+      },
+      {
+        "name": "generate-enriched-field-value",
+        "total_seconds": 1.786644,
+        "digital": "0:00:01",
+        "decimal": "0.00",
+        "text": "1 sec",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 1,
+        "percent": 0.04
+      },
+      {
+        "name": "tailwindcss",
+        "total_seconds": 0.576138,
+        "digital": "0:00:00",
+        "decimal": "0.00",
+        "text": "0 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0,
+        "percent": 0.01
+      },
+      {
+        "name": "defaultTheme",
+        "total_seconds": 0.576138,
+        "digital": "0:00:00",
+        "decimal": "0.00",
+        "text": "0 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0,
+        "percent": 0.01
+      }
+    ],
+    "machines": [
+      {
+        "name": "Anand's+MacBook+Pro",
+        "total_seconds": 11885.960339,
+        "machine_name_id": "018d2788-708d-4f43-a7cf-8c3020a4b466",
+        "digital": "3:18:05",
+        "decimal": "3.30",
+        "text": "3 hrs 18 mins",
+        "hours": 3,
+        "minutes": 18,
+        "seconds": 5,
+        "percent": 100
+      }
+    ],
+    "projects": [
+      {
+        "name": "1q4",
+        "total_seconds": 11885.960339,
+        "color": null,
+        "digital": "3:18:05",
+        "decimal": "3.30",
+        "text": "3 hrs 18 mins",
+        "hours": 3,
+        "minutes": 18,
+        "seconds": 5,
+        "percent": 100
+      }
+    ],
     "range": {
       "start": "2024-02-05T23:00:00Z",
       "end": "2024-02-06T22:59:59Z",
       "date": "2024-02-06",
       "text": "Tue Feb 6th 2024",
       "timezone": "Europe/Amsterdam"
-    },
-    "projects": [],
-    "languages": [],
-    "dependencies": [],
-    "machines": [],
-    "editors": [],
-    "operating_systems": [],
-    "categories": []
+    }
   }
 ]
