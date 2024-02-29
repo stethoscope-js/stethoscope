@@ -1,26 +1,903 @@
 [
   {
+    "languages": [
+      {
+        "name": "TypeScript",
+        "total_seconds": 2958.175908,
+        "digital": "0:49:18",
+        "decimal": "0.82",
+        "text": "49 mins",
+        "hours": 0,
+        "minutes": 49,
+        "seconds": 18,
+        "percent": 96.54
+      },
+      {
+        "name": "Other",
+        "total_seconds": 106.029521,
+        "digital": "0:01:46",
+        "decimal": "0.02",
+        "text": "1 min",
+        "hours": 0,
+        "minutes": 1,
+        "seconds": 46,
+        "percent": 3.46
+      }
+    ],
     "grand_total": {
       "hours": 0,
-      "minutes": 0,
-      "total_seconds": 0,
-      "digital": "0:00",
-      "decimal": "0.00",
-      "text": "0 secs"
+      "minutes": 51,
+      "total_seconds": 3064.205429,
+      "digital": "0:51",
+      "decimal": "0.85",
+      "text": "51 mins"
     },
+    "editors": [
+      {
+        "name": "VS Code",
+        "total_seconds": 3064.205429,
+        "digital": "0:51:04",
+        "decimal": "0.85",
+        "text": "51 mins",
+        "hours": 0,
+        "minutes": 51,
+        "seconds": 4,
+        "percent": 100
+      }
+    ],
+    "operating_systems": [
+      {
+        "name": "Mac",
+        "total_seconds": 3064.205429,
+        "digital": "0:51:04",
+        "decimal": "0.85",
+        "text": "51 mins",
+        "hours": 0,
+        "minutes": 51,
+        "seconds": 4,
+        "percent": 100
+      }
+    ],
+    "categories": [
+      {
+        "name": "Coding",
+        "total_seconds": 3064.205429,
+        "digital": "0:51:04",
+        "decimal": "0.85",
+        "text": "51 mins",
+        "hours": 0,
+        "minutes": 51,
+        "seconds": 4,
+        "percent": 100
+      }
+    ],
+    "dependencies": [
+      {
+        "name": "http-exception",
+        "total_seconds": 1836.813645,
+        "digital": "0:30:36",
+        "decimal": "0.50",
+        "text": "30 mins",
+        "hours": 0,
+        "minutes": 30,
+        "seconds": 36,
+        "percent": 5.85
+      },
+      {
+        "name": "nylas",
+        "total_seconds": 1659.087789,
+        "digital": "0:27:39",
+        "decimal": "0.45",
+        "text": "27 mins",
+        "hours": 0,
+        "minutes": 27,
+        "seconds": 39,
+        "percent": 5.28
+      },
+      {
+        "name": "client",
+        "total_seconds": 1592.248593,
+        "digital": "0:26:32",
+        "decimal": "0.43",
+        "text": "26 mins",
+        "hours": 0,
+        "minutes": 26,
+        "seconds": 32,
+        "percent": 5.07
+      },
+      {
+        "name": "zod",
+        "total_seconds": 1497.344586,
+        "digital": "0:24:57",
+        "decimal": "0.40",
+        "text": "24 mins",
+        "hours": 0,
+        "minutes": 24,
+        "seconds": 57,
+        "percent": 4.77
+      },
+      {
+        "name": "id",
+        "total_seconds": 1435.483211,
+        "digital": "0:23:55",
+        "decimal": "0.38",
+        "text": "23 mins",
+        "hours": 0,
+        "minutes": 23,
+        "seconds": 55,
+        "percent": 4.57
+      },
+      {
+        "name": "hono",
+        "total_seconds": 1391.73899,
+        "digital": "0:23:11",
+        "decimal": "0.38",
+        "text": "23 mins",
+        "hours": 0,
+        "minutes": 23,
+        "seconds": 11,
+        "percent": 4.43
+      },
+      {
+        "name": "prisma",
+        "total_seconds": 1265.069167,
+        "digital": "0:21:05",
+        "decimal": "0.35",
+        "text": "21 mins",
+        "hours": 0,
+        "minutes": 21,
+        "seconds": 5,
+        "percent": 4.03
+      },
+      {
+        "name": "teams-$teamId-mailboxes-helpers",
+        "total_seconds": 858.379364,
+        "digital": "0:14:18",
+        "decimal": "0.23",
+        "text": "14 mins",
+        "hours": 0,
+        "minutes": 14,
+        "seconds": 18,
+        "percent": 2.73
+      },
+      {
+        "name": "axios",
+        "total_seconds": 846.773576,
+        "digital": "0:14:06",
+        "decimal": "0.23",
+        "text": "14 mins",
+        "hours": 0,
+        "minutes": 14,
+        "seconds": 6,
+        "percent": 2.7
+      },
+      {
+        "name": "auth-helpers",
+        "total_seconds": 815.068183,
+        "digital": "0:13:35",
+        "decimal": "0.22",
+        "text": "13 mins",
+        "hours": 0,
+        "minutes": 13,
+        "seconds": 35,
+        "percent": 2.59
+      },
+      {
+        "name": "teams-$teamId-helpers",
+        "total_seconds": 815.068183,
+        "digital": "0:13:35",
+        "decimal": "0.22",
+        "text": "13 mins",
+        "hours": 0,
+        "minutes": 13,
+        "seconds": 35,
+        "percent": 2.59
+      },
+      {
+        "name": "env",
+        "total_seconds": 805.574621,
+        "digital": "0:13:25",
+        "decimal": "0.22",
+        "text": "13 mins",
+        "hours": 0,
+        "minutes": 13,
+        "seconds": 25,
+        "percent": 2.56
+      },
+      {
+        "name": "draft",
+        "total_seconds": 803.24919,
+        "digital": "0:13:23",
+        "decimal": "0.22",
+        "text": "13 mins",
+        "hours": 0,
+        "minutes": 13,
+        "seconds": 23,
+        "percent": 2.56
+      },
+      {
+        "name": "audit",
+        "total_seconds": 731.885825,
+        "digital": "0:12:11",
+        "decimal": "0.20",
+        "text": "12 mins",
+        "hours": 0,
+        "minutes": 12,
+        "seconds": 11,
+        "percent": 2.33
+      },
+      {
+        "name": "fetch",
+        "total_seconds": 711.383179,
+        "digital": "0:11:51",
+        "decimal": "0.18",
+        "text": "11 mins",
+        "hours": 0,
+        "minutes": 11,
+        "seconds": 51,
+        "percent": 2.26
+      },
+      {
+        "name": "navigation",
+        "total_seconds": 711.383179,
+        "digital": "0:11:51",
+        "decimal": "0.18",
+        "text": "11 mins",
+        "hours": 0,
+        "minutes": 11,
+        "seconds": 51,
+        "percent": 2.26
+      },
+      {
+        "name": "search",
+        "total_seconds": 695.925192,
+        "digital": "0:11:35",
+        "decimal": "0.18",
+        "text": "11 mins",
+        "hours": 0,
+        "minutes": 11,
+        "seconds": 35,
+        "percent": 2.22
+      },
+      {
+        "name": "columns",
+        "total_seconds": 594.031631,
+        "digital": "0:09:54",
+        "decimal": "0.15",
+        "text": "9 mins",
+        "hours": 0,
+        "minutes": 9,
+        "seconds": 54,
+        "percent": 1.89
+      },
+      {
+        "name": "view",
+        "total_seconds": 594.031631,
+        "digital": "0:09:54",
+        "decimal": "0.15",
+        "text": "9 mins",
+        "hours": 0,
+        "minutes": 9,
+        "seconds": 54,
+        "percent": 1.89
+      },
+      {
+        "name": "icons-react",
+        "total_seconds": 594.031631,
+        "digital": "0:09:54",
+        "decimal": "0.15",
+        "text": "9 mins",
+        "hours": 0,
+        "minutes": 9,
+        "seconds": 54,
+        "percent": 1.89
+      },
+      {
+        "name": "confirm-dialog",
+        "total_seconds": 594.031631,
+        "digital": "0:09:54",
+        "decimal": "0.15",
+        "text": "9 mins",
+        "hours": 0,
+        "minutes": 9,
+        "seconds": 54,
+        "percent": 1.89
+      },
+      {
+        "name": "connect-button",
+        "total_seconds": 594.031631,
+        "digital": "0:09:54",
+        "decimal": "0.15",
+        "text": "9 mins",
+        "hours": 0,
+        "minutes": 9,
+        "seconds": 54,
+        "percent": 1.89
+      },
+      {
+        "name": "teams-route",
+        "total_seconds": 564.754624,
+        "digital": "0:09:24",
+        "decimal": "0.15",
+        "text": "9 mins",
+        "hours": 0,
+        "minutes": 9,
+        "seconds": 24,
+        "percent": 1.8
+      },
+      {
+        "name": "vercel",
+        "total_seconds": 564.754624,
+        "digital": "0:09:24",
+        "decimal": "0.15",
+        "text": "9 mins",
+        "hours": 0,
+        "minutes": 9,
+        "seconds": 24,
+        "percent": 1.8
+      },
+      {
+        "name": "webhooks-route",
+        "total_seconds": 564.754624,
+        "digital": "0:09:24",
+        "decimal": "0.15",
+        "text": "9 mins",
+        "hours": 0,
+        "minutes": 9,
+        "seconds": 24,
+        "percent": 1.8
+      },
+      {
+        "name": "admin-route",
+        "total_seconds": 564.754624,
+        "digital": "0:09:24",
+        "decimal": "0.15",
+        "text": "9 mins",
+        "hours": 0,
+        "minutes": 9,
+        "seconds": 24,
+        "percent": 1.8
+      },
+      {
+        "name": "outbound-domains-router",
+        "total_seconds": 564.754624,
+        "digital": "0:09:24",
+        "decimal": "0.15",
+        "text": "9 mins",
+        "hours": 0,
+        "minutes": 9,
+        "seconds": 24,
+        "percent": 1.8
+      },
+      {
+        "name": "tracking-router",
+        "total_seconds": 564.754624,
+        "digital": "0:09:24",
+        "decimal": "0.15",
+        "text": "9 mins",
+        "hours": 0,
+        "minutes": 9,
+        "seconds": 24,
+        "percent": 1.8
+      },
+      {
+        "name": "sentry",
+        "total_seconds": 564.754624,
+        "digital": "0:09:24",
+        "decimal": "0.15",
+        "text": "9 mins",
+        "hours": 0,
+        "minutes": 9,
+        "seconds": 24,
+        "percent": 1.8
+      },
+      {
+        "name": "logger",
+        "total_seconds": 564.754624,
+        "digital": "0:09:24",
+        "decimal": "0.15",
+        "text": "9 mins",
+        "hours": 0,
+        "minutes": 9,
+        "seconds": 24,
+        "percent": 1.8
+      },
+      {
+        "name": "queue-route",
+        "total_seconds": 564.754624,
+        "digital": "0:09:24",
+        "decimal": "0.15",
+        "text": "9 mins",
+        "hours": 0,
+        "minutes": 9,
+        "seconds": 24,
+        "percent": 1.8
+      },
+      {
+        "name": "zod-validation-error",
+        "total_seconds": 564.754624,
+        "digital": "0:09:24",
+        "decimal": "0.15",
+        "text": "9 mins",
+        "hours": 0,
+        "minutes": 9,
+        "seconds": 24,
+        "percent": 1.8
+      },
+      {
+        "name": "users-route",
+        "total_seconds": 564.754624,
+        "digital": "0:09:24",
+        "decimal": "0.15",
+        "text": "9 mins",
+        "hours": 0,
+        "minutes": 9,
+        "seconds": 24,
+        "percent": 1.8
+      },
+      {
+        "name": "nextjs",
+        "total_seconds": 564.754624,
+        "digital": "0:09:24",
+        "decimal": "0.15",
+        "text": "9 mins",
+        "hours": 0,
+        "minutes": 9,
+        "seconds": 24,
+        "percent": 1.8
+      },
+      {
+        "name": "auth-route",
+        "total_seconds": 564.754624,
+        "digital": "0:09:24",
+        "decimal": "0.15",
+        "text": "9 mins",
+        "hours": 0,
+        "minutes": 9,
+        "seconds": 24,
+        "percent": 1.8
+      },
+      {
+        "name": "jsonwebtoken",
+        "total_seconds": 564.754624,
+        "digital": "0:09:24",
+        "decimal": "0.15",
+        "text": "9 mins",
+        "hours": 0,
+        "minutes": 9,
+        "seconds": 24,
+        "percent": 1.8
+      },
+      {
+        "name": "string",
+        "total_seconds": 180.293767,
+        "digital": "0:03:00",
+        "decimal": "0.05",
+        "text": "3 mins",
+        "hours": 0,
+        "minutes": 3,
+        "seconds": 0,
+        "percent": 0.57
+      },
+      {
+        "name": "email-participant",
+        "total_seconds": 139.409148,
+        "digital": "0:02:19",
+        "decimal": "0.03",
+        "text": "2 mins",
+        "hours": 0,
+        "minutes": 2,
+        "seconds": 19,
+        "percent": 0.44
+      },
+      {
+        "name": "mailreach",
+        "total_seconds": 117.944642,
+        "digital": "0:01:57",
+        "decimal": "0.02",
+        "text": "1 min",
+        "hours": 0,
+        "minutes": 1,
+        "seconds": 57,
+        "percent": 0.38
+      },
+      {
+        "name": "view-modal",
+        "total_seconds": 117.351548,
+        "digital": "0:01:57",
+        "decimal": "0.02",
+        "text": "1 min",
+        "hours": 0,
+        "minutes": 1,
+        "seconds": 57,
+        "percent": 0.37
+      },
+      {
+        "name": "use-team-slug",
+        "total_seconds": 117.351548,
+        "digital": "0:01:57",
+        "decimal": "0.02",
+        "text": "1 min",
+        "hours": 0,
+        "minutes": 1,
+        "seconds": 57,
+        "percent": 0.37
+      },
+      {
+        "name": "form",
+        "total_seconds": 117.351548,
+        "digital": "0:01:57",
+        "decimal": "0.02",
+        "text": "1 min",
+        "hours": 0,
+        "minutes": 1,
+        "seconds": 57,
+        "percent": 0.37
+      },
+      {
+        "name": "spinner",
+        "total_seconds": 117.351548,
+        "digital": "0:01:57",
+        "decimal": "0.02",
+        "text": "1 min",
+        "hours": 0,
+        "minutes": 1,
+        "seconds": 57,
+        "percent": 0.37
+      },
+      {
+        "name": "radio-group",
+        "total_seconds": 117.351548,
+        "digital": "0:01:57",
+        "decimal": "0.02",
+        "text": "1 min",
+        "hours": 0,
+        "minutes": 1,
+        "seconds": 57,
+        "percent": 0.37
+      },
+      {
+        "name": "select",
+        "total_seconds": 117.351548,
+        "digital": "0:01:57",
+        "decimal": "0.02",
+        "text": "1 min",
+        "hours": 0,
+        "minutes": 1,
+        "seconds": 57,
+        "percent": 0.37
+      },
+      {
+        "name": "react-query",
+        "total_seconds": 117.351548,
+        "digital": "0:01:57",
+        "decimal": "0.02",
+        "text": "1 min",
+        "hours": 0,
+        "minutes": 1,
+        "seconds": 57,
+        "percent": 0.37
+      },
+      {
+        "name": "loadable-button",
+        "total_seconds": 117.351548,
+        "digital": "0:01:57",
+        "decimal": "0.02",
+        "text": "1 min",
+        "hours": 0,
+        "minutes": 1,
+        "seconds": 57,
+        "percent": 0.37
+      },
+      {
+        "name": "react-hook-form",
+        "total_seconds": 117.351548,
+        "digital": "0:01:57",
+        "decimal": "0.02",
+        "text": "1 min",
+        "hours": 0,
+        "minutes": 1,
+        "seconds": 57,
+        "percent": 0.37
+      },
+      {
+        "name": "concurrency",
+        "total_seconds": 96.581983,
+        "digital": "0:01:36",
+        "decimal": "0.02",
+        "text": "1 min",
+        "hours": 0,
+        "minutes": 1,
+        "seconds": 36,
+        "percent": 0.31
+      },
+      {
+        "name": "slack",
+        "total_seconds": 89.178496,
+        "digital": "0:01:29",
+        "decimal": "0.02",
+        "text": "1 min",
+        "hours": 0,
+        "minutes": 1,
+        "seconds": 29,
+        "percent": 0.28
+      },
+      {
+        "name": "get-urls",
+        "total_seconds": 52.964105,
+        "digital": "0:00:52",
+        "decimal": "0.00",
+        "text": "52 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 52,
+        "percent": 0.17
+      },
+      {
+        "name": "slugify",
+        "total_seconds": 52.964105,
+        "digital": "0:00:52",
+        "decimal": "0.00",
+        "text": "52 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 52,
+        "percent": 0.17
+      },
+      {
+        "name": "crypto",
+        "total_seconds": 52.964105,
+        "digital": "0:00:52",
+        "decimal": "0.00",
+        "text": "52 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 52,
+        "percent": 0.17
+      },
+      {
+        "name": "mail",
+        "total_seconds": 52.964105,
+        "digital": "0:00:52",
+        "decimal": "0.00",
+        "text": "52 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 52,
+        "percent": 0.17
+      },
+      {
+        "name": "markdown-to-txt",
+        "total_seconds": 52.964105,
+        "digital": "0:00:52",
+        "decimal": "0.00",
+        "text": "52 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 52,
+        "percent": 0.17
+      },
+      {
+        "name": "delete-teams-$teamId-mailboxes-$mailboxId",
+        "total_seconds": 11.916183,
+        "digital": "0:00:11",
+        "decimal": "0.00",
+        "text": "11 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 11,
+        "percent": 0.04
+      },
+      {
+        "name": "get-teams-$teamId-mailboxes-$mailboxId-warming",
+        "total_seconds": 11.916183,
+        "digital": "0:00:11",
+        "decimal": "0.00",
+        "text": "11 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 11,
+        "percent": 0.04
+      },
+      {
+        "name": "get-teams-$teamId-mailboxes-$mailboxId-schedule",
+        "total_seconds": 11.916183,
+        "digital": "0:00:11",
+        "decimal": "0.00",
+        "text": "11 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 11,
+        "percent": 0.04
+      },
+      {
+        "name": "post-teams-$teamId-mailboxes-$mailboxId-enable-warming",
+        "total_seconds": 11.916183,
+        "digital": "0:00:11",
+        "decimal": "0.00",
+        "text": "11 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 11,
+        "percent": 0.04
+      },
+      {
+        "name": "patch-teams-$teamId-mailboxes-$mailboxId",
+        "total_seconds": 11.916183,
+        "digital": "0:00:11",
+        "decimal": "0.00",
+        "text": "11 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 11,
+        "percent": 0.04
+      },
+      {
+        "name": "post-teams-$teamId-mailboxes-$mailboxId-sync",
+        "total_seconds": 11.916183,
+        "digital": "0:00:11",
+        "decimal": "0.00",
+        "text": "11 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 11,
+        "percent": 0.04
+      },
+      {
+        "name": "get-teams-$teamId-mailboxes-$mailboxId",
+        "total_seconds": 11.916183,
+        "digital": "0:00:11",
+        "decimal": "0.00",
+        "text": "11 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 11,
+        "percent": 0.04
+      },
+      {
+        "name": "stripe",
+        "total_seconds": 7.403487,
+        "digital": "0:00:07",
+        "decimal": "0.00",
+        "text": "7 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 7,
+        "percent": 0.02
+      },
+      {
+        "name": "teams-$teamId-campaigns-$campaignId-outbound-helpers",
+        "total_seconds": 6.430637,
+        "digital": "0:00:06",
+        "decimal": "0.00",
+        "text": "6 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 6,
+        "percent": 0.02
+      },
+      {
+        "name": "seedrandom",
+        "total_seconds": 5.490372,
+        "digital": "0:00:05",
+        "decimal": "0.00",
+        "text": "5 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 5,
+        "percent": 0.02
+      },
+      {
+        "name": "luxon",
+        "total_seconds": 5.490372,
+        "digital": "0:00:05",
+        "decimal": "0.00",
+        "text": "5 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 5,
+        "percent": 0.02
+      },
+      {
+        "name": "generate-one-shot-preview",
+        "total_seconds": 2.696299,
+        "digital": "0:00:02",
+        "decimal": "0.00",
+        "text": "2 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 2,
+        "percent": 0.01
+      },
+      {
+        "name": "generate-campaign-email",
+        "total_seconds": 2.696299,
+        "digital": "0:00:02",
+        "decimal": "0.00",
+        "text": "2 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 2,
+        "percent": 0.01
+      },
+      {
+        "name": "generate-enriched-field-value",
+        "total_seconds": 2.696299,
+        "digital": "0:00:02",
+        "decimal": "0.00",
+        "text": "2 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 2,
+        "percent": 0.01
+      },
+      {
+        "name": "generate-contact-metadata",
+        "total_seconds": 2.696299,
+        "digital": "0:00:02",
+        "decimal": "0.00",
+        "text": "2 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 2,
+        "percent": 0.01
+      },
+      {
+        "name": "generate-copy",
+        "total_seconds": 2.696299,
+        "digital": "0:00:02",
+        "decimal": "0.00",
+        "text": "2 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 2,
+        "percent": 0.01
+      },
+      {
+        "name": "post-teams-$teamId-mailboxes-$mailboxId-spam-test",
+        "total_seconds": 2.413495,
+        "digital": "0:00:02",
+        "decimal": "0.00",
+        "text": "2 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 2,
+        "percent": 0.01
+      }
+    ],
+    "machines": [
+      {
+        "name": "Anand's+MacBook+Pro",
+        "total_seconds": 3064.205429,
+        "machine_name_id": "018d2788-708d-4f43-a7cf-8c3020a4b466",
+        "digital": "0:51:04",
+        "decimal": "0.85",
+        "text": "51 mins",
+        "hours": 0,
+        "minutes": 51,
+        "seconds": 4,
+        "percent": 100
+      }
+    ],
+    "projects": [
+      {
+        "name": "1q4",
+        "total_seconds": 3064.205429,
+        "digital": "0:51:04",
+        "decimal": "0.85",
+        "text": "51 mins",
+        "hours": 0,
+        "minutes": 51,
+        "seconds": 4,
+        "percent": 100
+      }
+    ],
     "range": {
       "start": "2024-02-27T23:00:00Z",
       "end": "2024-02-28T22:59:59Z",
       "date": "2024-02-28",
       "text": "Wed Feb 28th 2024",
       "timezone": "Europe/Amsterdam"
-    },
-    "projects": [],
-    "languages": [],
-    "dependencies": [],
-    "machines": [],
-    "editors": [],
-    "operating_systems": [],
-    "categories": []
+    }
   }
 ]
