@@ -1,58 +1,5 @@
 [
   {
-    "grand_total": {
-      "hours": 6,
-      "minutes": 4,
-      "total_seconds": 21893.210316,
-      "digital": "6:04",
-      "decimal": "6.07",
-      "text": "6 hrs 4 mins"
-    },
-    "range": {
-      "start": "2024-04-08T22:00:00Z",
-      "end": "2024-04-09T21:59:59Z",
-      "date": "2024-04-09",
-      "text": "Tue Apr 9th 2024",
-      "timezone": "Europe/Amsterdam"
-    },
-    "projects": [
-      {
-        "name": "1q4",
-        "total_seconds": 18997.362482,
-        "color": null,
-        "digital": "5:16:37",
-        "decimal": "5.27",
-        "text": "5 hrs 16 mins",
-        "hours": 5,
-        "minutes": 16,
-        "seconds": 37,
-        "percent": 86.77
-      },
-      {
-        "name": "expenses",
-        "total_seconds": 2842.343413,
-        "color": null,
-        "digital": "0:47:22",
-        "decimal": "0.78",
-        "text": "47 mins",
-        "hours": 0,
-        "minutes": 47,
-        "seconds": 22,
-        "percent": 12.98
-      },
-      {
-        "name": "paisa-companion",
-        "total_seconds": 53.504421,
-        "color": null,
-        "digital": "0:00:53",
-        "decimal": "0.00",
-        "text": "53 secs",
-        "hours": 0,
-        "minutes": 0,
-        "seconds": 53,
-        "percent": 0.24
-      }
-    ],
     "languages": [
       {
         "name": "TypeScript",
@@ -141,6 +88,53 @@
         "minutes": 0,
         "seconds": 0,
         "percent": 0
+      }
+    ],
+    "grand_total": {
+      "hours": 6,
+      "minutes": 4,
+      "total_seconds": 21893.210316,
+      "digital": "6:04",
+      "decimal": "6.07",
+      "text": "6 hrs 4 mins"
+    },
+    "editors": [
+      {
+        "name": "VS Code",
+        "total_seconds": 21893.210316,
+        "digital": "6:04:53",
+        "decimal": "6.07",
+        "text": "6 hrs 4 mins",
+        "hours": 6,
+        "minutes": 4,
+        "seconds": 53,
+        "percent": 100
+      }
+    ],
+    "operating_systems": [
+      {
+        "name": "Mac",
+        "total_seconds": 21893.210316,
+        "digital": "6:04:53",
+        "decimal": "6.07",
+        "text": "6 hrs 4 mins",
+        "hours": 6,
+        "minutes": 4,
+        "seconds": 53,
+        "percent": 100
+      }
+    ],
+    "categories": [
+      {
+        "name": "Coding",
+        "total_seconds": 21893.210316,
+        "digital": "6:04:53",
+        "decimal": "6.07",
+        "text": "6 hrs 4 mins",
+        "hours": 6,
+        "minutes": 4,
+        "seconds": 53,
+        "percent": 100
       }
     ],
     "dependencies": [
@@ -14723,44 +14717,50 @@
         "percent": 100
       }
     ],
-    "editors": [
+    "projects": [
       {
-        "name": "VS Code",
-        "total_seconds": 21893.210316,
-        "digital": "6:04:53",
-        "decimal": "6.07",
-        "text": "6 hrs 4 mins",
-        "hours": 6,
-        "minutes": 4,
+        "name": "1q4",
+        "total_seconds": 18997.362482,
+        "color": null,
+        "digital": "5:16:37",
+        "decimal": "5.27",
+        "text": "5 hrs 16 mins",
+        "hours": 5,
+        "minutes": 16,
+        "seconds": 37,
+        "percent": 86.77
+      },
+      {
+        "name": "expenses",
+        "total_seconds": 2842.343413,
+        "color": null,
+        "digital": "0:47:22",
+        "decimal": "0.78",
+        "text": "47 mins",
+        "hours": 0,
+        "minutes": 47,
+        "seconds": 22,
+        "percent": 12.98
+      },
+      {
+        "name": "paisa-companion",
+        "total_seconds": 53.504421,
+        "color": null,
+        "digital": "0:00:53",
+        "decimal": "0.00",
+        "text": "53 secs",
+        "hours": 0,
+        "minutes": 0,
         "seconds": 53,
-        "percent": 100
+        "percent": 0.24
       }
     ],
-    "operating_systems": [
-      {
-        "name": "Mac",
-        "total_seconds": 21893.210316,
-        "digital": "6:04:53",
-        "decimal": "6.07",
-        "text": "6 hrs 4 mins",
-        "hours": 6,
-        "minutes": 4,
-        "seconds": 53,
-        "percent": 100
-      }
-    ],
-    "categories": [
-      {
-        "name": "Coding",
-        "total_seconds": 21893.210316,
-        "digital": "6:04:53",
-        "decimal": "6.07",
-        "text": "6 hrs 4 mins",
-        "hours": 6,
-        "minutes": 4,
-        "seconds": 53,
-        "percent": 100
-      }
-    ]
+    "range": {
+      "start": "2024-04-08T22:00:00Z",
+      "end": "2024-04-09T21:59:59Z",
+      "date": "2024-04-09",
+      "text": "Tue Apr 9th 2024",
+      "timezone": "Europe/Amsterdam"
+    }
   }
 ]
