@@ -1,44 +1,73 @@
 [
   {
-    "grand_total": {
-      "hours": 0,
-      "minutes": 36,
-      "total_seconds": 2177.802835,
-      "digital": "0:36",
-      "decimal": "0.60",
-      "text": "36 mins"
-    },
-    "range": {
-      "start": "2024-07-20T22:00:00Z",
-      "end": "2024-07-21T21:59:59Z",
-      "date": "2024-07-21",
-      "text": "Sun Jul 21st 2024",
-      "timezone": "Europe/Amsterdam"
-    },
-    "projects": [
-      {
-        "name": "firstquadrant",
-        "total_seconds": 2177.802835,
-        "color": null,
-        "digital": "0:36:17",
-        "decimal": "0.60",
-        "text": "36 mins",
-        "hours": 0,
-        "minutes": 36,
-        "seconds": 17,
-        "percent": 100
-      }
-    ],
     "languages": [
       {
         "name": "Prisma",
-        "total_seconds": 2177.802835,
-        "digital": "0:36:17",
-        "decimal": "0.60",
-        "text": "36 mins",
+        "total_seconds": 4827.046413,
+        "digital": "1:20:27",
+        "decimal": "1.33",
+        "text": "1 hr 20 mins",
+        "hours": 1,
+        "minutes": 20,
+        "seconds": 27,
+        "percent": 99.61
+      },
+      {
+        "name": "Other",
+        "total_seconds": 18.921768,
+        "digital": "0:00:18",
+        "decimal": "0.00",
+        "text": "18 secs",
         "hours": 0,
-        "minutes": 36,
-        "seconds": 17,
+        "minutes": 0,
+        "seconds": 18,
+        "percent": 0.39
+      }
+    ],
+    "grand_total": {
+      "hours": 1,
+      "minutes": 20,
+      "total_seconds": 4845.968181,
+      "digital": "1:20",
+      "decimal": "1.33",
+      "text": "1 hr 20 mins"
+    },
+    "editors": [
+      {
+        "name": "VS Code",
+        "total_seconds": 4845.968181,
+        "digital": "1:20:45",
+        "decimal": "1.33",
+        "text": "1 hr 20 mins",
+        "hours": 1,
+        "minutes": 20,
+        "seconds": 45,
+        "percent": 100
+      }
+    ],
+    "operating_systems": [
+      {
+        "name": "Mac",
+        "total_seconds": 4845.968181,
+        "digital": "1:20:45",
+        "decimal": "1.33",
+        "text": "1 hr 20 mins",
+        "hours": 1,
+        "minutes": 20,
+        "seconds": 45,
+        "percent": 100
+      }
+    ],
+    "categories": [
+      {
+        "name": "Coding",
+        "total_seconds": 4845.968181,
+        "digital": "1:20:45",
+        "decimal": "1.33",
+        "text": "1 hr 20 mins",
+        "hours": 1,
+        "minutes": 20,
+        "seconds": 45,
         "percent": 100
       }
     ],
@@ -46,55 +75,37 @@
     "machines": [
       {
         "name": "Anand's+MacBook+Pro",
-        "total_seconds": 2177.802835,
+        "total_seconds": 4845.968181,
         "machine_name_id": "018d2788-708d-4f43-a7cf-8c3020a4b466",
-        "digital": "0:36:17",
-        "decimal": "0.60",
-        "text": "36 mins",
-        "hours": 0,
-        "minutes": 36,
-        "seconds": 17,
+        "digital": "1:20:45",
+        "decimal": "1.33",
+        "text": "1 hr 20 mins",
+        "hours": 1,
+        "minutes": 20,
+        "seconds": 45,
         "percent": 100
       }
     ],
-    "editors": [
+    "projects": [
       {
-        "name": "VS Code",
-        "total_seconds": 2177.802835,
-        "digital": "0:36:17",
-        "decimal": "0.60",
-        "text": "36 mins",
-        "hours": 0,
-        "minutes": 36,
-        "seconds": 17,
+        "name": "firstquadrant",
+        "total_seconds": 4845.968181,
+        "color": null,
+        "digital": "1:20:45",
+        "decimal": "1.33",
+        "text": "1 hr 20 mins",
+        "hours": 1,
+        "minutes": 20,
+        "seconds": 45,
         "percent": 100
       }
     ],
-    "operating_systems": [
-      {
-        "name": "Mac",
-        "total_seconds": 2177.802835,
-        "digital": "0:36:17",
-        "decimal": "0.60",
-        "text": "36 mins",
-        "hours": 0,
-        "minutes": 36,
-        "seconds": 17,
-        "percent": 100
-      }
-    ],
-    "categories": [
-      {
-        "name": "Coding",
-        "total_seconds": 2177.802835,
-        "digital": "0:36:17",
-        "decimal": "0.60",
-        "text": "36 mins",
-        "hours": 0,
-        "minutes": 36,
-        "seconds": 17,
-        "percent": 100
-      }
-    ]
+    "range": {
+      "start": "2024-07-20T22:00:00Z",
+      "end": "2024-07-21T21:59:59Z",
+      "date": "2024-07-21",
+      "text": "Sun Jul 21st 2024",
+      "timezone": "Europe/Amsterdam"
+    }
   }
 ]
