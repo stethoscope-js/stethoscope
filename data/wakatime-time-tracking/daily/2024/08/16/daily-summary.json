@@ -1,45 +1,27 @@
 [
   {
-    "grand_total": {
-      "hours": 1,
-      "minutes": 4,
-      "total_seconds": 3852.726728,
-      "digital": "1:04",
-      "decimal": "1.07",
-      "text": "1 hr 4 mins"
-    },
-    "range": {
-      "start": "2024-08-16T22:00:00Z",
-      "end": "2024-08-17T21:59:59Z",
-      "date": "2024-08-17",
-      "text": "Sat Aug 17th 2024",
-      "timezone": "Europe/Amsterdam"
-    },
-    "projects": [
-      {
-        "name": "test",
-        "total_seconds": 3852.726728,
-        "color": null,
-        "digital": "1:04:12",
-        "decimal": "1.07",
-        "text": "1 hr 4 mins",
-        "hours": 1,
-        "minutes": 4,
-        "seconds": 12,
-        "percent": 100
-      }
-    ],
     "languages": [
       {
         "name": "TypeScript",
-        "total_seconds": 3845.15314,
-        "digital": "1:04:05",
-        "decimal": "1.07",
-        "text": "1 hr 4 mins",
+        "total_seconds": 4314.987219,
+        "digital": "1:11:54",
+        "decimal": "1.18",
+        "text": "1 hr 11 mins",
         "hours": 1,
-        "minutes": 4,
-        "seconds": 5,
-        "percent": 99.8
+        "minutes": 11,
+        "seconds": 54,
+        "percent": 98.78
+      },
+      {
+        "name": "Prisma",
+        "total_seconds": 45.616559,
+        "digital": "0:00:45",
+        "decimal": "0.00",
+        "text": "45 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 45,
+        "percent": 1.04
       },
       {
         "name": "Other",
@@ -50,53 +32,122 @@
         "hours": 0,
         "minutes": 0,
         "seconds": 7,
-        "percent": 0.2
+        "percent": 0.17
+      }
+    ],
+    "grand_total": {
+      "hours": 1,
+      "minutes": 12,
+      "total_seconds": 4368.177366,
+      "digital": "1:12",
+      "decimal": "1.20",
+      "text": "1 hr 12 mins"
+    },
+    "editors": [
+      {
+        "name": "VS Code",
+        "total_seconds": 4368.177366,
+        "digital": "1:12:48",
+        "decimal": "1.20",
+        "text": "1 hr 12 mins",
+        "hours": 1,
+        "minutes": 12,
+        "seconds": 48,
+        "percent": 100
+      }
+    ],
+    "operating_systems": [
+      {
+        "name": "Mac",
+        "total_seconds": 4368.177366,
+        "digital": "1:12:48",
+        "decimal": "1.20",
+        "text": "1 hr 12 mins",
+        "hours": 1,
+        "minutes": 12,
+        "seconds": 48,
+        "percent": 100
+      }
+    ],
+    "categories": [
+      {
+        "name": "Coding",
+        "total_seconds": 4368.177366,
+        "digital": "1:12:48",
+        "decimal": "1.20",
+        "text": "1 hr 12 mins",
+        "hours": 1,
+        "minutes": 12,
+        "seconds": 48,
+        "percent": 100
       }
     ],
     "dependencies": [
       {
         "name": "zod-openapi",
-        "total_seconds": 3844.236477,
-        "digital": "1:04:04",
-        "decimal": "1.07",
-        "text": "1 hr 4 mins",
+        "total_seconds": 4314.070556,
+        "digital": "1:11:54",
+        "decimal": "1.18",
+        "text": "1 hr 11 mins",
         "hours": 1,
-        "minutes": 4,
-        "seconds": 4,
-        "percent": 49.8
+        "minutes": 11,
+        "seconds": 54,
+        "percent": 45.14
       },
       {
         "name": "schema",
-        "total_seconds": 1474.839352,
-        "digital": "0:24:34",
-        "decimal": "0.40",
-        "text": "24 mins",
+        "total_seconds": 1923.797266,
+        "digital": "0:32:03",
+        "decimal": "0.53",
+        "text": "32 mins",
         "hours": 0,
-        "minutes": 24,
-        "seconds": 34,
-        "percent": 19.11
+        "minutes": 32,
+        "seconds": 3,
+        "percent": 20.13
       },
       {
         "name": "client",
-        "total_seconds": 919.979394,
-        "digital": "0:15:19",
+        "total_seconds": 924.521908,
+        "digital": "0:15:24",
         "decimal": "0.25",
         "text": "15 mins",
         "hours": 0,
         "minutes": 15,
-        "seconds": 19,
-        "percent": 11.92
+        "seconds": 24,
+        "percent": 9.67
       },
       {
         "name": "zod",
-        "total_seconds": 851.510847,
-        "digital": "0:14:11",
+        "total_seconds": 856.053361,
+        "digital": "0:14:16",
         "decimal": "0.23",
         "text": "14 mins",
         "hours": 0,
         "minutes": 14,
-        "seconds": 11,
-        "percent": 11.03
+        "seconds": 16,
+        "percent": 8.96
+      },
+      {
+        "name": "authorization",
+        "total_seconds": 439.364033,
+        "digital": "0:07:19",
+        "decimal": "0.12",
+        "text": "7 mins",
+        "hours": 0,
+        "minutes": 7,
+        "seconds": 19,
+        "percent": 4.6
+      },
+      {
+        "name": "db",
+        "total_seconds": 439.364033,
+        "digital": "0:07:19",
+        "decimal": "0.12",
+        "text": "7 mins",
+        "hours": 0,
+        "minutes": 7,
+        "seconds": 19,
+        "percent": 4.6
       },
       {
         "name": "draft-email",
@@ -107,7 +158,7 @@
         "hours": 0,
         "minutes": 2,
         "seconds": 21,
-        "percent": 1.83
+        "percent": 1.48
       },
       {
         "name": "calendar-event",
@@ -118,7 +169,7 @@
         "hours": 0,
         "minutes": 2,
         "seconds": 21,
-        "percent": 1.83
+        "percent": 1.48
       },
       {
         "name": "company",
@@ -129,7 +180,7 @@
         "hours": 0,
         "minutes": 2,
         "seconds": 21,
-        "percent": 1.83
+        "percent": 1.48
       },
       {
         "name": "email",
@@ -140,7 +191,7 @@
         "hours": 0,
         "minutes": 1,
         "seconds": 36,
-        "percent": 1.24
+        "percent": 1.01
       },
       {
         "name": "moment",
@@ -151,7 +202,18 @@
         "hours": 0,
         "minutes": 1,
         "seconds": 20,
-        "percent": 1.04
+        "percent": 0.84
+      },
+      {
+        "name": "router",
+        "total_seconds": 31.661499,
+        "digital": "0:00:31",
+        "decimal": "0.00",
+        "text": "31 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 31,
+        "percent": 0.33
       },
       {
         "name": "email-address",
@@ -162,7 +224,7 @@
         "hours": 0,
         "minutes": 0,
         "seconds": 26,
-        "percent": 0.34
+        "percent": 0.27
       },
       {
         "name": "contact",
@@ -179,27 +241,27 @@
     "machines": [
       {
         "name": "Anand's+MacBook+Pro",
-        "total_seconds": 3727.898085,
+        "total_seconds": 3903.751466,
         "machine_name_id": "018d2788-708d-4f43-a7cf-8c3020a4b466",
-        "digital": "1:02:07",
-        "decimal": "1.03",
-        "text": "1 hr 2 mins",
+        "digital": "1:05:03",
+        "decimal": "1.08",
+        "text": "1 hr 5 mins",
         "hours": 1,
-        "minutes": 2,
-        "seconds": 7,
-        "percent": 96.76
+        "minutes": 5,
+        "seconds": 3,
+        "percent": 89.37
       },
       {
         "name": "Anand%27s+MacBook+Pro",
-        "total_seconds": 123.719391,
+        "total_seconds": 463.316648,
         "machine_name_id": "018e510a-e46b-4be4-b7c6-eca6133ad025",
-        "digital": "0:02:03",
-        "decimal": "0.03",
-        "text": "2 mins",
+        "digital": "0:07:43",
+        "decimal": "0.12",
+        "text": "7 mins",
         "hours": 0,
-        "minutes": 2,
-        "seconds": 3,
-        "percent": 3.21
+        "minutes": 7,
+        "seconds": 43,
+        "percent": 10.61
       },
       {
         "name": "Anand%2527s%2BMacBook%2BPro",
@@ -214,44 +276,26 @@
         "percent": 0.03
       }
     ],
-    "editors": [
+    "projects": [
       {
-        "name": "VS Code",
-        "total_seconds": 3852.726728,
-        "digital": "1:04:12",
-        "decimal": "1.07",
-        "text": "1 hr 4 mins",
+        "name": "test",
+        "total_seconds": 4368.177366,
+        "color": null,
+        "digital": "1:12:48",
+        "decimal": "1.20",
+        "text": "1 hr 12 mins",
         "hours": 1,
-        "minutes": 4,
-        "seconds": 12,
+        "minutes": 12,
+        "seconds": 48,
         "percent": 100
       }
     ],
-    "operating_systems": [
-      {
-        "name": "Mac",
-        "total_seconds": 3852.726728,
-        "digital": "1:04:12",
-        "decimal": "1.07",
-        "text": "1 hr 4 mins",
-        "hours": 1,
-        "minutes": 4,
-        "seconds": 12,
-        "percent": 100
-      }
-    ],
-    "categories": [
-      {
-        "name": "Coding",
-        "total_seconds": 3852.726728,
-        "digital": "1:04:12",
-        "decimal": "1.07",
-        "text": "1 hr 4 mins",
-        "hours": 1,
-        "minutes": 4,
-        "seconds": 12,
-        "percent": 100
-      }
-    ]
+    "range": {
+      "start": "2024-08-16T22:00:00Z",
+      "end": "2024-08-17T21:59:59Z",
+      "date": "2024-08-17",
+      "text": "Sat Aug 17th 2024",
+      "timezone": "Europe/Amsterdam"
+    }
   }
 ]

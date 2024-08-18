@@ -1,0 +1,278 @@
+[
+  {
+    "grand_total": {
+      "hours": 0,
+      "minutes": 21,
+      "total_seconds": 1282.563236,
+      "digital": "0:21",
+      "decimal": "0.35",
+      "text": "21 mins"
+    },
+    "range": {
+      "start": "2024-08-17T22:00:00Z",
+      "end": "2024-08-18T21:59:59Z",
+      "date": "2024-08-18",
+      "text": "Sun Aug 18th 2024",
+      "timezone": "Europe/Amsterdam"
+    },
+    "projects": [
+      {
+        "name": "test",
+        "total_seconds": 1282.563236,
+        "color": null,
+        "digital": "0:21:22",
+        "decimal": "0.35",
+        "text": "21 mins",
+        "hours": 0,
+        "minutes": 21,
+        "seconds": 22,
+        "percent": 100
+      }
+    ],
+    "languages": [
+      {
+        "name": "TypeScript",
+        "total_seconds": 1267.885094,
+        "digital": "0:21:07",
+        "decimal": "0.35",
+        "text": "21 mins",
+        "hours": 0,
+        "minutes": 21,
+        "seconds": 7,
+        "percent": 98.86
+      },
+      {
+        "name": "Other",
+        "total_seconds": 14.678142,
+        "digital": "0:00:14",
+        "decimal": "0.00",
+        "text": "14 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 14,
+        "percent": 1.14
+      }
+    ],
+    "dependencies": [
+      {
+        "name": "zod-openapi",
+        "total_seconds": 1267.885094,
+        "digital": "0:21:07",
+        "decimal": "0.35",
+        "text": "21 mins",
+        "hours": 0,
+        "minutes": 21,
+        "seconds": 7,
+        "percent": 21.47
+      },
+      {
+        "name": "schema",
+        "total_seconds": 1180.160503,
+        "digital": "0:19:40",
+        "decimal": "0.32",
+        "text": "19 mins",
+        "hours": 0,
+        "minutes": 19,
+        "seconds": 40,
+        "percent": 19.98
+      },
+      {
+        "name": "db",
+        "total_seconds": 1131.873184,
+        "digital": "0:18:51",
+        "decimal": "0.30",
+        "text": "18 mins",
+        "hours": 0,
+        "minutes": 18,
+        "seconds": 51,
+        "percent": 19.16
+      },
+      {
+        "name": "authorization",
+        "total_seconds": 1125.870874,
+        "digital": "0:18:45",
+        "decimal": "0.30",
+        "text": "18 mins",
+        "hours": 0,
+        "minutes": 18,
+        "seconds": 45,
+        "percent": 19.06
+      },
+      {
+        "name": "router",
+        "total_seconds": 1070.226623,
+        "digital": "0:17:50",
+        "decimal": "0.28",
+        "text": "17 mins",
+        "hours": 0,
+        "minutes": 17,
+        "seconds": 50,
+        "percent": 18.12
+      },
+      {
+        "name": "hono",
+        "total_seconds": 60.358138,
+        "digital": "0:01:00",
+        "decimal": "0.02",
+        "text": "1 min",
+        "hours": 0,
+        "minutes": 1,
+        "seconds": 0,
+        "percent": 1.02
+      },
+      {
+        "name": "pagination",
+        "total_seconds": 26.704698,
+        "digital": "0:00:26",
+        "decimal": "0.00",
+        "text": "26 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 26,
+        "percent": 0.45
+      },
+      {
+        "name": "client",
+        "total_seconds": 9.664944,
+        "digital": "0:00:09",
+        "decimal": "0.00",
+        "text": "9 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 9,
+        "percent": 0.16
+      },
+      {
+        "name": "minimatch",
+        "total_seconds": 6.00231,
+        "digital": "0:00:06",
+        "decimal": "0.00",
+        "text": "6 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 6,
+        "percent": 0.1
+      },
+      {
+        "name": "jwt",
+        "total_seconds": 6.00231,
+        "digital": "0:00:06",
+        "decimal": "0.00",
+        "text": "6 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 6,
+        "percent": 0.1
+      },
+      {
+        "name": "http-exception",
+        "total_seconds": 6.00231,
+        "digital": "0:00:06",
+        "decimal": "0.00",
+        "text": "6 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 6,
+        "percent": 0.1
+      },
+      {
+        "name": "env",
+        "total_seconds": 6.00231,
+        "digital": "0:00:06",
+        "decimal": "0.00",
+        "text": "6 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 6,
+        "percent": 0.1
+      },
+      {
+        "name": "bcrypt",
+        "total_seconds": 6.00231,
+        "digital": "0:00:06",
+        "decimal": "0.00",
+        "text": "6 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 6,
+        "percent": 0.1
+      },
+      {
+        "name": "zod",
+        "total_seconds": 3.662634,
+        "digital": "0:00:03",
+        "decimal": "0.00",
+        "text": "3 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 3,
+        "percent": 0.06
+      }
+    ],
+    "machines": [
+      {
+        "name": "Anand's+MacBook+Pro",
+        "total_seconds": 1256.961836,
+        "machine_name_id": "018d2788-708d-4f43-a7cf-8c3020a4b466",
+        "digital": "0:20:56",
+        "decimal": "0.33",
+        "text": "20 mins",
+        "hours": 0,
+        "minutes": 20,
+        "seconds": 56,
+        "percent": 98
+      },
+      {
+        "name": "Anand%27s+MacBook+Pro",
+        "total_seconds": 25.6014,
+        "machine_name_id": "018e510a-e46b-4be4-b7c6-eca6133ad025",
+        "digital": "0:00:25",
+        "decimal": "0.00",
+        "text": "25 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 25,
+        "percent": 2
+      }
+    ],
+    "editors": [
+      {
+        "name": "VS Code",
+        "total_seconds": 1282.563236,
+        "digital": "0:21:22",
+        "decimal": "0.35",
+        "text": "21 mins",
+        "hours": 0,
+        "minutes": 21,
+        "seconds": 22,
+        "percent": 100
+      }
+    ],
+    "operating_systems": [
+      {
+        "name": "Mac",
+        "total_seconds": 1282.563236,
+        "digital": "0:21:22",
+        "decimal": "0.35",
+        "text": "21 mins",
+        "hours": 0,
+        "minutes": 21,
+        "seconds": 22,
+        "percent": 100
+      }
+    ],
+    "categories": [
+      {
+        "name": "Coding",
+        "total_seconds": 1282.563236,
+        "digital": "0:21:22",
+        "decimal": "0.35",
+        "text": "21 mins",
+        "hours": 0,
+        "minutes": 21,
+        "seconds": 22,
+        "percent": 100
+      }
+    ]
+  }
+]
