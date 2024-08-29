@@ -1,26 +1,277 @@
 [
   {
+    "languages": [
+      {
+        "name": "TypeScript",
+        "total_seconds": 250.892714,
+        "digital": "0:04:10",
+        "decimal": "0.07",
+        "text": "4 mins",
+        "hours": 0,
+        "minutes": 4,
+        "seconds": 10,
+        "percent": 100
+      }
+    ],
     "grand_total": {
       "hours": 0,
-      "minutes": 0,
-      "total_seconds": 0,
-      "digital": "0:00",
-      "decimal": "0.00",
-      "text": "0 secs"
+      "minutes": 4,
+      "total_seconds": 250.892714,
+      "digital": "0:04",
+      "decimal": "0.07",
+      "text": "4 mins"
     },
+    "editors": [
+      {
+        "name": "VS Code",
+        "total_seconds": 250.892714,
+        "digital": "0:04:10",
+        "decimal": "0.07",
+        "text": "4 mins",
+        "hours": 0,
+        "minutes": 4,
+        "seconds": 10,
+        "percent": 100
+      }
+    ],
+    "operating_systems": [
+      {
+        "name": "Mac",
+        "total_seconds": 250.892714,
+        "digital": "0:04:10",
+        "decimal": "0.07",
+        "text": "4 mins",
+        "hours": 0,
+        "minutes": 4,
+        "seconds": 10,
+        "percent": 100
+      }
+    ],
+    "categories": [
+      {
+        "name": "Coding",
+        "total_seconds": 250.892714,
+        "digital": "0:04:10",
+        "decimal": "0.07",
+        "text": "4 mins",
+        "hours": 0,
+        "minutes": 4,
+        "seconds": 10,
+        "percent": 100
+      }
+    ],
+    "dependencies": [
+      {
+        "name": "client",
+        "total_seconds": 250.892714,
+        "digital": "0:04:10",
+        "decimal": "0.07",
+        "text": "4 mins",
+        "hours": 0,
+        "minutes": 4,
+        "seconds": 10,
+        "percent": 10.38
+      },
+      {
+        "name": "prisma",
+        "total_seconds": 250.892714,
+        "digital": "0:04:10",
+        "decimal": "0.07",
+        "text": "4 mins",
+        "hours": 0,
+        "minutes": 4,
+        "seconds": 10,
+        "percent": 10.38
+      },
+      {
+        "name": "zod",
+        "total_seconds": 248.378213,
+        "digital": "0:04:08",
+        "decimal": "0.07",
+        "text": "4 mins",
+        "hours": 0,
+        "minutes": 4,
+        "seconds": 8,
+        "percent": 10.27
+      },
+      {
+        "name": "search",
+        "total_seconds": 210.562748,
+        "digital": "0:03:30",
+        "decimal": "0.05",
+        "text": "3 mins",
+        "hours": 0,
+        "minutes": 3,
+        "seconds": 30,
+        "percent": 8.71
+      },
+      {
+        "name": "completions",
+        "total_seconds": 210.562748,
+        "digital": "0:03:30",
+        "decimal": "0.05",
+        "text": "3 mins",
+        "hours": 0,
+        "minutes": 3,
+        "seconds": 30,
+        "percent": 8.71
+      },
+      {
+        "name": "id",
+        "total_seconds": 210.562748,
+        "digital": "0:03:30",
+        "decimal": "0.05",
+        "text": "3 mins",
+        "hours": 0,
+        "minutes": 3,
+        "seconds": 30,
+        "percent": 8.71
+      },
+      {
+        "name": "openai",
+        "total_seconds": 210.562748,
+        "digital": "0:03:30",
+        "decimal": "0.05",
+        "text": "3 mins",
+        "hours": 0,
+        "minutes": 3,
+        "seconds": 30,
+        "percent": 8.71
+      },
+      {
+        "name": "zod-validation-error",
+        "total_seconds": 210.562748,
+        "digital": "0:03:30",
+        "decimal": "0.05",
+        "text": "3 mins",
+        "hours": 0,
+        "minutes": 3,
+        "seconds": 30,
+        "percent": 8.71
+      },
+      {
+        "name": "nextjs",
+        "total_seconds": 210.562748,
+        "digital": "0:03:30",
+        "decimal": "0.05",
+        "text": "3 mins",
+        "hours": 0,
+        "minutes": 3,
+        "seconds": 30,
+        "percent": 8.71
+      },
+      {
+        "name": "env",
+        "total_seconds": 210.562748,
+        "digital": "0:03:30",
+        "decimal": "0.05",
+        "text": "3 mins",
+        "hours": 0,
+        "minutes": 3,
+        "seconds": 30,
+        "percent": 8.71
+      },
+      {
+        "name": "prompts-helpers",
+        "total_seconds": 40.329966,
+        "digital": "0:00:40",
+        "decimal": "0.00",
+        "text": "40 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 40,
+        "percent": 1.67
+      },
+      {
+        "name": "serper",
+        "total_seconds": 37.815465,
+        "digital": "0:00:37",
+        "decimal": "0.00",
+        "text": "37 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 37,
+        "percent": 1.56
+      },
+      {
+        "name": "p-timeout",
+        "total_seconds": 37.815465,
+        "digital": "0:00:37",
+        "decimal": "0.00",
+        "text": "37 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 37,
+        "percent": 1.56
+      },
+      {
+        "name": "teams-$teamId-helpers",
+        "total_seconds": 37.815465,
+        "digital": "0:00:37",
+        "decimal": "0.00",
+        "text": "37 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 37,
+        "percent": 1.56
+      },
+      {
+        "name": "generate-contact-metadata",
+        "total_seconds": 37.815465,
+        "digital": "0:00:37",
+        "decimal": "0.00",
+        "text": "37 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 37,
+        "percent": 1.56
+      },
+      {
+        "name": "scraping-bee",
+        "total_seconds": 2.514501,
+        "digital": "0:00:02",
+        "decimal": "0.00",
+        "text": "2 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 2,
+        "percent": 0.1
+      }
+    ],
+    "machines": [
+      {
+        "name": "Anand's+MacBook+Pro",
+        "total_seconds": 250.892714,
+        "machine_name_id": "018d2788-708d-4f43-a7cf-8c3020a4b466",
+        "digital": "0:04:10",
+        "decimal": "0.07",
+        "text": "4 mins",
+        "hours": 0,
+        "minutes": 4,
+        "seconds": 10,
+        "percent": 100
+      }
+    ],
+    "projects": [
+      {
+        "name": "firstquadrant",
+        "total_seconds": 250.892714,
+        "color": null,
+        "digital": "0:04:10",
+        "decimal": "0.07",
+        "text": "4 mins",
+        "hours": 0,
+        "minutes": 4,
+        "seconds": 10,
+        "percent": 100
+      }
+    ],
     "range": {
       "start": "2024-08-27T22:00:00Z",
       "end": "2024-08-28T21:59:59Z",
       "date": "2024-08-28",
       "text": "Wed Aug 28th 2024",
       "timezone": "Europe/Amsterdam"
-    },
-    "projects": [],
-    "languages": [],
-    "dependencies": [],
-    "machines": [],
-    "editors": [],
-    "operating_systems": [],
-    "categories": []
+    }
   }
 ]
