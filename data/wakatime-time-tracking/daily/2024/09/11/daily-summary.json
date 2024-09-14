@@ -3,14 +3,14 @@
     "languages": [
       {
         "name": "TypeScript",
-        "total_seconds": 607.628551,
-        "digital": "0:10:07",
+        "total_seconds": 652.969989,
+        "digital": "0:10:52",
         "decimal": "0.17",
         "text": "10 mins",
         "hours": 0,
         "minutes": 10,
-        "seconds": 7,
-        "percent": 91.63
+        "seconds": 52,
+        "percent": 92.16
       },
       {
         "name": "Other",
@@ -21,7 +21,7 @@
         "hours": 0,
         "minutes": 0,
         "seconds": 55,
-        "percent": 8.37
+        "percent": 7.84
       },
       {
         "name": "JavaScript",
@@ -38,7 +38,7 @@
     "grand_total": {
       "hours": 0,
       "minutes": 11,
-      "total_seconds": 663.155915,
+      "total_seconds": 708.497353,
       "digital": "0:11",
       "decimal": "0.18",
       "text": "11 mins"
@@ -46,43 +46,65 @@
     "editors": [
       {
         "name": "VS Code",
-        "total_seconds": 663.155915,
-        "digital": "0:11:03",
+        "total_seconds": 708.497353,
+        "digital": "0:11:48",
         "decimal": "0.18",
         "text": "11 mins",
         "hours": 0,
         "minutes": 11,
-        "seconds": 3,
+        "seconds": 48,
         "percent": 100
       }
     ],
     "operating_systems": [
       {
         "name": "Mac",
-        "total_seconds": 663.155915,
-        "digital": "0:11:03",
+        "total_seconds": 708.497353,
+        "digital": "0:11:48",
         "decimal": "0.18",
         "text": "11 mins",
         "hours": 0,
         "minutes": 11,
-        "seconds": 3,
+        "seconds": 48,
         "percent": 100
       }
     ],
     "categories": [
       {
         "name": "Coding",
-        "total_seconds": 663.155915,
-        "digital": "0:11:03",
+        "total_seconds": 708.497353,
+        "digital": "0:11:48",
         "decimal": "0.18",
         "text": "11 mins",
         "hours": 0,
         "minutes": 11,
-        "seconds": 3,
+        "seconds": 48,
         "percent": 100
       }
     ],
     "dependencies": [
+      {
+        "name": "logger",
+        "total_seconds": 652.046083,
+        "digital": "0:10:52",
+        "decimal": "0.17",
+        "text": "10 mins",
+        "hours": 0,
+        "minutes": 10,
+        "seconds": 52,
+        "percent": 6.31
+      },
+      {
+        "name": "zod",
+        "total_seconds": 644.120681,
+        "digital": "0:10:44",
+        "decimal": "0.17",
+        "text": "10 mins",
+        "hours": 0,
+        "minutes": 10,
+        "seconds": 44,
+        "percent": 6.23
+      },
       {
         "name": "client",
         "total_seconds": 607.628551,
@@ -92,29 +114,7 @@
         "hours": 0,
         "minutes": 10,
         "seconds": 7,
-        "percent": 6.38
-      },
-      {
-        "name": "prisma",
-        "total_seconds": 606.704645,
-        "digital": "0:10:06",
-        "decimal": "0.17",
-        "text": "10 mins",
-        "hours": 0,
-        "minutes": 10,
-        "seconds": 6,
-        "percent": 6.38
-      },
-      {
-        "name": "logger",
-        "total_seconds": 606.704645,
-        "digital": "0:10:06",
-        "decimal": "0.17",
-        "text": "10 mins",
-        "hours": 0,
-        "minutes": 10,
-        "seconds": 6,
-        "percent": 6.38
+        "percent": 5.88
       },
       {
         "name": "concurrency",
@@ -125,7 +125,18 @@
         "hours": 0,
         "minutes": 10,
         "seconds": 6,
-        "percent": 6.38
+        "percent": 5.87
+      },
+      {
+        "name": "prisma",
+        "total_seconds": 606.704645,
+        "digital": "0:10:06",
+        "decimal": "0.17",
+        "text": "10 mins",
+        "hours": 0,
+        "minutes": 10,
+        "seconds": 6,
+        "percent": 5.87
       },
       {
         "name": "brain",
@@ -136,40 +147,7 @@
         "hours": 0,
         "minutes": 9,
         "seconds": 58,
-        "percent": 6.29
-      },
-      {
-        "name": "zod",
-        "total_seconds": 598.779243,
-        "digital": "0:09:58",
-        "decimal": "0.15",
-        "text": "9 mins",
-        "hours": 0,
-        "minutes": 9,
-        "seconds": 58,
-        "percent": 6.29
-      },
-      {
-        "name": "brain-contact-mentioned-persons",
-        "total_seconds": 581.647975,
-        "digital": "0:09:41",
-        "decimal": "0.15",
-        "text": "9 mins",
-        "hours": 0,
-        "minutes": 9,
-        "seconds": 41,
-        "percent": 6.11
-      },
-      {
-        "name": "send-slack-message",
-        "total_seconds": 581.647975,
-        "digital": "0:09:41",
-        "decimal": "0.15",
-        "text": "9 mins",
-        "hours": 0,
-        "minutes": 9,
-        "seconds": 41,
-        "percent": 6.11
+        "percent": 5.79
       },
       {
         "name": "get-brain-response",
@@ -180,18 +158,7 @@
         "hours": 0,
         "minutes": 9,
         "seconds": 41,
-        "percent": 6.11
-      },
-      {
-        "name": "brain-reply-now",
-        "total_seconds": 581.647975,
-        "digital": "0:09:41",
-        "decimal": "0.15",
-        "text": "9 mins",
-        "hours": 0,
-        "minutes": 9,
-        "seconds": 41,
-        "percent": 6.11
+        "percent": 5.63
       },
       {
         "name": "brain-unsubscribe",
@@ -202,7 +169,7 @@
         "hours": 0,
         "minutes": 9,
         "seconds": 41,
-        "percent": 6.11
+        "percent": 5.63
       },
       {
         "name": "brain-follow-up-reminder",
@@ -213,7 +180,40 @@
         "hours": 0,
         "minutes": 9,
         "seconds": 41,
-        "percent": 6.11
+        "percent": 5.63
+      },
+      {
+        "name": "send-slack-message",
+        "total_seconds": 581.647975,
+        "digital": "0:09:41",
+        "decimal": "0.15",
+        "text": "9 mins",
+        "hours": 0,
+        "minutes": 9,
+        "seconds": 41,
+        "percent": 5.63
+      },
+      {
+        "name": "brain-contact-mentioned-persons",
+        "total_seconds": 581.647975,
+        "digital": "0:09:41",
+        "decimal": "0.15",
+        "text": "9 mins",
+        "hours": 0,
+        "minutes": 9,
+        "seconds": 41,
+        "percent": 5.63
+      },
+      {
+        "name": "brain-reply-now",
+        "total_seconds": 581.647975,
+        "digital": "0:09:41",
+        "decimal": "0.15",
+        "text": "9 mins",
+        "hours": 0,
+        "minutes": 9,
+        "seconds": 41,
+        "percent": 5.63
       },
       {
         "name": "teams-$teamId-helpers",
@@ -224,18 +224,7 @@
         "hours": 0,
         "minutes": 9,
         "seconds": 40,
-        "percent": 6.1
-      },
-      {
-        "name": "tracking-helpers",
-        "total_seconds": 580.724069,
-        "digital": "0:09:40",
-        "decimal": "0.15",
-        "text": "9 mins",
-        "hours": 0,
-        "minutes": 9,
-        "seconds": 40,
-        "percent": 6.1
+        "percent": 5.62
       },
       {
         "name": "slack",
@@ -246,7 +235,18 @@
         "hours": 0,
         "minutes": 9,
         "seconds": 40,
-        "percent": 6.1
+        "percent": 5.62
+      },
+      {
+        "name": "tracking-helpers",
+        "total_seconds": 580.724069,
+        "digital": "0:09:40",
+        "decimal": "0.15",
+        "text": "9 mins",
+        "hours": 0,
+        "minutes": 9,
+        "seconds": 40,
+        "percent": 5.62
       },
       {
         "name": "seedrandom",
@@ -257,7 +257,183 @@
         "hours": 0,
         "minutes": 9,
         "seconds": 40,
-        "percent": 6.1
+        "percent": 5.62
+      },
+      {
+        "name": "auth-route",
+        "total_seconds": 45.341438,
+        "digital": "0:00:45",
+        "decimal": "0.00",
+        "text": "45 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 45,
+        "percent": 0.44
+      },
+      {
+        "name": "zod-validation-error",
+        "total_seconds": 45.341438,
+        "digital": "0:00:45",
+        "decimal": "0.00",
+        "text": "45 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 45,
+        "percent": 0.44
+      },
+      {
+        "name": "sentry",
+        "total_seconds": 45.341438,
+        "digital": "0:00:45",
+        "decimal": "0.00",
+        "text": "45 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 45,
+        "percent": 0.44
+      },
+      {
+        "name": "teams-route",
+        "total_seconds": 45.341438,
+        "digital": "0:00:45",
+        "decimal": "0.00",
+        "text": "45 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 45,
+        "percent": 0.44
+      },
+      {
+        "name": "tracking-router",
+        "total_seconds": 45.341438,
+        "digital": "0:00:45",
+        "decimal": "0.00",
+        "text": "45 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 45,
+        "percent": 0.44
+      },
+      {
+        "name": "vercel",
+        "total_seconds": 45.341438,
+        "digital": "0:00:45",
+        "decimal": "0.00",
+        "text": "45 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 45,
+        "percent": 0.44
+      },
+      {
+        "name": "queue-route",
+        "total_seconds": 45.341438,
+        "digital": "0:00:45",
+        "decimal": "0.00",
+        "text": "45 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 45,
+        "percent": 0.44
+      },
+      {
+        "name": "common",
+        "total_seconds": 45.341438,
+        "digital": "0:00:45",
+        "decimal": "0.00",
+        "text": "45 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 45,
+        "percent": 0.44
+      },
+      {
+        "name": "users-route",
+        "total_seconds": 45.341438,
+        "digital": "0:00:45",
+        "decimal": "0.00",
+        "text": "45 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 45,
+        "percent": 0.44
+      },
+      {
+        "name": "jsonwebtoken",
+        "total_seconds": 45.341438,
+        "digital": "0:00:45",
+        "decimal": "0.00",
+        "text": "45 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 45,
+        "percent": 0.44
+      },
+      {
+        "name": "outbound-domains-router",
+        "total_seconds": 45.341438,
+        "digital": "0:00:45",
+        "decimal": "0.00",
+        "text": "45 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 45,
+        "percent": 0.44
+      },
+      {
+        "name": "hono",
+        "total_seconds": 45.341438,
+        "digital": "0:00:45",
+        "decimal": "0.00",
+        "text": "45 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 45,
+        "percent": 0.44
+      },
+      {
+        "name": "http-exception",
+        "total_seconds": 45.341438,
+        "digital": "0:00:45",
+        "decimal": "0.00",
+        "text": "45 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 45,
+        "percent": 0.44
+      },
+      {
+        "name": "webhooks-route",
+        "total_seconds": 45.341438,
+        "digital": "0:00:45",
+        "decimal": "0.00",
+        "text": "45 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 45,
+        "percent": 0.44
+      },
+      {
+        "name": "admin-route",
+        "total_seconds": 45.341438,
+        "digital": "0:00:45",
+        "decimal": "0.00",
+        "text": "45 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 45,
+        "percent": 0.44
+      },
+      {
+        "name": "id",
+        "total_seconds": 45.341438,
+        "digital": "0:00:45",
+        "decimal": "0.00",
+        "text": "45 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 45,
+        "percent": 0.44
       },
       {
         "name": "env",
@@ -282,513 +458,7 @@
         "percent": 0.08
       },
       {
-        "name": "sync-nylas-message",
-        "total_seconds": 0.923906,
-        "digital": "0:00:00",
-        "decimal": "0.00",
-        "text": "0 secs",
-        "hours": 0,
-        "minutes": 0,
-        "seconds": 0,
-        "percent": 0.01
-      },
-      {
-        "name": "cron-switch-to-annual",
-        "total_seconds": 0.923906,
-        "digital": "0:00:00",
-        "decimal": "0.00",
-        "text": "0 secs",
-        "hours": 0,
-        "minutes": 0,
-        "seconds": 0,
-        "percent": 0.01
-      },
-      {
-        "name": "enrich-field-value",
-        "total_seconds": 0.923906,
-        "digital": "0:00:00",
-        "decimal": "0.00",
-        "text": "0 secs",
-        "hours": 0,
-        "minutes": 0,
-        "seconds": 0,
-        "percent": 0.01
-      },
-      {
-        "name": "get-contact-id-from-audience-row",
-        "total_seconds": 0.923906,
-        "digital": "0:00:00",
-        "decimal": "0.00",
-        "text": "0 secs",
-        "hours": 0,
-        "minutes": 0,
-        "seconds": 0,
-        "percent": 0.01
-      },
-      {
-        "name": "cron-send-events-inbound-email-moment-created",
-        "total_seconds": 0.923906,
-        "digital": "0:00:00",
-        "decimal": "0.00",
-        "text": "0 secs",
-        "hours": 0,
-        "minutes": 0,
-        "seconds": 0,
-        "percent": 0.01
-      },
-      {
-        "name": "cron-send-events-sync-mailreach-spam-test",
-        "total_seconds": 0.923906,
-        "digital": "0:00:00",
-        "decimal": "0.00",
-        "text": "0 secs",
-        "hours": 0,
-        "minutes": 0,
-        "seconds": 0,
-        "percent": 0.01
-      },
-      {
-        "name": "update-campaign-audience-import-metadata-counts",
-        "total_seconds": 0.923906,
-        "digital": "0:00:00",
-        "decimal": "0.00",
-        "text": "0 secs",
-        "hours": 0,
-        "minutes": 0,
-        "seconds": 0,
-        "percent": 0.01
-      },
-      {
-        "name": "sync-nylas-event",
-        "total_seconds": 0.923906,
-        "digital": "0:00:00",
-        "decimal": "0.00",
-        "text": "0 secs",
-        "hours": 0,
-        "minutes": 0,
-        "seconds": 0,
-        "percent": 0.01
-      },
-      {
-        "name": "cron-send-events-list-import-row-created",
-        "total_seconds": 0.923906,
-        "digital": "0:00:00",
-        "decimal": "0.00",
-        "text": "0 secs",
-        "hours": 0,
-        "minutes": 0,
-        "seconds": 0,
-        "percent": 0.01
-      },
-      {
-        "name": "run-campaign",
-        "total_seconds": 0.923906,
-        "digital": "0:00:00",
-        "decimal": "0.00",
-        "text": "0 secs",
-        "hours": 0,
-        "minutes": 0,
-        "seconds": 0,
-        "percent": 0.01
-      },
-      {
-        "name": "update-contact-last-moment-at",
-        "total_seconds": 0.923906,
-        "digital": "0:00:00",
-        "decimal": "0.00",
-        "text": "0 secs",
-        "hours": 0,
-        "minutes": 0,
-        "seconds": 0,
-        "percent": 0.01
-      },
-      {
-        "name": "sync-powerdmarc-account",
-        "total_seconds": 0.923906,
-        "digital": "0:00:00",
-        "decimal": "0.00",
-        "text": "0 secs",
-        "hours": 0,
-        "minutes": 0,
-        "seconds": 0,
-        "percent": 0.01
-      },
-      {
-        "name": "update-credit-usage",
-        "total_seconds": 0.923906,
-        "digital": "0:00:00",
-        "decimal": "0.00",
-        "text": "0 secs",
-        "hours": 0,
-        "minutes": 0,
-        "seconds": 0,
-        "percent": 0.01
-      },
-      {
-        "name": "create-campaign-contact-moments-for-outbound",
-        "total_seconds": 0.923906,
-        "digital": "0:00:00",
-        "decimal": "0.00",
-        "text": "0 secs",
-        "hours": 0,
-        "minutes": 0,
-        "seconds": 0,
-        "percent": 0.01
-      },
-      {
-        "name": "regenerate-outbound-step-moment",
-        "total_seconds": 0.923906,
-        "digital": "0:00:00",
-        "decimal": "0.00",
-        "text": "0 secs",
-        "hours": 0,
-        "minutes": 0,
-        "seconds": 0,
-        "percent": 0.01
-      },
-      {
-        "name": "cron-send-events-moment-should-be-sent",
-        "total_seconds": 0.923906,
-        "digital": "0:00:00",
-        "decimal": "0.00",
-        "text": "0 secs",
-        "hours": 0,
-        "minutes": 0,
-        "seconds": 0,
-        "percent": 0.01
-      },
-      {
-        "name": "cron-send-events-update-credit-usage",
-        "total_seconds": 0.923906,
-        "digital": "0:00:00",
-        "decimal": "0.00",
-        "text": "0 secs",
-        "hours": 0,
-        "minutes": 0,
-        "seconds": 0,
-        "percent": 0.01
-      },
-      {
-        "name": "update-mailbox-when-sync-errors",
-        "total_seconds": 0.923906,
-        "digital": "0:00:00",
-        "decimal": "0.00",
-        "text": "0 secs",
-        "hours": 0,
-        "minutes": 0,
-        "seconds": 0,
-        "percent": 0.01
-      },
-      {
-        "name": "cron-unsnooze-actions",
-        "total_seconds": 0.923906,
-        "digital": "0:00:00",
-        "decimal": "0.00",
-        "text": "0 secs",
-        "hours": 0,
-        "minutes": 0,
-        "seconds": 0,
-        "percent": 0.01
-      },
-      {
-        "name": "create-manual-response-action",
-        "total_seconds": 0.923906,
-        "digital": "0:00:00",
-        "decimal": "0.00",
-        "text": "0 secs",
-        "hours": 0,
-        "minutes": 0,
-        "seconds": 0,
-        "percent": 0.01
-      },
-      {
-        "name": "recalculate-team-health-score",
-        "total_seconds": 0.923906,
-        "digital": "0:00:00",
-        "decimal": "0.00",
-        "text": "0 secs",
-        "hours": 0,
-        "minutes": 0,
-        "seconds": 0,
-        "percent": 0.01
-      },
-      {
-        "name": "sync-nylas-account-contact",
-        "total_seconds": 0.923906,
-        "digital": "0:00:00",
-        "decimal": "0.00",
-        "text": "0 secs",
-        "hours": 0,
-        "minutes": 0,
-        "seconds": 0,
-        "percent": 0.01
-      },
-      {
-        "name": "cron-delete-duplicate-step-results",
-        "total_seconds": 0.923906,
-        "digital": "0:00:00",
-        "decimal": "0.00",
-        "text": "0 secs",
-        "hours": 0,
-        "minutes": 0,
-        "seconds": 0,
-        "percent": 0.01
-      },
-      {
-        "name": "sync-nylas-account",
-        "total_seconds": 0.923906,
-        "digital": "0:00:00",
-        "decimal": "0.00",
-        "text": "0 secs",
-        "hours": 0,
-        "minutes": 0,
-        "seconds": 0,
-        "percent": 0.01
-      },
-      {
         "name": "cron-send-events-update-contact-last-moment-at",
-        "total_seconds": 0.923906,
-        "digital": "0:00:00",
-        "decimal": "0.00",
-        "text": "0 secs",
-        "hours": 0,
-        "minutes": 0,
-        "seconds": 0,
-        "percent": 0.01
-      },
-      {
-        "name": "create-campaign-contact-from-audience-row",
-        "total_seconds": 0.923906,
-        "digital": "0:00:00",
-        "decimal": "0.00",
-        "text": "0 secs",
-        "hours": 0,
-        "minutes": 0,
-        "seconds": 0,
-        "percent": 0.01
-      },
-      {
-        "name": "cron-verify-domains",
-        "total_seconds": 0.923906,
-        "digital": "0:00:00",
-        "decimal": "0.00",
-        "text": "0 secs",
-        "hours": 0,
-        "minutes": 0,
-        "seconds": 0,
-        "percent": 0.01
-      },
-      {
-        "name": "create-campaign-audience-prospect-rows",
-        "total_seconds": 0.923906,
-        "digital": "0:00:00",
-        "decimal": "0.00",
-        "text": "0 secs",
-        "hours": 0,
-        "minutes": 0,
-        "seconds": 0,
-        "percent": 0.01
-      },
-      {
-        "name": "cron-update-mrr",
-        "total_seconds": 0.923906,
-        "digital": "0:00:00",
-        "decimal": "0.00",
-        "text": "0 secs",
-        "hours": 0,
-        "minutes": 0,
-        "seconds": 0,
-        "percent": 0.01
-      },
-      {
-        "name": "remove-inbound-email-quote",
-        "total_seconds": 0.923906,
-        "digital": "0:00:00",
-        "decimal": "0.00",
-        "text": "0 secs",
-        "hours": 0,
-        "minutes": 0,
-        "seconds": 0,
-        "percent": 0.01
-      },
-      {
-        "name": "cron-send-events-recalculate-team-health-score",
-        "total_seconds": 0.923906,
-        "digital": "0:00:00",
-        "decimal": "0.00",
-        "text": "0 secs",
-        "hours": 0,
-        "minutes": 0,
-        "seconds": 0,
-        "percent": 0.01
-      },
-      {
-        "name": "update-list-import-metadata-counts",
-        "total_seconds": 0.923906,
-        "digital": "0:00:00",
-        "decimal": "0.00",
-        "text": "0 secs",
-        "hours": 0,
-        "minutes": 0,
-        "seconds": 0,
-        "percent": 0.01
-      },
-      {
-        "name": "update-max-daily-counts-for-team",
-        "total_seconds": 0.923906,
-        "digital": "0:00:00",
-        "decimal": "0.00",
-        "text": "0 secs",
-        "hours": 0,
-        "minutes": 0,
-        "seconds": 0,
-        "percent": 0.01
-      },
-      {
-        "name": "brain-process-inbound-email",
-        "total_seconds": 0.923906,
-        "digital": "0:00:00",
-        "decimal": "0.00",
-        "text": "0 secs",
-        "hours": 0,
-        "minutes": 0,
-        "seconds": 0,
-        "percent": 0.01
-      },
-      {
-        "name": "schedule-campaign",
-        "total_seconds": 0.923906,
-        "digital": "0:00:00",
-        "decimal": "0.00",
-        "text": "0 secs",
-        "hours": 0,
-        "minutes": 0,
-        "seconds": 0,
-        "percent": 0.01
-      },
-      {
-        "name": "regenerate-outbound-sequence",
-        "total_seconds": 0.923906,
-        "digital": "0:00:00",
-        "decimal": "0.00",
-        "text": "0 secs",
-        "hours": 0,
-        "minutes": 0,
-        "seconds": 0,
-        "percent": 0.01
-      },
-      {
-        "name": "check-campaign-contact-status",
-        "total_seconds": 0.923906,
-        "digital": "0:00:00",
-        "decimal": "0.00",
-        "text": "0 secs",
-        "hours": 0,
-        "minutes": 0,
-        "seconds": 0,
-        "percent": 0.01
-      },
-      {
-        "name": "create-campaign-audience-segment-rows",
-        "total_seconds": 0.923906,
-        "digital": "0:00:00",
-        "decimal": "0.00",
-        "text": "0 secs",
-        "hours": 0,
-        "minutes": 0,
-        "seconds": 0,
-        "percent": 0.01
-      },
-      {
-        "name": "schedule-moment",
-        "total_seconds": 0.923906,
-        "digital": "0:00:00",
-        "decimal": "0.00",
-        "text": "0 secs",
-        "hours": 0,
-        "minutes": 0,
-        "seconds": 0,
-        "percent": 0.01
-      },
-      {
-        "name": "cron-send-events-domain-warming",
-        "total_seconds": 0.923906,
-        "digital": "0:00:00",
-        "decimal": "0.00",
-        "text": "0 secs",
-        "hours": 0,
-        "minutes": 0,
-        "seconds": 0,
-        "percent": 0.01
-      },
-      {
-        "name": "cron-send-events-nylas-message-updated",
-        "total_seconds": 0.923906,
-        "digital": "0:00:00",
-        "decimal": "0.00",
-        "text": "0 secs",
-        "hours": 0,
-        "minutes": 0,
-        "seconds": 0,
-        "percent": 0.01
-      },
-      {
-        "name": "brain-ask-questions",
-        "total_seconds": 0.923906,
-        "digital": "0:00:00",
-        "decimal": "0.00",
-        "text": "0 secs",
-        "hours": 0,
-        "minutes": 0,
-        "seconds": 0,
-        "percent": 0.01
-      },
-      {
-        "name": "unschedule-moment",
-        "total_seconds": 0.923906,
-        "digital": "0:00:00",
-        "decimal": "0.00",
-        "text": "0 secs",
-        "hours": 0,
-        "minutes": 0,
-        "seconds": 0,
-        "percent": 0.01
-      },
-      {
-        "name": "cron-send-events-nylas-account-updated",
-        "total_seconds": 0.923906,
-        "digital": "0:00:00",
-        "decimal": "0.00",
-        "text": "0 secs",
-        "hours": 0,
-        "minutes": 0,
-        "seconds": 0,
-        "percent": 0.01
-      },
-      {
-        "name": "update-campaign-audience-integrate-metadata-counts",
-        "total_seconds": 0.923906,
-        "digital": "0:00:00",
-        "decimal": "0.00",
-        "text": "0 secs",
-        "hours": 0,
-        "minutes": 0,
-        "seconds": 0,
-        "percent": 0.01
-      },
-      {
-        "name": "cron-send-events-campaign-contact-check-status-event",
-        "total_seconds": 0.923906,
-        "digital": "0:00:00",
-        "decimal": "0.00",
-        "text": "0 secs",
-        "hours": 0,
-        "minutes": 0,
-        "seconds": 0,
-        "percent": 0.01
-      },
-      {
-        "name": "cron-create-mailreach-spam-tests",
         "total_seconds": 0.923906,
         "digital": "0:00:00",
         "decimal": "0.00",
@@ -810,72 +480,6 @@
         "percent": 0.01
       },
       {
-        "name": "send-failed-function-events-to-sentry",
-        "total_seconds": 0.923906,
-        "digital": "0:00:00",
-        "decimal": "0.00",
-        "text": "0 secs",
-        "hours": 0,
-        "minutes": 0,
-        "seconds": 0,
-        "percent": 0.01
-      },
-      {
-        "name": "maybe-delete-contact-when-campaign-contact-deleted",
-        "total_seconds": 0.923906,
-        "digital": "0:00:00",
-        "decimal": "0.00",
-        "text": "0 secs",
-        "hours": 0,
-        "minutes": 0,
-        "seconds": 0,
-        "percent": 0.01
-      },
-      {
-        "name": "cron-send-events-enriched-field-value-created",
-        "total_seconds": 0.923906,
-        "digital": "0:00:00",
-        "decimal": "0.00",
-        "text": "0 secs",
-        "hours": 0,
-        "minutes": 0,
-        "seconds": 0,
-        "percent": 0.01
-      },
-      {
-        "name": "cron-waiting-list-update",
-        "total_seconds": 0.923906,
-        "digital": "0:00:00",
-        "decimal": "0.00",
-        "text": "0 secs",
-        "hours": 0,
-        "minutes": 0,
-        "seconds": 0,
-        "percent": 0.01
-      },
-      {
-        "name": "create-list-row-from-list-import-row",
-        "total_seconds": 0.923906,
-        "digital": "0:00:00",
-        "decimal": "0.00",
-        "text": "0 secs",
-        "hours": 0,
-        "minutes": 0,
-        "seconds": 0,
-        "percent": 0.01
-      },
-      {
-        "name": "cron-send-events-campaign-running",
-        "total_seconds": 0.923906,
-        "digital": "0:00:00",
-        "decimal": "0.00",
-        "text": "0 secs",
-        "hours": 0,
-        "minutes": 0,
-        "seconds": 0,
-        "percent": 0.01
-      },
-      {
         "name": "update-campaign-audience-segment-metadata-counts",
         "total_seconds": 0.923906,
         "digital": "0:00:00",
@@ -887,7 +491,7 @@
         "percent": 0.01
       },
       {
-        "name": "send-moment",
+        "name": "cron-send-events-list-import-row-created",
         "total_seconds": 0.923906,
         "digital": "0:00:00",
         "decimal": "0.00",
@@ -898,73 +502,7 @@
         "percent": 0.01
       },
       {
-        "name": "cron-remove-coupons",
-        "total_seconds": 0.923906,
-        "digital": "0:00:00",
-        "decimal": "0.00",
-        "text": "0 secs",
-        "hours": 0,
-        "minutes": 0,
-        "seconds": 0,
-        "percent": 0.01
-      },
-      {
-        "name": "name-campaign",
-        "total_seconds": 0.923906,
-        "digital": "0:00:00",
-        "decimal": "0.00",
-        "text": "0 secs",
-        "hours": 0,
-        "minutes": 0,
-        "seconds": 0,
-        "percent": 0.01
-      },
-      {
-        "name": "sync-mailreach-spam-test",
-        "total_seconds": 0.923906,
-        "digital": "0:00:00",
-        "decimal": "0.00",
-        "text": "0 secs",
-        "hours": 0,
-        "minutes": 0,
-        "seconds": 0,
-        "percent": 0.01
-      },
-      {
-        "name": "cron-send-events-nylas-event-updated",
-        "total_seconds": 0.923906,
-        "digital": "0:00:00",
-        "decimal": "0.00",
-        "text": "0 secs",
-        "hours": 0,
-        "minutes": 0,
-        "seconds": 0,
-        "percent": 0.01
-      },
-      {
-        "name": "cron-send-events-moment-schedule",
-        "total_seconds": 0.923906,
-        "digital": "0:00:00",
-        "decimal": "0.00",
-        "text": "0 secs",
-        "hours": 0,
-        "minutes": 0,
-        "seconds": 0,
-        "percent": 0.01
-      },
-      {
-        "name": "classify-inbound-email",
-        "total_seconds": 0.923906,
-        "digital": "0:00:00",
-        "decimal": "0.00",
-        "text": "0 secs",
-        "hours": 0,
-        "minutes": 0,
-        "seconds": 0,
-        "percent": 0.01
-      },
-      {
-        "name": "create-contact-in-connections",
+        "name": "regenerate-outbound-sequence",
         "total_seconds": 0.923906,
         "digital": "0:00:00",
         "decimal": "0.00",
@@ -986,7 +524,7 @@
         "percent": 0.01
       },
       {
-        "name": "next",
+        "name": "sync-nylas-event",
         "total_seconds": 0.923906,
         "digital": "0:00:00",
         "decimal": "0.00",
@@ -997,7 +535,62 @@
         "percent": 0.01
       },
       {
-        "name": "cron-sync-headers",
+        "name": "cron-waiting-list-update",
+        "total_seconds": 0.923906,
+        "digital": "0:00:00",
+        "decimal": "0.00",
+        "text": "0 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0,
+        "percent": 0.01
+      },
+      {
+        "name": "update-max-daily-counts-for-team",
+        "total_seconds": 0.923906,
+        "digital": "0:00:00",
+        "decimal": "0.00",
+        "text": "0 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0,
+        "percent": 0.01
+      },
+      {
+        "name": "cron-send-events-enriched-field-value-created",
+        "total_seconds": 0.923906,
+        "digital": "0:00:00",
+        "decimal": "0.00",
+        "text": "0 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0,
+        "percent": 0.01
+      },
+      {
+        "name": "cron-send-events-nylas-account-updated",
+        "total_seconds": 0.923906,
+        "digital": "0:00:00",
+        "decimal": "0.00",
+        "text": "0 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0,
+        "percent": 0.01
+      },
+      {
+        "name": "cron-send-events-campaign-running",
+        "total_seconds": 0.923906,
+        "digital": "0:00:00",
+        "decimal": "0.00",
+        "text": "0 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0,
+        "percent": 0.01
+      },
+      {
+        "name": "get-contact-id-from-audience-row",
         "total_seconds": 0.923906,
         "digital": "0:00:00",
         "decimal": "0.00",
@@ -1019,218 +612,627 @@
         "percent": 0.01
       },
       {
-        "name": "sentry",
-        "total_seconds": 0,
+        "name": "sync-nylas-account-contact",
+        "total_seconds": 0.923906,
         "digital": "0:00:00",
         "decimal": "0.00",
         "text": "0 secs",
         "hours": 0,
         "minutes": 0,
         "seconds": 0,
-        "percent": 0
+        "percent": 0.01
       },
       {
-        "name": "admin-route",
-        "total_seconds": 0,
+        "name": "recalculate-team-health-score",
+        "total_seconds": 0.923906,
         "digital": "0:00:00",
         "decimal": "0.00",
         "text": "0 secs",
         "hours": 0,
         "minutes": 0,
         "seconds": 0,
-        "percent": 0
+        "percent": 0.01
       },
       {
-        "name": "vercel",
-        "total_seconds": 0,
+        "name": "brain-process-inbound-email",
+        "total_seconds": 0.923906,
         "digital": "0:00:00",
         "decimal": "0.00",
         "text": "0 secs",
         "hours": 0,
         "minutes": 0,
         "seconds": 0,
-        "percent": 0
+        "percent": 0.01
       },
       {
-        "name": "auth-route",
-        "total_seconds": 0,
+        "name": "cron-send-events-sync-mailreach-spam-test",
+        "total_seconds": 0.923906,
         "digital": "0:00:00",
         "decimal": "0.00",
         "text": "0 secs",
         "hours": 0,
         "minutes": 0,
         "seconds": 0,
-        "percent": 0
+        "percent": 0.01
       },
       {
-        "name": "id",
-        "total_seconds": 0,
+        "name": "schedule-campaign",
+        "total_seconds": 0.923906,
         "digital": "0:00:00",
         "decimal": "0.00",
         "text": "0 secs",
         "hours": 0,
         "minutes": 0,
         "seconds": 0,
-        "percent": 0
+        "percent": 0.01
       },
       {
-        "name": "webhooks-route",
-        "total_seconds": 0,
+        "name": "name-campaign",
+        "total_seconds": 0.923906,
         "digital": "0:00:00",
         "decimal": "0.00",
         "text": "0 secs",
         "hours": 0,
         "minutes": 0,
         "seconds": 0,
-        "percent": 0
+        "percent": 0.01
       },
       {
-        "name": "queue-route",
-        "total_seconds": 0,
+        "name": "update-contact-last-moment-at",
+        "total_seconds": 0.923906,
         "digital": "0:00:00",
         "decimal": "0.00",
         "text": "0 secs",
         "hours": 0,
         "minutes": 0,
         "seconds": 0,
-        "percent": 0
+        "percent": 0.01
       },
       {
-        "name": "teams-route",
-        "total_seconds": 0,
+        "name": "create-campaign-contact-moments-for-outbound",
+        "total_seconds": 0.923906,
         "digital": "0:00:00",
         "decimal": "0.00",
         "text": "0 secs",
         "hours": 0,
         "minutes": 0,
         "seconds": 0,
-        "percent": 0
+        "percent": 0.01
       },
       {
-        "name": "zod-validation-error",
-        "total_seconds": 0,
+        "name": "sync-nylas-account",
+        "total_seconds": 0.923906,
         "digital": "0:00:00",
         "decimal": "0.00",
         "text": "0 secs",
         "hours": 0,
         "minutes": 0,
         "seconds": 0,
-        "percent": 0
+        "percent": 0.01
       },
       {
-        "name": "hono",
-        "total_seconds": 0,
+        "name": "next",
+        "total_seconds": 0.923906,
         "digital": "0:00:00",
         "decimal": "0.00",
         "text": "0 secs",
         "hours": 0,
         "minutes": 0,
         "seconds": 0,
-        "percent": 0
+        "percent": 0.01
       },
       {
-        "name": "common",
-        "total_seconds": 0,
+        "name": "create-list-row-from-list-import-row",
+        "total_seconds": 0.923906,
         "digital": "0:00:00",
         "decimal": "0.00",
         "text": "0 secs",
         "hours": 0,
         "minutes": 0,
         "seconds": 0,
-        "percent": 0
+        "percent": 0.01
       },
       {
-        "name": "http-exception",
-        "total_seconds": 0,
+        "name": "sync-powerdmarc-account",
+        "total_seconds": 0.923906,
         "digital": "0:00:00",
         "decimal": "0.00",
         "text": "0 secs",
         "hours": 0,
         "minutes": 0,
         "seconds": 0,
-        "percent": 0
+        "percent": 0.01
       },
       {
-        "name": "jsonwebtoken",
-        "total_seconds": 0,
+        "name": "send-failed-function-events-to-sentry",
+        "total_seconds": 0.923906,
         "digital": "0:00:00",
         "decimal": "0.00",
         "text": "0 secs",
         "hours": 0,
         "minutes": 0,
         "seconds": 0,
-        "percent": 0
+        "percent": 0.01
       },
       {
-        "name": "tracking-router",
-        "total_seconds": 0,
+        "name": "cron-send-events-moment-should-be-sent",
+        "total_seconds": 0.923906,
         "digital": "0:00:00",
         "decimal": "0.00",
         "text": "0 secs",
         "hours": 0,
         "minutes": 0,
         "seconds": 0,
-        "percent": 0
+        "percent": 0.01
       },
       {
-        "name": "outbound-domains-router",
-        "total_seconds": 0,
+        "name": "cron-unsnooze-actions",
+        "total_seconds": 0.923906,
         "digital": "0:00:00",
         "decimal": "0.00",
         "text": "0 secs",
         "hours": 0,
         "minutes": 0,
         "seconds": 0,
-        "percent": 0
+        "percent": 0.01
       },
       {
-        "name": "users-route",
-        "total_seconds": 0,
+        "name": "cron-send-events-domain-warming",
+        "total_seconds": 0.923906,
         "digital": "0:00:00",
         "decimal": "0.00",
         "text": "0 secs",
         "hours": 0,
         "minutes": 0,
         "seconds": 0,
-        "percent": 0
+        "percent": 0.01
+      },
+      {
+        "name": "create-campaign-audience-segment-rows",
+        "total_seconds": 0.923906,
+        "digital": "0:00:00",
+        "decimal": "0.00",
+        "text": "0 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0,
+        "percent": 0.01
+      },
+      {
+        "name": "run-campaign",
+        "total_seconds": 0.923906,
+        "digital": "0:00:00",
+        "decimal": "0.00",
+        "text": "0 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0,
+        "percent": 0.01
+      },
+      {
+        "name": "update-campaign-audience-integrate-metadata-counts",
+        "total_seconds": 0.923906,
+        "digital": "0:00:00",
+        "decimal": "0.00",
+        "text": "0 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0,
+        "percent": 0.01
+      },
+      {
+        "name": "cron-send-events-nylas-event-updated",
+        "total_seconds": 0.923906,
+        "digital": "0:00:00",
+        "decimal": "0.00",
+        "text": "0 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0,
+        "percent": 0.01
+      },
+      {
+        "name": "create-manual-response-action",
+        "total_seconds": 0.923906,
+        "digital": "0:00:00",
+        "decimal": "0.00",
+        "text": "0 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0,
+        "percent": 0.01
+      },
+      {
+        "name": "update-credit-usage",
+        "total_seconds": 0.923906,
+        "digital": "0:00:00",
+        "decimal": "0.00",
+        "text": "0 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0,
+        "percent": 0.01
+      },
+      {
+        "name": "brain-ask-questions",
+        "total_seconds": 0.923906,
+        "digital": "0:00:00",
+        "decimal": "0.00",
+        "text": "0 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0,
+        "percent": 0.01
+      },
+      {
+        "name": "sync-mailreach-spam-test",
+        "total_seconds": 0.923906,
+        "digital": "0:00:00",
+        "decimal": "0.00",
+        "text": "0 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0,
+        "percent": 0.01
+      },
+      {
+        "name": "enrich-field-value",
+        "total_seconds": 0.923906,
+        "digital": "0:00:00",
+        "decimal": "0.00",
+        "text": "0 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0,
+        "percent": 0.01
+      },
+      {
+        "name": "create-campaign-audience-prospect-rows",
+        "total_seconds": 0.923906,
+        "digital": "0:00:00",
+        "decimal": "0.00",
+        "text": "0 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0,
+        "percent": 0.01
+      },
+      {
+        "name": "cron-create-mailreach-spam-tests",
+        "total_seconds": 0.923906,
+        "digital": "0:00:00",
+        "decimal": "0.00",
+        "text": "0 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0,
+        "percent": 0.01
+      },
+      {
+        "name": "schedule-moment",
+        "total_seconds": 0.923906,
+        "digital": "0:00:00",
+        "decimal": "0.00",
+        "text": "0 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0,
+        "percent": 0.01
+      },
+      {
+        "name": "update-list-import-metadata-counts",
+        "total_seconds": 0.923906,
+        "digital": "0:00:00",
+        "decimal": "0.00",
+        "text": "0 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0,
+        "percent": 0.01
+      },
+      {
+        "name": "create-campaign-contact-from-audience-row",
+        "total_seconds": 0.923906,
+        "digital": "0:00:00",
+        "decimal": "0.00",
+        "text": "0 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0,
+        "percent": 0.01
+      },
+      {
+        "name": "cron-update-mrr",
+        "total_seconds": 0.923906,
+        "digital": "0:00:00",
+        "decimal": "0.00",
+        "text": "0 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0,
+        "percent": 0.01
+      },
+      {
+        "name": "cron-delete-duplicate-step-results",
+        "total_seconds": 0.923906,
+        "digital": "0:00:00",
+        "decimal": "0.00",
+        "text": "0 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0,
+        "percent": 0.01
+      },
+      {
+        "name": "maybe-delete-contact-when-campaign-contact-deleted",
+        "total_seconds": 0.923906,
+        "digital": "0:00:00",
+        "decimal": "0.00",
+        "text": "0 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0,
+        "percent": 0.01
+      },
+      {
+        "name": "cron-verify-domains",
+        "total_seconds": 0.923906,
+        "digital": "0:00:00",
+        "decimal": "0.00",
+        "text": "0 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0,
+        "percent": 0.01
+      },
+      {
+        "name": "cron-send-events-moment-schedule",
+        "total_seconds": 0.923906,
+        "digital": "0:00:00",
+        "decimal": "0.00",
+        "text": "0 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0,
+        "percent": 0.01
+      },
+      {
+        "name": "check-campaign-contact-status",
+        "total_seconds": 0.923906,
+        "digital": "0:00:00",
+        "decimal": "0.00",
+        "text": "0 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0,
+        "percent": 0.01
+      },
+      {
+        "name": "cron-send-events-nylas-message-updated",
+        "total_seconds": 0.923906,
+        "digital": "0:00:00",
+        "decimal": "0.00",
+        "text": "0 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0,
+        "percent": 0.01
+      },
+      {
+        "name": "cron-remove-coupons",
+        "total_seconds": 0.923906,
+        "digital": "0:00:00",
+        "decimal": "0.00",
+        "text": "0 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0,
+        "percent": 0.01
+      },
+      {
+        "name": "cron-send-events-campaign-contact-check-status-event",
+        "total_seconds": 0.923906,
+        "digital": "0:00:00",
+        "decimal": "0.00",
+        "text": "0 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0,
+        "percent": 0.01
+      },
+      {
+        "name": "sync-nylas-message",
+        "total_seconds": 0.923906,
+        "digital": "0:00:00",
+        "decimal": "0.00",
+        "text": "0 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0,
+        "percent": 0.01
+      },
+      {
+        "name": "update-campaign-audience-import-metadata-counts",
+        "total_seconds": 0.923906,
+        "digital": "0:00:00",
+        "decimal": "0.00",
+        "text": "0 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0,
+        "percent": 0.01
+      },
+      {
+        "name": "cron-send-events-update-credit-usage",
+        "total_seconds": 0.923906,
+        "digital": "0:00:00",
+        "decimal": "0.00",
+        "text": "0 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0,
+        "percent": 0.01
+      },
+      {
+        "name": "remove-inbound-email-quote",
+        "total_seconds": 0.923906,
+        "digital": "0:00:00",
+        "decimal": "0.00",
+        "text": "0 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0,
+        "percent": 0.01
+      },
+      {
+        "name": "unschedule-moment",
+        "total_seconds": 0.923906,
+        "digital": "0:00:00",
+        "decimal": "0.00",
+        "text": "0 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0,
+        "percent": 0.01
+      },
+      {
+        "name": "cron-sync-headers",
+        "total_seconds": 0.923906,
+        "digital": "0:00:00",
+        "decimal": "0.00",
+        "text": "0 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0,
+        "percent": 0.01
+      },
+      {
+        "name": "create-contact-in-connections",
+        "total_seconds": 0.923906,
+        "digital": "0:00:00",
+        "decimal": "0.00",
+        "text": "0 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0,
+        "percent": 0.01
+      },
+      {
+        "name": "update-mailbox-when-sync-errors",
+        "total_seconds": 0.923906,
+        "digital": "0:00:00",
+        "decimal": "0.00",
+        "text": "0 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0,
+        "percent": 0.01
+      },
+      {
+        "name": "classify-inbound-email",
+        "total_seconds": 0.923906,
+        "digital": "0:00:00",
+        "decimal": "0.00",
+        "text": "0 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0,
+        "percent": 0.01
+      },
+      {
+        "name": "cron-send-events-recalculate-team-health-score",
+        "total_seconds": 0.923906,
+        "digital": "0:00:00",
+        "decimal": "0.00",
+        "text": "0 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0,
+        "percent": 0.01
+      },
+      {
+        "name": "cron-switch-to-annual",
+        "total_seconds": 0.923906,
+        "digital": "0:00:00",
+        "decimal": "0.00",
+        "text": "0 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0,
+        "percent": 0.01
+      },
+      {
+        "name": "regenerate-outbound-step-moment",
+        "total_seconds": 0.923906,
+        "digital": "0:00:00",
+        "decimal": "0.00",
+        "text": "0 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0,
+        "percent": 0.01
+      },
+      {
+        "name": "send-moment",
+        "total_seconds": 0.923906,
+        "digital": "0:00:00",
+        "decimal": "0.00",
+        "text": "0 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0,
+        "percent": 0.01
+      },
+      {
+        "name": "cron-send-events-inbound-email-moment-created",
+        "total_seconds": 0.923906,
+        "digital": "0:00:00",
+        "decimal": "0.00",
+        "text": "0 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0,
+        "percent": 0.01
       }
     ],
     "machines": [
       {
         "name": "Anand's+MacBook+Pro",
-        "total_seconds": 663.155915,
+        "total_seconds": 708.497353,
         "machine_name_id": "a271e978-bdf2-44b9-a893-800048e17a4a",
-        "digital": "0:11:03",
+        "digital": "0:11:48",
         "decimal": "0.18",
         "text": "11 mins",
         "hours": 0,
         "minutes": 11,
-        "seconds": 3,
+        "seconds": 48,
         "percent": 100
       }
     ],
     "projects": [
       {
         "name": "firstquadrant",
-        "total_seconds": 626.973527,
-        "digital": "0:10:26",
-        "decimal": "0.17",
-        "text": "10 mins",
+        "total_seconds": 672.314965,
+        "color": null,
+        "digital": "0:11:12",
+        "decimal": "0.18",
+        "text": "11 mins",
         "hours": 0,
-        "minutes": 10,
-        "seconds": 26,
-        "percent": 94.54
+        "minutes": 11,
+        "seconds": 12,
+        "percent": 94.89
       },
       {
         "name": "Unknown Project",
         "total_seconds": 36.182388,
+        "color": null,
         "digital": "0:00:36",
         "decimal": "0.00",
         "text": "36 secs",
         "hours": 0,
         "minutes": 0,
         "seconds": 36,
-        "percent": 5.46
+        "percent": 5.11
       }
     ],
     "range": {
