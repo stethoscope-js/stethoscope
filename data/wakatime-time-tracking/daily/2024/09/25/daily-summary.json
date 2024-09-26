@@ -1,0 +1,343 @@
+[
+  {
+    "grand_total": {
+      "hours": 0,
+      "minutes": 7,
+      "total_seconds": 421.967351,
+      "digital": "0:07",
+      "decimal": "0.12",
+      "text": "7 mins"
+    },
+    "range": {
+      "start": "2024-09-25T22:00:00Z",
+      "end": "2024-09-26T21:59:59Z",
+      "date": "2024-09-26",
+      "text": "Thu Sep 26th 2024",
+      "timezone": "Europe/Amsterdam"
+    },
+    "projects": [
+      {
+        "name": "firstquadrant",
+        "total_seconds": 421.967351,
+        "color": null,
+        "digital": "0:07:01",
+        "decimal": "0.12",
+        "text": "7 mins",
+        "hours": 0,
+        "minutes": 7,
+        "seconds": 1,
+        "percent": 100
+      }
+    ],
+    "languages": [
+      {
+        "name": "TypeScript",
+        "total_seconds": 421.967351,
+        "digital": "0:07:01",
+        "decimal": "0.12",
+        "text": "7 mins",
+        "hours": 0,
+        "minutes": 7,
+        "seconds": 1,
+        "percent": 100
+      }
+    ],
+    "dependencies": [
+      {
+        "name": "client",
+        "total_seconds": 421.967351,
+        "digital": "0:07:01",
+        "decimal": "0.12",
+        "text": "7 mins",
+        "hours": 0,
+        "minutes": 7,
+        "seconds": 1,
+        "percent": 10
+      },
+      {
+        "name": "prisma",
+        "total_seconds": 420.150016,
+        "digital": "0:07:00",
+        "decimal": "0.12",
+        "text": "7 mins",
+        "hours": 0,
+        "minutes": 7,
+        "seconds": 0,
+        "percent": 9.96
+      },
+      {
+        "name": "id",
+        "total_seconds": 420.150016,
+        "digital": "0:07:00",
+        "decimal": "0.12",
+        "text": "7 mins",
+        "hours": 0,
+        "minutes": 7,
+        "seconds": 0,
+        "percent": 9.96
+      },
+      {
+        "name": "concurrency",
+        "total_seconds": 241.970334,
+        "digital": "0:04:01",
+        "decimal": "0.07",
+        "text": "4 mins",
+        "hours": 0,
+        "minutes": 4,
+        "seconds": 1,
+        "percent": 5.73
+      },
+      {
+        "name": "logger",
+        "total_seconds": 241.970334,
+        "digital": "0:04:01",
+        "decimal": "0.07",
+        "text": "4 mins",
+        "hours": 0,
+        "minutes": 4,
+        "seconds": 1,
+        "percent": 5.73
+      },
+      {
+        "name": "slack",
+        "total_seconds": 241.970334,
+        "digital": "0:04:01",
+        "decimal": "0.07",
+        "text": "4 mins",
+        "hours": 0,
+        "minutes": 4,
+        "seconds": 1,
+        "percent": 5.73
+      },
+      {
+        "name": "magic-bell",
+        "total_seconds": 241.970334,
+        "digital": "0:04:01",
+        "decimal": "0.07",
+        "text": "4 mins",
+        "hours": 0,
+        "minutes": 4,
+        "seconds": 1,
+        "percent": 5.73
+      },
+      {
+        "name": "audit",
+        "total_seconds": 241.970334,
+        "digital": "0:04:01",
+        "decimal": "0.07",
+        "text": "4 mins",
+        "hours": 0,
+        "minutes": 4,
+        "seconds": 1,
+        "percent": 5.73
+      },
+      {
+        "name": "inngest",
+        "total_seconds": 241.970334,
+        "digital": "0:04:01",
+        "decimal": "0.07",
+        "text": "4 mins",
+        "hours": 0,
+        "minutes": 4,
+        "seconds": 1,
+        "percent": 5.73
+      },
+      {
+        "name": "apollo.client",
+        "total_seconds": 230.446647,
+        "digital": "0:03:50",
+        "decimal": "0.05",
+        "text": "3 mins",
+        "hours": 0,
+        "minutes": 3,
+        "seconds": 50,
+        "percent": 5.46
+      },
+      {
+        "name": "mixed-people-search",
+        "total_seconds": 230.446647,
+        "digital": "0:03:50",
+        "decimal": "0.05",
+        "text": "3 mins",
+        "hours": 0,
+        "minutes": 3,
+        "seconds": 50,
+        "percent": 5.46
+      },
+      {
+        "name": "zod",
+        "total_seconds": 230.446647,
+        "digital": "0:03:50",
+        "decimal": "0.05",
+        "text": "3 mins",
+        "hours": 0,
+        "minutes": 3,
+        "seconds": 50,
+        "percent": 5.46
+      },
+      {
+        "name": "teams-$teamId-campaigns-$campaignId-audience-prospect-helpers",
+        "total_seconds": 230.446647,
+        "digital": "0:03:50",
+        "decimal": "0.05",
+        "text": "3 mins",
+        "hours": 0,
+        "minutes": 3,
+        "seconds": 50,
+        "percent": 5.46
+      },
+      {
+        "name": "auth-helpers",
+        "total_seconds": 178.179682,
+        "digital": "0:02:58",
+        "decimal": "0.03",
+        "text": "2 mins",
+        "hours": 0,
+        "minutes": 2,
+        "seconds": 58,
+        "percent": 4.22
+      },
+      {
+        "name": "admin-dashboard-helpers",
+        "total_seconds": 178.179682,
+        "digital": "0:02:58",
+        "decimal": "0.03",
+        "text": "2 mins",
+        "hours": 0,
+        "minutes": 2,
+        "seconds": 58,
+        "percent": 4.22
+      },
+      {
+        "name": "hono",
+        "total_seconds": 178.179682,
+        "digital": "0:02:58",
+        "decimal": "0.03",
+        "text": "2 mins",
+        "hours": 0,
+        "minutes": 2,
+        "seconds": 58,
+        "percent": 4.22
+      },
+      {
+        "name": "send-slack-message",
+        "total_seconds": 11.523687,
+        "digital": "0:00:11",
+        "decimal": "0.00",
+        "text": "11 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 11,
+        "percent": 0.27
+      },
+      {
+        "name": "seedrandom",
+        "total_seconds": 11.523687,
+        "digital": "0:00:11",
+        "decimal": "0.00",
+        "text": "11 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 11,
+        "percent": 0.27
+      },
+      {
+        "name": "teams-$teamId-campaigns-$campaignId-outbound-helpers",
+        "total_seconds": 11.523687,
+        "digital": "0:00:11",
+        "decimal": "0.00",
+        "text": "11 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 11,
+        "percent": 0.27
+      },
+      {
+        "name": "teams-$teamId-campaigns-helpers",
+        "total_seconds": 11.523687,
+        "digital": "0:00:11",
+        "decimal": "0.00",
+        "text": "11 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 11,
+        "percent": 0.27
+      },
+      {
+        "name": "env",
+        "total_seconds": 1.817335,
+        "digital": "0:00:01",
+        "decimal": "0.00",
+        "text": "1 sec",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 1,
+        "percent": 0.04
+      },
+      {
+        "name": "search",
+        "total_seconds": 1.817335,
+        "digital": "0:00:01",
+        "decimal": "0.00",
+        "text": "1 sec",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 1,
+        "percent": 0.04
+      }
+    ],
+    "machines": [
+      {
+        "name": "Anand's+MacBook+Pro",
+        "total_seconds": 421.967351,
+        "machine_name_id": "018d2788-708d-4f43-a7cf-8c3020a4b466",
+        "digital": "0:07:01",
+        "decimal": "0.12",
+        "text": "7 mins",
+        "hours": 0,
+        "minutes": 7,
+        "seconds": 1,
+        "percent": 100
+      }
+    ],
+    "editors": [
+      {
+        "name": "VS Code",
+        "total_seconds": 421.967351,
+        "digital": "0:07:01",
+        "decimal": "0.12",
+        "text": "7 mins",
+        "hours": 0,
+        "minutes": 7,
+        "seconds": 1,
+        "percent": 100
+      }
+    ],
+    "operating_systems": [
+      {
+        "name": "Mac",
+        "total_seconds": 421.967351,
+        "digital": "0:07:01",
+        "decimal": "0.12",
+        "text": "7 mins",
+        "hours": 0,
+        "minutes": 7,
+        "seconds": 1,
+        "percent": 100
+      }
+    ],
+    "categories": [
+      {
+        "name": "Coding",
+        "total_seconds": 421.967351,
+        "digital": "0:07:01",
+        "decimal": "0.12",
+        "text": "7 mins",
+        "hours": 0,
+        "minutes": 7,
+        "seconds": 1,
+        "percent": 100
+      }
+    ]
+  }
+]
