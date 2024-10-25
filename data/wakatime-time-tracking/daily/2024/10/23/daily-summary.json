@@ -1,26 +1,321 @@
 [
   {
+    "languages": [
+      {
+        "name": "TypeScript",
+        "total_seconds": 605.719241,
+        "digital": "0:10:05",
+        "decimal": "0.17",
+        "text": "10 mins",
+        "hours": 0,
+        "minutes": 10,
+        "seconds": 5,
+        "percent": 98.77
+      },
+      {
+        "name": "Prisma",
+        "total_seconds": 7.57075,
+        "digital": "0:00:07",
+        "decimal": "0.00",
+        "text": "7 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 7,
+        "percent": 1.23
+      }
+    ],
     "grand_total": {
       "hours": 0,
-      "minutes": 0,
-      "total_seconds": 0,
-      "digital": "0:00",
-      "decimal": "0.00",
-      "text": "0 secs"
+      "minutes": 10,
+      "total_seconds": 613.289991,
+      "digital": "0:10",
+      "decimal": "0.17",
+      "text": "10 mins"
     },
+    "editors": [
+      {
+        "name": "VS Code",
+        "total_seconds": 613.289991,
+        "digital": "0:10:13",
+        "decimal": "0.17",
+        "text": "10 mins",
+        "hours": 0,
+        "minutes": 10,
+        "seconds": 13,
+        "percent": 100
+      }
+    ],
+    "operating_systems": [
+      {
+        "name": "Mac",
+        "total_seconds": 613.289991,
+        "digital": "0:10:13",
+        "decimal": "0.17",
+        "text": "10 mins",
+        "hours": 0,
+        "minutes": 10,
+        "seconds": 13,
+        "percent": 100
+      }
+    ],
+    "categories": [
+      {
+        "name": "Coding",
+        "total_seconds": 613.289991,
+        "digital": "0:10:13",
+        "decimal": "0.17",
+        "text": "10 mins",
+        "hours": 0,
+        "minutes": 10,
+        "seconds": 13,
+        "percent": 100
+      }
+    ],
+    "dependencies": [
+      {
+        "name": "admin-route",
+        "total_seconds": 605.719241,
+        "digital": "0:10:05",
+        "decimal": "0.17",
+        "text": "10 mins",
+        "hours": 0,
+        "minutes": 10,
+        "seconds": 5,
+        "percent": 5.26
+      },
+      {
+        "name": "common",
+        "total_seconds": 605.719241,
+        "digital": "0:10:05",
+        "decimal": "0.17",
+        "text": "10 mins",
+        "hours": 0,
+        "minutes": 10,
+        "seconds": 5,
+        "percent": 5.26
+      },
+      {
+        "name": "prisma",
+        "total_seconds": 605.719241,
+        "digital": "0:10:05",
+        "decimal": "0.17",
+        "text": "10 mins",
+        "hours": 0,
+        "minutes": 10,
+        "seconds": 5,
+        "percent": 5.26
+      },
+      {
+        "name": "queue-route",
+        "total_seconds": 605.719241,
+        "digital": "0:10:05",
+        "decimal": "0.17",
+        "text": "10 mins",
+        "hours": 0,
+        "minutes": 10,
+        "seconds": 5,
+        "percent": 5.26
+      },
+      {
+        "name": "auth-route",
+        "total_seconds": 605.719241,
+        "digital": "0:10:05",
+        "decimal": "0.17",
+        "text": "10 mins",
+        "hours": 0,
+        "minutes": 10,
+        "seconds": 5,
+        "percent": 5.26
+      },
+      {
+        "name": "teams-route",
+        "total_seconds": 605.719241,
+        "digital": "0:10:05",
+        "decimal": "0.17",
+        "text": "10 mins",
+        "hours": 0,
+        "minutes": 10,
+        "seconds": 5,
+        "percent": 5.26
+      },
+      {
+        "name": "sentry",
+        "total_seconds": 605.719241,
+        "digital": "0:10:05",
+        "decimal": "0.17",
+        "text": "10 mins",
+        "hours": 0,
+        "minutes": 10,
+        "seconds": 5,
+        "percent": 5.26
+      },
+      {
+        "name": "http-exception",
+        "total_seconds": 605.719241,
+        "digital": "0:10:05",
+        "decimal": "0.17",
+        "text": "10 mins",
+        "hours": 0,
+        "minutes": 10,
+        "seconds": 5,
+        "percent": 5.26
+      },
+      {
+        "name": "tracking-router",
+        "total_seconds": 605.719241,
+        "digital": "0:10:05",
+        "decimal": "0.17",
+        "text": "10 mins",
+        "hours": 0,
+        "minutes": 10,
+        "seconds": 5,
+        "percent": 5.26
+      },
+      {
+        "name": "zod-validation-error",
+        "total_seconds": 605.719241,
+        "digital": "0:10:05",
+        "decimal": "0.17",
+        "text": "10 mins",
+        "hours": 0,
+        "minutes": 10,
+        "seconds": 5,
+        "percent": 5.26
+      },
+      {
+        "name": "zod",
+        "total_seconds": 605.719241,
+        "digital": "0:10:05",
+        "decimal": "0.17",
+        "text": "10 mins",
+        "hours": 0,
+        "minutes": 10,
+        "seconds": 5,
+        "percent": 5.26
+      },
+      {
+        "name": "users-route",
+        "total_seconds": 605.719241,
+        "digital": "0:10:05",
+        "decimal": "0.17",
+        "text": "10 mins",
+        "hours": 0,
+        "minutes": 10,
+        "seconds": 5,
+        "percent": 5.26
+      },
+      {
+        "name": "jsonwebtoken",
+        "total_seconds": 605.719241,
+        "digital": "0:10:05",
+        "decimal": "0.17",
+        "text": "10 mins",
+        "hours": 0,
+        "minutes": 10,
+        "seconds": 5,
+        "percent": 5.26
+      },
+      {
+        "name": "logger",
+        "total_seconds": 605.719241,
+        "digital": "0:10:05",
+        "decimal": "0.17",
+        "text": "10 mins",
+        "hours": 0,
+        "minutes": 10,
+        "seconds": 5,
+        "percent": 5.26
+      },
+      {
+        "name": "webhooks-route",
+        "total_seconds": 605.719241,
+        "digital": "0:10:05",
+        "decimal": "0.17",
+        "text": "10 mins",
+        "hours": 0,
+        "minutes": 10,
+        "seconds": 5,
+        "percent": 5.26
+      },
+      {
+        "name": "outbound-domains-router",
+        "total_seconds": 605.719241,
+        "digital": "0:10:05",
+        "decimal": "0.17",
+        "text": "10 mins",
+        "hours": 0,
+        "minutes": 10,
+        "seconds": 5,
+        "percent": 5.26
+      },
+      {
+        "name": "id",
+        "total_seconds": 605.719241,
+        "digital": "0:10:05",
+        "decimal": "0.17",
+        "text": "10 mins",
+        "hours": 0,
+        "minutes": 10,
+        "seconds": 5,
+        "percent": 5.26
+      },
+      {
+        "name": "vercel",
+        "total_seconds": 605.719241,
+        "digital": "0:10:05",
+        "decimal": "0.17",
+        "text": "10 mins",
+        "hours": 0,
+        "minutes": 10,
+        "seconds": 5,
+        "percent": 5.26
+      },
+      {
+        "name": "hono",
+        "total_seconds": 605.719241,
+        "digital": "0:10:05",
+        "decimal": "0.17",
+        "text": "10 mins",
+        "hours": 0,
+        "minutes": 10,
+        "seconds": 5,
+        "percent": 5.26
+      }
+    ],
+    "machines": [
+      {
+        "name": "Anand's+MacBook+Pro",
+        "total_seconds": 613.289991,
+        "machine_name_id": "403213a5-148c-47e7-915c-8342070f9cf4",
+        "digital": "0:10:13",
+        "decimal": "0.17",
+        "text": "10 mins",
+        "hours": 0,
+        "minutes": 10,
+        "seconds": 13,
+        "percent": 100
+      }
+    ],
+    "projects": [
+      {
+        "name": "firstquadrant",
+        "total_seconds": 613.289991,
+        "color": null,
+        "digital": "0:10:13",
+        "decimal": "0.17",
+        "text": "10 mins",
+        "hours": 0,
+        "minutes": 10,
+        "seconds": 13,
+        "percent": 100
+      }
+    ],
     "range": {
       "start": "2024-10-23T22:00:00Z",
       "end": "2024-10-24T21:59:59Z",
       "date": "2024-10-24",
       "text": "Thu Oct 24th 2024",
       "timezone": "Europe/Amsterdam"
-    },
-    "projects": [],
-    "languages": [],
-    "dependencies": [],
-    "machines": [],
-    "editors": [],
-    "operating_systems": [],
-    "categories": []
+    }
   }
 ]
