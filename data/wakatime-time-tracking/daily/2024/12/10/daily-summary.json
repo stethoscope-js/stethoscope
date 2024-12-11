@@ -1,0 +1,354 @@
+[
+  {
+    "grand_total": {
+      "hours": 0,
+      "minutes": 5,
+      "total_seconds": 330.551677,
+      "digital": "0:05",
+      "decimal": "0.08",
+      "text": "5 mins"
+    },
+    "range": {
+      "start": "2024-12-10T23:00:00Z",
+      "end": "2024-12-11T22:59:59Z",
+      "date": "2024-12-11",
+      "text": "Wed Dec 11th 2024",
+      "timezone": "Europe/Amsterdam"
+    },
+    "projects": [
+      {
+        "name": "2024-11",
+        "total_seconds": 330.551677,
+        "color": null,
+        "digital": "0:05:30",
+        "decimal": "0.08",
+        "text": "5 mins",
+        "hours": 0,
+        "minutes": 5,
+        "seconds": 30,
+        "percent": 100
+      }
+    ],
+    "languages": [
+      {
+        "name": "TypeScript",
+        "total_seconds": 317.061679,
+        "digital": "0:05:17",
+        "decimal": "0.08",
+        "text": "5 mins",
+        "hours": 0,
+        "minutes": 5,
+        "seconds": 17,
+        "percent": 95.92
+      },
+      {
+        "name": "Other",
+        "total_seconds": 13.489998,
+        "digital": "0:00:13",
+        "decimal": "0.00",
+        "text": "13 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 13,
+        "percent": 4.08
+      }
+    ],
+    "dependencies": [
+      {
+        "name": "client",
+        "total_seconds": 312.925528,
+        "digital": "0:05:12",
+        "decimal": "0.08",
+        "text": "5 mins",
+        "hours": 0,
+        "minutes": 5,
+        "seconds": 12,
+        "percent": 6.74
+      },
+      {
+        "name": "database",
+        "total_seconds": 312.925528,
+        "digital": "0:05:12",
+        "decimal": "0.08",
+        "text": "5 mins",
+        "hours": 0,
+        "minutes": 5,
+        "seconds": 12,
+        "percent": 6.74
+      },
+      {
+        "name": "schema",
+        "total_seconds": 312.925528,
+        "digital": "0:05:12",
+        "decimal": "0.08",
+        "text": "5 mins",
+        "hours": 0,
+        "minutes": 5,
+        "seconds": 12,
+        "percent": 6.74
+      },
+      {
+        "name": "luxon",
+        "total_seconds": 301.826512,
+        "digital": "0:05:01",
+        "decimal": "0.08",
+        "text": "5 mins",
+        "hours": 0,
+        "minutes": 5,
+        "seconds": 1,
+        "percent": 6.5
+      },
+      {
+        "name": "nylas",
+        "total_seconds": 286.39969,
+        "digital": "0:04:46",
+        "decimal": "0.07",
+        "text": "4 mins",
+        "hours": 0,
+        "minutes": 4,
+        "seconds": 46,
+        "percent": 6.16
+      },
+      {
+        "name": "parsers",
+        "total_seconds": 282.263539,
+        "digital": "0:04:42",
+        "decimal": "0.07",
+        "text": "4 mins",
+        "hours": 0,
+        "minutes": 4,
+        "seconds": 42,
+        "percent": 6.08
+      },
+      {
+        "name": "select-schema",
+        "total_seconds": 282.263539,
+        "digital": "0:04:42",
+        "decimal": "0.07",
+        "text": "4 mins",
+        "hours": 0,
+        "minutes": 4,
+        "seconds": 42,
+        "percent": 6.08
+      },
+      {
+        "name": "audit",
+        "total_seconds": 282.263539,
+        "digital": "0:04:42",
+        "decimal": "0.07",
+        "text": "4 mins",
+        "hours": 0,
+        "minutes": 4,
+        "seconds": 42,
+        "percent": 6.08
+      },
+      {
+        "name": "shared-types",
+        "total_seconds": 282.263539,
+        "digital": "0:04:42",
+        "decimal": "0.07",
+        "text": "4 mins",
+        "hours": 0,
+        "minutes": 4,
+        "seconds": 42,
+        "percent": 6.08
+      },
+      {
+        "name": "env",
+        "total_seconds": 271.164523,
+        "digital": "0:04:31",
+        "decimal": "0.07",
+        "text": "4 mins",
+        "hours": 0,
+        "minutes": 4,
+        "seconds": 31,
+        "percent": 5.84
+      },
+      {
+        "name": "logger",
+        "total_seconds": 271.164523,
+        "digital": "0:04:31",
+        "decimal": "0.07",
+        "text": "4 mins",
+        "hours": 0,
+        "minutes": 4,
+        "seconds": 31,
+        "percent": 5.84
+      },
+      {
+        "name": "resend",
+        "total_seconds": 271.164523,
+        "digital": "0:04:31",
+        "decimal": "0.07",
+        "text": "4 mins",
+        "hours": 0,
+        "minutes": 4,
+        "seconds": 31,
+        "percent": 5.84
+      },
+      {
+        "name": "crypto",
+        "total_seconds": 271.164523,
+        "digital": "0:04:31",
+        "decimal": "0.07",
+        "text": "4 mins",
+        "hours": 0,
+        "minutes": 4,
+        "seconds": 31,
+        "percent": 5.84
+      },
+      {
+        "name": "zod",
+        "total_seconds": 271.164523,
+        "digital": "0:04:31",
+        "decimal": "0.07",
+        "text": "4 mins",
+        "hours": 0,
+        "minutes": 4,
+        "seconds": 31,
+        "percent": 5.84
+      },
+      {
+        "name": "slugify",
+        "total_seconds": 271.164523,
+        "digital": "0:04:31",
+        "decimal": "0.07",
+        "text": "4 mins",
+        "hours": 0,
+        "minutes": 4,
+        "seconds": 31,
+        "percent": 5.84
+      },
+      {
+        "name": "shared-schema",
+        "total_seconds": 271.164523,
+        "digital": "0:04:31",
+        "decimal": "0.07",
+        "text": "4 mins",
+        "hours": 0,
+        "minutes": 4,
+        "seconds": 31,
+        "percent": 5.84
+      },
+      {
+        "name": "inngest",
+        "total_seconds": 30.661989,
+        "digital": "0:00:30",
+        "decimal": "0.00",
+        "text": "30 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 30,
+        "percent": 0.66
+      },
+      {
+        "name": "concurrency",
+        "total_seconds": 30.661989,
+        "digital": "0:00:30",
+        "decimal": "0.00",
+        "text": "30 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 30,
+        "percent": 0.66
+      },
+      {
+        "name": "prompts",
+        "total_seconds": 11.099016,
+        "digital": "0:00:11",
+        "decimal": "0.00",
+        "text": "11 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 11,
+        "percent": 0.24
+      },
+      {
+        "name": "mappers",
+        "total_seconds": 11.099016,
+        "digital": "0:00:11",
+        "decimal": "0.00",
+        "text": "11 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 11,
+        "percent": 0.24
+      },
+      {
+        "name": "node-email-reply-parser",
+        "total_seconds": 4.136151,
+        "digital": "0:00:04",
+        "decimal": "0.00",
+        "text": "4 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 4,
+        "percent": 0.09
+      },
+      {
+        "name": "html-to-text",
+        "total_seconds": 4.136151,
+        "digital": "0:00:04",
+        "decimal": "0.00",
+        "text": "4 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 4,
+        "percent": 0.09
+      }
+    ],
+    "machines": [
+      {
+        "name": "Anand's+MacBook+Pro",
+        "total_seconds": 330.551677,
+        "machine_name_id": "018d2788-708d-4f43-a7cf-8c3020a4b466",
+        "digital": "0:05:30",
+        "decimal": "0.08",
+        "text": "5 mins",
+        "hours": 0,
+        "minutes": 5,
+        "seconds": 30,
+        "percent": 100
+      }
+    ],
+    "editors": [
+      {
+        "name": "Cursor",
+        "total_seconds": 330.551677,
+        "digital": "0:05:30",
+        "decimal": "0.08",
+        "text": "5 mins",
+        "hours": 0,
+        "minutes": 5,
+        "seconds": 30,
+        "percent": 100
+      }
+    ],
+    "operating_systems": [
+      {
+        "name": "Mac",
+        "total_seconds": 330.551677,
+        "digital": "0:05:30",
+        "decimal": "0.08",
+        "text": "5 mins",
+        "hours": 0,
+        "minutes": 5,
+        "seconds": 30,
+        "percent": 100
+      }
+    ],
+    "categories": [
+      {
+        "name": "Coding",
+        "total_seconds": 330.551677,
+        "digital": "0:05:30",
+        "decimal": "0.08",
+        "text": "5 mins",
+        "hours": 0,
+        "minutes": 5,
+        "seconds": 30,
+        "percent": 100
+      }
+    ]
+  }
+]
