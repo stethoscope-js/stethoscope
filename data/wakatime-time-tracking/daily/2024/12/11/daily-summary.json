@@ -1,0 +1,531 @@
+[
+  {
+    "grand_total": {
+      "hours": 0,
+      "minutes": 17,
+      "total_seconds": 1046.283583,
+      "digital": "0:17",
+      "decimal": "0.28",
+      "text": "17 mins"
+    },
+    "range": {
+      "start": "2024-12-11T23:00:00Z",
+      "end": "2024-12-12T22:59:59Z",
+      "date": "2024-12-12",
+      "text": "Thu Dec 12th 2024",
+      "timezone": "Europe/Amsterdam"
+    },
+    "projects": [
+      {
+        "name": "2024-11",
+        "total_seconds": 1046.283583,
+        "color": null,
+        "digital": "0:17:26",
+        "decimal": "0.28",
+        "text": "17 mins",
+        "hours": 0,
+        "minutes": 17,
+        "seconds": 26,
+        "percent": 100
+      }
+    ],
+    "languages": [
+      {
+        "name": "TypeScript",
+        "total_seconds": 1045.065034,
+        "digital": "0:17:25",
+        "decimal": "0.28",
+        "text": "17 mins",
+        "hours": 0,
+        "minutes": 17,
+        "seconds": 25,
+        "percent": 99.88
+      },
+      {
+        "name": "Other",
+        "total_seconds": 1.218549,
+        "digital": "0:00:01",
+        "decimal": "0.00",
+        "text": "1 sec",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 1,
+        "percent": 0.12
+      }
+    ],
+    "dependencies": [
+      {
+        "name": "shared-types",
+        "total_seconds": 958.030849,
+        "digital": "0:15:58",
+        "decimal": "0.25",
+        "text": "15 mins",
+        "hours": 0,
+        "minutes": 15,
+        "seconds": 58,
+        "percent": 18.31
+      },
+      {
+        "name": "client",
+        "total_seconds": 747.262822,
+        "digital": "0:12:27",
+        "decimal": "0.20",
+        "text": "12 mins",
+        "hours": 0,
+        "minutes": 12,
+        "seconds": 27,
+        "percent": 14.28
+      },
+      {
+        "name": "prompts",
+        "total_seconds": 482.654412,
+        "digital": "0:08:02",
+        "decimal": "0.13",
+        "text": "8 mins",
+        "hours": 0,
+        "minutes": 8,
+        "seconds": 2,
+        "percent": 9.22
+      },
+      {
+        "name": "api",
+        "total_seconds": 340.144916,
+        "digital": "0:05:40",
+        "decimal": "0.08",
+        "text": "5 mins",
+        "hours": 0,
+        "minutes": 5,
+        "seconds": 40,
+        "percent": 6.5
+      },
+      {
+        "name": "database",
+        "total_seconds": 314.172697,
+        "digital": "0:05:14",
+        "decimal": "0.08",
+        "text": "5 mins",
+        "hours": 0,
+        "minutes": 5,
+        "seconds": 14,
+        "percent": 6
+      },
+      {
+        "name": "select-schema",
+        "total_seconds": 314.172697,
+        "digital": "0:05:14",
+        "decimal": "0.08",
+        "text": "5 mins",
+        "hours": 0,
+        "minutes": 5,
+        "seconds": 14,
+        "percent": 6
+      },
+      {
+        "name": "zod-openapi",
+        "total_seconds": 260.830829,
+        "digital": "0:04:20",
+        "decimal": "0.07",
+        "text": "4 mins",
+        "hours": 0,
+        "minutes": 4,
+        "seconds": 20,
+        "percent": 4.98
+      },
+      {
+        "name": "errors",
+        "total_seconds": 260.830829,
+        "digital": "0:04:20",
+        "decimal": "0.07",
+        "text": "4 mins",
+        "hours": 0,
+        "minutes": 4,
+        "seconds": 20,
+        "percent": 4.98
+      },
+      {
+        "name": "helpers",
+        "total_seconds": 258.081083,
+        "digital": "0:04:18",
+        "decimal": "0.07",
+        "text": "4 mins",
+        "hours": 0,
+        "minutes": 4,
+        "seconds": 18,
+        "percent": 4.93
+      },
+      {
+        "name": "audit",
+        "total_seconds": 233.886773,
+        "digital": "0:03:53",
+        "decimal": "0.05",
+        "text": "3 mins",
+        "hours": 0,
+        "minutes": 3,
+        "seconds": 53,
+        "percent": 4.47
+      },
+      {
+        "name": "inngest",
+        "total_seconds": 228.827015,
+        "digital": "0:03:48",
+        "decimal": "0.05",
+        "text": "3 mins",
+        "hours": 0,
+        "minutes": 3,
+        "seconds": 48,
+        "percent": 4.37
+      },
+      {
+        "name": "concurrency",
+        "total_seconds": 228.827015,
+        "digital": "0:03:48",
+        "decimal": "0.05",
+        "text": "3 mins",
+        "hours": 0,
+        "minutes": 3,
+        "seconds": 48,
+        "percent": 4.37
+      },
+      {
+        "name": "enrich",
+        "total_seconds": 227.855178,
+        "digital": "0:03:47",
+        "decimal": "0.05",
+        "text": "3 mins",
+        "hours": 0,
+        "minutes": 3,
+        "seconds": 47,
+        "percent": 4.35
+      },
+      {
+        "name": "mappers",
+        "total_seconds": 201.329423,
+        "digital": "0:03:21",
+        "decimal": "0.05",
+        "text": "3 mins",
+        "hours": 0,
+        "minutes": 3,
+        "seconds": 21,
+        "percent": 3.85
+      },
+      {
+        "name": "shared-schema",
+        "total_seconds": 45.6041,
+        "digital": "0:00:45",
+        "decimal": "0.00",
+        "text": "45 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 45,
+        "percent": 0.87
+      },
+      {
+        "name": "parsers",
+        "total_seconds": 44.782137,
+        "digital": "0:00:44",
+        "decimal": "0.00",
+        "text": "44 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 44,
+        "percent": 0.86
+      },
+      {
+        "name": "zod",
+        "total_seconds": 43.002978,
+        "digital": "0:00:43",
+        "decimal": "0.00",
+        "text": "43 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 43,
+        "percent": 0.82
+      },
+      {
+        "name": "serper",
+        "total_seconds": 6.031595,
+        "digital": "0:00:06",
+        "decimal": "0.00",
+        "text": "6 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 6,
+        "percent": 0.12
+      },
+      {
+        "name": "logger",
+        "total_seconds": 6.031595,
+        "digital": "0:00:06",
+        "decimal": "0.00",
+        "text": "6 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 6,
+        "percent": 0.12
+      },
+      {
+        "name": "schema",
+        "total_seconds": 2.601122,
+        "digital": "0:00:02",
+        "decimal": "0.00",
+        "text": "2 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 2,
+        "percent": 0.05
+      },
+      {
+        "name": "dialog",
+        "total_seconds": 1.651314,
+        "digital": "0:00:01",
+        "decimal": "0.00",
+        "text": "1 sec",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 1,
+        "percent": 0.03
+      },
+      {
+        "name": "popover",
+        "total_seconds": 1.651314,
+        "digital": "0:00:01",
+        "decimal": "0.00",
+        "text": "1 sec",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 1,
+        "percent": 0.03
+      },
+      {
+        "name": "badge",
+        "total_seconds": 1.651314,
+        "digital": "0:00:01",
+        "decimal": "0.00",
+        "text": "1 sec",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 1,
+        "percent": 0.03
+      },
+      {
+        "name": "ui-icon",
+        "total_seconds": 1.651314,
+        "digital": "0:00:01",
+        "decimal": "0.00",
+        "text": "1 sec",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 1,
+        "percent": 0.03
+      },
+      {
+        "name": "form",
+        "total_seconds": 1.651314,
+        "digital": "0:00:01",
+        "decimal": "0.00",
+        "text": "1 sec",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 1,
+        "percent": 0.03
+      },
+      {
+        "name": "react-dialog",
+        "total_seconds": 1.651314,
+        "digital": "0:00:01",
+        "decimal": "0.00",
+        "text": "1 sec",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 1,
+        "percent": 0.03
+      },
+      {
+        "name": "dropdown-menu",
+        "total_seconds": 1.651314,
+        "digital": "0:00:01",
+        "decimal": "0.00",
+        "text": "1 sec",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 1,
+        "percent": 0.03
+      },
+      {
+        "name": "button",
+        "total_seconds": 1.651314,
+        "digital": "0:00:01",
+        "decimal": "0.00",
+        "text": "1 sec",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 1,
+        "percent": 0.03
+      },
+      {
+        "name": "utils",
+        "total_seconds": 1.651314,
+        "digital": "0:00:01",
+        "decimal": "0.00",
+        "text": "1 sec",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 1,
+        "percent": 0.03
+      },
+      {
+        "name": "react",
+        "total_seconds": 1.651314,
+        "digital": "0:00:01",
+        "decimal": "0.00",
+        "text": "1 sec",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 1,
+        "percent": 0.03
+      },
+      {
+        "name": "create-employment-form",
+        "total_seconds": 1.651314,
+        "digital": "0:00:01",
+        "decimal": "0.00",
+        "text": "1 sec",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 1,
+        "percent": 0.03
+      },
+      {
+        "name": "avatar",
+        "total_seconds": 1.651314,
+        "digital": "0:00:01",
+        "decimal": "0.00",
+        "text": "1 sec",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 1,
+        "percent": 0.03
+      },
+      {
+        "name": "member-column",
+        "total_seconds": 1.651314,
+        "digital": "0:00:01",
+        "decimal": "0.00",
+        "text": "1 sec",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 1,
+        "percent": 0.03
+      },
+      {
+        "name": "property-value-form",
+        "total_seconds": 1.651314,
+        "digital": "0:00:01",
+        "decimal": "0.00",
+        "text": "1 sec",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 1,
+        "percent": 0.03
+      },
+      {
+        "name": "email-status",
+        "total_seconds": 1.651314,
+        "digital": "0:00:01",
+        "decimal": "0.00",
+        "text": "1 sec",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 1,
+        "percent": 0.03
+      },
+      {
+        "name": "default-property-form",
+        "total_seconds": 1.651314,
+        "digital": "0:00:01",
+        "decimal": "0.00",
+        "text": "1 sec",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 1,
+        "percent": 0.03
+      },
+      {
+        "name": "enrichment",
+        "total_seconds": 0.971837,
+        "digital": "0:00:00",
+        "decimal": "0.00",
+        "text": "0 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0,
+        "percent": 0.02
+      }
+    ],
+    "machines": [
+      {
+        "name": "Anand's+MacBook+Pro",
+        "total_seconds": 985.445932,
+        "machine_name_id": "018d2788-708d-4f43-a7cf-8c3020a4b466",
+        "digital": "0:16:25",
+        "decimal": "0.27",
+        "text": "16 mins",
+        "hours": 0,
+        "minutes": 16,
+        "seconds": 25,
+        "percent": 94.19
+      },
+      {
+        "name": "Anand%27s+MacBook+Pro",
+        "total_seconds": 60.837651,
+        "machine_name_id": "018e510a-e46b-4be4-b7c6-eca6133ad025",
+        "digital": "0:01:00",
+        "decimal": "0.02",
+        "text": "1 min",
+        "hours": 0,
+        "minutes": 1,
+        "seconds": 0,
+        "percent": 5.81
+      }
+    ],
+    "editors": [
+      {
+        "name": "Cursor",
+        "total_seconds": 1046.283583,
+        "digital": "0:17:26",
+        "decimal": "0.28",
+        "text": "17 mins",
+        "hours": 0,
+        "minutes": 17,
+        "seconds": 26,
+        "percent": 100
+      }
+    ],
+    "operating_systems": [
+      {
+        "name": "Mac",
+        "total_seconds": 1046.283583,
+        "digital": "0:17:26",
+        "decimal": "0.28",
+        "text": "17 mins",
+        "hours": 0,
+        "minutes": 17,
+        "seconds": 26,
+        "percent": 100
+      }
+    ],
+    "categories": [
+      {
+        "name": "Coding",
+        "total_seconds": 1046.283583,
+        "digital": "0:17:26",
+        "decimal": "0.28",
+        "text": "17 mins",
+        "hours": 0,
+        "minutes": 17,
+        "seconds": 26,
+        "percent": 100
+      }
+    ]
+  }
+]
