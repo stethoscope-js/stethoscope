@@ -2,6 +2,17 @@
   {
     "languages": [
       {
+        "name": "TypeScript",
+        "total_seconds": 65.689369,
+        "digital": "0:01:05",
+        "decimal": "0.02",
+        "text": "1 min",
+        "hours": 0,
+        "minutes": 1,
+        "seconds": 5,
+        "percent": 52.09
+      },
+      {
         "name": "Other",
         "total_seconds": 60.424002,
         "digital": "0:01:00",
@@ -10,10 +21,10 @@
         "hours": 0,
         "minutes": 1,
         "seconds": 0,
-        "percent": 100
+        "percent": 47.91
       },
       {
-        "name": "TypeScript",
+        "name": "Prisma",
         "total_seconds": 0,
         "digital": "0:00:00",
         "decimal": "0.00",
@@ -26,77 +37,243 @@
     ],
     "grand_total": {
       "hours": 0,
-      "minutes": 1,
-      "total_seconds": 60.424002,
-      "digital": "0:01",
-      "decimal": "0.02",
-      "text": "1 min"
+      "minutes": 2,
+      "total_seconds": 126.113371,
+      "digital": "0:02",
+      "decimal": "0.03",
+      "text": "2 mins"
     },
     "editors": [
       {
         "name": "Cursor",
-        "total_seconds": 60.424002,
-        "digital": "0:01:00",
-        "decimal": "0.02",
-        "text": "1 min",
+        "total_seconds": 126.113371,
+        "digital": "0:02:06",
+        "decimal": "0.03",
+        "text": "2 mins",
         "hours": 0,
-        "minutes": 1,
-        "seconds": 0,
+        "minutes": 2,
+        "seconds": 6,
         "percent": 100
       }
     ],
     "operating_systems": [
       {
         "name": "Mac",
-        "total_seconds": 60.424002,
-        "digital": "0:01:00",
-        "decimal": "0.02",
-        "text": "1 min",
+        "total_seconds": 126.113371,
+        "digital": "0:02:06",
+        "decimal": "0.03",
+        "text": "2 mins",
         "hours": 0,
-        "minutes": 1,
-        "seconds": 0,
+        "minutes": 2,
+        "seconds": 6,
         "percent": 100
       }
     ],
     "categories": [
       {
         "name": "Coding",
-        "total_seconds": 60.424002,
-        "digital": "0:01:00",
-        "decimal": "0.02",
-        "text": "1 min",
+        "total_seconds": 126.113371,
+        "digital": "0:02:06",
+        "decimal": "0.03",
+        "text": "2 mins",
         "hours": 0,
-        "minutes": 1,
-        "seconds": 0,
+        "minutes": 2,
+        "seconds": 6,
         "percent": 100
       }
     ],
-    "dependencies": [],
+    "dependencies": [
+      {
+        "name": "zod-openapi",
+        "total_seconds": 56.552291,
+        "digital": "0:00:56",
+        "decimal": "0.00",
+        "text": "56 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 56,
+        "percent": 10.44
+      },
+      {
+        "name": "database",
+        "total_seconds": 56.552291,
+        "digital": "0:00:56",
+        "decimal": "0.00",
+        "text": "56 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 56,
+        "percent": 10.44
+      },
+      {
+        "name": "errors",
+        "total_seconds": 33.60388,
+        "digital": "0:00:33",
+        "decimal": "0.00",
+        "text": "33 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 33,
+        "percent": 6.2
+      },
+      {
+        "name": "audit",
+        "total_seconds": 33.60388,
+        "digital": "0:00:33",
+        "decimal": "0.00",
+        "text": "33 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 33,
+        "percent": 6.2
+      },
+      {
+        "name": "authorization",
+        "total_seconds": 33.60388,
+        "digital": "0:00:33",
+        "decimal": "0.00",
+        "text": "33 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 33,
+        "percent": 6.2
+      },
+      {
+        "name": "schema",
+        "total_seconds": 33.60388,
+        "digital": "0:00:33",
+        "decimal": "0.00",
+        "text": "33 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 33,
+        "percent": 6.2
+      },
+      {
+        "name": "select-schema",
+        "total_seconds": 33.60388,
+        "digital": "0:00:33",
+        "decimal": "0.00",
+        "text": "33 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 33,
+        "percent": 6.2
+      },
+      {
+        "name": "inngest",
+        "total_seconds": 33.60388,
+        "digital": "0:00:33",
+        "decimal": "0.00",
+        "text": "33 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 33,
+        "percent": 6.2
+      },
+      {
+        "name": "middleware",
+        "total_seconds": 33.60388,
+        "digital": "0:00:33",
+        "decimal": "0.00",
+        "text": "33 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 33,
+        "percent": 6.2
+      },
+      {
+        "name": "communication",
+        "total_seconds": 33.60388,
+        "digital": "0:00:33",
+        "decimal": "0.00",
+        "text": "33 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 33,
+        "percent": 6.2
+      },
+      {
+        "name": "pagination",
+        "total_seconds": 33.60388,
+        "digital": "0:00:33",
+        "decimal": "0.00",
+        "text": "33 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 33,
+        "percent": 6.2
+      },
+      {
+        "name": "logging",
+        "total_seconds": 33.60388,
+        "digital": "0:00:33",
+        "decimal": "0.00",
+        "text": "33 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 33,
+        "percent": 6.2
+      },
+      {
+        "name": "validation",
+        "total_seconds": 33.60388,
+        "digital": "0:00:33",
+        "decimal": "0.00",
+        "text": "33 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 33,
+        "percent": 6.2
+      },
+      {
+        "name": "shared-types",
+        "total_seconds": 33.60388,
+        "digital": "0:00:33",
+        "decimal": "0.00",
+        "text": "33 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 33,
+        "percent": 6.2
+      },
+      {
+        "name": "prompts",
+        "total_seconds": 25.484213,
+        "digital": "0:00:25",
+        "decimal": "0.00",
+        "text": "25 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 25,
+        "percent": 4.7
+      }
+    ],
     "machines": [
       {
         "name": "Anands-MBP.home",
-        "total_seconds": 60.424002,
+        "total_seconds": 126.113371,
         "machine_name_id": "b7ecf457-94f5-4eba-85d9-4e097913c4ef",
-        "digital": "0:01:00",
-        "decimal": "0.02",
-        "text": "1 min",
+        "digital": "0:02:06",
+        "decimal": "0.03",
+        "text": "2 mins",
         "hours": 0,
-        "minutes": 1,
-        "seconds": 0,
+        "minutes": 2,
+        "seconds": 6,
         "percent": 100
       }
     ],
     "projects": [
       {
         "name": "firstquadrant.ai",
-        "total_seconds": 60.424002,
+        "total_seconds": 126.113371,
         "color": null,
-        "digital": "0:01:00",
-        "decimal": "0.02",
-        "text": "1 min",
+        "digital": "0:02:06",
+        "decimal": "0.03",
+        "text": "2 mins",
         "hours": 0,
-        "minutes": 1,
-        "seconds": 0,
+        "minutes": 2,
+        "seconds": 6,
         "percent": 100
       }
     ],
