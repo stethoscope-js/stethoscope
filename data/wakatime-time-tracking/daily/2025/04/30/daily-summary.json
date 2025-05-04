@@ -139,7 +139,7 @@
         "percent": 3.22
       },
       {
-        "name": "ts-deepmerge",
+        "name": "dot-object",
         "total_seconds": 1834.385397,
         "digital": "0:30:34",
         "decimal": "0.50",
@@ -150,7 +150,7 @@
         "percent": 3.11
       },
       {
-        "name": "dot-object",
+        "name": "ts-deepmerge",
         "total_seconds": 1834.385397,
         "digital": "0:30:34",
         "decimal": "0.50",
@@ -381,7 +381,7 @@
         "percent": 1.7
       },
       {
-        "name": "badge",
+        "name": "avatar",
         "total_seconds": 991.179477,
         "digital": "0:16:31",
         "decimal": "0.27",
@@ -392,7 +392,7 @@
         "percent": 1.68
       },
       {
-        "name": "avatar",
+        "name": "badge",
         "total_seconds": 991.179477,
         "digital": "0:16:31",
         "decimal": "0.27",
@@ -447,17 +447,6 @@
         "percent": 1.62
       },
       {
-        "name": "track",
-        "total_seconds": 909.393628,
-        "digital": "0:15:09",
-        "decimal": "0.25",
-        "text": "15 mins",
-        "hours": 0,
-        "minutes": 15,
-        "seconds": 9,
-        "percent": 1.54
-      },
-      {
         "name": "action-tag",
         "total_seconds": 909.393628,
         "digital": "0:15:09",
@@ -470,6 +459,17 @@
       },
       {
         "name": "action-optimistic",
+        "total_seconds": 909.393628,
+        "digital": "0:15:09",
+        "decimal": "0.25",
+        "text": "15 mins",
+        "hours": 0,
+        "minutes": 15,
+        "seconds": 9,
+        "percent": 1.54
+      },
+      {
+        "name": "track",
         "total_seconds": 909.393628,
         "digital": "0:15:09",
         "decimal": "0.25",
@@ -700,7 +700,7 @@
         "percent": 0.23
       },
       {
-        "name": "company",
+        "name": "property-columns",
         "total_seconds": 93.124804,
         "digital": "0:01:33",
         "decimal": "0.02",
@@ -711,7 +711,7 @@
         "percent": 0.16
       },
       {
-        "name": "property-columns",
+        "name": "company",
         "total_seconds": 93.124804,
         "digital": "0:01:33",
         "decimal": "0.02",
@@ -920,7 +920,18 @@
         "percent": 0.02
       },
       {
-        "name": "unqualify-company-website-not-provided",
+        "name": "Valid email address",
+        "total_seconds": 11.46671,
+        "digital": "0:00:11",
+        "decimal": "0.00",
+        "text": "11 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 11,
+        "percent": 0.02
+      },
+      {
+        "name": "Professional email address",
         "total_seconds": 11.46671,
         "digital": "0:00:11",
         "decimal": "0.00",
@@ -942,7 +953,7 @@
         "percent": 0.02
       },
       {
-        "name": "Valid email address",
+        "name": "unqualify-company-website-not-provided",
         "total_seconds": 11.46671,
         "digital": "0:00:11",
         "decimal": "0.00",
@@ -975,40 +986,7 @@
         "percent": 0.02
       },
       {
-        "name": "Professional email address",
-        "total_seconds": 11.46671,
-        "digital": "0:00:11",
-        "decimal": "0.00",
-        "text": "11 secs",
-        "hours": 0,
-        "minutes": 0,
-        "seconds": 11,
-        "percent": 0.02
-      },
-      {
-        "name": "virtual-list-header",
-        "total_seconds": 10.406641,
-        "digital": "0:00:10",
-        "decimal": "0.00",
-        "text": "10 secs",
-        "hours": 0,
-        "minutes": 0,
-        "seconds": 10,
-        "percent": 0.02
-      },
-      {
-        "name": "data-table-bulk",
-        "total_seconds": 10.406641,
-        "digital": "0:00:10",
-        "decimal": "0.00",
-        "text": "10 secs",
-        "hours": 0,
-        "minutes": 0,
-        "seconds": 10,
-        "percent": 0.02
-      },
-      {
-        "name": "data-table-actions",
+        "name": "virtual-list-skeleton",
         "total_seconds": 10.406641,
         "digital": "0:00:10",
         "decimal": "0.00",
@@ -1030,6 +1008,28 @@
         "percent": 0.02
       },
       {
+        "name": "data-table-actions",
+        "total_seconds": 10.406641,
+        "digital": "0:00:10",
+        "decimal": "0.00",
+        "text": "10 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 10,
+        "percent": 0.02
+      },
+      {
+        "name": "data-table-bulk",
+        "total_seconds": 10.406641,
+        "digital": "0:00:10",
+        "decimal": "0.00",
+        "text": "10 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 10,
+        "percent": 0.02
+      },
+      {
         "name": "checkbox",
         "total_seconds": 10.406641,
         "digital": "0:00:10",
@@ -1041,19 +1041,8 @@
         "percent": 0.02
       },
       {
-        "name": "virtual-list-skeleton",
+        "name": "virtual-list-header",
         "total_seconds": 10.406641,
-        "digital": "0:00:10",
-        "decimal": "0.00",
-        "text": "10 secs",
-        "hours": 0,
-        "minutes": 0,
-        "seconds": 10,
-        "percent": 0.02
-      },
-      {
-        "name": "workspace",
-        "total_seconds": 10.204229,
         "digital": "0:00:10",
         "decimal": "0.00",
         "text": "10 secs",
@@ -1074,7 +1063,18 @@
         "percent": 0.02
       },
       {
-        "name": "properties",
+        "name": "workspace",
+        "total_seconds": 10.204229,
+        "digital": "0:00:10",
+        "decimal": "0.00",
+        "text": "10 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 10,
+        "percent": 0.02
+      },
+      {
+        "name": "contact-activity-columns",
         "total_seconds": 9.887279,
         "digital": "0:00:09",
         "decimal": "0.00",
@@ -1096,7 +1096,7 @@
         "percent": 0.02
       },
       {
-        "name": "contact-activity-columns",
+        "name": "properties",
         "total_seconds": 9.887279,
         "digital": "0:00:09",
         "decimal": "0.00",
@@ -1173,6 +1173,17 @@
         "percent": 0.01
       },
       {
+        "name": "import-api",
+        "total_seconds": 5.96124,
+        "digital": "0:00:05",
+        "decimal": "0.00",
+        "text": "5 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 5,
+        "percent": 0.01
+      },
+      {
         "name": "qualification-switch",
         "total_seconds": 5.96124,
         "digital": "0:00:05",
@@ -1184,8 +1195,8 @@
         "percent": 0.01
       },
       {
-        "name": "import-api",
-        "total_seconds": 5.96124,
+        "name": "radio-group",
+        "total_seconds": 5.507479,
         "digital": "0:00:05",
         "decimal": "0.00",
         "text": "5 secs",
@@ -1207,17 +1218,6 @@
       },
       {
         "name": "textarea-autosize",
-        "total_seconds": 5.507479,
-        "digital": "0:00:05",
-        "decimal": "0.00",
-        "text": "5 secs",
-        "hours": 0,
-        "minutes": 0,
-        "seconds": 5,
-        "percent": 0.01
-      },
-      {
-        "name": "radio-group",
         "total_seconds": 5.507479,
         "digital": "0:00:05",
         "decimal": "0.00",
@@ -1272,7 +1272,7 @@
         "percent": 0
       },
       {
-        "name": "contact-api",
+        "name": "use-action-status",
         "total_seconds": 1.449758,
         "digital": "0:00:01",
         "decimal": "0.00",
@@ -1283,7 +1283,7 @@
         "percent": 0
       },
       {
-        "name": "use-action-status",
+        "name": "contact-api",
         "total_seconds": 1.449758,
         "digital": "0:00:01",
         "decimal": "0.00",
@@ -1316,17 +1316,6 @@
         "percent": 0
       },
       {
-        "name": "settings-menu",
-        "total_seconds": 0.31695,
-        "digital": "0:00:00",
-        "decimal": "0.00",
-        "text": "0 secs",
-        "hours": 0,
-        "minutes": 0,
-        "seconds": 0,
-        "percent": 0
-      },
-      {
         "name": "user-agent-column",
         "total_seconds": 0.31695,
         "digital": "0:00:00",
@@ -1339,6 +1328,17 @@
       },
       {
         "name": "empty-state",
+        "total_seconds": 0.31695,
+        "digital": "0:00:00",
+        "decimal": "0.00",
+        "text": "0 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0,
+        "percent": 0
+      },
+      {
+        "name": "settings-menu",
         "total_seconds": 0.31695,
         "digital": "0:00:00",
         "decimal": "0.00",
