@@ -1,26 +1,356 @@
 [
   {
+    "languages": [
+      {
+        "name": "JavaScript",
+        "total_seconds": 945.953063,
+        "digital": "0:15:45",
+        "decimal": "0.25",
+        "text": "15 mins",
+        "hours": 0,
+        "minutes": 15,
+        "seconds": 45,
+        "percent": 27.61
+      },
+      {
+        "name": "YAML",
+        "total_seconds": 788.550628,
+        "digital": "0:13:08",
+        "decimal": "0.22",
+        "text": "13 mins",
+        "hours": 0,
+        "minutes": 13,
+        "seconds": 8,
+        "percent": 23.01
+      },
+      {
+        "name": "Other",
+        "total_seconds": 554.430495,
+        "digital": "0:09:14",
+        "decimal": "0.15",
+        "text": "9 mins",
+        "hours": 0,
+        "minutes": 9,
+        "seconds": 14,
+        "percent": 16.18
+      },
+      {
+        "name": "Markdown",
+        "total_seconds": 426.48733,
+        "digital": "0:07:06",
+        "decimal": "0.12",
+        "text": "7 mins",
+        "hours": 0,
+        "minutes": 7,
+        "seconds": 6,
+        "percent": 12.45
+      },
+      {
+        "name": "JSON",
+        "total_seconds": 345.62372,
+        "digital": "0:05:45",
+        "decimal": "0.08",
+        "text": "5 mins",
+        "hours": 0,
+        "minutes": 5,
+        "seconds": 45,
+        "percent": 10.09
+      },
+      {
+        "name": "Bash",
+        "total_seconds": 303.382036,
+        "digital": "0:05:03",
+        "decimal": "0.08",
+        "text": "5 mins",
+        "hours": 0,
+        "minutes": 5,
+        "seconds": 3,
+        "percent": 8.85
+      },
+      {
+        "name": "TypeScript",
+        "total_seconds": 56.712859,
+        "digital": "0:00:56",
+        "decimal": "0.00",
+        "text": "56 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 56,
+        "percent": 1.66
+      },
+      {
+        "name": "Git Config",
+        "total_seconds": 5.124376,
+        "digital": "0:00:05",
+        "decimal": "0.00",
+        "text": "5 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 5,
+        "percent": 0.15
+      }
+    ],
     "grand_total": {
       "hours": 0,
-      "minutes": 0,
-      "total_seconds": 0,
-      "digital": "0:00",
-      "decimal": "0.00",
-      "text": "0 secs"
+      "minutes": 57,
+      "total_seconds": 3426.264507,
+      "digital": "0:57",
+      "decimal": "0.95",
+      "text": "57 mins"
     },
+    "editors": [
+      {
+        "name": "Cursor",
+        "total_seconds": 3426.264507,
+        "digital": "0:57:06",
+        "decimal": "0.95",
+        "text": "57 mins",
+        "hours": 0,
+        "minutes": 57,
+        "seconds": 6,
+        "percent": 100
+      }
+    ],
+    "operating_systems": [
+      {
+        "name": "Mac",
+        "total_seconds": 3426.264507,
+        "digital": "0:57:06",
+        "decimal": "0.95",
+        "text": "57 mins",
+        "hours": 0,
+        "minutes": 57,
+        "seconds": 6,
+        "percent": 100
+      }
+    ],
+    "categories": [
+      {
+        "name": "Coding",
+        "total_seconds": 3426.264507,
+        "digital": "0:57:06",
+        "decimal": "0.95",
+        "text": "57 mins",
+        "hours": 0,
+        "minutes": 57,
+        "seconds": 6,
+        "percent": 100
+      }
+    ],
+    "dependencies": [
+      {
+        "name": "path",
+        "total_seconds": 787.760129,
+        "digital": "0:13:07",
+        "decimal": "0.22",
+        "text": "13 mins",
+        "hours": 0,
+        "minutes": 13,
+        "seconds": 7,
+        "percent": 26.15
+      },
+      {
+        "name": "promises",
+        "total_seconds": 787.760129,
+        "digital": "0:13:07",
+        "decimal": "0.22",
+        "text": "13 mins",
+        "hours": 0,
+        "minutes": 13,
+        "seconds": 7,
+        "percent": 26.15
+      },
+      {
+        "name": "axios",
+        "total_seconds": 477.873036,
+        "digital": "0:07:57",
+        "decimal": "0.12",
+        "text": "7 mins",
+        "hours": 0,
+        "minutes": 7,
+        "seconds": 57,
+        "percent": 15.87
+      },
+      {
+        "name": "_client",
+        "total_seconds": 446.070942,
+        "digital": "0:07:26",
+        "decimal": "0.12",
+        "text": "7 mins",
+        "hours": 0,
+        "minutes": 7,
+        "seconds": 26,
+        "percent": 14.81
+      },
+      {
+        "name": "npm",
+        "total_seconds": 81.167498,
+        "digital": "0:01:21",
+        "decimal": "0.02",
+        "text": "1 min",
+        "hours": 0,
+        "minutes": 1,
+        "seconds": 21,
+        "percent": 2.69
+      },
+      {
+        "name": "react-router",
+        "total_seconds": 56.712859,
+        "digital": "0:00:56",
+        "decimal": "0.00",
+        "text": "56 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 56,
+        "percent": 1.88
+      },
+      {
+        "name": "workspace",
+        "total_seconds": 56.712859,
+        "digital": "0:00:56",
+        "decimal": "0.00",
+        "text": "56 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 56,
+        "percent": 1.88
+      },
+      {
+        "name": "use-workspace",
+        "total_seconds": 56.712859,
+        "digital": "0:00:56",
+        "decimal": "0.00",
+        "text": "56 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 56,
+        "percent": 1.88
+      },
+      {
+        "name": "base",
+        "total_seconds": 44.544267,
+        "digital": "0:00:44",
+        "decimal": "0.00",
+        "text": "44 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 44,
+        "percent": 1.48
+      },
+      {
+        "name": "use-list",
+        "total_seconds": 44.544267,
+        "digital": "0:00:44",
+        "decimal": "0.00",
+        "text": "44 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 44,
+        "percent": 1.48
+      },
+      {
+        "name": "endpoints",
+        "total_seconds": 44.544267,
+        "digital": "0:00:44",
+        "decimal": "0.00",
+        "text": "44 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 44,
+        "percent": 1.48
+      },
+      {
+        "name": "spinner",
+        "total_seconds": 44.544267,
+        "digital": "0:00:44",
+        "decimal": "0.00",
+        "text": "44 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 44,
+        "percent": 1.48
+      },
+      {
+        "name": "zod",
+        "total_seconds": 44.544267,
+        "digital": "0:00:44",
+        "decimal": "0.00",
+        "text": "44 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 44,
+        "percent": 1.48
+      },
+      {
+        "name": "moment-timezone",
+        "total_seconds": 38.426892,
+        "digital": "0:00:38",
+        "decimal": "0.00",
+        "text": "38 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 38,
+        "percent": 1.28
+      }
+    ],
+    "machines": [
+      {
+        "name": "Anands-MBP.home",
+        "total_seconds": 3426.264507,
+        "machine_name_id": "1ff3795f-c752-4858-9fa4-7090240f0ab3",
+        "digital": "0:57:06",
+        "decimal": "0.95",
+        "text": "57 mins",
+        "hours": 0,
+        "minutes": 57,
+        "seconds": 6,
+        "percent": 100
+      }
+    ],
+    "projects": [
+      {
+        "name": "limitless",
+        "total_seconds": 3309.994057,
+        "color": null,
+        "digital": "0:55:09",
+        "decimal": "0.92",
+        "text": "55 mins",
+        "hours": 0,
+        "minutes": 55,
+        "seconds": 9,
+        "percent": 96.61
+      },
+      {
+        "name": "firstquadrant.ai",
+        "total_seconds": 91.287339,
+        "color": null,
+        "digital": "0:01:31",
+        "decimal": "0.02",
+        "text": "1 min",
+        "hours": 0,
+        "minutes": 1,
+        "seconds": 31,
+        "percent": 2.66
+      },
+      {
+        "name": "Unknown Project",
+        "total_seconds": 24.983111,
+        "color": null,
+        "digital": "0:00:24",
+        "decimal": "0.00",
+        "text": "24 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 24,
+        "percent": 0.73
+      }
+    ],
     "range": {
       "start": "2025-05-10T22:00:00Z",
       "end": "2025-05-11T21:59:59Z",
       "date": "2025-05-11",
       "text": "Sun May 11th 2025",
       "timezone": "Europe/Amsterdam"
-    },
-    "projects": [],
-    "languages": [],
-    "dependencies": [],
-    "machines": [],
-    "editors": [],
-    "operating_systems": [],
-    "categories": []
+    }
   }
 ]
