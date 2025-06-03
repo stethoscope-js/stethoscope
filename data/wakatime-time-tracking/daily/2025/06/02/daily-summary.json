@@ -1,0 +1,277 @@
+[
+  {
+    "grand_total": {
+      "hours": 0,
+      "minutes": 47,
+      "total_seconds": 2875.422611,
+      "digital": "0:47",
+      "decimal": "0.78",
+      "text": "47 mins"
+    },
+    "range": {
+      "start": "2025-06-02T22:00:00Z",
+      "end": "2025-06-03T21:59:59Z",
+      "date": "2025-06-03",
+      "text": "Tue Jun 3rd 2025",
+      "timezone": "Europe/Amsterdam"
+    },
+    "projects": [
+      {
+        "name": "firstquadrant.ai",
+        "total_seconds": 2875.422611,
+        "color": null,
+        "digital": "0:47:55",
+        "decimal": "0.78",
+        "text": "47 mins",
+        "hours": 0,
+        "minutes": 47,
+        "seconds": 55,
+        "percent": 100
+      }
+    ],
+    "languages": [
+      {
+        "name": "TypeScript",
+        "total_seconds": 1688.531711,
+        "digital": "0:28:08",
+        "decimal": "0.47",
+        "text": "28 mins",
+        "hours": 0,
+        "minutes": 28,
+        "seconds": 8,
+        "percent": 58.72
+      },
+      {
+        "name": "Other",
+        "total_seconds": 694.315091,
+        "digital": "0:11:34",
+        "decimal": "0.18",
+        "text": "11 mins",
+        "hours": 0,
+        "minutes": 11,
+        "seconds": 34,
+        "percent": 24.15
+      },
+      {
+        "name": "MDX",
+        "total_seconds": 490.90639,
+        "digital": "0:08:10",
+        "decimal": "0.13",
+        "text": "8 mins",
+        "hours": 0,
+        "minutes": 8,
+        "seconds": 10,
+        "percent": 17.07
+      },
+      {
+        "name": "JSON",
+        "total_seconds": 1.669419,
+        "digital": "0:00:01",
+        "decimal": "0.00",
+        "text": "1 sec",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 1,
+        "percent": 0.06
+      }
+    ],
+    "dependencies": [
+      {
+        "name": "path",
+        "total_seconds": 1171.155392,
+        "digital": "0:19:31",
+        "decimal": "0.32",
+        "text": "19 mins",
+        "hours": 0,
+        "minutes": 19,
+        "seconds": 31,
+        "percent": 17.24
+      },
+      {
+        "name": "fs",
+        "total_seconds": 1171.155392,
+        "digital": "0:19:31",
+        "decimal": "0.32",
+        "text": "19 mins",
+        "hours": 0,
+        "minutes": 19,
+        "seconds": 31,
+        "percent": 17.24
+      },
+      {
+        "name": "process",
+        "total_seconds": 632.891304,
+        "digital": "0:10:32",
+        "decimal": "0.17",
+        "text": "10 mins",
+        "hours": 0,
+        "minutes": 10,
+        "seconds": 32,
+        "percent": 9.32
+      },
+      {
+        "name": "prettier",
+        "total_seconds": 632.891304,
+        "digital": "0:10:32",
+        "decimal": "0.17",
+        "text": "10 mins",
+        "hours": 0,
+        "minutes": 10,
+        "seconds": 32,
+        "percent": 9.32
+      },
+      {
+        "name": "slugify",
+        "total_seconds": 632.891304,
+        "digital": "0:10:32",
+        "decimal": "0.17",
+        "text": "10 mins",
+        "hours": 0,
+        "minutes": 10,
+        "seconds": 32,
+        "percent": 9.32
+      },
+      {
+        "name": "dotenv",
+        "total_seconds": 632.891304,
+        "digital": "0:10:32",
+        "decimal": "0.17",
+        "text": "10 mins",
+        "hours": 0,
+        "minutes": 10,
+        "seconds": 32,
+        "percent": 9.32
+      },
+      {
+        "name": "luxon",
+        "total_seconds": 632.891304,
+        "digital": "0:10:32",
+        "decimal": "0.17",
+        "text": "10 mins",
+        "hours": 0,
+        "minutes": 10,
+        "seconds": 32,
+        "percent": 9.32
+      },
+      {
+        "name": "openai",
+        "total_seconds": 632.891304,
+        "digital": "0:10:32",
+        "decimal": "0.17",
+        "text": "10 mins",
+        "hours": 0,
+        "minutes": 10,
+        "seconds": 32,
+        "percent": 9.32
+      },
+      {
+        "name": "child_process",
+        "total_seconds": 632.891304,
+        "digital": "0:10:32",
+        "decimal": "0.17",
+        "text": "10 mins",
+        "hours": 0,
+        "minutes": 10,
+        "seconds": 32,
+        "percent": 9.32
+      },
+      {
+        "name": "node:crypto",
+        "total_seconds": 5.108059,
+        "digital": "0:00:05",
+        "decimal": "0.00",
+        "text": "5 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 5,
+        "percent": 0.08
+      },
+      {
+        "name": "node:path",
+        "total_seconds": 5.108059,
+        "digital": "0:00:05",
+        "decimal": "0.00",
+        "text": "5 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 5,
+        "percent": 0.08
+      },
+      {
+        "name": "node:child_process",
+        "total_seconds": 5.108059,
+        "digital": "0:00:05",
+        "decimal": "0.00",
+        "text": "5 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 5,
+        "percent": 0.08
+      },
+      {
+        "name": "promises",
+        "total_seconds": 5.108059,
+        "digital": "0:00:05",
+        "decimal": "0.00",
+        "text": "5 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 5,
+        "percent": 0.08
+      }
+    ],
+    "machines": [
+      {
+        "name": "Anands-MBP.home",
+        "total_seconds": 2875.422611,
+        "machine_name_id": "1ff3795f-c752-4858-9fa4-7090240f0ab3",
+        "digital": "0:47:55",
+        "decimal": "0.78",
+        "text": "47 mins",
+        "hours": 0,
+        "minutes": 47,
+        "seconds": 55,
+        "percent": 100
+      }
+    ],
+    "editors": [
+      {
+        "name": "Cursor",
+        "total_seconds": 2875.422611,
+        "digital": "0:47:55",
+        "decimal": "0.78",
+        "text": "47 mins",
+        "hours": 0,
+        "minutes": 47,
+        "seconds": 55,
+        "percent": 100
+      }
+    ],
+    "operating_systems": [
+      {
+        "name": "Mac",
+        "total_seconds": 2875.422611,
+        "digital": "0:47:55",
+        "decimal": "0.78",
+        "text": "47 mins",
+        "hours": 0,
+        "minutes": 47,
+        "seconds": 55,
+        "percent": 100
+      }
+    ],
+    "categories": [
+      {
+        "name": "Coding",
+        "total_seconds": 2875.422611,
+        "digital": "0:47:55",
+        "decimal": "0.78",
+        "text": "47 mins",
+        "hours": 0,
+        "minutes": 47,
+        "seconds": 55,
+        "percent": 100
+      }
+    ]
+  }
+]
