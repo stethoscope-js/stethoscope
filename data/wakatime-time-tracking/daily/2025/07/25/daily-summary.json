@@ -1,69 +1,98 @@
 [
   {
-    "grand_total": {
-      "hours": 0,
-      "minutes": 19,
-      "total_seconds": 1170.988652,
-      "digital": "0:19",
-      "decimal": "0.32",
-      "text": "19 mins"
-    },
-    "range": {
-      "start": "2025-07-25T22:00:00Z",
-      "end": "2025-07-26T21:59:59Z",
-      "date": "2025-07-26",
-      "text": "Sat Jul 26th 2025",
-      "timezone": "Europe/Amsterdam"
-    },
-    "projects": [
-      {
-        "name": "my-app",
-        "total_seconds": 1170.988652,
-        "color": null,
-        "digital": "0:19:30",
-        "decimal": "0.32",
-        "text": "19 mins",
-        "hours": 0,
-        "minutes": 19,
-        "seconds": 30,
-        "percent": 100
-      }
-    ],
     "languages": [
       {
         "name": "TypeScript",
-        "total_seconds": 1170.988652,
-        "digital": "0:19:30",
-        "decimal": "0.32",
-        "text": "19 mins",
+        "total_seconds": 3952.458777,
+        "digital": "1:05:52",
+        "decimal": "1.08",
+        "text": "1 hr 5 mins",
+        "hours": 1,
+        "minutes": 5,
+        "seconds": 52,
+        "percent": 99.35
+      },
+      {
+        "name": "Other",
+        "total_seconds": 25.798336,
+        "digital": "0:00:25",
+        "decimal": "0.00",
+        "text": "25 secs",
         "hours": 0,
-        "minutes": 19,
-        "seconds": 30,
+        "minutes": 0,
+        "seconds": 25,
+        "percent": 0.65
+      }
+    ],
+    "grand_total": {
+      "hours": 1,
+      "minutes": 6,
+      "total_seconds": 3978.257113,
+      "digital": "1:06",
+      "decimal": "1.10",
+      "text": "1 hr 6 mins"
+    },
+    "editors": [
+      {
+        "name": "Cursor",
+        "total_seconds": 3978.257113,
+        "digital": "1:06:18",
+        "decimal": "1.10",
+        "text": "1 hr 6 mins",
+        "hours": 1,
+        "minutes": 6,
+        "seconds": 18,
+        "percent": 100
+      }
+    ],
+    "operating_systems": [
+      {
+        "name": "Mac",
+        "total_seconds": 3978.257113,
+        "digital": "1:06:18",
+        "decimal": "1.10",
+        "text": "1 hr 6 mins",
+        "hours": 1,
+        "minutes": 6,
+        "seconds": 18,
+        "percent": 100
+      }
+    ],
+    "categories": [
+      {
+        "name": "Coding",
+        "total_seconds": 3978.257113,
+        "digital": "1:06:18",
+        "decimal": "1.10",
+        "text": "1 hr 6 mins",
+        "hours": 1,
+        "minutes": 6,
+        "seconds": 18,
         "percent": 100
       }
     ],
     "dependencies": [
       {
         "name": "external-link",
-        "total_seconds": 734.191613,
-        "digital": "0:12:14",
-        "decimal": "0.20",
-        "text": "12 mins",
+        "total_seconds": 3510.581803,
+        "digital": "0:58:30",
+        "decimal": "0.97",
+        "text": "58 mins",
         "hours": 0,
-        "minutes": 12,
-        "seconds": 14,
-        "percent": 27.35
+        "minutes": 58,
+        "seconds": 30,
+        "percent": 42.62
       },
       {
         "name": "react",
-        "total_seconds": 639.894171,
-        "digital": "0:10:39",
-        "decimal": "0.17",
-        "text": "10 mins",
+        "total_seconds": 3416.284361,
+        "digital": "0:56:56",
+        "decimal": "0.93",
+        "text": "56 mins",
         "hours": 0,
-        "minutes": 10,
-        "seconds": 39,
-        "percent": 23.84
+        "minutes": 56,
+        "seconds": 56,
+        "percent": 41.47
       },
       {
         "name": "next",
@@ -74,7 +103,7 @@
         "hours": 0,
         "minutes": 7,
         "seconds": 16,
-        "percent": 16.27
+        "percent": 5.3
       },
       {
         "name": "google",
@@ -85,7 +114,7 @@
         "hours": 0,
         "minutes": 7,
         "seconds": 16,
-        "percent": 16.27
+        "percent": 5.3
       },
       {
         "name": "globals",
@@ -96,61 +125,55 @@
         "hours": 0,
         "minutes": 7,
         "seconds": 16,
-        "percent": 16.27
+        "percent": 5.3
       }
     ],
     "machines": [
       {
         "name": "Anands-MBP.home",
-        "total_seconds": 1170.988652,
+        "total_seconds": 3978.257113,
         "machine_name_id": "1ff3795f-c752-4858-9fa4-7090240f0ab3",
-        "digital": "0:19:30",
-        "decimal": "0.32",
-        "text": "19 mins",
-        "hours": 0,
-        "minutes": 19,
-        "seconds": 30,
+        "digital": "1:06:18",
+        "decimal": "1.10",
+        "text": "1 hr 6 mins",
+        "hours": 1,
+        "minutes": 6,
+        "seconds": 18,
         "percent": 100
       }
     ],
-    "editors": [
+    "projects": [
       {
-        "name": "Cursor",
-        "total_seconds": 1170.988652,
-        "digital": "0:19:30",
-        "decimal": "0.32",
-        "text": "19 mins",
+        "name": "my-app",
+        "total_seconds": 3952.458777,
+        "color": null,
+        "digital": "1:05:52",
+        "decimal": "1.08",
+        "text": "1 hr 5 mins",
+        "hours": 1,
+        "minutes": 5,
+        "seconds": 52,
+        "percent": 99.35
+      },
+      {
+        "name": "anand",
+        "total_seconds": 25.798336,
+        "color": null,
+        "digital": "0:00:25",
+        "decimal": "0.00",
+        "text": "25 secs",
         "hours": 0,
-        "minutes": 19,
-        "seconds": 30,
-        "percent": 100
+        "minutes": 0,
+        "seconds": 25,
+        "percent": 0.65
       }
     ],
-    "operating_systems": [
-      {
-        "name": "Mac",
-        "total_seconds": 1170.988652,
-        "digital": "0:19:30",
-        "decimal": "0.32",
-        "text": "19 mins",
-        "hours": 0,
-        "minutes": 19,
-        "seconds": 30,
-        "percent": 100
-      }
-    ],
-    "categories": [
-      {
-        "name": "Coding",
-        "total_seconds": 1170.988652,
-        "digital": "0:19:30",
-        "decimal": "0.32",
-        "text": "19 mins",
-        "hours": 0,
-        "minutes": 19,
-        "seconds": 30,
-        "percent": 100
-      }
-    ]
+    "range": {
+      "start": "2025-07-25T22:00:00Z",
+      "end": "2025-07-26T21:59:59Z",
+      "date": "2025-07-26",
+      "text": "Sat Jul 26th 2025",
+      "timezone": "Europe/Amsterdam"
+    }
   }
 ]
