@@ -1,24 +1,400 @@
 [
   {
-    "languages": [],
+    "languages": [
+      {
+        "name": "TypeScript",
+        "total_seconds": 85.235,
+        "digital": "0:01:25",
+        "decimal": "0.02",
+        "text": "1 min",
+        "hours": 0,
+        "minutes": 1,
+        "seconds": 25,
+        "percent": 100
+      }
+    ],
     "grand_total": {
       "hours": 0,
-      "minutes": 0,
-      "total_seconds": 0,
-      "digital": "0:00",
-      "decimal": "0.00",
-      "text": "0 secs",
+      "minutes": 1,
+      "total_seconds": 85.235,
+      "digital": "0:01",
+      "decimal": "0.02",
+      "text": "1 min",
       "ai_additions": 0,
       "ai_deletions": 0,
       "human_additions": 0,
       "human_deletions": 0
     },
-    "editors": [],
-    "operating_systems": [],
-    "categories": [],
-    "dependencies": [],
-    "machines": [],
-    "projects": [],
+    "editors": [
+      {
+        "name": "Cursor",
+        "total_seconds": 85.235,
+        "digital": "0:01:25",
+        "decimal": "0.02",
+        "text": "1 min",
+        "hours": 0,
+        "minutes": 1,
+        "seconds": 25,
+        "percent": 100
+      }
+    ],
+    "operating_systems": [
+      {
+        "name": "Mac",
+        "total_seconds": 85.235,
+        "digital": "0:01:25",
+        "decimal": "0.02",
+        "text": "1 min",
+        "hours": 0,
+        "minutes": 1,
+        "seconds": 25,
+        "percent": 100
+      }
+    ],
+    "categories": [
+      {
+        "name": "Coding",
+        "total_seconds": 85.235,
+        "digital": "0:01:25",
+        "decimal": "0.02",
+        "text": "1 min",
+        "hours": 0,
+        "minutes": 1,
+        "seconds": 25,
+        "percent": 100
+      }
+    ],
+    "dependencies": [
+      {
+        "name": "inngest",
+        "total_seconds": 83.446,
+        "digital": "0:01:23",
+        "decimal": "0.02",
+        "text": "1 min",
+        "hours": 0,
+        "minutes": 1,
+        "seconds": 23,
+        "percent": 19.25
+      },
+      {
+        "name": "zod-openapi",
+        "total_seconds": 47.221,
+        "digital": "0:00:47",
+        "decimal": "0.00",
+        "text": "47 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 47,
+        "percent": 10.89
+      },
+      {
+        "name": "middleware",
+        "total_seconds": 45.432,
+        "digital": "0:00:45",
+        "decimal": "0.00",
+        "text": "45 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 45,
+        "percent": 10.48
+      },
+      {
+        "name": "errors",
+        "total_seconds": 45.432,
+        "digital": "0:00:45",
+        "decimal": "0.00",
+        "text": "45 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 45,
+        "percent": 10.48
+      },
+      {
+        "name": "schema",
+        "total_seconds": 45.432,
+        "digital": "0:00:45",
+        "decimal": "0.00",
+        "text": "45 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 45,
+        "percent": 10.48
+      },
+      {
+        "name": "logging",
+        "total_seconds": 45.432,
+        "digital": "0:00:45",
+        "decimal": "0.00",
+        "text": "45 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 45,
+        "percent": 10.48
+      },
+      {
+        "name": "client",
+        "total_seconds": 38.014,
+        "digital": "0:00:38",
+        "decimal": "0.00",
+        "text": "38 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 38,
+        "percent": 8.77
+      },
+      {
+        "name": "common",
+        "total_seconds": 38.014,
+        "digital": "0:00:38",
+        "decimal": "0.00",
+        "text": "38 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 38,
+        "percent": 8.77
+      },
+      {
+        "name": "concurrency",
+        "total_seconds": 38.014,
+        "digital": "0:00:38",
+        "decimal": "0.00",
+        "text": "38 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 38,
+        "percent": 8.77
+      },
+      {
+        "name": "hono",
+        "total_seconds": 1.789,
+        "digital": "0:00:01",
+        "decimal": "0.00",
+        "text": "1 sec",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 1,
+        "percent": 0.41
+      },
+      {
+        "name": "node",
+        "total_seconds": 1.789,
+        "digital": "0:00:01",
+        "decimal": "0.00",
+        "text": "1 sec",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 1,
+        "percent": 0.41
+      },
+      {
+        "name": "http-exception",
+        "total_seconds": 1.789,
+        "digital": "0:00:01",
+        "decimal": "0.00",
+        "text": "1 sec",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 1,
+        "percent": 0.41
+      },
+      {
+        "name": "http-status",
+        "total_seconds": 1.789,
+        "digital": "0:00:01",
+        "decimal": "0.00",
+        "text": "1 sec",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 1,
+        "percent": 0.41
+      },
+      {
+        "name": "use-idle-effect",
+        "total_seconds": 0,
+        "digital": "0:00:00",
+        "decimal": "0.00",
+        "text": "0 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0,
+        "percent": 0
+      },
+      {
+        "name": "use-list",
+        "total_seconds": 0,
+        "digital": "0:00:00",
+        "decimal": "0.00",
+        "text": "0 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0,
+        "percent": 0
+      },
+      {
+        "name": "endpoints",
+        "total_seconds": 0,
+        "digital": "0:00:00",
+        "decimal": "0.00",
+        "text": "0 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0,
+        "percent": 0
+      },
+      {
+        "name": "react",
+        "total_seconds": 0,
+        "digital": "0:00:00",
+        "decimal": "0.00",
+        "text": "0 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0,
+        "percent": 0
+      },
+      {
+        "name": "track",
+        "total_seconds": 0,
+        "digital": "0:00:00",
+        "decimal": "0.00",
+        "text": "0 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0,
+        "percent": 0
+      },
+      {
+        "name": "react-cookie",
+        "total_seconds": 0,
+        "digital": "0:00:00",
+        "decimal": "0.00",
+        "text": "0 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0,
+        "percent": 0
+      },
+      {
+        "name": "react-router",
+        "total_seconds": 0,
+        "digital": "0:00:00",
+        "decimal": "0.00",
+        "text": "0 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0,
+        "percent": 0
+      },
+      {
+        "name": "workspace-context",
+        "total_seconds": 0,
+        "digital": "0:00:00",
+        "decimal": "0.00",
+        "text": "0 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0,
+        "percent": 0
+      },
+      {
+        "name": "base",
+        "total_seconds": 0,
+        "digital": "0:00:00",
+        "decimal": "0.00",
+        "text": "0 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0,
+        "percent": 0
+      },
+      {
+        "name": "use-action-status",
+        "total_seconds": 0,
+        "digital": "0:00:00",
+        "decimal": "0.00",
+        "text": "0 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0,
+        "percent": 0
+      },
+      {
+        "name": "react-hotkeys-hook",
+        "total_seconds": 0,
+        "digital": "0:00:00",
+        "decimal": "0.00",
+        "text": "0 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0,
+        "percent": 0
+      },
+      {
+        "name": "tokens",
+        "total_seconds": 0,
+        "digital": "0:00:00",
+        "decimal": "0.00",
+        "text": "0 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0,
+        "percent": 0
+      },
+      {
+        "name": "icons-react",
+        "total_seconds": 0,
+        "digital": "0:00:00",
+        "decimal": "0.00",
+        "text": "0 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0,
+        "percent": 0
+      },
+      {
+        "name": "zod",
+        "total_seconds": 0,
+        "digital": "0:00:00",
+        "decimal": "0.00",
+        "text": "0 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0,
+        "percent": 0
+      }
+    ],
+    "machines": [
+      {
+        "name": "Anands-MBP.home",
+        "total_seconds": 85.235,
+        "machine_name_id": "1ff3795f-c752-4858-9fa4-7090240f0ab3",
+        "digital": "0:01:25",
+        "decimal": "0.02",
+        "text": "1 min",
+        "hours": 0,
+        "minutes": 1,
+        "seconds": 25,
+        "percent": 100
+      }
+    ],
+    "projects": [
+      {
+        "name": "firstquadrant.ai",
+        "total_seconds": 85.235,
+        "ai_additions": 0,
+        "ai_deletions": 0,
+        "human_additions": 0,
+        "human_deletions": 0,
+        "color": null,
+        "digital": "0:01:25",
+        "decimal": "0.02",
+        "text": "1 min",
+        "hours": 0,
+        "minutes": 1,
+        "seconds": 25,
+        "percent": 100
+      }
+    ],
     "range": {
       "start": "2025-08-02T22:00:00Z",
       "end": "2025-08-03T21:59:59Z",
