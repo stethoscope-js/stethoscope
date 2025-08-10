@@ -1,0 +1,296 @@
+[
+  {
+    "grand_total": {
+      "hours": 0,
+      "minutes": 19,
+      "total_seconds": 1166.266,
+      "digital": "0:19",
+      "decimal": "0.32",
+      "text": "19 mins",
+      "ai_additions": 0,
+      "ai_deletions": 0,
+      "human_additions": 78,
+      "human_deletions": 83
+    },
+    "range": {
+      "start": "2025-08-09T22:00:00Z",
+      "end": "2025-08-10T21:59:59Z",
+      "date": "2025-08-10",
+      "text": "Sun Aug 10th 2025",
+      "timezone": "Europe/Amsterdam"
+    },
+    "projects": [
+      {
+        "name": "tweeter",
+        "total_seconds": 1166.266,
+        "ai_additions": 0,
+        "ai_deletions": 0,
+        "human_additions": 78,
+        "human_deletions": 83,
+        "color": null,
+        "digital": "0:19:26",
+        "decimal": "0.32",
+        "text": "19 mins",
+        "hours": 0,
+        "minutes": 19,
+        "seconds": 26,
+        "percent": 100
+      }
+    ],
+    "languages": [
+      {
+        "name": "Markdown",
+        "total_seconds": 482.553,
+        "digital": "0:08:02",
+        "decimal": "0.13",
+        "text": "8 mins",
+        "hours": 0,
+        "minutes": 8,
+        "seconds": 2,
+        "percent": 41.38
+      },
+      {
+        "name": "TypeScript",
+        "total_seconds": 228.825,
+        "digital": "0:03:48",
+        "decimal": "0.05",
+        "text": "3 mins",
+        "hours": 0,
+        "minutes": 3,
+        "seconds": 48,
+        "percent": 19.62
+      },
+      {
+        "name": "YAML",
+        "total_seconds": 210.09,
+        "digital": "0:03:30",
+        "decimal": "0.05",
+        "text": "3 mins",
+        "hours": 0,
+        "minutes": 3,
+        "seconds": 30,
+        "percent": 18.01
+      },
+      {
+        "name": "JSON",
+        "total_seconds": 145.153,
+        "digital": "0:02:25",
+        "decimal": "0.03",
+        "text": "2 mins",
+        "hours": 0,
+        "minutes": 2,
+        "seconds": 25,
+        "percent": 12.45
+      },
+      {
+        "name": "Other",
+        "total_seconds": 99.645,
+        "digital": "0:01:39",
+        "decimal": "0.02",
+        "text": "1 min",
+        "hours": 0,
+        "minutes": 1,
+        "seconds": 39,
+        "percent": 8.54
+      }
+    ],
+    "dependencies": [
+      {
+        "name": "agents",
+        "total_seconds": 228.825,
+        "digital": "0:03:48",
+        "decimal": "0.05",
+        "text": "3 mins",
+        "hours": 0,
+        "minutes": 3,
+        "seconds": 48,
+        "percent": 13.1
+      },
+      {
+        "name": "response-parsers",
+        "total_seconds": 202.264,
+        "digital": "0:03:22",
+        "decimal": "0.05",
+        "text": "3 mins",
+        "hours": 0,
+        "minutes": 3,
+        "seconds": 22,
+        "percent": 11.58
+      },
+      {
+        "name": "schedule-tweets",
+        "total_seconds": 202.264,
+        "digital": "0:03:22",
+        "decimal": "0.05",
+        "text": "3 mins",
+        "hours": 0,
+        "minutes": 3,
+        "seconds": 22,
+        "percent": 11.58
+      },
+      {
+        "name": "openai",
+        "total_seconds": 171.714,
+        "digital": "0:02:51",
+        "decimal": "0.03",
+        "text": "2 mins",
+        "hours": 0,
+        "minutes": 2,
+        "seconds": 51,
+        "percent": 9.83
+      },
+      {
+        "name": "zod",
+        "total_seconds": 171.714,
+        "digital": "0:02:51",
+        "decimal": "0.03",
+        "text": "2 mins",
+        "hours": 0,
+        "minutes": 2,
+        "seconds": 51,
+        "percent": 9.83
+      },
+      {
+        "name": "fast-xml-parser",
+        "total_seconds": 153.886,
+        "digital": "0:02:33",
+        "decimal": "0.03",
+        "text": "2 mins",
+        "hours": 0,
+        "minutes": 2,
+        "seconds": 33,
+        "percent": 8.81
+      },
+      {
+        "name": "@types/node",
+        "total_seconds": 145.153,
+        "digital": "0:02:25",
+        "decimal": "0.03",
+        "text": "2 mins",
+        "hours": 0,
+        "minutes": 2,
+        "seconds": 25,
+        "percent": 8.31
+      },
+      {
+        "name": "node-fetch",
+        "total_seconds": 145.153,
+        "digital": "0:02:25",
+        "decimal": "0.03",
+        "text": "2 mins",
+        "hours": 0,
+        "minutes": 2,
+        "seconds": 25,
+        "percent": 8.31
+      },
+      {
+        "name": "npm",
+        "total_seconds": 145.153,
+        "digital": "0:02:25",
+        "decimal": "0.03",
+        "text": "2 mins",
+        "hours": 0,
+        "minutes": 2,
+        "seconds": 25,
+        "percent": 8.31
+      },
+      {
+        "name": "@openai/agents",
+        "total_seconds": 145.153,
+        "digital": "0:02:25",
+        "decimal": "0.03",
+        "text": "2 mins",
+        "hours": 0,
+        "minutes": 2,
+        "seconds": 25,
+        "percent": 8.31
+      },
+      {
+        "name": "node:fs",
+        "total_seconds": 26.561,
+        "digital": "0:00:26",
+        "decimal": "0.00",
+        "text": "26 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 26,
+        "percent": 1.52
+      },
+      {
+        "name": "state",
+        "total_seconds": 8.733,
+        "digital": "0:00:08",
+        "decimal": "0.00",
+        "text": "8 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 8,
+        "percent": 0.5
+      }
+    ],
+    "machines": [
+      {
+        "name": "Anands-MBP.home",
+        "total_seconds": 1166.266,
+        "machine_name_id": "1ff3795f-c752-4858-9fa4-7090240f0ab3",
+        "digital": "0:19:26",
+        "decimal": "0.32",
+        "text": "19 mins",
+        "hours": 0,
+        "minutes": 19,
+        "seconds": 26,
+        "percent": 100
+      }
+    ],
+    "editors": [
+      {
+        "name": "Cursor",
+        "total_seconds": 1166.266,
+        "digital": "0:19:26",
+        "decimal": "0.32",
+        "text": "19 mins",
+        "hours": 0,
+        "minutes": 19,
+        "seconds": 26,
+        "percent": 100
+      }
+    ],
+    "operating_systems": [
+      {
+        "name": "Mac",
+        "total_seconds": 1166.266,
+        "digital": "0:19:26",
+        "decimal": "0.32",
+        "text": "19 mins",
+        "hours": 0,
+        "minutes": 19,
+        "seconds": 26,
+        "percent": 100
+      }
+    ],
+    "categories": [
+      {
+        "name": "Coding",
+        "total_seconds": 683.713,
+        "digital": "0:11:23",
+        "decimal": "0.18",
+        "text": "11 mins",
+        "hours": 0,
+        "minutes": 11,
+        "seconds": 23,
+        "percent": 58.62
+      },
+      {
+        "name": "Writing Docs",
+        "total_seconds": 482.553,
+        "digital": "0:08:02",
+        "decimal": "0.13",
+        "text": "8 mins",
+        "hours": 0,
+        "minutes": 8,
+        "seconds": 2,
+        "percent": 41.38
+      }
+    ]
+  }
+]
