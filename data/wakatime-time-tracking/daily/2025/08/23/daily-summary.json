@@ -3,14 +3,14 @@
     "languages": [
       {
         "name": "TypeScript",
-        "total_seconds": 2087.894,
-        "digital": "0:34:47",
-        "decimal": "0.57",
-        "text": "34 mins",
+        "total_seconds": 2113.202,
+        "digital": "0:35:13",
+        "decimal": "0.58",
+        "text": "35 mins",
         "hours": 0,
-        "minutes": 34,
-        "seconds": 47,
-        "percent": 47.33
+        "minutes": 35,
+        "seconds": 13,
+        "percent": 47.63
       },
       {
         "name": "JavaScript",
@@ -21,7 +21,7 @@
         "hours": 0,
         "minutes": 25,
         "seconds": 26,
-        "percent": 34.6
+        "percent": 34.4
       },
       {
         "name": "JSON",
@@ -32,7 +32,7 @@
         "hours": 0,
         "minutes": 7,
         "seconds": 10,
-        "percent": 9.75
+        "percent": 9.69
       },
       {
         "name": "Markdown",
@@ -43,7 +43,7 @@
         "hours": 0,
         "minutes": 2,
         "seconds": 55,
-        "percent": 3.99
+        "percent": 3.96
       },
       {
         "name": "YAML",
@@ -54,7 +54,7 @@
         "hours": 0,
         "minutes": 2,
         "seconds": 48,
-        "percent": 3.82
+        "percent": 3.79
       },
       {
         "name": "Other",
@@ -82,52 +82,52 @@
     "grand_total": {
       "hours": 1,
       "minutes": 13,
-      "total_seconds": 4410.938,
+      "total_seconds": 4436.246,
       "digital": "1:13",
       "decimal": "1.22",
       "text": "1 hr 13 mins",
       "ai_additions": 25,
       "ai_deletions": 1,
-      "human_additions": 324,
+      "human_additions": 329,
       "human_deletions": 94
     },
     "editors": [
       {
         "name": "Cursor",
-        "total_seconds": 4410.938,
-        "digital": "1:13:30",
+        "total_seconds": 4436.246,
+        "digital": "1:13:56",
         "decimal": "1.22",
         "text": "1 hr 13 mins",
         "hours": 1,
         "minutes": 13,
-        "seconds": 30,
+        "seconds": 56,
         "percent": 100
       }
     ],
     "operating_systems": [
       {
         "name": "Mac",
-        "total_seconds": 4410.938,
-        "digital": "1:13:30",
+        "total_seconds": 4436.246,
+        "digital": "1:13:56",
         "decimal": "1.22",
         "text": "1 hr 13 mins",
         "hours": 1,
         "minutes": 13,
-        "seconds": 30,
+        "seconds": 56,
         "percent": 100
       }
     ],
     "categories": [
       {
         "name": "Coding",
-        "total_seconds": 4139.667,
-        "digital": "1:08:59",
-        "decimal": "1.13",
-        "text": "1 hr 8 mins",
+        "total_seconds": 4164.975,
+        "digital": "1:09:24",
+        "decimal": "1.15",
+        "text": "1 hr 9 mins",
         "hours": 1,
-        "minutes": 8,
-        "seconds": 59,
-        "percent": 93.85
+        "minutes": 9,
+        "seconds": 24,
+        "percent": 93.89
       },
       {
         "name": "Writing Docs",
@@ -138,7 +138,7 @@
         "hours": 0,
         "minutes": 2,
         "seconds": 55,
-        "percent": 3.99
+        "percent": 3.96
       },
       {
         "name": "AI Coding",
@@ -149,20 +149,20 @@
         "hours": 0,
         "minutes": 1,
         "seconds": 35,
-        "percent": 2.16
+        "percent": 2.15
       }
     ],
     "dependencies": [
       {
         "name": "agents",
-        "total_seconds": 1654.009,
-        "digital": "0:27:34",
+        "total_seconds": 1679.317,
+        "digital": "0:27:59",
         "decimal": "0.45",
         "text": "27 mins",
         "hours": 0,
         "minutes": 27,
-        "seconds": 34,
-        "percent": 14.17
+        "seconds": 59,
+        "percent": 14.26
       },
       {
         "name": "zod",
@@ -173,7 +173,18 @@
         "hours": 0,
         "minutes": 26,
         "seconds": 6,
-        "percent": 13.42
+        "percent": 13.3
+      },
+      {
+        "name": "response-parsers",
+        "total_seconds": 1547.826,
+        "digital": "0:25:47",
+        "decimal": "0.42",
+        "text": "25 mins",
+        "hours": 0,
+        "minutes": 25,
+        "seconds": 47,
+        "percent": 13.15
       },
       {
         "name": "axios",
@@ -184,18 +195,7 @@
         "hours": 0,
         "minutes": 25,
         "seconds": 32,
-        "percent": 13.13
-      },
-      {
-        "name": "promises",
-        "total_seconds": 1526.081,
-        "digital": "0:25:26",
-        "decimal": "0.42",
-        "text": "25 mins",
-        "hours": 0,
-        "minutes": 25,
-        "seconds": 26,
-        "percent": 13.07
+        "percent": 13.02
       },
       {
         "name": "path",
@@ -206,40 +206,40 @@
         "hours": 0,
         "minutes": 25,
         "seconds": 26,
-        "percent": 13.07
+        "percent": 12.96
       },
       {
-        "name": "response-parsers",
-        "total_seconds": 1522.518,
-        "digital": "0:25:22",
+        "name": "promises",
+        "total_seconds": 1526.081,
+        "digital": "0:25:26",
         "decimal": "0.42",
         "text": "25 mins",
         "hours": 0,
         "minutes": 25,
-        "seconds": 22,
-        "percent": 13.04
+        "seconds": 26,
+        "percent": 12.96
       },
       {
         "name": "schedule-tweets",
-        "total_seconds": 1060.497,
-        "digital": "0:17:40",
-        "decimal": "0.28",
-        "text": "17 mins",
+        "total_seconds": 1085.805,
+        "digital": "0:18:05",
+        "decimal": "0.30",
+        "text": "18 mins",
         "hours": 0,
-        "minutes": 17,
-        "seconds": 40,
-        "percent": 9.09
+        "minutes": 18,
+        "seconds": 5,
+        "percent": 9.22
       },
       {
         "name": "state",
-        "total_seconds": 1059.501,
-        "digital": "0:17:39",
-        "decimal": "0.28",
-        "text": "17 mins",
+        "total_seconds": 1084.809,
+        "digital": "0:18:04",
+        "decimal": "0.30",
+        "text": "18 mins",
         "hours": 0,
-        "minutes": 17,
-        "seconds": 39,
-        "percent": 9.08
+        "minutes": 18,
+        "seconds": 4,
+        "percent": 9.21
       },
       {
         "name": "pushover",
@@ -250,7 +250,7 @@
         "hours": 0,
         "minutes": 2,
         "seconds": 7,
-        "percent": 1.09
+        "percent": 1.08
       },
       {
         "name": "node:fs",
@@ -261,7 +261,7 @@
         "hours": 0,
         "minutes": 0,
         "seconds": 42,
-        "percent": 0.37
+        "percent": 0.36
       },
       {
         "name": "openai",
@@ -272,7 +272,7 @@
         "hours": 0,
         "minutes": 0,
         "seconds": 33,
-        "percent": 0.29
+        "percent": 0.28
       },
       {
         "name": "npm",
@@ -344,32 +344,33 @@
     "machines": [
       {
         "name": "Anands-MBP.home",
-        "total_seconds": 4410.938,
+        "total_seconds": 4436.246,
         "machine_name_id": "1ff3795f-c752-4858-9fa4-7090240f0ab3",
-        "digital": "1:13:30",
+        "digital": "1:13:56",
         "decimal": "1.22",
         "text": "1 hr 13 mins",
         "hours": 1,
         "minutes": 13,
-        "seconds": 30,
+        "seconds": 56,
         "percent": 100
       }
     ],
     "projects": [
       {
         "name": "tweeter",
-        "total_seconds": 2655.508,
+        "total_seconds": 2680.816,
         "ai_additions": 25,
         "ai_deletions": 1,
-        "human_additions": 136,
+        "human_additions": 141,
         "human_deletions": 88,
-        "digital": "0:44:15",
+        "color": null,
+        "digital": "0:44:40",
         "decimal": "0.73",
         "text": "44 mins",
         "hours": 0,
         "minutes": 44,
-        "seconds": 15,
-        "percent": 60.2
+        "seconds": 40,
+        "percent": 60.43
       },
       {
         "name": "life-logs",
@@ -378,13 +379,14 @@
         "ai_deletions": 0,
         "human_additions": 188,
         "human_deletions": 6,
+        "color": null,
         "digital": "0:28:15",
         "decimal": "0.47",
         "text": "28 mins",
         "hours": 0,
         "minutes": 28,
         "seconds": 15,
-        "percent": 38.43
+        "percent": 38.21
       },
       {
         "name": "notes",
@@ -393,6 +395,7 @@
         "ai_deletions": 0,
         "human_additions": 0,
         "human_deletions": 0,
+        "color": null,
         "digital": "0:01:00",
         "decimal": "0.02",
         "text": "1 min",
