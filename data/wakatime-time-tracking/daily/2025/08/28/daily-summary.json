@@ -1,17 +1,766 @@
 [
   {
+    "languages": [
+      {
+        "name": "TypeScript",
+        "total_seconds": 4608.511,
+        "digital": "1:16:48",
+        "decimal": "1.27",
+        "text": "1 hr 16 mins",
+        "hours": 1,
+        "minutes": 16,
+        "seconds": 48,
+        "percent": 66.48
+      },
+      {
+        "name": "Other",
+        "total_seconds": 806.081,
+        "digital": "0:13:26",
+        "decimal": "0.22",
+        "text": "13 mins",
+        "hours": 0,
+        "minutes": 13,
+        "seconds": 26,
+        "percent": 11.63
+      },
+      {
+        "name": "Markdown",
+        "total_seconds": 653.137,
+        "digital": "0:10:53",
+        "decimal": "0.17",
+        "text": "10 mins",
+        "hours": 0,
+        "minutes": 10,
+        "seconds": 53,
+        "percent": 9.42
+      },
+      {
+        "name": "JSON",
+        "total_seconds": 489.127,
+        "digital": "0:08:09",
+        "decimal": "0.13",
+        "text": "8 mins",
+        "hours": 0,
+        "minutes": 8,
+        "seconds": 9,
+        "percent": 7.06
+      },
+      {
+        "name": "Bash",
+        "total_seconds": 317.16,
+        "digital": "0:05:17",
+        "decimal": "0.08",
+        "text": "5 mins",
+        "hours": 0,
+        "minutes": 5,
+        "seconds": 17,
+        "percent": 4.58
+      },
+      {
+        "name": "JavaScript",
+        "total_seconds": 41.673,
+        "digital": "0:00:41",
+        "decimal": "0.00",
+        "text": "41 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 41,
+        "percent": 0.6
+      },
+      {
+        "name": "TSConfig",
+        "total_seconds": 14.968,
+        "digital": "0:00:14",
+        "decimal": "0.00",
+        "text": "14 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 14,
+        "percent": 0.22
+      },
+      {
+        "name": "Git Config",
+        "total_seconds": 1.405,
+        "digital": "0:00:01",
+        "decimal": "0.00",
+        "text": "1 sec",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 1,
+        "percent": 0.02
+      }
+    ],
     "grand_total": {
-      "hours": 0,
-      "minutes": 0,
-      "total_seconds": 0,
-      "digital": "0:00",
-      "decimal": "0.00",
-      "text": "0 secs",
-      "ai_additions": 0,
-      "ai_deletions": 0,
-      "human_additions": 0,
-      "human_deletions": 0
+      "hours": 1,
+      "minutes": 55,
+      "total_seconds": 6932.062,
+      "digital": "1:55",
+      "decimal": "1.92",
+      "text": "1 hr 55 mins",
+      "ai_additions": 890,
+      "ai_deletions": 877,
+      "human_additions": 1391,
+      "human_deletions": 673
     },
+    "editors": [
+      {
+        "name": "Cursor",
+        "total_seconds": 6932.062,
+        "digital": "1:55:32",
+        "decimal": "1.92",
+        "text": "1 hr 55 mins",
+        "hours": 1,
+        "minutes": 55,
+        "seconds": 32,
+        "percent": 100
+      }
+    ],
+    "operating_systems": [
+      {
+        "name": "Mac",
+        "total_seconds": 6932.062,
+        "digital": "1:55:32",
+        "decimal": "1.92",
+        "text": "1 hr 55 mins",
+        "hours": 1,
+        "minutes": 55,
+        "seconds": 32,
+        "percent": 100
+      }
+    ],
+    "categories": [
+      {
+        "name": "Coding",
+        "total_seconds": 5227.509,
+        "digital": "1:27:07",
+        "decimal": "1.45",
+        "text": "1 hr 27 mins",
+        "hours": 1,
+        "minutes": 27,
+        "seconds": 7,
+        "percent": 75.41
+      },
+      {
+        "name": "AI Coding",
+        "total_seconds": 1086.007,
+        "digital": "0:18:06",
+        "decimal": "0.30",
+        "text": "18 mins",
+        "hours": 0,
+        "minutes": 18,
+        "seconds": 6,
+        "percent": 15.67
+      },
+      {
+        "name": "Writing Docs",
+        "total_seconds": 618.546,
+        "digital": "0:10:18",
+        "decimal": "0.17",
+        "text": "10 mins",
+        "hours": 0,
+        "minutes": 10,
+        "seconds": 18,
+        "percent": 8.92
+      }
+    ],
+    "dependencies": [
+      {
+        "name": "zod-openapi",
+        "total_seconds": 3422.13,
+        "digital": "0:57:02",
+        "decimal": "0.95",
+        "text": "57 mins",
+        "hours": 0,
+        "minutes": 57,
+        "seconds": 2,
+        "percent": 30.27
+      },
+      {
+        "name": "zod",
+        "total_seconds": 2787.095,
+        "digital": "0:46:27",
+        "decimal": "0.77",
+        "text": "46 mins",
+        "hours": 0,
+        "minutes": 46,
+        "seconds": 27,
+        "percent": 24.65
+      },
+      {
+        "name": "hono",
+        "total_seconds": 1675.108,
+        "digital": "0:27:55",
+        "decimal": "0.45",
+        "text": "27 mins",
+        "hours": 0,
+        "minutes": 27,
+        "seconds": 55,
+        "percent": 14.82
+      },
+      {
+        "name": "typescript",
+        "total_seconds": 488.727,
+        "digital": "0:08:08",
+        "decimal": "0.13",
+        "text": "8 mins",
+        "hours": 0,
+        "minutes": 8,
+        "seconds": 8,
+        "percent": 4.32
+      },
+      {
+        "name": "@types/node",
+        "total_seconds": 488.727,
+        "digital": "0:08:08",
+        "decimal": "0.13",
+        "text": "8 mins",
+        "hours": 0,
+        "minutes": 8,
+        "seconds": 8,
+        "percent": 4.32
+      },
+      {
+        "name": "npm",
+        "total_seconds": 488.727,
+        "digital": "0:08:08",
+        "decimal": "0.13",
+        "text": "8 mins",
+        "hours": 0,
+        "minutes": 8,
+        "seconds": 8,
+        "percent": 4.32
+      },
+      {
+        "name": "tsx",
+        "total_seconds": 488.727,
+        "digital": "0:08:08",
+        "decimal": "0.13",
+        "text": "8 mins",
+        "hours": 0,
+        "minutes": 8,
+        "seconds": 8,
+        "percent": 4.32
+      },
+      {
+        "name": "postgres",
+        "total_seconds": 315.484,
+        "digital": "0:05:15",
+        "decimal": "0.08",
+        "text": "5 mins",
+        "hours": 0,
+        "minutes": 5,
+        "seconds": 15,
+        "percent": 2.79
+      },
+      {
+        "name": "drizzle-orm",
+        "total_seconds": 315.484,
+        "digital": "0:05:15",
+        "decimal": "0.08",
+        "text": "5 mins",
+        "hours": 0,
+        "minutes": 5,
+        "seconds": 15,
+        "percent": 2.79
+      },
+      {
+        "name": "drizzle-kit",
+        "total_seconds": 315.484,
+        "digital": "0:05:15",
+        "decimal": "0.08",
+        "text": "5 mins",
+        "hours": 0,
+        "minutes": 5,
+        "seconds": 15,
+        "percent": 2.79
+      },
+      {
+        "name": "p-all",
+        "total_seconds": 161.7,
+        "digital": "0:02:41",
+        "decimal": "0.03",
+        "text": "2 mins",
+        "hours": 0,
+        "minutes": 2,
+        "seconds": 41,
+        "percent": 1.43
+      },
+      {
+        "name": "@hono/zod-openapi",
+        "total_seconds": 160.732,
+        "digital": "0:02:40",
+        "decimal": "0.03",
+        "text": "2 mins",
+        "hours": 0,
+        "minutes": 2,
+        "seconds": 40,
+        "percent": 1.42
+      },
+      {
+        "name": "@hono/node-server",
+        "total_seconds": 125.009,
+        "digital": "0:02:05",
+        "decimal": "0.03",
+        "text": "2 mins",
+        "hours": 0,
+        "minutes": 2,
+        "seconds": 5,
+        "percent": 1.11
+      },
+      {
+        "name": "node-server",
+        "total_seconds": 28.919,
+        "digital": "0:00:28",
+        "decimal": "0.00",
+        "text": "28 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 28,
+        "percent": 0.26
+      },
+      {
+        "name": "index",
+        "total_seconds": 28.919,
+        "digital": "0:00:28",
+        "decimal": "0.00",
+        "text": "28 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 28,
+        "percent": 0.26
+      },
+      {
+        "name": "node_modules/hono",
+        "total_seconds": 0.4,
+        "digital": "0:00:00",
+        "decimal": "0.00",
+        "text": "0 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0,
+        "percent": 0
+      },
+      {
+        "name": "node_modules/@esbuild/linux-loong64",
+        "total_seconds": 0.4,
+        "digital": "0:00:00",
+        "decimal": "0.00",
+        "text": "0 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0,
+        "percent": 0
+      },
+      {
+        "name": "node_modules/undici-types",
+        "total_seconds": 0.4,
+        "digital": "0:00:00",
+        "decimal": "0.00",
+        "text": "0 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0,
+        "percent": 0
+      },
+      {
+        "name": "node_modules/resolve-pkg-maps",
+        "total_seconds": 0.4,
+        "digital": "0:00:00",
+        "decimal": "0.00",
+        "text": "0 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0,
+        "percent": 0
+      },
+      {
+        "name": "node_modules/@esbuild/netbsd-arm64",
+        "total_seconds": 0.4,
+        "digital": "0:00:00",
+        "decimal": "0.00",
+        "text": "0 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0,
+        "percent": 0
+      },
+      {
+        "name": "node_modules/@esbuild/android-arm",
+        "total_seconds": 0.4,
+        "digital": "0:00:00",
+        "decimal": "0.00",
+        "text": "0 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0,
+        "percent": 0
+      },
+      {
+        "name": "node_modules/@esbuild/linux-ia32",
+        "total_seconds": 0.4,
+        "digital": "0:00:00",
+        "decimal": "0.00",
+        "text": "0 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0,
+        "percent": 0
+      },
+      {
+        "name": "node_modules/@esbuild/linux-mips64el",
+        "total_seconds": 0.4,
+        "digital": "0:00:00",
+        "decimal": "0.00",
+        "text": "0 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0,
+        "percent": 0
+      },
+      {
+        "name": "node_modules/@esbuild/win32-x64",
+        "total_seconds": 0.4,
+        "digital": "0:00:00",
+        "decimal": "0.00",
+        "text": "0 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0,
+        "percent": 0
+      },
+      {
+        "name": "node_modules/@esbuild/netbsd-x64",
+        "total_seconds": 0.4,
+        "digital": "0:00:00",
+        "decimal": "0.00",
+        "text": "0 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0,
+        "percent": 0
+      },
+      {
+        "name": "node_modules/@esbuild/openharmony-arm64",
+        "total_seconds": 0.4,
+        "digital": "0:00:00",
+        "decimal": "0.00",
+        "text": "0 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0,
+        "percent": 0
+      },
+      {
+        "name": "node_modules/@esbuild/darwin-x64",
+        "total_seconds": 0.4,
+        "digital": "0:00:00",
+        "decimal": "0.00",
+        "text": "0 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0,
+        "percent": 0
+      },
+      {
+        "name": "node_modules/fsevents",
+        "total_seconds": 0.4,
+        "digital": "0:00:00",
+        "decimal": "0.00",
+        "text": "0 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0,
+        "percent": 0
+      },
+      {
+        "name": "node_modules/tsx",
+        "total_seconds": 0.4,
+        "digital": "0:00:00",
+        "decimal": "0.00",
+        "text": "0 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0,
+        "percent": 0
+      },
+      {
+        "name": "node_modules/@esbuild/linux-riscv64",
+        "total_seconds": 0.4,
+        "digital": "0:00:00",
+        "decimal": "0.00",
+        "text": "0 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0,
+        "percent": 0
+      },
+      {
+        "name": "node_modules/typescript",
+        "total_seconds": 0.4,
+        "digital": "0:00:00",
+        "decimal": "0.00",
+        "text": "0 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0,
+        "percent": 0
+      },
+      {
+        "name": "node_modules/@esbuild/linux-x64",
+        "total_seconds": 0.4,
+        "digital": "0:00:00",
+        "decimal": "0.00",
+        "text": "0 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0,
+        "percent": 0
+      },
+      {
+        "name": "node_modules/@esbuild/sunos-x64",
+        "total_seconds": 0.4,
+        "digital": "0:00:00",
+        "decimal": "0.00",
+        "text": "0 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0,
+        "percent": 0
+      },
+      {
+        "name": "node_modules/@esbuild/freebsd-arm64",
+        "total_seconds": 0.4,
+        "digital": "0:00:00",
+        "decimal": "0.00",
+        "text": "0 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0,
+        "percent": 0
+      },
+      {
+        "name": "node_modules/@esbuild/linux-ppc64",
+        "total_seconds": 0.4,
+        "digital": "0:00:00",
+        "decimal": "0.00",
+        "text": "0 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0,
+        "percent": 0
+      },
+      {
+        "name": "node_modules/@esbuild/win32-ia32",
+        "total_seconds": 0.4,
+        "digital": "0:00:00",
+        "decimal": "0.00",
+        "text": "0 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0,
+        "percent": 0
+      },
+      {
+        "name": "node_modules/@esbuild/freebsd-x64",
+        "total_seconds": 0.4,
+        "digital": "0:00:00",
+        "decimal": "0.00",
+        "text": "0 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0,
+        "percent": 0
+      },
+      {
+        "name": "node_modules/get-tsconfig",
+        "total_seconds": 0.4,
+        "digital": "0:00:00",
+        "decimal": "0.00",
+        "text": "0 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0,
+        "percent": 0
+      },
+      {
+        "name": "node_modules/@esbuild/linux-s390x",
+        "total_seconds": 0.4,
+        "digital": "0:00:00",
+        "decimal": "0.00",
+        "text": "0 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0,
+        "percent": 0
+      },
+      {
+        "name": "node_modules/@esbuild/win32-arm64",
+        "total_seconds": 0.4,
+        "digital": "0:00:00",
+        "decimal": "0.00",
+        "text": "0 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0,
+        "percent": 0
+      },
+      {
+        "name": "node_modules/@esbuild/android-x64",
+        "total_seconds": 0.4,
+        "digital": "0:00:00",
+        "decimal": "0.00",
+        "text": "0 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0,
+        "percent": 0
+      },
+      {
+        "name": "node_modules/@esbuild/openbsd-x64",
+        "total_seconds": 0.4,
+        "digital": "0:00:00",
+        "decimal": "0.00",
+        "text": "0 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0,
+        "percent": 0
+      },
+      {
+        "name": "node_modules/@esbuild/linux-arm",
+        "total_seconds": 0.4,
+        "digital": "0:00:00",
+        "decimal": "0.00",
+        "text": "0 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0,
+        "percent": 0
+      },
+      {
+        "name": "node_modules/@esbuild/openbsd-arm64",
+        "total_seconds": 0.4,
+        "digital": "0:00:00",
+        "decimal": "0.00",
+        "text": "0 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0,
+        "percent": 0
+      },
+      {
+        "name": "node_modules/@esbuild/linux-arm64",
+        "total_seconds": 0.4,
+        "digital": "0:00:00",
+        "decimal": "0.00",
+        "text": "0 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0,
+        "percent": 0
+      },
+      {
+        "name": "node_modules/@types/node",
+        "total_seconds": 0.4,
+        "digital": "0:00:00",
+        "decimal": "0.00",
+        "text": "0 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0,
+        "percent": 0
+      },
+      {
+        "name": "node_modules/@esbuild/android-arm64",
+        "total_seconds": 0.4,
+        "digital": "0:00:00",
+        "decimal": "0.00",
+        "text": "0 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0,
+        "percent": 0
+      },
+      {
+        "name": "node_modules/esbuild",
+        "total_seconds": 0.4,
+        "digital": "0:00:00",
+        "decimal": "0.00",
+        "text": "0 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0,
+        "percent": 0
+      },
+      {
+        "name": "node_modules/@esbuild/aix-ppc64",
+        "total_seconds": 0.4,
+        "digital": "0:00:00",
+        "decimal": "0.00",
+        "text": "0 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0,
+        "percent": 0
+      },
+      {
+        "name": "node_modules/@esbuild/darwin-arm64",
+        "total_seconds": 0.4,
+        "digital": "0:00:00",
+        "decimal": "0.00",
+        "text": "0 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0,
+        "percent": 0
+      }
+    ],
+    "machines": [
+      {
+        "name": "Anands-MBP.home",
+        "total_seconds": 6932.062,
+        "machine_name_id": "1ff3795f-c752-4858-9fa4-7090240f0ab3",
+        "digital": "1:55:32",
+        "decimal": "1.92",
+        "text": "1 hr 55 mins",
+        "hours": 1,
+        "minutes": 55,
+        "seconds": 32,
+        "percent": 100
+      }
+    ],
+    "projects": [
+      {
+        "name": "drizzle",
+        "total_seconds": 6920.047,
+        "ai_additions": 890,
+        "ai_deletions": 877,
+        "human_additions": 1391,
+        "human_deletions": 673,
+        "digital": "1:55:20",
+        "decimal": "1.92",
+        "text": "1 hr 55 mins",
+        "hours": 1,
+        "minutes": 55,
+        "seconds": 20,
+        "percent": 99.83
+      },
+      {
+        "name": "Unknown Project",
+        "total_seconds": 12.015,
+        "ai_additions": 0,
+        "ai_deletions": 0,
+        "human_additions": 0,
+        "human_deletions": 0,
+        "digital": "0:00:12",
+        "decimal": "0.00",
+        "text": "12 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 12,
+        "percent": 0.17
+      }
+    ],
     "range": {
       "start": "2025-08-28T22:00:00Z",
       "end": "2025-08-29T21:59:59Z",
@@ -19,12 +768,9 @@
       "text": "Fri Aug 29th 2025",
       "timezone": "Europe/Amsterdam"
     },
-    "projects": [],
-    "languages": [],
-    "dependencies": [],
-    "machines": [],
-    "editors": [],
-    "operating_systems": [],
-    "categories": []
+    "ai_additions": 0,
+    "ai_deletions": 0,
+    "human_additions": 0,
+    "human_deletions": 0
   }
 ]
