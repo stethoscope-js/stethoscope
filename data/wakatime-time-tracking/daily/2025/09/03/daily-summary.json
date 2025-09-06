@@ -10,7 +10,7 @@
         "hours": 0,
         "minutes": 38,
         "seconds": 16,
-        "percent": 71.77
+        "percent": 71.66
       },
       {
         "name": "Markdown",
@@ -21,7 +21,7 @@
         "hours": 0,
         "minutes": 9,
         "seconds": 30,
-        "percent": 17.82
+        "percent": 17.8
       },
       {
         "name": "YAML",
@@ -32,18 +32,18 @@
         "hours": 0,
         "minutes": 4,
         "seconds": 24,
-        "percent": 8.26
+        "percent": 8.25
       },
       {
         "name": "Other",
-        "total_seconds": 65.432,
-        "digital": "0:01:05",
+        "total_seconds": 70.518,
+        "digital": "0:01:10",
         "decimal": "0.02",
         "text": "1 min",
         "hours": 0,
         "minutes": 1,
-        "seconds": 5,
-        "percent": 2.04
+        "seconds": 10,
+        "percent": 2.2
       },
       {
         "name": "MDX",
@@ -71,7 +71,7 @@
     "grand_total": {
       "hours": 0,
       "minutes": 53,
-      "total_seconds": 3200.07,
+      "total_seconds": 3205.156,
       "digital": "0:53",
       "decimal": "0.88",
       "text": "53 mins",
@@ -83,40 +83,40 @@
     "editors": [
       {
         "name": "Cursor",
-        "total_seconds": 3200.07,
-        "digital": "0:53:20",
+        "total_seconds": 3205.156,
+        "digital": "0:53:25",
         "decimal": "0.88",
         "text": "53 mins",
         "hours": 0,
         "minutes": 53,
-        "seconds": 20,
+        "seconds": 25,
         "percent": 100
       }
     ],
     "operating_systems": [
       {
         "name": "Mac",
-        "total_seconds": 3200.07,
-        "digital": "0:53:20",
+        "total_seconds": 3205.156,
+        "digital": "0:53:25",
         "decimal": "0.88",
         "text": "53 mins",
         "hours": 0,
         "minutes": 53,
-        "seconds": 20,
+        "seconds": 25,
         "percent": 100
       }
     ],
     "categories": [
       {
         "name": "Coding",
-        "total_seconds": 2629.668,
-        "digital": "0:43:49",
+        "total_seconds": 2634.754,
+        "digital": "0:43:54",
         "decimal": "0.72",
         "text": "43 mins",
         "hours": 0,
         "minutes": 43,
-        "seconds": 49,
-        "percent": 82.18
+        "seconds": 54,
+        "percent": 82.2
       },
       {
         "name": "Writing Docs",
@@ -127,7 +127,7 @@
         "hours": 0,
         "minutes": 9,
         "seconds": 30,
-        "percent": 17.82
+        "percent": 17.8
       }
     ],
     "dependencies": [
@@ -165,7 +165,7 @@
         "percent": 5.57
       },
       {
-        "name": "schedule-tweets",
+        "name": "response-parsers",
         "total_seconds": 753.606,
         "digital": "0:12:33",
         "decimal": "0.20",
@@ -176,7 +176,7 @@
         "percent": 5.33
       },
       {
-        "name": "response-parsers",
+        "name": "schedule-tweets",
         "total_seconds": 753.606,
         "digital": "0:12:33",
         "decimal": "0.20",
@@ -451,95 +451,7 @@
         "percent": 0.1
       },
       {
-        "name": "maybe-create",
-        "total_seconds": 12.236,
-        "digital": "0:00:12",
-        "decimal": "0.00",
-        "text": "12 secs",
-        "hours": 0,
-        "minutes": 0,
-        "seconds": 12,
-        "percent": 0.09
-      },
-      {
-        "name": "send-cron",
-        "total_seconds": 12.236,
-        "digital": "0:00:12",
-        "decimal": "0.00",
-        "text": "12 secs",
-        "hours": 0,
-        "minutes": 0,
-        "seconds": 12,
-        "percent": 0.09
-      },
-      {
-        "name": "deal-sync",
-        "total_seconds": 12.236,
-        "digital": "0:00:12",
-        "decimal": "0.00",
-        "text": "12 secs",
-        "hours": 0,
-        "minutes": 0,
-        "seconds": 12,
-        "percent": 0.09
-      },
-      {
-        "name": "cron-sync-grant",
-        "total_seconds": 12.236,
-        "digital": "0:00:12",
-        "decimal": "0.00",
-        "text": "12 secs",
-        "hours": 0,
-        "minutes": 0,
-        "seconds": 12,
-        "percent": 0.09
-      },
-      {
-        "name": "unsnooze",
-        "total_seconds": 12.236,
-        "digital": "0:00:12",
-        "decimal": "0.00",
-        "text": "12 secs",
-        "hours": 0,
-        "minutes": 0,
-        "seconds": 12,
-        "percent": 0.09
-      },
-      {
-        "name": "run",
-        "total_seconds": 12.236,
-        "digital": "0:00:12",
-        "decimal": "0.00",
-        "text": "12 secs",
-        "hours": 0,
-        "minutes": 0,
-        "seconds": 12,
-        "percent": 0.09
-      },
-      {
-        "name": "generate-sequence",
-        "total_seconds": 12.236,
-        "digital": "0:00:12",
-        "decimal": "0.00",
-        "text": "12 secs",
-        "hours": 0,
-        "minutes": 0,
-        "seconds": 12,
-        "percent": 0.09
-      },
-      {
-        "name": "enrich",
-        "total_seconds": 12.236,
-        "digital": "0:00:12",
-        "decimal": "0.00",
-        "text": "12 secs",
-        "hours": 0,
-        "minutes": 0,
-        "seconds": 12,
-        "percent": 0.09
-      },
-      {
-        "name": "update-employment",
+        "name": "recalculate-weight",
         "total_seconds": 12.236,
         "digital": "0:00:12",
         "decimal": "0.00",
@@ -561,117 +473,7 @@
         "percent": 0.09
       },
       {
-        "name": "suggest-cron",
-        "total_seconds": 12.236,
-        "digital": "0:00:12",
-        "decimal": "0.00",
-        "text": "12 secs",
-        "hours": 0,
-        "minutes": 0,
-        "seconds": 12,
-        "percent": 0.09
-      },
-      {
-        "name": "send",
-        "total_seconds": 12.236,
-        "digital": "0:00:12",
-        "decimal": "0.00",
-        "text": "12 secs",
-        "hours": 0,
-        "minutes": 0,
-        "seconds": 12,
-        "percent": 0.09
-      },
-      {
-        "name": "schedule-cron",
-        "total_seconds": 12.236,
-        "digital": "0:00:12",
-        "decimal": "0.00",
-        "text": "12 secs",
-        "hours": 0,
-        "minutes": 0,
-        "seconds": 12,
-        "percent": 0.09
-      },
-      {
         "name": "failure",
-        "total_seconds": 12.236,
-        "digital": "0:00:12",
-        "decimal": "0.00",
-        "text": "12 secs",
-        "hours": 0,
-        "minutes": 0,
-        "seconds": 12,
-        "percent": 0.09
-      },
-      {
-        "name": "process-if-changed",
-        "total_seconds": 12.236,
-        "digital": "0:00:12",
-        "decimal": "0.00",
-        "text": "12 secs",
-        "hours": 0,
-        "minutes": 0,
-        "seconds": 12,
-        "percent": 0.09
-      },
-      {
-        "name": "verify-cron",
-        "total_seconds": 12.236,
-        "digital": "0:00:12",
-        "decimal": "0.00",
-        "text": "12 secs",
-        "hours": 0,
-        "minutes": 0,
-        "seconds": 12,
-        "percent": 0.09
-      },
-      {
-        "name": "processed-at-cron",
-        "total_seconds": 12.236,
-        "digital": "0:00:12",
-        "decimal": "0.00",
-        "text": "12 secs",
-        "hours": 0,
-        "minutes": 0,
-        "seconds": 12,
-        "percent": 0.09
-      },
-      {
-        "name": "contact-sync",
-        "total_seconds": 12.236,
-        "digital": "0:00:12",
-        "decimal": "0.00",
-        "text": "12 secs",
-        "hours": 0,
-        "minutes": 0,
-        "seconds": 12,
-        "percent": 0.09
-      },
-      {
-        "name": "verify",
-        "total_seconds": 12.236,
-        "digital": "0:00:12",
-        "decimal": "0.00",
-        "text": "12 secs",
-        "hours": 0,
-        "minutes": 0,
-        "seconds": 12,
-        "percent": 0.09
-      },
-      {
-        "name": "sync",
-        "total_seconds": 12.236,
-        "digital": "0:00:12",
-        "decimal": "0.00",
-        "text": "12 secs",
-        "hours": 0,
-        "minutes": 0,
-        "seconds": 12,
-        "percent": 0.09
-      },
-      {
-        "name": "run-cron",
         "total_seconds": 12.236,
         "digital": "0:00:12",
         "decimal": "0.00",
@@ -693,128 +495,7 @@
         "percent": 0.09
       },
       {
-        "name": "process",
-        "total_seconds": 12.236,
-        "digital": "0:00:12",
-        "decimal": "0.00",
-        "text": "12 secs",
-        "hours": 0,
-        "minutes": 0,
-        "seconds": 12,
-        "percent": 0.09
-      },
-      {
-        "name": "summarize",
-        "total_seconds": 12.236,
-        "digital": "0:00:12",
-        "decimal": "0.00",
-        "text": "12 secs",
-        "hours": 0,
-        "minutes": 0,
-        "seconds": 12,
-        "percent": 0.09
-      },
-      {
-        "name": "recalculate-strength",
-        "total_seconds": 12.236,
-        "digital": "0:00:12",
-        "decimal": "0.00",
-        "text": "12 secs",
-        "hours": 0,
-        "minutes": 0,
-        "seconds": 12,
-        "percent": 0.09
-      },
-      {
-        "name": "delete-empty",
-        "total_seconds": 12.236,
-        "digital": "0:00:12",
-        "decimal": "0.00",
-        "text": "12 secs",
-        "hours": 0,
-        "minutes": 0,
-        "seconds": 12,
-        "percent": 0.09
-      },
-      {
-        "name": "qualify-cron",
-        "total_seconds": 12.236,
-        "digital": "0:00:12",
-        "decimal": "0.00",
-        "text": "12 secs",
-        "hours": 0,
-        "minutes": 0,
-        "seconds": 12,
-        "percent": 0.09
-      },
-      {
-        "name": "task-cron",
-        "total_seconds": 12.236,
-        "digital": "0:00:12",
-        "decimal": "0.00",
-        "text": "12 secs",
-        "hours": 0,
-        "minutes": 0,
-        "seconds": 12,
-        "percent": 0.09
-      },
-      {
-        "name": "task",
-        "total_seconds": 12.236,
-        "digital": "0:00:12",
-        "decimal": "0.00",
-        "text": "12 secs",
-        "hours": 0,
-        "minutes": 0,
-        "seconds": 12,
-        "percent": 0.09
-      },
-      {
-        "name": "unsnooze-cron",
-        "total_seconds": 12.236,
-        "digital": "0:00:12",
-        "decimal": "0.00",
-        "text": "12 secs",
-        "hours": 0,
-        "minutes": 0,
-        "seconds": 12,
-        "percent": 0.09
-      },
-      {
-        "name": "create",
-        "total_seconds": 12.236,
-        "digital": "0:00:12",
-        "decimal": "0.00",
-        "text": "12 secs",
-        "hours": 0,
-        "minutes": 0,
-        "seconds": 12,
-        "percent": 0.09
-      },
-      {
-        "name": "delete-if-empty",
-        "total_seconds": 12.236,
-        "digital": "0:00:12",
-        "decimal": "0.00",
-        "text": "12 secs",
-        "hours": 0,
-        "minutes": 0,
-        "seconds": 12,
-        "percent": 0.09
-      },
-      {
         "name": "delete-organization",
-        "total_seconds": 12.236,
-        "digital": "0:00:12",
-        "decimal": "0.00",
-        "text": "12 secs",
-        "hours": 0,
-        "minutes": 0,
-        "seconds": 12,
-        "percent": 0.09
-      },
-      {
-        "name": "restore-organization",
         "total_seconds": 12.236,
         "digital": "0:00:12",
         "decimal": "0.00",
@@ -836,7 +517,7 @@
         "percent": 0.09
       },
       {
-        "name": "sync-cron",
+        "name": "recalculate-strength",
         "total_seconds": 12.236,
         "digital": "0:00:12",
         "decimal": "0.00",
@@ -847,7 +528,7 @@
         "percent": 0.09
       },
       {
-        "name": "update-usage-cron",
+        "name": "process",
         "total_seconds": 12.236,
         "digital": "0:00:12",
         "decimal": "0.00",
@@ -858,7 +539,7 @@
         "percent": 0.09
       },
       {
-        "name": "recalculate-weight",
+        "name": "send",
         "total_seconds": 12.236,
         "digital": "0:00:12",
         "decimal": "0.00",
@@ -869,7 +550,18 @@
         "percent": 0.09
       },
       {
-        "name": "deduplicate",
+        "name": "run-cron",
+        "total_seconds": 12.236,
+        "digital": "0:00:12",
+        "decimal": "0.00",
+        "text": "12 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 12,
+        "percent": 0.09
+      },
+      {
+        "name": "delete-empty",
         "total_seconds": 12.236,
         "digital": "0:00:12",
         "decimal": "0.00",
@@ -891,6 +583,314 @@
         "percent": 0.09
       },
       {
+        "name": "delete-if-empty",
+        "total_seconds": 12.236,
+        "digital": "0:00:12",
+        "decimal": "0.00",
+        "text": "12 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 12,
+        "percent": 0.09
+      },
+      {
+        "name": "processed-at-cron",
+        "total_seconds": 12.236,
+        "digital": "0:00:12",
+        "decimal": "0.00",
+        "text": "12 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 12,
+        "percent": 0.09
+      },
+      {
+        "name": "update-usage-cron",
+        "total_seconds": 12.236,
+        "digital": "0:00:12",
+        "decimal": "0.00",
+        "text": "12 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 12,
+        "percent": 0.09
+      },
+      {
+        "name": "task",
+        "total_seconds": 12.236,
+        "digital": "0:00:12",
+        "decimal": "0.00",
+        "text": "12 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 12,
+        "percent": 0.09
+      },
+      {
+        "name": "verify-cron",
+        "total_seconds": 12.236,
+        "digital": "0:00:12",
+        "decimal": "0.00",
+        "text": "12 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 12,
+        "percent": 0.09
+      },
+      {
+        "name": "run",
+        "total_seconds": 12.236,
+        "digital": "0:00:12",
+        "decimal": "0.00",
+        "text": "12 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 12,
+        "percent": 0.09
+      },
+      {
+        "name": "unsnooze",
+        "total_seconds": 12.236,
+        "digital": "0:00:12",
+        "decimal": "0.00",
+        "text": "12 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 12,
+        "percent": 0.09
+      },
+      {
+        "name": "verify",
+        "total_seconds": 12.236,
+        "digital": "0:00:12",
+        "decimal": "0.00",
+        "text": "12 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 12,
+        "percent": 0.09
+      },
+      {
+        "name": "deal-sync",
+        "total_seconds": 12.236,
+        "digital": "0:00:12",
+        "decimal": "0.00",
+        "text": "12 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 12,
+        "percent": 0.09
+      },
+      {
+        "name": "send-cron",
+        "total_seconds": 12.236,
+        "digital": "0:00:12",
+        "decimal": "0.00",
+        "text": "12 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 12,
+        "percent": 0.09
+      },
+      {
+        "name": "unsnooze-cron",
+        "total_seconds": 12.236,
+        "digital": "0:00:12",
+        "decimal": "0.00",
+        "text": "12 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 12,
+        "percent": 0.09
+      },
+      {
+        "name": "sync-cron",
+        "total_seconds": 12.236,
+        "digital": "0:00:12",
+        "decimal": "0.00",
+        "text": "12 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 12,
+        "percent": 0.09
+      },
+      {
+        "name": "cron-sync-grant",
+        "total_seconds": 12.236,
+        "digital": "0:00:12",
+        "decimal": "0.00",
+        "text": "12 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 12,
+        "percent": 0.09
+      },
+      {
+        "name": "create",
+        "total_seconds": 12.236,
+        "digital": "0:00:12",
+        "decimal": "0.00",
+        "text": "12 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 12,
+        "percent": 0.09
+      },
+      {
+        "name": "summarize",
+        "total_seconds": 12.236,
+        "digital": "0:00:12",
+        "decimal": "0.00",
+        "text": "12 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 12,
+        "percent": 0.09
+      },
+      {
+        "name": "qualify-cron",
+        "total_seconds": 12.236,
+        "digital": "0:00:12",
+        "decimal": "0.00",
+        "text": "12 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 12,
+        "percent": 0.09
+      },
+      {
+        "name": "update-employment",
+        "total_seconds": 12.236,
+        "digital": "0:00:12",
+        "decimal": "0.00",
+        "text": "12 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 12,
+        "percent": 0.09
+      },
+      {
+        "name": "restore-organization",
+        "total_seconds": 12.236,
+        "digital": "0:00:12",
+        "decimal": "0.00",
+        "text": "12 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 12,
+        "percent": 0.09
+      },
+      {
+        "name": "sync",
+        "total_seconds": 12.236,
+        "digital": "0:00:12",
+        "decimal": "0.00",
+        "text": "12 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 12,
+        "percent": 0.09
+      },
+      {
+        "name": "process-if-changed",
+        "total_seconds": 12.236,
+        "digital": "0:00:12",
+        "decimal": "0.00",
+        "text": "12 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 12,
+        "percent": 0.09
+      },
+      {
+        "name": "schedule-cron",
+        "total_seconds": 12.236,
+        "digital": "0:00:12",
+        "decimal": "0.00",
+        "text": "12 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 12,
+        "percent": 0.09
+      },
+      {
+        "name": "suggest-cron",
+        "total_seconds": 12.236,
+        "digital": "0:00:12",
+        "decimal": "0.00",
+        "text": "12 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 12,
+        "percent": 0.09
+      },
+      {
+        "name": "generate-sequence",
+        "total_seconds": 12.236,
+        "digital": "0:00:12",
+        "decimal": "0.00",
+        "text": "12 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 12,
+        "percent": 0.09
+      },
+      {
+        "name": "deduplicate",
+        "total_seconds": 12.236,
+        "digital": "0:00:12",
+        "decimal": "0.00",
+        "text": "12 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 12,
+        "percent": 0.09
+      },
+      {
+        "name": "task-cron",
+        "total_seconds": 12.236,
+        "digital": "0:00:12",
+        "decimal": "0.00",
+        "text": "12 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 12,
+        "percent": 0.09
+      },
+      {
+        "name": "contact-sync",
+        "total_seconds": 12.236,
+        "digital": "0:00:12",
+        "decimal": "0.00",
+        "text": "12 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 12,
+        "percent": 0.09
+      },
+      {
+        "name": "maybe-create",
+        "total_seconds": 12.236,
+        "digital": "0:00:12",
+        "decimal": "0.00",
+        "text": "12 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 12,
+        "percent": 0.09
+      },
+      {
+        "name": "enrich",
+        "total_seconds": 12.236,
+        "digital": "0:00:12",
+        "decimal": "0.00",
+        "text": "12 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 12,
+        "percent": 0.09
+      },
+      {
         "name": "fs",
         "total_seconds": 9.116,
         "digital": "0:00:09",
@@ -900,17 +900,6 @@
         "minutes": 0,
         "seconds": 9,
         "percent": 0.06
-      },
-      {
-        "name": "import",
-        "total_seconds": 5.425,
-        "digital": "0:00:05",
-        "decimal": "0.00",
-        "text": "5 secs",
-        "hours": 0,
-        "minutes": 0,
-        "seconds": 5,
-        "percent": 0.04
       },
       {
         "name": "filters",
@@ -924,7 +913,18 @@
         "percent": 0.04
       },
       {
-        "name": "react",
+        "name": "import",
+        "total_seconds": 5.425,
+        "digital": "0:00:05",
+        "decimal": "0.00",
+        "text": "5 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 5,
+        "percent": 0.04
+      },
+      {
+        "name": "utils",
         "total_seconds": 2.696,
         "digital": "0:00:02",
         "decimal": "0.00",
@@ -935,7 +935,7 @@
         "percent": 0.02
       },
       {
-        "name": "utils",
+        "name": "react",
         "total_seconds": 2.696,
         "digital": "0:00:02",
         "decimal": "0.00",
@@ -960,14 +960,14 @@
     "machines": [
       {
         "name": "Anands-MBP.home",
-        "total_seconds": 3200.07,
+        "total_seconds": 3205.156,
         "machine_name_id": "1ff3795f-c752-4858-9fa4-7090240f0ab3",
-        "digital": "0:53:20",
+        "digital": "0:53:25",
         "decimal": "0.88",
         "text": "53 mins",
         "hours": 0,
         "minutes": 53,
-        "seconds": 20,
+        "seconds": 25,
         "percent": 100
       }
     ],
@@ -979,28 +979,30 @@
         "ai_deletions": 0,
         "human_additions": 39,
         "human_deletions": 33,
+        "color": null,
         "digital": "0:27:13",
         "decimal": "0.45",
         "text": "27 mins",
         "hours": 0,
         "minutes": 27,
         "seconds": 13,
-        "percent": 51.04
+        "percent": 50.96
       },
       {
         "name": "firstquadrant.ai",
-        "total_seconds": 1512.331,
+        "total_seconds": 1517.417,
         "ai_additions": 0,
         "ai_deletions": 0,
         "human_additions": 125,
         "human_deletions": 332,
-        "digital": "0:25:12",
+        "color": null,
+        "digital": "0:25:17",
         "decimal": "0.42",
         "text": "25 mins",
         "hours": 0,
         "minutes": 25,
-        "seconds": 12,
-        "percent": 47.26
+        "seconds": 17,
+        "percent": 47.34
       },
       {
         "name": "Unknown Project",
@@ -1009,13 +1011,14 @@
         "ai_deletions": 0,
         "human_additions": 0,
         "human_deletions": 0,
+        "color": null,
         "digital": "0:00:54",
         "decimal": "0.00",
         "text": "54 secs",
         "hours": 0,
         "minutes": 0,
         "seconds": 54,
-        "percent": 1.7
+        "percent": 1.69
       }
     ],
     "range": {
