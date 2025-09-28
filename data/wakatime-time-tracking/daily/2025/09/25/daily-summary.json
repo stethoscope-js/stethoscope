@@ -418,7 +418,7 @@
         "percent": 0.98
       },
       {
-        "name": "@hono/zod-validator",
+        "name": "tsx",
         "total_seconds": 830.336,
         "digital": "0:13:50",
         "decimal": "0.22",
@@ -429,7 +429,7 @@
         "percent": 0.98
       },
       {
-        "name": "tsx",
+        "name": "@hono/zod-validator",
         "total_seconds": 830.336,
         "digital": "0:13:50",
         "decimal": "0.22",
@@ -517,17 +517,6 @@
         "percent": 0.4
       },
       {
-        "name": "vercel",
-        "total_seconds": 278.315,
-        "digital": "0:04:38",
-        "decimal": "0.07",
-        "text": "4 mins",
-        "hours": 0,
-        "minutes": 4,
-        "seconds": 38,
-        "percent": 0.33
-      },
-      {
         "name": "types",
         "total_seconds": 278.315,
         "digital": "0:04:38",
@@ -540,6 +529,17 @@
       },
       {
         "name": "zod-validator",
+        "total_seconds": 278.315,
+        "digital": "0:04:38",
+        "decimal": "0.07",
+        "text": "4 mins",
+        "hours": 0,
+        "minutes": 4,
+        "seconds": 38,
+        "percent": 0.33
+      },
+      {
+        "name": "vercel",
         "total_seconds": 278.315,
         "digital": "0:04:38",
         "decimal": "0.07",
@@ -583,17 +583,6 @@
         "percent": 0.18
       },
       {
-        "name": "imports",
-        "total_seconds": 96.135,
-        "digital": "0:01:36",
-        "decimal": "0.02",
-        "text": "1 min",
-        "hours": 0,
-        "minutes": 1,
-        "seconds": 36,
-        "percent": 0.11
-      },
-      {
         "name": "attributes",
         "total_seconds": 96.135,
         "digital": "0:01:36",
@@ -606,6 +595,17 @@
       },
       {
         "name": "activities",
+        "total_seconds": 96.135,
+        "digital": "0:01:36",
+        "decimal": "0.02",
+        "text": "1 min",
+        "hours": 0,
+        "minutes": 1,
+        "seconds": 36,
+        "percent": 0.11
+      },
+      {
+        "name": "imports",
         "total_seconds": 96.135,
         "digital": "0:01:36",
         "decimal": "0.02",
@@ -704,7 +704,7 @@
         "percent": 0
       },
       {
-        "name": "sql",
+        "name": "entity",
         "total_seconds": 0.741,
         "digital": "0:00:00",
         "decimal": "0.00",
@@ -726,7 +726,7 @@
         "percent": 0
       },
       {
-        "name": "column",
+        "name": "sql",
         "total_seconds": 0.741,
         "digital": "0:00:00",
         "decimal": "0.00",
@@ -737,7 +737,7 @@
         "percent": 0
       },
       {
-        "name": "entity",
+        "name": "column",
         "total_seconds": 0.741,
         "digital": "0:00:00",
         "decimal": "0.00",
@@ -770,6 +770,7 @@
         "ai_deletions": 0,
         "human_additions": 2892,
         "human_deletions": 1008,
+        "color": null,
         "digital": "7:35:34",
         "decimal": "7.58",
         "text": "7 hrs 35 mins",
