@@ -1,16 +1,16 @@
 [
   {
     "grand_total": {
-      "hours": 0,
-      "minutes": 0,
-      "total_seconds": 0,
-      "digital": "0:00",
-      "decimal": "0.00",
-      "text": "0 secs",
+      "hours": 4,
+      "minutes": 19,
+      "total_seconds": 15559.166,
+      "digital": "4:19",
+      "decimal": "4.32",
+      "text": "4 hrs 19 mins",
       "ai_additions": 0,
       "ai_deletions": 0,
-      "human_additions": 0,
-      "human_deletions": 0
+      "human_additions": 1091,
+      "human_deletions": 473
     },
     "range": {
       "start": "2025-09-28T22:00:00Z",
@@ -19,12 +19,773 @@
       "text": "Mon Sep 29th 2025",
       "timezone": "Europe/Amsterdam"
     },
-    "projects": [],
-    "languages": [],
-    "dependencies": [],
-    "machines": [],
-    "editors": [],
-    "operating_systems": [],
-    "categories": []
+    "projects": [
+      {
+        "name": "first",
+        "total_seconds": 15559.166,
+        "ai_additions": 0,
+        "ai_deletions": 0,
+        "human_additions": 1091,
+        "human_deletions": 473,
+        "color": null,
+        "digital": "4:19:19",
+        "decimal": "4.32",
+        "text": "4 hrs 19 mins",
+        "hours": 4,
+        "minutes": 19,
+        "seconds": 19,
+        "percent": 100
+      }
+    ],
+    "languages": [
+      {
+        "name": "TypeScript",
+        "total_seconds": 14944.197,
+        "digital": "4:09:04",
+        "decimal": "4.15",
+        "text": "4 hrs 9 mins",
+        "hours": 4,
+        "minutes": 9,
+        "seconds": 4,
+        "percent": 96.05
+      },
+      {
+        "name": "JSON",
+        "total_seconds": 411.061,
+        "digital": "0:06:51",
+        "decimal": "0.10",
+        "text": "6 mins",
+        "hours": 0,
+        "minutes": 6,
+        "seconds": 51,
+        "percent": 2.64
+      },
+      {
+        "name": "Bash",
+        "total_seconds": 135.491,
+        "digital": "0:02:15",
+        "decimal": "0.03",
+        "text": "2 mins",
+        "hours": 0,
+        "minutes": 2,
+        "seconds": 15,
+        "percent": 0.87
+      },
+      {
+        "name": "Other",
+        "total_seconds": 38.535,
+        "digital": "0:00:38",
+        "decimal": "0.00",
+        "text": "38 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 38,
+        "percent": 0.25
+      },
+      {
+        "name": "SQL",
+        "total_seconds": 29.882,
+        "digital": "0:00:29",
+        "decimal": "0.00",
+        "text": "29 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 29,
+        "percent": 0.19
+      }
+    ],
+    "dependencies": [
+      {
+        "name": "client",
+        "total_seconds": 10813.351,
+        "digital": "3:00:13",
+        "decimal": "3.00",
+        "text": "3 hrs",
+        "hours": 3,
+        "minutes": 0,
+        "seconds": 13,
+        "percent": 11.52
+      },
+      {
+        "name": "hono",
+        "total_seconds": 9734.81,
+        "digital": "2:42:14",
+        "decimal": "2.70",
+        "text": "2 hrs 42 mins",
+        "hours": 2,
+        "minutes": 42,
+        "seconds": 14,
+        "percent": 10.38
+      },
+      {
+        "name": "schema",
+        "total_seconds": 7846.429,
+        "digital": "2:10:46",
+        "decimal": "2.17",
+        "text": "2 hrs 10 mins",
+        "hours": 2,
+        "minutes": 10,
+        "seconds": 46,
+        "percent": 8.36
+      },
+      {
+        "name": "http-exception",
+        "total_seconds": 7344.648,
+        "digital": "2:02:24",
+        "decimal": "2.03",
+        "text": "2 hrs 2 mins",
+        "hours": 2,
+        "minutes": 2,
+        "seconds": 24,
+        "percent": 7.83
+      },
+      {
+        "name": "enums",
+        "total_seconds": 6965.827,
+        "digital": "1:56:05",
+        "decimal": "1.93",
+        "text": "1 hr 56 mins",
+        "hours": 1,
+        "minutes": 56,
+        "seconds": 5,
+        "percent": 7.42
+      },
+      {
+        "name": "crypto",
+        "total_seconds": 5522.094,
+        "digital": "1:32:02",
+        "decimal": "1.53",
+        "text": "1 hr 32 mins",
+        "hours": 1,
+        "minutes": 32,
+        "seconds": 2,
+        "percent": 5.89
+      },
+      {
+        "name": "zod",
+        "total_seconds": 5414.18,
+        "digital": "1:30:14",
+        "decimal": "1.50",
+        "text": "1 hr 30 mins",
+        "hours": 1,
+        "minutes": 30,
+        "seconds": 14,
+        "percent": 5.77
+      },
+      {
+        "name": "permissions",
+        "total_seconds": 5403.026,
+        "digital": "1:30:03",
+        "decimal": "1.50",
+        "text": "1 hr 30 mins",
+        "hours": 1,
+        "minutes": 30,
+        "seconds": 3,
+        "percent": 5.76
+      },
+      {
+        "name": "tenants",
+        "total_seconds": 5229.953,
+        "digital": "1:27:09",
+        "decimal": "1.45",
+        "text": "1 hr 27 mins",
+        "hours": 1,
+        "minutes": 27,
+        "seconds": 9,
+        "percent": 5.57
+      },
+      {
+        "name": "zod-validator",
+        "total_seconds": 4802.074,
+        "digital": "1:20:02",
+        "decimal": "1.33",
+        "text": "1 hr 20 mins",
+        "hours": 1,
+        "minutes": 20,
+        "seconds": 2,
+        "percent": 5.12
+      },
+      {
+        "name": "drizzle-orm",
+        "total_seconds": 4269.238,
+        "digital": "1:11:09",
+        "decimal": "1.18",
+        "text": "1 hr 11 mins",
+        "hours": 1,
+        "minutes": 11,
+        "seconds": 9,
+        "percent": 4.55
+      },
+      {
+        "name": "uuid",
+        "total_seconds": 3890.771,
+        "digital": "1:04:50",
+        "decimal": "1.07",
+        "text": "1 hr 4 mins",
+        "hours": 1,
+        "minutes": 4,
+        "seconds": 50,
+        "percent": 4.15
+      },
+      {
+        "name": "cloudflare:workers",
+        "total_seconds": 3747.941,
+        "digital": "1:02:27",
+        "decimal": "1.03",
+        "text": "1 hr 2 mins",
+        "hours": 1,
+        "minutes": 2,
+        "seconds": 27,
+        "percent": 3.99
+      },
+      {
+        "name": "vercel",
+        "total_seconds": 2931.499,
+        "digital": "0:48:51",
+        "decimal": "0.80",
+        "text": "48 mins",
+        "hours": 0,
+        "minutes": 48,
+        "seconds": 51,
+        "percent": 3.12
+      },
+      {
+        "name": "pg-core",
+        "total_seconds": 2357.341,
+        "digital": "0:39:17",
+        "decimal": "0.65",
+        "text": "39 mins",
+        "hours": 0,
+        "minutes": 39,
+        "seconds": 17,
+        "percent": 2.51
+      },
+      {
+        "name": "slugify",
+        "total_seconds": 1541.899,
+        "digital": "0:25:41",
+        "decimal": "0.42",
+        "text": "25 mins",
+        "hours": 0,
+        "minutes": 25,
+        "seconds": 41,
+        "percent": 1.64
+      },
+      {
+        "name": "helpers",
+        "total_seconds": 1379.767,
+        "digital": "0:22:59",
+        "decimal": "0.37",
+        "text": "22 mins",
+        "hours": 0,
+        "minutes": 22,
+        "seconds": 59,
+        "percent": 1.47
+      },
+      {
+        "name": "factory",
+        "total_seconds": 1232.963,
+        "digital": "0:20:32",
+        "decimal": "0.33",
+        "text": "20 mins",
+        "hours": 0,
+        "minutes": 20,
+        "seconds": 32,
+        "percent": 1.31
+      },
+      {
+        "name": "types",
+        "total_seconds": 1162.664,
+        "digital": "0:19:22",
+        "decimal": "0.32",
+        "text": "19 mins",
+        "hours": 0,
+        "minutes": 19,
+        "seconds": 22,
+        "percent": 1.24
+      },
+      {
+        "name": "drizzle-zod",
+        "total_seconds": 633.455,
+        "digital": "0:10:33",
+        "decimal": "0.17",
+        "text": "10 mins",
+        "hours": 0,
+        "minutes": 10,
+        "seconds": 33,
+        "percent": 0.68
+      },
+      {
+        "name": "router",
+        "total_seconds": 414.615,
+        "digital": "0:06:54",
+        "decimal": "0.10",
+        "text": "6 mins",
+        "hours": 0,
+        "minutes": 6,
+        "seconds": 54,
+        "percent": 0.44
+      },
+      {
+        "name": "postgres-js",
+        "total_seconds": 391.777,
+        "digital": "0:06:31",
+        "decimal": "0.10",
+        "text": "6 mins",
+        "hours": 0,
+        "minutes": 6,
+        "seconds": 31,
+        "percent": 0.42
+      },
+      {
+        "name": "generate-json-patch",
+        "total_seconds": 359.049,
+        "digital": "0:05:59",
+        "decimal": "0.08",
+        "text": "5 mins",
+        "hours": 0,
+        "minutes": 5,
+        "seconds": 59,
+        "percent": 0.38
+      },
+      {
+        "name": "pipelines",
+        "total_seconds": 82.211,
+        "digital": "0:01:22",
+        "decimal": "0.02",
+        "text": "1 min",
+        "hours": 0,
+        "minutes": 1,
+        "seconds": 22,
+        "percent": 0.09
+      },
+      {
+        "name": "request-id",
+        "total_seconds": 45.484,
+        "digital": "0:00:45",
+        "decimal": "0.00",
+        "text": "45 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 45,
+        "percent": 0.05
+      },
+      {
+        "name": "inngest",
+        "total_seconds": 45.375,
+        "digital": "0:00:45",
+        "decimal": "0.00",
+        "text": "45 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 45,
+        "percent": 0.05
+      },
+      {
+        "name": "entities",
+        "total_seconds": 44.74,
+        "digital": "0:00:44",
+        "decimal": "0.00",
+        "text": "44 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 44,
+        "percent": 0.05
+      },
+      {
+        "name": "middleware",
+        "total_seconds": 31.23,
+        "digital": "0:00:31",
+        "decimal": "0.00",
+        "text": "31 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 31,
+        "percent": 0.03
+      },
+      {
+        "name": "credits-transactions",
+        "total_seconds": 20.699,
+        "digital": "0:00:20",
+        "decimal": "0.00",
+        "text": "20 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 20,
+        "percent": 0.02
+      },
+      {
+        "name": "operations",
+        "total_seconds": 19.573,
+        "digital": "0:00:19",
+        "decimal": "0.00",
+        "text": "19 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 19,
+        "percent": 0.02
+      },
+      {
+        "name": "npm",
+        "total_seconds": 12.837,
+        "digital": "0:00:12",
+        "decimal": "0.00",
+        "text": "12 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 12,
+        "percent": 0.01
+      },
+      {
+        "name": "@types/node",
+        "total_seconds": 11.039,
+        "digital": "0:00:11",
+        "decimal": "0.00",
+        "text": "11 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 11,
+        "percent": 0.01
+      },
+      {
+        "name": "typescript",
+        "total_seconds": 11.039,
+        "digital": "0:00:11",
+        "decimal": "0.00",
+        "text": "11 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 11,
+        "percent": 0.01
+      },
+      {
+        "name": "postgres",
+        "total_seconds": 11.039,
+        "digital": "0:00:11",
+        "decimal": "0.00",
+        "text": "11 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 11,
+        "percent": 0.01
+      },
+      {
+        "name": "wrangler",
+        "total_seconds": 11.039,
+        "digital": "0:00:11",
+        "decimal": "0.00",
+        "text": "11 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 11,
+        "percent": 0.01
+      },
+      {
+        "name": "drizzle-kit",
+        "total_seconds": 11.039,
+        "digital": "0:00:11",
+        "decimal": "0.00",
+        "text": "11 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 11,
+        "percent": 0.01
+      },
+      {
+        "name": "ai",
+        "total_seconds": 11.039,
+        "digital": "0:00:11",
+        "decimal": "0.00",
+        "text": "11 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 11,
+        "percent": 0.01
+      },
+      {
+        "name": "tsx",
+        "total_seconds": 11.039,
+        "digital": "0:00:11",
+        "decimal": "0.00",
+        "text": "11 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 11,
+        "percent": 0.01
+      },
+      {
+        "name": "@hono/zod-validator",
+        "total_seconds": 11.039,
+        "digital": "0:00:11",
+        "decimal": "0.00",
+        "text": "11 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 11,
+        "percent": 0.01
+      },
+      {
+        "name": "algoliasearch",
+        "total_seconds": 11.039,
+        "digital": "0:00:11",
+        "decimal": "0.00",
+        "text": "11 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 11,
+        "percent": 0.01
+      },
+      {
+        "name": "accounts",
+        "total_seconds": 9.611,
+        "digital": "0:00:09",
+        "decimal": "0.00",
+        "text": "9 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 9,
+        "percent": 0.01
+      },
+      {
+        "name": "workflows",
+        "total_seconds": 9.611,
+        "digital": "0:00:09",
+        "decimal": "0.00",
+        "text": "9 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 9,
+        "percent": 0.01
+      },
+      {
+        "name": "index",
+        "total_seconds": 5.972,
+        "digital": "0:00:05",
+        "decimal": "0.00",
+        "text": "5 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 5,
+        "percent": 0.01
+      },
+      {
+        "name": "@changesets/cli",
+        "total_seconds": 1.798,
+        "digital": "0:00:01",
+        "decimal": "0.00",
+        "text": "1 sec",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 1,
+        "percent": 0
+      },
+      {
+        "name": "@electric-sql/client",
+        "total_seconds": 1.486,
+        "digital": "0:00:01",
+        "decimal": "0.00",
+        "text": "1 sec",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 1,
+        "percent": 0
+      },
+      {
+        "name": "entity",
+        "total_seconds": 0.67,
+        "digital": "0:00:00",
+        "decimal": "0.00",
+        "text": "0 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0,
+        "percent": 0
+      },
+      {
+        "name": "session",
+        "total_seconds": 0.67,
+        "digital": "0:00:00",
+        "decimal": "0.00",
+        "text": "0 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0,
+        "percent": 0
+      },
+      {
+        "name": "common",
+        "total_seconds": 0.67,
+        "digital": "0:00:00",
+        "decimal": "0.00",
+        "text": "0 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0,
+        "percent": 0
+      },
+      {
+        "name": "query-promise",
+        "total_seconds": 0.67,
+        "digital": "0:00:00",
+        "decimal": "0.00",
+        "text": "0 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0,
+        "percent": 0
+      },
+      {
+        "name": "subquery",
+        "total_seconds": 0.67,
+        "digital": "0:00:00",
+        "decimal": "0.00",
+        "text": "0 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0,
+        "percent": 0
+      },
+      {
+        "name": "runnable-query",
+        "total_seconds": 0.67,
+        "digital": "0:00:00",
+        "decimal": "0.00",
+        "text": "0 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0,
+        "percent": 0
+      },
+      {
+        "name": "dialect",
+        "total_seconds": 0.67,
+        "digital": "0:00:00",
+        "decimal": "0.00",
+        "text": "0 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0,
+        "percent": 0
+      },
+      {
+        "name": "indexes",
+        "total_seconds": 0.67,
+        "digital": "0:00:00",
+        "decimal": "0.00",
+        "text": "0 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0,
+        "percent": 0
+      },
+      {
+        "name": "table",
+        "total_seconds": 0.67,
+        "digital": "0:00:00",
+        "decimal": "0.00",
+        "text": "0 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0,
+        "percent": 0
+      },
+      {
+        "name": "sql",
+        "total_seconds": 0.67,
+        "digital": "0:00:00",
+        "decimal": "0.00",
+        "text": "0 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0,
+        "percent": 0
+      },
+      {
+        "name": "select.types",
+        "total_seconds": 0.67,
+        "digital": "0:00:00",
+        "decimal": "0.00",
+        "text": "0 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0,
+        "percent": 0
+      },
+      {
+        "name": "update",
+        "total_seconds": 0.67,
+        "digital": "0:00:00",
+        "decimal": "0.00",
+        "text": "0 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0,
+        "percent": 0
+      },
+      {
+        "name": "query-builder",
+        "total_seconds": 0.67,
+        "digital": "0:00:00",
+        "decimal": "0.00",
+        "text": "0 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0,
+        "percent": 0
+      }
+    ],
+    "machines": [
+      {
+        "name": "Anands-MBP.home",
+        "total_seconds": 15559.166,
+        "machine_name_id": "1ff3795f-c752-4858-9fa4-7090240f0ab3",
+        "digital": "4:19:19",
+        "decimal": "4.32",
+        "text": "4 hrs 19 mins",
+        "hours": 4,
+        "minutes": 19,
+        "seconds": 19,
+        "percent": 100
+      }
+    ],
+    "editors": [
+      {
+        "name": "Cursor",
+        "total_seconds": 15559.166,
+        "digital": "4:19:19",
+        "decimal": "4.32",
+        "text": "4 hrs 19 mins",
+        "hours": 4,
+        "minutes": 19,
+        "seconds": 19,
+        "percent": 100
+      }
+    ],
+    "operating_systems": [
+      {
+        "name": "Mac",
+        "total_seconds": 15559.166,
+        "digital": "4:19:19",
+        "decimal": "4.32",
+        "text": "4 hrs 19 mins",
+        "hours": 4,
+        "minutes": 19,
+        "seconds": 19,
+        "percent": 100
+      }
+    ],
+    "categories": [
+      {
+        "name": "Coding",
+        "total_seconds": 15559.166,
+        "digital": "4:19:19",
+        "decimal": "4.32",
+        "text": "4 hrs 19 mins",
+        "hours": 4,
+        "minutes": 19,
+        "seconds": 19,
+        "percent": 100
+      }
+    ]
   }
 ]
