@@ -1,52 +1,15 @@
 [
   {
-    "grand_total": {
-      "hours": 4,
-      "minutes": 19,
-      "total_seconds": 15559.166,
-      "digital": "4:19",
-      "decimal": "4.32",
-      "text": "4 hrs 19 mins",
-      "ai_additions": 0,
-      "ai_deletions": 0,
-      "human_additions": 1091,
-      "human_deletions": 473
-    },
-    "range": {
-      "start": "2025-09-28T22:00:00Z",
-      "end": "2025-09-29T21:59:59Z",
-      "date": "2025-09-29",
-      "text": "Mon Sep 29th 2025",
-      "timezone": "Europe/Amsterdam"
-    },
-    "projects": [
-      {
-        "name": "first",
-        "total_seconds": 15559.166,
-        "ai_additions": 0,
-        "ai_deletions": 0,
-        "human_additions": 1091,
-        "human_deletions": 473,
-        "color": null,
-        "digital": "4:19:19",
-        "decimal": "4.32",
-        "text": "4 hrs 19 mins",
-        "hours": 4,
-        "minutes": 19,
-        "seconds": 19,
-        "percent": 100
-      }
-    ],
     "languages": [
       {
         "name": "TypeScript",
-        "total_seconds": 14944.197,
-        "digital": "4:09:04",
+        "total_seconds": 14945.064,
+        "digital": "4:09:05",
         "decimal": "4.15",
         "text": "4 hrs 9 mins",
         "hours": 4,
         "minutes": 9,
-        "seconds": 4,
+        "seconds": 5,
         "percent": 96.05
       },
       {
@@ -94,49 +57,100 @@
         "percent": 0.19
       }
     ],
+    "grand_total": {
+      "hours": 4,
+      "minutes": 19,
+      "total_seconds": 15560.033,
+      "digital": "4:19",
+      "decimal": "4.32",
+      "text": "4 hrs 19 mins",
+      "ai_additions": 0,
+      "ai_deletions": 0,
+      "human_additions": 1091,
+      "human_deletions": 473
+    },
+    "editors": [
+      {
+        "name": "Cursor",
+        "total_seconds": 15560.033,
+        "digital": "4:19:20",
+        "decimal": "4.32",
+        "text": "4 hrs 19 mins",
+        "hours": 4,
+        "minutes": 19,
+        "seconds": 20,
+        "percent": 100
+      }
+    ],
+    "operating_systems": [
+      {
+        "name": "Mac",
+        "total_seconds": 15560.033,
+        "digital": "4:19:20",
+        "decimal": "4.32",
+        "text": "4 hrs 19 mins",
+        "hours": 4,
+        "minutes": 19,
+        "seconds": 20,
+        "percent": 100
+      }
+    ],
+    "categories": [
+      {
+        "name": "Coding",
+        "total_seconds": 15560.033,
+        "digital": "4:19:20",
+        "decimal": "4.32",
+        "text": "4 hrs 19 mins",
+        "hours": 4,
+        "minutes": 19,
+        "seconds": 20,
+        "percent": 100
+      }
+    ],
     "dependencies": [
       {
         "name": "client",
-        "total_seconds": 10813.351,
-        "digital": "3:00:13",
+        "total_seconds": 10814.218,
+        "digital": "3:00:14",
         "decimal": "3.00",
         "text": "3 hrs",
         "hours": 3,
         "minutes": 0,
-        "seconds": 13,
+        "seconds": 14,
         "percent": 11.52
       },
       {
         "name": "hono",
-        "total_seconds": 9734.81,
-        "digital": "2:42:14",
+        "total_seconds": 9735.677,
+        "digital": "2:42:15",
         "decimal": "2.70",
         "text": "2 hrs 42 mins",
         "hours": 2,
         "minutes": 42,
-        "seconds": 14,
-        "percent": 10.38
+        "seconds": 15,
+        "percent": 10.37
       },
       {
         "name": "schema",
-        "total_seconds": 7846.429,
-        "digital": "2:10:46",
+        "total_seconds": 7847.296,
+        "digital": "2:10:47",
         "decimal": "2.17",
         "text": "2 hrs 10 mins",
         "hours": 2,
         "minutes": 10,
-        "seconds": 46,
+        "seconds": 47,
         "percent": 8.36
       },
       {
         "name": "http-exception",
-        "total_seconds": 7344.648,
-        "digital": "2:02:24",
+        "total_seconds": 7345.515,
+        "digital": "2:02:25",
         "decimal": "2.03",
         "text": "2 hrs 2 mins",
         "hours": 2,
         "minutes": 2,
-        "seconds": 24,
+        "seconds": 25,
         "percent": 7.83
       },
       {
@@ -152,7 +166,7 @@
       },
       {
         "name": "crypto",
-        "total_seconds": 5522.094,
+        "total_seconds": 5522.961,
         "digital": "1:32:02",
         "decimal": "1.53",
         "text": "1 hr 32 mins",
@@ -174,7 +188,7 @@
       },
       {
         "name": "permissions",
-        "total_seconds": 5403.026,
+        "total_seconds": 5403.893,
         "digital": "1:30:03",
         "decimal": "1.50",
         "text": "1 hr 30 mins",
@@ -185,18 +199,18 @@
       },
       {
         "name": "tenants",
-        "total_seconds": 5229.953,
-        "digital": "1:27:09",
+        "total_seconds": 5230.82,
+        "digital": "1:27:10",
         "decimal": "1.45",
         "text": "1 hr 27 mins",
         "hours": 1,
         "minutes": 27,
-        "seconds": 9,
+        "seconds": 10,
         "percent": 5.57
       },
       {
         "name": "zod-validator",
-        "total_seconds": 4802.074,
+        "total_seconds": 4802.941,
         "digital": "1:20:02",
         "decimal": "1.33",
         "text": "1 hr 20 mins",
@@ -218,13 +232,13 @@
       },
       {
         "name": "uuid",
-        "total_seconds": 3890.771,
-        "digital": "1:04:50",
+        "total_seconds": 3891.638,
+        "digital": "1:04:51",
         "decimal": "1.07",
         "text": "1 hr 4 mins",
         "hours": 1,
         "minutes": 4,
-        "seconds": 50,
+        "seconds": 51,
         "percent": 4.15
       },
       {
@@ -262,24 +276,24 @@
       },
       {
         "name": "slugify",
-        "total_seconds": 1541.899,
-        "digital": "0:25:41",
+        "total_seconds": 1542.766,
+        "digital": "0:25:42",
         "decimal": "0.42",
         "text": "25 mins",
         "hours": 0,
         "minutes": 25,
-        "seconds": 41,
+        "seconds": 42,
         "percent": 1.64
       },
       {
         "name": "helpers",
-        "total_seconds": 1379.767,
-        "digital": "0:22:59",
-        "decimal": "0.37",
-        "text": "22 mins",
+        "total_seconds": 1380.634,
+        "digital": "0:23:00",
+        "decimal": "0.38",
+        "text": "23 mins",
         "hours": 0,
-        "minutes": 22,
-        "seconds": 59,
+        "minutes": 23,
+        "seconds": 0,
         "percent": 1.47
       },
       {
@@ -339,7 +353,7 @@
       },
       {
         "name": "generate-json-patch",
-        "total_seconds": 359.049,
+        "total_seconds": 359.916,
         "digital": "0:05:59",
         "decimal": "0.08",
         "text": "5 mins",
@@ -737,55 +751,45 @@
     "machines": [
       {
         "name": "Anands-MBP.home",
-        "total_seconds": 15559.166,
+        "total_seconds": 15560.033,
         "machine_name_id": "1ff3795f-c752-4858-9fa4-7090240f0ab3",
-        "digital": "4:19:19",
+        "digital": "4:19:20",
         "decimal": "4.32",
         "text": "4 hrs 19 mins",
         "hours": 4,
         "minutes": 19,
-        "seconds": 19,
+        "seconds": 20,
         "percent": 100
       }
     ],
-    "editors": [
+    "projects": [
       {
-        "name": "Cursor",
-        "total_seconds": 15559.166,
-        "digital": "4:19:19",
+        "name": "first",
+        "total_seconds": 15560.033,
+        "ai_additions": 0,
+        "ai_deletions": 0,
+        "human_additions": 1091,
+        "human_deletions": 473,
+        "color": null,
+        "digital": "4:19:20",
         "decimal": "4.32",
         "text": "4 hrs 19 mins",
         "hours": 4,
         "minutes": 19,
-        "seconds": 19,
+        "seconds": 20,
         "percent": 100
       }
     ],
-    "operating_systems": [
-      {
-        "name": "Mac",
-        "total_seconds": 15559.166,
-        "digital": "4:19:19",
-        "decimal": "4.32",
-        "text": "4 hrs 19 mins",
-        "hours": 4,
-        "minutes": 19,
-        "seconds": 19,
-        "percent": 100
-      }
-    ],
-    "categories": [
-      {
-        "name": "Coding",
-        "total_seconds": 15559.166,
-        "digital": "4:19:19",
-        "decimal": "4.32",
-        "text": "4 hrs 19 mins",
-        "hours": 4,
-        "minutes": 19,
-        "seconds": 19,
-        "percent": 100
-      }
-    ]
+    "range": {
+      "start": "2025-09-28T22:00:00Z",
+      "end": "2025-09-29T21:59:59Z",
+      "date": "2025-09-29",
+      "text": "Mon Sep 29th 2025",
+      "timezone": "Europe/Amsterdam"
+    },
+    "ai_additions": 0,
+    "ai_deletions": 0,
+    "human_additions": 0,
+    "human_deletions": 0
   }
 ]
