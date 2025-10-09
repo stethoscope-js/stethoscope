@@ -627,7 +627,7 @@
         "percent": 0.33
       },
       {
-        "name": "useAutoSave",
+        "name": "buttons",
         "total_seconds": 524.337,
         "digital": "0:08:44",
         "decimal": "0.13",
@@ -649,7 +649,7 @@
         "percent": 0.32
       },
       {
-        "name": "buttons",
+        "name": "useAutoSave",
         "total_seconds": 524.337,
         "digital": "0:08:44",
         "decimal": "0.13",
@@ -715,17 +715,6 @@
         "percent": 0.25
       },
       {
-        "name": "sheet",
-        "total_seconds": 370.866,
-        "digital": "0:06:10",
-        "decimal": "0.10",
-        "text": "6 mins",
-        "hours": 0,
-        "minutes": 6,
-        "seconds": 10,
-        "percent": 0.23
-      },
-      {
         "name": "skeleton",
         "total_seconds": 370.866,
         "digital": "0:06:10",
@@ -738,6 +727,17 @@
       },
       {
         "name": "use-mobile",
+        "total_seconds": 370.866,
+        "digital": "0:06:10",
+        "decimal": "0.10",
+        "text": "6 mins",
+        "hours": 0,
+        "minutes": 6,
+        "seconds": 10,
+        "percent": 0.23
+      },
+      {
+        "name": "sheet",
         "total_seconds": 370.866,
         "digital": "0:06:10",
         "decimal": "0.10",
@@ -836,183 +836,7 @@
         "percent": 0.16
       },
       {
-        "name": "@types/react",
-        "total_seconds": 263.898,
-        "digital": "0:04:23",
-        "decimal": "0.07",
-        "text": "4 mins",
-        "hours": 0,
-        "minutes": 4,
-        "seconds": 23,
-        "percent": 0.16
-      },
-      {
-        "name": "@tanstack/query-db-collection",
-        "total_seconds": 263.898,
-        "digital": "0:04:23",
-        "decimal": "0.07",
-        "text": "4 mins",
-        "hours": 0,
-        "minutes": 4,
-        "seconds": 23,
-        "percent": 0.16
-      },
-      {
-        "name": "web-vitals",
-        "total_seconds": 263.898,
-        "digital": "0:04:23",
-        "decimal": "0.07",
-        "text": "4 mins",
-        "hours": 0,
-        "minutes": 4,
-        "seconds": 23,
-        "percent": 0.16
-      },
-      {
-        "name": "@tanstack/db",
-        "total_seconds": 263.898,
-        "digital": "0:04:23",
-        "decimal": "0.07",
-        "text": "4 mins",
-        "hours": 0,
-        "minutes": 4,
-        "seconds": 23,
-        "percent": 0.16
-      },
-      {
-        "name": "@tabler/icons-react",
-        "total_seconds": 263.898,
-        "digital": "0:04:23",
-        "decimal": "0.07",
-        "text": "4 mins",
-        "hours": 0,
-        "minutes": 4,
-        "seconds": 23,
-        "percent": 0.16
-      },
-      {
-        "name": "@tanstack/react-router-ssr-query",
-        "total_seconds": 263.898,
-        "digital": "0:04:23",
-        "decimal": "0.07",
-        "text": "4 mins",
-        "hours": 0,
-        "minutes": 4,
-        "seconds": 23,
-        "percent": 0.16
-      },
-      {
-        "name": "@tanstack/react-form",
-        "total_seconds": 263.898,
-        "digital": "0:04:23",
-        "decimal": "0.07",
-        "text": "4 mins",
-        "hours": 0,
-        "minutes": 4,
-        "seconds": 23,
-        "percent": 0.16
-      },
-      {
-        "name": "react-dom",
-        "total_seconds": 263.898,
-        "digital": "0:04:23",
-        "decimal": "0.07",
-        "text": "4 mins",
-        "hours": 0,
-        "minutes": 4,
-        "seconds": 23,
-        "percent": 0.16
-      },
-      {
-        "name": "@tanstack/react-db",
-        "total_seconds": 263.898,
-        "digital": "0:04:23",
-        "decimal": "0.07",
-        "text": "4 mins",
-        "hours": 0,
-        "minutes": 4,
-        "seconds": 23,
-        "percent": 0.16
-      },
-      {
-        "name": "@tailwindcss/vite",
-        "total_seconds": 263.898,
-        "digital": "0:04:23",
-        "decimal": "0.07",
-        "text": "4 mins",
-        "hours": 0,
-        "minutes": 4,
-        "seconds": 23,
-        "percent": 0.16
-      },
-      {
-        "name": "@tanstack/electric-db-collection",
-        "total_seconds": 263.898,
-        "digital": "0:04:23",
-        "decimal": "0.07",
-        "text": "4 mins",
-        "hours": 0,
-        "minutes": 4,
-        "seconds": 23,
-        "percent": 0.16
-      },
-      {
-        "name": "@testing-library/react",
-        "total_seconds": 263.898,
-        "digital": "0:04:23",
-        "decimal": "0.07",
-        "text": "4 mins",
-        "hours": 0,
-        "minutes": 4,
-        "seconds": 23,
-        "percent": 0.16
-      },
-      {
-        "name": "@types/react-dom",
-        "total_seconds": 263.898,
-        "digital": "0:04:23",
-        "decimal": "0.07",
-        "text": "4 mins",
-        "hours": 0,
-        "minutes": 4,
-        "seconds": 23,
-        "percent": 0.16
-      },
-      {
-        "name": "@types/js-cookie",
-        "total_seconds": 263.898,
-        "digital": "0:04:23",
-        "decimal": "0.07",
-        "text": "4 mins",
-        "hours": 0,
-        "minutes": 4,
-        "seconds": 23,
-        "percent": 0.16
-      },
-      {
-        "name": "tailwindcss",
-        "total_seconds": 263.898,
-        "digital": "0:04:23",
-        "decimal": "0.07",
-        "text": "4 mins",
-        "hours": 0,
-        "minutes": 4,
-        "seconds": 23,
-        "percent": 0.16
-      },
-      {
         "name": "@tanstack/query-core",
-        "total_seconds": 263.898,
-        "digital": "0:04:23",
-        "decimal": "0.07",
-        "text": "4 mins",
-        "hours": 0,
-        "minutes": 4,
-        "seconds": 23,
-        "percent": 0.16
-      },
-      {
-        "name": "@tanstack/router-plugin",
         "total_seconds": 263.898,
         "digital": "0:04:23",
         "decimal": "0.07",
@@ -1034,7 +858,183 @@
         "percent": 0.16
       },
       {
+        "name": "@tanstack/react-db",
+        "total_seconds": 263.898,
+        "digital": "0:04:23",
+        "decimal": "0.07",
+        "text": "4 mins",
+        "hours": 0,
+        "minutes": 4,
+        "seconds": 23,
+        "percent": 0.16
+      },
+      {
+        "name": "@types/react-dom",
+        "total_seconds": 263.898,
+        "digital": "0:04:23",
+        "decimal": "0.07",
+        "text": "4 mins",
+        "hours": 0,
+        "minutes": 4,
+        "seconds": 23,
+        "percent": 0.16
+      },
+      {
+        "name": "@tanstack/query-db-collection",
+        "total_seconds": 263.898,
+        "digital": "0:04:23",
+        "decimal": "0.07",
+        "text": "4 mins",
+        "hours": 0,
+        "minutes": 4,
+        "seconds": 23,
+        "percent": 0.16
+      },
+      {
+        "name": "@tanstack/db",
+        "total_seconds": 263.898,
+        "digital": "0:04:23",
+        "decimal": "0.07",
+        "text": "4 mins",
+        "hours": 0,
+        "minutes": 4,
+        "seconds": 23,
+        "percent": 0.16
+      },
+      {
+        "name": "@tanstack/electric-db-collection",
+        "total_seconds": 263.898,
+        "digital": "0:04:23",
+        "decimal": "0.07",
+        "text": "4 mins",
+        "hours": 0,
+        "minutes": 4,
+        "seconds": 23,
+        "percent": 0.16
+      },
+      {
+        "name": "@types/react",
+        "total_seconds": 263.898,
+        "digital": "0:04:23",
+        "decimal": "0.07",
+        "text": "4 mins",
+        "hours": 0,
+        "minutes": 4,
+        "seconds": 23,
+        "percent": 0.16
+      },
+      {
+        "name": "react-dom",
+        "total_seconds": 263.898,
+        "digital": "0:04:23",
+        "decimal": "0.07",
+        "text": "4 mins",
+        "hours": 0,
+        "minutes": 4,
+        "seconds": 23,
+        "percent": 0.16
+      },
+      {
+        "name": "@tailwindcss/vite",
+        "total_seconds": 263.898,
+        "digital": "0:04:23",
+        "decimal": "0.07",
+        "text": "4 mins",
+        "hours": 0,
+        "minutes": 4,
+        "seconds": 23,
+        "percent": 0.16
+      },
+      {
+        "name": "@tanstack/router-plugin",
+        "total_seconds": 263.898,
+        "digital": "0:04:23",
+        "decimal": "0.07",
+        "text": "4 mins",
+        "hours": 0,
+        "minutes": 4,
+        "seconds": 23,
+        "percent": 0.16
+      },
+      {
+        "name": "@tanstack/react-form",
+        "total_seconds": 263.898,
+        "digital": "0:04:23",
+        "decimal": "0.07",
+        "text": "4 mins",
+        "hours": 0,
+        "minutes": 4,
+        "seconds": 23,
+        "percent": 0.16
+      },
+      {
         "name": "@tanstack/react-query",
+        "total_seconds": 263.898,
+        "digital": "0:04:23",
+        "decimal": "0.07",
+        "text": "4 mins",
+        "hours": 0,
+        "minutes": 4,
+        "seconds": 23,
+        "percent": 0.16
+      },
+      {
+        "name": "tailwindcss",
+        "total_seconds": 263.898,
+        "digital": "0:04:23",
+        "decimal": "0.07",
+        "text": "4 mins",
+        "hours": 0,
+        "minutes": 4,
+        "seconds": 23,
+        "percent": 0.16
+      },
+      {
+        "name": "@testing-library/react",
+        "total_seconds": 263.898,
+        "digital": "0:04:23",
+        "decimal": "0.07",
+        "text": "4 mins",
+        "hours": 0,
+        "minutes": 4,
+        "seconds": 23,
+        "percent": 0.16
+      },
+      {
+        "name": "@tanstack/react-router-ssr-query",
+        "total_seconds": 263.898,
+        "digital": "0:04:23",
+        "decimal": "0.07",
+        "text": "4 mins",
+        "hours": 0,
+        "minutes": 4,
+        "seconds": 23,
+        "percent": 0.16
+      },
+      {
+        "name": "@types/js-cookie",
+        "total_seconds": 263.898,
+        "digital": "0:04:23",
+        "decimal": "0.07",
+        "text": "4 mins",
+        "hours": 0,
+        "minutes": 4,
+        "seconds": 23,
+        "percent": 0.16
+      },
+      {
+        "name": "web-vitals",
+        "total_seconds": 263.898,
+        "digital": "0:04:23",
+        "decimal": "0.07",
+        "text": "4 mins",
+        "hours": 0,
+        "minutes": 4,
+        "seconds": 23,
+        "percent": 0.16
+      },
+      {
+        "name": "@tabler/icons-react",
         "total_seconds": 263.898,
         "digital": "0:04:23",
         "decimal": "0.07",
@@ -1364,6 +1364,17 @@
         "percent": 0.03
       },
       {
+        "name": "clsx",
+        "total_seconds": 43.752,
+        "digital": "0:00:43",
+        "decimal": "0.00",
+        "text": "43 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 43,
+        "percent": 0.03
+      },
+      {
         "name": "@tanstack/react-router",
         "total_seconds": 43.752,
         "digital": "0:00:43",
@@ -1386,83 +1397,6 @@
         "percent": 0.03
       },
       {
-        "name": "clsx",
-        "total_seconds": 43.752,
-        "digital": "0:00:43",
-        "decimal": "0.00",
-        "text": "43 secs",
-        "hours": 0,
-        "minutes": 0,
-        "seconds": 43,
-        "percent": 0.03
-      },
-      {
-        "name": "tsx",
-        "total_seconds": 40.429,
-        "digital": "0:00:40",
-        "decimal": "0.00",
-        "text": "40 secs",
-        "hours": 0,
-        "minutes": 0,
-        "seconds": 40,
-        "percent": 0.02
-      },
-      {
-        "name": "@sindresorhus/slugify",
-        "total_seconds": 40.429,
-        "digital": "0:00:40",
-        "decimal": "0.00",
-        "text": "40 secs",
-        "hours": 0,
-        "minutes": 0,
-        "seconds": 40,
-        "percent": 0.02
-      },
-      {
-        "name": "drizzle-kit",
-        "total_seconds": 40.429,
-        "digital": "0:00:40",
-        "decimal": "0.00",
-        "text": "40 secs",
-        "hours": 0,
-        "minutes": 0,
-        "seconds": 40,
-        "percent": 0.02
-      },
-      {
-        "name": "algoliasearch",
-        "total_seconds": 40.429,
-        "digital": "0:00:40",
-        "decimal": "0.00",
-        "text": "40 secs",
-        "hours": 0,
-        "minutes": 0,
-        "seconds": 40,
-        "percent": 0.02
-      },
-      {
-        "name": "ai",
-        "total_seconds": 40.429,
-        "digital": "0:00:40",
-        "decimal": "0.00",
-        "text": "40 secs",
-        "hours": 0,
-        "minutes": 0,
-        "seconds": 40,
-        "percent": 0.02
-      },
-      {
-        "name": "dotenv",
-        "total_seconds": 40.429,
-        "digital": "0:00:40",
-        "decimal": "0.00",
-        "text": "40 secs",
-        "hours": 0,
-        "minutes": 0,
-        "seconds": 40,
-        "percent": 0.02
-      },
-      {
         "name": "@electric-sql/client",
         "total_seconds": 40.429,
         "digital": "0:00:40",
@@ -1474,7 +1408,18 @@
         "percent": 0.02
       },
       {
-        "name": "@hono/zod-validator",
+        "name": "postgres",
+        "total_seconds": 40.429,
+        "digital": "0:00:40",
+        "decimal": "0.00",
+        "text": "40 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 40,
+        "percent": 0.02
+      },
+      {
+        "name": "tsx",
         "total_seconds": 40.429,
         "digital": "0:00:40",
         "decimal": "0.00",
@@ -1496,7 +1441,62 @@
         "percent": 0.02
       },
       {
-        "name": "postgres",
+        "name": "drizzle-kit",
+        "total_seconds": 40.429,
+        "digital": "0:00:40",
+        "decimal": "0.00",
+        "text": "40 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 40,
+        "percent": 0.02
+      },
+      {
+        "name": "ai",
+        "total_seconds": 40.429,
+        "digital": "0:00:40",
+        "decimal": "0.00",
+        "text": "40 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 40,
+        "percent": 0.02
+      },
+      {
+        "name": "@sindresorhus/slugify",
+        "total_seconds": 40.429,
+        "digital": "0:00:40",
+        "decimal": "0.00",
+        "text": "40 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 40,
+        "percent": 0.02
+      },
+      {
+        "name": "@hono/zod-validator",
+        "total_seconds": 40.429,
+        "digital": "0:00:40",
+        "decimal": "0.00",
+        "text": "40 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 40,
+        "percent": 0.02
+      },
+      {
+        "name": "dotenv",
+        "total_seconds": 40.429,
+        "digital": "0:00:40",
+        "decimal": "0.00",
+        "text": "40 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 40,
+        "percent": 0.02
+      },
+      {
+        "name": "algoliasearch",
         "total_seconds": 40.429,
         "digital": "0:00:40",
         "decimal": "0.00",
@@ -1529,17 +1529,6 @@
         "percent": 0.02
       },
       {
-        "name": "vite-plugin",
-        "total_seconds": 32.274,
-        "digital": "0:00:32",
-        "decimal": "0.00",
-        "text": "32 secs",
-        "hours": 0,
-        "minutes": 0,
-        "seconds": 32,
-        "percent": 0.02
-      },
-      {
         "name": "plugin-react",
         "total_seconds": 32.274,
         "digital": "0:00:32",
@@ -1551,7 +1540,18 @@
         "percent": 0.02
       },
       {
-        "name": "electric-db-collection",
+        "name": "vite-plugin",
+        "total_seconds": 32.274,
+        "digital": "0:00:32",
+        "decimal": "0.00",
+        "text": "32 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 32,
+        "percent": 0.02
+      },
+      {
+        "name": "query-db-collection",
         "total_seconds": 24.699,
         "digital": "0:00:24",
         "decimal": "0.00",
@@ -1562,7 +1562,7 @@
         "percent": 0.02
       },
       {
-        "name": "query-db-collection",
+        "name": "electric-db-collection",
         "total_seconds": 24.699,
         "digital": "0:00:24",
         "decimal": "0.00",
@@ -1672,7 +1672,7 @@
         "percent": 0
       },
       {
-        "name": "checks",
+        "name": "util",
         "total_seconds": 4.283,
         "digital": "0:00:04",
         "decimal": "0.00",
@@ -1694,29 +1694,29 @@
         "percent": 0
       },
       {
-        "name": "schemas",
-        "total_seconds": 4.283,
-        "digital": "0:00:04",
-        "decimal": "0.00",
-        "text": "4 secs",
-        "hours": 0,
-        "minutes": 0,
-        "seconds": 4,
-        "percent": 0
-      },
-      {
-        "name": "util",
-        "total_seconds": 4.283,
-        "digital": "0:00:04",
-        "decimal": "0.00",
-        "text": "4 secs",
-        "hours": 0,
-        "minutes": 0,
-        "seconds": 4,
-        "percent": 0
-      },
-      {
         "name": "core",
+        "total_seconds": 4.283,
+        "digital": "0:00:04",
+        "decimal": "0.00",
+        "text": "4 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 4,
+        "percent": 0
+      },
+      {
+        "name": "checks",
+        "total_seconds": 4.283,
+        "digital": "0:00:04",
+        "decimal": "0.00",
+        "text": "4 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 4,
+        "percent": 0
+      },
+      {
+        "name": "schemas",
         "total_seconds": 4.283,
         "digital": "0:00:04",
         "decimal": "0.00",
@@ -1760,7 +1760,7 @@
         "percent": 0
       },
       {
-        "name": "__root",
+        "name": "login",
         "total_seconds": 1.19,
         "digital": "0:00:01",
         "decimal": "0.00",
@@ -1782,7 +1782,7 @@
         "percent": 0
       },
       {
-        "name": "login",
+        "name": "new",
         "total_seconds": 1.19,
         "digital": "0:00:01",
         "decimal": "0.00",
@@ -1793,7 +1793,7 @@
         "percent": 0
       },
       {
-        "name": "react-start",
+        "name": "__root",
         "total_seconds": 1.19,
         "digital": "0:00:01",
         "decimal": "0.00",
@@ -1815,7 +1815,7 @@
         "percent": 0
       },
       {
-        "name": "new",
+        "name": "react-start",
         "total_seconds": 1.19,
         "digital": "0:00:01",
         "decimal": "0.00",
@@ -1848,29 +1848,7 @@
         "percent": 0
       },
       {
-        "name": "subscription",
-        "total_seconds": 0.487,
-        "digital": "0:00:00",
-        "decimal": "0.00",
-        "text": "0 secs",
-        "hours": 0,
-        "minutes": 0,
-        "seconds": 0,
-        "percent": 0
-      },
-      {
-        "name": "index-options",
-        "total_seconds": 0.487,
-        "digital": "0:00:00",
-        "decimal": "0.00",
-        "text": "0 secs",
-        "hours": 0,
-        "minutes": 0,
-        "seconds": 0,
-        "percent": 0
-      },
-      {
-        "name": "state",
+        "name": "btree-index",
         "total_seconds": 0.487,
         "digital": "0:00:00",
         "decimal": "0.00",
@@ -1903,7 +1881,40 @@
         "percent": 0
       },
       {
-        "name": "btree-index",
+        "name": "spec",
+        "total_seconds": 0.487,
+        "digital": "0:00:00",
+        "decimal": "0.00",
+        "text": "0 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0,
+        "percent": 0
+      },
+      {
+        "name": "ref-proxy",
+        "total_seconds": 0.487,
+        "digital": "0:00:00",
+        "decimal": "0.00",
+        "text": "0 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0,
+        "percent": 0
+      },
+      {
+        "name": "subscription",
+        "total_seconds": 0.487,
+        "digital": "0:00:00",
+        "decimal": "0.00",
+        "text": "0 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0,
+        "percent": 0
+      },
+      {
+        "name": "index-options",
         "total_seconds": 0.487,
         "digital": "0:00:00",
         "decimal": "0.00",
@@ -1925,18 +1936,7 @@
         "percent": 0
       },
       {
-        "name": "spec",
-        "total_seconds": 0.487,
-        "digital": "0:00:00",
-        "decimal": "0.00",
-        "text": "0 secs",
-        "hours": 0,
-        "minutes": 0,
-        "seconds": 0,
-        "percent": 0
-      },
-      {
-        "name": "ref-proxy",
+        "name": "state",
         "total_seconds": 0.487,
         "digital": "0:00:00",
         "decimal": "0.00",
@@ -1969,6 +1969,7 @@
         "ai_deletions": 0,
         "human_additions": 3088,
         "human_deletions": 1781,
+        "color": null,
         "digital": "5:34:53",
         "decimal": "5.57",
         "text": "5 hrs 34 mins",
