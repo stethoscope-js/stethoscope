@@ -1,17 +1,190 @@
 [
   {
+    "languages": [
+      {
+        "name": "TypeScript",
+        "total_seconds": 1110.369,
+        "digital": "0:18:30",
+        "decimal": "0.30",
+        "text": "18 mins",
+        "hours": 0,
+        "minutes": 18,
+        "seconds": 30,
+        "percent": 77.79
+      },
+      {
+        "name": "Other",
+        "total_seconds": 317.105,
+        "digital": "0:05:17",
+        "decimal": "0.08",
+        "text": "5 mins",
+        "hours": 0,
+        "minutes": 5,
+        "seconds": 17,
+        "percent": 22.21
+      }
+    ],
     "grand_total": {
       "hours": 0,
-      "minutes": 0,
-      "total_seconds": 0,
-      "digital": "0:00",
-      "decimal": "0.00",
-      "text": "0 secs",
+      "minutes": 23,
+      "total_seconds": 1427.474,
+      "digital": "0:23",
+      "decimal": "0.38",
+      "text": "23 mins",
       "ai_additions": 0,
       "ai_deletions": 0,
-      "human_additions": 0,
-      "human_deletions": 0
+      "human_additions": 26,
+      "human_deletions": 198
     },
+    "editors": [
+      {
+        "name": "Cursor",
+        "total_seconds": 1427.474,
+        "digital": "0:23:47",
+        "decimal": "0.38",
+        "text": "23 mins",
+        "hours": 0,
+        "minutes": 23,
+        "seconds": 47,
+        "percent": 100
+      }
+    ],
+    "operating_systems": [
+      {
+        "name": "Mac",
+        "total_seconds": 1427.474,
+        "digital": "0:23:47",
+        "decimal": "0.38",
+        "text": "23 mins",
+        "hours": 0,
+        "minutes": 23,
+        "seconds": 47,
+        "percent": 100
+      }
+    ],
+    "categories": [
+      {
+        "name": "Coding",
+        "total_seconds": 1427.474,
+        "digital": "0:23:47",
+        "decimal": "0.38",
+        "text": "23 mins",
+        "hours": 0,
+        "minutes": 23,
+        "seconds": 47,
+        "percent": 100
+      }
+    ],
+    "dependencies": [
+      {
+        "name": "tenants",
+        "total_seconds": 1109.197,
+        "digital": "0:18:29",
+        "decimal": "0.30",
+        "text": "18 mins",
+        "hours": 0,
+        "minutes": 18,
+        "seconds": 29,
+        "percent": 19.18
+      },
+      {
+        "name": "enums",
+        "total_seconds": 1109.197,
+        "digital": "0:18:29",
+        "decimal": "0.30",
+        "text": "18 mins",
+        "hours": 0,
+        "minutes": 18,
+        "seconds": 29,
+        "percent": 19.18
+      },
+      {
+        "name": "zod",
+        "total_seconds": 1109.197,
+        "digital": "0:18:29",
+        "decimal": "0.30",
+        "text": "18 mins",
+        "hours": 0,
+        "minutes": 18,
+        "seconds": 29,
+        "percent": 19.18
+      },
+      {
+        "name": "drizzle-orm",
+        "total_seconds": 1109.197,
+        "digital": "0:18:29",
+        "decimal": "0.30",
+        "text": "18 mins",
+        "hours": 0,
+        "minutes": 18,
+        "seconds": 29,
+        "percent": 19.18
+      },
+      {
+        "name": "schema",
+        "total_seconds": 925.12,
+        "digital": "0:15:25",
+        "decimal": "0.25",
+        "text": "15 mins",
+        "hours": 0,
+        "minutes": 15,
+        "seconds": 25,
+        "percent": 16
+      },
+      {
+        "name": "pg-core",
+        "total_seconds": 236.825,
+        "digital": "0:03:56",
+        "decimal": "0.05",
+        "text": "3 mins",
+        "hours": 0,
+        "minutes": 3,
+        "seconds": 56,
+        "percent": 4.1
+      },
+      {
+        "name": "enrichments",
+        "total_seconds": 184.077,
+        "digital": "0:03:04",
+        "decimal": "0.05",
+        "text": "3 mins",
+        "hours": 0,
+        "minutes": 3,
+        "seconds": 4,
+        "percent": 3.18
+      }
+    ],
+    "machines": [
+      {
+        "name": "Anands-MBP.home",
+        "total_seconds": 1427.474,
+        "machine_name_id": "1ff3795f-c752-4858-9fa4-7090240f0ab3",
+        "digital": "0:23:47",
+        "decimal": "0.38",
+        "text": "23 mins",
+        "hours": 0,
+        "minutes": 23,
+        "seconds": 47,
+        "percent": 100
+      }
+    ],
+    "projects": [
+      {
+        "name": "first",
+        "total_seconds": 1427.474,
+        "ai_additions": 0,
+        "ai_deletions": 0,
+        "human_additions": 26,
+        "human_deletions": 198,
+        "digital": "0:23:47",
+        "decimal": "0.38",
+        "text": "23 mins",
+        "hours": 0,
+        "minutes": 23,
+        "seconds": 47,
+        "percent": 100
+      }
+    ],
     "range": {
       "start": "2025-10-09T22:00:00Z",
       "end": "2025-10-10T21:59:59Z",
@@ -19,12 +192,9 @@
       "text": "Fri Oct 10th 2025",
       "timezone": "Europe/Amsterdam"
     },
-    "projects": [],
-    "languages": [],
-    "dependencies": [],
-    "machines": [],
-    "editors": [],
-    "operating_systems": [],
-    "categories": []
+    "ai_additions": 0,
+    "ai_deletions": 0,
+    "human_additions": 0,
+    "human_deletions": 0
   }
 ]
