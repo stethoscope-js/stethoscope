@@ -330,7 +330,7 @@
         "percent": 2.04
       },
       {
-        "name": "checkbox",
+        "name": "table",
         "total_seconds": 3634.834,
         "digital": "1:00:34",
         "decimal": "1.00",
@@ -341,7 +341,7 @@
         "percent": 2.04
       },
       {
-        "name": "table",
+        "name": "checkbox",
         "total_seconds": 3634.834,
         "digital": "1:00:34",
         "decimal": "1.00",
@@ -473,7 +473,7 @@
         "percent": 0.38
       },
       {
-        "name": "react-query",
+        "name": "query-db-collection",
         "total_seconds": 655.556,
         "digital": "0:10:55",
         "decimal": "0.17",
@@ -495,7 +495,7 @@
         "percent": 0.37
       },
       {
-        "name": "query-db-collection",
+        "name": "react-query",
         "total_seconds": 655.556,
         "digital": "0:10:55",
         "decimal": "0.17",
@@ -550,7 +550,7 @@
         "percent": 0.34
       },
       {
-        "name": "http-exception",
+        "name": "uuid",
         "total_seconds": 597.111,
         "digital": "0:09:57",
         "decimal": "0.15",
@@ -561,7 +561,7 @@
         "percent": 0.33
       },
       {
-        "name": "uuid",
+        "name": "http-exception",
         "total_seconds": 597.111,
         "digital": "0:09:57",
         "decimal": "0.15",
@@ -649,6 +649,17 @@
         "percent": 0.09
       },
       {
+        "name": "postgres-js",
+        "total_seconds": 159.265,
+        "digital": "0:02:39",
+        "decimal": "0.03",
+        "text": "2 mins",
+        "hours": 0,
+        "minutes": 2,
+        "seconds": 39,
+        "percent": 0.09
+      },
+      {
         "name": "postgres",
         "total_seconds": 159.265,
         "digital": "0:02:39",
@@ -661,17 +672,6 @@
       },
       {
         "name": "factory",
-        "total_seconds": 159.265,
-        "digital": "0:02:39",
-        "decimal": "0.03",
-        "text": "2 mins",
-        "hours": 0,
-        "minutes": 2,
-        "seconds": 39,
-        "percent": 0.09
-      },
-      {
-        "name": "postgres-js",
         "total_seconds": 159.265,
         "digital": "0:02:39",
         "decimal": "0.03",
@@ -836,7 +836,7 @@
         "percent": 0.01
       },
       {
-        "name": "transactions",
+        "name": "db-ivm",
         "total_seconds": 20.559,
         "digital": "0:00:20",
         "decimal": "0.00",
@@ -847,7 +847,7 @@
         "percent": 0.01
       },
       {
-        "name": "ir",
+        "name": "transactions",
         "total_seconds": 20.559,
         "digital": "0:00:20",
         "decimal": "0.00",
@@ -869,7 +869,7 @@
         "percent": 0.01
       },
       {
-        "name": "db-ivm",
+        "name": "ir",
         "total_seconds": 20.559,
         "digital": "0:00:20",
         "decimal": "0.00",
@@ -877,17 +877,6 @@
         "hours": 0,
         "minutes": 0,
         "seconds": 20,
-        "percent": 0.01
-      },
-      {
-        "name": "useAutoSave",
-        "total_seconds": 11.957,
-        "digital": "0:00:11",
-        "decimal": "0.00",
-        "text": "11 secs",
-        "hours": 0,
-        "minutes": 0,
-        "seconds": 11,
         "percent": 0.01
       },
       {
@@ -903,6 +892,17 @@
       },
       {
         "name": "workspace-users",
+        "total_seconds": 11.957,
+        "digital": "0:00:11",
+        "decimal": "0.00",
+        "text": "11 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 11,
+        "percent": 0.01
+      },
+      {
+        "name": "useAutoSave",
         "total_seconds": 11.957,
         "digital": "0:00:11",
         "decimal": "0.00",
@@ -1001,7 +1001,7 @@
         "percent": 0
       },
       {
-        "name": "next-themes",
+        "name": "tooltip",
         "total_seconds": 1.256,
         "digital": "0:00:01",
         "decimal": "0.00",
@@ -1012,7 +1012,7 @@
         "percent": 0
       },
       {
-        "name": "tooltip",
+        "name": "next-themes",
         "total_seconds": 1.256,
         "digital": "0:00:01",
         "decimal": "0.00",
@@ -1045,6 +1045,7 @@
         "ai_deletions": 0,
         "human_additions": 2012,
         "human_deletions": 681,
+        "color": null,
         "digital": "3:55:22",
         "decimal": "3.92",
         "text": "3 hrs 55 mins",
