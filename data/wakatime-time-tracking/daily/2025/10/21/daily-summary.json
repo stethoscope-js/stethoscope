@@ -1,17 +1,308 @@
 [
   {
+    "languages": [
+      {
+        "name": "Other",
+        "total_seconds": 4622.847,
+        "digital": "1:17:02",
+        "decimal": "1.28",
+        "text": "1 hr 17 mins",
+        "hours": 1,
+        "minutes": 17,
+        "seconds": 2,
+        "percent": 32.7
+      },
+      {
+        "name": "Markdown",
+        "total_seconds": 4149.426,
+        "digital": "1:09:09",
+        "decimal": "1.15",
+        "text": "1 hr 9 mins",
+        "hours": 1,
+        "minutes": 9,
+        "seconds": 9,
+        "percent": 29.35
+      },
+      {
+        "name": "TypeScript",
+        "total_seconds": 2595.583,
+        "digital": "0:43:15",
+        "decimal": "0.72",
+        "text": "43 mins",
+        "hours": 0,
+        "minutes": 43,
+        "seconds": 15,
+        "percent": 18.36
+      },
+      {
+        "name": "JavaScript",
+        "total_seconds": 2531.662,
+        "digital": "0:42:11",
+        "decimal": "0.70",
+        "text": "42 mins",
+        "hours": 0,
+        "minutes": 42,
+        "seconds": 11,
+        "percent": 17.91
+      },
+      {
+        "name": "JSON",
+        "total_seconds": 157.262,
+        "digital": "0:02:37",
+        "decimal": "0.03",
+        "text": "2 mins",
+        "hours": 0,
+        "minutes": 2,
+        "seconds": 37,
+        "percent": 1.11
+      },
+      {
+        "name": "Prisma",
+        "total_seconds": 61.414,
+        "digital": "0:01:01",
+        "decimal": "0.02",
+        "text": "1 min",
+        "hours": 0,
+        "minutes": 1,
+        "seconds": 1,
+        "percent": 0.43
+      },
+      {
+        "name": "Git Config",
+        "total_seconds": 19.363,
+        "digital": "0:00:19",
+        "decimal": "0.00",
+        "text": "19 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 19,
+        "percent": 0.14
+      }
+    ],
     "grand_total": {
-      "hours": 0,
-      "minutes": 0,
-      "total_seconds": 0,
-      "digital": "0:00",
-      "decimal": "0.00",
-      "text": "0 secs",
+      "hours": 3,
+      "minutes": 55,
+      "total_seconds": 14137.557,
+      "digital": "3:55",
+      "decimal": "3.92",
+      "text": "3 hrs 55 mins",
       "ai_additions": 0,
       "ai_deletions": 0,
-      "human_additions": 0,
-      "human_deletions": 0
+      "human_additions": 6822,
+      "human_deletions": 9508
     },
+    "editors": [
+      {
+        "name": "Cursor",
+        "total_seconds": 14137.557,
+        "digital": "3:55:37",
+        "decimal": "3.92",
+        "text": "3 hrs 55 mins",
+        "hours": 3,
+        "minutes": 55,
+        "seconds": 37,
+        "percent": 100
+      }
+    ],
+    "operating_systems": [
+      {
+        "name": "Mac",
+        "total_seconds": 14137.557,
+        "digital": "3:55:37",
+        "decimal": "3.92",
+        "text": "3 hrs 55 mins",
+        "hours": 3,
+        "minutes": 55,
+        "seconds": 37,
+        "percent": 100
+      }
+    ],
+    "categories": [
+      {
+        "name": "Coding",
+        "total_seconds": 9988.131,
+        "digital": "2:46:28",
+        "decimal": "2.77",
+        "text": "2 hrs 46 mins",
+        "hours": 2,
+        "minutes": 46,
+        "seconds": 28,
+        "percent": 70.65
+      },
+      {
+        "name": "Writing Docs",
+        "total_seconds": 4149.426,
+        "digital": "1:09:09",
+        "decimal": "1.15",
+        "text": "1 hr 9 mins",
+        "hours": 1,
+        "minutes": 9,
+        "seconds": 9,
+        "percent": 29.35
+      }
+    ],
+    "dependencies": [
+      {
+        "name": "schema",
+        "total_seconds": 2595.583,
+        "digital": "0:43:15",
+        "decimal": "0.72",
+        "text": "43 mins",
+        "hours": 0,
+        "minutes": 43,
+        "seconds": 15,
+        "percent": 11.46
+      },
+      {
+        "name": "zod-openapi",
+        "total_seconds": 2595.583,
+        "digital": "0:43:15",
+        "decimal": "0.72",
+        "text": "43 mins",
+        "hours": 0,
+        "minutes": 43,
+        "seconds": 15,
+        "percent": 11.46
+      },
+      {
+        "name": "errors",
+        "total_seconds": 2595.583,
+        "digital": "0:43:15",
+        "decimal": "0.72",
+        "text": "43 mins",
+        "hours": 0,
+        "minutes": 43,
+        "seconds": 15,
+        "percent": 11.46
+      },
+      {
+        "name": "middleware",
+        "total_seconds": 2595.583,
+        "digital": "0:43:15",
+        "decimal": "0.72",
+        "text": "43 mins",
+        "hours": 0,
+        "minutes": 43,
+        "seconds": 15,
+        "percent": 11.46
+      },
+      {
+        "name": "inngest",
+        "total_seconds": 2595.583,
+        "digital": "0:43:15",
+        "decimal": "0.72",
+        "text": "43 mins",
+        "hours": 0,
+        "minutes": 43,
+        "seconds": 15,
+        "percent": 11.46
+      },
+      {
+        "name": "logging",
+        "total_seconds": 2595.583,
+        "digital": "0:43:15",
+        "decimal": "0.72",
+        "text": "43 mins",
+        "hours": 0,
+        "minutes": 43,
+        "seconds": 15,
+        "percent": 11.46
+      },
+      {
+        "name": "database",
+        "total_seconds": 2559.137,
+        "digital": "0:42:39",
+        "decimal": "0.70",
+        "text": "42 mins",
+        "hours": 0,
+        "minutes": 42,
+        "seconds": 39,
+        "percent": 11.3
+      },
+      {
+        "name": "json-2-csv",
+        "total_seconds": 2423.541,
+        "digital": "0:40:23",
+        "decimal": "0.67",
+        "text": "40 mins",
+        "hours": 0,
+        "minutes": 40,
+        "seconds": 23,
+        "percent": 10.7
+      },
+      {
+        "name": "base",
+        "total_seconds": 2086.213,
+        "digital": "0:34:46",
+        "decimal": "0.57",
+        "text": "34 mins",
+        "hours": 0,
+        "minutes": 34,
+        "seconds": 46,
+        "percent": 9.21
+      }
+    ],
+    "machines": [
+      {
+        "name": "Anands-MBP.home",
+        "total_seconds": 14137.557,
+        "machine_name_id": "1ff3795f-c752-4858-9fa4-7090240f0ab3",
+        "digital": "3:55:37",
+        "decimal": "3.92",
+        "text": "3 hrs 55 mins",
+        "hours": 3,
+        "minutes": 55,
+        "seconds": 37,
+        "percent": 100
+      }
+    ],
+    "projects": [
+      {
+        "name": "slack-export-summary",
+        "total_seconds": 10860.42,
+        "ai_additions": 0,
+        "ai_deletions": 0,
+        "human_additions": 6393,
+        "human_deletions": 9377,
+        "digital": "3:01:00",
+        "decimal": "3.02",
+        "text": "3 hrs 1 min",
+        "hours": 3,
+        "minutes": 1,
+        "seconds": 0,
+        "percent": 76.82
+      },
+      {
+        "name": "firstquadrant.ai",
+        "total_seconds": 2770.451,
+        "ai_additions": 0,
+        "ai_deletions": 0,
+        "human_additions": 399,
+        "human_deletions": 120,
+        "digital": "0:46:10",
+        "decimal": "0.77",
+        "text": "46 mins",
+        "hours": 0,
+        "minutes": 46,
+        "seconds": 10,
+        "percent": 19.6
+      },
+      {
+        "name": "Unknown Project",
+        "total_seconds": 506.686,
+        "ai_additions": 0,
+        "ai_deletions": 0,
+        "human_additions": 30,
+        "human_deletions": 11,
+        "digital": "0:08:26",
+        "decimal": "0.13",
+        "text": "8 mins",
+        "hours": 0,
+        "minutes": 8,
+        "seconds": 26,
+        "percent": 3.58
+      }
+    ],
     "range": {
       "start": "2025-10-21T22:00:00Z",
       "end": "2025-10-22T21:59:59Z",
@@ -19,12 +310,9 @@
       "text": "Wed Oct 22nd 2025",
       "timezone": "Europe/Amsterdam"
     },
-    "projects": [],
-    "languages": [],
-    "dependencies": [],
-    "machines": [],
-    "editors": [],
-    "operating_systems": [],
-    "categories": []
+    "ai_additions": 0,
+    "ai_deletions": 0,
+    "human_additions": 0,
+    "human_deletions": 0
   }
 ]

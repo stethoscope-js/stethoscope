@@ -3,14 +3,14 @@
     "languages": [
       {
         "name": "Markdown",
-        "total_seconds": 6076.095,
-        "digital": "1:41:16",
+        "total_seconds": 6103.939,
+        "digital": "1:41:43",
         "decimal": "1.68",
         "text": "1 hr 41 mins",
         "hours": 1,
         "minutes": 41,
-        "seconds": 16,
-        "percent": 66.04
+        "seconds": 43,
+        "percent": 66.14
       },
       {
         "name": "JavaScript",
@@ -21,7 +21,7 @@
         "hours": 0,
         "minutes": 20,
         "seconds": 26,
-        "percent": 13.33
+        "percent": 13.29
       },
       {
         "name": "Other",
@@ -32,7 +32,7 @@
         "hours": 0,
         "minutes": 11,
         "seconds": 41,
-        "percent": 7.63
+        "percent": 7.61
       },
       {
         "name": "JSON",
@@ -43,7 +43,7 @@
         "hours": 0,
         "minutes": 10,
         "seconds": 45,
-        "percent": 7.02
+        "percent": 6.99
       },
       {
         "name": "YAML",
@@ -54,7 +54,7 @@
         "hours": 0,
         "minutes": 8,
         "seconds": 53,
-        "percent": 5.8
+        "percent": 5.78
       },
       {
         "name": "Git Config",
@@ -71,7 +71,7 @@
     "grand_total": {
       "hours": 2,
       "minutes": 33,
-      "total_seconds": 9200.862,
+      "total_seconds": 9228.706,
       "digital": "2:33",
       "decimal": "2.55",
       "text": "2 hrs 33 mins",
@@ -83,40 +83,40 @@
     "editors": [
       {
         "name": "Cursor",
-        "total_seconds": 9200.862,
-        "digital": "2:33:20",
+        "total_seconds": 9228.706,
+        "digital": "2:33:48",
         "decimal": "2.55",
         "text": "2 hrs 33 mins",
         "hours": 2,
         "minutes": 33,
-        "seconds": 20,
+        "seconds": 48,
         "percent": 100
       }
     ],
     "operating_systems": [
       {
         "name": "Mac",
-        "total_seconds": 9200.862,
-        "digital": "2:33:20",
+        "total_seconds": 9228.706,
+        "digital": "2:33:48",
         "decimal": "2.55",
         "text": "2 hrs 33 mins",
         "hours": 2,
         "minutes": 33,
-        "seconds": 20,
+        "seconds": 48,
         "percent": 100
       }
     ],
     "categories": [
       {
         "name": "Writing Docs",
-        "total_seconds": 6076.095,
-        "digital": "1:41:16",
+        "total_seconds": 6103.939,
+        "digital": "1:41:43",
         "decimal": "1.68",
         "text": "1 hr 41 mins",
         "hours": 1,
         "minutes": 41,
-        "seconds": 16,
-        "percent": 66.04
+        "seconds": 43,
+        "percent": 66.14
       },
       {
         "name": "Coding",
@@ -127,10 +127,21 @@
         "hours": 0,
         "minutes": 52,
         "seconds": 4,
-        "percent": 33.96
+        "percent": 33.86
       }
     ],
     "dependencies": [
+      {
+        "name": "commander",
+        "total_seconds": 37.613,
+        "digital": "0:00:37",
+        "decimal": "0.00",
+        "text": "37 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 37,
+        "percent": 29.94
+      },
       {
         "name": "npm",
         "total_seconds": 37.613,
@@ -143,15 +154,15 @@
         "percent": 29.94
       },
       {
-        "name": "commander",
-        "total_seconds": 37.613,
-        "digital": "0:00:37",
+        "name": "dotenv",
+        "total_seconds": 16.8,
+        "digital": "0:00:16",
         "decimal": "0.00",
-        "text": "37 secs",
+        "text": "16 secs",
         "hours": 0,
         "minutes": 0,
-        "seconds": 37,
-        "percent": 29.94
+        "seconds": 16,
+        "percent": 13.37
       },
       {
         "name": "openai",
@@ -176,83 +187,6 @@
         "percent": 13.37
       },
       {
-        "name": "dotenv",
-        "total_seconds": 16.8,
-        "digital": "0:00:16",
-        "decimal": "0.00",
-        "text": "16 secs",
-        "hours": 0,
-        "minutes": 0,
-        "seconds": 16,
-        "percent": 13.37
-      },
-      {
-        "name": "node_modules/type-detect",
-        "total_seconds": 0,
-        "digital": "0:00:00",
-        "decimal": "0.00",
-        "text": "0 secs",
-        "hours": 0,
-        "minutes": 0,
-        "seconds": 0,
-        "percent": 0
-      },
-      {
-        "name": "node_modules/@jest/types",
-        "total_seconds": 0,
-        "digital": "0:00:00",
-        "decimal": "0.00",
-        "text": "0 secs",
-        "hours": 0,
-        "minutes": 0,
-        "seconds": 0,
-        "percent": 0
-      },
-      {
-        "name": "node_modules/jest-resolve-dependencies",
-        "total_seconds": 0,
-        "digital": "0:00:00",
-        "decimal": "0.00",
-        "text": "0 secs",
-        "hours": 0,
-        "minutes": 0,
-        "seconds": 0,
-        "percent": 0
-      },
-      {
-        "name": "node_modules/@babel/compat-data",
-        "total_seconds": 0,
-        "digital": "0:00:00",
-        "decimal": "0.00",
-        "text": "0 secs",
-        "hours": 0,
-        "minutes": 0,
-        "seconds": 0,
-        "percent": 0
-      },
-      {
-        "name": "node_modules/create-jest",
-        "total_seconds": 0,
-        "digital": "0:00:00",
-        "decimal": "0.00",
-        "text": "0 secs",
-        "hours": 0,
-        "minutes": 0,
-        "seconds": 0,
-        "percent": 0
-      },
-      {
-        "name": "node_modules/expect",
-        "total_seconds": 0,
-        "digital": "0:00:00",
-        "decimal": "0.00",
-        "text": "0 secs",
-        "hours": 0,
-        "minutes": 0,
-        "seconds": 0,
-        "percent": 0
-      },
-      {
         "name": "node_modules/parse-json",
         "total_seconds": 0,
         "digital": "0:00:00",
@@ -264,51 +198,7 @@
         "percent": 0
       },
       {
-        "name": "node_modules/@babel/traverse",
-        "total_seconds": 0,
-        "digital": "0:00:00",
-        "decimal": "0.00",
-        "text": "0 secs",
-        "hours": 0,
-        "minutes": 0,
-        "seconds": 0,
-        "percent": 0
-      },
-      {
-        "name": "node_modules/is-arrayish",
-        "total_seconds": 0,
-        "digital": "0:00:00",
-        "decimal": "0.00",
-        "text": "0 secs",
-        "hours": 0,
-        "minutes": 0,
-        "seconds": 0,
-        "percent": 0
-      },
-      {
-        "name": "node_modules/ci-info",
-        "total_seconds": 0,
-        "digital": "0:00:00",
-        "decimal": "0.00",
-        "text": "0 secs",
-        "hours": 0,
-        "minutes": 0,
-        "seconds": 0,
-        "percent": 0
-      },
-      {
-        "name": "node_modules/jest-regex-util",
-        "total_seconds": 0,
-        "digital": "0:00:00",
-        "decimal": "0.00",
-        "text": "0 secs",
-        "hours": 0,
-        "minutes": 0,
-        "seconds": 0,
-        "percent": 0
-      },
-      {
-        "name": "node_modules/jest-resolve",
+        "name": "node_modules/baseline-browser-mapping",
         "total_seconds": 0,
         "digital": "0:00:00",
         "decimal": "0.00",
@@ -330,7 +220,18 @@
         "percent": 0
       },
       {
-        "name": "node_modules/function-bind",
+        "name": "node_modules/expect",
+        "total_seconds": 0,
+        "digital": "0:00:00",
+        "decimal": "0.00",
+        "text": "0 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0,
+        "percent": 0
+      },
+      {
+        "name": "node_modules/babel-jest",
         "total_seconds": 0,
         "digital": "0:00:00",
         "decimal": "0.00",
@@ -352,18 +253,7 @@
         "percent": 0
       },
       {
-        "name": "node_modules/jest-docblock",
-        "total_seconds": 0,
-        "digital": "0:00:00",
-        "decimal": "0.00",
-        "text": "0 secs",
-        "hours": 0,
-        "minutes": 0,
-        "seconds": 0,
-        "percent": 0
-      },
-      {
-        "name": "node_modules/balanced-match",
+        "name": "node_modules/@babel/traverse",
         "total_seconds": 0,
         "digital": "0:00:00",
         "decimal": "0.00",
@@ -396,7 +286,7 @@
         "percent": 0
       },
       {
-        "name": "node_modules/@jridgewell/gen-mapping",
+        "name": "node_modules/babel-plugin-istanbul",
         "total_seconds": 0,
         "digital": "0:00:00",
         "decimal": "0.00",
@@ -407,7 +297,7 @@
         "percent": 0
       },
       {
-        "name": "node_modules/babel-jest",
+        "name": "node_modules/create-jest",
         "total_seconds": 0,
         "digital": "0:00:00",
         "decimal": "0.00",
@@ -418,7 +308,7 @@
         "percent": 0
       },
       {
-        "name": "node_modules/@jest/environment",
+        "name": "node_modules/find-up",
         "total_seconds": 0,
         "digital": "0:00:00",
         "decimal": "0.00",
@@ -429,7 +319,7 @@
         "percent": 0
       },
       {
-        "name": "node_modules/baseline-browser-mapping",
+        "name": "node_modules/jest-docblock",
         "total_seconds": 0,
         "digital": "0:00:00",
         "decimal": "0.00",
@@ -440,7 +330,7 @@
         "percent": 0
       },
       {
-        "name": "node_modules/exit",
+        "name": "node_modules/jest-resolve-dependencies",
         "total_seconds": 0,
         "digital": "0:00:00",
         "decimal": "0.00",
@@ -451,7 +341,7 @@
         "percent": 0
       },
       {
-        "name": "node_modules/jest-validate",
+        "name": "node_modules/jest-regex-util",
         "total_seconds": 0,
         "digital": "0:00:00",
         "decimal": "0.00",
@@ -462,62 +352,7 @@
         "percent": 0
       },
       {
-        "name": "node_modules/@types/babel__traverse",
-        "total_seconds": 0,
-        "digital": "0:00:00",
-        "decimal": "0.00",
-        "text": "0 secs",
-        "hours": 0,
-        "minutes": 0,
-        "seconds": 0,
-        "percent": 0
-      },
-      {
-        "name": "node_modules/pretty-format/node_modules/ansi-styles",
-        "total_seconds": 0,
-        "digital": "0:00:00",
-        "decimal": "0.00",
-        "text": "0 secs",
-        "hours": 0,
-        "minutes": 0,
-        "seconds": 0,
-        "percent": 0
-      },
-      {
-        "name": "node_modules/char-regex",
-        "total_seconds": 0,
-        "digital": "0:00:00",
-        "decimal": "0.00",
-        "text": "0 secs",
-        "hours": 0,
-        "minutes": 0,
-        "seconds": 0,
-        "percent": 0
-      },
-      {
-        "name": "node_modules/pkg-dir",
-        "total_seconds": 0,
-        "digital": "0:00:00",
-        "decimal": "0.00",
-        "text": "0 secs",
-        "hours": 0,
-        "minutes": 0,
-        "seconds": 0,
-        "percent": 0
-      },
-      {
-        "name": "node_modules/escape-string-regexp",
-        "total_seconds": 0,
-        "digital": "0:00:00",
-        "decimal": "0.00",
-        "text": "0 secs",
-        "hours": 0,
-        "minutes": 0,
-        "seconds": 0,
-        "percent": 0
-      },
-      {
-        "name": "node_modules/gensync",
+        "name": "node_modules/@jest/types",
         "total_seconds": 0,
         "digital": "0:00:00",
         "decimal": "0.00",
@@ -539,7 +374,7 @@
         "percent": 0
       },
       {
-        "name": "node_modules/@jest/expect",
+        "name": "node_modules/type-detect",
         "total_seconds": 0,
         "digital": "0:00:00",
         "decimal": "0.00",
@@ -550,7 +385,51 @@
         "percent": 0
       },
       {
-        "name": "node_modules/@babel/helper-plugin-utils",
+        "name": "node_modules/is-arrayish",
+        "total_seconds": 0,
+        "digital": "0:00:00",
+        "decimal": "0.00",
+        "text": "0 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0,
+        "percent": 0
+      },
+      {
+        "name": "node_modules/pretty-format/node_modules/ansi-styles",
+        "total_seconds": 0,
+        "digital": "0:00:00",
+        "decimal": "0.00",
+        "text": "0 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0,
+        "percent": 0
+      },
+      {
+        "name": "node_modules/@jest/environment",
+        "total_seconds": 0,
+        "digital": "0:00:00",
+        "decimal": "0.00",
+        "text": "0 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0,
+        "percent": 0
+      },
+      {
+        "name": "node_modules/jest-validate",
+        "total_seconds": 0,
+        "digital": "0:00:00",
+        "decimal": "0.00",
+        "text": "0 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0,
+        "percent": 0
+      },
+      {
+        "name": "node_modules/ci-info",
         "total_seconds": 0,
         "digital": "0:00:00",
         "decimal": "0.00",
@@ -562,6 +441,72 @@
       },
       {
         "name": "node_modules/ansi-escapes",
+        "total_seconds": 0,
+        "digital": "0:00:00",
+        "decimal": "0.00",
+        "text": "0 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0,
+        "percent": 0
+      },
+      {
+        "name": "node_modules/function-bind",
+        "total_seconds": 0,
+        "digital": "0:00:00",
+        "decimal": "0.00",
+        "text": "0 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0,
+        "percent": 0
+      },
+      {
+        "name": "node_modules/@jest/expect",
+        "total_seconds": 0,
+        "digital": "0:00:00",
+        "decimal": "0.00",
+        "text": "0 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0,
+        "percent": 0
+      },
+      {
+        "name": "node_modules/char-regex",
+        "total_seconds": 0,
+        "digital": "0:00:00",
+        "decimal": "0.00",
+        "text": "0 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0,
+        "percent": 0
+      },
+      {
+        "name": "node_modules/@babel/compat-data",
+        "total_seconds": 0,
+        "digital": "0:00:00",
+        "decimal": "0.00",
+        "text": "0 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0,
+        "percent": 0
+      },
+      {
+        "name": "node_modules/gensync",
+        "total_seconds": 0,
+        "digital": "0:00:00",
+        "decimal": "0.00",
+        "text": "0 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0,
+        "percent": 0
+      },
+      {
+        "name": "node_modules/pkg-dir",
         "total_seconds": 0,
         "digital": "0:00:00",
         "decimal": "0.00",
@@ -594,7 +539,40 @@
         "percent": 0
       },
       {
-        "name": "node_modules/babel-plugin-istanbul",
+        "name": "node_modules/exit",
+        "total_seconds": 0,
+        "digital": "0:00:00",
+        "decimal": "0.00",
+        "text": "0 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0,
+        "percent": 0
+      },
+      {
+        "name": "node_modules/balanced-match",
+        "total_seconds": 0,
+        "digital": "0:00:00",
+        "decimal": "0.00",
+        "text": "0 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0,
+        "percent": 0
+      },
+      {
+        "name": "node_modules/@jridgewell/gen-mapping",
+        "total_seconds": 0,
+        "digital": "0:00:00",
+        "decimal": "0.00",
+        "text": "0 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0,
+        "percent": 0
+      },
+      {
+        "name": "node_modules/jest-resolve",
         "total_seconds": 0,
         "digital": "0:00:00",
         "decimal": "0.00",
@@ -616,7 +594,29 @@
         "percent": 0
       },
       {
-        "name": "node_modules/find-up",
+        "name": "node_modules/escape-string-regexp",
+        "total_seconds": 0,
+        "digital": "0:00:00",
+        "decimal": "0.00",
+        "text": "0 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0,
+        "percent": 0
+      },
+      {
+        "name": "node_modules/@types/babel__traverse",
+        "total_seconds": 0,
+        "digital": "0:00:00",
+        "decimal": "0.00",
+        "text": "0 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0,
+        "percent": 0
+      },
+      {
+        "name": "node_modules/@babel/helper-plugin-utils",
         "total_seconds": 0,
         "digital": "0:00:00",
         "decimal": "0.00",
@@ -630,14 +630,14 @@
     "machines": [
       {
         "name": "Anands-MBP.home",
-        "total_seconds": 9200.862,
+        "total_seconds": 9228.706,
         "machine_name_id": "1ff3795f-c752-4858-9fa4-7090240f0ab3",
-        "digital": "2:33:20",
+        "digital": "2:33:48",
         "decimal": "2.55",
         "text": "2 hrs 33 mins",
         "hours": 2,
         "minutes": 33,
-        "seconds": 20,
+        "seconds": 48,
         "percent": 100
       }
     ],
@@ -649,28 +649,30 @@
         "ai_deletions": 0,
         "human_additions": 71,
         "human_deletions": 47,
+        "color": null,
         "digital": "1:18:07",
         "decimal": "1.30",
         "text": "1 hr 18 mins",
         "hours": 1,
         "minutes": 18,
         "seconds": 7,
-        "percent": 50.94
+        "percent": 50.79
       },
       {
         "name": "slack-export-summary",
-        "total_seconds": 4513.71,
+        "total_seconds": 4541.554,
         "ai_additions": 0,
         "ai_deletions": 0,
         "human_additions": 484,
         "human_deletions": 88,
-        "digital": "1:15:13",
+        "color": null,
+        "digital": "1:15:41",
         "decimal": "1.25",
         "text": "1 hr 15 mins",
         "hours": 1,
         "minutes": 15,
-        "seconds": 13,
-        "percent": 49.06
+        "seconds": 41,
+        "percent": 49.21
       }
     ],
     "range": {
