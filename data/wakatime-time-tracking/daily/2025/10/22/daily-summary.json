@@ -1,17 +1,151 @@
 [
   {
+    "languages": [
+      {
+        "name": "Other",
+        "total_seconds": 1671.448,
+        "digital": "0:27:51",
+        "decimal": "0.45",
+        "text": "27 mins",
+        "hours": 0,
+        "minutes": 27,
+        "seconds": 51,
+        "percent": 72.11
+      },
+      {
+        "name": "Markdown",
+        "total_seconds": 413.531,
+        "digital": "0:06:53",
+        "decimal": "0.10",
+        "text": "6 mins",
+        "hours": 0,
+        "minutes": 6,
+        "seconds": 53,
+        "percent": 17.84
+      },
+      {
+        "name": "JavaScript",
+        "total_seconds": 233.008,
+        "digital": "0:03:53",
+        "decimal": "0.05",
+        "text": "3 mins",
+        "hours": 0,
+        "minutes": 3,
+        "seconds": 53,
+        "percent": 10.05
+      }
+    ],
     "grand_total": {
       "hours": 0,
-      "minutes": 0,
-      "total_seconds": 0,
-      "digital": "0:00",
-      "decimal": "0.00",
-      "text": "0 secs",
+      "minutes": 38,
+      "total_seconds": 2317.987,
+      "digital": "0:38",
+      "decimal": "0.63",
+      "text": "38 mins",
       "ai_additions": 0,
       "ai_deletions": 0,
-      "human_additions": 0,
-      "human_deletions": 0
+      "human_additions": 66,
+      "human_deletions": 5
     },
+    "editors": [
+      {
+        "name": "Cursor",
+        "total_seconds": 2317.987,
+        "digital": "0:38:37",
+        "decimal": "0.63",
+        "text": "38 mins",
+        "hours": 0,
+        "minutes": 38,
+        "seconds": 37,
+        "percent": 100
+      }
+    ],
+    "operating_systems": [
+      {
+        "name": "Mac",
+        "total_seconds": 2317.987,
+        "digital": "0:38:37",
+        "decimal": "0.63",
+        "text": "38 mins",
+        "hours": 0,
+        "minutes": 38,
+        "seconds": 37,
+        "percent": 100
+      }
+    ],
+    "categories": [
+      {
+        "name": "Coding",
+        "total_seconds": 1904.456,
+        "digital": "0:31:44",
+        "decimal": "0.52",
+        "text": "31 mins",
+        "hours": 0,
+        "minutes": 31,
+        "seconds": 44,
+        "percent": 82.16
+      },
+      {
+        "name": "Writing Docs",
+        "total_seconds": 413.531,
+        "digital": "0:06:53",
+        "decimal": "0.10",
+        "text": "6 mins",
+        "hours": 0,
+        "minutes": 6,
+        "seconds": 53,
+        "percent": 17.84
+      }
+    ],
+    "dependencies": [],
+    "machines": [
+      {
+        "name": "Anands-MBP.home",
+        "total_seconds": 2317.987,
+        "machine_name_id": "1ff3795f-c752-4858-9fa4-7090240f0ab3",
+        "digital": "0:38:37",
+        "decimal": "0.63",
+        "text": "38 mins",
+        "hours": 0,
+        "minutes": 38,
+        "seconds": 37,
+        "percent": 100
+      }
+    ],
+    "projects": [
+      {
+        "name": "Unknown Project",
+        "total_seconds": 1671.448,
+        "ai_additions": 0,
+        "ai_deletions": 0,
+        "human_additions": 0,
+        "human_deletions": 0,
+        "color": null,
+        "digital": "0:27:51",
+        "decimal": "0.45",
+        "text": "27 mins",
+        "hours": 0,
+        "minutes": 27,
+        "seconds": 51,
+        "percent": 72.11
+      },
+      {
+        "name": "slack-export-summary",
+        "total_seconds": 646.539,
+        "ai_additions": 0,
+        "ai_deletions": 0,
+        "human_additions": 66,
+        "human_deletions": 5,
+        "color": null,
+        "digital": "0:10:46",
+        "decimal": "0.17",
+        "text": "10 mins",
+        "hours": 0,
+        "minutes": 10,
+        "seconds": 46,
+        "percent": 27.89
+      }
+    ],
     "range": {
       "start": "2025-10-22T22:00:00Z",
       "end": "2025-10-23T21:59:59Z",
@@ -19,12 +153,9 @@
       "text": "Thu Oct 23rd 2025",
       "timezone": "Europe/Amsterdam"
     },
-    "projects": [],
-    "languages": [],
-    "dependencies": [],
-    "machines": [],
-    "editors": [],
-    "operating_systems": [],
-    "categories": []
+    "ai_additions": 0,
+    "ai_deletions": 0,
+    "human_additions": 0,
+    "human_deletions": 0
   }
 ]
