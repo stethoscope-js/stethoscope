@@ -1,74 +1,5 @@
 [
   {
-    "grand_total": {
-      "hours": 2,
-      "minutes": 35,
-      "total_seconds": 9347.314,
-      "digital": "2:35",
-      "decimal": "2.58",
-      "text": "2 hrs 35 mins",
-      "ai_additions": 0,
-      "ai_deletions": 0,
-      "human_additions": 92,
-      "human_deletions": 59
-    },
-    "range": {
-      "start": "2025-10-25T22:00:00Z",
-      "end": "2025-10-26T22:59:59Z",
-      "date": "2025-10-26",
-      "text": "Sun Oct 26th 2025",
-      "timezone": "Europe/Amsterdam"
-    },
-    "projects": [
-      {
-        "name": "Unknown Project",
-        "total_seconds": 5815.363,
-        "ai_additions": 0,
-        "ai_deletions": 0,
-        "human_additions": 85,
-        "human_deletions": 56,
-        "color": null,
-        "digital": "1:36:55",
-        "decimal": "1.60",
-        "text": "1 hr 36 mins",
-        "hours": 1,
-        "minutes": 36,
-        "seconds": 55,
-        "percent": 62.21
-      },
-      {
-        "name": "slack-export-summary",
-        "total_seconds": 3488.876,
-        "ai_additions": 0,
-        "ai_deletions": 0,
-        "human_additions": 0,
-        "human_deletions": 0,
-        "color": null,
-        "digital": "0:58:08",
-        "decimal": "0.97",
-        "text": "58 mins",
-        "hours": 0,
-        "minutes": 58,
-        "seconds": 8,
-        "percent": 37.32
-      },
-      {
-        "name": "first",
-        "total_seconds": 43.075,
-        "ai_additions": 0,
-        "ai_deletions": 0,
-        "human_additions": 7,
-        "human_deletions": 3,
-        "color": null,
-        "digital": "0:00:43",
-        "decimal": "0.00",
-        "text": "43 secs",
-        "hours": 0,
-        "minutes": 0,
-        "seconds": 43,
-        "percent": 0.46
-      }
-    ],
     "languages": [
       {
         "name": "Markdown",
@@ -113,6 +44,68 @@
         "minutes": 0,
         "seconds": 43,
         "percent": 0.46
+      }
+    ],
+    "grand_total": {
+      "hours": 2,
+      "minutes": 35,
+      "total_seconds": 9347.314,
+      "digital": "2:35",
+      "decimal": "2.58",
+      "text": "2 hrs 35 mins",
+      "ai_additions": 0,
+      "ai_deletions": 0,
+      "human_additions": 92,
+      "human_deletions": 59
+    },
+    "editors": [
+      {
+        "name": "Cursor",
+        "total_seconds": 9347.314,
+        "digital": "2:35:47",
+        "decimal": "2.58",
+        "text": "2 hrs 35 mins",
+        "hours": 2,
+        "minutes": 35,
+        "seconds": 47,
+        "percent": 100
+      }
+    ],
+    "operating_systems": [
+      {
+        "name": "Mac",
+        "total_seconds": 9347.314,
+        "digital": "2:35:47",
+        "decimal": "2.58",
+        "text": "2 hrs 35 mins",
+        "hours": 2,
+        "minutes": 35,
+        "seconds": 47,
+        "percent": 100
+      }
+    ],
+    "categories": [
+      {
+        "name": "Writing Docs",
+        "total_seconds": 9055.568,
+        "digital": "2:30:55",
+        "decimal": "2.50",
+        "text": "2 hrs 30 mins",
+        "hours": 2,
+        "minutes": 30,
+        "seconds": 55,
+        "percent": 96.88
+      },
+      {
+        "name": "Coding",
+        "total_seconds": 291.746,
+        "digital": "0:04:51",
+        "decimal": "0.07",
+        "text": "4 mins",
+        "hours": 0,
+        "minutes": 4,
+        "seconds": 51,
+        "percent": 3.12
       }
     ],
     "dependencies": [
@@ -527,55 +520,66 @@
         "percent": 100
       }
     ],
-    "editors": [
+    "projects": [
       {
-        "name": "Cursor",
-        "total_seconds": 9347.314,
-        "digital": "2:35:47",
-        "decimal": "2.58",
-        "text": "2 hrs 35 mins",
-        "hours": 2,
-        "minutes": 35,
-        "seconds": 47,
-        "percent": 100
-      }
-    ],
-    "operating_systems": [
-      {
-        "name": "Mac",
-        "total_seconds": 9347.314,
-        "digital": "2:35:47",
-        "decimal": "2.58",
-        "text": "2 hrs 35 mins",
-        "hours": 2,
-        "minutes": 35,
-        "seconds": 47,
-        "percent": 100
-      }
-    ],
-    "categories": [
-      {
-        "name": "Writing Docs",
-        "total_seconds": 9055.568,
-        "digital": "2:30:55",
-        "decimal": "2.50",
-        "text": "2 hrs 30 mins",
-        "hours": 2,
-        "minutes": 30,
+        "name": "Unknown Project",
+        "total_seconds": 5815.363,
+        "ai_additions": 0,
+        "ai_deletions": 0,
+        "human_additions": 85,
+        "human_deletions": 56,
+        "color": null,
+        "digital": "1:36:55",
+        "decimal": "1.60",
+        "text": "1 hr 36 mins",
+        "hours": 1,
+        "minutes": 36,
         "seconds": 55,
-        "percent": 96.88
+        "percent": 62.21
       },
       {
-        "name": "Coding",
-        "total_seconds": 291.746,
-        "digital": "0:04:51",
-        "decimal": "0.07",
-        "text": "4 mins",
+        "name": "slack-export-summary",
+        "total_seconds": 3488.876,
+        "ai_additions": 0,
+        "ai_deletions": 0,
+        "human_additions": 0,
+        "human_deletions": 0,
+        "color": null,
+        "digital": "0:58:08",
+        "decimal": "0.97",
+        "text": "58 mins",
         "hours": 0,
-        "minutes": 4,
-        "seconds": 51,
-        "percent": 3.12
+        "minutes": 58,
+        "seconds": 8,
+        "percent": 37.32
+      },
+      {
+        "name": "first",
+        "total_seconds": 43.075,
+        "ai_additions": 0,
+        "ai_deletions": 0,
+        "human_additions": 7,
+        "human_deletions": 3,
+        "color": null,
+        "digital": "0:00:43",
+        "decimal": "0.00",
+        "text": "43 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 43,
+        "percent": 0.46
       }
-    ]
+    ],
+    "range": {
+      "start": "2025-10-25T22:00:00Z",
+      "end": "2025-10-26T22:59:59Z",
+      "date": "2025-10-26",
+      "text": "Sun Oct 26th 2025",
+      "timezone": "Europe/Amsterdam"
+    },
+    "ai_additions": 0,
+    "ai_deletions": 0,
+    "human_additions": 0,
+    "human_deletions": 0
   }
 ]
