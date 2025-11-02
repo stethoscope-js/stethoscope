@@ -10,7 +10,18 @@
         "hours": 0,
         "minutes": 9,
         "seconds": 32,
-        "percent": 99.19
+        "percent": 84.27
+      },
+      {
+        "name": "Other",
+        "total_seconds": 102.118,
+        "digital": "0:01:42",
+        "decimal": "0.02",
+        "text": "1 min",
+        "hours": 0,
+        "minutes": 1,
+        "seconds": 42,
+        "percent": 15.04
       },
       {
         "name": "JSON",
@@ -21,27 +32,16 @@
         "hours": 0,
         "minutes": 0,
         "seconds": 4,
-        "percent": 0.81
-      },
-      {
-        "name": "Other",
-        "total_seconds": 0,
-        "digital": "0:00:00",
-        "decimal": "0.00",
-        "text": "0 secs",
-        "hours": 0,
-        "minutes": 0,
-        "seconds": 0,
-        "percent": 0
+        "percent": 0.69
       }
     ],
     "grand_total": {
       "hours": 0,
-      "minutes": 9,
-      "total_seconds": 576.727,
-      "digital": "0:09",
-      "decimal": "0.15",
-      "text": "9 mins",
+      "minutes": 11,
+      "total_seconds": 678.845,
+      "digital": "0:11",
+      "decimal": "0.18",
+      "text": "11 mins",
       "ai_additions": 0,
       "ai_deletions": 0,
       "human_additions": 0,
@@ -50,26 +50,26 @@
     "editors": [
       {
         "name": "Cursor",
-        "total_seconds": 576.727,
-        "digital": "0:09:36",
-        "decimal": "0.15",
-        "text": "9 mins",
+        "total_seconds": 678.845,
+        "digital": "0:11:18",
+        "decimal": "0.18",
+        "text": "11 mins",
         "hours": 0,
-        "minutes": 9,
-        "seconds": 36,
+        "minutes": 11,
+        "seconds": 18,
         "percent": 100
       }
     ],
     "operating_systems": [
       {
         "name": "Mac",
-        "total_seconds": 576.727,
-        "digital": "0:09:36",
-        "decimal": "0.15",
-        "text": "9 mins",
+        "total_seconds": 678.845,
+        "digital": "0:11:18",
+        "decimal": "0.18",
+        "text": "11 mins",
         "hours": 0,
-        "minutes": 9,
-        "seconds": 36,
+        "minutes": 11,
+        "seconds": 18,
         "percent": 100
       }
     ],
@@ -83,50 +83,62 @@
         "hours": 0,
         "minutes": 9,
         "seconds": 32,
-        "percent": 99.19
+        "percent": 84.27
       },
       {
         "name": "Coding",
-        "total_seconds": 4.687,
-        "digital": "0:00:04",
-        "decimal": "0.00",
-        "text": "4 secs",
+        "total_seconds": 106.805,
+        "digital": "0:01:46",
+        "decimal": "0.02",
+        "text": "1 min",
         "hours": 0,
-        "minutes": 0,
-        "seconds": 4,
-        "percent": 0.81
+        "minutes": 1,
+        "seconds": 46,
+        "percent": 15.73
       }
     ],
     "dependencies": [],
     "machines": [
       {
         "name": "Anands-MacBook-Pro.local",
-        "total_seconds": 576.727,
+        "total_seconds": 598.383,
         "machine_name_id": "a9cbdff4-cb11-4809-89e3-0f6eeeeefa0a",
-        "digital": "0:09:36",
+        "digital": "0:09:58",
         "decimal": "0.15",
         "text": "9 mins",
         "hours": 0,
         "minutes": 9,
-        "seconds": 36,
-        "percent": 100
+        "seconds": 58,
+        "percent": 88.15
+      },
+      {
+        "name": "Mac.localdomain",
+        "total_seconds": 80.462,
+        "machine_name_id": "32aa50fd-92f6-4c8f-ad2d-66db96195f92",
+        "digital": "0:01:20",
+        "decimal": "0.02",
+        "text": "1 min",
+        "hours": 0,
+        "minutes": 1,
+        "seconds": 20,
+        "percent": 11.85
       }
     ],
     "projects": [
       {
         "name": "Unknown Project",
-        "total_seconds": 576.727,
+        "total_seconds": 678.845,
         "ai_additions": 0,
         "ai_deletions": 0,
         "human_additions": 0,
         "human_deletions": 0,
         "color": null,
-        "digital": "0:09:36",
-        "decimal": "0.15",
-        "text": "9 mins",
+        "digital": "0:11:18",
+        "decimal": "0.18",
+        "text": "11 mins",
         "hours": 0,
-        "minutes": 9,
-        "seconds": 36,
+        "minutes": 11,
+        "seconds": 18,
         "percent": 100
       }
     ],
