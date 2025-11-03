@@ -1,17 +1,162 @@
 [
   {
+    "languages": [
+      {
+        "name": "JavaScript",
+        "total_seconds": 692.153,
+        "digital": "0:11:32",
+        "decimal": "0.18",
+        "text": "11 mins",
+        "hours": 0,
+        "minutes": 11,
+        "seconds": 32,
+        "percent": 42.18
+      },
+      {
+        "name": "Markdown",
+        "total_seconds": 589.473,
+        "digital": "0:09:49",
+        "decimal": "0.15",
+        "text": "9 mins",
+        "hours": 0,
+        "minutes": 9,
+        "seconds": 49,
+        "percent": 35.92
+      },
+      {
+        "name": "Other",
+        "total_seconds": 265.85,
+        "digital": "0:04:25",
+        "decimal": "0.07",
+        "text": "4 mins",
+        "hours": 0,
+        "minutes": 4,
+        "seconds": 25,
+        "percent": 16.2
+      },
+      {
+        "name": "JSON",
+        "total_seconds": 93.439,
+        "digital": "0:01:33",
+        "decimal": "0.02",
+        "text": "1 min",
+        "hours": 0,
+        "minutes": 1,
+        "seconds": 33,
+        "percent": 5.69
+      }
+    ],
     "grand_total": {
       "hours": 0,
-      "minutes": 0,
-      "total_seconds": 0,
-      "digital": "0:00",
-      "decimal": "0.00",
-      "text": "0 secs",
+      "minutes": 27,
+      "total_seconds": 1640.915,
+      "digital": "0:27",
+      "decimal": "0.45",
+      "text": "27 mins",
       "ai_additions": 0,
       "ai_deletions": 0,
-      "human_additions": 0,
-      "human_deletions": 0
+      "human_additions": 197,
+      "human_deletions": 6
     },
+    "editors": [
+      {
+        "name": "Cursor",
+        "total_seconds": 1640.915,
+        "digital": "0:27:20",
+        "decimal": "0.45",
+        "text": "27 mins",
+        "hours": 0,
+        "minutes": 27,
+        "seconds": 20,
+        "percent": 100
+      }
+    ],
+    "operating_systems": [
+      {
+        "name": "Mac",
+        "total_seconds": 1640.915,
+        "digital": "0:27:20",
+        "decimal": "0.45",
+        "text": "27 mins",
+        "hours": 0,
+        "minutes": 27,
+        "seconds": 20,
+        "percent": 100
+      }
+    ],
+    "categories": [
+      {
+        "name": "Coding",
+        "total_seconds": 1051.442,
+        "digital": "0:17:31",
+        "decimal": "0.28",
+        "text": "17 mins",
+        "hours": 0,
+        "minutes": 17,
+        "seconds": 31,
+        "percent": 64.08
+      },
+      {
+        "name": "Writing Docs",
+        "total_seconds": 589.473,
+        "digital": "0:09:49",
+        "decimal": "0.15",
+        "text": "9 mins",
+        "hours": 0,
+        "minutes": 9,
+        "seconds": 49,
+        "percent": 35.92
+      }
+    ],
+    "dependencies": [],
+    "machines": [
+      {
+        "name": "Anands-MacBook-Pro.local",
+        "total_seconds": 1640.915,
+        "machine_name_id": "aeb644a0-5a66-40e2-8e13-58c9fd7b42fc",
+        "digital": "0:27:20",
+        "decimal": "0.45",
+        "text": "27 mins",
+        "hours": 0,
+        "minutes": 27,
+        "seconds": 20,
+        "percent": 100
+      }
+    ],
+    "projects": [
+      {
+        "name": "slack-export-summary",
+        "total_seconds": 1555.5,
+        "ai_additions": 0,
+        "ai_deletions": 0,
+        "human_additions": 197,
+        "human_deletions": 6,
+        "color": null,
+        "digital": "0:25:55",
+        "decimal": "0.42",
+        "text": "25 mins",
+        "hours": 0,
+        "minutes": 25,
+        "seconds": 55,
+        "percent": 94.79
+      },
+      {
+        "name": "Unknown Project",
+        "total_seconds": 85.415,
+        "ai_additions": 0,
+        "ai_deletions": 0,
+        "human_additions": 0,
+        "human_deletions": 0,
+        "color": null,
+        "digital": "0:01:25",
+        "decimal": "0.02",
+        "text": "1 min",
+        "hours": 0,
+        "minutes": 1,
+        "seconds": 25,
+        "percent": 5.21
+      }
+    ],
     "range": {
       "start": "2025-11-01T23:00:00Z",
       "end": "2025-11-02T22:59:59Z",
@@ -19,12 +164,9 @@
       "text": "Sun Nov 2nd 2025",
       "timezone": "Europe/Amsterdam"
     },
-    "projects": [],
-    "languages": [],
-    "dependencies": [],
-    "machines": [],
-    "editors": [],
-    "operating_systems": [],
-    "categories": []
+    "ai_additions": 0,
+    "ai_deletions": 0,
+    "human_additions": 0,
+    "human_deletions": 0
   }
 ]
