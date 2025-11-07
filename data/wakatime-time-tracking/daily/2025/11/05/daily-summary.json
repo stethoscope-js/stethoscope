@@ -1,17 +1,240 @@
 [
   {
+    "languages": [
+      {
+        "name": "Other",
+        "total_seconds": 3546.892,
+        "digital": "0:59:06",
+        "decimal": "0.98",
+        "text": "59 mins",
+        "hours": 0,
+        "minutes": 59,
+        "seconds": 6,
+        "percent": 72.27
+      },
+      {
+        "name": "TypeScript",
+        "total_seconds": 834.771,
+        "digital": "0:13:54",
+        "decimal": "0.22",
+        "text": "13 mins",
+        "hours": 0,
+        "minutes": 13,
+        "seconds": 54,
+        "percent": 17.01
+      },
+      {
+        "name": "Text",
+        "total_seconds": 526.167,
+        "digital": "0:08:46",
+        "decimal": "0.13",
+        "text": "8 mins",
+        "hours": 0,
+        "minutes": 8,
+        "seconds": 46,
+        "percent": 10.72
+      }
+    ],
     "grand_total": {
-      "hours": 0,
-      "minutes": 0,
-      "total_seconds": 0,
-      "digital": "0:00",
-      "decimal": "0.00",
-      "text": "0 secs",
+      "hours": 1,
+      "minutes": 21,
+      "total_seconds": 4907.83,
+      "digital": "1:21",
+      "decimal": "1.35",
+      "text": "1 hr 21 mins",
       "ai_additions": 0,
       "ai_deletions": 0,
-      "human_additions": 0,
-      "human_deletions": 0
+      "human_additions": 1243,
+      "human_deletions": 561
     },
+    "editors": [
+      {
+        "name": "Cursor",
+        "total_seconds": 4907.83,
+        "digital": "1:21:47",
+        "decimal": "1.35",
+        "text": "1 hr 21 mins",
+        "hours": 1,
+        "minutes": 21,
+        "seconds": 47,
+        "percent": 100
+      }
+    ],
+    "operating_systems": [
+      {
+        "name": "Mac",
+        "total_seconds": 4907.83,
+        "digital": "1:21:47",
+        "decimal": "1.35",
+        "text": "1 hr 21 mins",
+        "hours": 1,
+        "minutes": 21,
+        "seconds": 47,
+        "percent": 100
+      }
+    ],
+    "categories": [
+      {
+        "name": "Coding",
+        "total_seconds": 4907.83,
+        "digital": "1:21:47",
+        "decimal": "1.35",
+        "text": "1 hr 21 mins",
+        "hours": 1,
+        "minutes": 21,
+        "seconds": 47,
+        "percent": 100
+      }
+    ],
+    "dependencies": [
+      {
+        "name": "zod-openapi",
+        "total_seconds": 834.771,
+        "digital": "0:13:54",
+        "decimal": "0.22",
+        "text": "13 mins",
+        "hours": 0,
+        "minutes": 13,
+        "seconds": 54,
+        "percent": 11.11
+      },
+      {
+        "name": "logging",
+        "total_seconds": 834.771,
+        "digital": "0:13:54",
+        "decimal": "0.22",
+        "text": "13 mins",
+        "hours": 0,
+        "minutes": 13,
+        "seconds": 54,
+        "percent": 11.11
+      },
+      {
+        "name": "schema",
+        "total_seconds": 834.771,
+        "digital": "0:13:54",
+        "decimal": "0.22",
+        "text": "13 mins",
+        "hours": 0,
+        "minutes": 13,
+        "seconds": 54,
+        "percent": 11.11
+      },
+      {
+        "name": "inngest",
+        "total_seconds": 834.771,
+        "digital": "0:13:54",
+        "decimal": "0.22",
+        "text": "13 mins",
+        "hours": 0,
+        "minutes": 13,
+        "seconds": 54,
+        "percent": 11.11
+      },
+      {
+        "name": "base",
+        "total_seconds": 834.771,
+        "digital": "0:13:54",
+        "decimal": "0.22",
+        "text": "13 mins",
+        "hours": 0,
+        "minutes": 13,
+        "seconds": 54,
+        "percent": 11.11
+      },
+      {
+        "name": "errors",
+        "total_seconds": 834.771,
+        "digital": "0:13:54",
+        "decimal": "0.22",
+        "text": "13 mins",
+        "hours": 0,
+        "minutes": 13,
+        "seconds": 54,
+        "percent": 11.11
+      },
+      {
+        "name": "json-2-csv",
+        "total_seconds": 834.771,
+        "digital": "0:13:54",
+        "decimal": "0.22",
+        "text": "13 mins",
+        "hours": 0,
+        "minutes": 13,
+        "seconds": 54,
+        "percent": 11.11
+      },
+      {
+        "name": "middleware",
+        "total_seconds": 834.771,
+        "digital": "0:13:54",
+        "decimal": "0.22",
+        "text": "13 mins",
+        "hours": 0,
+        "minutes": 13,
+        "seconds": 54,
+        "percent": 11.11
+      },
+      {
+        "name": "database",
+        "total_seconds": 834.771,
+        "digital": "0:13:54",
+        "decimal": "0.22",
+        "text": "13 mins",
+        "hours": 0,
+        "minutes": 13,
+        "seconds": 54,
+        "percent": 11.11
+      }
+    ],
+    "machines": [
+      {
+        "name": "Anands-MBP.home",
+        "total_seconds": 4907.83,
+        "machine_name_id": "1ff3795f-c752-4858-9fa4-7090240f0ab3",
+        "digital": "1:21:47",
+        "decimal": "1.35",
+        "text": "1 hr 21 mins",
+        "hours": 1,
+        "minutes": 21,
+        "seconds": 47,
+        "percent": 100
+      }
+    ],
+    "projects": [
+      {
+        "name": "Unknown Project",
+        "total_seconds": 3411.199,
+        "ai_additions": 0,
+        "ai_deletions": 0,
+        "human_additions": 1152,
+        "human_deletions": 547,
+        "color": null,
+        "digital": "0:56:51",
+        "decimal": "0.93",
+        "text": "56 mins",
+        "hours": 0,
+        "minutes": 56,
+        "seconds": 51,
+        "percent": 69.51
+      },
+      {
+        "name": "firstquadrant.ai",
+        "total_seconds": 1496.631,
+        "ai_additions": 0,
+        "ai_deletions": 0,
+        "human_additions": 91,
+        "human_deletions": 14,
+        "color": null,
+        "digital": "0:24:56",
+        "decimal": "0.40",
+        "text": "24 mins",
+        "hours": 0,
+        "minutes": 24,
+        "seconds": 56,
+        "percent": 30.49
+      }
+    ],
     "range": {
       "start": "2025-11-05T23:00:00Z",
       "end": "2025-11-06T22:59:59Z",
@@ -19,12 +242,9 @@
       "text": "Thu Nov 6th 2025",
       "timezone": "Europe/Amsterdam"
     },
-    "projects": [],
-    "languages": [],
-    "dependencies": [],
-    "machines": [],
-    "editors": [],
-    "operating_systems": [],
-    "categories": []
+    "ai_additions": 0,
+    "ai_deletions": 0,
+    "human_additions": 0,
+    "human_deletions": 0
   }
 ]
