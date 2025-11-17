@@ -1,17 +1,151 @@
 [
   {
+    "languages": [
+      {
+        "name": "Bash",
+        "total_seconds": 71.443,
+        "digital": "0:01:11",
+        "decimal": "0.02",
+        "text": "1 min",
+        "hours": 0,
+        "minutes": 1,
+        "seconds": 11,
+        "percent": 55.71
+      },
+      {
+        "name": "Markdown",
+        "total_seconds": 36.826,
+        "digital": "0:00:36",
+        "decimal": "0.00",
+        "text": "36 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 36,
+        "percent": 28.72
+      },
+      {
+        "name": "YAML",
+        "total_seconds": 19.967,
+        "digital": "0:00:19",
+        "decimal": "0.00",
+        "text": "19 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 19,
+        "percent": 15.57
+      }
+    ],
     "grand_total": {
       "hours": 0,
-      "minutes": 0,
-      "total_seconds": 0,
-      "digital": "0:00",
-      "decimal": "0.00",
-      "text": "0 secs",
+      "minutes": 2,
+      "total_seconds": 128.236,
+      "digital": "0:02",
+      "decimal": "0.03",
+      "text": "2 mins",
       "ai_additions": 0,
       "ai_deletions": 0,
-      "human_additions": 0,
+      "human_additions": 6,
       "human_deletions": 0
     },
+    "editors": [
+      {
+        "name": "Cursor",
+        "total_seconds": 128.236,
+        "digital": "0:02:08",
+        "decimal": "0.03",
+        "text": "2 mins",
+        "hours": 0,
+        "minutes": 2,
+        "seconds": 8,
+        "percent": 100
+      }
+    ],
+    "operating_systems": [
+      {
+        "name": "Mac",
+        "total_seconds": 128.236,
+        "digital": "0:02:08",
+        "decimal": "0.03",
+        "text": "2 mins",
+        "hours": 0,
+        "minutes": 2,
+        "seconds": 8,
+        "percent": 100
+      }
+    ],
+    "categories": [
+      {
+        "name": "Coding",
+        "total_seconds": 91.41,
+        "digital": "0:01:31",
+        "decimal": "0.02",
+        "text": "1 min",
+        "hours": 0,
+        "minutes": 1,
+        "seconds": 31,
+        "percent": 71.28
+      },
+      {
+        "name": "Writing Docs",
+        "total_seconds": 36.826,
+        "digital": "0:00:36",
+        "decimal": "0.00",
+        "text": "36 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 36,
+        "percent": 28.72
+      }
+    ],
+    "dependencies": [],
+    "machines": [
+      {
+        "name": "Anands-MBP.home",
+        "total_seconds": 128.236,
+        "machine_name_id": "1ff3795f-c752-4858-9fa4-7090240f0ab3",
+        "digital": "0:02:08",
+        "decimal": "0.03",
+        "text": "2 mins",
+        "hours": 0,
+        "minutes": 2,
+        "seconds": 8,
+        "percent": 100
+      }
+    ],
+    "projects": [
+      {
+        "name": "firstquadrant.ai",
+        "total_seconds": 84.893,
+        "ai_additions": 0,
+        "ai_deletions": 0,
+        "human_additions": 6,
+        "human_deletions": 0,
+        "color": null,
+        "digital": "0:01:24",
+        "decimal": "0.02",
+        "text": "1 min",
+        "hours": 0,
+        "minutes": 1,
+        "seconds": 24,
+        "percent": 66.2
+      },
+      {
+        "name": "continuous-claude",
+        "total_seconds": 43.343,
+        "ai_additions": 0,
+        "ai_deletions": 0,
+        "human_additions": 0,
+        "human_deletions": 0,
+        "color": null,
+        "digital": "0:00:43",
+        "decimal": "0.00",
+        "text": "43 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 43,
+        "percent": 33.8
+      }
+    ],
     "range": {
       "start": "2025-11-15T23:00:00Z",
       "end": "2025-11-16T22:59:59Z",
@@ -19,12 +153,9 @@
       "text": "Sun Nov 16th 2025",
       "timezone": "Europe/Amsterdam"
     },
-    "projects": [],
-    "languages": [],
-    "dependencies": [],
-    "machines": [],
-    "editors": [],
-    "operating_systems": [],
-    "categories": []
+    "ai_additions": 0,
+    "ai_deletions": 0,
+    "human_additions": 0,
+    "human_deletions": 0
   }
 ]
