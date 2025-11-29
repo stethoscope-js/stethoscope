@@ -1,17 +1,164 @@
 [
   {
+    "languages": [
+      {
+        "name": "Markdown",
+        "total_seconds": 13172.475,
+        "digital": "3:39:32",
+        "decimal": "3.65",
+        "text": "3 hrs 39 mins",
+        "hours": 3,
+        "minutes": 39,
+        "seconds": 32,
+        "percent": 98.3
+      },
+      {
+        "name": "JSON",
+        "total_seconds": 216.772,
+        "digital": "0:03:36",
+        "decimal": "0.05",
+        "text": "3 mins",
+        "hours": 0,
+        "minutes": 3,
+        "seconds": 36,
+        "percent": 1.62
+      },
+      {
+        "name": "YAML",
+        "total_seconds": 10.615,
+        "digital": "0:00:10",
+        "decimal": "0.00",
+        "text": "10 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 10,
+        "percent": 0.08
+      }
+    ],
     "grand_total": {
-      "hours": 0,
-      "minutes": 0,
-      "total_seconds": 0,
-      "digital": "0:00",
-      "decimal": "0.00",
-      "text": "0 secs",
+      "hours": 3,
+      "minutes": 43,
+      "total_seconds": 13399.862,
+      "digital": "3:43",
+      "decimal": "3.72",
+      "text": "3 hrs 43 mins",
       "ai_additions": 0,
       "ai_deletions": 0,
-      "human_additions": 0,
-      "human_deletions": 0
+      "human_additions": 137,
+      "human_deletions": 958
     },
+    "editors": [
+      {
+        "name": "Cursor",
+        "total_seconds": 13399.862,
+        "digital": "3:43:19",
+        "decimal": "3.72",
+        "text": "3 hrs 43 mins",
+        "hours": 3,
+        "minutes": 43,
+        "seconds": 19,
+        "percent": 100
+      }
+    ],
+    "operating_systems": [
+      {
+        "name": "Mac",
+        "total_seconds": 13399.862,
+        "digital": "3:43:19",
+        "decimal": "3.72",
+        "text": "3 hrs 43 mins",
+        "hours": 3,
+        "minutes": 43,
+        "seconds": 19,
+        "percent": 100
+      }
+    ],
+    "categories": [
+      {
+        "name": "Writing Docs",
+        "total_seconds": 13172.475,
+        "digital": "3:39:32",
+        "decimal": "3.65",
+        "text": "3 hrs 39 mins",
+        "hours": 3,
+        "minutes": 39,
+        "seconds": 32,
+        "percent": 98.3
+      },
+      {
+        "name": "Coding",
+        "total_seconds": 227.387,
+        "digital": "0:03:47",
+        "decimal": "0.05",
+        "text": "3 mins",
+        "hours": 0,
+        "minutes": 3,
+        "seconds": 47,
+        "percent": 1.7
+      }
+    ],
+    "dependencies": [],
+    "machines": [
+      {
+        "name": "Anands-MBP.home",
+        "total_seconds": 13399.862,
+        "machine_name_id": "1ff3795f-c752-4858-9fa4-7090240f0ab3",
+        "digital": "3:43:19",
+        "decimal": "3.72",
+        "text": "3 hrs 43 mins",
+        "hours": 3,
+        "minutes": 43,
+        "seconds": 19,
+        "percent": 100
+      }
+    ],
+    "projects": [
+      {
+        "name": "blog",
+        "total_seconds": 6643.917,
+        "ai_additions": 0,
+        "ai_deletions": 0,
+        "human_additions": 37,
+        "human_deletions": 143,
+        "digital": "1:50:43",
+        "decimal": "1.83",
+        "text": "1 hr 50 mins",
+        "hours": 1,
+        "minutes": 50,
+        "seconds": 43,
+        "percent": 49.58
+      },
+      {
+        "name": "firstquadrant.ai",
+        "total_seconds": 6626.685,
+        "ai_additions": 0,
+        "ai_deletions": 0,
+        "human_additions": 100,
+        "human_deletions": 288,
+        "digital": "1:50:26",
+        "decimal": "1.83",
+        "text": "1 hr 50 mins",
+        "hours": 1,
+        "minutes": 50,
+        "seconds": 26,
+        "percent": 49.45
+      },
+      {
+        "name": "continuous-claude",
+        "total_seconds": 129.26,
+        "ai_additions": 0,
+        "ai_deletions": 0,
+        "human_additions": 0,
+        "human_deletions": 527,
+        "digital": "0:02:09",
+        "decimal": "0.03",
+        "text": "2 mins",
+        "hours": 0,
+        "minutes": 2,
+        "seconds": 9,
+        "percent": 0.96
+      }
+    ],
     "range": {
       "start": "2025-11-27T23:00:00Z",
       "end": "2025-11-28T22:59:59Z",
@@ -19,12 +166,9 @@
       "text": "Fri Nov 28th 2025",
       "timezone": "Europe/Amsterdam"
     },
-    "projects": [],
-    "languages": [],
-    "dependencies": [],
-    "machines": [],
-    "editors": [],
-    "operating_systems": [],
-    "categories": []
+    "ai_additions": 0,
+    "ai_deletions": 0,
+    "human_additions": 0,
+    "human_deletions": 0
   }
 ]
