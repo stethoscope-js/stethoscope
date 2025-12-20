@@ -253,7 +253,7 @@
         "percent": 2.66
       },
       {
-        "name": "nanoid",
+        "name": "message",
         "total_seconds": 4273.312,
         "digital": "1:11:13",
         "decimal": "1.18",
@@ -275,7 +275,7 @@
         "percent": 2.48
       },
       {
-        "name": "message",
+        "name": "nanoid",
         "total_seconds": 4273.312,
         "digital": "1:11:13",
         "decimal": "1.18",
@@ -363,7 +363,7 @@
         "percent": 1.09
       },
       {
-        "name": "recharts",
+        "name": "chart",
         "total_seconds": 1465.39,
         "digital": "0:24:25",
         "decimal": "0.40",
@@ -374,7 +374,7 @@
         "percent": 0.85
       },
       {
-        "name": "chart",
+        "name": "recharts",
         "total_seconds": 1465.39,
         "digital": "0:24:25",
         "decimal": "0.40",
@@ -451,7 +451,7 @@
         "percent": 0.55
       },
       {
-        "name": "mock-data",
+        "name": "status-badge",
         "total_seconds": 926.663,
         "digital": "0:15:26",
         "decimal": "0.25",
@@ -473,7 +473,7 @@
         "percent": 0.54
       },
       {
-        "name": "status-badge",
+        "name": "metric-card",
         "total_seconds": 926.663,
         "digital": "0:15:26",
         "decimal": "0.25",
@@ -484,7 +484,7 @@
         "percent": 0.54
       },
       {
-        "name": "metric-card",
+        "name": "mock-data",
         "total_seconds": 926.663,
         "digital": "0:15:26",
         "decimal": "0.25",
@@ -528,7 +528,7 @@
         "percent": 0.39
       },
       {
-        "name": "right-sidebar",
+        "name": "sidebar-user",
         "total_seconds": 664.575,
         "digital": "0:11:04",
         "decimal": "0.18",
@@ -539,7 +539,7 @@
         "percent": 0.39
       },
       {
-        "name": "sidebar-user",
+        "name": "right-sidebar",
         "total_seconds": 664.575,
         "digital": "0:11:04",
         "decimal": "0.18",
@@ -605,7 +605,7 @@
         "percent": 0.23
       },
       {
-        "name": "alert",
+        "name": "progress",
         "total_seconds": 394.759,
         "digital": "0:06:34",
         "decimal": "0.10",
@@ -616,7 +616,7 @@
         "percent": 0.23
       },
       {
-        "name": "progress",
+        "name": "alert",
         "total_seconds": 394.759,
         "digital": "0:06:34",
         "decimal": "0.10",
@@ -715,7 +715,7 @@
         "percent": 0.03
       },
       {
-        "name": "future-source-placeholder",
+        "name": "use-collection-data",
         "total_seconds": 47.047,
         "digital": "0:00:47",
         "decimal": "0.00",
@@ -726,7 +726,7 @@
         "percent": 0.03
       },
       {
-        "name": "use-collection-data",
+        "name": "future-source-placeholder",
         "total_seconds": 47.047,
         "digital": "0:00:47",
         "decimal": "0.00",
@@ -781,29 +781,18 @@
         "percent": 0.02
       },
       {
+        "name": "$slug",
+        "total_seconds": 19.842,
+        "digital": "0:00:19",
+        "decimal": "0.00",
+        "text": "19 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 19,
+        "percent": 0.01
+      },
+      {
         "name": "dashboard",
-        "total_seconds": 19.842,
-        "digital": "0:00:19",
-        "decimal": "0.00",
-        "text": "19 secs",
-        "hours": 0,
-        "minutes": 0,
-        "seconds": 19,
-        "percent": 0.01
-      },
-      {
-        "name": "index",
-        "total_seconds": 19.842,
-        "digital": "0:00:19",
-        "decimal": "0.00",
-        "text": "19 secs",
-        "hours": 0,
-        "minutes": 0,
-        "seconds": 19,
-        "percent": 0.01
-      },
-      {
-        "name": "router",
         "total_seconds": 19.842,
         "digital": "0:00:19",
         "decimal": "0.00",
@@ -825,7 +814,40 @@
         "percent": 0.01
       },
       {
+        "name": "__root",
+        "total_seconds": 19.842,
+        "digital": "0:00:19",
+        "decimal": "0.00",
+        "text": "19 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 19,
+        "percent": 0.01
+      },
+      {
         "name": "react-start",
+        "total_seconds": 19.842,
+        "digital": "0:00:19",
+        "decimal": "0.00",
+        "text": "19 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 19,
+        "percent": 0.01
+      },
+      {
+        "name": "router",
+        "total_seconds": 19.842,
+        "digital": "0:00:19",
+        "decimal": "0.00",
+        "text": "19 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 19,
+        "percent": 0.01
+      },
+      {
+        "name": "index",
         "total_seconds": 19.842,
         "digital": "0:00:19",
         "decimal": "0.00",
@@ -848,28 +870,6 @@
       },
       {
         "name": "source-connections",
-        "total_seconds": 19.842,
-        "digital": "0:00:19",
-        "decimal": "0.00",
-        "text": "19 secs",
-        "hours": 0,
-        "minutes": 0,
-        "seconds": 19,
-        "percent": 0.01
-      },
-      {
-        "name": "$slug",
-        "total_seconds": 19.842,
-        "digital": "0:00:19",
-        "decimal": "0.00",
-        "text": "19 secs",
-        "hours": 0,
-        "minutes": 0,
-        "seconds": 19,
-        "percent": 0.01
-      },
-      {
-        "name": "__root",
         "total_seconds": 19.842,
         "digital": "0:00:19",
         "decimal": "0.00",
@@ -946,7 +946,7 @@
         "percent": 0
       },
       {
-        "name": "drawer",
+        "name": "pagination",
         "total_seconds": 2.249,
         "digital": "0:00:02",
         "decimal": "0.00",
@@ -968,7 +968,7 @@
         "percent": 0
       },
       {
-        "name": "switch",
+        "name": "drawer",
         "total_seconds": 2.249,
         "digital": "0:00:02",
         "decimal": "0.00",
@@ -979,29 +979,7 @@
         "percent": 0
       },
       {
-        "name": "alert-dialog",
-        "total_seconds": 2.249,
-        "digital": "0:00:02",
-        "decimal": "0.00",
-        "text": "2 secs",
-        "hours": 0,
-        "minutes": 0,
-        "seconds": 2,
-        "percent": 0
-      },
-      {
-        "name": "menubar",
-        "total_seconds": 2.249,
-        "digital": "0:00:02",
-        "decimal": "0.00",
-        "text": "2 secs",
-        "hours": 0,
-        "minutes": 0,
-        "seconds": 2,
-        "percent": 0
-      },
-      {
-        "name": "item",
+        "name": "calendar",
         "total_seconds": 2.249,
         "digital": "0:00:02",
         "decimal": "0.00",
@@ -1013,50 +991,6 @@
       },
       {
         "name": "input-otp",
-        "total_seconds": 2.249,
-        "digital": "0:00:02",
-        "decimal": "0.00",
-        "text": "2 secs",
-        "hours": 0,
-        "minutes": 0,
-        "seconds": 2,
-        "percent": 0
-      },
-      {
-        "name": "combobox",
-        "total_seconds": 2.249,
-        "digital": "0:00:02",
-        "decimal": "0.00",
-        "text": "2 secs",
-        "hours": 0,
-        "minutes": 0,
-        "seconds": 2,
-        "percent": 0
-      },
-      {
-        "name": "pagination",
-        "total_seconds": 2.249,
-        "digital": "0:00:02",
-        "decimal": "0.00",
-        "text": "2 secs",
-        "hours": 0,
-        "minutes": 0,
-        "seconds": 2,
-        "percent": 0
-      },
-      {
-        "name": "scroll-area",
-        "total_seconds": 2.249,
-        "digital": "0:00:02",
-        "decimal": "0.00",
-        "text": "2 secs",
-        "hours": 0,
-        "minutes": 0,
-        "seconds": 2,
-        "percent": 0
-      },
-      {
-        "name": "context-menu",
         "total_seconds": 2.249,
         "digital": "0:00:02",
         "decimal": "0.00",
@@ -1089,7 +1023,40 @@
         "percent": 0
       },
       {
-        "name": "calendar",
+        "name": "kbd",
+        "total_seconds": 2.249,
+        "digital": "0:00:02",
+        "decimal": "0.00",
+        "text": "2 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 2,
+        "percent": 0
+      },
+      {
+        "name": "alert-dialog",
+        "total_seconds": 2.249,
+        "digital": "0:00:02",
+        "decimal": "0.00",
+        "text": "2 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 2,
+        "percent": 0
+      },
+      {
+        "name": "context-menu",
+        "total_seconds": 2.249,
+        "digital": "0:00:02",
+        "decimal": "0.00",
+        "text": "2 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 2,
+        "percent": 0
+      },
+      {
+        "name": "combobox",
         "total_seconds": 2.249,
         "digital": "0:00:02",
         "decimal": "0.00",
@@ -1111,6 +1078,17 @@
         "percent": 0
       },
       {
+        "name": "switch",
+        "total_seconds": 2.249,
+        "digital": "0:00:02",
+        "decimal": "0.00",
+        "text": "2 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 2,
+        "percent": 0
+      },
+      {
         "name": "popover",
         "total_seconds": 2.249,
         "digital": "0:00:02",
@@ -1122,7 +1100,7 @@
         "percent": 0
       },
       {
-        "name": "empty",
+        "name": "menubar",
         "total_seconds": 2.249,
         "digital": "0:00:02",
         "decimal": "0.00",
@@ -1133,7 +1111,29 @@
         "percent": 0
       },
       {
-        "name": "kbd",
+        "name": "item",
+        "total_seconds": 2.249,
+        "digital": "0:00:02",
+        "decimal": "0.00",
+        "text": "2 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 2,
+        "percent": 0
+      },
+      {
+        "name": "scroll-area",
+        "total_seconds": 2.249,
+        "digital": "0:00:02",
+        "decimal": "0.00",
+        "text": "2 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 2,
+        "percent": 0
+      },
+      {
+        "name": "empty",
         "total_seconds": 2.249,
         "digital": "0:00:02",
         "decimal": "0.00",
@@ -1210,6 +1210,7 @@
         "ai_deletions": 0,
         "human_additions": 1879,
         "human_deletions": 626,
+        "color": null,
         "digital": "4:23:41",
         "decimal": "4.38",
         "text": "4 hrs 23 mins",
@@ -1225,6 +1226,7 @@
         "ai_deletions": 0,
         "human_additions": 236,
         "human_deletions": 88,
+        "color": null,
         "digital": "0:41:39",
         "decimal": "0.68",
         "text": "41 mins",
