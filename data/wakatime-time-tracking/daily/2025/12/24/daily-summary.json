@@ -1,17 +1,174 @@
 [
   {
+    "languages": [
+      {
+        "name": "Other",
+        "total_seconds": 2894.884,
+        "digital": "0:48:14",
+        "decimal": "0.80",
+        "text": "48 mins",
+        "hours": 0,
+        "minutes": 48,
+        "seconds": 14,
+        "percent": 86.37
+      },
+      {
+        "name": "MDX",
+        "total_seconds": 418.526,
+        "digital": "0:06:58",
+        "decimal": "0.10",
+        "text": "6 mins",
+        "hours": 0,
+        "minutes": 6,
+        "seconds": 58,
+        "percent": 12.49
+      },
+      {
+        "name": "Markdown",
+        "total_seconds": 38.155,
+        "digital": "0:00:38",
+        "decimal": "0.00",
+        "text": "38 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 38,
+        "percent": 1.14
+      },
+      {
+        "name": "Text",
+        "total_seconds": 0,
+        "digital": "0:00:00",
+        "decimal": "0.00",
+        "text": "0 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0,
+        "percent": 0
+      }
+    ],
     "grand_total": {
       "hours": 0,
-      "minutes": 0,
-      "total_seconds": 0,
-      "digital": "0:00",
-      "decimal": "0.00",
-      "text": "0 secs",
+      "minutes": 55,
+      "total_seconds": 3351.565,
+      "digital": "0:55",
+      "decimal": "0.92",
+      "text": "55 mins",
       "ai_additions": 0,
       "ai_deletions": 0,
-      "human_additions": 0,
-      "human_deletions": 0
+      "human_additions": 12,
+      "human_deletions": 219
     },
+    "editors": [
+      {
+        "name": "Cursor",
+        "total_seconds": 3351.565,
+        "digital": "0:55:51",
+        "decimal": "0.92",
+        "text": "55 mins",
+        "hours": 0,
+        "minutes": 55,
+        "seconds": 51,
+        "percent": 100
+      }
+    ],
+    "operating_systems": [
+      {
+        "name": "Mac",
+        "total_seconds": 3351.565,
+        "digital": "0:55:51",
+        "decimal": "0.92",
+        "text": "55 mins",
+        "hours": 0,
+        "minutes": 55,
+        "seconds": 51,
+        "percent": 100
+      }
+    ],
+    "categories": [
+      {
+        "name": "Coding",
+        "total_seconds": 3313.41,
+        "digital": "0:55:13",
+        "decimal": "0.92",
+        "text": "55 mins",
+        "hours": 0,
+        "minutes": 55,
+        "seconds": 13,
+        "percent": 98.86
+      },
+      {
+        "name": "Writing Docs",
+        "total_seconds": 38.155,
+        "digital": "0:00:38",
+        "decimal": "0.00",
+        "text": "38 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 38,
+        "percent": 1.14
+      }
+    ],
+    "dependencies": [],
+    "machines": [
+      {
+        "name": "Anands-MacBook-Pro.local",
+        "total_seconds": 2091.867,
+        "machine_name_id": "aeb644a0-5a66-40e2-8e13-58c9fd7b42fc",
+        "digital": "0:34:51",
+        "decimal": "0.57",
+        "text": "34 mins",
+        "hours": 0,
+        "minutes": 34,
+        "seconds": 51,
+        "percent": 62.41
+      },
+      {
+        "name": "Mac.localdomain",
+        "total_seconds": 1259.698,
+        "machine_name_id": "32aa50fd-92f6-4c8f-ad2d-66db96195f92",
+        "digital": "0:20:59",
+        "decimal": "0.33",
+        "text": "20 mins",
+        "hours": 0,
+        "minutes": 20,
+        "seconds": 59,
+        "percent": 37.59
+      }
+    ],
+    "projects": [
+      {
+        "name": "airweave",
+        "total_seconds": 2212.087,
+        "ai_additions": 0,
+        "ai_deletions": 0,
+        "human_additions": 3,
+        "human_deletions": 192,
+        "color": null,
+        "digital": "0:36:52",
+        "decimal": "0.60",
+        "text": "36 mins",
+        "hours": 0,
+        "minutes": 36,
+        "seconds": 52,
+        "percent": 66
+      },
+      {
+        "name": "Unknown Project",
+        "total_seconds": 1139.478,
+        "ai_additions": 0,
+        "ai_deletions": 0,
+        "human_additions": 9,
+        "human_deletions": 27,
+        "color": null,
+        "digital": "0:18:59",
+        "decimal": "0.30",
+        "text": "18 mins",
+        "hours": 0,
+        "minutes": 18,
+        "seconds": 59,
+        "percent": 34
+      }
+    ],
     "range": {
       "start": "2025-12-24T23:00:00Z",
       "end": "2025-12-25T22:59:59Z",
@@ -19,12 +176,9 @@
       "text": "Thu Dec 25th 2025",
       "timezone": "Europe/Amsterdam"
     },
-    "projects": [],
-    "languages": [],
-    "dependencies": [],
-    "machines": [],
-    "editors": [],
-    "operating_systems": [],
-    "categories": []
+    "ai_additions": 0,
+    "ai_deletions": 0,
+    "human_additions": 0,
+    "human_deletions": 0
   }
 ]
