@@ -1,42 +1,5 @@
 [
   {
-    "grand_total": {
-      "hours": 2,
-      "minutes": 37,
-      "total_seconds": 9458.527,
-      "digital": "2:37",
-      "decimal": "2.62",
-      "text": "2 hrs 37 mins",
-      "ai_additions": 0,
-      "ai_deletions": 0,
-      "human_additions": 396,
-      "human_deletions": 836
-    },
-    "range": {
-      "start": "2026-01-01T23:00:00Z",
-      "end": "2026-01-02T22:59:59Z",
-      "date": "2026-01-02",
-      "text": "Fri Jan 2nd 2026",
-      "timezone": "Europe/Amsterdam"
-    },
-    "projects": [
-      {
-        "name": "airweave",
-        "total_seconds": 9458.527,
-        "ai_additions": 0,
-        "ai_deletions": 0,
-        "human_additions": 396,
-        "human_deletions": 836,
-        "color": null,
-        "digital": "2:37:38",
-        "decimal": "2.62",
-        "text": "2 hrs 37 mins",
-        "hours": 2,
-        "minutes": 37,
-        "seconds": 38,
-        "percent": 100
-      }
-    ],
     "languages": [
       {
         "name": "TypeScript",
@@ -136,6 +99,79 @@
         "minutes": 0,
         "seconds": 1,
         "percent": 0.02
+      }
+    ],
+    "grand_total": {
+      "hours": 2,
+      "minutes": 37,
+      "total_seconds": 9458.527,
+      "digital": "2:37",
+      "decimal": "2.62",
+      "text": "2 hrs 37 mins",
+      "ai_additions": 0,
+      "ai_deletions": 0,
+      "human_additions": 396,
+      "human_deletions": 836
+    },
+    "editors": [
+      {
+        "name": "Cursor",
+        "total_seconds": 9458.527,
+        "digital": "2:37:38",
+        "decimal": "2.62",
+        "text": "2 hrs 37 mins",
+        "hours": 2,
+        "minutes": 37,
+        "seconds": 38,
+        "percent": 100
+      }
+    ],
+    "operating_systems": [
+      {
+        "name": "Mac",
+        "total_seconds": 9458.527,
+        "digital": "2:37:38",
+        "decimal": "2.62",
+        "text": "2 hrs 37 mins",
+        "hours": 2,
+        "minutes": 37,
+        "seconds": 38,
+        "percent": 100
+      }
+    ],
+    "categories": [
+      {
+        "name": "Coding",
+        "total_seconds": 9189,
+        "digital": "2:33:09",
+        "decimal": "2.55",
+        "text": "2 hrs 33 mins",
+        "hours": 2,
+        "minutes": 33,
+        "seconds": 9,
+        "percent": 97.15
+      },
+      {
+        "name": "Writing Docs",
+        "total_seconds": 258.507,
+        "digital": "0:04:18",
+        "decimal": "0.07",
+        "text": "4 mins",
+        "hours": 0,
+        "minutes": 4,
+        "seconds": 18,
+        "percent": 2.73
+      },
+      {
+        "name": "AI Coding",
+        "total_seconds": 11.02,
+        "digital": "0:00:11",
+        "decimal": "0.00",
+        "text": "11 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 11,
+        "percent": 0.12
       }
     ],
     "dependencies": [
@@ -1937,10 +1973,15 @@
         "percent": 24.88
       }
     ],
-    "editors": [
+    "projects": [
       {
-        "name": "Cursor",
+        "name": "airweave",
         "total_seconds": 9458.527,
+        "ai_additions": 0,
+        "ai_deletions": 0,
+        "human_additions": 396,
+        "human_deletions": 836,
+        "color": null,
         "digital": "2:37:38",
         "decimal": "2.62",
         "text": "2 hrs 37 mins",
@@ -1950,53 +1991,12 @@
         "percent": 100
       }
     ],
-    "operating_systems": [
-      {
-        "name": "Mac",
-        "total_seconds": 9458.527,
-        "digital": "2:37:38",
-        "decimal": "2.62",
-        "text": "2 hrs 37 mins",
-        "hours": 2,
-        "minutes": 37,
-        "seconds": 38,
-        "percent": 100
-      }
-    ],
-    "categories": [
-      {
-        "name": "Coding",
-        "total_seconds": 9189,
-        "digital": "2:33:09",
-        "decimal": "2.55",
-        "text": "2 hrs 33 mins",
-        "hours": 2,
-        "minutes": 33,
-        "seconds": 9,
-        "percent": 97.15
-      },
-      {
-        "name": "Writing Docs",
-        "total_seconds": 258.507,
-        "digital": "0:04:18",
-        "decimal": "0.07",
-        "text": "4 mins",
-        "hours": 0,
-        "minutes": 4,
-        "seconds": 18,
-        "percent": 2.73
-      },
-      {
-        "name": "AI Coding",
-        "total_seconds": 11.02,
-        "digital": "0:00:11",
-        "decimal": "0.00",
-        "text": "11 secs",
-        "hours": 0,
-        "minutes": 0,
-        "seconds": 11,
-        "percent": 0.12
-      }
-    ]
+    "range": {
+      "start": "2026-01-01T23:00:00Z",
+      "end": "2026-01-02T22:59:59Z",
+      "date": "2026-01-02",
+      "text": "Fri Jan 2nd 2026",
+      "timezone": "Europe/Amsterdam"
+    }
   }
 ]
