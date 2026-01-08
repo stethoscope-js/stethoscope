@@ -1,75 +1,71 @@
 [
   {
-    "grand_total": {
-      "hours": 1,
-      "minutes": 18,
-      "total_seconds": 4729.166,
-      "digital": "1:18",
-      "decimal": "1.30",
-      "text": "1 hr 18 mins",
-      "ai_additions": 0,
-      "ai_deletions": 0,
-      "human_additions": 164,
-      "human_deletions": 86
-    },
-    "range": {
-      "start": "2026-01-06T23:00:00Z",
-      "end": "2026-01-07T22:59:59Z",
-      "date": "2026-01-07",
-      "text": "Wed Jan 7th 2026",
-      "timezone": "Europe/Amsterdam"
-    },
-    "projects": [
-      {
-        "name": "syCRM",
-        "total_seconds": 4729.166,
-        "ai_additions": 0,
-        "ai_deletions": 0,
-        "human_additions": 164,
-        "human_deletions": 86,
-        "color": null,
-        "digital": "1:18:49",
-        "decimal": "1.30",
-        "text": "1 hr 18 mins",
-        "hours": 1,
-        "minutes": 18,
-        "seconds": 49,
-        "percent": 100
-      }
-    ],
     "languages": [
       {
-        "name": "TypeScript",
-        "total_seconds": 2830.424,
-        "digital": "0:47:10",
-        "decimal": "0.78",
-        "text": "47 mins",
-        "hours": 0,
-        "minutes": 47,
-        "seconds": 10,
-        "percent": 59.85
+        "name": "Markdown",
+        "total_seconds": 4274.185,
+        "digital": "1:11:14",
+        "decimal": "1.18",
+        "text": "1 hr 11 mins",
+        "hours": 1,
+        "minutes": 11,
+        "seconds": 14,
+        "percent": 40.87
       },
       {
-        "name": "Markdown",
-        "total_seconds": 1476.307,
-        "digital": "0:24:36",
-        "decimal": "0.40",
-        "text": "24 mins",
+        "name": "TypeScript",
+        "total_seconds": 3811.927,
+        "digital": "1:03:31",
+        "decimal": "1.05",
+        "text": "1 hr 3 mins",
+        "hours": 1,
+        "minutes": 3,
+        "seconds": 31,
+        "percent": 36.45
+      },
+      {
+        "name": "Bash",
+        "total_seconds": 1167.762,
+        "digital": "0:19:27",
+        "decimal": "0.32",
+        "text": "19 mins",
         "hours": 0,
-        "minutes": 24,
-        "seconds": 36,
-        "percent": 31.22
+        "minutes": 19,
+        "seconds": 27,
+        "percent": 11.17
+      },
+      {
+        "name": "Text",
+        "total_seconds": 741.784,
+        "digital": "0:12:21",
+        "decimal": "0.20",
+        "text": "12 mins",
+        "hours": 0,
+        "minutes": 12,
+        "seconds": 21,
+        "percent": 7.09
       },
       {
         "name": "JSON",
-        "total_seconds": 420.429,
-        "digital": "0:07:00",
+        "total_seconds": 443.584,
+        "digital": "0:07:23",
         "decimal": "0.12",
         "text": "7 mins",
         "hours": 0,
         "minutes": 7,
-        "seconds": 0,
-        "percent": 8.89
+        "seconds": 23,
+        "percent": 4.24
+      },
+      {
+        "name": "Python",
+        "total_seconds": 15.198,
+        "digital": "0:00:15",
+        "decimal": "0.00",
+        "text": "15 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 15,
+        "percent": 0.15
       },
       {
         "name": "Git",
@@ -80,20 +76,170 @@
         "hours": 0,
         "minutes": 0,
         "seconds": 2,
-        "percent": 0.04
+        "percent": 0.02
+      },
+      {
+        "name": "CSV",
+        "total_seconds": 0.823,
+        "digital": "0:00:00",
+        "decimal": "0.00",
+        "text": "0 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0,
+        "percent": 0.01
+      },
+      {
+        "name": "Other",
+        "total_seconds": 0,
+        "digital": "0:00:00",
+        "decimal": "0.00",
+        "text": "0 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0,
+        "percent": 0
+      }
+    ],
+    "grand_total": {
+      "hours": 2,
+      "minutes": 54,
+      "total_seconds": 10457.269,
+      "digital": "2:54",
+      "decimal": "2.90",
+      "text": "2 hrs 54 mins",
+      "ai_additions": 0,
+      "ai_deletions": 0,
+      "human_additions": 1184,
+      "human_deletions": 126
+    },
+    "editors": [
+      {
+        "name": "Cursor",
+        "total_seconds": 10457.269,
+        "digital": "2:54:17",
+        "decimal": "2.90",
+        "text": "2 hrs 54 mins",
+        "hours": 2,
+        "minutes": 54,
+        "seconds": 17,
+        "percent": 100
+      }
+    ],
+    "operating_systems": [
+      {
+        "name": "Mac",
+        "total_seconds": 10457.269,
+        "digital": "2:54:17",
+        "decimal": "2.90",
+        "text": "2 hrs 54 mins",
+        "hours": 2,
+        "minutes": 54,
+        "seconds": 17,
+        "percent": 100
+      }
+    ],
+    "categories": [
+      {
+        "name": "Coding",
+        "total_seconds": 5521.241,
+        "digital": "1:32:01",
+        "decimal": "1.53",
+        "text": "1 hr 32 mins",
+        "hours": 1,
+        "minutes": 32,
+        "seconds": 1,
+        "percent": 52.8
+      },
+      {
+        "name": "Writing Docs",
+        "total_seconds": 4274.185,
+        "digital": "1:11:14",
+        "decimal": "1.18",
+        "text": "1 hr 11 mins",
+        "hours": 1,
+        "minutes": 11,
+        "seconds": 14,
+        "percent": 40.87
+      },
+      {
+        "name": "Building",
+        "total_seconds": 661.843,
+        "digital": "0:11:01",
+        "decimal": "0.18",
+        "text": "11 mins",
+        "hours": 0,
+        "minutes": 11,
+        "seconds": 1,
+        "percent": 6.33
       }
     ],
     "dependencies": [
       {
         "name": "react-router",
-        "total_seconds": 2559.069,
-        "digital": "0:42:39",
-        "decimal": "0.70",
-        "text": "42 mins",
+        "total_seconds": 3537.032,
+        "digital": "0:58:57",
+        "decimal": "0.97",
+        "text": "58 mins",
         "hours": 0,
-        "minutes": 42,
+        "minutes": 58,
+        "seconds": 57,
+        "percent": 14.2
+      },
+      {
+        "name": "ai",
+        "total_seconds": 2101.888,
+        "digital": "0:35:01",
+        "decimal": "0.58",
+        "text": "35 mins",
+        "hours": 0,
+        "minutes": 35,
+        "seconds": 1,
+        "percent": 8.44
+      },
+      {
+        "name": "node:path",
+        "total_seconds": 2079.566,
+        "digital": "0:34:39",
+        "decimal": "0.57",
+        "text": "34 mins",
+        "hours": 0,
+        "minutes": 34,
         "seconds": 39,
-        "percent": 13.62
+        "percent": 8.35
+      },
+      {
+        "name": "chats.server",
+        "total_seconds": 1983.927,
+        "digital": "0:33:03",
+        "decimal": "0.55",
+        "text": "33 mins",
+        "hours": 0,
+        "minutes": 33,
+        "seconds": 3,
+        "percent": 7.96
+      },
+      {
+        "name": "claude-agent-sdk",
+        "total_seconds": 1782.831,
+        "digital": "0:29:42",
+        "decimal": "0.48",
+        "text": "29 mins",
+        "hours": 0,
+        "minutes": 29,
+        "seconds": 42,
+        "percent": 7.16
+      },
+      {
+        "name": "sessions.server",
+        "total_seconds": 1782.831,
+        "digital": "0:29:42",
+        "decimal": "0.48",
+        "text": "29 mins",
+        "hours": 0,
+        "minutes": 29,
+        "seconds": 42,
+        "percent": 7.16
       },
       {
         "name": "lucide-react",
@@ -104,7 +250,7 @@
         "hours": 0,
         "minutes": 28,
         "seconds": 50,
-        "percent": 9.21
+        "percent": 6.95
       },
       {
         "name": "button",
@@ -115,7 +261,7 @@
         "hours": 0,
         "minutes": 27,
         "seconds": 7,
-        "percent": 8.66
+        "percent": 6.53
       },
       {
         "name": "react",
@@ -126,40 +272,7 @@
         "hours": 0,
         "minutes": 25,
         "seconds": 43,
-        "percent": 8.21
-      },
-      {
-        "name": "ai",
-        "total_seconds": 1123.925,
-        "digital": "0:18:43",
-        "decimal": "0.30",
-        "text": "18 mins",
-        "hours": 0,
-        "minutes": 18,
-        "seconds": 43,
-        "percent": 5.98
-      },
-      {
-        "name": "chats.server",
-        "total_seconds": 1123.925,
-        "digital": "0:18:43",
-        "decimal": "0.30",
-        "text": "18 mins",
-        "hours": 0,
-        "minutes": 18,
-        "seconds": 43,
-        "percent": 5.98
-      },
-      {
-        "name": "node:path",
-        "total_seconds": 1099.645,
-        "digital": "0:18:19",
-        "decimal": "0.30",
-        "text": "18 mins",
-        "hours": 0,
-        "minutes": 18,
-        "seconds": 19,
-        "percent": 5.85
+        "percent": 6.2
       },
       {
         "name": "agents.server",
@@ -170,7 +283,7 @@
         "hours": 0,
         "minutes": 16,
         "seconds": 57,
-        "percent": 5.42
+        "percent": 4.09
       },
       {
         "name": "new-chat-dropdown",
@@ -181,7 +294,7 @@
         "hours": 0,
         "minutes": 16,
         "seconds": 23,
-        "percent": 5.23
+        "percent": 3.95
       },
       {
         "name": "sidebar",
@@ -192,29 +305,7 @@
         "hours": 0,
         "minutes": 16,
         "seconds": 23,
-        "percent": 5.23
-      },
-      {
-        "name": "claude-agent-sdk",
-        "total_seconds": 922.829,
-        "digital": "0:15:22",
-        "decimal": "0.25",
-        "text": "15 mins",
-        "hours": 0,
-        "minutes": 15,
-        "seconds": 22,
-        "percent": 4.91
-      },
-      {
-        "name": "sessions.server",
-        "total_seconds": 922.829,
-        "digital": "0:15:22",
-        "decimal": "0.25",
-        "text": "15 mins",
-        "hours": 0,
-        "minutes": 15,
-        "seconds": 22,
-        "percent": 4.91
+        "percent": 3.95
       },
       {
         "name": "input",
@@ -225,7 +316,7 @@
         "hours": 0,
         "minutes": 6,
         "seconds": 28,
-        "percent": 2.07
+        "percent": 1.56
       },
       {
         "name": "badge",
@@ -236,7 +327,18 @@
         "hours": 0,
         "minutes": 4,
         "seconds": 55,
-        "percent": 1.57
+        "percent": 1.19
+      },
+      {
+        "name": "nanoid",
+        "total_seconds": 294.777,
+        "digital": "0:04:54",
+        "decimal": "0.07",
+        "text": "4 mins",
+        "hours": 0,
+        "minutes": 4,
+        "seconds": 54,
+        "percent": 1.18
       },
       {
         "name": "textarea",
@@ -247,7 +349,7 @@
         "hours": 0,
         "minutes": 4,
         "seconds": 24,
-        "percent": 1.41
+        "percent": 1.06
       },
       {
         "name": "message",
@@ -258,7 +360,7 @@
         "hours": 0,
         "minutes": 3,
         "seconds": 21,
-        "percent": 1.07
+        "percent": 0.81
       },
       {
         "name": "suggestion",
@@ -269,7 +371,7 @@
         "hours": 0,
         "minutes": 3,
         "seconds": 21,
-        "percent": 1.07
+        "percent": 0.81
       },
       {
         "name": "conversation",
@@ -280,7 +382,7 @@
         "hours": 0,
         "minutes": 3,
         "seconds": 21,
-        "percent": 1.07
+        "percent": 0.81
       },
       {
         "name": "loader",
@@ -291,7 +393,7 @@
         "hours": 0,
         "minutes": 3,
         "seconds": 21,
-        "percent": 1.07
+        "percent": 0.81
       },
       {
         "name": "chain-of-thought",
@@ -302,7 +404,7 @@
         "hours": 0,
         "minutes": 3,
         "seconds": 21,
-        "percent": 1.07
+        "percent": 0.81
       },
       {
         "name": "prompt-input",
@@ -313,7 +415,7 @@
         "hours": 0,
         "minutes": 3,
         "seconds": 21,
-        "percent": 1.07
+        "percent": 0.81
       },
       {
         "name": "skills.server",
@@ -324,40 +426,73 @@
         "hours": 0,
         "minutes": 3,
         "seconds": 7,
-        "percent": 1
+        "percent": 0.75
       },
       {
         "name": "node:fs",
-        "total_seconds": 176.816,
-        "digital": "0:02:56",
+        "total_seconds": 178.774,
+        "digital": "0:02:58",
         "decimal": "0.03",
         "text": "2 mins",
         "hours": 0,
         "minutes": 2,
-        "seconds": 56,
-        "percent": 0.94
+        "seconds": 58,
+        "percent": 0.72
       },
       {
         "name": "react-start",
-        "total_seconds": 176.816,
-        "digital": "0:02:56",
+        "total_seconds": 178.774,
+        "digital": "0:02:58",
         "decimal": "0.03",
         "text": "2 mins",
         "hours": 0,
         "minutes": 2,
-        "seconds": 56,
-        "percent": 0.94
+        "seconds": 58,
+        "percent": 0.72
       },
       {
-        "name": "nanoid",
-        "total_seconds": 176.816,
-        "digital": "0:02:56",
-        "decimal": "0.03",
-        "text": "2 mins",
+        "name": "orchestrator.server",
+        "total_seconds": 117.961,
+        "digital": "0:01:57",
+        "decimal": "0.02",
+        "text": "1 min",
         "hours": 0,
-        "minutes": 2,
-        "seconds": 56,
-        "percent": 0.94
+        "minutes": 1,
+        "seconds": 57,
+        "percent": 0.47
+      },
+      {
+        "name": "subagent.server",
+        "total_seconds": 117.961,
+        "digital": "0:01:57",
+        "decimal": "0.02",
+        "text": "1 min",
+        "hours": 0,
+        "minutes": 1,
+        "seconds": 57,
+        "percent": 0.47
+      },
+      {
+        "name": "zod",
+        "total_seconds": 117.961,
+        "digital": "0:01:57",
+        "decimal": "0.02",
+        "text": "1 min",
+        "hours": 0,
+        "minutes": 1,
+        "seconds": 57,
+        "percent": 0.47
+      },
+      {
+        "name": "anthropic",
+        "total_seconds": 117.961,
+        "digital": "0:01:57",
+        "decimal": "0.02",
+        "text": "1 min",
+        "hours": 0,
+        "minutes": 1,
+        "seconds": 57,
+        "percent": 0.47
       },
       {
         "name": "react-use-controllable-state",
@@ -368,7 +503,7 @@
         "hours": 0,
         "minutes": 1,
         "seconds": 34,
-        "percent": 0.5
+        "percent": 0.38
       },
       {
         "name": "collapsible",
@@ -379,7 +514,7 @@
         "hours": 0,
         "minutes": 1,
         "seconds": 34,
-        "percent": 0.5
+        "percent": 0.38
       },
       {
         "name": "utils",
@@ -390,83 +525,91 @@
         "hours": 0,
         "minutes": 1,
         "seconds": 34,
-        "percent": 0.5
+        "percent": 0.38
+      },
+      {
+        "name": "deal-constants",
+        "total_seconds": 1.958,
+        "digital": "0:00:01",
+        "decimal": "0.00",
+        "text": "1 sec",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 1,
+        "percent": 0.01
+      },
+      {
+        "name": "gray-matter",
+        "total_seconds": 1.958,
+        "digital": "0:00:01",
+        "decimal": "0.00",
+        "text": "1 sec",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 1,
+        "percent": 0.01
+      },
+      {
+        "name": "deals.server",
+        "total_seconds": 0,
+        "digital": "0:00:00",
+        "decimal": "0.00",
+        "text": "0 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0,
+        "percent": 0
+      },
+      {
+        "name": "format",
+        "total_seconds": 0,
+        "digital": "0:00:00",
+        "decimal": "0.00",
+        "text": "0 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0,
+        "percent": 0
       }
     ],
     "machines": [
       {
         "name": "Anands-MacBook-Pro.local",
-        "total_seconds": 4729.166,
+        "total_seconds": 10457.269,
         "machine_name_id": "2853d459-48c8-492d-b149-b1dd5cffdcce",
-        "digital": "1:18:49",
-        "decimal": "1.30",
-        "text": "1 hr 18 mins",
-        "hours": 1,
-        "minutes": 18,
-        "seconds": 49,
+        "digital": "2:54:17",
+        "decimal": "2.90",
+        "text": "2 hrs 54 mins",
+        "hours": 2,
+        "minutes": 54,
+        "seconds": 17,
         "percent": 100
       }
     ],
-    "editors": [
+    "projects": [
       {
-        "name": "Cursor",
-        "total_seconds": 4729.166,
-        "digital": "1:18:49",
-        "decimal": "1.30",
-        "text": "1 hr 18 mins",
-        "hours": 1,
-        "minutes": 18,
-        "seconds": 49,
+        "name": "syCRM",
+        "total_seconds": 10457.269,
+        "ai_additions": 0,
+        "ai_deletions": 0,
+        "human_additions": 1184,
+        "human_deletions": 126,
+        "color": null,
+        "digital": "2:54:17",
+        "decimal": "2.90",
+        "text": "2 hrs 54 mins",
+        "hours": 2,
+        "minutes": 54,
+        "seconds": 17,
         "percent": 100
       }
     ],
-    "operating_systems": [
-      {
-        "name": "Mac",
-        "total_seconds": 4729.166,
-        "digital": "1:18:49",
-        "decimal": "1.30",
-        "text": "1 hr 18 mins",
-        "hours": 1,
-        "minutes": 18,
-        "seconds": 49,
-        "percent": 100
-      }
-    ],
-    "categories": [
-      {
-        "name": "Coding",
-        "total_seconds": 2617.604,
-        "digital": "0:43:37",
-        "decimal": "0.72",
-        "text": "43 mins",
-        "hours": 0,
-        "minutes": 43,
-        "seconds": 37,
-        "percent": 55.35
-      },
-      {
-        "name": "Writing Docs",
-        "total_seconds": 1476.307,
-        "digital": "0:24:36",
-        "decimal": "0.40",
-        "text": "24 mins",
-        "hours": 0,
-        "minutes": 24,
-        "seconds": 36,
-        "percent": 31.22
-      },
-      {
-        "name": "Building",
-        "total_seconds": 635.255,
-        "digital": "0:10:35",
-        "decimal": "0.17",
-        "text": "10 mins",
-        "hours": 0,
-        "minutes": 10,
-        "seconds": 35,
-        "percent": 13.43
-      }
-    ]
+    "range": {
+      "start": "2026-01-06T23:00:00Z",
+      "end": "2026-01-07T22:59:59Z",
+      "date": "2026-01-07",
+      "text": "Wed Jan 7th 2026",
+      "timezone": "Europe/Amsterdam"
+    }
   }
 ]
