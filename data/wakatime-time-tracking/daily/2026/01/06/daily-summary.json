@@ -1,42 +1,5 @@
 [
   {
-    "grand_total": {
-      "hours": 2,
-      "minutes": 54,
-      "total_seconds": 10457.269,
-      "digital": "2:54",
-      "decimal": "2.90",
-      "text": "2 hrs 54 mins",
-      "ai_additions": 0,
-      "ai_deletions": 0,
-      "human_additions": 1184,
-      "human_deletions": 126
-    },
-    "range": {
-      "start": "2026-01-06T23:00:00Z",
-      "end": "2026-01-07T22:59:59Z",
-      "date": "2026-01-07",
-      "text": "Wed Jan 7th 2026",
-      "timezone": "Europe/Amsterdam"
-    },
-    "projects": [
-      {
-        "name": "syCRM",
-        "total_seconds": 10457.269,
-        "ai_additions": 0,
-        "ai_deletions": 0,
-        "human_additions": 1184,
-        "human_deletions": 126,
-        "color": null,
-        "digital": "2:54:17",
-        "decimal": "2.90",
-        "text": "2 hrs 54 mins",
-        "hours": 2,
-        "minutes": 54,
-        "seconds": 17,
-        "percent": 100
-      }
-    ],
     "languages": [
       {
         "name": "Markdown",
@@ -136,6 +99,79 @@
         "minutes": 0,
         "seconds": 0,
         "percent": 0
+      }
+    ],
+    "grand_total": {
+      "hours": 2,
+      "minutes": 54,
+      "total_seconds": 10457.269,
+      "digital": "2:54",
+      "decimal": "2.90",
+      "text": "2 hrs 54 mins",
+      "ai_additions": 0,
+      "ai_deletions": 0,
+      "human_additions": 1184,
+      "human_deletions": 126
+    },
+    "editors": [
+      {
+        "name": "Cursor",
+        "total_seconds": 10457.269,
+        "digital": "2:54:17",
+        "decimal": "2.90",
+        "text": "2 hrs 54 mins",
+        "hours": 2,
+        "minutes": 54,
+        "seconds": 17,
+        "percent": 100
+      }
+    ],
+    "operating_systems": [
+      {
+        "name": "Mac",
+        "total_seconds": 10457.269,
+        "digital": "2:54:17",
+        "decimal": "2.90",
+        "text": "2 hrs 54 mins",
+        "hours": 2,
+        "minutes": 54,
+        "seconds": 17,
+        "percent": 100
+      }
+    ],
+    "categories": [
+      {
+        "name": "Coding",
+        "total_seconds": 5521.241,
+        "digital": "1:32:01",
+        "decimal": "1.53",
+        "text": "1 hr 32 mins",
+        "hours": 1,
+        "minutes": 32,
+        "seconds": 1,
+        "percent": 52.8
+      },
+      {
+        "name": "Writing Docs",
+        "total_seconds": 4274.185,
+        "digital": "1:11:14",
+        "decimal": "1.18",
+        "text": "1 hr 11 mins",
+        "hours": 1,
+        "minutes": 11,
+        "seconds": 14,
+        "percent": 40.87
+      },
+      {
+        "name": "Building",
+        "total_seconds": 661.843,
+        "digital": "0:11:01",
+        "decimal": "0.18",
+        "text": "11 mins",
+        "hours": 0,
+        "minutes": 11,
+        "seconds": 1,
+        "percent": 6.33
       }
     ],
     "dependencies": [
@@ -550,10 +586,15 @@
         "percent": 100
       }
     ],
-    "editors": [
+    "projects": [
       {
-        "name": "Cursor",
+        "name": "syCRM",
         "total_seconds": 10457.269,
+        "ai_additions": 0,
+        "ai_deletions": 0,
+        "human_additions": 1184,
+        "human_deletions": 126,
+        "color": null,
         "digital": "2:54:17",
         "decimal": "2.90",
         "text": "2 hrs 54 mins",
@@ -563,53 +604,12 @@
         "percent": 100
       }
     ],
-    "operating_systems": [
-      {
-        "name": "Mac",
-        "total_seconds": 10457.269,
-        "digital": "2:54:17",
-        "decimal": "2.90",
-        "text": "2 hrs 54 mins",
-        "hours": 2,
-        "minutes": 54,
-        "seconds": 17,
-        "percent": 100
-      }
-    ],
-    "categories": [
-      {
-        "name": "Coding",
-        "total_seconds": 5521.241,
-        "digital": "1:32:01",
-        "decimal": "1.53",
-        "text": "1 hr 32 mins",
-        "hours": 1,
-        "minutes": 32,
-        "seconds": 1,
-        "percent": 52.8
-      },
-      {
-        "name": "Writing Docs",
-        "total_seconds": 4274.185,
-        "digital": "1:11:14",
-        "decimal": "1.18",
-        "text": "1 hr 11 mins",
-        "hours": 1,
-        "minutes": 11,
-        "seconds": 14,
-        "percent": 40.87
-      },
-      {
-        "name": "Building",
-        "total_seconds": 661.843,
-        "digital": "0:11:01",
-        "decimal": "0.18",
-        "text": "11 mins",
-        "hours": 0,
-        "minutes": 11,
-        "seconds": 1,
-        "percent": 6.33
-      }
-    ]
+    "range": {
+      "start": "2026-01-06T23:00:00Z",
+      "end": "2026-01-07T22:59:59Z",
+      "date": "2026-01-07",
+      "text": "Wed Jan 7th 2026",
+      "timezone": "Europe/Amsterdam"
+    }
   }
 ]

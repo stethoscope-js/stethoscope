@@ -1,90 +1,5 @@
 [
   {
-    "grand_total": {
-      "hours": 2,
-      "minutes": 27,
-      "total_seconds": 8843.014,
-      "digital": "2:27",
-      "decimal": "2.45",
-      "text": "2 hrs 27 mins",
-      "ai_additions": 0,
-      "ai_deletions": 0,
-      "human_additions": 2043,
-      "human_deletions": 325
-    },
-    "range": {
-      "start": "2026-01-07T23:00:00Z",
-      "end": "2026-01-08T22:59:59Z",
-      "date": "2026-01-08",
-      "text": "Thu Jan 8th 2026",
-      "timezone": "Europe/Amsterdam"
-    },
-    "projects": [
-      {
-        "name": "airweave",
-        "total_seconds": 4385.08,
-        "ai_additions": 0,
-        "ai_deletions": 0,
-        "human_additions": 105,
-        "human_deletions": 271,
-        "color": null,
-        "digital": "1:13:05",
-        "decimal": "1.22",
-        "text": "1 hr 13 mins",
-        "hours": 1,
-        "minutes": 13,
-        "seconds": 5,
-        "percent": 49.59
-      },
-      {
-        "name": "helios",
-        "total_seconds": 2809.974,
-        "ai_additions": 0,
-        "ai_deletions": 0,
-        "human_additions": 1836,
-        "human_deletions": 19,
-        "color": null,
-        "digital": "0:46:49",
-        "decimal": "0.77",
-        "text": "46 mins",
-        "hours": 0,
-        "minutes": 46,
-        "seconds": 49,
-        "percent": 31.78
-      },
-      {
-        "name": "continuous-claude",
-        "total_seconds": 1097.088,
-        "ai_additions": 0,
-        "ai_deletions": 0,
-        "human_additions": 102,
-        "human_deletions": 35,
-        "color": null,
-        "digital": "0:18:17",
-        "decimal": "0.30",
-        "text": "18 mins",
-        "hours": 0,
-        "minutes": 18,
-        "seconds": 17,
-        "percent": 12.41
-      },
-      {
-        "name": "syCRM",
-        "total_seconds": 550.872,
-        "ai_additions": 0,
-        "ai_deletions": 0,
-        "human_additions": 0,
-        "human_deletions": 0,
-        "color": null,
-        "digital": "0:09:10",
-        "decimal": "0.15",
-        "text": "9 mins",
-        "hours": 0,
-        "minutes": 9,
-        "seconds": 10,
-        "percent": 6.23
-      }
-    ],
     "languages": [
       {
         "name": "Markdown",
@@ -195,6 +110,79 @@
         "minutes": 0,
         "seconds": 0,
         "percent": 0
+      }
+    ],
+    "grand_total": {
+      "hours": 2,
+      "minutes": 27,
+      "total_seconds": 8843.014,
+      "digital": "2:27",
+      "decimal": "2.45",
+      "text": "2 hrs 27 mins",
+      "ai_additions": 0,
+      "ai_deletions": 0,
+      "human_additions": 2043,
+      "human_deletions": 325
+    },
+    "editors": [
+      {
+        "name": "Cursor",
+        "total_seconds": 8843.014,
+        "digital": "2:27:23",
+        "decimal": "2.45",
+        "text": "2 hrs 27 mins",
+        "hours": 2,
+        "minutes": 27,
+        "seconds": 23,
+        "percent": 100
+      }
+    ],
+    "operating_systems": [
+      {
+        "name": "Mac",
+        "total_seconds": 8843.014,
+        "digital": "2:27:23",
+        "decimal": "2.45",
+        "text": "2 hrs 27 mins",
+        "hours": 2,
+        "minutes": 27,
+        "seconds": 23,
+        "percent": 100
+      }
+    ],
+    "categories": [
+      {
+        "name": "Coding",
+        "total_seconds": 4858.679,
+        "digital": "1:20:58",
+        "decimal": "1.33",
+        "text": "1 hr 20 mins",
+        "hours": 1,
+        "minutes": 20,
+        "seconds": 58,
+        "percent": 54.94
+      },
+      {
+        "name": "Writing Docs",
+        "total_seconds": 3684.138,
+        "digital": "1:01:24",
+        "decimal": "1.02",
+        "text": "1 hr 1 min",
+        "hours": 1,
+        "minutes": 1,
+        "seconds": 24,
+        "percent": 41.66
+      },
+      {
+        "name": "Writing Tests",
+        "total_seconds": 300.197,
+        "digital": "0:05:00",
+        "decimal": "0.08",
+        "text": "5 mins",
+        "hours": 0,
+        "minutes": 5,
+        "seconds": 0,
+        "percent": 3.39
       }
     ],
     "dependencies": [
@@ -1599,66 +1587,78 @@
         "percent": 100
       }
     ],
-    "editors": [
+    "projects": [
       {
-        "name": "Cursor",
-        "total_seconds": 8843.014,
-        "digital": "2:27:23",
-        "decimal": "2.45",
-        "text": "2 hrs 27 mins",
-        "hours": 2,
-        "minutes": 27,
-        "seconds": 23,
-        "percent": 100
-      }
-    ],
-    "operating_systems": [
-      {
-        "name": "Mac",
-        "total_seconds": 8843.014,
-        "digital": "2:27:23",
-        "decimal": "2.45",
-        "text": "2 hrs 27 mins",
-        "hours": 2,
-        "minutes": 27,
-        "seconds": 23,
-        "percent": 100
-      }
-    ],
-    "categories": [
-      {
-        "name": "Coding",
-        "total_seconds": 4858.679,
-        "digital": "1:20:58",
-        "decimal": "1.33",
-        "text": "1 hr 20 mins",
+        "name": "airweave",
+        "total_seconds": 4385.08,
+        "ai_additions": 0,
+        "ai_deletions": 0,
+        "human_additions": 105,
+        "human_deletions": 271,
+        "color": null,
+        "digital": "1:13:05",
+        "decimal": "1.22",
+        "text": "1 hr 13 mins",
         "hours": 1,
-        "minutes": 20,
-        "seconds": 58,
-        "percent": 54.94
+        "minutes": 13,
+        "seconds": 5,
+        "percent": 49.59
       },
       {
-        "name": "Writing Docs",
-        "total_seconds": 3684.138,
-        "digital": "1:01:24",
-        "decimal": "1.02",
-        "text": "1 hr 1 min",
-        "hours": 1,
-        "minutes": 1,
-        "seconds": 24,
-        "percent": 41.66
-      },
-      {
-        "name": "Writing Tests",
-        "total_seconds": 300.197,
-        "digital": "0:05:00",
-        "decimal": "0.08",
-        "text": "5 mins",
+        "name": "helios",
+        "total_seconds": 2809.974,
+        "ai_additions": 0,
+        "ai_deletions": 0,
+        "human_additions": 1836,
+        "human_deletions": 19,
+        "color": null,
+        "digital": "0:46:49",
+        "decimal": "0.77",
+        "text": "46 mins",
         "hours": 0,
-        "minutes": 5,
-        "seconds": 0,
-        "percent": 3.39
+        "minutes": 46,
+        "seconds": 49,
+        "percent": 31.78
+      },
+      {
+        "name": "continuous-claude",
+        "total_seconds": 1097.088,
+        "ai_additions": 0,
+        "ai_deletions": 0,
+        "human_additions": 102,
+        "human_deletions": 35,
+        "color": null,
+        "digital": "0:18:17",
+        "decimal": "0.30",
+        "text": "18 mins",
+        "hours": 0,
+        "minutes": 18,
+        "seconds": 17,
+        "percent": 12.41
+      },
+      {
+        "name": "syCRM",
+        "total_seconds": 550.872,
+        "ai_additions": 0,
+        "ai_deletions": 0,
+        "human_additions": 0,
+        "human_deletions": 0,
+        "color": null,
+        "digital": "0:09:10",
+        "decimal": "0.15",
+        "text": "9 mins",
+        "hours": 0,
+        "minutes": 9,
+        "seconds": 10,
+        "percent": 6.23
       }
-    ]
+    ],
+    "range": {
+      "start": "2026-01-07T23:00:00Z",
+      "end": "2026-01-08T22:59:59Z",
+      "date": "2026-01-08",
+      "text": "Thu Jan 8th 2026",
+      "timezone": "Europe/Amsterdam"
+    }
   }
 ]
