@@ -1,30 +1,472 @@
 [
   {
+    "languages": [
+      {
+        "name": "TypeScript",
+        "total_seconds": 633.248,
+        "digital": "0:10:33",
+        "decimal": "0.17",
+        "text": "10 mins",
+        "hours": 0,
+        "minutes": 10,
+        "seconds": 33,
+        "percent": 73.84
+      },
+      {
+        "name": "YAML",
+        "total_seconds": 172.781,
+        "digital": "0:02:52",
+        "decimal": "0.03",
+        "text": "2 mins",
+        "hours": 0,
+        "minutes": 2,
+        "seconds": 52,
+        "percent": 20.15
+      },
+      {
+        "name": "Bash",
+        "total_seconds": 48.083,
+        "digital": "0:00:48",
+        "decimal": "0.00",
+        "text": "48 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 48,
+        "percent": 5.61
+      },
+      {
+        "name": "Other",
+        "total_seconds": 3.523,
+        "digital": "0:00:03",
+        "decimal": "0.00",
+        "text": "3 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 3,
+        "percent": 0.41
+      }
+    ],
     "grand_total": {
       "hours": 0,
-      "minutes": 0,
-      "total_seconds": 0,
-      "digital": "0:00",
-      "decimal": "0.00",
-      "text": "0 secs",
+      "minutes": 14,
+      "total_seconds": 857.635,
+      "digital": "0:14",
+      "decimal": "0.23",
+      "text": "14 mins",
       "ai_additions": 0,
       "ai_deletions": 0,
-      "human_additions": 0,
-      "human_deletions": 0
+      "human_additions": 9,
+      "human_deletions": 2
     },
+    "editors": [
+      {
+        "name": "Cursor",
+        "total_seconds": 857.635,
+        "digital": "0:14:17",
+        "decimal": "0.23",
+        "text": "14 mins",
+        "hours": 0,
+        "minutes": 14,
+        "seconds": 17,
+        "percent": 100
+      }
+    ],
+    "operating_systems": [
+      {
+        "name": "Mac",
+        "total_seconds": 857.635,
+        "digital": "0:14:17",
+        "decimal": "0.23",
+        "text": "14 mins",
+        "hours": 0,
+        "minutes": 14,
+        "seconds": 17,
+        "percent": 100
+      }
+    ],
+    "categories": [
+      {
+        "name": "Coding",
+        "total_seconds": 857.635,
+        "digital": "0:14:17",
+        "decimal": "0.23",
+        "text": "14 mins",
+        "hours": 0,
+        "minutes": 14,
+        "seconds": 17,
+        "percent": 100
+      }
+    ],
+    "dependencies": [
+      {
+        "name": "react",
+        "total_seconds": 633.248,
+        "digital": "0:10:33",
+        "decimal": "0.17",
+        "text": "10 mins",
+        "hours": 0,
+        "minutes": 10,
+        "seconds": 33,
+        "percent": 8.82
+      },
+      {
+        "name": "ui",
+        "total_seconds": 630.771,
+        "digital": "0:10:30",
+        "decimal": "0.17",
+        "text": "10 mins",
+        "hours": 0,
+        "minutes": 10,
+        "seconds": 30,
+        "percent": 8.78
+      },
+      {
+        "name": "react-router",
+        "total_seconds": 623.85,
+        "digital": "0:10:23",
+        "decimal": "0.17",
+        "text": "10 mins",
+        "hours": 0,
+        "minutes": 10,
+        "seconds": 23,
+        "percent": 8.68
+      },
+      {
+        "name": "api",
+        "total_seconds": 561.396,
+        "digital": "0:09:21",
+        "decimal": "0.15",
+        "text": "9 mins",
+        "hours": 0,
+        "minutes": 9,
+        "seconds": 21,
+        "percent": 7.81
+      },
+      {
+        "name": "lucide-react",
+        "total_seconds": 561.396,
+        "digital": "0:09:21",
+        "decimal": "0.15",
+        "text": "9 mins",
+        "hours": 0,
+        "minutes": 9,
+        "seconds": 21,
+        "percent": 7.81
+      },
+      {
+        "name": "use-toast",
+        "total_seconds": 561.396,
+        "digital": "0:09:21",
+        "decimal": "0.15",
+        "text": "9 mins",
+        "hours": 0,
+        "minutes": 9,
+        "seconds": 21,
+        "percent": 7.81
+      },
+      {
+        "name": "dictation-button",
+        "total_seconds": 561.396,
+        "digital": "0:09:21",
+        "decimal": "0.15",
+        "text": "9 mins",
+        "hours": 0,
+        "minutes": 9,
+        "seconds": 21,
+        "percent": 7.81
+      },
+      {
+        "name": "use-dictation",
+        "total_seconds": 561.396,
+        "digital": "0:09:21",
+        "decimal": "0.15",
+        "text": "9 mins",
+        "hours": 0,
+        "minutes": 9,
+        "seconds": 21,
+        "percent": 7.81
+      },
+      {
+        "name": "examples-config",
+        "total_seconds": 554.475,
+        "digital": "0:09:14",
+        "decimal": "0.15",
+        "text": "9 mins",
+        "hours": 0,
+        "minutes": 9,
+        "seconds": 14,
+        "percent": 7.72
+      },
+      {
+        "name": "tanstack-react-start",
+        "total_seconds": 554.475,
+        "digital": "0:09:14",
+        "decimal": "0.15",
+        "text": "9 mins",
+        "hours": 0,
+        "minutes": 9,
+        "seconds": 14,
+        "percent": 7.72
+      },
+      {
+        "name": "projects-list",
+        "total_seconds": 554.475,
+        "digital": "0:09:14",
+        "decimal": "0.15",
+        "text": "9 mins",
+        "hours": 0,
+        "minutes": 9,
+        "seconds": 14,
+        "percent": 7.72
+      },
+      {
+        "name": "constants",
+        "total_seconds": 554.475,
+        "digital": "0:09:14",
+        "decimal": "0.15",
+        "text": "9 mins",
+        "hours": 0,
+        "minutes": 9,
+        "seconds": 14,
+        "percent": 7.72
+      },
+      {
+        "name": "status-badge",
+        "total_seconds": 69.375,
+        "digital": "0:01:09",
+        "decimal": "0.02",
+        "text": "1 min",
+        "hours": 0,
+        "minutes": 1,
+        "seconds": 9,
+        "percent": 0.97
+      },
+      {
+        "name": "use-companies",
+        "total_seconds": 69.375,
+        "digital": "0:01:09",
+        "decimal": "0.02",
+        "text": "1 min",
+        "hours": 0,
+        "minutes": 1,
+        "seconds": 9,
+        "percent": 0.97
+      },
+      {
+        "name": "format-utils",
+        "total_seconds": 69.375,
+        "digital": "0:01:09",
+        "decimal": "0.02",
+        "text": "1 min",
+        "hours": 0,
+        "minutes": 1,
+        "seconds": 9,
+        "percent": 0.97
+      },
+      {
+        "name": "streaming-store",
+        "total_seconds": 6.921,
+        "digital": "0:00:06",
+        "decimal": "0.00",
+        "text": "6 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 6,
+        "percent": 0.1
+      },
+      {
+        "name": "skeletons",
+        "total_seconds": 6.921,
+        "digital": "0:00:06",
+        "decimal": "0.00",
+        "text": "6 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 6,
+        "percent": 0.1
+      },
+      {
+        "name": "conversation-ui-component",
+        "total_seconds": 6.921,
+        "digital": "0:00:06",
+        "decimal": "0.00",
+        "text": "6 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 6,
+        "percent": 0.1
+      },
+      {
+        "name": "mock-data",
+        "total_seconds": 6.921,
+        "digital": "0:00:06",
+        "decimal": "0.00",
+        "text": "6 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 6,
+        "percent": 0.1
+      },
+      {
+        "name": "message-utils",
+        "total_seconds": 6.921,
+        "digital": "0:00:06",
+        "decimal": "0.00",
+        "text": "6 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 6,
+        "percent": 0.1
+      },
+      {
+        "name": "date-utils",
+        "total_seconds": 6.921,
+        "digital": "0:00:06",
+        "decimal": "0.00",
+        "text": "6 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 6,
+        "percent": 0.1
+      },
+      {
+        "name": "attachment-badge",
+        "total_seconds": 6.921,
+        "digital": "0:00:06",
+        "decimal": "0.00",
+        "text": "6 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 6,
+        "percent": 0.1
+      },
+      {
+        "name": "chat-markdown",
+        "total_seconds": 6.921,
+        "digital": "0:00:06",
+        "decimal": "0.00",
+        "text": "6 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 6,
+        "percent": 0.1
+      },
+      {
+        "name": "types",
+        "total_seconds": 2.477,
+        "digital": "0:00:02",
+        "decimal": "0.00",
+        "text": "2 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 2,
+        "percent": 0.03
+      },
+      {
+        "name": "button",
+        "total_seconds": 2.477,
+        "digital": "0:00:02",
+        "decimal": "0.00",
+        "text": "2 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 2,
+        "percent": 0.03
+      },
+      {
+        "name": "class-variance-authority",
+        "total_seconds": 2.477,
+        "digital": "0:00:02",
+        "decimal": "0.00",
+        "text": "2 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 2,
+        "percent": 0.03
+      }
+    ],
+    "machines": [
+      {
+        "name": "Anands-MBP.home",
+        "total_seconds": 847.345,
+        "machine_name_id": "1ff3795f-c752-4858-9fa4-7090240f0ab3",
+        "digital": "0:14:07",
+        "decimal": "0.23",
+        "text": "14 mins",
+        "hours": 0,
+        "minutes": 14,
+        "seconds": 7,
+        "percent": 98.8
+      },
+      {
+        "name": "Anands-MacBook-Pro.local",
+        "total_seconds": 10.29,
+        "machine_name_id": "c878e0e8-caff-4c8c-81ae-79bfd714298c",
+        "digital": "0:00:10",
+        "decimal": "0.00",
+        "text": "10 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 10,
+        "percent": 1.2
+      }
+    ],
+    "projects": [
+      {
+        "name": "kernel",
+        "total_seconds": 767.864,
+        "ai_additions": 0,
+        "ai_deletions": 0,
+        "human_additions": 9,
+        "human_deletions": 2,
+        "color": null,
+        "digital": "0:12:47",
+        "decimal": "0.20",
+        "text": "12 mins",
+        "hours": 0,
+        "minutes": 12,
+        "seconds": 47,
+        "percent": 89.53
+      },
+      {
+        "name": "sycamore-internal-workspace",
+        "total_seconds": 89.771,
+        "ai_additions": 0,
+        "ai_deletions": 0,
+        "human_additions": 0,
+        "human_deletions": 0,
+        "color": null,
+        "digital": "0:01:29",
+        "decimal": "0.02",
+        "text": "1 min",
+        "hours": 0,
+        "minutes": 1,
+        "seconds": 29,
+        "percent": 10.47
+      },
+      {
+        "name": "Unknown Project",
+        "total_seconds": 0,
+        "ai_additions": 0,
+        "ai_deletions": 0,
+        "human_additions": 0,
+        "human_deletions": 0,
+        "color": null,
+        "digital": "0:00:00",
+        "decimal": "0.00",
+        "text": "0 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0,
+        "percent": 0
+      }
+    ],
     "range": {
       "start": "2026-02-05T23:00:00Z",
       "end": "2026-02-06T22:59:59Z",
       "date": "2026-02-06",
       "text": "Fri Feb 6th 2026",
       "timezone": "Europe/Amsterdam"
-    },
-    "projects": [],
-    "languages": [],
-    "dependencies": [],
-    "machines": [],
-    "editors": [],
-    "operating_systems": [],
-    "categories": []
+    }
   }
 ]
