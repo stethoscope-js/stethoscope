@@ -1,30 +1,240 @@
 [
   {
+    "languages": [
+      {
+        "name": "HTML",
+        "total_seconds": 703.671,
+        "digital": "0:11:43",
+        "decimal": "0.18",
+        "text": "11 mins",
+        "hours": 0,
+        "minutes": 11,
+        "seconds": 43,
+        "percent": 26.86
+      },
+      {
+        "name": "CSV",
+        "total_seconds": 642.086,
+        "digital": "0:10:42",
+        "decimal": "0.17",
+        "text": "10 mins",
+        "hours": 0,
+        "minutes": 10,
+        "seconds": 42,
+        "percent": 24.51
+      },
+      {
+        "name": "JavaScript",
+        "total_seconds": 405.388,
+        "digital": "0:06:45",
+        "decimal": "0.10",
+        "text": "6 mins",
+        "hours": 0,
+        "minutes": 6,
+        "seconds": 45,
+        "percent": 15.48
+      },
+      {
+        "name": "Markdown",
+        "total_seconds": 343.954,
+        "digital": "0:05:43",
+        "decimal": "0.08",
+        "text": "5 mins",
+        "hours": 0,
+        "minutes": 5,
+        "seconds": 43,
+        "percent": 13.13
+      },
+      {
+        "name": "YAML",
+        "total_seconds": 276.202,
+        "digital": "0:04:36",
+        "decimal": "0.07",
+        "text": "4 mins",
+        "hours": 0,
+        "minutes": 4,
+        "seconds": 36,
+        "percent": 10.54
+      },
+      {
+        "name": "Other",
+        "total_seconds": 245.397,
+        "digital": "0:04:05",
+        "decimal": "0.07",
+        "text": "4 mins",
+        "hours": 0,
+        "minutes": 4,
+        "seconds": 5,
+        "percent": 9.37
+      },
+      {
+        "name": "Git Config",
+        "total_seconds": 2.677,
+        "digital": "0:00:02",
+        "decimal": "0.00",
+        "text": "2 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 2,
+        "percent": 0.1
+      }
+    ],
     "grand_total": {
       "hours": 0,
-      "minutes": 0,
-      "total_seconds": 0,
-      "digital": "0:00",
-      "decimal": "0.00",
-      "text": "0 secs",
+      "minutes": 43,
+      "total_seconds": 2619.375,
+      "digital": "0:43",
+      "decimal": "0.72",
+      "text": "43 mins",
       "ai_additions": 0,
       "ai_deletions": 0,
-      "human_additions": 0,
-      "human_deletions": 0
+      "human_additions": 327,
+      "human_deletions": 135
     },
+    "editors": [
+      {
+        "name": "Cursor",
+        "total_seconds": 2619.375,
+        "digital": "0:43:39",
+        "decimal": "0.72",
+        "text": "43 mins",
+        "hours": 0,
+        "minutes": 43,
+        "seconds": 39,
+        "percent": 100
+      }
+    ],
+    "operating_systems": [
+      {
+        "name": "Mac",
+        "total_seconds": 2619.375,
+        "digital": "0:43:39",
+        "decimal": "0.72",
+        "text": "43 mins",
+        "hours": 0,
+        "minutes": 43,
+        "seconds": 39,
+        "percent": 100
+      }
+    ],
+    "categories": [
+      {
+        "name": "Coding",
+        "total_seconds": 2275.421,
+        "digital": "0:37:55",
+        "decimal": "0.62",
+        "text": "37 mins",
+        "hours": 0,
+        "minutes": 37,
+        "seconds": 55,
+        "percent": 86.87
+      },
+      {
+        "name": "Writing Docs",
+        "total_seconds": 343.954,
+        "digital": "0:05:43",
+        "decimal": "0.08",
+        "text": "5 mins",
+        "hours": 0,
+        "minutes": 5,
+        "seconds": 43,
+        "percent": 13.13
+      }
+    ],
+    "dependencies": [
+      {
+        "name": "fs",
+        "total_seconds": 405.388,
+        "digital": "0:06:45",
+        "decimal": "0.10",
+        "text": "6 mins",
+        "hours": 0,
+        "minutes": 6,
+        "seconds": 45,
+        "percent": 87.28
+      },
+      {
+        "name": "path",
+        "total_seconds": 59.066,
+        "digital": "0:00:59",
+        "decimal": "0.00",
+        "text": "59 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 59,
+        "percent": 12.72
+      }
+    ],
+    "machines": [
+      {
+        "name": "Anands-MacBook-Pro.local",
+        "total_seconds": 2619.375,
+        "machine_name_id": "79c5358c-96dc-4e1a-9e21-04c686134bc6",
+        "digital": "0:43:39",
+        "decimal": "0.72",
+        "text": "43 mins",
+        "hours": 0,
+        "minutes": 43,
+        "seconds": 39,
+        "percent": 100
+      }
+    ],
+    "projects": [
+      {
+        "name": "health",
+        "total_seconds": 1393.776,
+        "ai_additions": 0,
+        "ai_deletions": 0,
+        "human_additions": 244,
+        "human_deletions": 135,
+        "color": null,
+        "digital": "0:23:13",
+        "decimal": "0.38",
+        "text": "23 mins",
+        "hours": 0,
+        "minutes": 23,
+        "seconds": 13,
+        "percent": 53.21
+      },
+      {
+        "name": "website",
+        "total_seconds": 980.202,
+        "ai_additions": 0,
+        "ai_deletions": 0,
+        "human_additions": 83,
+        "human_deletions": 0,
+        "color": null,
+        "digital": "0:16:20",
+        "decimal": "0.27",
+        "text": "16 mins",
+        "hours": 0,
+        "minutes": 16,
+        "seconds": 20,
+        "percent": 37.42
+      },
+      {
+        "name": "Unknown Project",
+        "total_seconds": 245.397,
+        "ai_additions": 0,
+        "ai_deletions": 0,
+        "human_additions": 0,
+        "human_deletions": 0,
+        "color": null,
+        "digital": "0:04:05",
+        "decimal": "0.07",
+        "text": "4 mins",
+        "hours": 0,
+        "minutes": 4,
+        "seconds": 5,
+        "percent": 9.37
+      }
+    ],
     "range": {
       "start": "2026-03-05T23:00:00Z",
       "end": "2026-03-06T22:59:59Z",
       "date": "2026-03-06",
       "text": "Fri Mar 6th 2026",
       "timezone": "Europe/Amsterdam"
-    },
-    "projects": [],
-    "languages": [],
-    "dependencies": [],
-    "machines": [],
-    "editors": [],
-    "operating_systems": [],
-    "categories": []
+    }
   }
 ]
