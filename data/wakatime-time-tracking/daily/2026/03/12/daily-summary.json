@@ -1,0 +1,444 @@
+[
+  {
+    "grand_total": {
+      "hours": 1,
+      "minutes": 23,
+      "total_seconds": 5009.664,
+      "digital": "1:23",
+      "decimal": "1.38",
+      "text": "1 hr 23 mins",
+      "ai_additions": 1800,
+      "ai_deletions": 30,
+      "human_additions": 50,
+      "human_deletions": 0
+    },
+    "range": {
+      "start": "2026-03-12T23:00:00Z",
+      "end": "2026-03-13T22:59:59Z",
+      "date": "2026-03-13",
+      "text": "Fri Mar 13th 2026",
+      "timezone": "Europe/Amsterdam"
+    },
+    "projects": [
+      {
+        "name": "matcha",
+        "total_seconds": 4926.001,
+        "ai_additions": 1800,
+        "ai_deletions": 30,
+        "human_additions": 50,
+        "human_deletions": 0,
+        "color": null,
+        "digital": "1:22:06",
+        "decimal": "1.37",
+        "text": "1 hr 22 mins",
+        "hours": 1,
+        "minutes": 22,
+        "seconds": 6,
+        "percent": 98.33
+      },
+      {
+        "name": "Unknown Project",
+        "total_seconds": 83.663,
+        "ai_additions": 0,
+        "ai_deletions": 0,
+        "human_additions": 0,
+        "human_deletions": 0,
+        "color": null,
+        "digital": "0:01:23",
+        "decimal": "0.02",
+        "text": "1 min",
+        "hours": 0,
+        "minutes": 1,
+        "seconds": 23,
+        "percent": 1.67
+      }
+    ],
+    "languages": [
+      {
+        "name": "TypeScript",
+        "total_seconds": 2539.542,
+        "digital": "0:42:19",
+        "decimal": "0.70",
+        "text": "42 mins",
+        "hours": 0,
+        "minutes": 42,
+        "seconds": 19,
+        "percent": 50.69
+      },
+      {
+        "name": "Markdown",
+        "total_seconds": 2434.961,
+        "digital": "0:40:34",
+        "decimal": "0.67",
+        "text": "40 mins",
+        "hours": 0,
+        "minutes": 40,
+        "seconds": 34,
+        "percent": 48.61
+      },
+      {
+        "name": "JSON",
+        "total_seconds": 35.161,
+        "digital": "0:00:35",
+        "decimal": "0.00",
+        "text": "35 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 35,
+        "percent": 0.7
+      }
+    ],
+    "dependencies": [
+      {
+        "name": "types",
+        "total_seconds": 1293.324,
+        "digital": "0:21:33",
+        "decimal": "0.35",
+        "text": "21 mins",
+        "hours": 0,
+        "minutes": 21,
+        "seconds": 33,
+        "percent": 19.29
+      },
+      {
+        "name": "logger",
+        "total_seconds": 749.751,
+        "digital": "0:12:29",
+        "decimal": "0.20",
+        "text": "12 mins",
+        "hours": 0,
+        "minutes": 12,
+        "seconds": 29,
+        "percent": 11.18
+      },
+      {
+        "name": "entityRegistry",
+        "total_seconds": 749.751,
+        "digital": "0:12:29",
+        "decimal": "0.20",
+        "text": "12 mins",
+        "hours": 0,
+        "minutes": 12,
+        "seconds": 29,
+        "percent": 11.18
+      },
+      {
+        "name": "hono",
+        "total_seconds": 749.751,
+        "digital": "0:12:29",
+        "decimal": "0.20",
+        "text": "12 mins",
+        "hours": 0,
+        "minutes": 12,
+        "seconds": 29,
+        "percent": 11.18
+      },
+      {
+        "name": "streaming",
+        "total_seconds": 705.667,
+        "digital": "0:11:45",
+        "decimal": "0.18",
+        "text": "11 mins",
+        "hours": 0,
+        "minutes": 11,
+        "seconds": 45,
+        "percent": 10.52
+      },
+      {
+        "name": "claude-agent-sdk",
+        "total_seconds": 705.667,
+        "digital": "0:11:45",
+        "decimal": "0.18",
+        "text": "11 mins",
+        "hours": 0,
+        "minutes": 11,
+        "seconds": 45,
+        "percent": 10.52
+      },
+      {
+        "name": "utils",
+        "total_seconds": 473.032,
+        "digital": "0:07:53",
+        "decimal": "0.12",
+        "text": "7 mins",
+        "hours": 0,
+        "minutes": 7,
+        "seconds": 53,
+        "percent": 7.05
+      },
+      {
+        "name": "react",
+        "total_seconds": 473.032,
+        "digital": "0:07:53",
+        "decimal": "0.12",
+        "text": "7 mins",
+        "hours": 0,
+        "minutes": 7,
+        "seconds": 53,
+        "percent": 7.05
+      },
+      {
+        "name": "child_process",
+        "total_seconds": 236.575,
+        "digital": "0:03:56",
+        "decimal": "0.05",
+        "text": "3 mins",
+        "hours": 0,
+        "minutes": 3,
+        "seconds": 56,
+        "percent": 3.53
+      },
+      {
+        "name": "workflows",
+        "total_seconds": 44.084,
+        "digital": "0:00:44",
+        "decimal": "0.00",
+        "text": "44 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 44,
+        "percent": 0.66
+      },
+      {
+        "name": "loadInstanceConfig",
+        "total_seconds": 44.084,
+        "digital": "0:00:44",
+        "decimal": "0.00",
+        "text": "44 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 44,
+        "percent": 0.66
+      },
+      {
+        "name": "attachments",
+        "total_seconds": 44.084,
+        "digital": "0:00:44",
+        "decimal": "0.00",
+        "text": "44 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 44,
+        "percent": 0.66
+      },
+      {
+        "name": "interface",
+        "total_seconds": 44.084,
+        "digital": "0:00:44",
+        "decimal": "0.00",
+        "text": "44 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 44,
+        "percent": 0.66
+      },
+      {
+        "name": "factory",
+        "total_seconds": 44.084,
+        "digital": "0:00:44",
+        "decimal": "0.00",
+        "text": "44 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 44,
+        "percent": 0.66
+      },
+      {
+        "name": "routes",
+        "total_seconds": 44.084,
+        "digital": "0:00:44",
+        "decimal": "0.00",
+        "text": "44 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 44,
+        "percent": 0.66
+      },
+      {
+        "name": "assistant",
+        "total_seconds": 44.084,
+        "digital": "0:00:44",
+        "decimal": "0.00",
+        "text": "44 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 44,
+        "percent": 0.66
+      },
+      {
+        "name": "db",
+        "total_seconds": 44.084,
+        "digital": "0:00:44",
+        "decimal": "0.00",
+        "text": "44 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 44,
+        "percent": 0.66
+      },
+      {
+        "name": "bun-sqlite",
+        "total_seconds": 44.084,
+        "digital": "0:00:44",
+        "decimal": "0.00",
+        "text": "44 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 44,
+        "percent": 0.66
+      },
+      {
+        "name": "refs",
+        "total_seconds": 44.084,
+        "digital": "0:00:44",
+        "decimal": "0.00",
+        "text": "44 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 44,
+        "percent": 0.66
+      },
+      {
+        "name": "@types/bun",
+        "total_seconds": 35.161,
+        "digital": "0:00:35",
+        "decimal": "0.00",
+        "text": "35 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 35,
+        "percent": 0.52
+      },
+      {
+        "name": "npm",
+        "total_seconds": 35.161,
+        "digital": "0:00:35",
+        "decimal": "0.00",
+        "text": "35 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 35,
+        "percent": 0.52
+      },
+      {
+        "name": "tsc-alias",
+        "total_seconds": 35.161,
+        "digital": "0:00:35",
+        "decimal": "0.00",
+        "text": "35 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 35,
+        "percent": 0.52
+      },
+      {
+        "name": "core",
+        "total_seconds": 23.435,
+        "digital": "0:00:23",
+        "decimal": "0.00",
+        "text": "23 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 23,
+        "percent": 0.35
+      }
+    ],
+    "machines": [
+      {
+        "name": "Anands-MacBook-Pro.local",
+        "total_seconds": 5009.664,
+        "machine_name_id": "2853d459-48c8-492d-b149-b1dd5cffdcce",
+        "digital": "1:23:29",
+        "decimal": "1.38",
+        "text": "1 hr 23 mins",
+        "hours": 1,
+        "minutes": 23,
+        "seconds": 29,
+        "percent": 100
+      }
+    ],
+    "editors": [
+      {
+        "name": "Cursor",
+        "total_seconds": 2836.55,
+        "digital": "0:47:16",
+        "decimal": "0.78",
+        "text": "47 mins",
+        "hours": 0,
+        "minutes": 47,
+        "seconds": 16,
+        "percent": 56.62
+      },
+      {
+        "name": "VS Code",
+        "total_seconds": 2173.114,
+        "digital": "0:36:13",
+        "decimal": "0.60",
+        "text": "36 mins",
+        "hours": 0,
+        "minutes": 36,
+        "seconds": 13,
+        "percent": 43.38
+      }
+    ],
+    "operating_systems": [
+      {
+        "name": "Mac",
+        "total_seconds": 5009.664,
+        "digital": "1:23:29",
+        "decimal": "1.38",
+        "text": "1 hr 23 mins",
+        "hours": 1,
+        "minutes": 23,
+        "seconds": 29,
+        "percent": 100
+      }
+    ],
+    "categories": [
+      {
+        "name": "AI Coding",
+        "total_seconds": 3107.048,
+        "digital": "0:51:47",
+        "decimal": "0.85",
+        "text": "51 mins",
+        "hours": 0,
+        "minutes": 51,
+        "seconds": 47,
+        "percent": 62.02
+      },
+      {
+        "name": "Coding",
+        "total_seconds": 1143.796,
+        "digital": "0:19:03",
+        "decimal": "0.32",
+        "text": "19 mins",
+        "hours": 0,
+        "minutes": 19,
+        "seconds": 3,
+        "percent": 22.83
+      },
+      {
+        "name": "Writing Docs",
+        "total_seconds": 708.09,
+        "digital": "0:11:48",
+        "decimal": "0.18",
+        "text": "11 mins",
+        "hours": 0,
+        "minutes": 11,
+        "seconds": 48,
+        "percent": 14.13
+      },
+      {
+        "name": "Writing Tests",
+        "total_seconds": 50.73,
+        "digital": "0:00:50",
+        "decimal": "0.00",
+        "text": "50 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 50,
+        "percent": 1.01
+      }
+    ]
+  }
+]
