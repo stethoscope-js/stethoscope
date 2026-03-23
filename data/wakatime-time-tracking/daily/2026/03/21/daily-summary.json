@@ -1,42 +1,5 @@
 [
   {
-    "grand_total": {
-      "hours": 0,
-      "minutes": 22,
-      "total_seconds": 1331.044,
-      "digital": "0:22",
-      "decimal": "0.37",
-      "text": "22 mins",
-      "ai_additions": 0,
-      "ai_deletions": 0,
-      "human_additions": 27,
-      "human_deletions": 52
-    },
-    "range": {
-      "start": "2026-03-21T23:00:00Z",
-      "end": "2026-03-22T22:59:59Z",
-      "date": "2026-03-22",
-      "text": "Sun Mar 22nd 2026",
-      "timezone": "Europe/Amsterdam"
-    },
-    "projects": [
-      {
-        "name": "website",
-        "total_seconds": 1331.044,
-        "ai_additions": 0,
-        "ai_deletions": 0,
-        "human_additions": 27,
-        "human_deletions": 52,
-        "color": null,
-        "digital": "0:22:11",
-        "decimal": "0.37",
-        "text": "22 mins",
-        "hours": 0,
-        "minutes": 22,
-        "seconds": 11,
-        "percent": 100
-      }
-    ],
     "languages": [
       {
         "name": "Astro",
@@ -103,6 +66,68 @@
         "minutes": 0,
         "seconds": 17,
         "percent": 1.33
+      }
+    ],
+    "grand_total": {
+      "hours": 0,
+      "minutes": 22,
+      "total_seconds": 1331.044,
+      "digital": "0:22",
+      "decimal": "0.37",
+      "text": "22 mins",
+      "ai_additions": 0,
+      "ai_deletions": 0,
+      "human_additions": 27,
+      "human_deletions": 52
+    },
+    "editors": [
+      {
+        "name": "Cursor",
+        "total_seconds": 1331.044,
+        "digital": "0:22:11",
+        "decimal": "0.37",
+        "text": "22 mins",
+        "hours": 0,
+        "minutes": 22,
+        "seconds": 11,
+        "percent": 100
+      }
+    ],
+    "operating_systems": [
+      {
+        "name": "Mac",
+        "total_seconds": 1331.044,
+        "digital": "0:22:11",
+        "decimal": "0.37",
+        "text": "22 mins",
+        "hours": 0,
+        "minutes": 22,
+        "seconds": 11,
+        "percent": 100
+      }
+    ],
+    "categories": [
+      {
+        "name": "Building",
+        "total_seconds": 1275.827,
+        "digital": "0:21:15",
+        "decimal": "0.35",
+        "text": "21 mins",
+        "hours": 0,
+        "minutes": 21,
+        "seconds": 15,
+        "percent": 95.85
+      },
+      {
+        "name": "Coding",
+        "total_seconds": 55.217,
+        "digital": "0:00:55",
+        "decimal": "0.00",
+        "text": "55 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 55,
+        "percent": 4.15
       }
     ],
     "dependencies": [
@@ -220,10 +245,15 @@
         "percent": 100
       }
     ],
-    "editors": [
+    "projects": [
       {
-        "name": "Cursor",
+        "name": "website",
         "total_seconds": 1331.044,
+        "ai_additions": 0,
+        "ai_deletions": 0,
+        "human_additions": 27,
+        "human_deletions": 52,
+        "color": null,
         "digital": "0:22:11",
         "decimal": "0.37",
         "text": "22 mins",
@@ -233,42 +263,12 @@
         "percent": 100
       }
     ],
-    "operating_systems": [
-      {
-        "name": "Mac",
-        "total_seconds": 1331.044,
-        "digital": "0:22:11",
-        "decimal": "0.37",
-        "text": "22 mins",
-        "hours": 0,
-        "minutes": 22,
-        "seconds": 11,
-        "percent": 100
-      }
-    ],
-    "categories": [
-      {
-        "name": "Building",
-        "total_seconds": 1275.827,
-        "digital": "0:21:15",
-        "decimal": "0.35",
-        "text": "21 mins",
-        "hours": 0,
-        "minutes": 21,
-        "seconds": 15,
-        "percent": 95.85
-      },
-      {
-        "name": "Coding",
-        "total_seconds": 55.217,
-        "digital": "0:00:55",
-        "decimal": "0.00",
-        "text": "55 secs",
-        "hours": 0,
-        "minutes": 0,
-        "seconds": 55,
-        "percent": 4.15
-      }
-    ]
+    "range": {
+      "start": "2026-03-21T23:00:00Z",
+      "end": "2026-03-22T22:59:59Z",
+      "date": "2026-03-22",
+      "text": "Sun Mar 22nd 2026",
+      "timezone": "Europe/Amsterdam"
+    }
   }
 ]
