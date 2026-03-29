@@ -1,42 +1,5 @@
 [
   {
-    "grand_total": {
-      "hours": 0,
-      "minutes": 20,
-      "total_seconds": 1229.178,
-      "digital": "0:20",
-      "decimal": "0.33",
-      "text": "20 mins",
-      "ai_additions": 2,
-      "ai_deletions": 131,
-      "human_additions": 1,
-      "human_deletions": 0
-    },
-    "range": {
-      "start": "2026-03-25T23:00:00Z",
-      "end": "2026-03-26T22:59:59Z",
-      "date": "2026-03-26",
-      "text": "Thu Mar 26th 2026",
-      "timezone": "Europe/Amsterdam"
-    },
-    "projects": [
-      {
-        "name": "kernel",
-        "total_seconds": 1229.178,
-        "ai_additions": 2,
-        "ai_deletions": 131,
-        "human_additions": 1,
-        "human_deletions": 0,
-        "color": null,
-        "digital": "0:20:29",
-        "decimal": "0.33",
-        "text": "20 mins",
-        "hours": 0,
-        "minutes": 20,
-        "seconds": 29,
-        "percent": 100
-      }
-    ],
     "languages": [
       {
         "name": "Markdown",
@@ -50,21 +13,18 @@
         "percent": 100
       }
     ],
-    "dependencies": [],
-    "machines": [
-      {
-        "name": "Anands-MacBook-Pro.local",
-        "total_seconds": 1229.178,
-        "machine_name_id": "2853d459-48c8-492d-b149-b1dd5cffdcce",
-        "digital": "0:20:29",
-        "decimal": "0.33",
-        "text": "20 mins",
-        "hours": 0,
-        "minutes": 20,
-        "seconds": 29,
-        "percent": 100
-      }
-    ],
+    "grand_total": {
+      "hours": 0,
+      "minutes": 20,
+      "total_seconds": 1229.178,
+      "digital": "0:20",
+      "decimal": "0.33",
+      "text": "20 mins",
+      "ai_additions": 2,
+      "ai_deletions": 131,
+      "human_additions": 1,
+      "human_deletions": 0
+    },
     "editors": [
       {
         "name": "Cursor",
@@ -125,6 +85,46 @@
         "seconds": 21,
         "percent": 35.95
       }
-    ]
+    ],
+    "dependencies": [],
+    "machines": [
+      {
+        "name": "Anands-MacBook-Pro.local",
+        "total_seconds": 1229.178,
+        "machine_name_id": "2853d459-48c8-492d-b149-b1dd5cffdcce",
+        "digital": "0:20:29",
+        "decimal": "0.33",
+        "text": "20 mins",
+        "hours": 0,
+        "minutes": 20,
+        "seconds": 29,
+        "percent": 100
+      }
+    ],
+    "projects": [
+      {
+        "name": "kernel",
+        "total_seconds": 1229.178,
+        "ai_additions": 2,
+        "ai_deletions": 131,
+        "human_additions": 1,
+        "human_deletions": 0,
+        "color": null,
+        "digital": "0:20:29",
+        "decimal": "0.33",
+        "text": "20 mins",
+        "hours": 0,
+        "minutes": 20,
+        "seconds": 29,
+        "percent": 100
+      }
+    ],
+    "range": {
+      "start": "2026-03-25T23:00:00Z",
+      "end": "2026-03-26T22:59:59Z",
+      "date": "2026-03-26",
+      "text": "Thu Mar 26th 2026",
+      "timezone": "Europe/Amsterdam"
+    }
   }
 ]

@@ -1,58 +1,5 @@
 [
   {
-    "grand_total": {
-      "hours": 0,
-      "minutes": 7,
-      "total_seconds": 451.809,
-      "digital": "0:07",
-      "decimal": "0.12",
-      "text": "7 mins",
-      "ai_additions": 0,
-      "ai_deletions": 0,
-      "human_additions": 0,
-      "human_deletions": 0
-    },
-    "range": {
-      "start": "2026-03-27T23:00:00Z",
-      "end": "2026-03-28T22:59:59Z",
-      "date": "2026-03-28",
-      "text": "Sat Mar 28th 2026",
-      "timezone": "Europe/Amsterdam"
-    },
-    "projects": [
-      {
-        "name": "kernel",
-        "total_seconds": 358.851,
-        "ai_additions": 0,
-        "ai_deletions": 0,
-        "human_additions": 0,
-        "human_deletions": 0,
-        "color": null,
-        "digital": "0:05:58",
-        "decimal": "0.08",
-        "text": "5 mins",
-        "hours": 0,
-        "minutes": 5,
-        "seconds": 58,
-        "percent": 79.43
-      },
-      {
-        "name": "sycamore-internal-workspace",
-        "total_seconds": 92.958,
-        "ai_additions": 0,
-        "ai_deletions": 0,
-        "human_additions": 0,
-        "human_deletions": 0,
-        "color": null,
-        "digital": "0:01:32",
-        "decimal": "0.02",
-        "text": "1 min",
-        "hours": 0,
-        "minutes": 1,
-        "seconds": 32,
-        "percent": 20.57
-      }
-    ],
     "languages": [
       {
         "name": "Markdown",
@@ -77,21 +24,18 @@
         "percent": 20.57
       }
     ],
-    "dependencies": [],
-    "machines": [
-      {
-        "name": "Anands-MacBook-Pro.local",
-        "total_seconds": 451.809,
-        "machine_name_id": "2853d459-48c8-492d-b149-b1dd5cffdcce",
-        "digital": "0:07:31",
-        "decimal": "0.12",
-        "text": "7 mins",
-        "hours": 0,
-        "minutes": 7,
-        "seconds": 31,
-        "percent": 100
-      }
-    ],
+    "grand_total": {
+      "hours": 0,
+      "minutes": 7,
+      "total_seconds": 451.809,
+      "digital": "0:07",
+      "decimal": "0.12",
+      "text": "7 mins",
+      "ai_additions": 0,
+      "ai_deletions": 0,
+      "human_additions": 0,
+      "human_deletions": 0
+    },
     "editors": [
       {
         "name": "Cursor",
@@ -163,6 +107,62 @@
         "seconds": 28,
         "percent": 6.28
       }
-    ]
+    ],
+    "dependencies": [],
+    "machines": [
+      {
+        "name": "Anands-MacBook-Pro.local",
+        "total_seconds": 451.809,
+        "machine_name_id": "2853d459-48c8-492d-b149-b1dd5cffdcce",
+        "digital": "0:07:31",
+        "decimal": "0.12",
+        "text": "7 mins",
+        "hours": 0,
+        "minutes": 7,
+        "seconds": 31,
+        "percent": 100
+      }
+    ],
+    "projects": [
+      {
+        "name": "kernel",
+        "total_seconds": 358.851,
+        "ai_additions": 0,
+        "ai_deletions": 0,
+        "human_additions": 0,
+        "human_deletions": 0,
+        "color": null,
+        "digital": "0:05:58",
+        "decimal": "0.08",
+        "text": "5 mins",
+        "hours": 0,
+        "minutes": 5,
+        "seconds": 58,
+        "percent": 79.43
+      },
+      {
+        "name": "sycamore-internal-workspace",
+        "total_seconds": 92.958,
+        "ai_additions": 0,
+        "ai_deletions": 0,
+        "human_additions": 0,
+        "human_deletions": 0,
+        "color": null,
+        "digital": "0:01:32",
+        "decimal": "0.02",
+        "text": "1 min",
+        "hours": 0,
+        "minutes": 1,
+        "seconds": 32,
+        "percent": 20.57
+      }
+    ],
+    "range": {
+      "start": "2026-03-27T23:00:00Z",
+      "end": "2026-03-28T22:59:59Z",
+      "date": "2026-03-28",
+      "text": "Sat Mar 28th 2026",
+      "timezone": "Europe/Amsterdam"
+    }
   }
 ]
