@@ -10,18 +10,18 @@
         "hours": 0,
         "minutes": 31,
         "seconds": 44,
-        "percent": 57.3
+        "percent": 57.28
       },
       {
         "name": "Other",
-        "total_seconds": 861,
-        "digital": "0:14:21",
+        "total_seconds": 862.053,
+        "digital": "0:14:22",
         "decimal": "0.23",
         "text": "14 mins",
         "hours": 0,
         "minutes": 14,
-        "seconds": 21,
-        "percent": 25.9
+        "seconds": 22,
+        "percent": 25.93
       },
       {
         "name": "YAML",
@@ -65,7 +65,7 @@
         "hours": 0,
         "minutes": 1,
         "seconds": 4,
-        "percent": 1.93
+        "percent": 1.92
       },
       {
         "name": "Bash",
@@ -77,56 +77,77 @@
         "minutes": 0,
         "seconds": 4,
         "percent": 0.12
+      },
+      {
+        "name": "Docker",
+        "total_seconds": 0,
+        "digital": "0:00:00",
+        "decimal": "0.00",
+        "text": "0 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0,
+        "percent": 0
       }
     ],
     "grand_total": {
       "hours": 0,
       "minutes": 55,
-      "total_seconds": 3324,
+      "total_seconds": 3325.053,
       "digital": "0:55",
       "decimal": "0.92",
       "text": "55 mins",
       "ai_additions": 13,
       "ai_deletions": 23,
       "human_additions": 0,
-      "human_deletions": 0
+      "human_deletions": 0,
+      "ai_input_tokens": 15495974,
+      "ai_output_tokens": 67849,
+      "ai_prompt_length": 6205
     },
     "editors": [
       {
         "name": "Cursor",
-        "total_seconds": 3324,
-        "digital": "0:55:24",
+        "total_seconds": 3325.053,
+        "ai_additions": 13,
+        "ai_deletions": 23,
+        "human_additions": 0,
+        "human_deletions": 0,
+        "ai_input_tokens": 15495974,
+        "ai_output_tokens": 67849,
+        "ai_prompt_length": 6205,
+        "digital": "0:55:25",
         "decimal": "0.92",
         "text": "55 mins",
         "hours": 0,
         "minutes": 55,
-        "seconds": 24,
+        "seconds": 25,
         "percent": 100
       }
     ],
     "operating_systems": [
       {
         "name": "Mac",
-        "total_seconds": 3324,
-        "digital": "0:55:24",
+        "total_seconds": 3325.053,
+        "digital": "0:55:25",
         "decimal": "0.92",
         "text": "55 mins",
         "hours": 0,
         "minutes": 55,
-        "seconds": 24,
+        "seconds": 25,
         "percent": 100
       }
     ],
     "categories": [
       {
         "name": "AI Coding",
-        "total_seconds": 3276.615,
-        "digital": "0:54:36",
+        "total_seconds": 3277.668,
+        "digital": "0:54:37",
         "decimal": "0.90",
         "text": "54 mins",
         "hours": 0,
         "minutes": 54,
-        "seconds": 36,
+        "seconds": 37,
         "percent": 98.57
       },
       {
@@ -795,32 +816,35 @@
     "machines": [
       {
         "name": "Anands-MBP.home",
-        "total_seconds": 3324,
+        "total_seconds": 3325.053,
         "machine_name_id": "1ff3795f-c752-4858-9fa4-7090240f0ab3",
-        "digital": "0:55:24",
+        "digital": "0:55:25",
         "decimal": "0.92",
         "text": "55 mins",
         "hours": 0,
         "minutes": 55,
-        "seconds": 24,
+        "seconds": 25,
         "percent": 100
       }
     ],
     "projects": [
       {
         "name": "kernel",
-        "total_seconds": 3324,
+        "total_seconds": 3325.053,
         "ai_additions": 13,
         "ai_deletions": 23,
         "human_additions": 0,
         "human_deletions": 0,
+        "ai_input_tokens": 15495974,
+        "ai_output_tokens": 67849,
+        "ai_prompt_length": 6205,
         "color": null,
-        "digital": "0:55:24",
+        "digital": "0:55:25",
         "decimal": "0.92",
         "text": "55 mins",
         "hours": 0,
         "minutes": 55,
-        "seconds": 24,
+        "seconds": 25,
         "percent": 100
       }
     ],
