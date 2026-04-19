@@ -3,25 +3,25 @@
     "languages": [
       {
         "name": "Markdown",
-        "total_seconds": 2408.355,
-        "digital": "0:40:08",
+        "total_seconds": 2413.55,
+        "digital": "0:40:13",
         "decimal": "0.67",
         "text": "40 mins",
         "hours": 0,
         "minutes": 40,
-        "seconds": 8,
-        "percent": 44.04
+        "seconds": 13,
+        "percent": 44.13
       },
       {
         "name": "TypeScript",
-        "total_seconds": 1861.104,
-        "digital": "0:31:01",
-        "decimal": "0.52",
-        "text": "31 mins",
+        "total_seconds": 1805.909,
+        "digital": "0:30:05",
+        "decimal": "0.50",
+        "text": "30 mins",
         "hours": 0,
-        "minutes": 31,
-        "seconds": 1,
-        "percent": 34.03
+        "minutes": 30,
+        "seconds": 5,
+        "percent": 33.02
       },
       {
         "name": "Bash",
@@ -35,6 +35,17 @@
         "percent": 10.89
       },
       {
+        "name": "Other",
+        "total_seconds": 334.07,
+        "digital": "0:05:34",
+        "decimal": "0.08",
+        "text": "5 mins",
+        "hours": 0,
+        "minutes": 5,
+        "seconds": 34,
+        "percent": 6.11
+      },
+      {
         "name": "JSON",
         "total_seconds": 319.557,
         "digital": "0:05:19",
@@ -44,17 +55,6 @@
         "minutes": 5,
         "seconds": 19,
         "percent": 5.84
-      },
-      {
-        "name": "Other",
-        "total_seconds": 284.07,
-        "digital": "0:04:44",
-        "decimal": "0.07",
-        "text": "4 mins",
-        "hours": 0,
-        "minutes": 4,
-        "seconds": 44,
-        "percent": 5.19
       }
     ],
     "grand_total": {
@@ -64,24 +64,24 @@
       "digital": "1:31",
       "decimal": "1.52",
       "text": "1 hr 31 mins",
-      "ai_additions": 2048,
+      "ai_additions": 2335,
       "ai_deletions": 221,
       "human_additions": 164,
       "human_deletions": 159,
-      "ai_input_tokens": 22354905,
-      "ai_output_tokens": 108010,
+      "ai_input_tokens": 23692909,
+      "ai_output_tokens": 114761,
       "ai_prompt_length": 0
     },
     "editors": [
       {
         "name": "Cursor",
         "total_seconds": 5468.894,
-        "ai_additions": 2048,
+        "ai_additions": 2335,
         "ai_deletions": 221,
         "human_additions": 164,
         "human_deletions": 159,
-        "ai_input_tokens": 22354905,
-        "ai_output_tokens": 108010,
+        "ai_input_tokens": 23692909,
+        "ai_output_tokens": 114761,
         "ai_prompt_length": 0,
         "digital": "1:31:08",
         "decimal": "1.52",
@@ -154,80 +154,91 @@
     "dependencies": [
       {
         "name": "bun:test",
-        "total_seconds": 1230.619,
-        "digital": "0:20:30",
-        "decimal": "0.33",
-        "text": "20 mins",
+        "total_seconds": 1109.424,
+        "digital": "0:18:29",
+        "decimal": "0.30",
+        "text": "18 mins",
         "hours": 0,
-        "minutes": 20,
-        "seconds": 30,
-        "percent": 6.61
+        "minutes": 18,
+        "seconds": 29,
+        "percent": 5.95
       },
       {
-        "name": "setup",
-        "total_seconds": 874.938,
-        "digital": "0:14:34",
+        "name": "node:crypto",
+        "total_seconds": 853.957,
+        "digital": "0:14:13",
         "decimal": "0.23",
         "text": "14 mins",
         "hours": 0,
         "minutes": 14,
-        "seconds": 34,
-        "percent": 4.7
+        "seconds": 13,
+        "percent": 4.58
       },
       {
-        "name": "node:crypto",
-        "total_seconds": 799.957,
-        "digital": "0:13:19",
-        "decimal": "0.22",
-        "text": "13 mins",
-        "hours": 0,
-        "minutes": 13,
-        "seconds": 19,
-        "percent": 4.3
-      },
-      {
-        "name": "config",
-        "total_seconds": 759.605,
-        "digital": "0:12:39",
+        "name": "setup",
+        "total_seconds": 753.743,
+        "digital": "0:12:33",
         "decimal": "0.20",
         "text": "12 mins",
         "hours": 0,
         "minutes": 12,
-        "seconds": 39,
-        "percent": 4.08
+        "seconds": 33,
+        "percent": 4.05
+      },
+      {
+        "name": "config",
+        "total_seconds": 692.41,
+        "digital": "0:11:32",
+        "decimal": "0.18",
+        "text": "11 mins",
+        "hours": 0,
+        "minutes": 11,
+        "seconds": 32,
+        "percent": 3.72
       },
       {
         "name": "node:fs",
-        "total_seconds": 564.74,
-        "digital": "0:09:24",
+        "total_seconds": 618.74,
+        "digital": "0:10:18",
+        "decimal": "0.17",
+        "text": "10 mins",
+        "hours": 0,
+        "minutes": 10,
+        "seconds": 18,
+        "percent": 3.32
+      },
+      {
+        "name": "node:path",
+        "total_seconds": 585.761,
+        "digital": "0:09:45",
         "decimal": "0.15",
         "text": "9 mins",
         "hours": 0,
         "minutes": 9,
-        "seconds": 24,
-        "percent": 3.03
-      },
-      {
-        "name": "node:path",
-        "total_seconds": 531.761,
-        "digital": "0:08:51",
-        "decimal": "0.13",
-        "text": "8 mins",
-        "hours": 0,
-        "minutes": 8,
-        "seconds": 51,
-        "percent": 2.86
+        "seconds": 45,
+        "percent": 3.14
       },
       {
         "name": "sdk",
-        "total_seconds": 379.032,
-        "digital": "0:06:19",
-        "decimal": "0.10",
-        "text": "6 mins",
+        "total_seconds": 433.032,
+        "digital": "0:07:13",
+        "decimal": "0.12",
+        "text": "7 mins",
         "hours": 0,
-        "minutes": 6,
-        "seconds": 19,
-        "percent": 2.04
+        "minutes": 7,
+        "seconds": 13,
+        "percent": 2.32
+      },
+      {
+        "name": "index",
+        "total_seconds": 347.702,
+        "digital": "0:05:47",
+        "decimal": "0.08",
+        "text": "5 mins",
+        "hours": 0,
+        "minutes": 5,
+        "seconds": 47,
+        "percent": 1.87
       },
       {
         "name": "npm",
@@ -250,17 +261,6 @@
         "minutes": 5,
         "seconds": 0,
         "percent": 1.61
-      },
-      {
-        "name": "index",
-        "total_seconds": 293.702,
-        "digital": "0:04:53",
-        "decimal": "0.07",
-        "text": "4 mins",
-        "hours": 0,
-        "minutes": 4,
-        "seconds": 53,
-        "percent": 1.58
       },
       {
         "name": "nanoid",
@@ -659,17 +659,6 @@
         "percent": 1.49
       },
       {
-        "name": "telegram",
-        "total_seconds": 259.154,
-        "digital": "0:04:19",
-        "decimal": "0.07",
-        "text": "4 mins",
-        "hours": 0,
-        "minutes": 4,
-        "seconds": 19,
-        "percent": 1.39
-      },
-      {
         "name": "node:child_process",
         "total_seconds": 258.89,
         "digital": "0:04:18",
@@ -715,13 +704,24 @@
       },
       {
         "name": "_restart-helpers",
-        "total_seconds": 192.41,
-        "digital": "0:03:12",
+        "total_seconds": 211.033,
+        "digital": "0:03:31",
         "decimal": "0.05",
         "text": "3 mins",
         "hours": 0,
         "minutes": 3,
-        "seconds": 12,
+        "seconds": 31,
+        "percent": 1.13
+      },
+      {
+        "name": "telegram",
+        "total_seconds": 191.959,
+        "digital": "0:03:11",
+        "decimal": "0.05",
+        "text": "3 mins",
+        "hours": 0,
+        "minutes": 3,
+        "seconds": 11,
         "percent": 1.03
       },
       {
@@ -747,6 +747,17 @@
         "percent": 0.99
       },
       {
+        "name": "routes",
+        "total_seconds": 169.154,
+        "digital": "0:02:49",
+        "decimal": "0.03",
+        "text": "2 mins",
+        "hours": 0,
+        "minutes": 2,
+        "seconds": 49,
+        "percent": 0.91
+      },
+      {
         "name": "types",
         "total_seconds": 165.845,
         "digital": "0:02:45",
@@ -758,26 +769,15 @@
         "percent": 0.89
       },
       {
-        "name": "routes",
-        "total_seconds": 115.154,
-        "digital": "0:01:55",
-        "decimal": "0.02",
-        "text": "1 min",
-        "hours": 0,
-        "minutes": 1,
-        "seconds": 55,
-        "percent": 0.62
-      },
-      {
         "name": "notify",
-        "total_seconds": 109.941,
-        "digital": "0:01:49",
-        "decimal": "0.02",
-        "text": "1 min",
+        "total_seconds": 163.941,
+        "digital": "0:02:43",
+        "decimal": "0.03",
+        "text": "2 mins",
         "hours": 0,
-        "minutes": 1,
-        "seconds": 49,
-        "percent": 0.59
+        "minutes": 2,
+        "seconds": 43,
+        "percent": 0.88
       },
       {
         "name": "telegramify-markdown",
@@ -952,12 +952,12 @@
       {
         "name": "carapace",
         "total_seconds": 4265,
-        "ai_additions": 1806,
+        "ai_additions": 2093,
         "ai_deletions": 221,
         "human_additions": 164,
         "human_deletions": 159,
-        "ai_input_tokens": 22126273,
-        "ai_output_tokens": 96253,
+        "ai_input_tokens": 23464277,
+        "ai_output_tokens": 103004,
         "ai_prompt_length": 0,
         "color": null,
         "digital": "1:11:05",
