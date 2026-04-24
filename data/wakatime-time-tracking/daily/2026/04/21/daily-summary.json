@@ -1,29 +1,331 @@
 [
   {
-    "languages": [],
+    "languages": [
+      {
+        "name": "TypeScript",
+        "total_seconds": 937,
+        "digital": "0:15:37",
+        "decimal": "0.25",
+        "text": "15 mins",
+        "hours": 0,
+        "minutes": 15,
+        "seconds": 37,
+        "percent": 99.15
+      },
+      {
+        "name": "Markdown",
+        "total_seconds": 8,
+        "digital": "0:00:08",
+        "decimal": "0.00",
+        "text": "8 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 8,
+        "percent": 0.85
+      }
+    ],
     "grand_total": {
       "hours": 0,
-      "minutes": 0,
-      "total_seconds": 0,
-      "digital": "0:00",
-      "decimal": "0.00",
-      "text": "0 secs",
+      "minutes": 15,
+      "total_seconds": 945,
+      "digital": "0:15",
+      "decimal": "0.25",
+      "text": "15 mins",
       "ai_additions": 0,
       "ai_deletions": 0,
       "human_additions": 0,
       "human_deletions": 0,
-      "ai_input_tokens": 0,
-      "ai_output_tokens": 0,
+      "ai_input_tokens": 710507,
+      "ai_output_tokens": 6076,
       "avg_ai_prompt_length": 0,
       "num_ai_prompt_events": 0,
       "sum_ai_prompt_length": 0
     },
-    "editors": [],
-    "operating_systems": [],
-    "categories": [],
-    "dependencies": [],
-    "machines": [],
-    "projects": [],
+    "editors": [
+      {
+        "name": "Unknown Editor",
+        "total_seconds": 945,
+        "ai_additions": 0,
+        "ai_deletions": 0,
+        "human_additions": 0,
+        "human_deletions": 0,
+        "ai_input_tokens": 710507,
+        "ai_output_tokens": 6076,
+        "sum_ai_prompt_length": 0,
+        "avg_ai_prompt_length": 0,
+        "num_ai_prompt_events": 0,
+        "digital": "0:15:45",
+        "decimal": "0.25",
+        "text": "15 mins",
+        "hours": 0,
+        "minutes": 15,
+        "seconds": 45,
+        "percent": 100
+      }
+    ],
+    "operating_systems": [
+      {
+        "name": "Mac",
+        "total_seconds": 945,
+        "digital": "0:15:45",
+        "decimal": "0.25",
+        "text": "15 mins",
+        "hours": 0,
+        "minutes": 15,
+        "seconds": 45,
+        "percent": 100
+      }
+    ],
+    "categories": [
+      {
+        "name": "AI Coding",
+        "total_seconds": 945,
+        "digital": "0:15:45",
+        "decimal": "0.25",
+        "text": "15 mins",
+        "hours": 0,
+        "minutes": 15,
+        "seconds": 45,
+        "percent": 100
+      }
+    ],
+    "dependencies": [
+      {
+        "name": "runtime-config-script",
+        "total_seconds": 937,
+        "digital": "0:15:37",
+        "decimal": "0.25",
+        "text": "15 mins",
+        "hours": 0,
+        "minutes": 15,
+        "seconds": 37,
+        "percent": 5.56
+      },
+      {
+        "name": "sidebar-footer-nav",
+        "total_seconds": 937,
+        "digital": "0:15:37",
+        "decimal": "0.25",
+        "text": "15 mins",
+        "hours": 0,
+        "minutes": 15,
+        "seconds": 37,
+        "percent": 5.56
+      },
+      {
+        "name": "styles.css?url",
+        "total_seconds": 937,
+        "digital": "0:15:37",
+        "decimal": "0.25",
+        "text": "15 mins",
+        "hours": 0,
+        "minutes": 15,
+        "seconds": 37,
+        "percent": 5.56
+      },
+      {
+        "name": "sidebar-nav",
+        "total_seconds": 937,
+        "digital": "0:15:37",
+        "decimal": "0.25",
+        "text": "15 mins",
+        "hours": 0,
+        "minutes": 15,
+        "seconds": 37,
+        "percent": 5.56
+      },
+      {
+        "name": "guarded-outlet",
+        "total_seconds": 937,
+        "digital": "0:15:37",
+        "decimal": "0.25",
+        "text": "15 mins",
+        "hours": 0,
+        "minutes": 15,
+        "seconds": 37,
+        "percent": 5.56
+      },
+      {
+        "name": "react",
+        "total_seconds": 937,
+        "digital": "0:15:37",
+        "decimal": "0.25",
+        "text": "15 mins",
+        "hours": 0,
+        "minutes": 15,
+        "seconds": 37,
+        "percent": 5.56
+      },
+      {
+        "name": "settings-store",
+        "total_seconds": 937,
+        "digital": "0:15:37",
+        "decimal": "0.25",
+        "text": "15 mins",
+        "hours": 0,
+        "minutes": 15,
+        "seconds": 37,
+        "percent": 5.56
+      },
+      {
+        "name": "lucide-react",
+        "total_seconds": 937,
+        "digital": "0:15:37",
+        "decimal": "0.25",
+        "text": "15 mins",
+        "hours": 0,
+        "minutes": 15,
+        "seconds": 37,
+        "percent": 5.56
+      },
+      {
+        "name": "tanstack-react-start",
+        "total_seconds": 937,
+        "digital": "0:15:37",
+        "decimal": "0.25",
+        "text": "15 mins",
+        "hours": 0,
+        "minutes": 15,
+        "seconds": 37,
+        "percent": 5.56
+      },
+      {
+        "name": "product-switcher",
+        "total_seconds": 937,
+        "digital": "0:15:37",
+        "decimal": "0.25",
+        "text": "15 mins",
+        "hours": 0,
+        "minutes": 15,
+        "seconds": 37,
+        "percent": 5.56
+      },
+      {
+        "name": "unauthenticated-shell",
+        "total_seconds": 937,
+        "digital": "0:15:37",
+        "decimal": "0.25",
+        "text": "15 mins",
+        "hours": 0,
+        "minutes": 15,
+        "seconds": 37,
+        "percent": 5.56
+      },
+      {
+        "name": "agent-config-store",
+        "total_seconds": 937,
+        "digital": "0:15:37",
+        "decimal": "0.25",
+        "text": "15 mins",
+        "hours": 0,
+        "minutes": 15,
+        "seconds": 37,
+        "percent": 5.56
+      },
+      {
+        "name": "posthog-provider",
+        "total_seconds": 937,
+        "digital": "0:15:37",
+        "decimal": "0.25",
+        "text": "15 mins",
+        "hours": 0,
+        "minutes": 15,
+        "seconds": 37,
+        "percent": 5.56
+      },
+      {
+        "name": "ui",
+        "total_seconds": 937,
+        "digital": "0:15:37",
+        "decimal": "0.25",
+        "text": "15 mins",
+        "hours": 0,
+        "minutes": 15,
+        "seconds": 37,
+        "percent": 5.56
+      },
+      {
+        "name": "use-theme-effect",
+        "total_seconds": 937,
+        "digital": "0:15:37",
+        "decimal": "0.25",
+        "text": "15 mins",
+        "hours": 0,
+        "minutes": 15,
+        "seconds": 37,
+        "percent": 5.56
+      },
+      {
+        "name": "themes",
+        "total_seconds": 937,
+        "digital": "0:15:37",
+        "decimal": "0.25",
+        "text": "15 mins",
+        "hours": 0,
+        "minutes": 15,
+        "seconds": 37,
+        "percent": 5.56
+      },
+      {
+        "name": "api",
+        "total_seconds": 937,
+        "digital": "0:15:37",
+        "decimal": "0.25",
+        "text": "15 mins",
+        "hours": 0,
+        "minutes": 15,
+        "seconds": 37,
+        "percent": 5.56
+      },
+      {
+        "name": "react-router",
+        "total_seconds": 937,
+        "digital": "0:15:37",
+        "decimal": "0.25",
+        "text": "15 mins",
+        "hours": 0,
+        "minutes": 15,
+        "seconds": 37,
+        "percent": 5.56
+      }
+    ],
+    "machines": [
+      {
+        "name": "Anands-MBP.home",
+        "total_seconds": 945,
+        "machine_name_id": "1ff3795f-c752-4858-9fa4-7090240f0ab3",
+        "digital": "0:15:45",
+        "decimal": "0.25",
+        "text": "15 mins",
+        "hours": 0,
+        "minutes": 15,
+        "seconds": 45,
+        "percent": 100
+      }
+    ],
+    "projects": [
+      {
+        "name": "kernel",
+        "total_seconds": 945,
+        "ai_additions": 0,
+        "ai_deletions": 0,
+        "human_additions": 0,
+        "human_deletions": 0,
+        "ai_input_tokens": 710507,
+        "ai_output_tokens": 6076,
+        "color": null,
+        "sum_ai_prompt_length": 0,
+        "avg_ai_prompt_length": 0,
+        "num_ai_prompt_events": 0,
+        "digital": "0:15:45",
+        "decimal": "0.25",
+        "text": "15 mins",
+        "hours": 0,
+        "minutes": 15,
+        "seconds": 45,
+        "percent": 100
+      }
+    ],
     "range": {
       "start": "2026-04-21T22:00:00Z",
       "end": "2026-04-22T21:59:59Z",
