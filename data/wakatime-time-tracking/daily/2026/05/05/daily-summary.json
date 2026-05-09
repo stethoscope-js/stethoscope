@@ -40,7 +40,10 @@
       "ai_output_tokens": 7638,
       "ai_prompt_length_avg": 210,
       "ai_prompt_length_sum": 1473,
-      "ai_prompt_events": 7
+      "ai_prompt_events": 7,
+      "ai_agent_costs": {
+        "Claude": 0.051114
+      }
     },
     "editors": [
       {
@@ -55,7 +58,9 @@
         "ai_output_tokens": 7638,
         "ai_prompt_length_sum": 1473,
         "ai_prompt_events": 7,
-        "ai_agent_costs": {},
+        "ai_agent_costs": {
+          "Claude": 0.051114
+        },
         "ai_agent_breakdown": [],
         "ai_agent_total_cost": 0,
         "ai_prompt_length_avg": 210,
@@ -133,7 +138,10 @@
         "ai_output_tokens": 7638,
         "ai_prompt_length_sum": 1473,
         "ai_prompt_events": 7,
-        "ai_agent_costs": {},
+        "color": null,
+        "ai_agent_costs": {
+          "Claude": 0.051114
+        },
         "ai_agent_breakdown": [],
         "ai_agent_total_cost": 0,
         "ai_prompt_length_avg": 210,
@@ -157,6 +165,7 @@
         "ai_output_tokens": 0,
         "ai_prompt_length_sum": 0,
         "ai_prompt_events": 0,
+        "color": null,
         "ai_agent_costs": {},
         "ai_agent_breakdown": [],
         "ai_agent_total_cost": 0,
