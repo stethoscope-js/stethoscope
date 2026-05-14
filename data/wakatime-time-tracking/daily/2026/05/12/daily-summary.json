@@ -1,37 +1,184 @@
 [
   {
+    "languages": [
+      {
+        "name": "Other",
+        "total_seconds": 1172.411,
+        "digital": "0:19:32",
+        "decimal": "0.32",
+        "text": "19 mins",
+        "hours": 0,
+        "minutes": 19,
+        "seconds": 32,
+        "percent": 58.75
+      },
+      {
+        "name": "Markdown",
+        "total_seconds": 823.244,
+        "digital": "0:13:43",
+        "decimal": "0.22",
+        "text": "13 mins",
+        "hours": 0,
+        "minutes": 13,
+        "seconds": 43,
+        "percent": 41.25
+      }
+    ],
     "grand_total": {
       "hours": 0,
-      "minutes": 0,
-      "total_seconds": 0,
-      "digital": "0:00",
-      "decimal": "0.00",
-      "text": "0 secs",
+      "minutes": 33,
+      "total_seconds": 1995.655,
+      "digital": "0:33",
+      "decimal": "0.55",
+      "text": "33 mins",
       "ai_additions": 0,
       "ai_deletions": 0,
       "human_additions": 0,
       "human_deletions": 0,
       "ai_agent_line_changes": {},
-      "ai_input_tokens": 0,
-      "ai_output_tokens": 0,
-      "ai_prompt_length_avg": 0,
-      "ai_prompt_length_sum": 0,
-      "ai_prompt_events": 0,
+      "ai_input_tokens": 750630,
+      "ai_output_tokens": 8843,
+      "ai_prompt_length_avg": 3758,
+      "ai_prompt_length_sum": 18791,
+      "ai_prompt_events": 5,
       "ai_agent_costs": {}
     },
+    "editors": [
+      {
+        "name": "Cursor",
+        "total_seconds": 1995.655,
+        "ai_additions": 0,
+        "ai_deletions": 0,
+        "human_additions": 0,
+        "human_deletions": 0,
+        "ai_agent_line_changes": {},
+        "ai_input_tokens": 750630,
+        "ai_output_tokens": 8843,
+        "ai_prompt_length_sum": 18791,
+        "ai_prompt_events": 5,
+        "ai_agent_costs": {},
+        "ai_agent_breakdown": [],
+        "ai_agent_total_cost": 0,
+        "ai_prompt_length_avg": 3758,
+        "digital": "0:33:15",
+        "decimal": "0.55",
+        "text": "33 mins",
+        "hours": 0,
+        "minutes": 33,
+        "seconds": 15,
+        "percent": 100
+      }
+    ],
+    "operating_systems": [
+      {
+        "name": "Mac",
+        "total_seconds": 1995.655,
+        "digital": "0:33:15",
+        "decimal": "0.55",
+        "text": "33 mins",
+        "hours": 0,
+        "minutes": 33,
+        "seconds": 15,
+        "percent": 100
+      }
+    ],
+    "categories": [
+      {
+        "name": "AI Coding",
+        "total_seconds": 1172.411,
+        "digital": "0:19:32",
+        "decimal": "0.32",
+        "text": "19 mins",
+        "hours": 0,
+        "minutes": 19,
+        "seconds": 32,
+        "percent": 58.75
+      },
+      {
+        "name": "Writing Docs",
+        "total_seconds": 823.244,
+        "digital": "0:13:43",
+        "decimal": "0.22",
+        "text": "13 mins",
+        "hours": 0,
+        "minutes": 13,
+        "seconds": 43,
+        "percent": 41.25
+      }
+    ],
+    "dependencies": [],
+    "machines": [
+      {
+        "name": "Anands-MBP.home",
+        "total_seconds": 1995.655,
+        "machine_name_id": "1ff3795f-c752-4858-9fa4-7090240f0ab3",
+        "digital": "0:33:15",
+        "decimal": "0.55",
+        "text": "33 mins",
+        "hours": 0,
+        "minutes": 33,
+        "seconds": 15,
+        "percent": 100
+      }
+    ],
+    "projects": [
+      {
+        "name": "kernel",
+        "total_seconds": 1172.411,
+        "ai_additions": 0,
+        "ai_deletions": 0,
+        "human_additions": 0,
+        "human_deletions": 0,
+        "ai_agent_line_changes": {},
+        "ai_input_tokens": 750630,
+        "ai_output_tokens": 8843,
+        "ai_prompt_length_sum": 18791,
+        "ai_prompt_events": 5,
+        "color": null,
+        "ai_agent_costs": {},
+        "ai_agent_breakdown": [],
+        "ai_agent_total_cost": 0,
+        "ai_prompt_length_avg": 3758,
+        "digital": "0:19:32",
+        "decimal": "0.32",
+        "text": "19 mins",
+        "hours": 0,
+        "minutes": 19,
+        "seconds": 32,
+        "percent": 58.75
+      },
+      {
+        "name": "Unknown Project",
+        "total_seconds": 823.244,
+        "ai_additions": 0,
+        "ai_deletions": 0,
+        "human_additions": 0,
+        "human_deletions": 0,
+        "ai_agent_line_changes": {},
+        "ai_input_tokens": 0,
+        "ai_output_tokens": 0,
+        "ai_prompt_length_sum": 0,
+        "ai_prompt_events": 0,
+        "color": null,
+        "ai_agent_costs": {},
+        "ai_agent_breakdown": [],
+        "ai_agent_total_cost": 0,
+        "ai_prompt_length_avg": 0,
+        "digital": "0:13:43",
+        "decimal": "0.22",
+        "text": "13 mins",
+        "hours": 0,
+        "minutes": 13,
+        "seconds": 43,
+        "percent": 41.25
+      }
+    ],
     "range": {
       "start": "2026-05-12T22:00:00Z",
       "end": "2026-05-13T21:59:59Z",
       "date": "2026-05-13",
       "text": "Wed May 13th 2026",
       "timezone": "Europe/Amsterdam"
-    },
-    "projects": [],
-    "languages": [],
-    "dependencies": [],
-    "machines": [],
-    "editors": [],
-    "operating_systems": [],
-    "categories": []
+    }
   }
 ]

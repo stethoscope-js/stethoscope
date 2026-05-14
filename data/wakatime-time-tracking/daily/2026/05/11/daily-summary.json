@@ -10,7 +10,18 @@
         "hours": 1,
         "minutes": 42,
         "seconds": 23,
-        "percent": 47.4
+        "percent": 39.15
+      },
+      {
+        "name": "Markdown",
+        "total_seconds": 4220.733,
+        "digital": "1:10:20",
+        "decimal": "1.17",
+        "text": "1 hr 10 mins",
+        "hours": 1,
+        "minutes": 10,
+        "seconds": 20,
+        "percent": 26.9
       },
       {
         "name": "YAML",
@@ -21,18 +32,7 @@
         "hours": 0,
         "minutes": 47,
         "seconds": 55,
-        "percent": 22.19
-      },
-      {
-        "name": "Markdown",
-        "total_seconds": 1491.733,
-        "digital": "0:24:51",
-        "decimal": "0.40",
-        "text": "24 mins",
-        "hours": 0,
-        "minutes": 24,
-        "seconds": 51,
-        "percent": 11.51
+        "percent": 18.33
       },
       {
         "name": "Other",
@@ -43,7 +43,7 @@
         "hours": 0,
         "minutes": 24,
         "seconds": 31,
-        "percent": 11.35
+        "percent": 9.38
       },
       {
         "name": "JSON",
@@ -54,7 +54,7 @@
         "hours": 0,
         "minutes": 7,
         "seconds": 30,
-        "percent": 3.47
+        "percent": 2.87
       },
       {
         "name": "TypeScript",
@@ -65,7 +65,7 @@
         "hours": 0,
         "minutes": 3,
         "seconds": 31,
-        "percent": 1.63
+        "percent": 1.34
       },
       {
         "name": "Terraform",
@@ -76,7 +76,7 @@
         "hours": 0,
         "minutes": 3,
         "seconds": 8,
-        "percent": 1.45
+        "percent": 1.2
       },
       {
         "name": "Docker",
@@ -87,7 +87,7 @@
         "hours": 0,
         "minutes": 2,
         "seconds": 11,
-        "percent": 1.01
+        "percent": 0.83
       },
       {
         "name": "TOML",
@@ -102,24 +102,25 @@
       }
     ],
     "grand_total": {
-      "hours": 3,
-      "minutes": 36,
-      "total_seconds": 12962.336,
-      "digital": "3:36",
-      "decimal": "3.60",
-      "text": "3 hrs 36 mins",
-      "ai_additions": 1001,
+      "hours": 4,
+      "minutes": 21,
+      "total_seconds": 15691.336,
+      "digital": "4:21",
+      "decimal": "4.35",
+      "text": "4 hrs 21 mins",
+      "ai_additions": 2336,
       "ai_deletions": 5,
       "human_additions": 54,
       "human_deletions": 0,
       "ai_agent_line_changes": {
-        "Claude": 1006
+        "Claude": 1006,
+        "Codex": 1335
       },
-      "ai_input_tokens": 94378195,
-      "ai_output_tokens": 210643,
-      "ai_prompt_length_avg": 5925,
-      "ai_prompt_length_sum": 189611,
-      "ai_prompt_events": 32,
+      "ai_input_tokens": 102608581,
+      "ai_output_tokens": 274944,
+      "ai_prompt_length_avg": 6361,
+      "ai_prompt_length_sum": 228979,
+      "ai_prompt_events": 36,
       "ai_agent_costs": {
         "Claude": 0.467995
       }
@@ -151,61 +152,62 @@
         "hours": 3,
         "minutes": 18,
         "seconds": 15,
-        "percent": 91.77
+        "percent": 75.81
       },
       {
         "name": "Cursor",
-        "total_seconds": 1066.816,
-        "ai_additions": 19,
+        "total_seconds": 3795.816,
+        "ai_additions": 1354,
         "ai_deletions": 0,
         "human_additions": 54,
         "human_deletions": 0,
         "ai_agent_line_changes": {
-          "Claude": 19
+          "Claude": 19,
+          "Codex": 1335
         },
-        "ai_input_tokens": 14820066,
-        "ai_output_tokens": 28712,
-        "ai_prompt_length_sum": 13110,
-        "ai_prompt_events": 3,
+        "ai_input_tokens": 23050452,
+        "ai_output_tokens": 93013,
+        "ai_prompt_length_sum": 52478,
+        "ai_prompt_events": 7,
         "ai_agent_costs": {
           "Claude": 0.02386
         },
         "ai_agent_breakdown": [],
         "ai_agent_total_cost": 0,
-        "ai_prompt_length_avg": 4370,
-        "digital": "0:17:46",
-        "decimal": "0.28",
-        "text": "17 mins",
-        "hours": 0,
-        "minutes": 17,
-        "seconds": 46,
-        "percent": 8.23
+        "ai_prompt_length_avg": 7497,
+        "digital": "1:03:15",
+        "decimal": "1.05",
+        "text": "1 hr 3 mins",
+        "hours": 1,
+        "minutes": 3,
+        "seconds": 15,
+        "percent": 24.19
       }
     ],
     "operating_systems": [
       {
         "name": "Mac",
-        "total_seconds": 12962.336,
-        "digital": "3:36:02",
-        "decimal": "3.60",
-        "text": "3 hrs 36 mins",
-        "hours": 3,
-        "minutes": 36,
-        "seconds": 2,
+        "total_seconds": 15691.336,
+        "digital": "4:21:31",
+        "decimal": "4.35",
+        "text": "4 hrs 21 mins",
+        "hours": 4,
+        "minutes": 21,
+        "seconds": 31,
         "percent": 100
       }
     ],
     "categories": [
       {
         "name": "AI Coding",
-        "total_seconds": 12857,
-        "digital": "3:34:17",
-        "decimal": "3.57",
-        "text": "3 hrs 34 mins",
-        "hours": 3,
-        "minutes": 34,
-        "seconds": 17,
-        "percent": 99.19
+        "total_seconds": 15586,
+        "digital": "4:19:46",
+        "decimal": "4.32",
+        "text": "4 hrs 19 mins",
+        "hours": 4,
+        "minutes": 19,
+        "seconds": 46,
+        "percent": 99.33
       },
       {
         "name": "Writing Docs",
@@ -216,7 +218,7 @@
         "hours": 0,
         "minutes": 1,
         "seconds": 45,
-        "percent": 0.81
+        "percent": 0.67
       }
     ],
     "dependencies": [
@@ -741,46 +743,47 @@
     "machines": [
       {
         "name": "Anands-MBP.home",
-        "total_seconds": 12962.336,
+        "total_seconds": 15691.336,
         "machine_name_id": "1ff3795f-c752-4858-9fa4-7090240f0ab3",
-        "digital": "3:36:02",
-        "decimal": "3.60",
-        "text": "3 hrs 36 mins",
-        "hours": 3,
-        "minutes": 36,
-        "seconds": 2,
+        "digital": "4:21:31",
+        "decimal": "4.35",
+        "text": "4 hrs 21 mins",
+        "hours": 4,
+        "minutes": 21,
+        "seconds": 31,
         "percent": 100
       }
     ],
     "projects": [
       {
         "name": "kernel",
-        "total_seconds": 12486.603,
-        "ai_additions": 1001,
+        "total_seconds": 15215.603,
+        "ai_additions": 2336,
         "ai_deletions": 5,
         "human_additions": 0,
         "human_deletions": 0,
         "ai_agent_line_changes": {
-          "Claude": 1006
+          "Claude": 1006,
+          "Codex": 1335
         },
-        "ai_input_tokens": 92965969,
-        "ai_output_tokens": 210251,
-        "ai_prompt_length_sum": 189611,
-        "ai_prompt_events": 32,
+        "ai_input_tokens": 101196355,
+        "ai_output_tokens": 274552,
+        "ai_prompt_length_sum": 228979,
+        "ai_prompt_events": 36,
         "color": null,
         "ai_agent_costs": {
           "Claude": 0.466203
         },
         "ai_agent_breakdown": [],
         "ai_agent_total_cost": 0,
-        "ai_prompt_length_avg": 5925,
-        "digital": "3:28:06",
-        "decimal": "3.47",
-        "text": "3 hrs 28 mins",
-        "hours": 3,
-        "minutes": 28,
-        "seconds": 6,
-        "percent": 96.33
+        "ai_prompt_length_avg": 6361,
+        "digital": "4:13:35",
+        "decimal": "4.22",
+        "text": "4 hrs 13 mins",
+        "hours": 4,
+        "minutes": 13,
+        "seconds": 35,
+        "percent": 96.97
       },
       {
         "name": "Unknown Project",
@@ -807,7 +810,7 @@
         "hours": 0,
         "minutes": 7,
         "seconds": 55,
-        "percent": 3.67
+        "percent": 3.03
       }
     ],
     "range": {
