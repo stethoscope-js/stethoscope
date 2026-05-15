@@ -322,7 +322,7 @@
         "percent": 3.56
       },
       {
-        "name": "secrets",
+        "name": "dataclasses",
         "total_seconds": 2503,
         "digital": "0:41:43",
         "decimal": "0.68",
@@ -333,7 +333,7 @@
         "percent": 3.56
       },
       {
-        "name": "dataclasses",
+        "name": "secrets",
         "total_seconds": 2503,
         "digital": "0:41:43",
         "decimal": "0.68",
@@ -454,61 +454,6 @@
         "percent": 0.87
       },
       {
-        "name": "self",
-        "total_seconds": 594,
-        "digital": "0:09:54",
-        "decimal": "0.15",
-        "text": "9 mins",
-        "hours": 0,
-        "minutes": 9,
-        "seconds": 54,
-        "percent": 0.85
-      },
-      {
-        "name": "hashlib",
-        "total_seconds": 594,
-        "digital": "0:09:54",
-        "decimal": "0.15",
-        "text": "9 mins",
-        "hours": 0,
-        "minutes": 9,
-        "seconds": 54,
-        "percent": 0.85
-      },
-      {
-        "name": "posixpath",
-        "total_seconds": 594,
-        "digital": "0:09:54",
-        "decimal": "0.15",
-        "text": "9 mins",
-        "hours": 0,
-        "minutes": 9,
-        "seconds": 54,
-        "percent": 0.85
-      },
-      {
-        "name": "shlex",
-        "total_seconds": 594,
-        "digital": "0:09:54",
-        "decimal": "0.15",
-        "text": "9 mins",
-        "hours": 0,
-        "minutes": 9,
-        "seconds": 54,
-        "percent": 0.85
-      },
-      {
-        "name": "collections",
-        "total_seconds": 594,
-        "digital": "0:09:54",
-        "decimal": "0.15",
-        "text": "9 mins",
-        "hours": 0,
-        "minutes": 9,
-        "seconds": 54,
-        "percent": 0.85
-      },
-      {
         "name": "binascii",
         "total_seconds": 594,
         "digital": "0:09:54",
@@ -520,7 +465,7 @@
         "percent": 0.85
       },
       {
-        "name": "syca_llm_client",
+        "name": "self",
         "total_seconds": 594,
         "digital": "0:09:54",
         "decimal": "0.15",
@@ -542,7 +487,62 @@
         "percent": 0.85
       },
       {
+        "name": "syca_llm_client",
+        "total_seconds": 594,
+        "digital": "0:09:54",
+        "decimal": "0.15",
+        "text": "9 mins",
+        "hours": 0,
+        "minutes": 9,
+        "seconds": 54,
+        "percent": 0.85
+      },
+      {
         "name": "kubernetes_asyncio",
+        "total_seconds": 594,
+        "digital": "0:09:54",
+        "decimal": "0.15",
+        "text": "9 mins",
+        "hours": 0,
+        "minutes": 9,
+        "seconds": 54,
+        "percent": 0.85
+      },
+      {
+        "name": "shlex",
+        "total_seconds": 594,
+        "digital": "0:09:54",
+        "decimal": "0.15",
+        "text": "9 mins",
+        "hours": 0,
+        "minutes": 9,
+        "seconds": 54,
+        "percent": 0.85
+      },
+      {
+        "name": "hashlib",
+        "total_seconds": 594,
+        "digital": "0:09:54",
+        "decimal": "0.15",
+        "text": "9 mins",
+        "hours": 0,
+        "minutes": 9,
+        "seconds": 54,
+        "percent": 0.85
+      },
+      {
+        "name": "collections",
+        "total_seconds": 594,
+        "digital": "0:09:54",
+        "decimal": "0.15",
+        "text": "9 mins",
+        "hours": 0,
+        "minutes": 9,
+        "seconds": 54,
+        "percent": 0.85
+      },
+      {
+        "name": "posixpath",
         "total_seconds": 594,
         "digital": "0:09:54",
         "decimal": "0.15",
@@ -630,7 +630,7 @@
         "percent": 0.16
       },
       {
-        "name": "user-event",
+        "name": "app",
         "total_seconds": 102,
         "digital": "0:01:42",
         "decimal": "0.02",
@@ -641,7 +641,7 @@
         "percent": 0.15
       },
       {
-        "name": "app",
+        "name": "user-event",
         "total_seconds": 102,
         "digital": "0:01:42",
         "decimal": "0.02",
@@ -663,17 +663,6 @@
         "percent": 0.12
       },
       {
-        "name": "router",
-        "total_seconds": 59,
-        "digital": "0:00:59",
-        "decimal": "0.00",
-        "text": "59 secs",
-        "hours": 0,
-        "minutes": 0,
-        "seconds": 59,
-        "percent": 0.08
-      },
-      {
         "name": "terminal-viewer",
         "total_seconds": 59,
         "digital": "0:00:59",
@@ -686,6 +675,17 @@
       },
       {
         "name": "clerk-react",
+        "total_seconds": 59,
+        "digital": "0:00:59",
+        "decimal": "0.00",
+        "text": "59 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 59,
+        "percent": 0.08
+      },
+      {
+        "name": "router",
         "total_seconds": 59,
         "digital": "0:00:59",
         "decimal": "0.00",
@@ -718,7 +718,7 @@
         "percent": 0.04
       },
       {
-        "name": "pathlib",
+        "name": "subprocess",
         "total_seconds": 20,
         "digital": "0:00:20",
         "decimal": "0.00",
@@ -729,7 +729,7 @@
         "percent": 0.03
       },
       {
-        "name": "subprocess",
+        "name": "pathlib",
         "total_seconds": 20,
         "digital": "0:00:20",
         "decimal": "0.00",
