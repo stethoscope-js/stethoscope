@@ -1,5 +1,109 @@
 [
   {
+    "grand_total": {
+      "hours": 0,
+      "minutes": 10,
+      "total_seconds": 648,
+      "digital": "0:10",
+      "decimal": "0.17",
+      "text": "10 mins",
+      "ai_additions": 171,
+      "ai_deletions": 0,
+      "human_additions": 0,
+      "human_deletions": 0,
+      "ai_agent_line_changes": {
+        "Codex": 171
+      },
+      "ai_input_tokens": 4254975,
+      "ai_output_tokens": 15786,
+      "ai_prompt_length_avg": 21,
+      "ai_prompt_length_sum": 21,
+      "ai_prompt_events": 1,
+      "ai_agent_costs": {},
+      "ai_agent_breakdown": [
+        {
+          "name": "Codex",
+          "lines": 171,
+          "cost": 0
+        }
+      ],
+      "ai_agent_total_cost": 0
+    },
+    "range": {
+      "start": "2026-05-19T22:00:00Z",
+      "end": "2026-05-20T21:59:59Z",
+      "date": "2026-05-20",
+      "text": "Wed May 20th 2026",
+      "timezone": "Europe/Amsterdam"
+    },
+    "projects": [
+      {
+        "name": "kernel",
+        "total_seconds": 563,
+        "ai_additions": 11,
+        "ai_deletions": 0,
+        "human_additions": 0,
+        "human_deletions": 0,
+        "ai_agent_line_changes": {
+          "Codex": 11
+        },
+        "ai_input_tokens": 4146821,
+        "ai_output_tokens": 14442,
+        "ai_prompt_length_sum": 21,
+        "ai_prompt_events": 1,
+        "color": null,
+        "ai_agent_costs": {},
+        "ai_agent_breakdown": [
+          {
+            "name": "Codex",
+            "lines": 11,
+            "cost": 0
+          }
+        ],
+        "ai_agent_total_cost": 0,
+        "ai_prompt_length_avg": 21,
+        "digital": "0:09:23",
+        "decimal": "0.15",
+        "text": "9 mins",
+        "hours": 0,
+        "minutes": 9,
+        "seconds": 23,
+        "percent": 86.88
+      },
+      {
+        "name": "Unknown Project",
+        "total_seconds": 85,
+        "ai_additions": 160,
+        "ai_deletions": 0,
+        "human_additions": 0,
+        "human_deletions": 0,
+        "ai_agent_line_changes": {
+          "Codex": 160
+        },
+        "ai_input_tokens": 108154,
+        "ai_output_tokens": 1344,
+        "ai_prompt_length_sum": 0,
+        "ai_prompt_events": 0,
+        "color": null,
+        "ai_agent_costs": {},
+        "ai_agent_breakdown": [
+          {
+            "name": "Codex",
+            "lines": 160,
+            "cost": 0
+          }
+        ],
+        "ai_agent_total_cost": 0,
+        "ai_prompt_length_avg": 0,
+        "digital": "0:01:25",
+        "decimal": "0.02",
+        "text": "1 min",
+        "hours": 0,
+        "minutes": 1,
+        "seconds": 25,
+        "percent": 13.12
+      }
+    ],
     "languages": [
       {
         "name": "Python",
@@ -24,27 +128,539 @@
         "percent": 13.12
       }
     ],
-    "grand_total": {
-      "hours": 0,
-      "minutes": 10,
-      "total_seconds": 648,
-      "digital": "0:10",
-      "decimal": "0.17",
-      "text": "10 mins",
-      "ai_additions": 171,
-      "ai_deletions": 0,
-      "human_additions": 0,
-      "human_deletions": 0,
-      "ai_agent_line_changes": {
-        "Codex": 171
+    "dependencies": [
+      {
+        "name": "re",
+        "total_seconds": 563,
+        "digital": "0:09:23",
+        "decimal": "0.15",
+        "text": "9 mins",
+        "hours": 0,
+        "minutes": 9,
+        "seconds": 23,
+        "percent": 6.92
       },
-      "ai_input_tokens": 4254975,
-      "ai_output_tokens": 15786,
-      "ai_prompt_length_avg": 21,
-      "ai_prompt_length_sum": 21,
-      "ai_prompt_events": 1,
-      "ai_agent_costs": {}
-    },
+      {
+        "name": "dataclasses",
+        "total_seconds": 563,
+        "digital": "0:09:23",
+        "decimal": "0.15",
+        "text": "9 mins",
+        "hours": 0,
+        "minutes": 9,
+        "seconds": 23,
+        "percent": 6.92
+      },
+      {
+        "name": "collections",
+        "total_seconds": 563,
+        "digital": "0:09:23",
+        "decimal": "0.15",
+        "text": "9 mins",
+        "hours": 0,
+        "minutes": 9,
+        "seconds": 23,
+        "percent": 6.92
+      },
+      {
+        "name": "typing",
+        "total_seconds": 563,
+        "digital": "0:09:23",
+        "decimal": "0.15",
+        "text": "9 mins",
+        "hours": 0,
+        "minutes": 9,
+        "seconds": 23,
+        "percent": 6.92
+      },
+      {
+        "name": "syca_common",
+        "total_seconds": 563,
+        "digital": "0:09:23",
+        "decimal": "0.15",
+        "text": "9 mins",
+        "hours": 0,
+        "minutes": 9,
+        "seconds": 23,
+        "percent": 6.92
+      },
+      {
+        "name": "inspect",
+        "total_seconds": 465,
+        "digital": "0:07:45",
+        "decimal": "0.12",
+        "text": "7 mins",
+        "hours": 0,
+        "minutes": 7,
+        "seconds": 45,
+        "percent": 5.71
+      },
+      {
+        "name": "fastapi",
+        "total_seconds": 465,
+        "digital": "0:07:45",
+        "decimal": "0.12",
+        "text": "7 mins",
+        "hours": 0,
+        "minutes": 7,
+        "seconds": 45,
+        "percent": 5.71
+      },
+      {
+        "name": "syca_audit",
+        "total_seconds": 465,
+        "digital": "0:07:45",
+        "decimal": "0.12",
+        "text": "7 mins",
+        "hours": 0,
+        "minutes": 7,
+        "seconds": 45,
+        "percent": 5.71
+      },
+      {
+        "name": "syca_admin_core",
+        "total_seconds": 465,
+        "digital": "0:07:45",
+        "decimal": "0.12",
+        "text": "7 mins",
+        "hours": 0,
+        "minutes": 7,
+        "seconds": 45,
+        "percent": 5.71
+      },
+      {
+        "name": "tenant_k8s",
+        "total_seconds": 98,
+        "digital": "0:01:38",
+        "decimal": "0.02",
+        "text": "1 min",
+        "hours": 0,
+        "minutes": 1,
+        "seconds": 38,
+        "percent": 1.2
+      },
+      {
+        "name": "kr8s",
+        "total_seconds": 98,
+        "digital": "0:01:38",
+        "decimal": "0.02",
+        "text": "1 min",
+        "hours": 0,
+        "minutes": 1,
+        "seconds": 38,
+        "percent": 1.2
+      },
+      {
+        "name": "binascii",
+        "total_seconds": 98,
+        "digital": "0:01:38",
+        "decimal": "0.02",
+        "text": "1 min",
+        "hours": 0,
+        "minutes": 1,
+        "seconds": 38,
+        "percent": 1.2
+      },
+      {
+        "name": "shlex",
+        "total_seconds": 98,
+        "digital": "0:01:38",
+        "decimal": "0.02",
+        "text": "1 min",
+        "hours": 0,
+        "minutes": 1,
+        "seconds": 38,
+        "percent": 1.2
+      },
+      {
+        "name": "spiky_lite_manager",
+        "total_seconds": 98,
+        "digital": "0:01:38",
+        "decimal": "0.02",
+        "text": "1 min",
+        "hours": 0,
+        "minutes": 1,
+        "seconds": 38,
+        "percent": 1.2
+      },
+      {
+        "name": "exc",
+        "total_seconds": 98,
+        "digital": "0:01:38",
+        "decimal": "0.02",
+        "text": "1 min",
+        "hours": 0,
+        "minutes": 1,
+        "seconds": 38,
+        "percent": 1.2
+      },
+      {
+        "name": "base64",
+        "total_seconds": 98,
+        "digital": "0:01:38",
+        "decimal": "0.02",
+        "text": "1 min",
+        "hours": 0,
+        "minutes": 1,
+        "seconds": 38,
+        "percent": 1.2
+      },
+      {
+        "name": "asyncio",
+        "total_seconds": 98,
+        "digital": "0:01:38",
+        "decimal": "0.02",
+        "text": "1 min",
+        "hours": 0,
+        "minutes": 1,
+        "seconds": 38,
+        "percent": 1.2
+      },
+      {
+        "name": "secrets",
+        "total_seconds": 98,
+        "digital": "0:01:38",
+        "decimal": "0.02",
+        "text": "1 min",
+        "hours": 0,
+        "minutes": 1,
+        "seconds": 38,
+        "percent": 1.2
+      },
+      {
+        "name": "posixpath",
+        "total_seconds": 98,
+        "digital": "0:01:38",
+        "decimal": "0.02",
+        "text": "1 min",
+        "hours": 0,
+        "minutes": 1,
+        "seconds": 38,
+        "percent": 1.2
+      },
+      {
+        "name": "datetime",
+        "total_seconds": 98,
+        "digital": "0:01:38",
+        "decimal": "0.02",
+        "text": "1 min",
+        "hours": 0,
+        "minutes": 1,
+        "seconds": 38,
+        "percent": 1.2
+      },
+      {
+        "name": "syca_llm_client",
+        "total_seconds": 98,
+        "digital": "0:01:38",
+        "decimal": "0.02",
+        "text": "1 min",
+        "hours": 0,
+        "minutes": 1,
+        "seconds": 38,
+        "percent": 1.2
+      },
+      {
+        "name": "hashlib",
+        "total_seconds": 98,
+        "digital": "0:01:38",
+        "decimal": "0.02",
+        "text": "1 min",
+        "hours": 0,
+        "minutes": 1,
+        "seconds": 38,
+        "percent": 1.2
+      },
+      {
+        "name": "kubernetes_asyncio",
+        "total_seconds": 98,
+        "digital": "0:01:38",
+        "decimal": "0.02",
+        "text": "1 min",
+        "hours": 0,
+        "minutes": 1,
+        "seconds": 38,
+        "percent": 1.2
+      },
+      {
+        "name": "contextlib",
+        "total_seconds": 98,
+        "digital": "0:01:38",
+        "decimal": "0.02",
+        "text": "1 min",
+        "hours": 0,
+        "minutes": 1,
+        "seconds": 38,
+        "percent": 1.2
+      },
+      {
+        "name": "json",
+        "total_seconds": 98,
+        "digital": "0:01:38",
+        "decimal": "0.02",
+        "text": "1 min",
+        "hours": 0,
+        "minutes": 1,
+        "seconds": 38,
+        "percent": 1.2
+      },
+      {
+        "name": "aiohttp",
+        "total_seconds": 98,
+        "digital": "0:01:38",
+        "decimal": "0.02",
+        "text": "1 min",
+        "hours": 0,
+        "minutes": 1,
+        "seconds": 38,
+        "percent": 1.2
+      },
+      {
+        "name": "self",
+        "total_seconds": 98,
+        "digital": "0:01:38",
+        "decimal": "0.02",
+        "text": "1 min",
+        "hours": 0,
+        "minutes": 1,
+        "seconds": 38,
+        "percent": 1.2
+      },
+      {
+        "name": "node:path",
+        "total_seconds": 85,
+        "digital": "0:01:25",
+        "decimal": "0.02",
+        "text": "1 min",
+        "hours": 0,
+        "minutes": 1,
+        "seconds": 25,
+        "percent": 1.04
+      },
+      {
+        "name": "provider-gcp-cloud-run",
+        "total_seconds": 85,
+        "digital": "0:01:25",
+        "decimal": "0.02",
+        "text": "1 min",
+        "hours": 0,
+        "minutes": 1,
+        "seconds": 25,
+        "percent": 1.04
+      },
+      {
+        "name": "node:crypto",
+        "total_seconds": 85,
+        "digital": "0:01:25",
+        "decimal": "0.02",
+        "text": "1 min",
+        "hours": 0,
+        "minutes": 1,
+        "seconds": 25,
+        "percent": 1.04
+      },
+      {
+        "name": "provider-railway",
+        "total_seconds": 85,
+        "digital": "0:01:25",
+        "decimal": "0.02",
+        "text": "1 min",
+        "hours": 0,
+        "minutes": 1,
+        "seconds": 25,
+        "percent": 1.04
+      },
+      {
+        "name": "github-provider",
+        "total_seconds": 85,
+        "digital": "0:01:25",
+        "decimal": "0.02",
+        "text": "1 min",
+        "hours": 0,
+        "minutes": 1,
+        "seconds": 25,
+        "percent": 1.04
+      },
+      {
+        "name": "provider-github-pages",
+        "total_seconds": 85,
+        "digital": "0:01:25",
+        "decimal": "0.02",
+        "text": "1 min",
+        "hours": 0,
+        "minutes": 1,
+        "seconds": 25,
+        "percent": 1.04
+      },
+      {
+        "name": "provider-render",
+        "total_seconds": 85,
+        "digital": "0:01:25",
+        "decimal": "0.02",
+        "text": "1 min",
+        "hours": 0,
+        "minutes": 1,
+        "seconds": 25,
+        "percent": 1.04
+      },
+      {
+        "name": "provider-self-hosted",
+        "total_seconds": 85,
+        "digital": "0:01:25",
+        "decimal": "0.02",
+        "text": "1 min",
+        "hours": 0,
+        "minutes": 1,
+        "seconds": 25,
+        "percent": 1.04
+      },
+      {
+        "name": "seed",
+        "total_seconds": 85,
+        "digital": "0:01:25",
+        "decimal": "0.02",
+        "text": "1 min",
+        "hours": 0,
+        "minutes": 1,
+        "seconds": 25,
+        "percent": 1.04
+      },
+      {
+        "name": "provider-aws-lambda",
+        "total_seconds": 85,
+        "digital": "0:01:25",
+        "decimal": "0.02",
+        "text": "1 min",
+        "hours": 0,
+        "minutes": 1,
+        "seconds": 25,
+        "percent": 1.04
+      },
+      {
+        "name": "provider-cloudflare-workers",
+        "total_seconds": 85,
+        "digital": "0:01:25",
+        "decimal": "0.02",
+        "text": "1 min",
+        "hours": 0,
+        "minutes": 1,
+        "seconds": 25,
+        "percent": 1.04
+      },
+      {
+        "name": "provider-fly",
+        "total_seconds": 85,
+        "digital": "0:01:25",
+        "decimal": "0.02",
+        "text": "1 min",
+        "hours": 0,
+        "minutes": 1,
+        "seconds": 25,
+        "percent": 1.04
+      },
+      {
+        "name": "provider-vercel",
+        "total_seconds": 85,
+        "digital": "0:01:25",
+        "decimal": "0.02",
+        "text": "1 min",
+        "hours": 0,
+        "minutes": 1,
+        "seconds": 25,
+        "percent": 1.04
+      },
+      {
+        "name": "provider-aws-amplify",
+        "total_seconds": 85,
+        "digital": "0:01:25",
+        "decimal": "0.02",
+        "text": "1 min",
+        "hours": 0,
+        "minutes": 1,
+        "seconds": 25,
+        "percent": 1.04
+      },
+      {
+        "name": "promises",
+        "total_seconds": 85,
+        "digital": "0:01:25",
+        "decimal": "0.02",
+        "text": "1 min",
+        "hours": 0,
+        "minutes": 1,
+        "seconds": 25,
+        "percent": 1.04
+      },
+      {
+        "name": "provider-azure-container-apps",
+        "total_seconds": 85,
+        "digital": "0:01:25",
+        "decimal": "0.02",
+        "text": "1 min",
+        "hours": 0,
+        "minutes": 1,
+        "seconds": 25,
+        "percent": 1.04
+      },
+      {
+        "name": "types",
+        "total_seconds": 85,
+        "digital": "0:01:25",
+        "decimal": "0.02",
+        "text": "1 min",
+        "hours": 0,
+        "minutes": 1,
+        "seconds": 25,
+        "percent": 1.04
+      },
+      {
+        "name": "core",
+        "total_seconds": 85,
+        "digital": "0:01:25",
+        "decimal": "0.02",
+        "text": "1 min",
+        "hours": 0,
+        "minutes": 1,
+        "seconds": 25,
+        "percent": 1.04
+      },
+      {
+        "name": "provider-catalog",
+        "total_seconds": 85,
+        "digital": "0:01:25",
+        "decimal": "0.02",
+        "text": "1 min",
+        "hours": 0,
+        "minutes": 1,
+        "seconds": 25,
+        "percent": 1.04
+      },
+      {
+        "name": "provider-cloudflare-pages",
+        "total_seconds": 85,
+        "digital": "0:01:25",
+        "decimal": "0.02",
+        "text": "1 min",
+        "hours": 0,
+        "minutes": 1,
+        "seconds": 25,
+        "percent": 1.04
+      }
+    ],
+    "machines": [
+      {
+        "name": "Anands-MBP.home",
+        "total_seconds": 648,
+        "machine_name_id": "1ff3795f-c752-4858-9fa4-7090240f0ab3",
+        "digital": "0:10:48",
+        "decimal": "0.17",
+        "text": "10 mins",
+        "hours": 0,
+        "minutes": 10,
+        "seconds": 48,
+        "percent": 100
+      }
+    ],
     "editors": [
       {
         "name": "Cursor",
@@ -61,7 +677,13 @@
         "ai_prompt_length_sum": 21,
         "ai_prompt_events": 1,
         "ai_agent_costs": {},
-        "ai_agent_breakdown": [],
+        "ai_agent_breakdown": [
+          {
+            "name": "Codex",
+            "lines": 171,
+            "cost": 0
+          }
+        ],
         "ai_agent_total_cost": 0,
         "ai_prompt_length_avg": 21,
         "digital": "0:10:48",
@@ -98,602 +720,6 @@
         "seconds": 48,
         "percent": 100
       }
-    ],
-    "dependencies": [
-      {
-        "name": "re",
-        "total_seconds": 563,
-        "digital": "0:09:23",
-        "decimal": "0.15",
-        "text": "9 mins",
-        "hours": 0,
-        "minutes": 9,
-        "seconds": 23,
-        "percent": 6.92
-      },
-      {
-        "name": "collections",
-        "total_seconds": 563,
-        "digital": "0:09:23",
-        "decimal": "0.15",
-        "text": "9 mins",
-        "hours": 0,
-        "minutes": 9,
-        "seconds": 23,
-        "percent": 6.92
-      },
-      {
-        "name": "typing",
-        "total_seconds": 563,
-        "digital": "0:09:23",
-        "decimal": "0.15",
-        "text": "9 mins",
-        "hours": 0,
-        "minutes": 9,
-        "seconds": 23,
-        "percent": 6.92
-      },
-      {
-        "name": "dataclasses",
-        "total_seconds": 563,
-        "digital": "0:09:23",
-        "decimal": "0.15",
-        "text": "9 mins",
-        "hours": 0,
-        "minutes": 9,
-        "seconds": 23,
-        "percent": 6.92
-      },
-      {
-        "name": "syca_common",
-        "total_seconds": 563,
-        "digital": "0:09:23",
-        "decimal": "0.15",
-        "text": "9 mins",
-        "hours": 0,
-        "minutes": 9,
-        "seconds": 23,
-        "percent": 6.92
-      },
-      {
-        "name": "syca_admin_core",
-        "total_seconds": 465,
-        "digital": "0:07:45",
-        "decimal": "0.12",
-        "text": "7 mins",
-        "hours": 0,
-        "minutes": 7,
-        "seconds": 45,
-        "percent": 5.71
-      },
-      {
-        "name": "inspect",
-        "total_seconds": 465,
-        "digital": "0:07:45",
-        "decimal": "0.12",
-        "text": "7 mins",
-        "hours": 0,
-        "minutes": 7,
-        "seconds": 45,
-        "percent": 5.71
-      },
-      {
-        "name": "syca_audit",
-        "total_seconds": 465,
-        "digital": "0:07:45",
-        "decimal": "0.12",
-        "text": "7 mins",
-        "hours": 0,
-        "minutes": 7,
-        "seconds": 45,
-        "percent": 5.71
-      },
-      {
-        "name": "fastapi",
-        "total_seconds": 465,
-        "digital": "0:07:45",
-        "decimal": "0.12",
-        "text": "7 mins",
-        "hours": 0,
-        "minutes": 7,
-        "seconds": 45,
-        "percent": 5.71
-      },
-      {
-        "name": "tenant_k8s",
-        "total_seconds": 98,
-        "digital": "0:01:38",
-        "decimal": "0.02",
-        "text": "1 min",
-        "hours": 0,
-        "minutes": 1,
-        "seconds": 38,
-        "percent": 1.2
-      },
-      {
-        "name": "shlex",
-        "total_seconds": 98,
-        "digital": "0:01:38",
-        "decimal": "0.02",
-        "text": "1 min",
-        "hours": 0,
-        "minutes": 1,
-        "seconds": 38,
-        "percent": 1.2
-      },
-      {
-        "name": "datetime",
-        "total_seconds": 98,
-        "digital": "0:01:38",
-        "decimal": "0.02",
-        "text": "1 min",
-        "hours": 0,
-        "minutes": 1,
-        "seconds": 38,
-        "percent": 1.2
-      },
-      {
-        "name": "base64",
-        "total_seconds": 98,
-        "digital": "0:01:38",
-        "decimal": "0.02",
-        "text": "1 min",
-        "hours": 0,
-        "minutes": 1,
-        "seconds": 38,
-        "percent": 1.2
-      },
-      {
-        "name": "syca_llm_client",
-        "total_seconds": 98,
-        "digital": "0:01:38",
-        "decimal": "0.02",
-        "text": "1 min",
-        "hours": 0,
-        "minutes": 1,
-        "seconds": 38,
-        "percent": 1.2
-      },
-      {
-        "name": "hashlib",
-        "total_seconds": 98,
-        "digital": "0:01:38",
-        "decimal": "0.02",
-        "text": "1 min",
-        "hours": 0,
-        "minutes": 1,
-        "seconds": 38,
-        "percent": 1.2
-      },
-      {
-        "name": "binascii",
-        "total_seconds": 98,
-        "digital": "0:01:38",
-        "decimal": "0.02",
-        "text": "1 min",
-        "hours": 0,
-        "minutes": 1,
-        "seconds": 38,
-        "percent": 1.2
-      },
-      {
-        "name": "self",
-        "total_seconds": 98,
-        "digital": "0:01:38",
-        "decimal": "0.02",
-        "text": "1 min",
-        "hours": 0,
-        "minutes": 1,
-        "seconds": 38,
-        "percent": 1.2
-      },
-      {
-        "name": "spiky_lite_manager",
-        "total_seconds": 98,
-        "digital": "0:01:38",
-        "decimal": "0.02",
-        "text": "1 min",
-        "hours": 0,
-        "minutes": 1,
-        "seconds": 38,
-        "percent": 1.2
-      },
-      {
-        "name": "json",
-        "total_seconds": 98,
-        "digital": "0:01:38",
-        "decimal": "0.02",
-        "text": "1 min",
-        "hours": 0,
-        "minutes": 1,
-        "seconds": 38,
-        "percent": 1.2
-      },
-      {
-        "name": "kubernetes_asyncio",
-        "total_seconds": 98,
-        "digital": "0:01:38",
-        "decimal": "0.02",
-        "text": "1 min",
-        "hours": 0,
-        "minutes": 1,
-        "seconds": 38,
-        "percent": 1.2
-      },
-      {
-        "name": "aiohttp",
-        "total_seconds": 98,
-        "digital": "0:01:38",
-        "decimal": "0.02",
-        "text": "1 min",
-        "hours": 0,
-        "minutes": 1,
-        "seconds": 38,
-        "percent": 1.2
-      },
-      {
-        "name": "posixpath",
-        "total_seconds": 98,
-        "digital": "0:01:38",
-        "decimal": "0.02",
-        "text": "1 min",
-        "hours": 0,
-        "minutes": 1,
-        "seconds": 38,
-        "percent": 1.2
-      },
-      {
-        "name": "asyncio",
-        "total_seconds": 98,
-        "digital": "0:01:38",
-        "decimal": "0.02",
-        "text": "1 min",
-        "hours": 0,
-        "minutes": 1,
-        "seconds": 38,
-        "percent": 1.2
-      },
-      {
-        "name": "contextlib",
-        "total_seconds": 98,
-        "digital": "0:01:38",
-        "decimal": "0.02",
-        "text": "1 min",
-        "hours": 0,
-        "minutes": 1,
-        "seconds": 38,
-        "percent": 1.2
-      },
-      {
-        "name": "secrets",
-        "total_seconds": 98,
-        "digital": "0:01:38",
-        "decimal": "0.02",
-        "text": "1 min",
-        "hours": 0,
-        "minutes": 1,
-        "seconds": 38,
-        "percent": 1.2
-      },
-      {
-        "name": "kr8s",
-        "total_seconds": 98,
-        "digital": "0:01:38",
-        "decimal": "0.02",
-        "text": "1 min",
-        "hours": 0,
-        "minutes": 1,
-        "seconds": 38,
-        "percent": 1.2
-      },
-      {
-        "name": "exc",
-        "total_seconds": 98,
-        "digital": "0:01:38",
-        "decimal": "0.02",
-        "text": "1 min",
-        "hours": 0,
-        "minutes": 1,
-        "seconds": 38,
-        "percent": 1.2
-      },
-      {
-        "name": "provider-render",
-        "total_seconds": 85,
-        "digital": "0:01:25",
-        "decimal": "0.02",
-        "text": "1 min",
-        "hours": 0,
-        "minutes": 1,
-        "seconds": 25,
-        "percent": 1.04
-      },
-      {
-        "name": "provider-vercel",
-        "total_seconds": 85,
-        "digital": "0:01:25",
-        "decimal": "0.02",
-        "text": "1 min",
-        "hours": 0,
-        "minutes": 1,
-        "seconds": 25,
-        "percent": 1.04
-      },
-      {
-        "name": "provider-azure-container-apps",
-        "total_seconds": 85,
-        "digital": "0:01:25",
-        "decimal": "0.02",
-        "text": "1 min",
-        "hours": 0,
-        "minutes": 1,
-        "seconds": 25,
-        "percent": 1.04
-      },
-      {
-        "name": "provider-catalog",
-        "total_seconds": 85,
-        "digital": "0:01:25",
-        "decimal": "0.02",
-        "text": "1 min",
-        "hours": 0,
-        "minutes": 1,
-        "seconds": 25,
-        "percent": 1.04
-      },
-      {
-        "name": "promises",
-        "total_seconds": 85,
-        "digital": "0:01:25",
-        "decimal": "0.02",
-        "text": "1 min",
-        "hours": 0,
-        "minutes": 1,
-        "seconds": 25,
-        "percent": 1.04
-      },
-      {
-        "name": "provider-cloudflare-workers",
-        "total_seconds": 85,
-        "digital": "0:01:25",
-        "decimal": "0.02",
-        "text": "1 min",
-        "hours": 0,
-        "minutes": 1,
-        "seconds": 25,
-        "percent": 1.04
-      },
-      {
-        "name": "seed",
-        "total_seconds": 85,
-        "digital": "0:01:25",
-        "decimal": "0.02",
-        "text": "1 min",
-        "hours": 0,
-        "minutes": 1,
-        "seconds": 25,
-        "percent": 1.04
-      },
-      {
-        "name": "provider-gcp-cloud-run",
-        "total_seconds": 85,
-        "digital": "0:01:25",
-        "decimal": "0.02",
-        "text": "1 min",
-        "hours": 0,
-        "minutes": 1,
-        "seconds": 25,
-        "percent": 1.04
-      },
-      {
-        "name": "provider-cloudflare-pages",
-        "total_seconds": 85,
-        "digital": "0:01:25",
-        "decimal": "0.02",
-        "text": "1 min",
-        "hours": 0,
-        "minutes": 1,
-        "seconds": 25,
-        "percent": 1.04
-      },
-      {
-        "name": "provider-fly",
-        "total_seconds": 85,
-        "digital": "0:01:25",
-        "decimal": "0.02",
-        "text": "1 min",
-        "hours": 0,
-        "minutes": 1,
-        "seconds": 25,
-        "percent": 1.04
-      },
-      {
-        "name": "types",
-        "total_seconds": 85,
-        "digital": "0:01:25",
-        "decimal": "0.02",
-        "text": "1 min",
-        "hours": 0,
-        "minutes": 1,
-        "seconds": 25,
-        "percent": 1.04
-      },
-      {
-        "name": "node:path",
-        "total_seconds": 85,
-        "digital": "0:01:25",
-        "decimal": "0.02",
-        "text": "1 min",
-        "hours": 0,
-        "minutes": 1,
-        "seconds": 25,
-        "percent": 1.04
-      },
-      {
-        "name": "provider-aws-lambda",
-        "total_seconds": 85,
-        "digital": "0:01:25",
-        "decimal": "0.02",
-        "text": "1 min",
-        "hours": 0,
-        "minutes": 1,
-        "seconds": 25,
-        "percent": 1.04
-      },
-      {
-        "name": "github-provider",
-        "total_seconds": 85,
-        "digital": "0:01:25",
-        "decimal": "0.02",
-        "text": "1 min",
-        "hours": 0,
-        "minutes": 1,
-        "seconds": 25,
-        "percent": 1.04
-      },
-      {
-        "name": "provider-self-hosted",
-        "total_seconds": 85,
-        "digital": "0:01:25",
-        "decimal": "0.02",
-        "text": "1 min",
-        "hours": 0,
-        "minutes": 1,
-        "seconds": 25,
-        "percent": 1.04
-      },
-      {
-        "name": "provider-aws-amplify",
-        "total_seconds": 85,
-        "digital": "0:01:25",
-        "decimal": "0.02",
-        "text": "1 min",
-        "hours": 0,
-        "minutes": 1,
-        "seconds": 25,
-        "percent": 1.04
-      },
-      {
-        "name": "provider-github-pages",
-        "total_seconds": 85,
-        "digital": "0:01:25",
-        "decimal": "0.02",
-        "text": "1 min",
-        "hours": 0,
-        "minutes": 1,
-        "seconds": 25,
-        "percent": 1.04
-      },
-      {
-        "name": "provider-railway",
-        "total_seconds": 85,
-        "digital": "0:01:25",
-        "decimal": "0.02",
-        "text": "1 min",
-        "hours": 0,
-        "minutes": 1,
-        "seconds": 25,
-        "percent": 1.04
-      },
-      {
-        "name": "node:crypto",
-        "total_seconds": 85,
-        "digital": "0:01:25",
-        "decimal": "0.02",
-        "text": "1 min",
-        "hours": 0,
-        "minutes": 1,
-        "seconds": 25,
-        "percent": 1.04
-      },
-      {
-        "name": "core",
-        "total_seconds": 85,
-        "digital": "0:01:25",
-        "decimal": "0.02",
-        "text": "1 min",
-        "hours": 0,
-        "minutes": 1,
-        "seconds": 25,
-        "percent": 1.04
-      }
-    ],
-    "machines": [
-      {
-        "name": "Anands-MBP.home",
-        "total_seconds": 648,
-        "machine_name_id": "1ff3795f-c752-4858-9fa4-7090240f0ab3",
-        "digital": "0:10:48",
-        "decimal": "0.17",
-        "text": "10 mins",
-        "hours": 0,
-        "minutes": 10,
-        "seconds": 48,
-        "percent": 100
-      }
-    ],
-    "projects": [
-      {
-        "name": "kernel",
-        "total_seconds": 563,
-        "ai_additions": 11,
-        "ai_deletions": 0,
-        "human_additions": 0,
-        "human_deletions": 0,
-        "ai_agent_line_changes": {
-          "Codex": 11
-        },
-        "ai_input_tokens": 4146821,
-        "ai_output_tokens": 14442,
-        "ai_prompt_length_sum": 21,
-        "ai_prompt_events": 1,
-        "color": null,
-        "ai_agent_costs": {},
-        "ai_agent_breakdown": [],
-        "ai_agent_total_cost": 0,
-        "ai_prompt_length_avg": 21,
-        "digital": "0:09:23",
-        "decimal": "0.15",
-        "text": "9 mins",
-        "hours": 0,
-        "minutes": 9,
-        "seconds": 23,
-        "percent": 86.88
-      },
-      {
-        "name": "Unknown Project",
-        "total_seconds": 85,
-        "ai_additions": 160,
-        "ai_deletions": 0,
-        "human_additions": 0,
-        "human_deletions": 0,
-        "ai_agent_line_changes": {
-          "Codex": 160
-        },
-        "ai_input_tokens": 108154,
-        "ai_output_tokens": 1344,
-        "ai_prompt_length_sum": 0,
-        "ai_prompt_events": 0,
-        "color": null,
-        "ai_agent_costs": {},
-        "ai_agent_breakdown": [],
-        "ai_agent_total_cost": 0,
-        "ai_prompt_length_avg": 0,
-        "digital": "0:01:25",
-        "decimal": "0.02",
-        "text": "1 min",
-        "hours": 0,
-        "minutes": 1,
-        "seconds": 25,
-        "percent": 13.12
-      }
-    ],
-    "range": {
-      "start": "2026-05-19T22:00:00Z",
-      "end": "2026-05-20T21:59:59Z",
-      "date": "2026-05-20",
-      "text": "Wed May 20th 2026",
-      "timezone": "Europe/Amsterdam"
-    }
+    ]
   }
 ]
