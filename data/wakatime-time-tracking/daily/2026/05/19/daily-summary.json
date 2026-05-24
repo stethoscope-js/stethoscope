@@ -1,5 +1,29 @@
 [
   {
+    "languages": [
+      {
+        "name": "Python",
+        "total_seconds": 563,
+        "digital": "0:09:23",
+        "decimal": "0.15",
+        "text": "9 mins",
+        "hours": 0,
+        "minutes": 9,
+        "seconds": 23,
+        "percent": 86.88
+      },
+      {
+        "name": "TypeScript",
+        "total_seconds": 85,
+        "digital": "0:01:25",
+        "decimal": "0.02",
+        "text": "1 min",
+        "hours": 0,
+        "minutes": 1,
+        "seconds": 25,
+        "percent": 13.12
+      }
+    ],
     "grand_total": {
       "hours": 0,
       "minutes": 10,
@@ -29,103 +53,64 @@
       ],
       "ai_agent_total_cost": 0
     },
-    "range": {
-      "start": "2026-05-19T22:00:00Z",
-      "end": "2026-05-20T21:59:59Z",
-      "date": "2026-05-20",
-      "text": "Wed May 20th 2026",
-      "timezone": "Europe/Amsterdam"
-    },
-    "projects": [
+    "editors": [
       {
-        "name": "kernel",
-        "total_seconds": 563,
-        "ai_additions": 11,
+        "name": "Cursor",
+        "total_seconds": 648,
+        "ai_additions": 171,
         "ai_deletions": 0,
         "human_additions": 0,
         "human_deletions": 0,
         "ai_agent_line_changes": {
-          "Codex": 11
+          "Codex": 171
         },
-        "ai_input_tokens": 4146821,
-        "ai_output_tokens": 14442,
+        "ai_input_tokens": 4254975,
+        "ai_output_tokens": 15786,
         "ai_prompt_length_sum": 21,
         "ai_prompt_events": 1,
-        "color": null,
         "ai_agent_costs": {},
         "ai_agent_breakdown": [
           {
             "name": "Codex",
-            "lines": 11,
+            "lines": 171,
             "cost": 0
           }
         ],
         "ai_agent_total_cost": 0,
         "ai_prompt_length_avg": 21,
-        "digital": "0:09:23",
-        "decimal": "0.15",
-        "text": "9 mins",
+        "digital": "0:10:48",
+        "decimal": "0.17",
+        "text": "10 mins",
         "hours": 0,
-        "minutes": 9,
-        "seconds": 23,
-        "percent": 86.88
-      },
-      {
-        "name": "Unknown Project",
-        "total_seconds": 85,
-        "ai_additions": 160,
-        "ai_deletions": 0,
-        "human_additions": 0,
-        "human_deletions": 0,
-        "ai_agent_line_changes": {
-          "Codex": 160
-        },
-        "ai_input_tokens": 108154,
-        "ai_output_tokens": 1344,
-        "ai_prompt_length_sum": 0,
-        "ai_prompt_events": 0,
-        "color": null,
-        "ai_agent_costs": {},
-        "ai_agent_breakdown": [
-          {
-            "name": "Codex",
-            "lines": 160,
-            "cost": 0
-          }
-        ],
-        "ai_agent_total_cost": 0,
-        "ai_prompt_length_avg": 0,
-        "digital": "0:01:25",
-        "decimal": "0.02",
-        "text": "1 min",
-        "hours": 0,
-        "minutes": 1,
-        "seconds": 25,
-        "percent": 13.12
+        "minutes": 10,
+        "seconds": 48,
+        "percent": 100
       }
     ],
-    "languages": [
+    "operating_systems": [
       {
-        "name": "Python",
-        "total_seconds": 563,
-        "digital": "0:09:23",
-        "decimal": "0.15",
-        "text": "9 mins",
+        "name": "Mac",
+        "total_seconds": 648,
+        "digital": "0:10:48",
+        "decimal": "0.17",
+        "text": "10 mins",
         "hours": 0,
-        "minutes": 9,
-        "seconds": 23,
-        "percent": 86.88
-      },
+        "minutes": 10,
+        "seconds": 48,
+        "percent": 100
+      }
+    ],
+    "categories": [
       {
-        "name": "TypeScript",
-        "total_seconds": 85,
-        "digital": "0:01:25",
-        "decimal": "0.02",
-        "text": "1 min",
+        "name": "AI Coding",
+        "total_seconds": 648,
+        "digital": "0:10:48",
+        "decimal": "0.17",
+        "text": "10 mins",
         "hours": 0,
-        "minutes": 1,
-        "seconds": 25,
-        "percent": 13.12
+        "minutes": 10,
+        "seconds": 48,
+        "percent": 100
       }
     ],
     "dependencies": [
@@ -661,65 +646,80 @@
         "percent": 100
       }
     ],
-    "editors": [
+    "projects": [
       {
-        "name": "Cursor",
-        "total_seconds": 648,
-        "ai_additions": 171,
+        "name": "kernel",
+        "total_seconds": 563,
+        "ai_additions": 11,
         "ai_deletions": 0,
         "human_additions": 0,
         "human_deletions": 0,
         "ai_agent_line_changes": {
-          "Codex": 171
+          "Codex": 11
         },
-        "ai_input_tokens": 4254975,
-        "ai_output_tokens": 15786,
+        "ai_input_tokens": 4146821,
+        "ai_output_tokens": 14442,
         "ai_prompt_length_sum": 21,
         "ai_prompt_events": 1,
+        "color": null,
         "ai_agent_costs": {},
         "ai_agent_breakdown": [
           {
             "name": "Codex",
-            "lines": 171,
+            "lines": 11,
             "cost": 0
           }
         ],
         "ai_agent_total_cost": 0,
         "ai_prompt_length_avg": 21,
-        "digital": "0:10:48",
-        "decimal": "0.17",
-        "text": "10 mins",
+        "digital": "0:09:23",
+        "decimal": "0.15",
+        "text": "9 mins",
         "hours": 0,
-        "minutes": 10,
-        "seconds": 48,
-        "percent": 100
+        "minutes": 9,
+        "seconds": 23,
+        "percent": 86.88
+      },
+      {
+        "name": "Unknown Project",
+        "total_seconds": 85,
+        "ai_additions": 160,
+        "ai_deletions": 0,
+        "human_additions": 0,
+        "human_deletions": 0,
+        "ai_agent_line_changes": {
+          "Codex": 160
+        },
+        "ai_input_tokens": 108154,
+        "ai_output_tokens": 1344,
+        "ai_prompt_length_sum": 0,
+        "ai_prompt_events": 0,
+        "color": null,
+        "ai_agent_costs": {},
+        "ai_agent_breakdown": [
+          {
+            "name": "Codex",
+            "lines": 160,
+            "cost": 0
+          }
+        ],
+        "ai_agent_total_cost": 0,
+        "ai_prompt_length_avg": 0,
+        "digital": "0:01:25",
+        "decimal": "0.02",
+        "text": "1 min",
+        "hours": 0,
+        "minutes": 1,
+        "seconds": 25,
+        "percent": 13.12
       }
     ],
-    "operating_systems": [
-      {
-        "name": "Mac",
-        "total_seconds": 648,
-        "digital": "0:10:48",
-        "decimal": "0.17",
-        "text": "10 mins",
-        "hours": 0,
-        "minutes": 10,
-        "seconds": 48,
-        "percent": 100
-      }
-    ],
-    "categories": [
-      {
-        "name": "AI Coding",
-        "total_seconds": 648,
-        "digital": "0:10:48",
-        "decimal": "0.17",
-        "text": "10 mins",
-        "hours": 0,
-        "minutes": 10,
-        "seconds": 48,
-        "percent": 100
-      }
-    ]
+    "range": {
+      "start": "2026-05-19T22:00:00Z",
+      "end": "2026-05-20T21:59:59Z",
+      "date": "2026-05-20",
+      "text": "Wed May 20th 2026",
+      "timezone": "Europe/Amsterdam"
+    }
   }
 ]
