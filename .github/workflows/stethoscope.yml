@@ -5,15 +5,18 @@ on:
   repository_dispatch:
     types: [stethoscope]
   workflow_dispatch:
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref_name }}
+  cancel-in-progress: false
 jobs:
   release:
     name: Daily
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v3.1.0
+        uses: actions/checkout@v6.0.2
         with:
-          ref: ${{ github.head_ref }}
+          ref: ${{ github.head_ref || github.ref_name }}
           token: ${{ secrets.GITHUB_TOKEN }}
       - name: Update data using Stethoscope
         uses: stethoscope-js/action@master
@@ -48,7 +51,7 @@ jobs:
           TWITTER_ACCESS_TOKEN_SECRET: ${{ secrets.TWITTER_ACCESS_TOKEN_SECRET }}
           TWITTER_SCREEN_NAME: ${{ secrets.TWITTER_SCREEN_NAME }}
       - name: Commit new data
-        uses: stefanzweifel/git-auto-commit-action@v4.15.4
+        uses: stefanzweifel/git-auto-commit-action@v7.1.0
         with:
           commit_message: ":card_file_box: Update daily life data [skip ci]"
           commit_user_name: Stethoscoper
