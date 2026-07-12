@@ -14,7 +14,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v6.0.2
+        uses: actions/checkout@v7.0.0
         with:
           ref: ${{ github.head_ref || github.ref_name }}
           token: ${{ secrets.GH_PAT || github.token }}
@@ -25,7 +25,7 @@ jobs:
       - name: Update template
         run: npx update-template https://github.com/stethoscope-js/stethoscope
       - name: Commit new data
-        uses: stefanzweifel/git-auto-commit-action@v7.1.0
+        uses: stefanzweifel/git-auto-commit-action@v7.2.0
         with:
           commit_message: ":arrow_up: Update @stethoscope-js to latest"
           commit_user_name: Stethoscoper
