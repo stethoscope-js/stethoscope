@@ -19,7 +19,7 @@ jobs:
           ref: ${{ github.head_ref || github.ref_name }}
           token: ${{ secrets.GH_PAT || github.token }}
       - name: Setup Node.js
-        uses: actions/setup-node@v6.4.0
+        uses: actions/setup-node@v7.0.0
         with:
           node-version: 20
       - name: Update template
