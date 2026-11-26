@@ -1,10 +1,10 @@
 {
   "format": 3,
-  "generatedAt": "2026-11-25T07:43:32.326Z",
+  "generatedAt": "2026-11-26T07:34:07.683Z",
   "generator": {
     "actionVersion": "1.2.11",
     "integrationsVersion": "2.4.5",
-    "sourceSha": "558e3a19a2b1c63a80537319fe58fe47b0a78c97"
+    "sourceSha": "fcae906d68cbb73b26ee1f49021370d80750e77c"
   },
   "adapters": [
     {
@@ -17,7 +17,7 @@
     },
     {
       "name": "last-fm",
-      "status": "succeeded"
+      "status": "failed"
     },
     {
       "name": "pocket-casts",
@@ -49,12 +49,9 @@
     }
   ],
   "v2Files": {
-    "last-fm-music/yearly/top-albums/2026.json": "81b3ae40fd95ce99b0830c5612bf196823756747a9e570be738366cacc1f3559",
-    "last-fm-music/yearly/top-artists/2026.json": "8b4bcace02df21e74236c3277858abb504912de74c77f9189a436dab51a08fad",
-    "last-fm-music/yearly/top-tracks/2026.json": "045d7004addd92a63ea1b6ddf660ffeaf73e7091127722a8d67d2c687f67f023",
-    "pocket-casts-podcasts/daily/2026/11/25/listening-history.json": "02d0eda24b87fd32b736e92ada565db2b057e7774e76a829c2eab561cc0c21af",
-    "pocket-casts-podcasts/library.json": "2081da54eb02f7fe50c25e372de321d69ed7b500993cdd1179fe4d02c9ffec2c",
-    "rescuetime-time-tracking/daily/2026/11/25/top-categories.json": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
-    "rescuetime-time-tracking/daily/2026/11/25/top-overview.json": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    "pocket-casts-podcasts/daily/2026/11/26/listening-history.json": "02d0eda24b87fd32b736e92ada565db2b057e7774e76a829c2eab561cc0c21af",
+    "pocket-casts-podcasts/library.json": "211b07c8432454eb7011f1a57d8377244e3c307c0f3ef8670afe90b4c0315a48",
+    "rescuetime-time-tracking/daily/2026/11/26/top-categories.json": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "rescuetime-time-tracking/daily/2026/11/26/top-overview.json": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
   }
 }
